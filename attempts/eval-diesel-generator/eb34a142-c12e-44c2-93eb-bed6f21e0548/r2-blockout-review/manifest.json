@@ -1,0 +1,117 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "eval-diesel-generator",
+  "project": "eval-sandbox",
+  "producer": {
+    "kind": "formseed3d",
+    "buildVersion": "0.2.0+codex.20260923231937"
+  },
+  "job": {
+    "jobId": "eb34a142-c12e-44c2-93eb-bed6f21e0548",
+    "revision": 2,
+    "checkpointSha256": "de20d8d2d732f6b3de2ae8748970e83027953f2b450bb890a47c5c0a2578ab0f"
+  },
+  "gate": "blockout-review",
+  "evidence": {
+    "renderHash": "e1b3cc23dd6b8dedb11c921d8994b2547895c592af7c7cf4cc6b2edd767db737",
+    "dimensionReportHash": "3ace19f2a5e0384ad2d8869e17bb887cd3b8de654f7b907636972a7d585cf19f",
+    "labeledSheet": {
+      "path": "contact-sheet.labeled.png",
+      "sha256": "f424e88e8a2aefe4dd1aa85daf609377d90c8dcc1547b60a14ccb963add8b98b",
+      "bytes": 3549838
+    },
+    "files": [
+      {
+        "path": "gameplay-256/g-back-left.png",
+        "sha256": "0e05378ad537ca2281860236ebf086d2710ac7b4547a36414e010d263e0f74de",
+        "bytes": 33084
+      },
+      {
+        "path": "gameplay-256/g-back-right.png",
+        "sha256": "5ed4e6a127462b4b859dd711c28cf256c0f2fa16a203137b61cb0b23e2be3d07",
+        "bytes": 34139
+      },
+      {
+        "path": "gameplay-256/g-front-left.png",
+        "sha256": "2274c3ff49173db7764972bae7ee6b1b1ffb349f6400aba2e34f3793b03e858b",
+        "bytes": 32642
+      },
+      {
+        "path": "gameplay-256/g-front-right.png",
+        "sha256": "a680a3bc3464ef03c47666ff4ed964ca1500a66afb4a1ecd7789fff372bb1887",
+        "bytes": 33354
+      },
+      {
+        "path": "review/back-left.png",
+        "sha256": "2b634fe8a09b0f73afdad6b984be46b977f98a044810fea2350794121797cf71",
+        "bytes": 450416
+      },
+      {
+        "path": "review/back-right.png",
+        "sha256": "b2c18cdf91f8ad65c15aecce42b4ad1ae953e206c6e5d085f098809737bccf02",
+        "bytes": 469633
+      },
+      {
+        "path": "review/back.png",
+        "sha256": "e1205ebdffea763e75439a9d9a79511a08bf22934f916afe1a91ccfc95cb36bd",
+        "bytes": 364200
+      },
+      {
+        "path": "review/front-left.png",
+        "sha256": "b94a251146fd18e6db545a47b93b2aaa11a14c7415242eeae9abb183d5a76fcb",
+        "bytes": 470691
+      },
+      {
+        "path": "review/front-right.png",
+        "sha256": "ed640258c24233003313dfd62364d301c6554ab06f133b512b5050ecbecd10f5",
+        "bytes": 462619
+      },
+      {
+        "path": "review/front.png",
+        "sha256": "42bd627be958394f421d89ee3f65a82ece1aa0626553d486ad60bf8c6e4c2808",
+        "bytes": 354691
+      },
+      {
+        "path": "review/side-left.png",
+        "sha256": "7ff8184696d15256d72f76075c4ae62da899c19c6c6baeceb18a923b6209b424",
+        "bytes": 386691
+      },
+      {
+        "path": "review/side-right.png",
+        "sha256": "05300d7ff68b28031918769eee416ab49c59f0aafe71fe58b14116f2faf4742f",
+        "bytes": 386708
+      },
+      {
+        "path": "review/top.png",
+        "sha256": "2247fef166d95f2c73cd9dbbc068df2eb3f9695d572d2ec32c6ae1dbb59dac30",
+        "bytes": 376593
+      },
+      {
+        "path": "contact-sheet.labeled.png",
+        "sha256": "f424e88e8a2aefe4dd1aa85daf609377d90c8dcc1547b60a14ccb963add8b98b",
+        "bytes": 3549838
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "3237598280cf354268a303aada8a9f44b12b165e11eed3b07b924560c309f99b",
+    "dimensionSpecificationSha256": "3909bde4d1dd0720c3b0ec57a9b3b96d25e6f09576879e7a652f461ec16908ce",
+    "references": []
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George",
+    "decidedAt": "2026-09-26T16:10:00Z",
+    "quote": "at a glance it looks like a train but after further review I can see the fuel tank and some scaffolding. I guess I need to see the reference in order to understand what I'm looking at"
+  },
+  "notes": [
+    "Brief v1 had no references; rejection traced to brief targets (length, slab skid, overhead frame).",
+    "decidedAt is approximate (session time, not a recorded timestamp)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

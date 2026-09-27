@@ -1,0 +1,98 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "eval-diesel-generator",
+  "project": "eval-sandbox",
+  "producer": {
+    "kind": "control-raw-blender"
+  },
+  "job": {
+    "jobId": "control-arm-v1",
+    "revision": 0
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "files": [
+      {
+        "path": "gameplay-256/g-back-left.png",
+        "sha256": "3efdcdcaeb07fa08331c434f372b298ba3f147efb5926069d0dd4a824ac051bc",
+        "bytes": 67662
+      },
+      {
+        "path": "gameplay-256/g-back-right.png",
+        "sha256": "3437c95fd6b5393b43fe975cff010a74142dcb7d03eed88bde9dcb9de2842324",
+        "bytes": 65702
+      },
+      {
+        "path": "gameplay-256/g-front-left.png",
+        "sha256": "c592ae101b41570e87849585c55954fd72a2f6f03b42bfaed862c802da488bd6",
+        "bytes": 62906
+      },
+      {
+        "path": "gameplay-256/g-front-right.png",
+        "sha256": "d3152c84334a239b4e01e7ad846cbe23d65d19071e54936c82817fd11fa7ebc0",
+        "bytes": 64612
+      },
+      {
+        "path": "review/back-left.png",
+        "sha256": "abc981ac3da1df168837c8d1b7e0a8424e8a12f54b96cca4f0f5b16869ca8b9c",
+        "bytes": 781598
+      },
+      {
+        "path": "review/back-right.png",
+        "sha256": "f0e06202c4f6a0aca641b9932ac1ceed72abe3d02321934f3f4a9050cf495585",
+        "bytes": 766159
+      },
+      {
+        "path": "review/back.png",
+        "sha256": "2518483129538e426d72e35c61eff992ac8ec1554636b00c9e6d6ea26f3494ec",
+        "bytes": 575221
+      },
+      {
+        "path": "review/front-left.png",
+        "sha256": "63822c3dc29b6d7251c111fa57709fc2fea34d26eb50643321cac19fbe29df58",
+        "bytes": 771261
+      },
+      {
+        "path": "review/front-right.png",
+        "sha256": "c5f9681f4d75e4d085e47da656bb90d2065c2a99919a0addca7f37e95be3cfed",
+        "bytes": 787797
+      },
+      {
+        "path": "review/front.png",
+        "sha256": "2dd215f49a5b03bee644ced91d86dd6d4ac271d5083980638f702bbb5eea36b0",
+        "bytes": 516611
+      },
+      {
+        "path": "review/side-left.png",
+        "sha256": "bdb6279b4ab0d2d667500ba0b354b132533929c913e52b588c285915665e5216",
+        "bytes": 655101
+      },
+      {
+        "path": "review/side-right.png",
+        "sha256": "8c8412ca11882705ff029d47f4fc716b88fa6728ef014ed5d264b81314f63eaf",
+        "bytes": 665649
+      },
+      {
+        "path": "review/top.png",
+        "sha256": "076fae6323897957409f245630503a45dea5d0e424a73a1f4195a82d74d90df7",
+        "bytes": 612573
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "3237598280cf354268a303aada8a9f44b12b165e11eed3b07b924560c309f99b",
+    "references": []
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Opus subagent, plain headless Blender, no FormSeed; azimuth 90 = +X (mirrored vs FormSeed)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

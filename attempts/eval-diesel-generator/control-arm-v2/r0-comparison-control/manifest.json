@@ -1,0 +1,134 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "eval-diesel-generator",
+  "project": "eval-sandbox",
+  "producer": {
+    "kind": "control-raw-blender"
+  },
+  "job": {
+    "jobId": "control-arm-v2",
+    "revision": 0
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "files": [
+      {
+        "path": "gameplay-256/g-back-left.png",
+        "sha256": "37d927dbc47cb2ee19a6c6f6c6f3d19264bfd66d64bc7ad7a1dc5c788b5f2293",
+        "bytes": 57818
+      },
+      {
+        "path": "gameplay-256/g-back-right.png",
+        "sha256": "0756b007b9e11b5dfa8af2c8e5c21e9e546409b60dbe5784e0c9b22aea2c9ed9",
+        "bytes": 60444
+      },
+      {
+        "path": "gameplay-256/g-front-left.png",
+        "sha256": "7b0a70795716a55e8bb201c147c0316f0847ae4e3150bc6a04dceb686654f0b1",
+        "bytes": 57927
+      },
+      {
+        "path": "gameplay-256/g-front-right.png",
+        "sha256": "cc5d6536a9bf10248988207f6113e0095b1d5c36454010bd93c7356cc3e2156b",
+        "bytes": 57553
+      },
+      {
+        "path": "review/back-left.png",
+        "sha256": "9645e741dc3e22a93925def687d70536822faa6e64bc6c8e7834f4398ec6383f",
+        "bytes": 663119
+      },
+      {
+        "path": "review/back-right.png",
+        "sha256": "ef8aaa2152aa042d6a1d24f926804a972bcc7942340cef876a387085c2f22fa4",
+        "bytes": 684280
+      },
+      {
+        "path": "review/back.png",
+        "sha256": "d9e2417d84c43c75ca1e0d9d8da573fd57bc61650c27159e6fbcc844c564df49",
+        "bytes": 496561
+      },
+      {
+        "path": "review/front-left.png",
+        "sha256": "7620d8dfdc6889481dee5d21e699672ec7eb3c43a88935500b89244487d8d0d1",
+        "bytes": 692682
+      },
+      {
+        "path": "review/front-right.png",
+        "sha256": "81131138972874e795955abeedba75a068d01d96738a1e909c8d23c38db7fca1",
+        "bytes": 690232
+      },
+      {
+        "path": "review/front.png",
+        "sha256": "b7b0da5a92562412ea6b42ee323309683c38ad81d8d9ccd1e34549cb53f3efa7",
+        "bytes": 547335
+      },
+      {
+        "path": "review/side-left.png",
+        "sha256": "81ef152acbac74b564f4b7ee9b8222ff67c71e41b7f96d3b17c3245bb1c65a81",
+        "bytes": 620082
+      },
+      {
+        "path": "review/side-right.png",
+        "sha256": "5d70b6ea9894264a6babae6c5b4939e3e27274002944638b2e1d546cb2833044",
+        "bytes": 624735
+      },
+      {
+        "path": "review/top.png",
+        "sha256": "73fafa9afe41b78953c6fa11730e4eed97a563c9c0b311ab1ca1d6fe16ac021a",
+        "bytes": 563701
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "786288d98191fdb787855e9950dbcb2e95ef7c5553c1ba8021790ad682640332",
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Diesel_Generators.jpg",
+        "sha256": "a6b8d4dd1b223b83a0e8ffcaf9a20b87724da7d9e24bbe35dec92a40915dabaf",
+        "author": "Aurora Generators",
+        "license": "CC BY 4.0",
+        "role": "primary: compact open-frame gensets on channel skids; radiator at one end, engine centre, alternator + control box at other end"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Diesel_generator_001.jpg",
+        "sha256": "3e27f013057539623d23a0df52333200d37948a517502d881f1f828720d8a59b",
+        "author": "Сергеев Павел",
+        "license": "CC BY-SA 3.0",
+        "role": "primary: tall radiator core, engine plumbing and mounts in an open set"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Batory_zespol_pradotworczy.jpg",
+        "sha256": "43e5fd11b8e3e10809eb1bdbaad48e1bcd3c9c3cadfc606f2696becb8b80c55c",
+        "author": "author per Commons file page",
+        "license": "CC BY-SA 3.0",
+        "role": "secondary: coaxial engine-alternator on common base (large marine set; scale differs)"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Diesel_generators_in_the_Philippines_10.jpg",
+        "sha256": "7a1579614a810d3f75ab0bc95af11df9d471783149c0154caa66f576f310ad29",
+        "author": "Video13",
+        "license": "CC BY-SA 4.0",
+        "role": "negative: forbidden reading (welder / towable on trailer)"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:SDMO_diesel-generator_in_%C3%9Clemiste.JPG",
+        "sha256": "bf8101d2b248447237ac6b91118f11784ca8e9e1bc5bb8899c7fef563563713c",
+        "author": "Dmitry G",
+        "license": "CC BY-SA 3.0",
+        "role": "negative: forbidden reading (enclosed canopy)"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Opus subagent, plain headless Blender, no FormSeed; same brief v2 and references as FormSeed job 0d4af158."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
