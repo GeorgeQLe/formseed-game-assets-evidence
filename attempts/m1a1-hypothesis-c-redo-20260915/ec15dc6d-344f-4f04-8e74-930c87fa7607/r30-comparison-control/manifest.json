@@ -1,0 +1,103 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-hypothesis-c-redo-20260915",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+    "revision": 30,
+    "checkpointSha256": "12157475f74cf3c4e6d313cc20e3214ea1add8cb6b3a36a2ca72016ab298ac7b"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "9d73a29f67b5f819053590a987bf2e7b773c92e19a9dc56ae68e9a86d33301d0",
+    "labeledSheet": {
+      "path": "contact-sheet.labeled.png",
+      "sha256": "d3537e93714434b65d9d979222cbc2271c43e3b701f347305b44011066d87c81",
+      "bytes": 881097
+    },
+    "files": [
+      {
+        "path": "renders/dimensional-comparison/physical-left.png",
+        "sha256": "ba0a54e2934405ee52ade71b8f2eb73cd2247155ae0339cd2a85dd42090c6985",
+        "bytes": 158434
+      },
+      {
+        "path": "renders/dimensional-comparison/physical-right.png",
+        "sha256": "674714b2fb615971e9d863e8029793e9e8a76494e64ac5a94c0528531642f204",
+        "bytes": 156643
+      },
+      {
+        "path": "renders/dimensional-comparison/front.png",
+        "sha256": "639cbef6810e6e438c47c652883f87e3981ee7f534ee65750f8b8ffbbbfef71f",
+        "bytes": 156191
+      },
+      {
+        "path": "renders/dimensional-comparison/rear.png",
+        "sha256": "0e022731578ffeddfac5776821292747219ba9735488960e15e6b06293ea7d81",
+        "bytes": 155625
+      },
+      {
+        "path": "renders/dimensional-comparison/top.png",
+        "sha256": "20debc4b2598b7049f97c8bdff8d5a3aad2fea15538b39cdf92424aa0cea2243",
+        "bytes": 185079
+      },
+      {
+        "path": "renders/dimensional-comparison/three-quarter.png",
+        "sha256": "2aebfafb8a6024b329a7476731ba1d01f141829b07b5d89412043d971be673dd",
+        "bytes": 171038
+      },
+      {
+        "path": "renders/contact-sheet.png",
+        "sha256": "5f774ef1f0964401efae750b46a69d0dda2b719cd1ef1366cef5c605f303b63e",
+        "bytes": 1036006
+      },
+      {
+        "path": "decision.json",
+        "sha256": "a726f9c62c5104b8c4443bbe22fa1994b882362cb3e740e7af434cc7be1d3914",
+        "bytes": 1726
+      },
+      {
+        "path": "cc0-permission.json",
+        "sha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+        "bytes": 505
+      },
+      {
+        "path": "contact-sheet.labeled.png",
+        "sha256": "d3537e93714434b65d9d979222cbc2271c43e3b701f347305b44011066d87c81",
+        "bytes": 881097
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+        "sha256": "88224eaef332682c0906512c6ea1236bbfd2ac3687ee6d4a8c349c774cfe1cc2",
+        "author": "United States Marine Corps",
+        "license": "U.S. government authored material; reproduced for this local research packet. Mirror is not the author.",
+        "role": "Common M1A1 exterior reference; no reference pixels archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George — trace interpretation and revision direction ONLY",
+    "decidedAt": "2026-10-02T14:21:39.492Z"
+  },
+  "notes": [
+    "Construction comparison evidence only. No final model, source, production, promotion or integration approval.",
+    "Legacy archive permission resolved by George: yes please, in response to the explicit public CC0 question; see cc0-permission.json.",
+    "Exact decision: approved. Preceding words: Ok good r30 looks good to me, you will make revisions to the model based on the r30 trace?",
+    "The actual trace review sheet embeds third-party reference pixels and is deliberately excluded. Its retained local SHA-256 is 869a1bf51d22806f41057441af3f5cf5de4531b8aa3f4ce3e5e35cf19dcb2f3f. Archived model-only sheet is supporting evidence, not a replacement for that exact trace presentation.",
+    "No source blend/GLB backfill in this record. Broader model evaluation remains no-go."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

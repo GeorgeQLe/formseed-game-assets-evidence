@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-10-02T14:21:39.492147+00:00",
+  "actor": "George",
+  "exactWords": "approved",
+  "precedingRequesterFeedback": "Ok good r30 looks good to me, you will make revisions to the model based on the r30 trace?",
+  "gate": "construction-analysis / trace interpretation and revision direction",
+  "decision": "approved",
+  "scope": [
+    "r30 as the revision baseline",
+    "reference trace as guidance for supported further changes",
+    "preserve existing ramp; resolve ambiguous underside lines against complementary evidence before prescribing changes"
+  ],
+  "candidateRevision": 30,
+  "checkpointSha256": "12157475f74cf3c4e6d313cc20e3214ea1add8cb6b3a36a2ca72016ab298ac7b",
+  "presentedImage": "overlay-labeled.png",
+  "presentedImageSha256": "869a1bf51d22806f41057441af3f5cf5de4531b8aa3f4ce3e5e35cf19dcb2f3f",
+  "planSha256": "56a3e0906b572d11885d738467ab9cc9c112696271fcc7645a9d74f6e1608ab1",
+  "predecessorReviewSha256": "f8521d93956d5725a3f9c04ed60f451245083b5a6a8daec62a44204e2706b905",
+  "technicalValidation": "previous registration and provenance checks retained; no new candidate validation",
+  "visualRecommendation": "no new deterministic model evaluation; existing model no-go unchanged",
+  "humanApproval": "approved for trace interpretation and revision direction only; not final model/production/promotion/integration approval",
+  "producerMutations": 0,
+  "attemptBudgetReset": false,
+  "archive": {
+    "status": "blocked",
+    "reason": "Presented overlay embeds third-party reference pixels, prohibited in public evidence repository; legacy game-specific CC0 backfill authority also remains unresolved under ADR0008. Exact sheet retained locally. No new geometry attempt started."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-hypothesis-c-redo-20260915",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+    "revision": 28,
+    "checkpointSha256": "8d8e2d607644680c8895f5d356a58eddd9542e8e672592efae8608aa1e8aed2f"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "c61a0a9665a2184c4ff327b87719e793240d0918cadd986cd246f4730cbafa43",
+    "labeledSheet": {
+      "path": "contact-sheet.labeled.png",
+      "sha256": "8060599c98982e243d09d9c53ed4ebe3f42fe22a8064706f0d634f96af33a518",
+      "bytes": 882208
+    },
+    "files": [
+      {
+        "path": "renders/dimensional-comparison/physical-left.png",
+        "sha256": "8b16ba9c1134751ae3a66e989f6a23a516a72da17e8840daa42d4accbb64df4a",
+        "bytes": 158888
+      },
+      {
+        "path": "renders/dimensional-comparison/physical-right.png",
+        "sha256": "b3c2ccccf5c752bee71f75bf20d69170d586b84710cf61461f952d06edcb2218",
+        "bytes": 157652
+      },
+      {
+        "path": "renders/dimensional-comparison/front.png",
+        "sha256": "780617ac2c57c8019747e3b3e9e7759bacd89624ed0a6dec46b2b821f0a686b9",
+        "bytes": 156107
+      },
+      {
+        "path": "renders/dimensional-comparison/rear.png",
+        "sha256": "a7cb6aadaa12391ebaa0d6623c067d814ab164c5fae0668eaeb4e9c360353897",
+        "bytes": 155609
+      },
+      {
+        "path": "renders/dimensional-comparison/top.png",
+        "sha256": "3f2acabf1829a1c897b1ce8cf283d46b15fc32f58c25e575e39b3c523d67bf50",
+        "bytes": 185079
+      },
+      {
+        "path": "renders/dimensional-comparison/three-quarter.png",
+        "sha256": "81b3ed6712e35d263b77fbb391a8f69ce45b0754b5c3a81424d404cdecce17cd",
+        "bytes": 170981
+      },
+      {
+        "path": "renders/contact-sheet.png",
+        "sha256": "8825980ad19320fac9f6891a378923c4e7617279311fc021e0202f31d0c3aff5",
+        "bytes": 1040085
+      },
+      {
+        "path": "decision.json",
+        "sha256": "6b608a252e3d0dd0af10ecc5c5cda3375904b11b7e6f9f1c963d5c15f220adb7",
+        "bytes": 1368
+      },
+      {
+        "path": "cc0-permission.json",
+        "sha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+        "bytes": 505
+      },
+      {
+        "path": "contact-sheet.labeled.png",
+        "sha256": "8060599c98982e243d09d9c53ed4ebe3f42fe22a8064706f0d634f96af33a518",
+        "bytes": 882208
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+        "sha256": "88224eaef332682c0906512c6ea1236bbfd2ac3687ee6d4a8c349c774cfe1cc2",
+        "author": "United States Marine Corps",
+        "license": "U.S. government authored material; reproduced for this local research packet. Mirror is not the author.",
+        "role": "Common M1A1 exterior reference; no reference pixels archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George",
+    "decidedAt": "2026-09-28T20:11:55.026Z",
+    "quote": "no revert that, that was worse"
+  },
+  "notes": [
+    "Construction comparison evidence only. No final model, source, production, promotion or integration approval.",
+    "Legacy archive permission resolved by George: yes please, in response to the explicit public CC0 question; see cc0-permission.json.",
+    "Exact rejection: no revert that, that was worse. Geometry restored at r29.",
+    "Only authored review renders and decision records are included; no third-party images or scratch data.",
+    "No source blend/GLB backfill in this record. Broader model evaluation remains no-go."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
