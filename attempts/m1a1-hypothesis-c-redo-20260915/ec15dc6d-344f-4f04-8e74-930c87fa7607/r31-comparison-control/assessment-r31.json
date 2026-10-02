@@ -1,0 +1,552 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "m1a1-r31-reference-reconstruction-abandoned",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "m1a1-hypothesis-c-redo-20260915",
+    "revisionId": "main-r31-abandoned",
+    "revision": 31
+  },
+  "evidenceSet": {
+    "revision": 31,
+    "checkpointSha256": "4d0f044e727470dd2d4fb497aed3b1754df4c3c742960c92b47a7466d7a40d63",
+    "renderSetSha256": "39408d9c707550f4770ed0929c0d5814758ffbcc5d98625a8e2622900771a46a",
+    "requiredViews": [
+      {
+        "viewId": "physical-left",
+        "width": 960,
+        "height": 640,
+        "sha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920"
+      },
+      {
+        "viewId": "physical-right",
+        "width": 960,
+        "height": 640,
+        "sha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366"
+      },
+      {
+        "viewId": "front",
+        "width": 960,
+        "height": 640,
+        "sha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb"
+      },
+      {
+        "viewId": "rear",
+        "width": 960,
+        "height": 640,
+        "sha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb"
+      },
+      {
+        "viewId": "top",
+        "width": 960,
+        "height": 640,
+        "sha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf"
+      },
+      {
+        "viewId": "three-quarter",
+        "width": 960,
+        "height": 640,
+        "sha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405"
+      }
+    ],
+    "validation": {
+      "reportId": "4e40d952-5762-45b1-ae45-b61988302552",
+      "revision": 31,
+      "checkpointSha256": "4d0f044e727470dd2d4fb497aed3b1754df4c3c742960c92b47a7466d7a40d63",
+      "passed": true,
+      "current": false,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Side/oblique retain tracked hull, long cannon and wedge turret cues. Front/rear/top remain plain; all-view 256px M1A1 recognition is not established.",
+          "evidenceSha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Side/oblique retain tracked hull, long cannon and wedge turret cues. Front/rear/top remain plain; all-view 256px M1A1 recognition is not established.",
+          "evidenceSha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Side/oblique retain tracked hull, long cannon and wedge turret cues. Front/rear/top remain plain; all-view 256px M1A1 recognition is not established.",
+          "evidenceSha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Side/oblique retain tracked hull, long cannon and wedge turret cues. Front/rear/top remain plain; all-view 256px M1A1 recognition is not established.",
+          "evidenceSha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Side/oblique retain tracked hull, long cannon and wedge turret cues. Front/rear/top remain plain; all-view 256px M1A1 recognition is not established.",
+          "evidenceSha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Side/oblique retain tracked hull, long cannon and wedge turret cues. Front/rear/top remain plain; all-view 256px M1A1 recognition is not established.",
+          "evidenceSha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405"
+        }
+      ]
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Upper turret tapers visibly inward while retained longitudinal/height relationships remain. Approximate cross-view envelope ratios do not establish all historical proportion targets.",
+          "evidenceSha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Upper turret tapers visibly inward while retained longitudinal/height relationships remain. Approximate cross-view envelope ratios do not establish all historical proportion targets.",
+          "evidenceSha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Upper turret tapers visibly inward while retained longitudinal/height relationships remain. Approximate cross-view envelope ratios do not establish all historical proportion targets.",
+          "evidenceSha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Upper turret tapers visibly inward while retained longitudinal/height relationships remain. Approximate cross-view envelope ratios do not establish all historical proportion targets.",
+          "evidenceSha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Upper turret tapers visibly inward while retained longitudinal/height relationships remain. Approximate cross-view envelope ratios do not establish all historical proportion targets.",
+          "evidenceSha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Upper turret tapers visibly inward while retained longitudinal/height relationships remain. Approximate cross-view envelope ratios do not establish all historical proportion targets.",
+          "evidenceSha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405"
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Front/rear upper inset and plan roof boundary improve, but the fine lower-aft oblique line corresponds to a new unsupported floor shelf; complete silhouette preservation fails.",
+          "evidenceSha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Front/rear upper inset and plan roof boundary improve, but the fine lower-aft oblique line corresponds to a new unsupported floor shelf; complete silhouette preservation fails.",
+          "evidenceSha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Front/rear upper inset and plan roof boundary improve, but the fine lower-aft oblique line corresponds to a new unsupported floor shelf; complete silhouette preservation fails.",
+          "evidenceSha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Front/rear upper inset and plan roof boundary improve, but the fine lower-aft oblique line corresponds to a new unsupported floor shelf; complete silhouette preservation fails.",
+          "evidenceSha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Front/rear upper inset and plan roof boundary improve, but the fine lower-aft oblique line corresponds to a new unsupported floor shelf; complete silhouette preservation fails.",
+          "evidenceSha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Front/rear upper inset and plan roof boundary improve, but the fine lower-aft oblique line corresponds to a new unsupported floor shelf; complete silhouette preservation fails.",
+          "evidenceSha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405"
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Roof and shoulders are more distinct in front/top/oblique. Broad plain masses and deferred structural details remain incomplete.",
+          "evidenceSha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Roof and shoulders are more distinct in front/top/oblique. Broad plain masses and deferred structural details remain incomplete.",
+          "evidenceSha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Roof and shoulders are more distinct in front/top/oblique. Broad plain masses and deferred structural details remain incomplete.",
+          "evidenceSha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Roof and shoulders are more distinct in front/top/oblique. Broad plain masses and deferred structural details remain incomplete.",
+          "evidenceSha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Roof and shoulders are more distinct in front/top/oblique. Broad plain masses and deferred structural details remain incomplete.",
+          "evidenceSha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Roof and shoulders are more distinct in front/top/oblique. Broad plain masses and deferred structural details remain incomplete.",
+          "evidenceSha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405"
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Actual-export aft sections show the unchanged rising floor protrudes22.67–59.40mm per side beyond the narrowed bustle. This violates the protected coupled underside interface; native technical validation did not detect it.",
+          "evidenceSha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Actual-export aft sections show the unchanged rising floor protrudes22.67–59.40mm per side beyond the narrowed bustle. This violates the protected coupled underside interface; native technical validation did not detect it.",
+          "evidenceSha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Actual-export aft sections show the unchanged rising floor protrudes22.67–59.40mm per side beyond the narrowed bustle. This violates the protected coupled underside interface; native technical validation did not detect it.",
+          "evidenceSha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Actual-export aft sections show the unchanged rising floor protrudes22.67–59.40mm per side beyond the narrowed bustle. This violates the protected coupled underside interface; native technical validation did not detect it.",
+          "evidenceSha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Actual-export aft sections show the unchanged rising floor protrudes22.67–59.40mm per side beyond the narrowed bustle. This violates the protected coupled underside interface; native technical validation did not detect it.",
+          "evidenceSha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Actual-export aft sections show the unchanged rising floor protrudes22.67–59.40mm per side beyond the narrowed bustle. This violates the protected coupled underside interface; native technical validation did not detect it.",
+          "evidenceSha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405"
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Four neutral gray construction materials remain readable but flat, unfinished and without a bound immutable art-style profile.",
+          "evidenceSha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Four neutral gray construction materials remain readable but flat, unfinished and without a bound immutable art-style profile.",
+          "evidenceSha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Four neutral gray construction materials remain readable but flat, unfinished and without a bound immutable art-style profile.",
+          "evidenceSha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Four neutral gray construction materials remain readable but flat, unfinished and without a bound immutable art-style profile.",
+          "evidenceSha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Four neutral gray construction materials remain readable but flat, unfinished and without a bound immutable art-style profile.",
+          "evidenceSha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Four neutral gray construction materials remain readable but flat, unfinished and without a bound immutable art-style profile.",
+          "evidenceSha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405"
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "All six complete native views inspected. Front/top improvement fails to prevent an oblique lower-aft contour regression; this candidate is not retained.",
+          "evidenceSha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "All six complete native views inspected. Front/top improvement fails to prevent an oblique lower-aft contour regression; this candidate is not retained.",
+          "evidenceSha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "All six complete native views inspected. Front/top improvement fails to prevent an oblique lower-aft contour regression; this candidate is not retained.",
+          "evidenceSha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "All six complete native views inspected. Front/top improvement fails to prevent an oblique lower-aft contour regression; this candidate is not retained.",
+          "evidenceSha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "All six complete native views inspected. Front/top improvement fails to prevent an oblique lower-aft contour regression; this candidate is not retained.",
+          "evidenceSha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "All six complete native views inspected. Front/top improvement fails to prevent an oblique lower-aft contour regression; this candidate is not retained.",
+          "evidenceSha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405"
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Native r31 validation and deterministic render checks pass within budgets. Candidate fails scoped interface preservation, lacks authoritative dimensions/style and was restored to r30 content asr32.",
+          "evidenceSha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Native r31 validation and deterministic render checks pass within budgets. Candidate fails scoped interface preservation, lacks authoritative dimensions/style and was restored to r30 content asr32.",
+          "evidenceSha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Native r31 validation and deterministic render checks pass within budgets. Candidate fails scoped interface preservation, lacks authoritative dimensions/style and was restored to r30 content asr32.",
+          "evidenceSha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Native r31 validation and deterministic render checks pass within budgets. Candidate fails scoped interface preservation, lacks authoritative dimensions/style and was restored to r30 content asr32.",
+          "evidenceSha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Native r31 validation and deterministic render checks pass within budgets. Candidate fails scoped interface preservation, lacks authoritative dimensions/style and was restored to r30 content asr32.",
+          "evidenceSha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Native r31 validation and deterministic render checks pass within budgets. Candidate fails scoped interface preservation, lacks authoritative dimensions/style and was restored to r30 content asr32.",
+          "evidenceSha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "reference-map.json",
+          "observation": "Original experimental source and explicit pilot direction; no asset gate inferred.",
+          "evidenceSha256": "2a543870ded6e00b36d5650d3bc44187696f9c41e32bc5a9396c0078ce3701b4"
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-render.json",
+          "observation": "Six exact r31 views inspected; no clipping.",
+          "evidenceSha256": "28420ec5f2682ab53c59531542bc281116513ea8aad4476e70ec59b703620d15"
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "authored-independent-review.md",
+          "observation": "New unsupported aft floor shelf violates preservation; restore required.",
+          "evidenceSha256": "29587864726e07732fe5345d72944b49c01465906ce8b346929b49e34f0f15c2"
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "reference-map.json",
+          "observation": "Legacy construction has no bound authoritative dimension specification.",
+          "evidenceSha256": "2a543870ded6e00b36d5650d3bc44187696f9c41e32bc5a9396c0078ce3701b4"
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-baseline.json",
+          "observation": "Both baseline hashes match production r31 hash.",
+          "evidenceSha256": "8d43b48ec45fa101a5a0be2a55cc49239c23d7140a91a95b5aca14114ce7d3c1"
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-validation.json",
+          "observation": "Native r31 validation passed at authoring; r31 is now abandoned and superseded by restored r32.",
+          "evidenceSha256": "837fed9b851ad643d50bfeecaa0c0c250f323796c7c1f3871ae0bebb8fc6af04"
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-validation.json",
+          "observation": "15384/20000 triangles,4/8 materials,64/80 objects.",
+          "evidenceSha256": "837fed9b851ad643d50bfeecaa0c0c250f323796c7c1f3871ae0bebb8fc6af04"
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "replacement-result.json",
+          "observation": "Four exact named components replaced; no added object.",
+          "evidenceSha256": "b69d3a2ff6c825cd8751fc7319edaf0f7ce2cd27589db05274ff771c9327b141"
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-render.json",
+          "observation": "Six native PNG hashes independently verified; exact r31 checkpoint remains pinned.",
+          "evidenceSha256": "28420ec5f2682ab53c59531542bc281116513ea8aad4476e70ec59b703620d15"
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "cc0-permission.json",
+          "observation": "Original authored geometry, attributable references; public CC0 authorized; third-party pixels excluded.",
+          "evidenceSha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c"
+        }
+      ]
+    }
+  ],
+  "assessedBy": "/root",
+  "assessedAt": "2026-10-02T16:10:48.103Z",
+  "adversarialReview": {
+    "reviewedBy": "/root/review_support",
+    "reviewedAt": "2026-10-02T16:10:48.103Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "Side/oblique retain tracked hull, long cannon and wedge turret cues. Front/rear/top remain plain; all-view 256px M1A1 recognition is not established. Separate adversarial report SHA-256 399f5bc48cd01c723a93e824ee9eb128eabec7032fa7bf0ea3fe9f374914a099",
+        "resolved": false
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "Front/rear upper inset and plan roof boundary improve, but the fine lower-aft oblique line corresponds to a new unsupported floor shelf; complete silhouette preservation fails. Separate adversarial report SHA-256 399f5bc48cd01c723a93e824ee9eb128eabec7032fa7bf0ea3fe9f374914a099",
+        "resolved": false
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "Actual-export aft sections show the unchanged rising floor protrudes22.67–59.40mm per side beyond the narrowed bustle. This violates the protected coupled underside interface; native technical validation did not detect it. Separate adversarial report SHA-256 399f5bc48cd01c723a93e824ee9eb128eabec7032fa7bf0ea3fe9f374914a099",
+        "resolved": false
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "Native r31 validation and deterministic render checks pass within budgets. Candidate fails scoped interface preservation, lacks authoritative dimensions/style and was restored to r30 content asr32. Separate adversarial report SHA-256 399f5bc48cd01c723a93e824ee9eb128eabec7032fa7bf0ea3fe9f374914a099",
+        "resolved": false
+      }
+    ]
+  }
+}

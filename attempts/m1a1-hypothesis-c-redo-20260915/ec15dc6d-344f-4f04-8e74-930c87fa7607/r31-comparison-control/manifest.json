@@ -1,0 +1,123 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-hypothesis-c-redo-20260915",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+    "revision": 31,
+    "checkpointSha256": "4d0f044e727470dd2d4fb497aed3b1754df4c3c742960c92b47a7466d7a40d63"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "5cb347514e2496d598971e070e71bf636eb1bffd8a1d39bf01ccec4fb505b9f4",
+    "labeledSheet": {
+      "path": "contact-sheet.labeled.png",
+      "sha256": "e47c51e81bff60ef0536ac0579981f99d0efa9958c052896cc5d38ae3dab5400",
+      "bytes": 879248
+    },
+    "files": [
+      {
+        "path": "renders/dimensional-comparison/physical-left.png",
+        "sha256": "efe86db0820cff79163fa9e959d5e8e4b1dd8b9613fd8de84117a231c7981920",
+        "bytes": 158481
+      },
+      {
+        "path": "renders/dimensional-comparison/physical-right.png",
+        "sha256": "24f8ba5b2818cbca5862bd6e7b26480371e03a997801cd03bccf633fd2b8e366",
+        "bytes": 156659
+      },
+      {
+        "path": "renders/dimensional-comparison/front.png",
+        "sha256": "1561c677a546884d99da07049b3db1fbb22177a4f28b7160b6c242040d8db3cb",
+        "bytes": 155034
+      },
+      {
+        "path": "renders/dimensional-comparison/rear.png",
+        "sha256": "292c4d2604d8b93fc3cc7715ad990e4e8316ce611f3781857b3bcd20ea2a73fb",
+        "bytes": 155181
+      },
+      {
+        "path": "renders/dimensional-comparison/top.png",
+        "sha256": "75453ab0e1cbaf9b55fca62d9e62de0e6f80def094aa1965f2bc0056d43f8fbf",
+        "bytes": 184993
+      },
+      {
+        "path": "renders/dimensional-comparison/three-quarter.png",
+        "sha256": "f1edad6b24586ea76bd47868795a92afb5344794284b2026fdfcb5f4a2c6b405",
+        "bytes": 170258
+      },
+      {
+        "path": "renders/contact-sheet.png",
+        "sha256": "6da5290faa8d6e28dfbf9e0957c3b342e12102ffe2e58f27747902fe2f6bea5b",
+        "bytes": 1030561
+      },
+      {
+        "path": "disposition.json",
+        "sha256": "8f2acb10a4ce22ef26b77f8ba9047f6633a0b2aa8603ef199d979dc5ceea6d83",
+        "bytes": 549
+      },
+      {
+        "path": "cc0-permission.json",
+        "sha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+        "bytes": 505
+      },
+      {
+        "path": "authored-independent-review.md",
+        "sha256": "29587864726e07732fe5345d72944b49c01465906ce8b346929b49e34f0f15c2",
+        "bytes": 4172
+      },
+      {
+        "path": "authored-adversarial-review.md",
+        "sha256": "399f5bc48cd01c723a93e824ee9eb128eabec7032fa7bf0ea3fe9f374914a099",
+        "bytes": 9273
+      },
+      {
+        "path": "assessment-r31.json",
+        "sha256": "eca677e966e3f4505ff5ed9a8119233a23e40f6e0a0845190626b081642c46aa",
+        "bytes": 26966
+      },
+      {
+        "path": "evaluation-r31.json",
+        "sha256": "a98034e9775304c443801dfa9dd9a1c1067cd2b90db8b7b5e6e384f64c75a6b0",
+        "bytes": 3629
+      },
+      {
+        "path": "contact-sheet.labeled.png",
+        "sha256": "e47c51e81bff60ef0536ac0579981f99d0efa9958c052896cc5d38ae3dab5400",
+        "bytes": 879248
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+        "sha256": "88224eaef332682c0906512c6ea1236bbfd2ac3687ee6d4a8c349c774cfe1cc2",
+        "author": "United States Marine Corps",
+        "license": "U.S. government authored material; reproduced for this local research packet. Mirror is not the author.",
+        "role": "Common M1A1 exterior reference; no reference pixels archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Upper taper improves but introduces unsupported aft floor protrusion22.67–59.40mm per side; restore rule triggered",
+    "decidedAt": "2026-10-02T16:10:48.103Z"
+  },
+  "notes": [
+    "Agent abandoned candidate after two independent reviewers established aft floor/bustle regression; not a human rejection.",
+    "Upper inset improved, but unchanged rising floor protruded22.67–59.40mm per side. Exact r30 restored at canonicalr32.",
+    "Native validation passed; broader model evaluation no-go. Motion sweep not completed after rollback trigger.",
+    "One autonomous candidate charged; allowance exhausted. No next candidate or approval inferred.",
+    "Only authored review images and records archived. Third-party references and source blend/GLB excluded."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

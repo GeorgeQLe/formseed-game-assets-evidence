@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0.0",
+  "weightedTotal": 50,
+  "recommendation": "no-go",
+  "effectiveDecision": "no-go",
+  "checks": {
+    "threshold": false,
+    "categoryFloors": true,
+    "coreFloors": false,
+    "hardGates": false,
+    "structuredEvidence": false,
+    "adversarialReview": false
+  },
+  "failures": [
+    {
+      "kind": "evidence",
+      "id": "revision-evidence",
+      "message": "Render and validation evidence must be current and bind the assessed revision and checkpoint."
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "identity-recognition",
+      "message": "Unresolved core-floor objection: Side/oblique retain tracked hull, long cannon and wedge turret cues. Front/rear/top remain plain; all-view 256px M1A1 recognition is not established. Separate adversarial report SHA-256 399f5bc48cd01c723a93e824ee9eb128eabec7032fa7bf0ea3fe9f374914a099"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "silhouette",
+      "message": "Unresolved core-floor objection: Front/rear upper inset and plan roof boundary improve, but the fine lower-aft oblique line corresponds to a new unsupported floor shelf; complete silhouette preservation fails. Separate adversarial report SHA-256 399f5bc48cd01c723a93e824ee9eb128eabec7032fa7bf0ea3fe9f374914a099"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "mechanical-coherence",
+      "message": "Unresolved core-floor objection: Actual-export aft sections show the unchanged rising floor protrudes22.67–59.40mm per side beyond the narrowed bustle. This violates the protected coupled underside interface; native technical validation did not detect it. Separate adversarial report SHA-256 399f5bc48cd01c723a93e824ee9eb128eabec7032fa7bf0ea3fe9f374914a099"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "production-integrity",
+      "message": "Unresolved core-floor objection: Native r31 validation and deterministic render checks pass within budgets. Candidate fails scoped interface preservation, lacks authoritative dimensions/style and was restored to r30 content asr32. Separate adversarial report SHA-256 399f5bc48cd01c723a93e824ee9eb128eabec7032fa7bf0ea3fe9f374914a099"
+    },
+    {
+      "kind": "threshold",
+      "id": "weighted-total",
+      "message": "50 is below the 75-point threshold."
+    },
+    {
+      "kind": "core-floor",
+      "id": "identity-recognition",
+      "message": "Identity and recognition scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "silhouette",
+      "message": "Silhouette quality scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "mechanical-coherence",
+      "message": "Mechanical and structural coherence scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "production-integrity",
+      "message": "Production integrity scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "structural-plausibility",
+      "message": "Structural plausibility did not pass."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "transform-grounding",
+      "message": "Transform and grounding correctness did not pass."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "current-validation",
+      "message": "Current validation did not pass."
+    }
+  ],
+  "status": {
+    "technicalValidation": "fail",
+    "visualRecommendation": "no-go",
+    "humanApproval": "absent"
+  },
+  "overrideApplied": false,
+  "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+}
