@@ -1,0 +1,37 @@
+{
+  "recordedAt": "2026-10-05T17:45:06.749Z",
+  "revision": 34,
+  "checkpointSha256": "91b71c2529a801265b5d733e6d72041707c91636eef7e3466dda1804023ab9e4",
+  "status": "retained-awaiting-construction-feedback",
+  "technicalValidation": {
+    "nativePassed": true,
+    "triangles": 16344,
+    "materials": 4,
+    "objects": 69,
+    "unchangedSiblingMeshes": 48,
+    "protectedFaces": 2913,
+    "nativeIsolationComponents": 57,
+    "maskFiles": 162,
+    "sampledComponentPoses": 3708,
+    "minimumFloorClearanceMeters": 0.029484813572656216,
+    "minimumBasketClearanceMeters": 0.03935413015650772,
+    "gunPairs": 130,
+    "newGunIntrusions": 0,
+    "limitations": "Exact same BVH triangle piercing / vertex-face / edge-edge distance kernel as prior runner; independently sharded by component/elevation. 360 yaw at5degrees with +/-5degree neighborhoods of coarse local minima/plateau ends/global minimum at0.5degree. Rigid turret components equivalent at both gun elevations. Numerical comparison threshold1e-6m; finite samples, no certified error bound or continuous guarantee."
+  },
+  "visualRecommendation": {
+    "scoped": "retain requested correction per both independent reviews",
+    "wholeModel": "no-go",
+    "weightedTotal": 50,
+    "residuals": [
+      "Plan shoulder/front-roof contour differences",
+      "Approximate basket lower/rear envelope and local protrusions",
+      "Weak right-side rail contrast",
+      "Uncertain front upper armor/roof, underside and track correspondence"
+    ]
+  },
+  "humanApproval": "absent; correction authorization only",
+  "archive": "Prior r33 archived and stamped; r34 decision pending",
+  "lease": "released normally",
+  "approvalPromotionIntegration": false
+}

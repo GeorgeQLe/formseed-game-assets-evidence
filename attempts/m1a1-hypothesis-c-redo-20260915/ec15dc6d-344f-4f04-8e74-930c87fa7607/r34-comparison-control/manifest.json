@@ -1,0 +1,126 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-hypothesis-c-redo-20260915",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+    "revision": 34,
+    "checkpointSha256": "91b71c2529a801265b5d733e6d72041707c91636eef7e3466dda1804023ab9e4"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "8517fc62a4894d9feaf3ad8654644fe5dcc088eb39e0b6cc0ae5998af69e4eeb",
+    "labeledSheet": {
+      "path": "contact-sheet.labeled.png",
+      "sha256": "bec9dd655ea516f19a9dbbaaa8197a424a9b879459317236185eb28d393f8898",
+      "bytes": 896030
+    },
+    "files": [
+      {
+        "path": "renders/dimensional-comparison/physical-left.png",
+        "sha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e",
+        "bytes": 159032
+      },
+      {
+        "path": "renders/dimensional-comparison/physical-right.png",
+        "sha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847",
+        "bytes": 157527
+      },
+      {
+        "path": "renders/dimensional-comparison/front.png",
+        "sha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06",
+        "bytes": 156065
+      },
+      {
+        "path": "renders/dimensional-comparison/rear.png",
+        "sha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce",
+        "bytes": 155499
+      },
+      {
+        "path": "renders/dimensional-comparison/top.png",
+        "sha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80",
+        "bytes": 185040
+      },
+      {
+        "path": "renders/dimensional-comparison/three-quarter.png",
+        "sha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7",
+        "bytes": 173481
+      },
+      {
+        "path": "renders/contact-sheet.png",
+        "sha256": "74f652039fcd9c1fb3fc17ecfe8dee152015ecb867c3b0761eca1c4b631cbffc",
+        "bytes": 1038055
+      },
+      {
+        "path": "authored-whole-form-review.md",
+        "sha256": "1ecb393e0f581291a887a854261eab9382261e1feee4188c940f04c09860627d",
+        "bytes": 4585
+      },
+      {
+        "path": "authored-adversarial-review.md",
+        "sha256": "f3fcf678553cac6fffce964093593451bf20cd70c7c38a76eeaf794b906fd795",
+        "bytes": 6676
+      },
+      {
+        "path": "assessment-r34.json",
+        "sha256": "f376baa4ca1f586074fa886e478caa249da3342d7e42c25babf735b25d84eb10",
+        "bytes": 26487
+      },
+      {
+        "path": "evaluation-r34.json",
+        "sha256": "8563af6e6485ab27ed1b63bdec5a2a6e2613e5ffec26c63699ff8027f54b7173",
+        "bytes": 3080
+      },
+      {
+        "path": "disposition.json",
+        "sha256": "5ddf8d6fe70598ee0440296d3a855366452be484137ae8e30e5dea91b888a30a",
+        "bytes": 1709
+      },
+      {
+        "path": "revision-request.json",
+        "sha256": "fcd00f2e065d94ed1b7897e9c2d19f65c3020eae9a3bc6365a200bfeed129164",
+        "bytes": 892
+      },
+      {
+        "path": "cc0-permission.json",
+        "sha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+        "bytes": 505
+      },
+      {
+        "path": "contact-sheet.labeled.png",
+        "sha256": "bec9dd655ea516f19a9dbbaaa8197a424a9b879459317236185eb28d393f8898",
+        "bytes": 896030
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+        "sha256": "88224eaef332682c0906512c6ea1236bbfd2ac3687ee6d4a8c349c774cfe1cc2",
+        "author": "United States Marine Corps",
+        "license": "U.S. government authored material; reproduced for this local research packet. Mirror is not the author.",
+        "role": "Common M1A1 exterior reference; no reference pixels archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George - remaining model changes requested; basket appearance accepted",
+    "decidedAt": "2026-10-05T18:33:39.783000Z",
+    "quote": "ok let's move on to fixing the remaining misalignments between the models and the trace?"
+  },
+  "notes": [
+    "Construction comparison changes requested, not source rejection or approval; accepted basket preserved. Exact basket feedback in revision-request.json.",
+    "r34 remains rollback baseline. Model-only authored evidence archived; third-party embedded reference comparison pixels excluded."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "m1a1-r34-directed-highlight-correction",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "m1a1-hypothesis-c-redo-20260915",
+    "revisionId": "main-r34",
+    "revision": 34
+  },
+  "evidenceSet": {
+    "revision": 34,
+    "checkpointSha256": "91b71c2529a801265b5d733e6d72041707c91636eef7e3466dda1804023ab9e4",
+    "renderSetSha256": "ae809fb261586f71f9464e1358a3bccb692ff1e4104db87e118e3dfb222e7306",
+    "requiredViews": [
+      {
+        "viewId": "physical-left",
+        "width": 960,
+        "height": 640,
+        "sha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e"
+      },
+      {
+        "viewId": "physical-right",
+        "width": 960,
+        "height": 640,
+        "sha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847"
+      },
+      {
+        "viewId": "front",
+        "width": 960,
+        "height": 640,
+        "sha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06"
+      },
+      {
+        "viewId": "rear",
+        "width": 960,
+        "height": 640,
+        "sha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce"
+      },
+      {
+        "viewId": "top",
+        "width": 960,
+        "height": 640,
+        "sha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80"
+      },
+      {
+        "viewId": "three-quarter",
+        "width": 960,
+        "height": 640,
+        "sha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7"
+      }
+    ],
+    "validation": {
+      "reportId": "96288181-d591-4a70-b85f-de7b7e084baf",
+      "revision": 34,
+      "checkpointSha256": "91b71c2529a801265b5d733e6d72041707c91636eef7e3466dda1804023ab9e4",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Open rear/side basket adds a missing subject cue, but plain roof/front/rear and unresolved variant recognition remain; no blind recognition evidence.",
+          "evidenceSha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Open rear/side basket adds a missing subject cue, but plain roof/front/rear and unresolved variant recognition remain; no blind recognition evidence.",
+          "evidenceSha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Open rear/side basket adds a missing subject cue, but plain roof/front/rear and unresolved variant recognition remain; no blind recognition evidence.",
+          "evidenceSha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Open rear/side basket adds a missing subject cue, but plain roof/front/rear and unresolved variant recognition remain; no blind recognition evidence.",
+          "evidenceSha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Open rear/side basket adds a missing subject cue, but plain roof/front/rear and unresolved variant recognition remain; no blind recognition evidence.",
+          "evidenceSha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Open rear/side basket adds a missing subject cue, but plain roof/front/rear and unresolved variant recognition remain; no blind recognition evidence.",
+          "evidenceSha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7"
+        }
+      ]
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Forward lateral roof break and restrained aft widening meet reconciled approximate targets. Diagram asymmetry, registration and remaining plan residuals prevent whole-model dimension claims.",
+          "evidenceSha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Forward lateral roof break and restrained aft widening meet reconciled approximate targets. Diagram asymmetry, registration and remaining plan residuals prevent whole-model dimension claims.",
+          "evidenceSha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Forward lateral roof break and restrained aft widening meet reconciled approximate targets. Diagram asymmetry, registration and remaining plan residuals prevent whole-model dimension claims.",
+          "evidenceSha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Forward lateral roof break and restrained aft widening meet reconciled approximate targets. Diagram asymmetry, registration and remaining plan residuals prevent whole-model dimension claims.",
+          "evidenceSha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Forward lateral roof break and restrained aft widening meet reconciled approximate targets. Diagram asymmetry, registration and remaining plan residuals prevent whole-model dimension claims.",
+          "evidenceSha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Forward lateral roof break and restrained aft widening meet reconciled approximate targets. Diagram asymmetry, registration and remaining plan residuals prevent whole-model dimension claims.",
+          "evidenceSha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7"
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Open basket and side rails close the whole-feature omission. Plan shoulder/front roof and basket lower/rear/local protrusion residuals remain; front roof and track correspondences are uncertain.",
+          "evidenceSha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Open basket and side rails close the whole-feature omission. Plan shoulder/front roof and basket lower/rear/local protrusion residuals remain; front roof and track correspondences are uncertain.",
+          "evidenceSha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Open basket and side rails close the whole-feature omission. Plan shoulder/front roof and basket lower/rear/local protrusion residuals remain; front roof and track correspondences are uncertain.",
+          "evidenceSha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Open basket and side rails close the whole-feature omission. Plan shoulder/front roof and basket lower/rear/local protrusion residuals remain; front roof and track correspondences are uncertain.",
+          "evidenceSha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Open basket and side rails close the whole-feature omission. Plan shoulder/front roof and basket lower/rear/local protrusion residuals remain; front roof and track correspondences are uncertain.",
+          "evidenceSha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Open basket and side rails close the whole-feature omission. Plan shoulder/front roof and basket lower/rear/local protrusion residuals remain; front roof and track correspondences are uncertain.",
+          "evidenceSha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7"
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Separate solid armor and open equipment frame improve hierarchy, while plain roof/hull/running gear remain unfinished.",
+          "evidenceSha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Separate solid armor and open equipment frame improve hierarchy, while plain roof/hull/running gear remain unfinished.",
+          "evidenceSha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Separate solid armor and open equipment frame improve hierarchy, while plain roof/hull/running gear remain unfinished.",
+          "evidenceSha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Separate solid armor and open equipment frame improve hierarchy, while plain roof/hull/running gear remain unfinished.",
+          "evidenceSha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Separate solid armor and open equipment frame improve hierarchy, while plain roof/hull/running gear remain unfinished.",
+          "evidenceSha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Separate solid armor and open equipment frame improve hierarchy, while plain roof/hull/running gear remain unfinished.",
+          "evidenceSha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7"
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Actual full protected cells, floor sections, shared seams, six bracket attachments and130 gun pairs pass. Sampled full yaw clearance passes; simplified anatomy and finite samples remain limitations.",
+          "evidenceSha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Actual full protected cells, floor sections, shared seams, six bracket attachments and130 gun pairs pass. Sampled full yaw clearance passes; simplified anatomy and finite samples remain limitations.",
+          "evidenceSha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Actual full protected cells, floor sections, shared seams, six bracket attachments and130 gun pairs pass. Sampled full yaw clearance passes; simplified anatomy and finite samples remain limitations.",
+          "evidenceSha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Actual full protected cells, floor sections, shared seams, six bracket attachments and130 gun pairs pass. Sampled full yaw clearance passes; simplified anatomy and finite samples remain limitations.",
+          "evidenceSha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Actual full protected cells, floor sections, shared seams, six bracket attachments and130 gun pairs pass. Sampled full yaw clearance passes; simplified anatomy and finite samples remain limitations.",
+          "evidenceSha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Actual full protected cells, floor sections, shared seams, six bracket attachments and130 gun pairs pass. Sampled full yaw clearance passes; simplified anatomy and finite samples remain limitations.",
+          "evidenceSha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7"
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Four neutral construction materials remain unfinished; right rail contrast is weak; immutable style authority absent.",
+          "evidenceSha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Four neutral construction materials remain unfinished; right rail contrast is weak; immutable style authority absent.",
+          "evidenceSha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Four neutral construction materials remain unfinished; right rail contrast is weak; immutable style authority absent.",
+          "evidenceSha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Four neutral construction materials remain unfinished; right rail contrast is weak; immutable style authority absent.",
+          "evidenceSha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Four neutral construction materials remain unfinished; right rail contrast is weak; immutable style authority absent.",
+          "evidenceSha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Four neutral construction materials remain unfinished; right rail contrast is weak; immutable style authority absent.",
+          "evidenceSha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7"
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Six native views inspected. Open frame and upper changes read in plan/oblique/front/rear; right-side members blend with armor, though mirrored geometry and masks verify presence.",
+          "evidenceSha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Six native views inspected. Open frame and upper changes read in plan/oblique/front/rear; right-side members blend with armor, though mirrored geometry and masks verify presence.",
+          "evidenceSha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Six native views inspected. Open frame and upper changes read in plan/oblique/front/rear; right-side members blend with armor, though mirrored geometry and masks verify presence.",
+          "evidenceSha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Six native views inspected. Open frame and upper changes read in plan/oblique/front/rear; right-side members blend with armor, though mirrored geometry and masks verify presence.",
+          "evidenceSha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Six native views inspected. Open frame and upper changes read in plan/oblique/front/rear; right-side members blend with armor, though mirrored geometry and masks verify presence.",
+          "evidenceSha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Six native views inspected. Open frame and upper changes read in plan/oblique/front/rear; right-side members blend with armor, though mirrored geometry and masks verify presence.",
+          "evidenceSha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7"
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Current deterministic validation, source/export isolation and sampled motion pass; exact dimensions/style authority and complete recognition evidence remain unresolved.",
+          "evidenceSha256": "048f9fdc363afa42bc39921e3c6ba350e2c25e0284d141617ea6b4855c7d759e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Current deterministic validation, source/export isolation and sampled motion pass; exact dimensions/style authority and complete recognition evidence remain unresolved.",
+          "evidenceSha256": "c2c6bd1a3406705502d9762a81a4d72c75193857151a1c283fb143c5060a5847"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Current deterministic validation, source/export isolation and sampled motion pass; exact dimensions/style authority and complete recognition evidence remain unresolved.",
+          "evidenceSha256": "1c4d5904a46bc158fbe5608213bb1436fddd1797c53402e6d579a5626b0b4b06"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Current deterministic validation, source/export isolation and sampled motion pass; exact dimensions/style authority and complete recognition evidence remain unresolved.",
+          "evidenceSha256": "9cdcd4a6c0c500eaa37364fc595732662575565cc13db2762e175d77586401ce"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Current deterministic validation, source/export isolation and sampled motion pass; exact dimensions/style authority and complete recognition evidence remain unresolved.",
+          "evidenceSha256": "45f5e315f8bce7de88d83769832e727ee0216b2eb5c8902842ecb112b3520d80"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Current deterministic validation, source/export isolation and sampled motion pass; exact dimensions/style authority and complete recognition evidence remain unresolved.",
+          "evidenceSha256": "18e5471d0dec9401d2211fbf243194a324c545a7e73278ae9724ee59f7c529f7"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "authorization.json",
+          "observation": "Human-directed correction only.",
+          "evidenceSha256": "95c211a8b3b332e45ae515cf5f1fcaf4528301c60cd16c1b69feb7d9366d79ab"
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-render.json",
+          "observation": "Six current native views inspected.",
+          "evidenceSha256": "0d1873309487c4cfc1c5002d7919cf5c1a13d466a830f2e63925e3cf5c801c26"
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "independent-actual-geometry-r34.json",
+          "observation": "Preserved protected floor and gun; open attached basket.",
+          "evidenceSha256": "809a860cd21361f857313a84bdfab9ebaf585a91100a7445d605d2133916bdb9"
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "../../reference-map.json",
+          "observation": "Legacy dimension authority unavailable.",
+          "evidenceSha256": "2a543870ded6e00b36d5650d3bc44187696f9c41e32bc5a9396c0078ce3701b4"
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-baseline.json",
+          "observation": "Matching repeated render hash.",
+          "evidenceSha256": "bd0e8fd7ec8f471608443d1c48f67c7c823daa9fc303df02134394a5094b8fa2"
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-validation.json",
+          "observation": "Exact current native validation passed.",
+          "evidenceSha256": "23a12d25c8a69af6d45dc70ecf496cb960c1f66d4aba1c2975d7fd0df909546f"
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-validation.json",
+          "observation": "16344/20000 triangles,4/8 materials,69/80objects.",
+          "evidenceSha256": "23a12d25c8a69af6d45dc70ecf496cb960c1f66d4aba1c2975d7fd0df909546f"
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "component-plan.md",
+          "observation": "Four coupled replacements plus five distinct open-frame components.",
+          "evidenceSha256": "021894a2c90f7f6ab4715e324e6421a107fe4bb030a7a3ce1695c5955532fb45"
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-render.json",
+          "observation": "Exact checkpoint and native image hashes verified.",
+          "evidenceSha256": "0d1873309487c4cfc1c5002d7919cf5c1a13d466a830f2e63925e3cf5c801c26"
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "../../cc0-permission.json",
+          "observation": "Authored evidence authorized CC0; third-party pixels stay local.",
+          "evidenceSha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c"
+        }
+      ]
+    }
+  ],
+  "assessedBy": "/root",
+  "assessedAt": "2026-10-05T17:45:06.749Z",
+  "adversarialReview": {
+    "reviewedBy": "/root/review_support",
+    "reviewedAt": "2026-10-05T17:45:06.749Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "Open rear/side basket adds a missing subject cue, but plain roof/front/rear and unresolved variant recognition remain; no blind recognition evidence. Separate report SHA f3fcf678553cac6fffce964093593451bf20cd70c7c38a76eeaf794b906fd795",
+        "resolved": false
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "Open basket and side rails close the whole-feature omission. Plan shoulder/front roof and basket lower/rear/local protrusion residuals remain; front roof and track correspondences are uncertain. Separate report SHA f3fcf678553cac6fffce964093593451bf20cd70c7c38a76eeaf794b906fd795",
+        "resolved": false
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "Actual full protected cells, floor sections, shared seams, six bracket attachments and130 gun pairs pass. Sampled full yaw clearance passes; simplified anatomy and finite samples remain limitations. Separate report SHA f3fcf678553cac6fffce964093593451bf20cd70c7c38a76eeaf794b906fd795",
+        "resolved": false
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "Current deterministic validation, source/export isolation and sampled motion pass; exact dimensions/style authority and complete recognition evidence remain unresolved. Separate report SHA f3fcf678553cac6fffce964093593451bf20cd70c7c38a76eeaf794b906fd795",
+        "resolved": false
+      }
+    ]
+  }
+}

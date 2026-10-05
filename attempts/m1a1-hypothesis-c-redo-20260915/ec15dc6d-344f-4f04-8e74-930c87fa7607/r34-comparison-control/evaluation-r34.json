@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "weightedTotal": 50,
+  "recommendation": "no-go",
+  "effectiveDecision": "no-go",
+  "checks": {
+    "threshold": false,
+    "categoryFloors": true,
+    "coreFloors": false,
+    "hardGates": false,
+    "structuredEvidence": true,
+    "adversarialReview": false
+  },
+  "failures": [
+    {
+      "kind": "adversarial-objection",
+      "id": "identity-recognition",
+      "message": "Unresolved core-floor objection: Open rear/side basket adds a missing subject cue, but plain roof/front/rear and unresolved variant recognition remain; no blind recognition evidence. Separate report SHA f3fcf678553cac6fffce964093593451bf20cd70c7c38a76eeaf794b906fd795"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "silhouette",
+      "message": "Unresolved core-floor objection: Open basket and side rails close the whole-feature omission. Plan shoulder/front roof and basket lower/rear/local protrusion residuals remain; front roof and track correspondences are uncertain. Separate report SHA f3fcf678553cac6fffce964093593451bf20cd70c7c38a76eeaf794b906fd795"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "mechanical-coherence",
+      "message": "Unresolved core-floor objection: Actual full protected cells, floor sections, shared seams, six bracket attachments and130 gun pairs pass. Sampled full yaw clearance passes; simplified anatomy and finite samples remain limitations. Separate report SHA f3fcf678553cac6fffce964093593451bf20cd70c7c38a76eeaf794b906fd795"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "production-integrity",
+      "message": "Unresolved core-floor objection: Current deterministic validation, source/export isolation and sampled motion pass; exact dimensions/style authority and complete recognition evidence remain unresolved. Separate report SHA f3fcf678553cac6fffce964093593451bf20cd70c7c38a76eeaf794b906fd795"
+    },
+    {
+      "kind": "threshold",
+      "id": "weighted-total",
+      "message": "50 is below the 75-point threshold."
+    },
+    {
+      "kind": "core-floor",
+      "id": "identity-recognition",
+      "message": "Identity and recognition scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "silhouette",
+      "message": "Silhouette quality scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "mechanical-coherence",
+      "message": "Mechanical and structural coherence scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "production-integrity",
+      "message": "Production integrity scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "transform-grounding",
+      "message": "Transform and grounding correctness did not pass."
+    }
+  ],
+  "status": {
+    "technicalValidation": "fail",
+    "visualRecommendation": "no-go",
+    "humanApproval": "absent"
+  },
+  "overrideApplied": false,
+  "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+}
