@@ -1,0 +1,129 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-hypothesis-c-redo-20260915",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+    "revision": 33,
+    "checkpointSha256": "3ce4f7a3a4c8bdc16e34453775b531561dece6537abfaafdef3e75ae4f8c3e00"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "af4f5fbcae6972cd4af05c8fadf7f4c42925a27e90409c88e7d2a8bc98fdd99f",
+    "labeledSheet": {
+      "path": "contact-sheet.labeled.png",
+      "sha256": "8b66f8e8771a0b509660626e08169986a709b9b00065db3997377479e3d93fab",
+      "bytes": 877390
+    },
+    "files": [
+      {
+        "path": "renders/dimensional-comparison/physical-left.png",
+        "sha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a",
+        "bytes": 158444
+      },
+      {
+        "path": "renders/dimensional-comparison/physical-right.png",
+        "sha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274",
+        "bytes": 156622
+      },
+      {
+        "path": "renders/dimensional-comparison/front.png",
+        "sha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da",
+        "bytes": 154692
+      },
+      {
+        "path": "renders/dimensional-comparison/rear.png",
+        "sha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a",
+        "bytes": 155020
+      },
+      {
+        "path": "renders/dimensional-comparison/top.png",
+        "sha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850",
+        "bytes": 185052
+      },
+      {
+        "path": "renders/dimensional-comparison/three-quarter.png",
+        "sha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d",
+        "bytes": 169891
+      },
+      {
+        "path": "renders/contact-sheet.png",
+        "sha256": "36f32af453341b9c4a889efd3169006843856d33ebf5262de37a7bb7363159ab",
+        "bytes": 1030760
+      },
+      {
+        "path": "authored-independent-review.md",
+        "sha256": "40cda9ea46968d072953d48dd37bd7905bc46391d05872a3388be4a6277841cb",
+        "bytes": 4285
+      },
+      {
+        "path": "authored-adversarial-review.md",
+        "sha256": "46345cc08f19958f431027919f1540d67672b4a1cd79bf784cd63adab4a850a0",
+        "bytes": 8028
+      },
+      {
+        "path": "assessment-r33.json",
+        "sha256": "094efa0efddaa5306eb282d90107d4ef4304ff92c7fbbfbaf5c6131b883cb045",
+        "bytes": 27489
+      },
+      {
+        "path": "evaluation-r33.json",
+        "sha256": "e471511ffba48a7636d69bfb88859b9496aab0e99414afedee3e82a8d814ec0a",
+        "bytes": 3276
+      },
+      {
+        "path": "disposition.json",
+        "sha256": "84e589a70a5d9f3cb7703d1005fd8e94adea34b2247380964e442ac91714a7ae",
+        "bytes": 1586
+      },
+      {
+        "path": "revision-request.json",
+        "sha256": "95c211a8b3b332e45ae515cf5f1fcaf4528301c60cd16c1b69feb7d9366d79ab",
+        "bytes": 799
+      },
+      {
+        "path": "cc0-permission.json",
+        "sha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+        "bytes": 505
+      },
+      {
+        "path": "contact-sheet.labeled.png",
+        "sha256": "8b66f8e8771a0b509660626e08169986a709b9b00065db3997377479e3d93fab",
+        "bytes": 877390
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+        "sha256": "88224eaef332682c0906512c6ea1236bbfd2ac3687ee6d4a8c349c774cfe1cc2",
+        "author": "United States Marine Corps",
+        "license": "U.S. government authored material; reproduced for this local research packet. Mirror is not the author.",
+        "role": "Common M1A1 exterior reference; no reference pixels archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George — changes requested at construction comparison only",
+    "decidedAt": "2026-10-05T17:24:05.955271Z",
+    "quote": "ok can you update the model so that we address all of the highlighted areas"
+  },
+  "notes": [
+    "Requester asks for highlighted-area revisions; changes-requested disposition is scoped to construction comparison, not rejection of preserved r33 local improvements or a source approval decision.",
+    "r33 stays the rollback baseline. Earlier technical passes and local retention findings remain historical; whole-model no-go unchanged.",
+    "Only model-only authored evidence archived; third-party reference pixels and reference-embedded comparison sheets excluded. Exact requested comparison identity recorded below.",
+    "No blend/GLB source archived for this changes-requested comparison.",
+    "Actual reference-containing comparison retained locally, excluded from public pixels: comparison-20261005/rear-coverage-v3/abrams-r33-missing-rear-assembly.png SHA256 6cc85ca0af51cae35e4d294010d7cd480fba62f5f40d38c818509d443615c70e"
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "m1a1-r33-directed-upper-taper",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "m1a1-hypothesis-c-redo-20260915",
+    "revisionId": "main-r33",
+    "revision": 33
+  },
+  "evidenceSet": {
+    "revision": 33,
+    "checkpointSha256": "3ce4f7a3a4c8bdc16e34453775b531561dece6537abfaafdef3e75ae4f8c3e00",
+    "renderSetSha256": "1f5eec48b0fd6c06cf3fe24f42aa7ccdba4efc3a12e1b5a20d41c26ecc8c2daa",
+    "requiredViews": [
+      {
+        "viewId": "physical-left",
+        "width": 960,
+        "height": 640,
+        "sha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a"
+      },
+      {
+        "viewId": "physical-right",
+        "width": 960,
+        "height": 640,
+        "sha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274"
+      },
+      {
+        "viewId": "front",
+        "width": 960,
+        "height": 640,
+        "sha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da"
+      },
+      {
+        "viewId": "rear",
+        "width": 960,
+        "height": 640,
+        "sha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a"
+      },
+      {
+        "viewId": "top",
+        "width": 960,
+        "height": 640,
+        "sha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850"
+      },
+      {
+        "viewId": "three-quarter",
+        "width": 960,
+        "height": 640,
+        "sha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d"
+      }
+    ],
+    "validation": {
+      "reportId": "5d6e3469-bc57-4145-836e-273c154555bd",
+      "revision": 33,
+      "checkpointSha256": "3ce4f7a3a4c8bdc16e34453775b531561dece6537abfaafdef3e75ae4f8c3e00",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Long cannon, wedge turret and seven-wheel tracked hull remain recognizable tank cues; plain front/rear/roof do not establish M1A1-specific recognition across required small views.",
+          "evidenceSha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Long cannon, wedge turret and seven-wheel tracked hull remain recognizable tank cues; plain front/rear/roof do not establish M1A1-specific recognition across required small views.",
+          "evidenceSha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Long cannon, wedge turret and seven-wheel tracked hull remain recognizable tank cues; plain front/rear/roof do not establish M1A1-specific recognition across required small views.",
+          "evidenceSha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Long cannon, wedge turret and seven-wheel tracked hull remain recognizable tank cues; plain front/rear/roof do not establish M1A1-specific recognition across required small views.",
+          "evidenceSha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Long cannon, wedge turret and seven-wheel tracked hull remain recognizable tank cues; plain front/rear/roof do not establish M1A1-specific recognition across required small views.",
+          "evidenceSha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Long cannon, wedge turret and seven-wheel tracked hull remain recognizable tank cues; plain front/rear/roof do not establish M1A1-specific recognition across required small views.",
+          "evidenceSha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d"
+        }
+      ]
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Front and plan upper inset now follows the reference-informed taper direction while longitudinal and height relationships remain; projected ratios do not establish authoritative whole-model dimensions.",
+          "evidenceSha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Front and plan upper inset now follows the reference-informed taper direction while longitudinal and height relationships remain; projected ratios do not establish authoritative whole-model dimensions.",
+          "evidenceSha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Front and plan upper inset now follows the reference-informed taper direction while longitudinal and height relationships remain; projected ratios do not establish authoritative whole-model dimensions.",
+          "evidenceSha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Front and plan upper inset now follows the reference-informed taper direction while longitudinal and height relationships remain; projected ratios do not establish authoritative whole-model dimensions.",
+          "evidenceSha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Front and plan upper inset now follows the reference-informed taper direction while longitudinal and height relationships remain; projected ratios do not establish authoritative whole-model dimensions.",
+          "evidenceSha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Front and plan upper inset now follows the reference-informed taper direction while longitudinal and height relationships remain; projected ratios do not establish authoritative whole-model dimensions.",
+          "evidenceSha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d"
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "All six native views retain accepted side contour; sloping shoulders and narrower roof improve front/rear/top. Complete M1A1 contour qualification remains unresolved despite closing the local aft shelf defect.",
+          "evidenceSha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "All six native views retain accepted side contour; sloping shoulders and narrower roof improve front/rear/top. Complete M1A1 contour qualification remains unresolved despite closing the local aft shelf defect.",
+          "evidenceSha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "All six native views retain accepted side contour; sloping shoulders and narrower roof improve front/rear/top. Complete M1A1 contour qualification remains unresolved despite closing the local aft shelf defect.",
+          "evidenceSha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "All six native views retain accepted side contour; sloping shoulders and narrower roof improve front/rear/top. Complete M1A1 contour qualification remains unresolved despite closing the local aft shelf defect.",
+          "evidenceSha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "All six native views retain accepted side contour; sloping shoulders and narrower roof improve front/rear/top. Complete M1A1 contour qualification remains unresolved despite closing the local aft shelf defect.",
+          "evidenceSha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "All six native views retain accepted side contour; sloping shoulders and narrower roof improve front/rear/top. Complete M1A1 contour qualification remains unresolved despite closing the local aft shelf defect.",
+          "evidenceSha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d"
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Roof and shoulder separation is clearer. Broad plain hull, roof and running-gear masses remain incomplete.",
+          "evidenceSha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Roof and shoulder separation is clearer. Broad plain hull, roof and running-gear masses remain incomplete.",
+          "evidenceSha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Roof and shoulder separation is clearer. Broad plain hull, roof and running-gear masses remain incomplete.",
+          "evidenceSha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Roof and shoulder separation is clearer. Broad plain hull, roof and running-gear masses remain incomplete.",
+          "evidenceSha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Roof and shoulder separation is clearer. Broad plain hull, roof and running-gear masses remain incomplete.",
+          "evidenceSha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Roof and shoulder separation is clearer. Broad plain hull, roof and running-gear masses remain incomplete.",
+          "evidenceSha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d"
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Full rising floor boundary protected; 97 actual aft sections close the former shelf. Sampled hull sweeps and independent gun checks pass, but simplified anatomy and finite diagnostics do not establish whole-model or continuous-motion qualification.",
+          "evidenceSha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Full rising floor boundary protected; 97 actual aft sections close the former shelf. Sampled hull sweeps and independent gun checks pass, but simplified anatomy and finite diagnostics do not establish whole-model or continuous-motion qualification.",
+          "evidenceSha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Full rising floor boundary protected; 97 actual aft sections close the former shelf. Sampled hull sweeps and independent gun checks pass, but simplified anatomy and finite diagnostics do not establish whole-model or continuous-motion qualification.",
+          "evidenceSha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Full rising floor boundary protected; 97 actual aft sections close the former shelf. Sampled hull sweeps and independent gun checks pass, but simplified anatomy and finite diagnostics do not establish whole-model or continuous-motion qualification.",
+          "evidenceSha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Full rising floor boundary protected; 97 actual aft sections close the former shelf. Sampled hull sweeps and independent gun checks pass, but simplified anatomy and finite diagnostics do not establish whole-model or continuous-motion qualification.",
+          "evidenceSha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Full rising floor boundary protected; 97 actual aft sections close the former shelf. Sampled hull sweeps and independent gun checks pass, but simplified anatomy and finite diagnostics do not establish whole-model or continuous-motion qualification.",
+          "evidenceSha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d"
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Four neutral construction materials remain flat and unfinished; no immutable art-style binding is available.",
+          "evidenceSha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Four neutral construction materials remain flat and unfinished; no immutable art-style binding is available.",
+          "evidenceSha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Four neutral construction materials remain flat and unfinished; no immutable art-style binding is available.",
+          "evidenceSha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Four neutral construction materials remain flat and unfinished; no immutable art-style binding is available.",
+          "evidenceSha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Four neutral construction materials remain flat and unfinished; no immutable art-style binding is available.",
+          "evidenceSha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Four neutral construction materials remain flat and unfinished; no immutable art-style binding is available.",
+          "evidenceSha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d"
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "All six native views inspected; no new local contour, roof, shoulder or gun seating regression observed. Weak front/rear/top subject specificity remains.",
+          "evidenceSha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "All six native views inspected; no new local contour, roof, shoulder or gun seating regression observed. Weak front/rear/top subject specificity remains.",
+          "evidenceSha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "All six native views inspected; no new local contour, roof, shoulder or gun seating regression observed. Weak front/rear/top subject specificity remains.",
+          "evidenceSha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "All six native views inspected; no new local contour, roof, shoulder or gun seating regression observed. Weak front/rear/top subject specificity remains.",
+          "evidenceSha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "All six native views inspected; no new local contour, roof, shoulder or gun seating regression observed. Weak front/rear/top subject specificity remains.",
+          "evidenceSha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "All six native views inspected; no new local contour, roof, shoulder or gun seating regression observed. Weak front/rear/top subject specificity remains.",
+          "evidenceSha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d"
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "observation": "Native validation, budgets, deterministic render, actual source/export checks, isolation and sampled motion pass for r33. Missing authoritative dimensions/style and whole-model readiness remain unresolved.",
+          "evidenceSha256": "4800565ecc8d088b2dcd137c1493e47e5744dcdddca6c8d47294d31434357d9a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "observation": "Native validation, budgets, deterministic render, actual source/export checks, isolation and sampled motion pass for r33. Missing authoritative dimensions/style and whole-model readiness remain unresolved.",
+          "evidenceSha256": "734d867d9e51f5462c96da09654d60f881598827a49f350d35d8ebeee2dfe274"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Native validation, budgets, deterministic render, actual source/export checks, isolation and sampled motion pass for r33. Missing authoritative dimensions/style and whole-model readiness remain unresolved.",
+          "evidenceSha256": "34185bc1d796abbe2a11baa7418f2e1ce495a50f06f182029d7097e4b851d7da"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Native validation, budgets, deterministic render, actual source/export checks, isolation and sampled motion pass for r33. Missing authoritative dimensions/style and whole-model readiness remain unresolved.",
+          "evidenceSha256": "e5c9c8922272fbbc76eba6eb482347d7e2cb57489d6008f624d1f6e31a1b458a"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Native validation, budgets, deterministic render, actual source/export checks, isolation and sampled motion pass for r33. Missing authoritative dimensions/style and whole-model readiness remain unresolved.",
+          "evidenceSha256": "af402f99977a00d0ef502dbe046caf6ccb8253949e723c360b250a2fa3edc850"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "observation": "Native validation, budgets, deterministic render, actual source/export checks, isolation and sampled motion pass for r33. Missing authoritative dimensions/style and whole-model readiness remain unresolved.",
+          "evidenceSha256": "9446f1564f5d2e9665f5a17138f5295d11d047c37c27d02efde301ade4f2ab0d"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "../reference-map.json",
+          "observation": "Original experimental source and explicit pilot direction; no asset gate inferred.",
+          "evidenceSha256": "2a543870ded6e00b36d5650d3bc44187696f9c41e32bc5a9396c0078ce3701b4"
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-render.json",
+          "observation": "Six exact r33 views inspected; no clipping.",
+          "evidenceSha256": "45c83fc1e07193dbc86e3ef85e258774f7d159ceff826e47be040ad9eceb1148"
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "export-verification.json",
+          "observation": "Prior aft shelf closed; complete rising interface preserved, native and independent sampled motion checks pass.",
+          "evidenceSha256": "146db6778281f5028fd17913fd91be6819acba1889d4873b2244aece31f03978"
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "../reference-map.json",
+          "observation": "Legacy construction has no bound authoritative dimension specification.",
+          "evidenceSha256": "2a543870ded6e00b36d5650d3bc44187696f9c41e32bc5a9396c0078ce3701b4"
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-baseline.json",
+          "observation": "Both baseline hashes match production r33 hash.",
+          "evidenceSha256": "b3e521c125e00f1a61faa69f49d377bd506d3371fa7565dd6ff9a746bd70667b"
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-validation.json",
+          "observation": "Exact current r33 native validation passed without issues.",
+          "evidenceSha256": "0e568fa6747de4ea1d65a881a11df330ff02d03ee8e6117b923a4eda5c50df00"
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-validation.json",
+          "observation": "15852/20000 triangles,4/8 materials,64/80 objects.",
+          "evidenceSha256": "0e568fa6747de4ea1d65a881a11df330ff02d03ee8e6117b923a4eda5c50df00"
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "replacement-result.json",
+          "observation": "Four exact named components replaced; no added object.",
+          "evidenceSha256": "024900929dc0813eb23138f132852d65a8f0a65faa0dbb24f2582fd832628a10"
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-render.json",
+          "observation": "Six native PNG hashes independently verified; exact r33 checkpoint remains pinned.",
+          "evidenceSha256": "45c83fc1e07193dbc86e3ef85e258774f7d159ceff826e47be040ad9eceb1148"
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "../cc0-permission.json",
+          "observation": "Original authored geometry, attributable references; public CC0 authorized; third-party pixels excluded.",
+          "evidenceSha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c"
+        }
+      ]
+    }
+  ],
+  "assessedBy": "/root",
+  "assessedAt": "2026-10-02T17:16:28.862Z",
+  "adversarialReview": {
+    "reviewedBy": "/root/review_support",
+    "reviewedAt": "2026-10-02T17:16:28.862Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "Long cannon, wedge turret and seven-wheel tracked hull remain recognizable tank cues; plain front/rear/roof do not establish M1A1-specific recognition across required small views. Separate adversarial report SHA-256 46345cc08f19958f431027919f1540d67672b4a1cd79bf784cd63adab4a850a0",
+        "resolved": false
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "All six native views retain accepted side contour; sloping shoulders and narrower roof improve front/rear/top. Complete M1A1 contour qualification remains unresolved despite closing the local aft shelf defect. Separate adversarial report SHA-256 46345cc08f19958f431027919f1540d67672b4a1cd79bf784cd63adab4a850a0",
+        "resolved": false
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "Full rising floor boundary protected; 97 actual aft sections close the former shelf. Sampled hull sweeps and independent gun checks pass, but simplified anatomy and finite diagnostics do not establish whole-model or continuous-motion qualification. Separate adversarial report SHA-256 46345cc08f19958f431027919f1540d67672b4a1cd79bf784cd63adab4a850a0",
+        "resolved": false
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "Native validation, budgets, deterministic render, actual source/export checks, isolation and sampled motion pass for r33. Missing authoritative dimensions/style and whole-model readiness remain unresolved. Separate adversarial report SHA-256 46345cc08f19958f431027919f1540d67672b4a1cd79bf784cd63adab4a850a0",
+        "resolved": false
+      }
+    ]
+  }
+}

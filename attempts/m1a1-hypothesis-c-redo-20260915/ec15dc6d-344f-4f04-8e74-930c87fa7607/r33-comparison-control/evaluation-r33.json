@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "weightedTotal": 50,
+  "recommendation": "no-go",
+  "effectiveDecision": "no-go",
+  "checks": {
+    "threshold": false,
+    "categoryFloors": true,
+    "coreFloors": false,
+    "hardGates": false,
+    "structuredEvidence": true,
+    "adversarialReview": false
+  },
+  "failures": [
+    {
+      "kind": "adversarial-objection",
+      "id": "identity-recognition",
+      "message": "Unresolved core-floor objection: Long cannon, wedge turret and seven-wheel tracked hull remain recognizable tank cues; plain front/rear/roof do not establish M1A1-specific recognition across required small views. Separate adversarial report SHA-256 46345cc08f19958f431027919f1540d67672b4a1cd79bf784cd63adab4a850a0"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "silhouette",
+      "message": "Unresolved core-floor objection: All six native views retain accepted side contour; sloping shoulders and narrower roof improve front/rear/top. Complete M1A1 contour qualification remains unresolved despite closing the local aft shelf defect. Separate adversarial report SHA-256 46345cc08f19958f431027919f1540d67672b4a1cd79bf784cd63adab4a850a0"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "mechanical-coherence",
+      "message": "Unresolved core-floor objection: Full rising floor boundary protected; 97 actual aft sections close the former shelf. Sampled hull sweeps and independent gun checks pass, but simplified anatomy and finite diagnostics do not establish whole-model or continuous-motion qualification. Separate adversarial report SHA-256 46345cc08f19958f431027919f1540d67672b4a1cd79bf784cd63adab4a850a0"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "production-integrity",
+      "message": "Unresolved core-floor objection: Native validation, budgets, deterministic render, actual source/export checks, isolation and sampled motion pass for r33. Missing authoritative dimensions/style and whole-model readiness remain unresolved. Separate adversarial report SHA-256 46345cc08f19958f431027919f1540d67672b4a1cd79bf784cd63adab4a850a0"
+    },
+    {
+      "kind": "threshold",
+      "id": "weighted-total",
+      "message": "50 is below the 75-point threshold."
+    },
+    {
+      "kind": "core-floor",
+      "id": "identity-recognition",
+      "message": "Identity and recognition scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "silhouette",
+      "message": "Silhouette quality scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "mechanical-coherence",
+      "message": "Mechanical and structural coherence scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "production-integrity",
+      "message": "Production integrity scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "transform-grounding",
+      "message": "Transform and grounding correctness did not pass."
+    }
+  ],
+  "status": {
+    "technicalValidation": "fail",
+    "visualRecommendation": "no-go",
+    "humanApproval": "absent"
+  },
+  "overrideApplied": false,
+  "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+}

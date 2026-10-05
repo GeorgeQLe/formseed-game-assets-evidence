@@ -1,0 +1,30 @@
+{
+  "recordedAt": "2026-10-02T17:16:28.862Z",
+  "revision": 33,
+  "checkpointSha256": "3ce4f7a3a4c8bdc16e34453775b531561dece6537abfaafdef3e75ae4f8c3e00",
+  "status": "retained-awaiting-construction-feedback",
+  "reason": "Supported upper taper retained with complete rising floor boundary; independent whole-form and adversarial reviews find no new local regression; exact current technical checks pass.",
+  "technicalValidation": {
+    "nativePassed": true,
+    "triangles": 15852,
+    "materials": 4,
+    "objects": 64,
+    "actualExportVerified": true,
+    "nativeIsolation": true,
+    "componentMasks": 72,
+    "sampledComponentPoses": 3060,
+    "minimumFloorClearanceMeters": 0.029484813572656216,
+    "gunPairChecks": 80,
+    "strictGunIntrusions": 0,
+    "limitations": "Exact same BVH triangle piercing / vertex-face / edge-edge distance kernel as prior runner; independently sharded by component/elevation. 360 yaw at5degrees with +/-5degree neighborhoods of coarse local minima/plateau ends/global minimum at0.5degree. Rigid turret components equivalent at both gun elevations. Numerical comparison threshold1e-6m; finite samples, no certified error bound or continuous guarantee."
+  },
+  "visualRecommendation": {
+    "scoped": "retain requested correction",
+    "wholeModel": "no-go",
+    "weightedTotal": 50,
+    "artStyle": "unassessable without immutable profile"
+  },
+  "humanApproval": "pending for r33; correction authorization is not approval",
+  "archive": "pending human gate decision; no approved/disputed source archive created",
+  "lease": "released normally"
+}
