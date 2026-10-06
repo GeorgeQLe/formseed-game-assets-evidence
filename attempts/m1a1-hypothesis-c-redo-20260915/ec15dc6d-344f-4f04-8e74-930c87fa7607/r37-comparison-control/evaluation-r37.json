@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "2.0.0",
+  "weightedTotal": 50,
+  "recommendation": "no-go",
+  "effectiveDecision": "no-go",
+  "checks": {
+    "threshold": false,
+    "categoryFloors": true,
+    "coreFloors": false,
+    "hardGates": false,
+    "structuredEvidence": true,
+    "adversarialReview": false
+  },
+  "failures": [
+    {
+      "kind": "adversarial-objection",
+      "id": "identity-recognition",
+      "message": "Unresolved core-floor objection: Broader forward roof improves the construction silhouette; roof fittings, complete variant cues and independent256px recognition evidence remain missing. Independent review SHA256 194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "silhouette",
+      "message": "Unresolved core-floor objection: Basket, lower turret and gun remain intact. Forward transition is closer to the reference region but the changed lateral branch now follows the observed oblique transition; central gun-adjacent identity remains unresolved. Independent review SHA256 194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "mechanical-coherence",
+      "message": "Unresolved core-floor objection: Actual gun contacts and58 sibling meshes are preserved. An inherited local shoulder lip is measured at8.84mm in r37, versus8.77mm in r36; this is not a global maximum. It remains a join-quality defect despite no broad disconnected mass in native views. Independent review SHA256 194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "production-integrity",
+      "message": "Unresolved core-floor objection: Current deterministic render and technical validation pass; exact recipe/export and native isolation checks pass. Legacy dimension authority, style binding, recognition and complete form qualification remain unresolved. Independent review SHA256 194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593"
+    },
+    {
+      "kind": "threshold",
+      "id": "weighted-total",
+      "message": "50 is below the 75-point threshold."
+    },
+    {
+      "kind": "core-floor",
+      "id": "identity-recognition",
+      "message": "Identity and recognition scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "silhouette",
+      "message": "Silhouette quality scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "mechanical-coherence",
+      "message": "Mechanical and structural coherence scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "production-integrity",
+      "message": "Production integrity scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "structural-plausibility",
+      "message": "Structural plausibility did not pass."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "transform-grounding",
+      "message": "Transform and grounding correctness did not pass."
+    }
+  ],
+  "status": {
+    "technicalValidation": "fail",
+    "visualRecommendation": "no-go",
+    "humanApproval": "absent"
+  },
+  "overrideApplied": false,
+  "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+}

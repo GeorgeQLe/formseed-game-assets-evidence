@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-06",
+  "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+  "revision": 37,
+  "checkpoint": {
+    "checkpointId": "67e9ba0f-a0dd-4ac4-a7bf-851833575df8",
+    "checkpointHash": "5ebcbf4547e99dd629c1cd1f71a5c9cd84e549d149d31e5517499b53472bce7f"
+  },
+  "glbSha256": "468004050a4876a22d2189b302b92f3ce119a86867b6e54c68d70ac27038975d",
+  "renderHash": "7dac6ebe2193e77282a0c3a359a38bbd2fec38e6906efa6f653dcb2ac52e48c5",
+  "contactSheetHash": "5ab76ba54607049305a344d64b6fd99a47685d0c88e467d1ba090c30f512592a",
+  "status": "retained-for-approximate-construction-feedback",
+  "changedComponents": [
+    "redo-integrated-roof"
+  ],
+  "recipeSha256": "b6c754bc01e95bc0253ef3593004e75d93caa105dd28b64d17836de1771f7630",
+  "technicalValidation": {
+    "producerPassed": true,
+    "issues": [],
+    "deterministic": true,
+    "triangles": 16788,
+    "materials": 4,
+    "objects": 71,
+    "unchangedOtherMeshes": 58,
+    "unchangedTransformRecords": 67,
+    "nativeIsolationProbes": 59,
+    "verifiedRoofMaskPngs": 18,
+    "actualGunContactFacesPreserved": 10,
+    "maximumRecipeRealizationErrorMeters": 1.0271386741923963e-07,
+    "continuousPrescribedGunSeparationLowerBoundMeters": 0.001581677416861214,
+    "motionLimits": "0..20degree elevation plus shared yaw; no recoil/depression qualification"
+  },
+  "visualRecommendation": {
+    "scoped": "Retain descending lateral transition; independent whole-form and adversarial reviews separate from whole-model qualification.",
+    "wholeModel": "no-go",
+    "modelQualityWeightedTotal": 50,
+    "categoryScores": "All eight2/4; exact evaluator assessment-r37.json/evaluation-r37.json",
+    "artStyle": "no-go: immutable bound style authority unavailable",
+    "residuals": [
+      "Same lateral negative branchmean7.333/max8.857px inside10px band; positiveunchangedmean3.412/max7.366. Only assessed lateral mismatch closed at requested approximate precision.",
+      "Central gun-adjacent continuation, complete stowage/equipment and historical elevation remain unresolved.",
+      "Inherited sampled shoulder lip8.835mm (+0.062mm versus r36); no clean-join/globalmaximum claim."
+    ],
+    "rubricTechnicalQualification": "fail: unresolved structural-plausibility and dimension-authority gates; distinct from passing native technical validation"
+  },
+  "humanApproval": "Correction requested; resulting r37 model approval absent",
+  "accounting": {
+    "classification": "human-directed",
+    "autonomousBudgetCharge": 0,
+    "autonomousRemaining": 0,
+    "completeCanonicalCandidates": 1,
+    "localRejectedPreparations": "rejected-local-deformation.mjs never dispatched"
+  },
+  "archive": "r36 authored evidence archived/pushed/stamped at9e3998f207ae878cadc7274b8499afea214e39b1; r37 decision pending",
+  "desktopPreview": "not-retargeted: computer-use control unavailable; verified new labeled PNG provided by file link",
+  "approvalPromotionIntegration": false,
+  "lease": "released normally; epoch50"
+}

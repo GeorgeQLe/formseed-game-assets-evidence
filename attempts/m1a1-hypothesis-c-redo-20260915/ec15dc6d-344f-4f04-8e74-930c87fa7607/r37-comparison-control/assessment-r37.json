@@ -1,0 +1,384 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "m1a1-r37-forward-roof-chamfer",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "m1a1-hypothesis-c-redo-20260915",
+    "revisionId": "main-r37",
+    "revision": 37
+  },
+  "evidenceSet": {
+    "revision": 37,
+    "checkpointSha256": "5ebcbf4547e99dd629c1cd1f71a5c9cd84e549d149d31e5517499b53472bce7f",
+    "renderSetSha256": "42f2087e0084445bc7a1c07a1916af33ee01c1fddc5c8c50f6b60b1b5b24b161",
+    "requiredViews": [
+      {
+        "viewId": "physical-left",
+        "width": 960,
+        "height": 640,
+        "sha256": "ff59dde7a90193726c007ca76a32c561015ff7b9f4dfa578edc20ae6c014d68f"
+      },
+      {
+        "viewId": "physical-right",
+        "width": 960,
+        "height": 640,
+        "sha256": "5250ad03afb34845d4d427d6f21841599a1a238960994dd06ca9df3b2079f080"
+      },
+      {
+        "viewId": "front",
+        "width": 960,
+        "height": 640,
+        "sha256": "a88eab22807c0e1d1115913600bbe11d0496e6a0f830ba6889316f7473e05a04"
+      },
+      {
+        "viewId": "rear",
+        "width": 960,
+        "height": 640,
+        "sha256": "345e3c960324b99b6818a4672dc47e487facb1db50bcb6b9c734a4c44274b589"
+      },
+      {
+        "viewId": "top",
+        "width": 960,
+        "height": 640,
+        "sha256": "39b42c93660dc4fb6fce789292307c201d9dfa408de6354b5c604541266d64c3"
+      },
+      {
+        "viewId": "three-quarter",
+        "width": 960,
+        "height": 640,
+        "sha256": "ae6a286cccf074b0be3aa657835054fdc8dd859f19453ad64b0ec6b0e2bd42e7"
+      }
+    ],
+    "validation": {
+      "reportId": "6cc4f8b6-b84e-43a5-9465-32d4b08f9186",
+      "revision": 37,
+      "checkpointSha256": "5ebcbf4547e99dd629c1cd1f71a5c9cd84e549d149d31e5517499b53472bce7f",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "39b42c93660dc4fb6fce789292307c201d9dfa408de6354b5c604541266d64c3",
+          "observation": "Broader forward roof improves the construction silhouette; roof fittings, complete variant cues and independent256px recognition evidence remain missing."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "evidenceSha256": "ae6a286cccf074b0be3aa657835054fdc8dd859f19453ad64b0ec6b0e2bd42e7",
+          "observation": "Broader forward roof improves the construction silhouette; roof fittings, complete variant cues and independent256px recognition evidence remain missing."
+        }
+      ]
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "39b42c93660dc4fb6fce789292307c201d9dfa408de6354b5c604541266d64c3",
+          "observation": "The tapered roof removes the old deep central recess with a small side-profile change. Both sampled lateral branches lie within the unchanged10px band; central continuation remains obscured and actual elevation is a construction choice."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "evidenceSha256": "ff59dde7a90193726c007ca76a32c561015ff7b9f4dfa578edc20ae6c014d68f",
+          "observation": "The tapered roof removes the old deep central recess with a small side-profile change. Both sampled lateral branches lie within the unchanged10px band; central continuation remains obscured and actual elevation is a construction choice."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "evidenceSha256": "5250ad03afb34845d4d427d6f21841599a1a238960994dd06ca9df3b2079f080",
+          "observation": "The tapered roof removes the old deep central recess with a small side-profile change. Both sampled lateral branches lie within the unchanged10px band; central continuation remains obscured and actual elevation is a construction choice."
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "39b42c93660dc4fb6fce789292307c201d9dfa408de6354b5c604541266d64c3",
+          "observation": "Basket, lower turret and gun remain intact. Forward transition is closer to the reference region but the changed lateral branch now follows the observed oblique transition; central gun-adjacent identity remains unresolved."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "a88eab22807c0e1d1115913600bbe11d0496e6a0f830ba6889316f7473e05a04",
+          "observation": "Basket, lower turret and gun remain intact. Forward transition is closer to the reference region but the changed lateral branch now follows the observed oblique transition; central gun-adjacent identity remains unresolved."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "evidenceSha256": "ff59dde7a90193726c007ca76a32c561015ff7b9f4dfa578edc20ae6c014d68f",
+          "observation": "Basket, lower turret and gun remain intact. Forward transition is closer to the reference region but the changed lateral branch now follows the observed oblique transition; central gun-adjacent identity remains unresolved."
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "39b42c93660dc4fb6fce789292307c201d9dfa408de6354b5c604541266d64c3",
+          "observation": "A descending negative-Y chamfer and retriangulated apron follow the observed oblique boundary. Local shoulder seam fragments remain visible; detailed equipment and stowage remain incomplete."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "evidenceSha256": "ae6a286cccf074b0be3aa657835054fdc8dd859f19453ad64b0ec6b0e2bd42e7",
+          "observation": "A descending negative-Y chamfer and retriangulated apron follow the observed oblique boundary. Local shoulder seam fragments remain visible; detailed equipment and stowage remain incomplete."
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "39b42c93660dc4fb6fce789292307c201d9dfa408de6354b5c604541266d64c3",
+          "observation": "Actual gun contacts and58 sibling meshes are preserved. An inherited local shoulder lip is measured at8.84mm in r37, versus8.77mm in r36; this is not a global maximum. It remains a join-quality defect despite no broad disconnected mass in native views."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "evidenceSha256": "ae6a286cccf074b0be3aa657835054fdc8dd859f19453ad64b0ec6b0e2bd42e7",
+          "observation": "Actual gun contacts and58 sibling meshes are preserved. An inherited local shoulder lip is measured at8.84mm in r37, versus8.77mm in r36; this is not a global maximum. It remains a join-quality defect despite no broad disconnected mass in native views."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "a88eab22807c0e1d1115913600bbe11d0496e6a0f830ba6889316f7473e05a04",
+          "observation": "Actual gun contacts and58 sibling meshes are preserved. An inherited local shoulder lip is measured at8.84mm in r37, versus8.77mm in r36; this is not a global maximum. It remains a join-quality defect despite no broad disconnected mass in native views."
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "evidenceSha256": "ae6a286cccf074b0be3aa657835054fdc8dd859f19453ad64b0ec6b0e2bd42e7",
+          "observation": "Four neutral construction materials remain. Thin shoulder seam fragments and low right-basket contrast persist; final surface treatment and immutable style authority are unavailable."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "evidenceSha256": "5250ad03afb34845d4d427d6f21841599a1a238960994dd06ca9df3b2079f080",
+          "observation": "Four neutral construction materials remain. Thin shoulder seam fragments and low right-basket contrast persist; final surface treatment and immutable style authority are unavailable."
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "39b42c93660dc4fb6fce789292307c201d9dfa408de6354b5c604541266d64c3",
+          "observation": "All six native views inspected; connected roof reads consistently and rear basket/grille remain intact. Neutral lighting limits seam interpretation and wider recognition evidence is incomplete."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "evidenceSha256": "ae6a286cccf074b0be3aa657835054fdc8dd859f19453ad64b0ec6b0e2bd42e7",
+          "observation": "All six native views inspected; connected roof reads consistently and rear basket/grille remain intact. Neutral lighting limits seam interpretation and wider recognition evidence is incomplete."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "evidenceSha256": "345e3c960324b99b6818a4672dc47e487facb1db50bcb6b9c734a4c44274b589",
+          "observation": "All six native views inspected; connected roof reads consistently and rear basket/grille remain intact. Neutral lighting limits seam interpretation and wider recognition evidence is incomplete."
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "a88eab22807c0e1d1115913600bbe11d0496e6a0f830ba6889316f7473e05a04",
+          "observation": "Current deterministic render and technical validation pass; exact recipe/export and native isolation checks pass. Legacy dimension authority, style binding, recognition and complete form qualification remain unresolved."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "evidenceSha256": "345e3c960324b99b6818a4672dc47e487facb1db50bcb6b9c734a4c44274b589",
+          "observation": "Current deterministic render and technical validation pass; exact recipe/export and native isolation checks pass. Legacy dimension authority, style binding, recognition and complete form qualification remain unresolved."
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "authorization.json",
+          "evidenceSha256": "05b82b631693fbe724aeb94c79d08283c7ac7903c9a782024c5e1f2a72fccecd",
+          "observation": "Current r37 evidence; technical results and correction authorization do not approve the resulting model."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-render.json",
+          "evidenceSha256": "bf5701314583960013da702975f07f797bcdbd6942a8e1512c2ddb89bad08fa9",
+          "observation": "Current r37 evidence; technical results and correction authorization do not approve the resulting model."
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "authored-adversarial-review.md",
+          "evidenceSha256": "194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593",
+          "observation": "Inherited local shoulder lip and unresolved complete mechanical/form evidence block whole-model qualification."
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "starting-preflight.json",
+          "evidenceSha256": "fc2dea7e07d20dafe86b5f06bf7e06277bec34fa2ee3042a5d4b5a88d98b09c2",
+          "observation": "Legacy dimension authority remains unavailable."
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-baseline.json",
+          "evidenceSha256": "1fa249d06d15fd3f48d1c091082e6727f2cade5c228395e00e2d0bbcf65c870b",
+          "observation": "Current r37 evidence; technical results and correction authorization do not approve the resulting model."
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-validation.json",
+          "evidenceSha256": "9206c3b3a465ee6a952b2f287974bb0eb8662073e13ee56d6e1f36e2cb6aa937",
+          "observation": "Current r37 evidence; technical results and correction authorization do not approve the resulting model."
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "candidate-validation.json",
+          "evidenceSha256": "9206c3b3a465ee6a952b2f287974bb0eb8662073e13ee56d6e1f36e2cb6aa937",
+          "observation": "Current r37 evidence; technical results and correction authorization do not approve the resulting model."
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "component-plan.md",
+          "evidenceSha256": "2aa83d937744237c453e3a5aa34409babc698519efcf8486d206dec93bf0a3af",
+          "observation": "Current r37 evidence; technical results and correction authorization do not approve the resulting model."
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "actual-geometry-verification.json",
+          "evidenceSha256": "0d32e715ff3ec33054e099a5e28ed3af8c46fcd5e472d4890ab318371f985e8d",
+          "observation": "Current r37 evidence; technical results and correction authorization do not approve the resulting model."
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "../../../cc0-permission.json",
+          "evidenceSha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+          "observation": "Current r37 evidence; technical results and correction authorization do not approve the resulting model."
+        }
+      ]
+    }
+  ],
+  "assessedBy": "/root",
+  "assessedAt": "2026-10-06T15:27:02.673Z",
+  "adversarialReview": {
+    "reviewedBy": "/root/review_support",
+    "reviewedAt": "2026-10-06T15:27:02.673Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "Broader forward roof improves the construction silhouette; roof fittings, complete variant cues and independent256px recognition evidence remain missing. Independent review SHA256 194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593",
+        "resolved": false
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "Basket, lower turret and gun remain intact. Forward transition is closer to the reference region but the changed lateral branch now follows the observed oblique transition; central gun-adjacent identity remains unresolved. Independent review SHA256 194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593",
+        "resolved": false
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "Actual gun contacts and58 sibling meshes are preserved. An inherited local shoulder lip is measured at8.84mm in r37, versus8.77mm in r36; this is not a global maximum. It remains a join-quality defect despite no broad disconnected mass in native views. Independent review SHA256 194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593",
+        "resolved": false
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "Current deterministic render and technical validation pass; exact recipe/export and native isolation checks pass. Legacy dimension authority, style binding, recognition and complete form qualification remain unresolved. Independent review SHA256 194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593",
+        "resolved": false
+      }
+    ]
+  }
+}

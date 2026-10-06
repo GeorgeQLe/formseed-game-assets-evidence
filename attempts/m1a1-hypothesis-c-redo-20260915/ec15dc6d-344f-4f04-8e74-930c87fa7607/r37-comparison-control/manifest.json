@@ -1,0 +1,121 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-hypothesis-c-redo-20260915",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+    "revision": 37,
+    "checkpointSha256": "5ebcbf4547e99dd629c1cd1f71a5c9cd84e549d149d31e5517499b53472bce7f"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "7dac6ebe2193e77282a0c3a359a38bbd2fec38e6906efa6f653dcb2ac52e48c5",
+    "labeledSheet": {
+      "path": "contact-sheet.labeled.png",
+      "sha256": "d62fd14a70d7474aea24f5b6045c834af1f169462454225abb0300169d7083e2",
+      "bytes": 353484
+    },
+    "files": [
+      {
+        "path": "renders/dimensional-comparison/physical-left.png",
+        "sha256": "ff59dde7a90193726c007ca76a32c561015ff7b9f4dfa578edc20ae6c014d68f",
+        "bytes": 159132
+      },
+      {
+        "path": "renders/dimensional-comparison/physical-right.png",
+        "sha256": "5250ad03afb34845d4d427d6f21841599a1a238960994dd06ca9df3b2079f080",
+        "bytes": 157720
+      },
+      {
+        "path": "renders/dimensional-comparison/front.png",
+        "sha256": "a88eab22807c0e1d1115913600bbe11d0496e6a0f830ba6889316f7473e05a04",
+        "bytes": 156253
+      },
+      {
+        "path": "renders/dimensional-comparison/rear.png",
+        "sha256": "345e3c960324b99b6818a4672dc47e487facb1db50bcb6b9c734a4c44274b589",
+        "bytes": 155696
+      },
+      {
+        "path": "renders/dimensional-comparison/top.png",
+        "sha256": "39b42c93660dc4fb6fce789292307c201d9dfa408de6354b5c604541266d64c3",
+        "bytes": 185271
+      },
+      {
+        "path": "renders/dimensional-comparison/three-quarter.png",
+        "sha256": "ae6a286cccf074b0be3aa657835054fdc8dd859f19453ad64b0ec6b0e2bd42e7",
+        "bytes": 173575
+      },
+      {
+        "path": "authored-whole-form-review.md",
+        "sha256": "830bd3cd13209cc13c10c774f3f0684f6810b1b263472947aef1d67161756f6b",
+        "bytes": 4783
+      },
+      {
+        "path": "authored-adversarial-review.md",
+        "sha256": "194c08b5c3c90726851df2fd4dda97d4ad2249029402276919d956577b38e593",
+        "bytes": 6060
+      },
+      {
+        "path": "assessment-r37.json",
+        "sha256": "bb847676a70c977849434d5d141d08e937029d2154a7406eed10b9e9b3de81a3",
+        "bytes": 17450
+      },
+      {
+        "path": "evaluation-r37.json",
+        "sha256": "e7e4995c78e7351f8bdb273c28eb1f3e49c434701810f133834cf54dc4d6a7ce",
+        "bytes": 3377
+      },
+      {
+        "path": "disposition.json",
+        "sha256": "1f37884d4da9b64d633380b9cbd34b1346eafcfb363870fb075c0af1ffc127ca",
+        "bytes": 2968
+      },
+      {
+        "path": "revision-request.json",
+        "sha256": "49979ee190a82adf28d96ed4d354c4f84433a4cdb4cd1c42ac8c9ac42518f081",
+        "bytes": 831
+      },
+      {
+        "path": "cc0-permission.json",
+        "sha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+        "bytes": 505
+      },
+      {
+        "path": "contact-sheet.labeled.png",
+        "sha256": "d62fd14a70d7474aea24f5b6045c834af1f169462454225abb0300169d7083e2",
+        "bytes": 353484
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+        "sha256": "88224eaef332682c0906512c6ea1236bbfd2ac3687ee6d4a8c349c774cfe1cc2",
+        "author": "United States Marine Corps",
+        "license": "U.S. government authored material; reproduced for this local research packet. Mirror is not the author.",
+        "role": "Common M1A1 exterior reference; no reference pixels archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George - shoulder cleanup requested; no whole-model approval inferred",
+    "decidedAt": "2026-10-06T20:43:56.746Z",
+    "quote": "ok please do so"
+  },
+  "notes": [
+    "User accepted concrete next-step proposal preserved inrevision-request.json; change request, not blanket rejection of prior correction.",
+    "Model-only substitute; presented reference-containing comparison SHA fad26e40a376f7921a9a174726fd170c2b7c58cb2039f509163ea9ff4e517de3 remains local."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
