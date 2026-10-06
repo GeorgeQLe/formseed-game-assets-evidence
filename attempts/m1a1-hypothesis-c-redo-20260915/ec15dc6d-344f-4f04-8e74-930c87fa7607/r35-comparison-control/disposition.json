@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-06",
+  "revision": 35,
+  "checkpointSha256": "03fadf3c65771dd87786c008db2a9a327696ca553622b0e2d5548f084f8030f2",
+  "status": "retained-awaiting-construction-feedback",
+  "changedComponents": [
+    "rear-grille-l",
+    "rear-grille-r"
+  ],
+  "technicalValidation": {
+    "passed": true,
+    "issues": [],
+    "triangles": 16752,
+    "materials": 4,
+    "objects": 71,
+    "unchangedPriorMeshes": 57,
+    "nativeIsolationComponents": 59,
+    "maskFilesVerified": 36,
+    "minimumConservativeMovingSeparationMeters": 0.03248682324710184,
+    "motionScope": "Conservative continuous yaw proof: yaw about world Z preserves all Z coordinates. For turret children use minimum vertex Z. For gun vertices over elevation0..20degrees evaluate Z=gpZ+dx*sin(theta)+dz*cos(theta) at both endpoints and every stationary angle in interval. Triangle Z extrema occur at vertices. Positive vertical interval separation rules out crossings, coplanar contact and containment with either grille for every yaw and all elevations in this interval.",
+    "limitations": [
+      "Scope is this rigid hierarchy, fixed hull and0..20degree elevation without recoil translation. No proof for hull pitch/roll, gun depression, changed pivots or deformations.",
+      "Attachment is geometric contact/overlap at fixed hull rear, not engineering strength or manufacturing suitability.",
+      "Native diagnostic receipt assertions and hash-verified GLB are complementary; masks are one supplied camera projection and not all-view visibility.",
+      "Technical checks confer no visual recommendation, human approval, source completion or game-readiness."
+    ]
+  },
+  "visualRecommendation": {
+    "scoped": "Retain per independent whole-form and adversarial reviews",
+    "wholeModel": "no-go",
+    "weightedTotal": 50,
+    "residuals": [
+      "Unresolved turret plan and front contour correspondence",
+      "Simplified slat count, depth and backing; not engineering exhaust anatomy",
+      "Small rear relief and lower outer overhang intentional",
+      "Unfinished roof/hull detail and materials"
+    ]
+  },
+  "humanApproval": "Approved this correction scope only; new r35 model approval pending",
+  "lease": "released normally, epoch46",
+  "archive": "Prior r34 authored evidence archived; r35 decision pending",
+  "approvalPromotionIntegration": false
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "weightedTotal": 50,
+  "recommendation": "no-go",
+  "effectiveDecision": "no-go",
+  "checks": {
+    "threshold": false,
+    "categoryFloors": true,
+    "coreFloors": false,
+    "hardGates": false,
+    "structuredEvidence": true,
+    "adversarialReview": false
+  },
+  "failures": [
+    {
+      "kind": "adversarial-objection",
+      "id": "identity-recognition",
+      "message": "Unresolved core-floor objection: Rear divided grille adds a missing reference cue; detailed roof fittings and independent recognition evidence remain absent. Independent reviewSHA 15729b4f1fc387fe8c8786af098fd451606be21e836eeca1d195c3ee794fccae"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "silhouette",
+      "message": "Unresolved core-floor objection: Accepted turret and basket maintained; shallow25mm rear relief and small lower outer overhang are declared effects. Prior front/roof contour uncertainty remains. Independent reviewSHA 15729b4f1fc387fe8c8786af098fd451606be21e836eeca1d195c3ee794fccae"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "mechanical-coherence",
+      "message": "Unresolved core-floor objection: Attached shallow panel and continuous frames, not functioning exhaust passages. Native technical checks pass; inherited motion and new separation require geometric evidence. Independent reviewSHA 15729b4f1fc387fe8c8786af098fd451606be21e836eeca1d195c3ee794fccae"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "production-integrity",
+      "message": "Unresolved core-floor objection: Current deterministic render and validation pass. Legacy dimension authority, style binding and complete recognition evidence remain unresolved. Independent reviewSHA 15729b4f1fc387fe8c8786af098fd451606be21e836eeca1d195c3ee794fccae"
+    },
+    {
+      "kind": "threshold",
+      "id": "weighted-total",
+      "message": "50 is below the 75-point threshold."
+    },
+    {
+      "kind": "core-floor",
+      "id": "identity-recognition",
+      "message": "Identity and recognition scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "silhouette",
+      "message": "Silhouette quality scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "mechanical-coherence",
+      "message": "Mechanical and structural coherence scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "production-integrity",
+      "message": "Production integrity scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "transform-grounding",
+      "message": "Transform and grounding correctness did not pass."
+    }
+  ],
+  "status": {
+    "technicalValidation": "fail",
+    "visualRecommendation": "no-go",
+    "humanApproval": "absent"
+  },
+  "overrideApplied": false,
+  "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+}

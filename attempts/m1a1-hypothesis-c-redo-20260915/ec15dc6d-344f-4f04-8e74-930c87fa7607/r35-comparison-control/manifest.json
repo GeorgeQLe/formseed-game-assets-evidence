@@ -1,0 +1,126 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-hypothesis-c-redo-20260915",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+    "revision": 35,
+    "checkpointSha256": "03fadf3c65771dd87786c008db2a9a327696ca553622b0e2d5548f084f8030f2"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "ccb95e926b15cba640f1e4cc858144d6ac51dc7a635dfe096354cebb9cc62b74",
+    "labeledSheet": {
+      "path": "contact-sheet.labeled.png",
+      "sha256": "b2cfbb16fe433a0544d9cd03e7f15b15fc154fa903b9002ced5490b76fd96a0b",
+      "bytes": 896744
+    },
+    "files": [
+      {
+        "path": "renders/dimensional-comparison/physical-left.png",
+        "sha256": "5d2c4b88b3f3e9c8479ad0fd94691e258bdf9671b6fc946a6c0373876c8ffd38",
+        "bytes": 159177
+      },
+      {
+        "path": "renders/dimensional-comparison/physical-right.png",
+        "sha256": "103dfcb3e95e9802a641a1c1dbeca0fe37567f182cf6247067d5ff8d9f60ff3b",
+        "bytes": 157728
+      },
+      {
+        "path": "renders/dimensional-comparison/front.png",
+        "sha256": "0ad69e92e5018e5b7ad714d3cfc920060d2145e9c0e7c4b79129cb7728f2c902",
+        "bytes": 156118
+      },
+      {
+        "path": "renders/dimensional-comparison/rear.png",
+        "sha256": "d53de970101c24161865c6954d7108053ddb5e443a7306975965b5b77d62b821",
+        "bytes": 155702
+      },
+      {
+        "path": "renders/dimensional-comparison/top.png",
+        "sha256": "285294f7388097cd0231fad238bff3981acdf1936007885086d84372964e00e2",
+        "bytes": 185167
+      },
+      {
+        "path": "renders/dimensional-comparison/three-quarter.png",
+        "sha256": "cabb4db82a86db0542b265a82bdcbac8dbafaba412f2b915e9305cad4f2dca9b",
+        "bytes": 173481
+      },
+      {
+        "path": "renders/contact-sheet.png",
+        "sha256": "22c54a85d33b2b758230bef078d44c48ce8676f2601f15ee8538583b21f2b263",
+        "bytes": 1038515
+      },
+      {
+        "path": "authored-whole-form-review.md",
+        "sha256": "57ee33430bd2a9076ea08a59ba7314e54e4e7c56369d22a165b53a50858a5f31",
+        "bytes": 5147
+      },
+      {
+        "path": "authored-adversarial-review.md",
+        "sha256": "15729b4f1fc387fe8c8786af098fd451606be21e836eeca1d195c3ee794fccae",
+        "bytes": 5621
+      },
+      {
+        "path": "assessment-r35.json",
+        "sha256": "1ca076d38b158a4448aeac0fbfd16eeb36509b21e04992674d563a8678cea02a",
+        "bytes": 25676
+      },
+      {
+        "path": "evaluation-r35.json",
+        "sha256": "d927d1db931a8168a604797d2904aa4e1c568e2d1b671426b6333858e553eaf2",
+        "bytes": 2981
+      },
+      {
+        "path": "disposition.json",
+        "sha256": "d019b6413006b41b70b8eb9a420e42ea131d2a6b2364d4f49f17c31359116557",
+        "bytes": 2348
+      },
+      {
+        "path": "revision-request.json",
+        "sha256": "4db22d0d2d921f82827d16d7b8081811375ee06df4626169ffe77096e6ab7090",
+        "bytes": 667
+      },
+      {
+        "path": "cc0-permission.json",
+        "sha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+        "bytes": 505
+      },
+      {
+        "path": "contact-sheet.labeled.png",
+        "sha256": "b2cfbb16fe433a0544d9cd03e7f15b15fc154fa903b9002ced5490b76fd96a0b",
+        "bytes": 896744
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+        "sha256": "88224eaef332682c0906512c6ea1236bbfd2ac3687ee6d4a8c349c774cfe1cc2",
+        "author": "United States Marine Corps",
+        "license": "U.S. government authored material; reproduced for this local research packet. Mirror is not the author.",
+        "role": "Common M1A1 exterior reference; no reference pixels archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George - further contour corrections requested; no whole-model approval inferred",
+    "decidedAt": "2026-10-06T04:45:02.590Z",
+    "quote": "ok let's proceed with fixing the remaining contour uncertainties"
+  },
+  "notes": [
+    "Remaining contour changes requested; r35 grille retained as construction baseline, not a claimed human rejection of the grille.",
+    "Model-only evidence substitute; original presented comparison included thirdparty pixels and remains local."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
