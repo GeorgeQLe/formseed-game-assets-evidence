@@ -1,0 +1,121 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-hypothesis-c-redo-20260915",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+    "revision": 36,
+    "checkpointSha256": "a52bcc11d6285962624efc593e8614a9359b1b59dce6273ffa7850574403279d"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "cc3866d4c5a5f2ed2626b3e051aa272ee60cabdc3f0df09a512339664d88b21b",
+    "labeledSheet": {
+      "path": "contact-sheet.labeled.png",
+      "sha256": "d8cbd12bd0e29806d715e33973c047026cefae227109e4a45e30fdfc2fcd54cd",
+      "bytes": 357160
+    },
+    "files": [
+      {
+        "path": "renders/dimensional-comparison/physical-left.png",
+        "sha256": "22062f15ea9db9442afbf11a523769b2ce29a596e62cafb5ac561a5677100ba2",
+        "bytes": 159130
+      },
+      {
+        "path": "renders/dimensional-comparison/physical-right.png",
+        "sha256": "b53d18eef2ac2a18513e481082059d60f958d1174a46b6ff92fc3551739e654d",
+        "bytes": 157712
+      },
+      {
+        "path": "renders/dimensional-comparison/front.png",
+        "sha256": "670acb89eb36f2d0dd977ecbf5f5e0b64fd0ef2522aab9707155e107b535aac7",
+        "bytes": 156230
+      },
+      {
+        "path": "renders/dimensional-comparison/rear.png",
+        "sha256": "ad0fefa11f08e6919bce340495c619d3026c697577064d0646ccbebf06d4c9b0",
+        "bytes": 155696
+      },
+      {
+        "path": "renders/dimensional-comparison/top.png",
+        "sha256": "0f85ba5298ee32da641d88a565cb6981e751b60ed7c898831891d25478fd6af3",
+        "bytes": 185258
+      },
+      {
+        "path": "renders/dimensional-comparison/three-quarter.png",
+        "sha256": "2ea5f67dfa10deb4d80d4b29b372f03c5b45c92c98e6f794c7893bbf26006aaa",
+        "bytes": 173319
+      },
+      {
+        "path": "authored-whole-form-review.md",
+        "sha256": "206d294d15d6fd5767b5cec6970cc8e47b970be85a1601cb675cd9ab66b4ecf8",
+        "bytes": 6014
+      },
+      {
+        "path": "authored-adversarial-review.md",
+        "sha256": "136a7fcb58f30dde5c5b1cfc23431973ec91cd713dc8bd03738fd3b2ee4f00e8",
+        "bytes": 9780
+      },
+      {
+        "path": "assessment-r36.json",
+        "sha256": "1b430ff6d472a22734454b4528ab1d5fac0d516f1eb21d2b3f3405e6f6c134ae",
+        "bytes": 16987
+      },
+      {
+        "path": "evaluation-r36.json",
+        "sha256": "12dc5c409c916c1cb5e09f1bfb372e6a80bf890c7b21c0649f76d26f523ca13d",
+        "bytes": 3300
+      },
+      {
+        "path": "disposition.json",
+        "sha256": "3b2ca054791ef6c67f49f14e348d53b0ca90cdc86670c3723f4a25de32bf1856",
+        "bytes": 2809
+      },
+      {
+        "path": "revision-request.json",
+        "sha256": "05b82b631693fbe724aeb94c79d08283c7ac7903c9a782024c5e1f2a72fccecd",
+        "bytes": 653
+      },
+      {
+        "path": "cc0-permission.json",
+        "sha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+        "bytes": 505
+      },
+      {
+        "path": "contact-sheet.labeled.png",
+        "sha256": "d8cbd12bd0e29806d715e33973c047026cefae227109e4a45e30fdfc2fcd54cd",
+        "bytes": 357160
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+        "sha256": "88224eaef332682c0906512c6ea1236bbfd2ac3687ee6d4a8c349c774cfe1cc2",
+        "author": "United States Marine Corps",
+        "license": "U.S. government authored material; reproduced for this local research packet. Mirror is not the author.",
+        "role": "Common M1A1 exterior reference; no reference pixels archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George - further correction requested; no whole-model approval inferred",
+    "decidedAt": "2026-10-06T15:15:25.779Z",
+    "quote": "ok can you fix that remaining mismatch?"
+  },
+  "notes": [
+    "Change request at construction stage; r36 retained as baseline, no blanket human rejection inferred.",
+    "Source-only substitute; original trace presentation SHA22b87f8925895bc245f56a09ecae5be72d3066409f62860de8e23f9b5d4e959f remains local because it contains third-party pixels/traces."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-06",
+  "jobId": "ec15dc6d-344f-4f04-8e74-930c87fa7607",
+  "revision": 36,
+  "checkpoint": {
+    "checkpointId": "7d1a6445-386e-4c3d-bcda-4098639ac4de",
+    "checkpointHash": "a52bcc11d6285962624efc593e8614a9359b1b59dce6273ffa7850574403279d"
+  },
+  "glbSha256": "643c4fe7f6ece06adc8a5b73d702a6204b35d333ee5e3db880d6c4e5054fbb64",
+  "renderHash": "cc3866d4c5a5f2ed2626b3e051aa272ee60cabdc3f0df09a512339664d88b21b",
+  "contactSheetHash": "1fe212a7c91443384cd221f2c0fadca54860546217b335a6b24b9c97efb915d2",
+  "status": "retained-for-approximate-construction-feedback",
+  "changedComponents": [
+    "redo-integrated-roof"
+  ],
+  "recipeSha256": "2e0f481a351231c3889da117829e36ab4af419da8fc5aa6a15022509341e968f",
+  "technicalValidation": {
+    "producerPassed": true,
+    "issues": [],
+    "deterministic": true,
+    "triangles": 16798,
+    "materials": 4,
+    "objects": 71,
+    "unchangedOtherMeshes": 58,
+    "nativeIsolationProbes": 59,
+    "verifiedRoofMaskPngs": 18,
+    "maximumRecipeRealizationErrorMeters": 1.3927197022085286e-7,
+    "continuousPrescribedGunSeparationLowerBoundMeters": 0.0015816408587584125,
+    "motionLimits": "Gun elevation0..20 degrees and shared yaw; no recoil/depression qualification."
+  },
+  "visualRecommendation": {
+    "scoped": "Retain approximate construction improvement per primary and separate whole-form/adversarial reviews; not a clean-join or exact-trace claim.",
+    "wholeModel": "no-go",
+    "modelQualityWeightedTotal": 50,
+    "categoryScores": "All eight categories2/4; exact evidence and floor/gate failures in assessment-r36.json and evaluation-r36.json.",
+    "artStyle": "no-go: immutable bound style profile unavailable; no invented score",
+    "residuals": [
+      "Negative-Y provisional trace branch mean18.30px/max26.21px exceeds10px band; positive-Y mean3.41px/max7.37px withinband; diagnostic distances, not full-surface accuracy.",
+      "Real newly exposed shoulder join: ~2.5mm sampled trough and8.77mm largest specifically sampled local lip; not a global maximum. No broad disconnected mass in native views; precision defect remains open.",
+      "Central gun-adjacent trace correspondence, stowage boundaries, detailed equipment and complete qualification remain unresolved."
+    ]
+  },
+  "humanApproval": "Only correction scope approved; resulting r36 model decision pending",
+  "accounting": {
+    "classification": "human-directed",
+    "autonomousBudgetCharge": 0,
+    "autonomousRemaining": 0,
+    "completeCanonicalCandidates": 1,
+    "localRejectedPreparations": "Never dispatched; preserved as rejected-*."
+  },
+  "lease": "released normally, epoch48",
+  "archive": "r35 authored evidence archived at1da716253353eda4306b41153bf051d1ba69563b; r36 requester decision pending",
+  "approvalPromotionIntegration": false
+}
