@@ -1,0 +1,23 @@
+{
+  "assessment": {
+    "path": "restrained-bevel-assessment.json",
+    "sha256": "d8eee80c9dbfb6ae3b0c7d5cabcfa408ea2e4569aa7e87cdfbc9610c60d4ab01"
+  },
+  "evaluation": {
+    "recommendation": "no-go",
+    "weightedTotal": 72.5,
+    "categoryFailures": [
+      "backgroundReadability"
+    ],
+    "coreFloorFailures": [
+      "backgroundReadability"
+    ],
+    "hardGateFailures": [
+      "styleConfirmed"
+    ],
+    "blockers": [
+      "adversarial-objection:styleConsistency"
+    ],
+    "humanApproval": "not-assessed"
+  }
+}

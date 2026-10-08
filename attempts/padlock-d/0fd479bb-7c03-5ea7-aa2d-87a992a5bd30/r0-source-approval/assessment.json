@@ -1,0 +1,290 @@
+{
+  "schemaVersion": "1.0.0",
+  "rubric": "finished-raster-icon@1.0.0",
+  "binding": {
+    "requestSha256": "c6b20a832703da91f8bc044fc2f372dfa99be9a8bbd7bf47ac36192e51a50e03",
+    "profile": {
+      "profileId": "reusable-ui-icon",
+      "version": "1.0.0"
+    },
+    "cell": {
+      "state": "style-study",
+      "theme": "d-study-restrained-bevel-f1-theme-1",
+      "scale": "32px",
+      "identity": "padlock-d-style-study-restrained-bevel"
+    },
+    "jobId": "0fd479bb-7c03-5ea7-aa2d-87a992a5bd30",
+    "revision": 0,
+    "bundleManifestSha256": "adae0b3490d7870a44d946e93e786445806f6500ac3c8ff79e397a22526fbbf2",
+    "canonicalSha256": "e0a6bae70c5bf59af40ace68db0a64d6ea9ec906fcea7a707faa5b34a84c2bbe"
+  },
+  "evaluator": "primary-independent-d-style-studies-v1",
+  "views": [
+    {
+      "name": "light-1x.png",
+      "sha256": "1ca31eae1ec06ea3e5835c6c1ae310b296750460c1882c2953a41c32ef8ff344",
+      "background": "light",
+      "scale": "native",
+      "canonicalSha256": "e0a6bae70c5bf59af40ace68db0a64d6ea9ec906fcea7a707faa5b34a84c2bbe"
+    },
+    {
+      "name": "dark-1x.png",
+      "sha256": "fcea50dc81ed31c320d85a0a08d9750cc1a7c7dbcaac7f4df9414ae3ca3d2614",
+      "background": "dark",
+      "scale": "native",
+      "canonicalSha256": "e0a6bae70c5bf59af40ace68db0a64d6ea9ec906fcea7a707faa5b34a84c2bbe"
+    },
+    {
+      "name": "checker-1x.png",
+      "sha256": "185f15781df9a31a36448e2dc9fd07832d938c6068a9c7a8d910c403a4350fb1",
+      "background": "checker",
+      "scale": "native",
+      "canonicalSha256": "e0a6bae70c5bf59af40ace68db0a64d6ea9ec906fcea7a707faa5b34a84c2bbe"
+    },
+    {
+      "name": "light-8x.png",
+      "sha256": "3d2f23740d24fe8019b46e935db1e2f7f1a5638c07b8993c355ae536c9c03b44",
+      "background": "light",
+      "scale": "integer-enlarged",
+      "canonicalSha256": "e0a6bae70c5bf59af40ace68db0a64d6ea9ec906fcea7a707faa5b34a84c2bbe"
+    },
+    {
+      "name": "dark-8x.png",
+      "sha256": "596bd2b0bf2ba25fdd5145395695c7c079ad6b8d7fb0b0b8b25cfb1107b2bdb7",
+      "background": "dark",
+      "scale": "integer-enlarged",
+      "canonicalSha256": "e0a6bae70c5bf59af40ace68db0a64d6ea9ec906fcea7a707faa5b34a84c2bbe"
+    },
+    {
+      "name": "checker-8x.png",
+      "sha256": "a2796b664fd19a8b4cbb190911603c0aefe41360b75166f9a48d19963363be69",
+      "background": "checker",
+      "scale": "integer-enlarged",
+      "canonicalSha256": "e0a6bae70c5bf59af40ace68db0a64d6ea9ec906fcea7a707faa5b34a84c2bbe"
+    }
+  ],
+  "scores": {
+    "recognition": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "1ca31eae1ec06ea3e5835c6c1ae310b296750460c1882c2953a41c32ef8ff344",
+          "observation": "At native size on light, the dark #516676 outer shackle line and the keyhole make an immediate closed-padlock read."
+        },
+        {
+          "viewSha256": "fcea50dc81ed31c320d85a0a08d9750cc1a7c7dbcaac7f4df9414ae3ca3d2614",
+          "observation": "Recognisable on dark at 1x. The shackle reads slightly thinner because its outline fades."
+        }
+      ]
+    },
+    "silhouette": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "3d2f23740d24fe8019b46e935db1e2f7f1a5638c07b8993c355ae536c9c03b44",
+          "observation": "Both legs are mirror-identical (dark/mid/mid/dark at x8-11 and x20-23), the arch tones are mirror-symmetric, and the body rims are 1 px on each side (light x5, dark x26). There is no apparent paired-width distortion and no shoulder heaviness; the upper-right corner (24-25,14) is mid, not a dark block."
+        },
+        {
+          "viewSha256": "a2796b664fd19a8b4cbb190911603c0aefe41360b75166f9a48d19963363be69",
+          "observation": "On checker the dark shackle outline keeps the opening crisp and closed-legged. The light row-14 rim reads as a lid line, not as a contour notch."
+        }
+      ]
+    },
+    "pixelDiscipline": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "3d2f23740d24fe8019b46e935db1e2f7f1a5638c07b8993c355ae536c9c03b44",
+          "observation": "Clean, solid 1-px rims and flat interior clusters. The only single-pixel tone changes are the symmetric arch-shoulder pixels (13,6)/(18,6) mid and (13,7)/(18,7) dark, which belong to the inner-ring diagonal. There are no orphan pixels, no AA and no dither."
+        }
+      ]
+    },
+    "paletteReadability": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "1ca31eae1ec06ea3e5835c6c1ae310b296750460c1882c2953a41c32ef8ff344",
+          "observation": "With 7 colours, the restrained rim light (upper-left light, lower-right #875E2C) reads as a bevelled brass block. The light crown band on the arch (row 5 x13-18) gives the shackle a tubular steel feel. The darkest body tone is #875E2C, so no near-black stripe. The body centre is fairly flat, which is acceptable for the declared restraint."
+        },
+        {
+          "viewSha256": "596bd2b0bf2ba25fdd5145395695c7c079ad6b8d7fb0b0b8b25cfb1107b2bdb7",
+          "observation": "The keyhole stays distinct from the transparent opening on dark. The outlined shackle against an un-outlined body is a mild construction inconsistency but does not confuse the components."
+        }
+      ]
+    },
+    "styleConsistency": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "3d2f23740d24fe8019b46e935db1e2f7f1a5638c07b8993c355ae536c9c03b44",
+          "observation": "It matches the declared 'restrained bevel' treatment and respects the fixed front-on silhouette, the keyhole and the palette rule (2 added tones per material per the structural audit). The score covers the declared study treatment only; no requester-confirmed style brief exists."
+        }
+      ]
+    },
+    "backgroundReadability": {
+      "score": 2,
+      "observations": [
+        {
+          "viewSha256": "fcea50dc81ed31c320d85a0a08d9750cc1a7c7dbcaac7f4df9414ae3ca3d2614",
+          "observation": "On dark, the shackle outer #516676 (2.72:1) and the body right/bottom #875E2C (2.85:1) soften into #202020, so the shackle thins and the lower-right edge fades at 1x. The light left rim stays strong (5.98:1), so the body reads very slightly fuller on the left on dark."
+        },
+        {
+          "viewSha256": "185f15781df9a31a36448e2dc9fd07832d938c6068a9c7a8d910c403a4350fb1",
+          "observation": "On checker, the left rim #C2954E is only 1.50:1 against the #C0C0C0 squares. The inherited pale upper-left checker-contour objection is only partly closed."
+        }
+      ]
+    }
+  },
+  "correction": {
+    "beforeSha256": "af1bef590733252f04f49b83322f591177595c69c777893af9b2cecc440b2f30",
+    "afterSha256": "e0a6bae70c5bf59af40ace68db0a64d6ea9ec906fcea7a707faa5b34a84c2bbe",
+    "beforeObservation": "Pass3 after-light-8x (1540b23f94bc01cd8f720b448257730e62a8fee9b319fcedabcb9e0652c2018a) has a near-black #412A18 L-band (x25 plus row 27) with #694623 outside it, giving a 'single black stripe' and a fuller right side.",
+    "afterObservation": "The darkest body tone is #875E2C, used only as a 1-px right column and bottom row, balanced by a 1-px light left column. The legs and arch are mirror-identical, and no stripe darker than the rim appears. A residual 1-px value asymmetry favours the left only on the dark background.",
+    "acceptanceCriterion": "No body run darker than #875E2C forms a continuous stripe of 2 px or more; paired legs and shoulders use mirror-equivalent value structure; neither side reads wider on light, dark or checker at 1x."
+  },
+  "recognitionCues": [
+    {
+      "viewSha256": "1ca31eae1ec06ea3e5835c6c1ae310b296750460c1882c2953a41c32ef8ff344",
+      "cue": "Outlined closed U-shackle seated in the body",
+      "nearestNeighbor": "handbag with an arched handle",
+      "distinction": "The rigid, evenly thick steel shackle enters the top face; the body is a solid brass block with a keyhole."
+    },
+    {
+      "viewSha256": "fcea50dc81ed31c320d85a0a08d9750cc1a7c7dbcaac7f4df9414ae3ca3d2614",
+      "cue": "Centred keyhole glyph",
+      "nearestNeighbor": "briefcase",
+      "distinction": "A keyhole instead of clasps, and a tall arch instead of a low handle."
+    },
+    {
+      "viewSha256": "185f15781df9a31a36448e2dc9fd07832d938c6068a9c7a8d910c403a4350fb1",
+      "cue": "Transparent opening framed by a dark inner ring",
+      "nearestNeighbor": "kettlebell",
+      "distinction": "A rectangular body with a keyhole, not a round weight."
+    },
+    {
+      "viewSha256": "3d2f23740d24fe8019b46e935db1e2f7f1a5638c07b8993c355ae536c9c03b44",
+      "cue": "Light lid rim on row 14 under the shackle legs",
+      "nearestNeighbor": "lunchbox or tin",
+      "distinction": "The rim is subordinate; the keyhole and seated shackle identify a lock."
+    },
+    {
+      "viewSha256": "596bd2b0bf2ba25fdd5145395695c7c079ad6b8d7fb0b0b8b25cfb1107b2bdb7",
+      "cue": "Both legs mirror-identical and seated",
+      "nearestNeighbor": "open or unlocked padlock",
+      "distinction": "Neither leg has a gap above the body, so it reads as locked."
+    },
+    {
+      "viewSha256": "a2796b664fd19a8b4cbb190911603c0aefe41360b75166f9a48d19963363be69",
+      "cue": "Brass and steel hue separation with a tubular crown highlight",
+      "nearestNeighbor": "shopping bag",
+      "distinction": "The metal tones and keyhole exclude a paper or fabric bag."
+    }
+  ],
+  "hardGates": {
+    "pixelsVerified": true,
+    "provenanceVerified": true,
+    "styleConfirmed": false,
+    "targetedCorrectionVerified": true,
+    "exactEvidenceVerified": true
+  },
+  "adversarial": {
+    "evaluator": "adversarial-independent-d-style-studies-v1",
+    "binding": {
+      "requestSha256": "c6b20a832703da91f8bc044fc2f372dfa99be9a8bbd7bf47ac36192e51a50e03",
+      "profile": {
+        "profileId": "reusable-ui-icon",
+        "version": "1.0.0"
+      },
+      "cell": {
+        "state": "style-study",
+        "theme": "d-study-restrained-bevel-f1-theme-1",
+        "scale": "32px",
+        "identity": "padlock-d-style-study-restrained-bevel"
+      },
+      "jobId": "0fd479bb-7c03-5ea7-aa2d-87a992a5bd30",
+      "revision": 0,
+      "bundleManifestSha256": "adae0b3490d7870a44d946e93e786445806f6500ac3c8ff79e397a22526fbbf2",
+      "canonicalSha256": "e0a6bae70c5bf59af40ace68db0a64d6ea9ec906fcea7a707faa5b34a84c2bbe"
+    },
+    "objections": [
+      {
+        "category": "recognition",
+        "strongestReasonBelow3": "The body is a nearly flat brass slab with 1-px rims, so it could read as a generic tag or bag rather than a metal padlock.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "1ca31eae1ec06ea3e5835c6c1ae310b296750460c1882c2953a41c32ef8ff344",
+            "observation": "At 1x on light, the outlined steel shackle with its transparent opening, the brass body and the keyhole read unambiguously as a padlock."
+          },
+          {
+            "viewSha256": "185f15781df9a31a36448e2dc9fd07832d938c6068a9c7a8d910c403a4350fb1",
+            "observation": "At 1x on checker, the shackle's 99-luma outer contour separates clearly from the 192/240 squares, and the padlock reads at once."
+          }
+        ]
+      },
+      {
+        "category": "silhouette",
+        "strongestReasonBelow3": "The inherited 'right fatter' and upper-right shoulder objections could persist through value asymmetry. The left body rim is light (153) and the right is dark (99), and the neutral reviewer saw the left edge as 'very slightly lighter/thinner'. The row-14 light rim also stops at x23 and leaves x24-25 in base tone, which could look like a notch at the upper-right corner.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "3d2f23740d24fe8019b46e935db1e2f7f1a5638c07b8993c355ae536c9c03b44",
+            "observation": "In the decoded pixels and at 8x on light, both shackle legs are exactly mirrored (x8-11 and x20-23, values 99/135/135/99), and the shoulder rows 5-7 are mirror-symmetric, so no upper-right shoulder fullness remains. The body edge treatment is 1 px on each side (x5 at 153, x26 at 99), so there is no side band to widen either half. The neutral reviewer called the asymmetry 'barely noticeable', with legs 'even'."
+          },
+          {
+            "viewSha256": "596bd2b0bf2ba25fdd5145395695c7c079ad6b8d7fb0b0b8b25cfb1107b2bdb7",
+            "observation": "At 8x on dark, the 1-px right rim (99) stays distinguishable from the background (32), and the body width reads equal on both sides. The x24-25 base pixels in row 14 read as the rim turning into shade, not as a contour notch."
+          }
+        ]
+      },
+      {
+        "category": "pixelDiscipline",
+        "strongestReasonBelow3": "Single mid-tone pixels at (13,6) and (18,6) between the light and base runs could read as stray transitional pixels or anti-aliasing on the crown.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "3d2f23740d24fe8019b46e935db1e2f7f1a5638c07b8993c355ae536c9c03b44",
+            "observation": "At 8x, (13,6) and (18,6) are mirrored ends of the inner crown band and continue the 3-px mid runs in row 7 (x10-12, x19-21). They form a deliberate continuous tube band, not speckle. The body uses only straight 1-px rims plus flat fill. With 7 colours, there are no stray or anti-aliased pixels. The neutral reviewer found 'no stray pixels'."
+          }
+        ]
+      },
+      {
+        "category": "paletteReadability",
+        "strongestReasonBelow3": "Row 14 is an 18-px light bar (x6-23) across the full width. That is a single horizontal stripe, the light mirror of the disliked 'single black stripe', which the neutral reviewer said 'can look like a separate strip at 1x'. The body centre is completely flat, so the brass material reads weakly.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "1ca31eae1ec06ea3e5835c6c1ae310b296750460c1882c2953a41c32ef8ff344",
+            "observation": "At 1x on light, the top rim is only 30 luma above the base (153 against 123) and is matched by a 1-px left rim, a 1-px right shade and a 1-px bottom shade. It reads as a closed bevel rim (the neutral reviewer called it a 'lid line… mostly helpful'), not as an isolated stripe. There is no wide dark band like pass3's right/bottom shadow. The neutral reviewer described the shading as 'coherent, clean, restrained rim lighting'."
+          }
+        ]
+      },
+      {
+        "category": "styleConsistency",
+        "strongestReasonBelow3": "The two components use different lighting models and styles. The shackle has dark-outline contours on both outer and inner edges (99) and is lit symmetrically from directly above: the crown light band at x13-18 is centred, and both legs are identical. The body has no dark outline and is lit from the upper-left: its left rim is light and its right rim dark. An upper-left light would brighten the left shackle leg, but here it does not. This is the outlined-shackle against un-outlined-body inconsistency flagged in the audit.",
+        "resolved": false,
+        "resolution": [
+          {
+            "viewSha256": "3d2f23740d24fe8019b46e935db1e2f7f1a5638c07b8993c355ae536c9c03b44",
+            "observation": "At 8x on light, the shackle's outer contour is the same dark value on both legs and its crown highlight is centred, while the body is visibly lit from the left (light x5 rim, dark x26 rim). The views confirm the two light directions and outline treatments instead of reconciling them. The neutral reviewer's 'consistent' remark does not address the mismatch in outline treatment between shackle and body."
+          }
+        ]
+      },
+      {
+        "category": "backgroundReadability",
+        "strongestReasonBelow3": "On dark, the shackle's dark outline (99) and the body's right and bottom rims (99) are close to the 32 background. The neutral reviewer said they 'merge somewhat', which could thin the shackle on dark.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "596bd2b0bf2ba25fdd5145395695c7c079ad6b8d7fb0b0b8b25cfb1107b2bdb7",
+            "observation": "At 8x on dark, every boundary pixel is at least 99 luma (67 above the background), and the shackle's 135 interior keeps its 4-px tube width visible. The body's right and bottom edges remain distinct lines, and the opening stays clear."
+          },
+          {
+            "viewSha256": "a2796b664fd19a8b4cbb190911603c0aefe41360b75166f9a48d19963363be69",
+            "observation": "At 8x on checker, the shackle's 99 contour gives the best separation against the 192 and 240 squares. The inherited theme-1 pale-contour-on-checker objection is closed because the highlight sits inside the contour (row 5) and not on it."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "padlock-d",
+  "project": "simulated-fantasy",
+  "producer": {
+    "kind": "formseed2d",
+    "buildVersion": "1.6.0"
+  },
+  "job": {
+    "jobId": "e2115316-2097-50cd-ad29-d34d8c02e6af",
+    "revision": 0,
+    "checkpointSha256": "67d86215f1b928dfa212477918d57123943028f7a03959daf13427a60aeb06bc"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "13be19f3ddf0e911fb383e4e88d5a4911b12797e2ef59fd826d8537c0388af93",
+    "labeledSheet": {
+      "path": "comparison-sheet.labeled.png",
+      "sha256": "5cae95766c3d3a97f968e43a187b44b6401a39acf961ff0fec102f7e9e0e1fab",
+      "bytes": 21357
+    },
+    "files": [
+      {
+        "path": "assessment.json",
+        "sha256": "b061294351309cebf644ba6f0672d1bc31e26447be3a86c071588a0e053707b8",
+        "bytes": 17567
+      },
+      {
+        "path": "direction-selection.json",
+        "sha256": "ff6903aec66545a01ca67962dc6b0f1de219f0d67b7f7b67d07f4c1c47a7c01d",
+        "bytes": 1879
+      },
+      {
+        "path": "evaluation.json",
+        "sha256": "1320de32aad2052505be0847d24e34f02389e9d4852324212f757e7b6ca8b8c3",
+        "bytes": 950
+      },
+      {
+        "path": "native.png",
+        "sha256": "13be19f3ddf0e911fb383e4e88d5a4911b12797e2ef59fd826d8537c0388af93",
+        "bytes": 343
+      },
+      {
+        "path": "neutral-blind-observations.md",
+        "sha256": "4d542f09ee0c55ed442a223c2208ac1fd6f5bfa8051c281fc1028e4e1fa8ec1a",
+        "bytes": 3543
+      },
+      {
+        "path": "recipe-request.json",
+        "sha256": "a61768e47436352067646a58b52315a58a8b9be7e8c3e2dd9de9537cc21d285f",
+        "bytes": 5516
+      },
+      {
+        "path": "scope-decision.json",
+        "sha256": "2b705354eeb7fe482d7f57c30761697b73a9db3e7aedbf2f190bcae595afa57a",
+        "bytes": 1878
+      },
+      {
+        "path": "structural-audit.json",
+        "sha256": "3160b4b0c55bf8c504b690a60cb7b7ccfa8fc790fb6269bb45b89f6aebc69de3",
+        "bytes": 3113
+      },
+      {
+        "path": "theme.json",
+        "sha256": "89f694926ec5dd05f6ec44ce25fdabd156b6587046eb5a9c8d61480d727fd996",
+        "bytes": 999
+      },
+      {
+        "path": "views/checker-1x.png",
+        "sha256": "6f4f2b933077e4ddf691655c1ad1430761353e0dabc060f50b93eb7f1ba38fdf",
+        "bytes": 470
+      },
+      {
+        "path": "views/checker-8x.png",
+        "sha256": "59df722dd80aee5b93713a178df9184ff43a85638462ac3d631c972326c7c56c",
+        "bytes": 1209
+      },
+      {
+        "path": "views/dark-1x.png",
+        "sha256": "22382ea2ce7e53c1f696c0a4386abef24d31d09211c62a6bf13e2d46b7cc614f",
+        "bytes": 377
+      },
+      {
+        "path": "views/dark-8x.png",
+        "sha256": "ba88b24a3a8b0b5a6c866cbb57c8d73d6be057c3fe5532f2c73c97168c515221",
+        "bytes": 1025
+      },
+      {
+        "path": "views/light-1x.png",
+        "sha256": "f1207d46e731636ffafe64a69189e2e820c40e1a8f640357a8910453a081310c",
+        "bytes": 349
+      },
+      {
+        "path": "views/light-8x.png",
+        "sha256": "e1ea5f2ce4f04a31ce205bf60c0fd1687e9fd326127f11dc71b4237d3bdcbcbb",
+        "bytes": 1012
+      },
+      {
+        "path": "comparison-sheet.labeled.png",
+        "sha256": "5cae95766c3d3a97f968e43a187b44b6401a39acf961ff0fec102f7e9e0e1fab",
+        "bytes": 21357
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Selected as the D shading direction, then superseded by requester-approved polish passes 1 and 2.",
+    "decidedAt": "2026-10-06T15:26:01Z"
+  },
+  "notes": [
+    "D shading style study 'soft-rounded' (single attempt under the 3-attempt extension, scope-decision-20261005).",
+    "Actual gate: shading direction selection; the archive schema has no 2D direction gate, so source-approval is used with this note.",
+    "Evaluator: no-go (style unconfirmed at study time); see evaluation.json."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

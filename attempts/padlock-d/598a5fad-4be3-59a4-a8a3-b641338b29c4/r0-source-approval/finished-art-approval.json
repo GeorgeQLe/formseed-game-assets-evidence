@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewer": "George Le",
+  "at": "2026-10-07T02:33:45+00:00",
+  "authorization": "I approve",
+  "clarification": {
+    "question": "Which padlock D image are you approving as finished art?",
+    "selected": "Pass 2 \u2014 right column (Recommended)",
+    "selectedOptionText": "D soft p2, checkpoint 38e9517f\u2026 (final pass: shoulder banding removed, top highlight ends at the right leg)."
+  },
+  "scope": "Exact finished-art approval of padlock D soft-rounded polish pass 2 (brass body / blue-grey shackle, F1 theme 1 palette with requester-approved in-between tones). Artwork approval only: no catalog publication, promotion, bundle, game qualification or integration is implied.",
+  "reviewedSheet": {
+    "path": "tasks/padlock-d-finishes-20260924/style-exploration-20260925/polish-v2/presentation/padlock-d-soft-p1-vs-p2-checkerboard.labeled.png",
+    "sha256": "75a933372e89710d2bd818583aa4a97a03c914afbae6615000a19fd193e420d0"
+  },
+  "subject": {
+    "id": "padlock-d-soft-rounded-p2",
+    "variantId": "598a5fad-4be3-59a4-a8a3-b641338b29c4",
+    "revision": 0,
+    "checkpoint": "38e9517f983db13ad6932a2ecbf2d815c95f42bef2d40cc44b30e3639b5ff7da",
+    "manifestSha256": "91c81d010288adea3e5614783106790175e83b825d4bd4cb586c633cb85b83a9",
+    "canonicalSha256": "18ad295e4b3d6c0d435d6052b0c03657a9fb2bbb49b832622b75c66827ae168e",
+    "recipeId": "ee000579-4ca4-5660-8f44-b513462392c1",
+    "recipeSha256": "cf93d3aa2aec243c7d11d9c32c5858631d6e409fc8f1cf5a9f2ad35eb9fcf2db",
+    "themeId": "d-soft-rounded-p2-f1-theme-1",
+    "sourceAssembly": {
+      "assemblyId": "dc00a000-1234-4234-8234-000000000000",
+      "revision": 0,
+      "signature": "fc6c21ca2ce540767ea980cec01208c2861594b9e6ae2cc862fda5fd07eba829"
+    },
+    "width": 32,
+    "height": 32
+  },
+  "technicalValidation": "verified (0 design mismatches, alpha equals approved D mask, reproduction identical, 9 colours, 6/6 views pixel-exact)",
+  "visualRecommendation": {
+    "result": "no-go",
+    "weightedTotal": 75,
+    "blockers": [
+      "adversarial-objection:backgroundReadability"
+    ],
+    "note": "Formal no-go rests solely on the requester-accepted checker (mid-grey) contrast trade-off (checker-tradeoff-decision-20261006.json); it is not overridden or resolved by this approval."
+  },
+  "humanApproval": "approved (exact checkpoint above)",
+  "history": {
+    "directionSelection": "../direction-selection-20261006.json",
+    "polishAuthorization": "../polish-authorization-20261006.json",
+    "p1Preference": "../polish-v1/requester-feedback-p1-20261006.json",
+    "ledger": "tasks/padlock-d-finishes-20260924/ledger-16.json"
+  },
+  "notTransferred": [
+    "approval of v1, p1 or the other style studies",
+    "approval of any other padlock design or theme",
+    "catalog availability"
+  ]
+}

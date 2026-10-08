@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0.0",
+  "rubric": "finished-raster-icon@1.0.0",
+  "binding": {
+    "requestSha256": "c6b20a832703da91f8bc044fc2f372dfa99be9a8bbd7bf47ac36192e51a50e03",
+    "profile": {
+      "profileId": "reusable-ui-icon",
+      "version": "1.0.0"
+    },
+    "cell": {
+      "state": "style-study",
+      "theme": "d-soft-rounded-p1-f1-theme-1",
+      "scale": "32px",
+      "identity": "padlock-d-soft-rounded-polish-p1"
+    },
+    "jobId": "60caa6ad-3230-5fad-a750-e2825b1cd007",
+    "revision": 0,
+    "bundleManifestSha256": "6a353ca13991bc3457ed8fb12badaa31a18f801820bdb676ce48b0989a159a4c",
+    "canonicalSha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0"
+  },
+  "evaluator": "primary-independent-d-soft-rounded-p1",
+  "views": [
+    {
+      "name": "light-1x.png",
+      "sha256": "9b821fa2e7a24a8240a2ce78379fae47d63ab6d95c2d058eec9256eb3d246c90",
+      "background": "light",
+      "scale": "native",
+      "canonicalSha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0"
+    },
+    {
+      "name": "dark-1x.png",
+      "sha256": "6f5d3883083653f9c104b0b09ef92cd1da942ae115b6740881b6178700623c18",
+      "background": "dark",
+      "scale": "native",
+      "canonicalSha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0"
+    },
+    {
+      "name": "checker-1x.png",
+      "sha256": "4262fe3fbe22fcacdc1d5ee229d7a2988397011c1a77bce7d18a44cd35023257",
+      "background": "checker",
+      "scale": "native",
+      "canonicalSha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0"
+    },
+    {
+      "name": "light-8x.png",
+      "sha256": "a59595cf007cb86ac8af22b2318db43db4de1f4cc39aa097bad018574af68abe",
+      "background": "light",
+      "scale": "integer-enlarged",
+      "canonicalSha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0"
+    },
+    {
+      "name": "dark-8x.png",
+      "sha256": "7d5209488e417cf9a587956222fe64ede7e996d4200fcc5a4734ebf85d7fc351",
+      "background": "dark",
+      "scale": "integer-enlarged",
+      "canonicalSha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0"
+    },
+    {
+      "name": "checker-8x.png",
+      "sha256": "c9da859c159e39c9409f2f7d36bd3163e2b86468609d867122684d5a3bfc49d7",
+      "background": "checker",
+      "scale": "integer-enlarged",
+      "canonicalSha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0"
+    }
+  ],
+  "scores": {
+    "recognition": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "9b821fa2e7a24a8240a2ce78379fae47d63ab6d95c2d058eec9256eb3d246c90",
+          "observation": "At native size on light, the closed blue-grey shackle seated in both shoulders, the transparent opening (x12-19, rows 7-13) and the opaque keyhole (x14-17, rows 18-23) on the brass block read at once as a closed padlock. The blind neutral reviewer saw no recognition difference from v1 at 1x."
+        },
+        {
+          "viewSha256": "4262fe3fbe22fcacdc1d5ee229d7a2988397011c1a77bce7d18a44cd35023257",
+          "observation": "At 1x on checker it is still clearly a padlock. The shackle base #708B9D is only 1.97:1 against the #C0C0C0 squares, so the arch softens where it overlaps them. The outline and the brass/steel hue split still carry the read."
+        }
+      ]
+    },
+    "silhouette": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "a59595cf007cb86ac8af22b2318db43db4de1f4cc39aa097bad018574af68abe",
+          "observation": "Alpha is identical to the approved mask (verification: opaqueEqualsApprovedMask true, 0 partial alpha). The lit left face is now 2 px (x5-6, rows 17-23), tapering to 1 px only at rows 24-27 in a single step. It mirrors the 2-px mid band at x25-26 (rows 16-25), which also tapers to 1 px at both ends. The stepped, chamfer-looking bottom-left corner is gone, and neither side reads fuller."
+        },
+        {
+          "viewSha256": "7d5209488e417cf9a587956222fe64ede7e996d4200fcc5a4734ebf85d7fc351",
+          "observation": "The legs are mirror-exact: base/base/base/mid on the left (x8-11) and mid/base/base/base on the right (x20-23). The outer leg and shoulder contours are base #708B9D on both sides, so the right leg no longer thins on dark. A residual risk: the right-shoulder mid ring at (21,7) and (21,8) sits inside a base outer strip at (22,7) and (22,8). At 8x this reads faintly as a groove or detached strip, but it does not change the contour at 1x."
+        }
+      ]
+    },
+    "pixelDiscipline": {
+      "score": 2,
+      "observations": [
+        {
+          "viewSha256": "a59595cf007cb86ac8af22b2318db43db4de1f4cc39aa097bad018574af68abe",
+          "observation": "New in p1: on the right shoulder, row 6 reads mid x14-17, then base (18,6), then mid (19-20,6). A single base pixel breaks the dark underside line. Together with row 7 (18 mid, 19-20 base, 21 mid, 22 base), this forms a broken diagonal seam with checker-like 2x2 alternation at x18-21, rows 6-7. v1 had no alternation at this location. The mirror pixel on the left, (13,6), is light and continuous with its ring, so the two sides now differ in cleanliness."
+        },
+        {
+          "viewSha256": "9b821fa2e7a24a8240a2ce78379fae47d63ab6d95c2d058eec9256eb3d246c90",
+          "observation": "Improvements: the x7 four-pixel streak and the bottom-left staircase are gone, and there is no anti-aliasing or dithering in the body. Remaining from v1: the top-row light still ends abruptly at x17/x18, moved one pixel from x18/x19. The inner taper columns also differ in length: the x6 light runs 7 rows (17-23) and the x25 mid runs 10 rows (16-25)."
+        }
+      ]
+    },
+    "paletteReadability": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "9b821fa2e7a24a8240a2ce78379fae47d63ab6d95c2d058eec9256eb3d246c90",
+          "observation": "There are 9 colours, within the palette rule. No body pixel is darker than #875E2C, and #694623 has been removed, so there is no near-black or dark stripe. Upper-left light is consistent: light on the body's top and left, a 3-px corner glint at (6,15), (7,15) and (6,16), mid on the right and bottom, a crown highlight at (13-15,5), a lit left arch ring and a mid right arch ring. Brass against steel separates clearly, and the #292C32 keyhole stays legible and distinct from the transparent opening."
+        },
+        {
+          "viewSha256": "7d5209488e417cf9a587956222fe64ede7e996d4200fcc5a4734ebf85d7fc351",
+          "observation": "The mid right column plus the mid bottom row form a soft L-frame. On dark at 8x it reads as a shadowed side and base, not as a stripe. The corner glint stays subordinate to the keyhole and does not fragment the silhouette."
+        }
+      ]
+    },
+    "styleConsistency": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "a59595cf007cb86ac8af22b2318db43db4de1f4cc39aa097bad018574af68abe",
+          "observation": "p1 conforms to the requester-selected soft-rounded direction but is visibly toned down. It still differs from restrained-bevel, which has a 1-px uniform body frame and a mid outline on the shackle's outer contour. p1 has tapered 2-px light and mid planes with rounded ends, a specular corner glint, and no outline on the shackle. It also differs from mostly-flat, which has no arch modelling and an inset L glint. p1 keeps a modelled crown highlight with lit and shadow rings on the arch."
+        },
+        {
+          "viewSha256": "c9da859c159e39c9409f2f7d36bd3163e2b86468609d867122684d5a3bfc49d7",
+          "observation": "The tube shading now stops at row 8. The legs are flat base with a mid inner edge, so the shackle's roundness is carried only by the arch. That is weaker than v1, but it does not contradict the upper-left lighting."
+        }
+      ]
+    },
+    "backgroundReadability": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "6f5d3883083653f9c104b0b09ef92cd1da942ae115b6740881b6178700623c18",
+          "observation": "On dark at 1x, the right body edge rises from 1.94 to 2.85:1 (#875E2C replaces #694623). The right-leg and right-shoulder outer contour rises from 2.72 to 4.55:1 (base replaces mid). The right side no longer dissolves. The bottom row stays #875E2C at 2.85:1, now the softest dark edge, and it is still readable."
+        },
+        {
+          "viewSha256": "4262fe3fbe22fcacdc1d5ee229d7a2988397011c1a77bce7d18a44cd35023257",
+          "observation": "On checker, nothing changed from v1, and this was not on the fix list. The left body edge #C2954E is 1.50:1 against #C0C0C0, though a strong hue difference holds it. The shackle base is 1.97:1 against #C0C0C0. Both boundaries are soft but readable, and the transparent opening is unambiguous."
+        }
+      ]
+    }
+  },
+  "correction": {
+    "beforeSha256": "13be19f3ddf0e911fb383e4e88d5a4911b12797e2ef59fd826d8537c0388af93",
+    "afterSha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0",
+    "beforeObservation": "v1 light-8x (studies-v1/views/soft-rounded/light-8x.png): a 4-px lit left face stair-steps to a cut bottom-left corner, a 4-px #E0B568 streak at x7, a 3-px dark right band ending in #694623, a right leg and shoulder outlined in #516676 that dissolve on dark, and single-pixel arch tone breaks.",
+    "afterObservation": "p1 light-8x (a59595cf…8abe): mirrored 2-px lit and mid side planes with one clean step, a 3-px corner glint in place of the streak, a 2-px #875E2C right band with no darker tone, mirror-exact legs with base outer contours, and a cleaned left arch. A new break and alternation appears on the right-shoulder mid ring at (18-21, 6-7).",
+    "acceptanceCriterion": "No body run darker than #875E2C; mirror-equivalent value structure on paired legs and shoulders with continuous, speckle-free arch rings on both sides; neither side reads wider; every outer edge at or above about 2.8:1 on dark, readable at 1x on light, dark and checker."
+  },
+  "recognitionCues": [
+    {
+      "viewSha256": "9b821fa2e7a24a8240a2ce78379fae47d63ab6d95c2d058eec9256eb3d246c90",
+      "cue": "Closed U-shackle entering both body shoulders",
+      "nearestNeighbor": "handbag with an arched handle",
+      "distinction": "The shackle is rigid, evenly thick, steel-toned and enters the top face of a solid brass block. It is not a strap fixed at the sides."
+    },
+    {
+      "viewSha256": "6f5d3883083653f9c104b0b09ef92cd1da942ae115b6740881b6178700623c18",
+      "cue": "Opaque keyhole (round head plus stem) centred low on the body",
+      "nearestNeighbor": "briefcase or toolbox with a latch",
+      "distinction": "It has a keyhole glyph rather than a clasp, and a tall arch rather than a low handle."
+    },
+    {
+      "viewSha256": "4262fe3fbe22fcacdc1d5ee229d7a2988397011c1a77bce7d18a44cd35023257",
+      "cue": "Transparent opening inside the shackle shows the checker",
+      "nearestNeighbor": "kettlebell",
+      "distinction": "The body is a flat-faced rectangular block with a keyhole, not a sphere, and the handle is narrower than the body."
+    },
+    {
+      "viewSha256": "a59595cf007cb86ac8af22b2318db43db4de1f4cc39aa097bad018574af68abe",
+      "cue": "Brass body against a blue-grey steel shackle (material hue split)",
+      "nearestNeighbor": "shopping bag with a cord handle",
+      "distinction": "The rigid metal arch and thick keyed body contrast with a paper bag and soft cord."
+    },
+    {
+      "viewSha256": "7d5209488e417cf9a587956222fe64ede7e996d4200fcc5a4734ebf85d7fc351",
+      "cue": "Both legs seated in the body with mirror-matched widths",
+      "nearestNeighbor": "open or unlocked padlock icon",
+      "distinction": "There is no gap or raised leg on either side, so it reads as locked. On dark both outer leg edges are base #708B9D at 4.55:1, so neither leg thins."
+    },
+    {
+      "viewSha256": "c9da859c159e39c9409f2f7d36bd3163e2b86468609d867122684d5a3bfc49d7",
+      "cue": "Soft modelled body: light upper-left rim with corner glint, mid right and bottom",
+      "nearestNeighbor": "3/4-view treasure chest or box",
+      "distinction": "The planes are now 2 px on each side and mirrored, so the body reads front-on rather than rotated. The arch and keyhole dominate."
+    }
+  ],
+  "hardGates": {
+    "pixelsVerified": true,
+    "provenanceVerified": true,
+    "styleConfirmed": true,
+    "targetedCorrectionVerified": false,
+    "exactEvidenceVerified": true
+  },
+  "adversarial": {
+    "evaluator": "adversarial-independent-d-soft-rounded-p1",
+    "binding": {
+      "requestSha256": "c6b20a832703da91f8bc044fc2f372dfa99be9a8bbd7bf47ac36192e51a50e03",
+      "profile": {
+        "profileId": "reusable-ui-icon",
+        "version": "1.0.0"
+      },
+      "cell": {
+        "state": "style-study",
+        "theme": "d-soft-rounded-p1-f1-theme-1",
+        "scale": "32px",
+        "identity": "padlock-d-soft-rounded-polish-p1"
+      },
+      "jobId": "60caa6ad-3230-5fad-a750-e2825b1cd007",
+      "revision": 0,
+      "bundleManifestSha256": "6a353ca13991bc3457ed8fb12badaa31a18f801820bdb676ce48b0989a159a4c",
+      "canonicalSha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0"
+    },
+    "objections": [
+      {
+        "category": "recognition",
+        "strongestReasonBelow3": "On checker, the shackle's outer contour is now body-of-tube base (112,139,157) on both sides, at 1.97 against the #C0C0C0 squares (15 px). Its left and right legs also lost the lit/shadow tube split. On light, the neutral reviewer said the 'shackle still loses contrast on light backgrounds'. A weakened, flatter shackle could blur the padlock's defining arch at native size.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "9b821fa2e7a24a8240a2ce78379fae47d63ab6d95c2d058eec9256eb3d246c90",
+            "observation": "At 1x on light, the blue-grey arched shackle with its transparent opening (x12-19, rows 7-13) sits on the wider brass body, and the dark keyhole is centred at x14-17, rows 18-23. It reads immediately as a padlock. The lowest outer contrast on light is 2.73, and no outer pixel merges into the background."
+          },
+          {
+            "viewSha256": "6f5d3883083653f9c104b0b09ef92cd1da942ae115b6740881b6178700623c18",
+            "observation": "At 1x on dark, the shackle outer contour is all base at 4.55, so the arch and both legs stand clear. The blind reviewer called Y 'essentially indistinguishable from X' at 1x and found it readable on all three backgrounds, with 'nothing merges away'."
+          }
+        ]
+      },
+      {
+        "category": "silhouette",
+        "strongestReasonBelow3": "Paired balance can fail in either direction. (a) Right fatter, which is the inherited D-SHAPE-01 objection: the right side carries a continuous mid L-frame, x26 for rows 15-27 plus x25 for rows 16-25, joined to the 20-px mid bottom row 28. On light, this darker frame adds visual weight to the lower right. The right shoulder's mid ring at (19,6), (20,6), (21,7) and (21,8) darkens the upper-right arch, and the blind reviewer still saw the right leg as 'darker'. (b) Left fatter, which was v1's inverted objection: the left lit face plus the 3-px glint could still read wider than the right band. The ring sits inside a 1-px base outer strip at (21,6), (22,7) and (22,8), which could read as a detached outer strip and so create an apparent contour defect.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "7d5209488e417cf9a587956222fe64ede7e996d4200fcc5a4734ebf85d7fc351",
+            "observation": "At 8x on dark, the side bands have equal width. The left face is 2 px light (x5-6) for rows 15-23 and tapers to 1 px for rows 24-27. The right band is 2 px mid (x25-26) for rows 16-25 and tapers to 1 px for rows 15 and 26-27. v1's stepped 4/3/2/1 lit face and 3-px dark band are gone. The legs are mirror-exact: x8-11 read s-s-s-m and x20-23 read m-s-s-s, with 0 mismatches on rows 9-13. Neither side reads fatter. The outer base strip on the right shoulder is continuous with crown row 5 and leg x22-23, so it does not detach."
+          },
+          {
+            "viewSha256": "a59595cf007cb86ac8af22b2318db43db4de1f4cc39aa097bad018574af68abe",
+            "observation": "At 8x on light, the body outline, rounded corners at (5,14)/(26,14)/(5,28)/(26,28), opening and keyhole match the approved D silhouette. The L-frame is mid (#875E2C), not a dark outline, and adds no apparent width. The blind reviewer judged Y's 'legs better balanced' and its 'shoulders symmetric'."
+          }
+        ]
+      },
+      {
+        "category": "pixelDiscipline",
+        "strongestReasonBelow3": "The shoulders now show 1-px parallel banding and alternation. On the right shoulder, row 8 reads m-s-m-s across x19-22 and row 7 reads m-s-s-m-s across x18-22. The mid ring at (19,6), (20,6), (21,7) and (21,8) runs parallel to the mid inner contour at (18,7) and (19,8), with a single base diagonal between them. The left mirror reads s-l-s-m on row 8. Both rings stop abruptly at row 8 because the legs carry no ring, which leaves 4- and 5-px fragments. (21,6) and (10,6) are single base pixels joined only diagonally. The top-row light, a 12-px run at x6-17 on row 14, also ends abruptly at x17/18 where nothing in the form changes. The blind reviewer's 'no obvious speckle' was explicitly low-confidence on single pixels.",
+        "resolved": false,
+        "resolution": [
+          {
+            "viewSha256": "7d5209488e417cf9a587956222fe64ede7e996d4200fcc5a4734ebf85d7fc351",
+            "observation": "At 8x on dark, the right shoulder shows two parallel dark diagonals: the ring at (19-20,6), (21,7-8) and the inner contour at (18,7), (19,8). A 1-px base diagonal separates them, and the outer base rim (21,6), (22,7), (22,8) sits outside. This reads as banding or a groove, not a solid shadow cluster, and it ends abruptly at row 8 above the plain leg. The inherited items are fixed: the bottom-left staircase now has a single step at row 23/24; the x7 streak is gone; and (13,7) is now part of a continuous mid inner-opening contour. The shoulder banding is a new pattern that the evidence confirms rather than defeats."
+          },
+          {
+            "viewSha256": "a59595cf007cb86ac8af22b2318db43db4de1f4cc39aa097bad018574af68abe",
+            "observation": "At 8x on light, the top-edge light stops with a hard cut at x17/18. Nothing in the form explains the cut: the shackle legs land at x8-11 and x20-23. The lit edge therefore reads as a truncated strip rather than a falloff."
+          }
+        ]
+      },
+      {
+        "category": "paletteReadability",
+        "strongestReasonBelow3": "Stripe-like runs survive. The right side and bottom form a continuous mid L-frame (x26 for 13 rows, x25 for 10 rows, plus the 20-px row 28), and the top/left lit frame is light. The body could therefore read as a framed plate split into strips, a softened version of the requester's 'single black stripe'. The shackle legs are now plain base with only an inner mid line, so the steel no longer reads as a lit tube. Under upper-left light, the right leg's inner edge faces the light but is mid.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "7d5209488e417cf9a587956222fe64ede7e996d4200fcc5a4734ebf85d7fc351",
+            "observation": "At 8x on dark, no body pixel is darker than #875E2C; body-low has been removed. Neither a black stripe nor the x7 streak remains. Value grouping is coherent upper-left light: a light top and left with a glint at (6,15), (7,15), (6,16); a base plate; a mid right and bottom; a lit left shoulder ring with a crown highlight at (13-15,5); and a mid right shoulder ring. The mid on both legs' inner edges is one continuous inner-opening contour, so it is a symmetric occlusion line rather than a lighting contradiction. Brass and steel stay distinct, and the keyhole is clear and subordinate."
+          },
+          {
+            "viewSha256": "9b821fa2e7a24a8240a2ce78379fae47d63ab6d95c2d058eec9256eb3d246c90",
+            "observation": "At 1x on light, the L-frame reads as the side and bottom planes of a lit block, not as a separate stripe. The blind reviewer saw 'no unwanted seam or frame line' in Y and said the top rim and bottom band 'help'."
+          }
+        ]
+      },
+      {
+        "category": "styleConsistency",
+        "strongestReasonBelow3": "The requester chose soft-rounded, and the polish authorization says 'keeps the soft-rounded look'. The p1 body has become structurally a restrained-bevel frame. It differs from the bevel study in only 26 of 308 body pixels, against 73 for v1. It is a flat base plate with a single-step light top and left and a single-step mid right and bottom, with no graded ramp: body-low is gone, and v1's 4/3/2/1 lit-face falloff is gone. The shackle legs lost their tube shading (v1's x9 light column and x23 mid outer), leaving the shackle 28 px from mostly-flat. The blind reviewer described Y in bevel terms ('the body bevel reads at least as well as in X').",
+        "resolved": false,
+        "resolution": [
+          {
+            "viewSha256": "7d5209488e417cf9a587956222fe64ede7e996d4200fcc5a4734ebf85d7fc351",
+            "observation": "Compared side by side at 8x on dark with studies-v1/views/restrained-bevel/dark-8x.png, the p1 body is the same light-top/left, flat-base, mid-right/bottom frame. The only differences are a 2-px frame width instead of 1, short tapers at x6 and x25, the 3-px glint, and the top light ending at x17 instead of x23. No surface gradation suggests a rounded volume. Only the shackle crown and shoulder rings keep a rounded cue. The view confirms drift toward bevel rather than defeating it. Whether this still satisfies 'keeps the soft-rounded look' needs the requester's own judgement and cannot be inferred."
+          },
+          {
+            "viewSha256": "a59595cf007cb86ac8af22b2318db43db4de1f4cc39aa097bad018574af68abe",
+            "observation": "At 8x on light, the shackle legs are uniform base with a single mid inner line on each side, like a flat band. The tube reading of v1, with a lit left leg and a darker right outer edge, is gone, and roundness survives only at the shoulders."
+          }
+        ]
+      },
+      {
+        "category": "backgroundReadability",
+        "strongestReasonBelow3": "No dark outline holds the boundary. On checker, the shackle's outer contour is base at 1.97 against #C0C0C0 on both sides. That is 15 px, up from 10 in v1, because the right outer pixels (19,5), (22,8), (23,9), (23,12) and (23,13) went from mid to base. The body-light left edge is 1.50 for 10 px: (5,16-19), (5,24-27) and (16-17,14), with (5,27) newly added. This is the inherited checker-contour objection (D-CORE-01). It was left off the fix list and has now regressed on the right shackle. On dark, the whole right column x26 and bottom row 28 (33 px) sit at 2.85, and the inner opening contour (18 px) at 2.72.",
+        "resolved": false,
+        "resolution": [
+          {
+            "viewSha256": "c9da859c159e39c9409f2f7d36bd3163e2b86468609d867122684d5a3bfc49d7",
+            "observation": "At 8x on checker, where the shackle legs and shoulders overlap the #C0C0C0 squares, their blue-grey base is separated mainly by hue, not value. The right leg now softens the same way the left does, while v1 kept a mid outer edge on the right. The brass left face is also low-value against the grey squares. The inherited checker contour objection is not closed and is slightly worse than v1."
+          },
+          {
+            "viewSha256": "6f5d3883083653f9c104b0b09ef92cd1da942ae115b6740881b6178700623c18",
+            "observation": "Dark is improved: the minimum outer contrast is 2.72 (v1: 1.94), and 59 edge pixels fall below 3.0 (v1: 73). At 1x the right and bottom edges are locatable. This matches the restrained-bevel dark values that the prior adversary accepted, so the dark-background part of the objection is defeated. The checker part is not."
+          }
+        ]
+      }
+    ]
+  }
+}

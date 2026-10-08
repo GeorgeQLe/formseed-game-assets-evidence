@@ -1,0 +1,123 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "padlock-d",
+  "project": "simulated-fantasy",
+  "producer": {
+    "kind": "formseed2d",
+    "buildVersion": "1.6.0"
+  },
+  "job": {
+    "jobId": "60caa6ad-3230-5fad-a750-e2825b1cd007",
+    "revision": 0,
+    "checkpointSha256": "03a31230006bdd9333043ad17b243ac5848407ce3c36fc3f00ce2e468cc3246a"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0",
+    "labeledSheet": {
+      "path": "comparison-sheet.labeled.png",
+      "sha256": "d61b2a18b09fbb712eb8a436c52ebbe96e0d217589c6a4c885139643927193df",
+      "bytes": 19373
+    },
+    "files": [
+      {
+        "path": "assessment.json",
+        "sha256": "5787eca1f0fed7f6483b6349c86cf6edb2911372f8763ad44450dd475bab818a",
+        "bytes": 24118
+      },
+      {
+        "path": "evaluation.json",
+        "sha256": "b51de458242cdb0af2da7ff91d9be1116c581d8aaee9ca05d8621c8e3d19438a",
+        "bytes": 611
+      },
+      {
+        "path": "native.png",
+        "sha256": "66ebecabf3026970d67354cea43214e65b479f46c264d2ddf65906659c6341c0",
+        "bytes": 348
+      },
+      {
+        "path": "neutral-blind-observations.md",
+        "sha256": "fc5e8c454049e8ea14c2b24b1620035e08c8faeaaf745713d70e15ae848199d7",
+        "bytes": 4087
+      },
+      {
+        "path": "polish-authorization.json",
+        "sha256": "49a6c04580fb527db4c63c4d0e7a36f096dc11415d5545e387b11c4d953900ac",
+        "bytes": 1225
+      },
+      {
+        "path": "recipe-request.json",
+        "sha256": "3213d0c653dc11c4106cc244de41bdc6d060708f09f4cd871b55245a116e294c",
+        "bytes": 4516
+      },
+      {
+        "path": "requester-feedback.json",
+        "sha256": "64b8dee7ac4ac58092e38b77caec81ffb0004f3d6b27f1dded147581c3e25057",
+        "bytes": 969
+      },
+      {
+        "path": "structural-audit.md",
+        "sha256": "17153fab6b1d9b8186578fcf2991ff70ef1d2af4217b6e3d9942d3189dec9779",
+        "bytes": 14677
+      },
+      {
+        "path": "theme.json",
+        "sha256": "eca45cac262e6731d31d284744cccde35830fe3ba77f03da3b643d9ab1f1d517",
+        "bytes": 897
+      },
+      {
+        "path": "views/checker-1x.png",
+        "sha256": "4262fe3fbe22fcacdc1d5ee229d7a2988397011c1a77bce7d18a44cd35023257",
+        "bytes": 463
+      },
+      {
+        "path": "views/checker-8x.png",
+        "sha256": "c9da859c159e39c9409f2f7d36bd3163e2b86468609d867122684d5a3bfc49d7",
+        "bytes": 1203
+      },
+      {
+        "path": "views/dark-1x.png",
+        "sha256": "6f5d3883083653f9c104b0b09ef92cd1da942ae115b6740881b6178700623c18",
+        "bytes": 359
+      },
+      {
+        "path": "views/dark-8x.png",
+        "sha256": "7d5209488e417cf9a587956222fe64ede7e996d4200fcc5a4734ebf85d7fc351",
+        "bytes": 1019
+      },
+      {
+        "path": "views/light-1x.png",
+        "sha256": "9b821fa2e7a24a8240a2ce78379fae47d63ab6d95c2d058eec9256eb3d246c90",
+        "bytes": 358
+      },
+      {
+        "path": "views/light-8x.png",
+        "sha256": "a59595cf007cb86ac8af22b2318db43db4de1f4cc39aa097bad018574af68abe",
+        "bytes": 1013
+      },
+      {
+        "path": "comparison-sheet.labeled.png",
+        "sha256": "d61b2a18b09fbb712eb8a436c52ebbe96e0d217589c6a4c885139643927193df",
+        "bytes": 19373
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Requester preferred pass 1 over the study ('I think the right one looks better'); superseded by the clean-up pass 2, which was approved.",
+    "decidedAt": "2026-10-07T02:33:45Z"
+  },
+  "notes": [
+    "Polish pass 1 of the selected soft-rounded direction (1 of 2 requester-approved passes).",
+    "Evaluator no-go 70 (pixel discipline 2; style, checker objections)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

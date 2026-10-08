@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-05",
+  "kind": "structural-audit-before-authoring",
+  "auditor": "independent read-only subagent (four rounds: initial, revision, N1/N4 delta, N6 delta); designer is the operating agent",
+  "auditedFiles": {
+    "soft-rounded-recipe-request.json": "4f616cca1ba915b6245317e64702d975a43e9d6f15a7d90229c9cd54422411c6",
+    "restrained-bevel-recipe-request.json": "083150b2aa03ab117e7c8030416e36e601bd644ea406ffb027b9fa8151361a88",
+    "mostly-flat-highlights-recipe-request.json": "a84ca5cae534b6d5a183cdba7e485a0ffbd2dbfc1eab111e4014947d57546a7d",
+    "soft-rounded-theme.json": "89f694926ec5dd05f6ec44ce25fdabd156b6587046eb5a9c8d61480d727fd996",
+    "restrained-bevel-theme.json": "324eb51c3e92f6248cd2bbac3ea7d45f36935aa01d307f3244e36ce223d32db3",
+    "mostly-flat-highlights-theme.json": "f5b9fd3708bf36241eeeb4aa1d094fc7fee6d8f9dd7f3ee957408fb408392f9e",
+    "design.py": "a76d365b819a96f09c2100bcd40c9ab2aa8ef66baa3cd4dfefc3ebf0ab4fada0",
+    "build_requests.py": "e29db2b77a83703491ee0ef13d19a6eed2fb3318244ddf1bd77e48189b4458b5"
+  },
+  "baseline": {
+    "path": "tasks/padlock-d-finishes-20260924/recipe-pass3.json",
+    "sha256": "548922619b88a583411315cdd2a80c3f2cfb78c49fff64d813b54aa7532b1df3"
+  },
+  "verdicts": {
+    "maskFidelity": "pass (all three)",
+    "paletteRule": "pass (soft 2/2, bevel 2/2, flat 2/1 added tones; <=2.2 deg hue, between shadow and highlight)",
+    "maxColors": "pass (10, 7, 8)",
+    "distinctness": "pass",
+    "blockers": []
+  },
+  "premiseCorrection": "Approved silhouette is mirror-symmetric about x=15.5; the operating agent's earlier '5 vs 4 px at row 7' claim was wrong and is withdrawn. Any right-side fullness comes from shading.",
+  "resolvedDuringAudit": [
+    "R1 pale left vs dark right leg contour",
+    "R2 (bevel) lit upper-right rim",
+    "R3 (part) double dark bottom bands",
+    "R4 one-sided leg highlight",
+    "R6 right shoulder-to-leg seam",
+    "R7 lit-band stair",
+    "R8 stray (6,15)",
+    "R9 soft/bevel shackle sameness",
+    "N1 mirrored light ring",
+    "N4 glint on contour",
+    "N6 right rim break and solid right block"
+  ],
+  "reviewMustCheck": [
+    "Paired leg/shoulder balance in every study incl. inherited right-fatter / upper-right shoulder objection; soft-rounded right leg may read thinner on dark",
+    "Inherited theme-1 checker contour objection (now unlikely)",
+    "Remaining stripe-like runs: soft x24-26 rows 15-27 dark right band (N2) and x7 rows 16-19 highlight streak; bevel row 14 18-px light top bar and (14-17,6) mid run; all row 28 mid",
+    "Bevel mid shackle outline (44/86 px) may thin/darken shackle on dark (N3); outlined shackle vs un-outlined body; symmetric crown light reads as top light",
+    "Possible speckle from soft-rounded single-pixel arch tones (10,6),(13,6),(13,7),(18,7),(19,8),(21,6)"
+  ],
+  "gate": {
+    "technicalValidation": "recipe-level pass",
+    "visualRecommendation": "not assessed; prior shaded no-go retained",
+    "humanApproval": "absent"
+  },
+  "draftHistory": {
+    "design-v1-draft.py": "dc7e3a7e566f419d7ee81c66559e4569228e379ace74d45cee73f79c953cd5d9"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "assessment": {
+    "path": "p1-assessment.json",
+    "sha256": "5787eca1f0fed7f6483b6349c86cf6edb2911372f8763ad44450dd475bab818a"
+  },
+  "evaluation": {
+    "recommendation": "no-go",
+    "weightedTotal": 70,
+    "categoryFailures": [
+      "pixelDiscipline"
+    ],
+    "coreFloorFailures": [
+      "pixelDiscipline"
+    ],
+    "hardGateFailures": [
+      "targetedCorrectionVerified"
+    ],
+    "blockers": [
+      "adversarial-objection:pixelDiscipline",
+      "adversarial-objection:styleConsistency",
+      "adversarial-objection:backgroundReadability"
+    ],
+    "humanApproval": "not-assessed"
+  }
+}

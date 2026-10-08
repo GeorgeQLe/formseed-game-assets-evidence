@@ -1,0 +1,36 @@
+{
+  "assessment": {
+    "path": "soft-rounded-assessment.json",
+    "sha256": "b061294351309cebf644ba6f0672d1bc31e26447be3a86c071588a0e053707b8"
+  },
+  "evaluation": {
+    "recommendation": "no-go",
+    "weightedTotal": 56.25,
+    "categoryFailures": [
+      "silhouette",
+      "pixelDiscipline",
+      "paletteReadability",
+      "styleConsistency",
+      "backgroundReadability"
+    ],
+    "coreFloorFailures": [
+      "silhouette",
+      "pixelDiscipline",
+      "paletteReadability",
+      "styleConsistency",
+      "backgroundReadability"
+    ],
+    "hardGateFailures": [
+      "styleConfirmed",
+      "targetedCorrectionVerified"
+    ],
+    "blockers": [
+      "adversarial-objection:silhouette",
+      "adversarial-objection:pixelDiscipline",
+      "adversarial-objection:paletteReadability",
+      "adversarial-objection:styleConsistency",
+      "adversarial-objection:backgroundReadability"
+    ],
+    "humanApproval": "not-assessed"
+  }
+}

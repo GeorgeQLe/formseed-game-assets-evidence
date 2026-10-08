@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "1.0.0",
+  "rubric": "finished-raster-icon@1.0.0",
+  "binding": {
+    "requestSha256": "c6b20a832703da91f8bc044fc2f372dfa99be9a8bbd7bf47ac36192e51a50e03",
+    "profile": {
+      "profileId": "reusable-ui-icon",
+      "version": "1.0.0"
+    },
+    "cell": {
+      "state": "style-study",
+      "theme": "d-study-mostly-flat-highlights-f1-theme-1",
+      "scale": "32px",
+      "identity": "padlock-d-style-study-mostly-flat-highlights"
+    },
+    "jobId": "d272f8b3-387a-539e-a687-ccc9d31e67fc",
+    "revision": 0,
+    "bundleManifestSha256": "e9dc4c5d8ebe1f749b91bb4a4af310af2fb02db31df41094152896f1bafc0eea",
+    "canonicalSha256": "38dac37cce9eab5da531be815447d1d919fb8d40b034507f5511bece1b16f054"
+  },
+  "evaluator": "primary-independent-d-style-studies-v1",
+  "views": [
+    {
+      "name": "light-1x.png",
+      "sha256": "3bbd0667c463377b54fde06864275792c4f5b5754077aa9d2c56392616f711ff",
+      "background": "light",
+      "scale": "native",
+      "canonicalSha256": "38dac37cce9eab5da531be815447d1d919fb8d40b034507f5511bece1b16f054"
+    },
+    {
+      "name": "dark-1x.png",
+      "sha256": "66434874f673e37d22894404a070988fe41c4d96caadf85b8f2bf431dfc11eb7",
+      "background": "dark",
+      "scale": "native",
+      "canonicalSha256": "38dac37cce9eab5da531be815447d1d919fb8d40b034507f5511bece1b16f054"
+    },
+    {
+      "name": "checker-1x.png",
+      "sha256": "0e3baa3443466f97f5796b0ed0987b48acc8d499d1de22505629e8e7519dc692",
+      "background": "checker",
+      "scale": "native",
+      "canonicalSha256": "38dac37cce9eab5da531be815447d1d919fb8d40b034507f5511bece1b16f054"
+    },
+    {
+      "name": "light-8x.png",
+      "sha256": "a01b007d7a1e9a46c8d9a02f24a688922024bb4dc9cfa8f8215a506ebf799ae8",
+      "background": "light",
+      "scale": "integer-enlarged",
+      "canonicalSha256": "38dac37cce9eab5da531be815447d1d919fb8d40b034507f5511bece1b16f054"
+    },
+    {
+      "name": "dark-8x.png",
+      "sha256": "62f129cda1e735f9a277924d12325d9e2c123e32899f05bc816cb20eb592b491",
+      "background": "dark",
+      "scale": "integer-enlarged",
+      "canonicalSha256": "38dac37cce9eab5da531be815447d1d919fb8d40b034507f5511bece1b16f054"
+    },
+    {
+      "name": "checker-8x.png",
+      "sha256": "c51d6139b0e399989056b692af748c5a305889afb248c8c08de9e82d93f3b11a",
+      "background": "checker",
+      "scale": "integer-enlarged",
+      "canonicalSha256": "38dac37cce9eab5da531be815447d1d919fb8d40b034507f5511bece1b16f054"
+    }
+  ],
+  "scores": {
+    "recognition": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "3bbd0667c463377b54fde06864275792c4f5b5754077aa9d2c56392616f711ff",
+          "observation": "On light at 1x, a flat brass block, a uniform steel shackle and the keyhole make the cleanest and fastest padlock read of the three."
+        },
+        {
+          "viewSha256": "66434874f673e37d22894404a070988fe41c4d96caadf85b8f2bf431dfc11eb7",
+          "observation": "On dark at 1x, the shackle #708B9D (4.55:1) and body #A57534 (4.03:1) both hold; it is clearly a padlock."
+        }
+      ]
+    },
+    "silhouette": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "a01b007d7a1e9a46c8d9a02f24a688922024bb4dc9cfa8f8215a506ebf799ae8",
+          "observation": "Both legs are a uniform 4 px of #708B9D, and the body edges are one tone on the left, top and right. Interior colour creates no apparent contour defect and no shoulder or leg imbalance. The thick uniform arch looks slightly bulbous but matches the approved mask."
+        },
+        {
+          "viewSha256": "c51d6139b0e399989056b692af748c5a305889afb248c8c08de9e82d93f3b11a",
+          "observation": "On checker the opening stays transparent and the legs stay seated. The outline is defined by flat fills only."
+        }
+      ]
+    },
+    "pixelDiscipline": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "a01b007d7a1e9a46c8d9a02f24a688922024bb4dc9cfa8f8215a506ebf799ae8",
+          "observation": "Solid clusters. The body highlight is one deliberate 5-px L ((7-9,16),(7,17),(7,18)) in two tones, and the arch highlight is 3 px ((13-15,5)). There are no stray pixels, no AA and no dither."
+        }
+      ]
+    },
+    "paletteReadability": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "3bbd0667c463377b54fde06864275792c4f5b5754077aa9d2c56392616f711ff",
+          "observation": "The flat finish separates the components clearly by hue: brass body, blue-grey shackle, dark keyhole. Only the single bottom row (#875E2C) is a shade, and it grounds the body. Volume is minimal, as the declared flat treatment specifies."
+        },
+        {
+          "viewSha256": "62f129cda1e735f9a277924d12325d9e2c123e32899f05bc816cb20eb592b491",
+          "observation": "The upper-left body L-highlight reads somewhat like an applied decal rather than a light response. Because the arch highlight is placed at the same upper-left, the lighting stays coherent. It is a limitation, not a fragmentation of the silhouette."
+        }
+      ]
+    },
+    "styleConsistency": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "a01b007d7a1e9a46c8d9a02f24a688922024bb4dc9cfa8f8215a506ebf799ae8",
+          "observation": "It matches the declared 'mostly flat with small highlights' treatment and the fixed silhouette, keyhole and palette rule (2 body, 1 shackle added tones). The score covers the declared study only; no requester-confirmed brief exists. Unlike the requester's prior flat finishes, it does not confer any approval."
+        }
+      ]
+    },
+    "backgroundReadability": {
+      "score": 3,
+      "observations": [
+        {
+          "viewSha256": "66434874f673e37d22894404a070988fe41c4d96caadf85b8f2bf431dfc11eb7",
+          "observation": "It has the most even edge contrast of the three. The body edges #A57534 are 3.55:1 on light, 4.03:1 on dark and 2.22:1 on the #C0C0C0 squares. Only the bottom row #875E2C softens on dark (2.85:1)."
+        },
+        {
+          "viewSha256": "0e3baa3443466f97f5796b0ed0987b48acc8d499d1de22505629e8e7519dc692",
+          "observation": "On checker, the flat shackle #708B9D is 1.97:1 against the #C0C0C0 squares, the lowest shackle separation of the three. It is still continuous and readable at 1x, and the pale-left contour objection does not apply because the body edge is mid-tone."
+        }
+      ]
+    }
+  },
+  "correction": {
+    "beforeSha256": "af1bef590733252f04f49b83322f591177595c69c777893af9b2cecc440b2f30",
+    "afterSha256": "38dac37cce9eab5da531be815447d1d919fb8d40b034507f5511bece1b16f054",
+    "beforeObservation": "Pass3 after-light-8x (1540b23f94bc01cd8f720b448257730e62a8fee9b319fcedabcb9e0652c2018a) has a near-black #412A18 L-band along the right and bottom that reads as a single black stripe and a fuller right side.",
+    "afterObservation": "There is no side shading at all. The only dark run is the 1-px #875E2C bottom row; the legs and body edges are uniform and mirror-symmetric, and the small highlights sit upper-left only. No left/right imbalance is introduced.",
+    "acceptanceCriterion": "No body run darker than #875E2C forms a continuous stripe of 2 px or more; paired legs and shoulders use mirror-equivalent value structure; neither side reads wider on light, dark or checker at 1x."
+  },
+  "recognitionCues": [
+    {
+      "viewSha256": "3bbd0667c463377b54fde06864275792c4f5b5754077aa9d2c56392616f711ff",
+      "cue": "Thick uniform steel U-shackle seated in the body",
+      "nearestNeighbor": "handbag with an arched handle",
+      "distinction": "The rigid metal hue and the legs entering the top face; a keyholed brass block, not a soft bag."
+    },
+    {
+      "viewSha256": "66434874f673e37d22894404a070988fe41c4d96caadf85b8f2bf431dfc11eb7",
+      "cue": "Dark keyhole on a flat brass face",
+      "nearestNeighbor": "briefcase",
+      "distinction": "A keyhole glyph and a tall arch instead of clasps and a low handle."
+    },
+    {
+      "viewSha256": "0e3baa3443466f97f5796b0ed0987b48acc8d499d1de22505629e8e7519dc692",
+      "cue": "Transparent opening inside the shackle",
+      "nearestNeighbor": "kettlebell",
+      "distinction": "The rectangular body with a keyhole excludes a round weight."
+    },
+    {
+      "viewSha256": "a01b007d7a1e9a46c8d9a02f24a688922024bb4dc9cfa8f8215a506ebf799ae8",
+      "cue": "Small upper-left glints on the arch and body",
+      "nearestNeighbor": "shopping bag with a printed corner logo",
+      "distinction": "The metal hues and keyhole dominate; the glint is subordinate."
+    },
+    {
+      "viewSha256": "62f129cda1e735f9a277924d12325d9e2c123e32899f05bc816cb20eb592b491",
+      "cue": "Both legs equal and seated",
+      "nearestNeighbor": "open or unlocked padlock",
+      "distinction": "There is no leg gap, so it reads as locked."
+    },
+    {
+      "viewSha256": "c51d6139b0e399989056b692af748c5a305889afb248c8c08de9e82d93f3b11a",
+      "cue": "Two-material hue split (brass against blue-grey)",
+      "nearestNeighbor": "single-colour bag or box icon",
+      "distinction": "The separate metal shackle component and keyhole identify a padlock."
+    }
+  ],
+  "hardGates": {
+    "pixelsVerified": true,
+    "provenanceVerified": true,
+    "styleConfirmed": false,
+    "targetedCorrectionVerified": true,
+    "exactEvidenceVerified": true
+  },
+  "adversarial": {
+    "evaluator": "adversarial-independent-d-style-studies-v1",
+    "binding": {
+      "requestSha256": "c6b20a832703da91f8bc044fc2f372dfa99be9a8bbd7bf47ac36192e51a50e03",
+      "profile": {
+        "profileId": "reusable-ui-icon",
+        "version": "1.0.0"
+      },
+      "cell": {
+        "state": "style-study",
+        "theme": "d-study-mostly-flat-highlights-f1-theme-1",
+        "scale": "32px",
+        "identity": "padlock-d-style-study-mostly-flat-highlights"
+      },
+      "jobId": "d272f8b3-387a-539e-a687-ccc9d31e67fc",
+      "revision": 0,
+      "bundleManifestSha256": "e9dc4c5d8ebe1f749b91bb4a4af310af2fb02db31df41094152896f1bafc0eea",
+      "canonicalSha256": "38dac37cce9eab5da531be815447d1d919fb8d40b034507f5511bece1b16f054"
+    },
+    "objections": [
+      {
+        "category": "recognition",
+        "strongestReasonBelow3": "With almost no shading, the icon could read as a flat glyph or bag, and the shackle loses separation on checker.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "3bbd0667c463377b54fde06864275792c4f5b5754077aa9d2c56392616f711ff",
+            "observation": "At 1x on light, the flat thick shackle with its opening, the brass body and the keyhole give the clearest padlock read of the three. The neutral reviewer called it 'very clear on light… cleanest, most legible silhouette'."
+          },
+          {
+            "viewSha256": "66434874f673e37d22894404a070988fe41c4d96caadf85b8f2bf431dfc11eb7",
+            "observation": "At 1x on dark, the body (123) and shackle (135) both stand well above the 32 background, and the padlock identity holds."
+          }
+        ]
+      },
+      {
+        "category": "silhouette",
+        "strongestReasonBelow3": "The uniform 4-px shackle with no inner or outer tone distinction could make the arch look bulbous relative to the body. A one-sided highlight could reintroduce paired-width imbalance.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "a01b007d7a1e9a46c8d9a02f24a688922024bb4dc9cfa8f8215a506ebf799ae8",
+            "observation": "In the decoded pixels and at 8x on light, both legs and shoulders are a single uniform value (135) and the body has no side bands, so neither side can read fatter. The 'right fatter' and upper-right shoulder objections are closed. The arch uses the unchanged approved mask, shared by all three studies, so its proportion is not caused by the shading. The neutral reviewer called it 'essentially symmetric'."
+          }
+        ]
+      },
+      {
+        "category": "pixelDiscipline",
+        "strongestReasonBelow3": "The tapered mid-tone end pixels at (9,16), (7,18) and (15,5) could be read as anti-aliasing or softening around tiny highlight clusters.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "a01b007d7a1e9a46c8d9a02f24a688922024bb4dc9cfa8f8215a506ebf799ae8",
+            "observation": "At 8x these are single deliberate ramp pixels inside opaque material regions, with no partial alpha (output-verification partialAlpha 0) and no edge softening. The rest of the icon is solid flat clusters. The neutral reviewer reported 'almost no speckle'."
+          }
+        ]
+      },
+      {
+        "category": "paletteReadability",
+        "strongestReasonBelow3": "The material does not read as brass or steel. The body is one flat ochre with a 5-px L-shaped corner glint that the neutral reviewer called 'an isolated decal', and the shackle is flat grey with a 3-px glint. The brief is 'mostly flat with small highlights', a material treatment, not a pure flat-colour finish, so the rubric's flat-colour exemption does not clearly apply. The only value structure on the body is a dark bottom row, which is itself a single horizontal stripe.",
+        "resolved": false,
+        "resolution": [
+          {
+            "viewSha256": "3bbd0667c463377b54fde06864275792c4f5b5754077aa9d2c56392616f711ff",
+            "observation": "At 1x on light, the corner highlight floats unattached to any edge or form. The body reads as flat coloured card rather than metal, and the neutral reviewer reported 'very flat; low volume'. No view shows the highlights communicating material form."
+          }
+        ]
+      },
+      {
+        "category": "styleConsistency",
+        "strongestReasonBelow3": "The highlights could imply inconsistent lighting or violate the 'mostly flat' treatment.",
+        "resolved": true,
+        "resolution": [
+          {
+            "viewSha256": "a01b007d7a1e9a46c8d9a02f24a688922024bb4dc9cfa8f8215a506ebf799ae8",
+            "observation": "At 8x both highlights sit upper-left: the body glint at x7-9, rows 16-18, and the shackle glint at x13-15, row 5, left of the crown centre. Neither component is outlined, and the shading is minimal as declared. The treatment matches its label, and the shackle and body are consistent with each other."
+          }
+        ]
+      },
+      {
+        "category": "backgroundReadability",
+        "strongestReasonBelow3": "On checker, the flat shackle (135 everywhere) has the lowest contrast of the three against the 192 squares, and the neutral reviewer said its outline 'softens'. On dark, the bottom row (99) fades.",
+        "resolved": false,
+        "resolution": [
+          {
+            "viewSha256": "0e3baa3443466f97f5796b0ed0987b48acc8d499d1de22505629e8e7519dc692",
+            "observation": "At 1x on checker, where the shackle legs cross the 192 squares, the contour separates only by hue and a small value difference. There is no darker rim to hold it, so the objection stands."
+          },
+          {
+            "viewSha256": "c51d6139b0e399989056b692af748c5a305889afb248c8c08de9e82d93f3b11a",
+            "observation": "At 8x on checker, the shackle edge against the grey squares is noticeably weaker than the restrained-bevel contour on the same background."
+          }
+        ]
+      }
+    ]
+  }
+}

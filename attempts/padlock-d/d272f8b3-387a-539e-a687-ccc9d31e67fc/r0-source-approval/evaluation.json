@@ -1,0 +1,20 @@
+{
+  "assessment": {
+    "path": "mostly-flat-highlights-assessment.json",
+    "sha256": "bdf82e72f632b4d23be294750974678aba80f41726fc5a30ba8c5ab28393798c"
+  },
+  "evaluation": {
+    "recommendation": "no-go",
+    "weightedTotal": 75,
+    "categoryFailures": [],
+    "coreFloorFailures": [],
+    "hardGateFailures": [
+      "styleConfirmed"
+    ],
+    "blockers": [
+      "adversarial-objection:paletteReadability",
+      "adversarial-objection:backgroundReadability"
+    ],
+    "humanApproval": "not-assessed"
+  }
+}
