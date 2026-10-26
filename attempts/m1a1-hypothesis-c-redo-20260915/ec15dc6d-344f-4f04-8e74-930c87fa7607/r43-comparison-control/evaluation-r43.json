@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "2.0.0",
+  "weightedTotal": 50,
+  "recommendation": "no-go",
+  "effectiveDecision": "no-go",
+  "checks": {
+    "threshold": false,
+    "categoryFloors": true,
+    "coreFloors": false,
+    "hardGates": false,
+    "structuredEvidence": true,
+    "adversarialReview": false
+  },
+  "failures": [
+    {
+      "kind": "adversarial-objection",
+      "id": "identity-recognition",
+      "message": "Unresolved core-floor objection: Abrams-family gun, wedge turret, basket, seven road wheels and asymmetric roof stations are legible. M1A1-specific all-view256px recognition evidence remains absent. Independent review SHA256 08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "silhouette",
+      "message": "Unresolved core-floor objection: Broad silhouette remains legible. Square skirt ends, sparse track bars and simplified roof fittings remain; central contour correspondence is unresolved. Independent review SHA256 08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "mechanical-coherence",
+      "message": "Unresolved core-floor objection: Audited fitting mounts, yaw and specified elevation clearance are supported. Known roof junction steps remain; wheel/idler and weapon support construction is schematic. Fixed fittings are not articulated assemblies. Independent review SHA256 08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "production-integrity",
+      "message": "Unresolved core-floor objection: Current export,68 native mesh isolation probes and six visibility-mask sets are hash-bound; actual recipe and repaired wheel transforms independently verified. Legacy dimension authority and production contract remain unresolved. Independent review SHA256 08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196"
+    },
+    {
+      "kind": "threshold",
+      "id": "weighted-total",
+      "message": "50 is below the 75-point threshold."
+    },
+    {
+      "kind": "core-floor",
+      "id": "identity-recognition",
+      "message": "Identity and recognition scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "silhouette",
+      "message": "Silhouette quality scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "mechanical-coherence",
+      "message": "Mechanical and structural coherence scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "production-integrity",
+      "message": "Production integrity scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "structural-plausibility",
+      "message": "Structural plausibility did not pass."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "transform-grounding",
+      "message": "Transform and grounding correctness did not pass."
+    }
+  ],
+  "status": {
+    "technicalValidation": "fail",
+    "visualRecommendation": "no-go",
+    "humanApproval": "absent"
+  },
+  "overrideApplied": false,
+  "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+}

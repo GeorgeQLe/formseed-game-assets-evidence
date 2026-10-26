@@ -1,0 +1,438 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "m1a1-r43-finishing-20261026",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "m1a1-hypothesis-c-redo-20260915",
+    "revisionId": "main-r43",
+    "revision": 43
+  },
+  "evidenceSet": {
+    "revision": 43,
+    "checkpointSha256": "e373b39997712954e7b72673d084685ab6bacbf1b3480382f6f241f089f06520",
+    "renderSetSha256": "696ca014da32c5e5fdce01b78ea293a22a6df96d64223cab7d871d45171c276b",
+    "requiredViews": [
+      {
+        "viewId": "physical-left",
+        "width": 960,
+        "height": 640,
+        "sha256": "84cd8fee3cb4c33d9b0c7a5160d14d6670e3abd43055aa4a394e64fdabb59a7a"
+      },
+      {
+        "viewId": "physical-right",
+        "width": 960,
+        "height": 640,
+        "sha256": "1b02d19294f4d1e47b6f0a70789ce46f88cecfa3a71decdb7da8dacd3c32cb90"
+      },
+      {
+        "viewId": "front",
+        "width": 960,
+        "height": 640,
+        "sha256": "d680f5d01943efc847b9928894511766055caf1ee2013735c81a59de89f48390"
+      },
+      {
+        "viewId": "rear",
+        "width": 960,
+        "height": 640,
+        "sha256": "581da4d8d7bf60883af48b6237b395b5e7ed17d06f2cc810fa85704f4f9cdaca"
+      },
+      {
+        "viewId": "top",
+        "width": 960,
+        "height": 640,
+        "sha256": "1fc2da4e06002ba30ca82d0ebbd6d6e39ec670d9034d108cb814ae6c975dab34"
+      },
+      {
+        "viewId": "three-quarter",
+        "width": 960,
+        "height": 640,
+        "sha256": "e6fd3bcad9c24bb1f4ea3169c721353f43caee8d86b2ae242c17b9d0b1cde43b"
+      }
+    ],
+    "validation": {
+      "reportId": "cc72cb6c-c245-46de-944a-276c43f4b724",
+      "revision": 43,
+      "checkpointSha256": "e373b39997712954e7b72673d084685ab6bacbf1b3480382f6f241f089f06520",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "1fc2da4e06002ba30ca82d0ebbd6d6e39ec670d9034d108cb814ae6c975dab34",
+          "observation": "Abrams-family gun, wedge turret, basket, seven road wheels and asymmetric roof stations are legible. M1A1-specific all-view256px recognition evidence remains absent."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "evidenceSha256": "e6fd3bcad9c24bb1f4ea3169c721353f43caee8d86b2ae242c17b9d0b1cde43b",
+          "observation": "Abrams-family gun, wedge turret, basket, seven road wheels and asymmetric roof stations are legible. M1A1-specific all-view256px recognition evidence remains absent."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Independent actual-export and whole-form review; category remains below production-ready."
+        }
+      ]
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "evidenceSha256": "84cd8fee3cb4c33d9b0c7a5160d14d6670e3abd43055aa4a394e64fdabb59a7a",
+          "observation": "Long low hull and wedge turret are coherent at a broad level, but an authoritative whole-form dimensional target remains unbound. Exact predecessor preservation does not resolve this."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-right",
+          "evidenceSha256": "1b02d19294f4d1e47b6f0a70789ce46f88cecfa3a71decdb7da8dacd3c32cb90",
+          "observation": "Long low hull and wedge turret are coherent at a broad level, but an authoritative whole-form dimensional target remains unbound. Exact predecessor preservation does not resolve this."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "1fc2da4e06002ba30ca82d0ebbd6d6e39ec670d9034d108cb814ae6c975dab34",
+          "observation": "Long low hull and wedge turret are coherent at a broad level, but an authoritative whole-form dimensional target remains unbound. Exact predecessor preservation does not resolve this."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Independent actual-export and whole-form review; category remains below production-ready."
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "d680f5d01943efc847b9928894511766055caf1ee2013735c81a59de89f48390",
+          "observation": "Broad silhouette remains legible. Square skirt ends, sparse track bars and simplified roof fittings remain; central contour correspondence is unresolved."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "physical-left",
+          "evidenceSha256": "84cd8fee3cb4c33d9b0c7a5160d14d6670e3abd43055aa4a394e64fdabb59a7a",
+          "observation": "Broad silhouette remains legible. Square skirt ends, sparse track bars and simplified roof fittings remain; central contour correspondence is unresolved."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "1fc2da4e06002ba30ca82d0ebbd6d6e39ec670d9034d108cb814ae6c975dab34",
+          "observation": "Broad silhouette remains legible. Square skirt ends, sparse track bars and simplified roof fittings remain; central contour correspondence is unresolved."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Independent actual-export and whole-form review; category remains below production-ready."
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "evidenceSha256": "e6fd3bcad9c24bb1f4ea3169c721353f43caee8d86b2ae242c17b9d0b1cde43b",
+          "observation": "Wheel hubs, panel seams, deck slats, roof fittings and now readable grille ribs add scale cues. Broad nose and front skirt forms still look schematic."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "evidenceSha256": "581da4d8d7bf60883af48b6237b395b5e7ed17d06f2cc810fa85704f4f9cdaca",
+          "observation": "Wheel hubs, panel seams, deck slats, roof fittings and now readable grille ribs add scale cues. Broad nose and front skirt forms still look schematic."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "1fc2da4e06002ba30ca82d0ebbd6d6e39ec670d9034d108cb814ae6c975dab34",
+          "observation": "Wheel hubs, panel seams, deck slats, roof fittings and now readable grille ribs add scale cues. Broad nose and front skirt forms still look schematic."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Independent actual-export and whole-form review; category remains below production-ready."
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "d680f5d01943efc847b9928894511766055caf1ee2013735c81a59de89f48390",
+          "observation": "Audited fitting mounts, yaw and specified elevation clearance are supported. Known roof junction steps remain; wheel/idler and weapon support construction is schematic. Fixed fittings are not articulated assemblies."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "1fc2da4e06002ba30ca82d0ebbd6d6e39ec670d9034d108cb814ae6c975dab34",
+          "observation": "Audited fitting mounts, yaw and specified elevation clearance are supported. Known roof junction steps remain; wheel/idler and weapon support construction is schematic. Fixed fittings are not articulated assemblies."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "evidenceSha256": "e6fd3bcad9c24bb1f4ea3169c721353f43caee8d86b2ae242c17b9d0b1cde43b",
+          "observation": "Audited fitting mounts, yaw and specified elevation clearance are supported. Known roof junction steps remain; wheel/idler and weapon support construction is schematic. Fixed fittings are not articulated assemblies."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Independent actual-export and whole-form review; category remains below production-ready."
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "evidenceSha256": "581da4d8d7bf60883af48b6237b395b5e7ed17d06f2cc810fa85704f4f9cdaca",
+          "observation": "Restrained tan body with rubber/steel/optics contrast; grille backing and ribs now distinguishable. No immutable final style binding; flat legacy rendering cannot establish PBR appearance."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "three-quarter",
+          "evidenceSha256": "e6fd3bcad9c24bb1f4ea3169c721353f43caee8d86b2ae242c17b9d0b1cde43b",
+          "observation": "Restrained tan body with rubber/steel/optics contrast; grille backing and ribs now distinguishable. No immutable final style binding; flat legacy rendering cannot establish PBR appearance."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Independent actual-export and whole-form review; category remains below production-ready."
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "evidenceSha256": "581da4d8d7bf60883af48b6237b395b5e7ed17d06f2cc810fa85704f4f9cdaca",
+          "observation": "Six native views are deterministic and unclipped; grille no longer collapses into a solid patch. Required all-view recognition comparison remains absent."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "d680f5d01943efc847b9928894511766055caf1ee2013735c81a59de89f48390",
+          "observation": "Six native views are deterministic and unclipped; grille no longer collapses into a solid patch. Required all-view recognition comparison remains absent."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "1fc2da4e06002ba30ca82d0ebbd6d6e39ec670d9034d108cb814ae6c975dab34",
+          "observation": "Six native views are deterministic and unclipped; grille no longer collapses into a solid patch. Required all-view recognition comparison remains absent."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Independent actual-export and whole-form review; category remains below production-ready."
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "d680f5d01943efc847b9928894511766055caf1ee2013735c81a59de89f48390",
+          "observation": "Current export,68 native mesh isolation probes and six visibility-mask sets are hash-bound; actual recipe and repaired wheel transforms independently verified. Legacy dimension authority and production contract remain unresolved."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "evidenceSha256": "581da4d8d7bf60883af48b6237b395b5e7ed17d06f2cc810fa85704f4f9cdaca",
+          "observation": "Current export,68 native mesh isolation probes and six visibility-mask sets are hash-bound; actual recipe and repaired wheel transforms independently verified. Legacy dimension authority and production contract remain unresolved."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Independent actual-export and whole-form review; category remains below production-ready."
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "authorization.json",
+          "evidenceSha256": "01393abbae6961a00e725ed1abd39604930173a8a3a6a74a7104c292080c9656",
+          "observation": "Current exact r43 evidence; no approval conferred."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "render-r43.json",
+          "evidenceSha256": "669ccdaff49315c464aa18ecc27f13085c5e54dae2b9c4ff2556dffcfa2e017d",
+          "observation": "Current exact r43 evidence; no approval conferred."
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Roof interface and whole-form construction remain unresolved."
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "native-isolation-r43.json",
+          "evidenceSha256": "e064d599e7091e7c11293b4fa6b173387476eedbfcf951d76a9d4837c2d794da",
+          "observation": "Native isolation passes; legacy dimensional authority remains unavailable."
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "baseline-r43.json",
+          "evidenceSha256": "e59e9578c73d29bd2ecc4c7e5b3825200b8a7ffd9532fce4f4742ac5f16b44b4",
+          "observation": "Current exact r43 evidence; no approval conferred."
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "validation-r43.json",
+          "evidenceSha256": "70c2889c2b14dcd20123042add7dfb15bb54186c9122c1ea98b5e0c43a7c7f0f",
+          "observation": "Current exact r43 evidence; no approval conferred."
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "validation-r43.json",
+          "evidenceSha256": "70c2889c2b14dcd20123042add7dfb15bb54186c9122c1ea98b5e0c43a7c7f0f",
+          "observation": "Current exact r43 evidence; no approval conferred."
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "plan-pass1.json",
+          "evidenceSha256": "cc09d571f0a559e2064cc9bb06c7b7c45c474de57fff5160bea92652ee407a95",
+          "observation": "Current exact r43 evidence; no approval conferred."
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "independent-final-r43.json",
+          "evidenceSha256": "08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+          "observation": "Current exact r43 evidence; no approval conferred."
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "../reconstruction-pilot-20261002/cc0-permission.json",
+          "evidenceSha256": "03b0d5f00e07e2f6f1de1f531bbb09bf35649fbc0ec666a88e033e2bc165084c",
+          "observation": "Current exact r43 evidence; no approval conferred."
+        }
+      ]
+    }
+  ],
+  "assessedBy": "/root",
+  "assessedAt": "2026-10-26T23:09:15.021Z",
+  "adversarialReview": {
+    "reviewedBy": "/root/abrams_review",
+    "reviewedAt": "2026-10-26T23:09:15.021Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "Abrams-family gun, wedge turret, basket, seven road wheels and asymmetric roof stations are legible. M1A1-specific all-view256px recognition evidence remains absent. Independent review SHA256 08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+        "resolved": false
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "Broad silhouette remains legible. Square skirt ends, sparse track bars and simplified roof fittings remain; central contour correspondence is unresolved. Independent review SHA256 08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+        "resolved": false
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "Audited fitting mounts, yaw and specified elevation clearance are supported. Known roof junction steps remain; wheel/idler and weapon support construction is schematic. Fixed fittings are not articulated assemblies. Independent review SHA256 08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+        "resolved": false
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "Current export,68 native mesh isolation probes and six visibility-mask sets are hash-bound; actual recipe and repaired wheel transforms independently verified. Legacy dimension authority and production contract remain unresolved. Independent review SHA256 08d29f312eb8d3d90aea9758bf5219f3ac1b2d152842397f4c7855d0dd91f196",
+        "resolved": false
+      }
+    ]
+  }
+}
