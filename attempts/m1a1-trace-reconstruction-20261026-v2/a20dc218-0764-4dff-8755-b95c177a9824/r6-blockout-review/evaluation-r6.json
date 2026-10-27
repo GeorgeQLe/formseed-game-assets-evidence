@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "weightedTotal": 50,
+  "recommendation": "no-go",
+  "effectiveDecision": "no-go",
+  "checks": {
+    "threshold": false,
+    "categoryFloors": true,
+    "coreFloors": false,
+    "hardGates": false,
+    "structuredEvidence": true,
+    "adversarialReview": false
+  },
+  "failures": [
+    {
+      "kind": "adversarial-objection",
+      "id": "identity-recognition",
+      "message": "Unresolved core-floor objection: Recognizable M1-family primary form; coarse phase intentionally excludes machine guns, smoke launchers, antennas and rear equipment; M1A1-specific recognition qualification pending. Independent production objections retained; evidence SHA256 8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "silhouette",
+      "message": "Unresolved core-floor objection: Coarse main silhouettes agree with observed traced regions; roof and underside require interpretation, and equipped silhouette is incomplete. Side gun discrepancy is intentionally retained under printed-length priority. Independent production objections retained; evidence SHA256 8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "mechanical-coherence",
+      "message": "Unresolved core-floor objection: Static checked pairs have no strict triangle crossings; physical turret pivot, articulation sweeps, coplanar contact and containment remain unqualified. T158-style paired pads are visible in native front view; count, pad dimensions and return are static design choices. Guide teeth and end connectors remain absent. Independent production objections retained; evidence SHA256 8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986"
+    },
+    {
+      "kind": "adversarial-objection",
+      "id": "production-integrity",
+      "message": "Unresolved core-floor objection: 39 exact exported mesh nodes, native isolation and six mask sets, 16 nominal dimension criteria and generic validation pass. Model remains an explicitly static coarse reconstruction, without final source approval or motion qualification. Independent production objections retained; evidence SHA256 8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986"
+    },
+    {
+      "kind": "threshold",
+      "id": "weighted-total",
+      "message": "50 is below the 75-point threshold."
+    },
+    {
+      "kind": "core-floor",
+      "id": "identity-recognition",
+      "message": "Identity and recognition scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "silhouette",
+      "message": "Silhouette quality scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "mechanical-coherence",
+      "message": "Mechanical and structural coherence scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "core-floor",
+      "id": "production-integrity",
+      "message": "Production integrity scored 2, below the core floor of 3."
+    },
+    {
+      "kind": "hard-gate",
+      "id": "structural-plausibility",
+      "message": "Structural plausibility did not pass."
+    }
+  ],
+  "status": {
+    "technicalValidation": "pass",
+    "visualRecommendation": "no-go",
+    "humanApproval": "absent"
+  },
+  "overrideApplied": false,
+  "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+}

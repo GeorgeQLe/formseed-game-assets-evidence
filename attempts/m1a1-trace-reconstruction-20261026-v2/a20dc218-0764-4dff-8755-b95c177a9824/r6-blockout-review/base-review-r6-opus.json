@@ -1,0 +1,56 @@
+{
+  "exactPin": {
+    "jobId": "a20dc218-0764-4dff-8755-b95c177a9824",
+    "revision": 6,
+    "checkpointSha256": "5ff96c31677a42c35d2f7272a47ea6eaafc8fe3b1cba0e4f0335da49885c64b3",
+    "checkpointId": "c228430d-73c6-4807-84fb-c2e8c682cb3e",
+    "renderSetHash": "f80c5440ef13be42b7b30cfe7882a9aea2aacb53998675b116164fdb371a4fe9",
+    "glbSha256": "2cc8bf8c22bbcc742e253d18358770f372d95f8edf8bb537fb4943f6aa1a2505",
+    "pinConsistency": "The sheet label, render6, export-audit-r6, t158-material-audit and assessment-r6 all cite the same checkpoint. The right and top view hashes in assessment-r6 match render6."
+  },
+  "observationsBeforeEvidence": [
+    "Whole form: it reads at once as an M1-family MBT. Long low hull, long shallow glacis, flat wedge turret with angled cheeks and a long bustle, rear bustle rack, side stowage boxes, cupola plus loader hatch, and a box sight housing on the gunner's side.",
+    "Stance: level and grounded. 7 road wheels, raised front idler, raised rear sprocket. The low ground clearance looks plausible.",
+    "Hull/turret/barrel: the turret sits mid-hull, the bustle overhangs the engine deck and the barrel overhangs the bow by about 24% of hull length. All of that looks right for an M1. The turret ring is visible as a dark band. The mantlet sits in the forward notch between the cheeks.",
+    "Tracks: the T158 paired rectangular pads with a center gap are clearly visible in the front view. The lower run, the front and rear ramps and the wrap round idler and sprocket all read correctly.",
+    "Possible issues: (a) In both pure side views there is daylight between the road wheels just below the skirt line, so the wheels look like discs hanging under the hull with no suspension or lower-hull mass behind them. (b) The sprocket looks visibly smaller than the road wheels. (c) A few red-tinted pixels show at the cheek/mantlet junction in the top view, possibly a sliver or a stray material. (d) Turret cheeks are slightly asymmetric in plan.",
+    "No missing major components, flipped normals or detached assemblies seen in any of the six views."
+  ],
+  "evidenceReviewed": [
+    "m1a1-reconstruction-r6-t158-review.png (inspected first)",
+    "render6.json, plus all 6 native 1000px frames: front-three-quarter, rear-three-quarter, front, left, right, top",
+    "trace-restart-20261026/source-packet.json; original crop-16 (side), crop-18 (top), crop-19 (front)",
+    "construction-plan.json (components and choices, first 200 lines)",
+    "t158-plan.json",
+    "trace-restart-20261026/scale-reconciliation/registration-addendum.json",
+    "export-audit-r6.json (full: 39 meshes, vertex checks, 11 strict-crossing pairs)",
+    "t158-preservation.json (all 37 unchanged, 0 strict crossings)",
+    "t158-material-audit.json",
+    "dimension6.json (16 criteria pass; overall length, width and height checked in detail)",
+    "validation6.json (passed, issues [])",
+    "isolation6.json (no passed:false entries)",
+    "assessment-r6.json",
+    "evaluation-r6.json"
+  ],
+  "challenges": {
+    "identity": "Pass for an M1-family base. The overall form and turret-wedge silhouette match the M1. This is not M1A1 certification: machine guns, CWS detail, smoke launchers, antennas and rear equipment are excluded, and the MCO figures show them.",
+    "silhouette": "Pass at base level. The printed envelope is met almost exactly: hull 7.925 m, gun-forward 9.828 m, width 3.658 m, height 2.49 m. I first suspected the skirt bottom (z 0.70) left the road wheels too exposed. Measuring crop-16 puts the drawn skirt bottom at about 0.72 m, level with the wheel tops, so the model follows its source. Remaining silhouette faults are the side-view daylight band behind the wheels and the undersized sprocket.",
+    "mechanicalCoherence": "Adequate for a static base. Wheel bottoms sit on the track inner surface (wheel min z 0.108 vs track floor 0). Track centers at about 2.845 m match the 112 in source. The 0.635 m track width matches. There are no strict crossings among the hull/fender/track/idler/sprocket/bustle/stowage pairs. Weaknesses: the sprocket is about 0.43 m in diameter against roughly 0.65 m in crop-16. Suspension arms and a visible lower-hull side are missing. Road wheels vs track and mantlet vs cheeks were not crossing-checked. The structural-plausibility gate fails because motion is unqualified, which doesn't block a static base.",
+    "integrity": "Strong. 39 exact mesh names, vertex error 3e-7 m or less, native isolation and masks pass, validation is deterministic and current, the 20k triangle budget holds, and only the two track meshes changed from r5. Assembly origins at the hull-front zero and an unresolved turret pivot are acceptable for a static editable base, but must be fixed before any rigging."
+  },
+  "strongestBaseObjection": "Running-gear profile. In the pure side views, open background shows between the skirt line and the wheel tops and between the wheels. Combined with a sprocket about 35% too small, the lower third looks less solid than the source drawing, where the hull side and suspension are visible behind the wheels. The hull belly and suspension are designed choices, not traced, so the place where an M1 reads most strongly in profile is also the least source-anchored. It is local, editable component work (Hull lower faces, Sprocket scale, suspension arms) and does not need any primary hull, turret or gun change. So it falls short of a base-blocking defect.",
+  "baseSuitability": "retain-provisionally",
+  "blockingBaseDefects": [],
+  "furtherGeometryMutationRequiredBeforeRetaining": false,
+  "conditionsAndDeferredWork": [
+    "The designation applies only to this exact checkpoint and only as a coarse static editable base. It is not production, historical M1A1 certification, rig readiness or a project art-style baseline.",
+    "Next running-gear pass: scale the sprocket toward the crop-16 diameter. Add suspension arms and/or close the lower hull side so side views show no daylight above the belly. Add road-wheel-vs-track and mantlet-vs-cheek crossing checks.",
+    "Investigate the red-tinted pixels at the cheek/mantlet junction in the top view, which may be a sliver or a stray material.",
+    "Decide whether to keep the roughly 0.046 m turret lateral drafting residual or make the turret symmetric for the base.",
+    "Before any animation: set the turret pivot on the ring axis (about x -3.75) and the gun trunnion, then run sweep and clearance checks.",
+    "Production-level items stay deferred: machine guns/CWS, smoke launchers, antennas, guide teeth and end connectors, the front-view gun-height residual, final materials and UVs."
+  ],
+  "productionRecommendation": "no-go (weighted 50/100, 4 core-floor objections unresolved, structural-plausibility hard gate failed). Not upgraded, and not transferred to or from the base designation.",
+  "confidence": 0.75,
+  "confidenceNotes": "Based on static renders, source crops and JSON summaries only. I did not open the GLB or .blend, and did not read later parts of the long JSON files beyond the cited summaries."
+}

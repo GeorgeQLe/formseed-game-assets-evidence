@@ -1,0 +1,87 @@
+{
+  "kind": "provisional-base-suitability-consensus",
+  "createdAt": "2026-10-27T03:14:05.640046+00:00",
+  "exactPin": {
+    "jobId": "a20dc218-0764-4dff-8755-b95c177a9824",
+    "revision": 6,
+    "checkpointSha256": "5ff96c31677a42c35d2f7272a47ea6eaafc8fe3b1cba0e4f0335da49885c64b3",
+    "checkpointId": "c228430d-73c6-4807-84fb-c2e8c682cb3e",
+    "renderSetHash": "f80c5440ef13be42b7b30cfe7882a9aea2aacb53998675b116164fdb371a4fe9",
+    "glbSha256": "2cc8bf8c22bbcc742e253d18358770f372d95f8edf8bb537fb4943f6aa1a2505",
+    "pinConsistency": "The sheet label, render6, export-audit-r6, t158-material-audit and assessment-r6 all cite the same checkpoint. The right and top view hashes in assessment-r6 match render6."
+  },
+  "requester": "George",
+  "requesterWords": "Ok have an opus 5.5 agent review and if you and that agent has consensus then I\u2019m ready to provisionally approve this as a base 3D M1 Abrams tank model",
+  "scope": "Coarse static editable M1-family base at exact r6; retention for future refinement",
+  "reviewers": [
+    {
+      "name": "Codex /root",
+      "finding": "retain-provisionally",
+      "evidence": "base-review-r6-codex.json",
+      "sha256": "7ea68b48e3d621ff43c0fba66d2d184e605d9f2fdb9b4706fe725660d7f9f90d"
+    },
+    {
+      "name": "Claude Code claude-opus-5-5",
+      "sessionId": "07f4f679-87cc-4c80-b6ab-73a6cd74b3b8",
+      "finding": "retain-provisionally",
+      "evidence": "base-review-r6-opus.json",
+      "sha256": "a1822b2ce7e746e466a6751252b2d568c1342290e77804ce207612b151a6cc7b"
+    }
+  ],
+  "consensus": true,
+  "geometryChangeRequiredBeforeRetaining": false,
+  "technicalValidation": "pass, exact r6 evidence and artifact hashes reconfirmed",
+  "visualRecommendation": {
+    "baseSuitability": "retain-provisionally",
+    "productionEvaluator": "no-go",
+    "productionScore": 50,
+    "productionEvidence": "evaluation-r6.json",
+    "productionEvidenceSha256": "630438bbd8728d609a47188231647267240f523856e429c7d84059666605683f"
+  },
+  "humanApproval": {
+    "status": "readiness expressed conditional on consensus; consensus condition now met, no formal workflow gate recorded",
+    "sourceApproval": false,
+    "productionApproval": false,
+    "promotion": false,
+    "integration": false,
+    "projectArtStyleBaseline": false
+  },
+  "followUpFindings": [
+    {
+      "item": "Rear sprocket size",
+      "status": "reviewer identifies undersized profile",
+      "action": "Reconcile traced source diameter with idler/sprocket identity, placement and track clearances before any resizing; prior clearance repair preserved."
+    },
+    {
+      "item": "Visible gaps behind wheels / suspension",
+      "status": "visible in side renders",
+      "action": "Review lower-hull side closure and suspension support against references in next authorized refinement."
+    },
+    {
+      "item": "Tiny reddish cheek/mantlet junction pixels",
+      "status": "visual hypothesis; not verified as geometry or material defect",
+      "action": "Inspect surface ownership/shading and mantlet-cheek clearance before choosing a fix."
+    },
+    {
+      "item": "Turret drafting asymmetry and front-view gun height residual",
+      "status": "known interpreted geometry",
+      "action": "Resolve under later source-fidelity scope, no silent symmetry or height change."
+    }
+  ],
+  "deferredWork": [
+    "Detailed M1A1 equipment and period-fit verification",
+    "Turret/gun pivot placement and articulation clearance",
+    "Track guides, connectors and motion-compatible pitch/engagement",
+    "Hidden-surface fidelity and final materials/UVs",
+    "Game-scale recognition and integration qualification"
+  ],
+  "authority": "Consensus is a narrow suitability finding. Existing production rubric and historical human-approval records remain unchanged. No model mutation or attempt charge.",
+  "archival": "No new formal gate decision inferred from readiness wording; archive on explicit provisional/base decision.",
+  "cleanup": {
+    "reviewerFinished": true,
+    "scratchRemoved": true,
+    "modelLeaseAcquired": false,
+    "modelMutation": false,
+    "browserTabsOrSimulatorsCreated": false
+  }
+}

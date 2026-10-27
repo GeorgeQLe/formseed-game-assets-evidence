@@ -1,0 +1,408 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "m1a1-fresh-trace-reconstruction-r6-20261026",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "m1a1-trace-reconstruction-20261026-v2",
+    "revisionId": "main-r6",
+    "revision": 6
+  },
+  "evidenceSet": {
+    "revision": 6,
+    "checkpointSha256": "5ff96c31677a42c35d2f7272a47ea6eaafc8fe3b1cba0e4f0335da49885c64b3",
+    "renderSetSha256": "f80c5440ef13be42b7b30cfe7882a9aea2aacb53998675b116164fdb371a4fe9",
+    "requiredViews": [
+      {
+        "viewId": "front-three-quarter",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "1727c4d74020598193e0f70eaec94782df39e7c48d1bdf14638ff73c4ba5feb0"
+      },
+      {
+        "viewId": "rear-three-quarter",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "f85504279498d898eb1c922758d617b6fcb5a473b6a011ffcdae034765aa8c1d"
+      },
+      {
+        "viewId": "front",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "b116168ffa9e87c5debbfb64449553bd601c11994131a1f48c93e0958cc78d1f"
+      },
+      {
+        "viewId": "left",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "f4160131b3e7d7289d355d7ac632d2f403a9b470a1698471d30ab843a1712e83"
+      },
+      {
+        "viewId": "right",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "b590483ce083c32efe1f01cea5f2ced1965723c2d0645faeea06d0026f6150b6"
+      },
+      {
+        "viewId": "top",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "b766712ff3ec24e4f687389bab233de6db18bb9d7daac9fbd63db3b180478409"
+      }
+    ],
+    "validation": {
+      "reportId": "7859834f-e1e1-43f7-88b9-65ffe1d9a9fe",
+      "revision": 6,
+      "checkpointSha256": "5ff96c31677a42c35d2f7272a47ea6eaafc8fe3b1cba0e4f0335da49885c64b3",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "1727c4d74020598193e0f70eaec94782df39e7c48d1bdf14638ff73c4ba5feb0",
+          "observation": "Recognizable M1-family primary form; coarse phase intentionally excludes machine guns, smoke launchers, antennas and rear equipment; M1A1-specific recognition qualification pending."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "b766712ff3ec24e4f687389bab233de6db18bb9d7daac9fbd63db3b180478409",
+          "observation": "Recognizable M1-family primary form; coarse phase intentionally excludes machine guns, smoke launchers, antennas and rear equipment; M1A1-specific recognition qualification pending."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-final-review-r6.json",
+          "evidenceSha256": "8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+          "observation": "Independent Opus5.5 r6 review: paired-pad correction supported, no regression found; production objections retained."
+        }
+      ]
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "1727c4d74020598193e0f70eaec94782df39e7c48d1bdf14638ff73c4ba5feb0",
+          "observation": "Printed hull and overall dimensions implemented; side/front/top reference observations reconciled. Hidden roof/underside/return choices and lateral drafting residual remain construction interpretations."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "b766712ff3ec24e4f687389bab233de6db18bb9d7daac9fbd63db3b180478409",
+          "observation": "Printed hull and overall dimensions implemented; side/front/top reference observations reconciled. Hidden roof/underside/return choices and lateral drafting residual remain construction interpretations."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-final-review-r6.json",
+          "evidenceSha256": "8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+          "observation": "Independent Opus5.5 r6 review: paired-pad correction supported, no regression found; production objections retained."
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "1727c4d74020598193e0f70eaec94782df39e7c48d1bdf14638ff73c4ba5feb0",
+          "observation": "Coarse main silhouettes agree with observed traced regions; roof and underside require interpretation, and equipped silhouette is incomplete. Side gun discrepancy is intentionally retained under printed-length priority."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "b766712ff3ec24e4f687389bab233de6db18bb9d7daac9fbd63db3b180478409",
+          "observation": "Coarse main silhouettes agree with observed traced regions; roof and underside require interpretation, and equipped silhouette is incomplete. Side gun discrepancy is intentionally retained under printed-length priority."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-final-review-r6.json",
+          "evidenceSha256": "8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+          "observation": "Independent Opus5.5 r6 review: paired-pad correction supported, no regression found; production objections retained."
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "1727c4d74020598193e0f70eaec94782df39e7c48d1bdf14638ff73c4ba5feb0",
+          "observation": "Primary and secondary structural ownership is clear; fasteners, cables, rear panels, optics and other equipment intentionally deferred. No finished-form claim."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "b766712ff3ec24e4f687389bab233de6db18bb9d7daac9fbd63db3b180478409",
+          "observation": "Primary and secondary structural ownership is clear; fasteners, cables, rear panels, optics and other equipment intentionally deferred. No finished-form claim."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-final-review-r6.json",
+          "evidenceSha256": "8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+          "observation": "Independent Opus5.5 r6 review: paired-pad correction supported, no regression found; production objections retained."
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "1727c4d74020598193e0f70eaec94782df39e7c48d1bdf14638ff73c4ba5feb0",
+          "observation": "Static checked pairs have no strict triangle crossings; physical turret pivot, articulation sweeps, coplanar contact and containment remain unqualified. T158-style paired pads are visible in native front view; count, pad dimensions and return are static design choices. Guide teeth and end connectors remain absent."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "b766712ff3ec24e4f687389bab233de6db18bb9d7daac9fbd63db3b180478409",
+          "observation": "Static checked pairs have no strict triangle crossings; physical turret pivot, articulation sweeps, coplanar contact and containment remain unqualified. T158-style paired pads are visible in native front view; count, pad dimensions and return are static design choices. Guide teeth and end connectors remain absent."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-final-review-r6.json",
+          "evidenceSha256": "8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+          "observation": "Independent Opus5.5 r6 review: paired-pad correction supported, no regression found; production objections retained."
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "1727c4d74020598193e0f70eaec94782df39e7c48d1bdf14638ff73c4ba5feb0",
+          "observation": "Six restrained diagnostic materials expose component boundaries; these are not final historical paint, UVs or production surface treatment."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "b766712ff3ec24e4f687389bab233de6db18bb9d7daac9fbd63db3b180478409",
+          "observation": "Six restrained diagnostic materials expose component boundaries; these are not final historical paint, UVs or production surface treatment."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-final-review-r6.json",
+          "evidenceSha256": "8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+          "observation": "Independent Opus5.5 r6 review: paired-pad correction supported, no regression found; production objections retained."
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "1727c4d74020598193e0f70eaec94782df39e7c48d1bdf14638ff73c4ba5feb0",
+          "observation": "Six deterministic unclipped views; component tints resolve independently identified top visibility objection. Small-scale game recognition and rear measurement remain unqualified."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "b766712ff3ec24e4f687389bab233de6db18bb9d7daac9fbd63db3b180478409",
+          "observation": "Six deterministic unclipped views; component tints resolve independently identified top visibility objection. Small-scale game recognition and rear measurement remain unqualified."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-final-review-r6.json",
+          "evidenceSha256": "8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+          "observation": "Independent Opus5.5 r6 review: paired-pad correction supported, no regression found; production objections retained."
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 2,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "1727c4d74020598193e0f70eaec94782df39e7c48d1bdf14638ff73c4ba5feb0",
+          "observation": "39 exact exported mesh nodes, native isolation and six mask sets, 16 nominal dimension criteria and generic validation pass. Model remains an explicitly static coarse reconstruction, without final source approval or motion qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "b766712ff3ec24e4f687389bab233de6db18bb9d7daac9fbd63db3b180478409",
+          "observation": "39 exact exported mesh nodes, native isolation and six mask sets, 16 nominal dimension criteria and generic validation pass. Model remains an explicitly static coarse reconstruction, without final source approval or motion qualification."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-final-review-r6.json",
+          "evidenceSha256": "8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+          "observation": "Independent Opus5.5 r6 review: paired-pad correction supported, no regression found; production objections retained."
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "t158-plan.json",
+          "evidenceSha256": "dff943d86acf9b96873035eb8187e74fe64aaa678b82008b943bed5580eb8842",
+          "observation": "Current revision6 evidence for the declared static construction scope; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "render6.json",
+          "evidenceSha256": "59735e9c4c48f8190175cf721297593bca5b8e28fc143927208662664e6bdcc7",
+          "observation": "Current revision6 evidence for the declared static construction scope; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": false,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "export-audit-r6.json",
+          "evidenceSha256": "049cee56e09a1f4405b92323e171ef18e789166fe8c35a33ad18b3863e054003",
+          "observation": "Static pair checks are bounded; motion and hidden-surface historical fidelity not qualified."
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "dimension6.json",
+          "evidenceSha256": "2c226332c1c4c895ee4176176a95116958cdbc75c377f7d3b2de5bf3a494d13f",
+          "observation": "Current revision6 evidence for the declared static construction scope; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "baseline6.json",
+          "evidenceSha256": "612b290bdf15fbbc1645ee80a25817feb93dafe5005d6fbe1031e554db1898e4",
+          "observation": "Current revision6 evidence for the declared static construction scope; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "validation6.json",
+          "evidenceSha256": "f4b96f765426feea2df2bf8c5e493f76b6dcc9c94dd38bc5a2bd897eb7f94b76",
+          "observation": "Current revision6 evidence for the declared static construction scope; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "validation6.json",
+          "evidenceSha256": "f4b96f765426feea2df2bf8c5e493f76b6dcc9c94dd38bc5a2bd897eb7f94b76",
+          "observation": "Current revision6 evidence for the declared static construction scope; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "t158-plan.json",
+          "evidenceSha256": "dff943d86acf9b96873035eb8187e74fe64aaa678b82008b943bed5580eb8842",
+          "observation": "Current revision6 evidence for the declared static construction scope; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "export-audit-r6.json",
+          "evidenceSha256": "049cee56e09a1f4405b92323e171ef18e789166fe8c35a33ad18b3863e054003",
+          "observation": "Current revision6 evidence for the declared static construction scope; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "begin-job-final.json",
+          "evidenceSha256": "023fe19ec6f3204cc8130180e025726599eaed5c7439ea15cc46e515bc94dc90",
+          "observation": "Original authored geometry, public U.S. government reference attribution; third-party pixels restricted to local analysis. No public archival permission inferred here."
+        }
+      ]
+    }
+  ],
+  "assessedBy": "Codex /root",
+  "assessedAt": "2026-10-27T03:02:08.920Z",
+  "adversarialReview": {
+    "reviewedBy": "Claude Code claude-opus-5-5",
+    "reviewedAt": "2026-10-27T03:02:08.920Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "Recognizable M1-family primary form; coarse phase intentionally excludes machine guns, smoke launchers, antennas and rear equipment; M1A1-specific recognition qualification pending. Independent production objections retained; evidence SHA256 8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+        "resolved": false
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "Coarse main silhouettes agree with observed traced regions; roof and underside require interpretation, and equipped silhouette is incomplete. Side gun discrepancy is intentionally retained under printed-length priority. Independent production objections retained; evidence SHA256 8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+        "resolved": false
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "Static checked pairs have no strict triangle crossings; physical turret pivot, articulation sweeps, coplanar contact and containment remain unqualified. T158-style paired pads are visible in native front view; count, pad dimensions and return are static design choices. Guide teeth and end connectors remain absent. Independent production objections retained; evidence SHA256 8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+        "resolved": false
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "39 exact exported mesh nodes, native isolation and six mask sets, 16 nominal dimension criteria and generic validation pass. Model remains an explicitly static coarse reconstruction, without final source approval or motion qualification. Independent production objections retained; evidence SHA256 8d3eedf1ba74b0853528c54d77e0a049873ef1c4bdd662920dbc14b7a3a58986",
+        "resolved": false
+      }
+    ]
+  }
+}
