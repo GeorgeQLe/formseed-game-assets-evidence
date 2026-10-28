@@ -1,0 +1,448 @@
+{
+  "assessment": {
+    "schemaVersion": "2.0.0",
+    "assessmentId": "m1a1-finishing-r33-style-20261028",
+    "rubric": {
+      "rubricId": "art-style-consistency",
+      "version": "1.0.0"
+    },
+    "subject": {
+      "assetId": "m1a1-trace-finished-20261027-v1",
+      "revisionId": "main-r33",
+      "revision": 33
+    },
+    "styleProfile": {
+      "profileId": "grounded-tactical-miniature",
+      "version": "1.0.0"
+    },
+    "evidenceSet": {
+      "revision": 33,
+      "checkpointSha256": "6212076daddb43aa6939072aae32d57ec78d8a75568cc11883f1709c9820a2b0",
+      "renderSetSha256": "7fa6ff8070c2d1bf1e2ce72a6df7732edd9da06c7735b878f9eaa2913bdb3bd4",
+      "requiredViews": [
+        {
+          "viewId": "front-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+        },
+        {
+          "viewId": "front",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+        },
+        {
+          "viewId": "left",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+        },
+        {
+          "viewId": "right",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+        },
+        {
+          "viewId": "top",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+        }
+      ],
+      "validation": {
+        "reportId": "eabf7189-08d6-4f6b-a72b-ce68b21bd1cb",
+        "revision": 33,
+        "checkpointSha256": "6212076daddb43aa6939072aae32d57ec78d8a75568cc11883f1709c9820a2b0",
+        "passed": true,
+        "current": true,
+        "deterministic": true
+      }
+    },
+    "scores": [
+      {
+        "categoryId": "abstraction-detail",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Sparse functional fittings and clean broad armor remain readable; whips are below pixel size at256px and are a framing advisory.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Sparse functional fittings and clean broad armor remain readable; whips are below pixel size at256px and are a framing advisory.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent current source appearance review; historical game-profile qualification remains absent.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          }
+        ]
+      },
+      {
+        "categoryId": "shape-edge",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Consistent faceted armor and segmented cylindrical parts; restrained construction grammar without noisy surface detail.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Consistent faceted armor and segmented cylindrical parts; restrained construction grammar without noisy surface detail.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent current source appearance review; historical game-profile qualification remains absent.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          }
+        ]
+      },
+      {
+        "categoryId": "proportional-stylization",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Grounded trace-derived major masses retained; equipment and pivot choices explicitly described.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Grounded trace-derived major masses retained; equipment and pivot choices explicitly described.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent current source appearance review; historical game-profile qualification remains absent.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          }
+        ]
+      },
+      {
+        "categoryId": "value-hierarchy",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Six unchanged PBR materials distinguish dark rubber tires/pads, steel sprockets and fittings, sand-painted rims/body, darker main turret and hatch leaves, and blue-black optics. Material boundaries follow the paired tire/rim and shoe construction. No noisy textures or accidental new palette entries.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Six unchanged PBR materials distinguish dark rubber tires/pads, steel sprockets and fittings, sand-painted rims/body, darker main turret and hatch leaves, and blue-black optics. Material boundaries follow the paired tire/rim and shoe construction. No noisy textures or accidental new palette entries.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent current source appearance review; historical game-profile qualification remains absent.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          }
+        ]
+      },
+      {
+        "categoryId": "palette-behavior",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Restrained desert tan with low-saturation dark rubber, coated steel and scarce optics accents.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Restrained desert tan with low-saturation dark rubber, coated steel and scarce optics accents.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent current source appearance review; historical game-profile qualification remains absent.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          }
+        ]
+      },
+      {
+        "categoryId": "material-vocabulary",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Predominantly matte paint, dark rubber, coated steel and controlled opaque optics; no noisy textures.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Predominantly matte paint, dark rubber, coated steel and controlled opaque optics; no noisy textures.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent current source appearance review; historical game-profile qualification remains absent.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          }
+        ]
+      },
+      {
+        "categoryId": "markings-wear",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Clean finish without invented insignia or narrative wear, consistent with intentionally sparse subordinate markings.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Clean finish without invented insignia or narrative wear, consistent with intentionally sparse subordinate markings.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent current source appearance review; historical game-profile qualification remains absent.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          }
+        ]
+      },
+      {
+        "categoryId": "presentation-behavior",
+        "score": 0,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Current six generic source views and256px recognition do not qualify the historical eight-direction game-profile presentation. No presentation waiver or game-readiness approval.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Current six generic source views and256px recognition do not qualify the historical eight-direction game-profile presentation. No presentation waiver or game-readiness approval.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent current source appearance review; historical game-profile qualification remains absent.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          }
+        ]
+      }
+    ],
+    "gates": [
+      {
+        "gateId": "immutable-profile",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "../begin-successor.json",
+            "observation": "Current source evidence only; historical presentation-contract gates remain unresolved.",
+            "evidenceSha256": "3277627e78551b78c2def6b236a483125b0c67b2442ac32d9c2d47ded70f5086"
+          }
+        ]
+      },
+      {
+        "gateId": "required-views",
+        "passed": false,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "render-final.json",
+            "observation": "Current source evidence only; historical presentation-contract gates remain unresolved.",
+            "evidenceSha256": "7614ade120884f04cefa582c006eb7b9f0fa7f65f57de2199cd847808d6c40d8"
+          }
+        ]
+      },
+      {
+        "gateId": "presentation-contract",
+        "passed": false,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "render-final.json",
+            "observation": "Current source evidence only; historical presentation-contract gates remain unresolved.",
+            "evidenceSha256": "7614ade120884f04cefa582c006eb7b9f0fa7f65f57de2199cd847808d6c40d8"
+          }
+        ]
+      },
+      {
+        "gateId": "cross-view-consistency",
+        "passed": false,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "render-final.json",
+            "observation": "Current source evidence only; historical presentation-contract gates remain unresolved.",
+            "evidenceSha256": "7614ade120884f04cefa582c006eb7b9f0fa7f65f57de2199cd847808d6c40d8"
+          }
+        ]
+      },
+      {
+        "gateId": "independent-principles",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "render-final.json",
+            "observation": "Current source evidence only; historical presentation-contract gates remain unresolved.",
+            "evidenceSha256": "7614ade120884f04cefa582c006eb7b9f0fa7f65f57de2199cd847808d6c40d8"
+          }
+        ]
+      },
+      {
+        "gateId": "attributable-content",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "render-final.json",
+            "observation": "Current source evidence only; historical presentation-contract gates remain unresolved.",
+            "evidenceSha256": "7614ade120884f04cefa582c006eb7b9f0fa7f65f57de2199cd847808d6c40d8"
+          }
+        ]
+      }
+    ],
+    "assessedBy": "Codex /root",
+    "assessedAt": "2026-10-28T13:47:50.091Z",
+    "adversarialReview": {
+      "reviewedBy": "Claude Code claude-opus-5-5",
+      "reviewedAt": "2026-10-28T13:47:50.091Z",
+      "coreCategoryObjections": [
+        {
+          "categoryId": "abstraction-detail",
+          "strongestReasonBelowThree": "Sparse functional fittings and clean broad armor remain readable; whips are below pixel size at256px and are a framing advisory.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-detail-closure.json",
+              "observation": "Independent current static-source appearance review; not a game-profile approval.",
+              "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+            }
+          ]
+        },
+        {
+          "categoryId": "shape-edge",
+          "strongestReasonBelowThree": "Consistent faceted armor and segmented cylindrical parts; restrained construction grammar without noisy surface detail.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-detail-closure.json",
+              "observation": "Independent current static-source appearance review; not a game-profile approval.",
+              "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+            }
+          ]
+        },
+        {
+          "categoryId": "value-hierarchy",
+          "strongestReasonBelowThree": "Hatches could remain subtle and turret could fragment into patches; r16 six-view and256px review establishes coherent mass and readable lids.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-detail-closure.json",
+              "observation": "Independent current static-source appearance review; not a game-profile approval.",
+              "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+            }
+          ]
+        },
+        {
+          "categoryId": "presentation-behavior",
+          "strongestReasonBelowThree": "The bound legacy profile requires eight256px directional frames and stable anchor. This generic six-view static source does not deliver that game-presentation contract.",
+          "resolved": false
+        }
+      ]
+    }
+  },
+  "result": {
+    "schemaVersion": "2.0.0",
+    "weightedTotal": 67.5,
+    "recommendation": "no-go",
+    "effectiveDecision": "no-go",
+    "checks": {
+      "threshold": false,
+      "categoryFloors": false,
+      "coreFloors": false,
+      "hardGates": false,
+      "structuredEvidence": true,
+      "adversarialReview": false
+    },
+    "failures": [
+      {
+        "kind": "adversarial-objection",
+        "id": "presentation-behavior",
+        "message": "Unresolved core-floor objection: The bound legacy profile requires eight256px directional frames and stable anchor. This generic six-view static source does not deliver that game-presentation contract."
+      },
+      {
+        "kind": "threshold",
+        "id": "weighted-total",
+        "message": "67.5 is below the 80-point threshold."
+      },
+      {
+        "kind": "category-floor",
+        "id": "presentation-behavior",
+        "message": "Presentation behavior scored 0, below the category floor of 2."
+      },
+      {
+        "kind": "core-floor",
+        "id": "presentation-behavior",
+        "message": "Presentation behavior scored 0, below the core floor of 3."
+      },
+      {
+        "kind": "hard-gate",
+        "id": "required-views",
+        "message": "Complete required views did not pass."
+      },
+      {
+        "kind": "hard-gate",
+        "id": "presentation-contract",
+        "message": "Presentation contract did not pass."
+      },
+      {
+        "kind": "hard-gate",
+        "id": "cross-view-consistency",
+        "message": "Cross-view consistency did not pass."
+      }
+    ],
+    "status": {
+      "technicalValidation": "pass",
+      "visualRecommendation": "no-go",
+      "humanApproval": "absent"
+    },
+    "overrideApplied": false,
+    "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+  }
+}

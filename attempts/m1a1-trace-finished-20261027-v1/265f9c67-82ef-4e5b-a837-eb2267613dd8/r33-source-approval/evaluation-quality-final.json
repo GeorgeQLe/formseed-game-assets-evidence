@@ -1,0 +1,909 @@
+{
+  "assessment": {
+    "schemaVersion": "2.0.0",
+    "assessmentId": "m1a1-finishing-r33-static-quality-20261028",
+    "rubric": {
+      "rubricId": "model-quality",
+      "version": "1.0.0"
+    },
+    "subject": {
+      "assetId": "m1a1-trace-finished-20261027-v1",
+      "revisionId": "main-r33",
+      "revision": 33
+    },
+    "evidenceSet": {
+      "revision": 33,
+      "checkpointSha256": "6212076daddb43aa6939072aae32d57ec78d8a75568cc11883f1709c9820a2b0",
+      "renderSetSha256": "7fa6ff8070c2d1bf1e2ce72a6df7732edd9da06c7735b878f9eaa2913bdb3bd4",
+      "requiredViews": [
+        {
+          "viewId": "front-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+        },
+        {
+          "viewId": "front",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+        },
+        {
+          "viewId": "left",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+        },
+        {
+          "viewId": "right",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+        },
+        {
+          "viewId": "top",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+        }
+      ],
+      "validation": {
+        "reportId": "eabf7189-08d6-4f6b-a72b-ce68b21bd1cb",
+        "revision": 33,
+        "checkpointSha256": "6212076daddb43aa6939072aae32d57ec78d8a75568cc11883f1709c9820a2b0",
+        "passed": true,
+        "current": true,
+        "deterministic": true
+      }
+    },
+    "scores": [
+      {
+        "categoryId": "identity-recognition",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "At256px all six views retain the Abrams low wedge turret, long120mm exterior barrel with bore evacuator, skirted seven-roadwheel stance, rear bustle basket and M1A1 roof without CITV. Distinctive broad cheeks and rear sprocket layout separate the subject from compact rounded-turret Soviet tanks; no single hero view is needed.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "At256px all six views retain the Abrams low wedge turret, long120mm exterior barrel with bore evacuator, skirted seven-roadwheel stance, rear bustle basket and M1A1 roof without CITV. Distinctive broad cheeks and rear sprocket layout separate the subject from compact rounded-turret Soviet tanks; no single hero view is needed.",
+            "evidenceSha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "At256px all six views retain the Abrams low wedge turret, long120mm exterior barrel with bore evacuator, skirted seven-roadwheel stance, rear bustle basket and M1A1 roof without CITV. Distinctive broad cheeks and rear sprocket layout separate the subject from compact rounded-turret Soviet tanks; no single hero view is needed.",
+            "evidenceSha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "At256px all six views retain the Abrams low wedge turret, long120mm exterior barrel with bore evacuator, skirted seven-roadwheel stance, rear bustle basket and M1A1 roof without CITV. Distinctive broad cheeks and rear sprocket layout separate the subject from compact rounded-turret Soviet tanks; no single hero view is needed.",
+            "evidenceSha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "At256px all six views retain the Abrams low wedge turret, long120mm exterior barrel with bore evacuator, skirted seven-roadwheel stance, rear bustle basket and M1A1 roof without CITV. Distinctive broad cheeks and rear sprocket layout separate the subject from compact rounded-turret Soviet tanks; no single hero view is needed.",
+            "evidenceSha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "At256px all six views retain the Abrams low wedge turret, long120mm exterior barrel with bore evacuator, skirted seven-roadwheel stance, rear bustle basket and M1A1 roof without CITV. Distinctive broad cheeks and rear sprocket layout separate the subject from compact rounded-turret Soviet tanks; no single hero view is needed.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r33.png.json",
+            "observation": "Current exactGLB256px evidence across all six required views.",
+            "evidenceSha256": "f821faad4e2ff386c4bff47f54fc99b47ff3e87d126419ace121e719edec4e36"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-actual-review.json",
+            "observation": "Independent whole-form critique for the static correction.",
+            "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent detail closure: no remaining core objection.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "details-r33-v2.png.json",
+            "observation": "ExactGLB assembled and explicitly isolated close-up evidence.",
+            "evidenceSha256": "c81325c4e3603295c79d37416edaaf9417374e79be1fec91f1f3d8b68acb1351"
+          }
+        ],
+        "recognition": {
+          "thumbnailPixels": 256,
+          "nearestNeighbors": [
+            "M1 with105mm gun",
+            "M1A2 withCITV",
+            "Leopard2"
+          ],
+          "distinguishers": [
+            "120mm-style barrel and bore evacuator rather than105mm external profile",
+            "M1A1 cupola arrangement without M1A2 CITV",
+            "Abrams wedge/bustle massing and skirted seven-wheel stance; roof weapons are simplified"
+          ]
+        }
+      },
+      {
+        "categoryId": "proportion-mass",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Large low turret and long hull remain coherent. Side views show seven source-spaced wheels, deliberately wider first gap, wheel tops partly behind skirts, and about4.61m first-to-last wheel span. Source-inferred tire diameter and rounded wraps correct the earlier undersized wheel reading. Hidden idler size remains explicitly inferred.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Large low turret and long hull remain coherent. Side views show seven source-spaced wheels, deliberately wider first gap, wheel tops partly behind skirts, and about4.61m first-to-last wheel span. Source-inferred tire diameter and rounded wraps correct the earlier undersized wheel reading. Hidden idler size remains explicitly inferred.",
+            "evidenceSha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Large low turret and long hull remain coherent. Side views show seven source-spaced wheels, deliberately wider first gap, wheel tops partly behind skirts, and about4.61m first-to-last wheel span. Source-inferred tire diameter and rounded wraps correct the earlier undersized wheel reading. Hidden idler size remains explicitly inferred.",
+            "evidenceSha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Large low turret and long hull remain coherent. Side views show seven source-spaced wheels, deliberately wider first gap, wheel tops partly behind skirts, and about4.61m first-to-last wheel span. Source-inferred tire diameter and rounded wraps correct the earlier undersized wheel reading. Hidden idler size remains explicitly inferred.",
+            "evidenceSha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Large low turret and long hull remain coherent. Side views show seven source-spaced wheels, deliberately wider first gap, wheel tops partly behind skirts, and about4.61m first-to-last wheel span. Source-inferred tire diameter and rounded wraps correct the earlier undersized wheel reading. Hidden idler size remains explicitly inferred.",
+            "evidenceSha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Large low turret and long hull remain coherent. Side views show seven source-spaced wheels, deliberately wider first gap, wheel tops partly behind skirts, and about4.61m first-to-last wheel span. Source-inferred tire diameter and rounded wraps correct the earlier undersized wheel reading. Hidden idler size remains explicitly inferred.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r33.png.json",
+            "observation": "Current exactGLB256px evidence across all six required views.",
+            "evidenceSha256": "f821faad4e2ff386c4bff47f54fc99b47ff3e87d126419ace121e719edec4e36"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-actual-review.json",
+            "observation": "Independent whole-form critique for the static correction.",
+            "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent detail closure: no remaining core objection.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "details-r33-v2.png.json",
+            "observation": "ExactGLB assembled and explicitly isolated close-up evidence.",
+            "evidenceSha256": "c81325c4e3603295c79d37416edaaf9417374e79be1fec91f1f3d8b68acb1351"
+          }
+        ]
+      },
+      {
+        "categoryId": "silhouette",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Front aprons cover the exposed track noses. Side and rear views retain clear barrel, broad turret cheeks, skirt mass, rear basket and round terminal track wraps. The corrected running gear supports the mass without angular end kinks. Individual shoes remain deliberately segmented at this stylized viewing scale.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Front aprons cover the exposed track noses. Side and rear views retain clear barrel, broad turret cheeks, skirt mass, rear basket and round terminal track wraps. The corrected running gear supports the mass without angular end kinks. Individual shoes remain deliberately segmented at this stylized viewing scale.",
+            "evidenceSha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Front aprons cover the exposed track noses. Side and rear views retain clear barrel, broad turret cheeks, skirt mass, rear basket and round terminal track wraps. The corrected running gear supports the mass without angular end kinks. Individual shoes remain deliberately segmented at this stylized viewing scale.",
+            "evidenceSha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Front aprons cover the exposed track noses. Side and rear views retain clear barrel, broad turret cheeks, skirt mass, rear basket and round terminal track wraps. The corrected running gear supports the mass without angular end kinks. Individual shoes remain deliberately segmented at this stylized viewing scale.",
+            "evidenceSha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Front aprons cover the exposed track noses. Side and rear views retain clear barrel, broad turret cheeks, skirt mass, rear basket and round terminal track wraps. The corrected running gear supports the mass without angular end kinks. Individual shoes remain deliberately segmented at this stylized viewing scale.",
+            "evidenceSha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Front aprons cover the exposed track noses. Side and rear views retain clear barrel, broad turret cheeks, skirt mass, rear basket and round terminal track wraps. The corrected running gear supports the mass without angular end kinks. Individual shoes remain deliberately segmented at this stylized viewing scale.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r33.png.json",
+            "observation": "Current exactGLB256px evidence across all six required views.",
+            "evidenceSha256": "f821faad4e2ff386c4bff47f54fc99b47ff3e87d126419ace121e719edec4e36"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-actual-review.json",
+            "observation": "Independent whole-form critique for the static correction.",
+            "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent detail closure: no remaining core objection.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "details-r33-v2.png.json",
+            "observation": "ExactGLB assembled and explicitly isolated close-up evidence.",
+            "evidenceSha256": "c81325c4e3603295c79d37416edaaf9417374e79be1fec91f1f3d8b68acb1351"
+          }
+        ]
+      },
+      {
+        "categoryId": "form-hierarchy",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Hull, turret and gun dominate, followed by skirts, dished wheels and roof stations. Sparse fasteners and paired tires add subordinate relief without changing primary form. Dark rear sprocket is a deliberate steel accent; it does not displace the turret as the visual focus.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Hull, turret and gun dominate, followed by skirts, dished wheels and roof stations. Sparse fasteners and paired tires add subordinate relief without changing primary form. Dark rear sprocket is a deliberate steel accent; it does not displace the turret as the visual focus.",
+            "evidenceSha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Hull, turret and gun dominate, followed by skirts, dished wheels and roof stations. Sparse fasteners and paired tires add subordinate relief without changing primary form. Dark rear sprocket is a deliberate steel accent; it does not displace the turret as the visual focus.",
+            "evidenceSha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Hull, turret and gun dominate, followed by skirts, dished wheels and roof stations. Sparse fasteners and paired tires add subordinate relief without changing primary form. Dark rear sprocket is a deliberate steel accent; it does not displace the turret as the visual focus.",
+            "evidenceSha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Hull, turret and gun dominate, followed by skirts, dished wheels and roof stations. Sparse fasteners and paired tires add subordinate relief without changing primary form. Dark rear sprocket is a deliberate steel accent; it does not displace the turret as the visual focus.",
+            "evidenceSha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Hull, turret and gun dominate, followed by skirts, dished wheels and roof stations. Sparse fasteners and paired tires add subordinate relief without changing primary form. Dark rear sprocket is a deliberate steel accent; it does not displace the turret as the visual focus.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r33.png.json",
+            "observation": "Current exactGLB256px evidence across all six required views.",
+            "evidenceSha256": "f821faad4e2ff386c4bff47f54fc99b47ff3e87d126419ace121e719edec4e36"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-actual-review.json",
+            "observation": "Independent whole-form critique for the static correction.",
+            "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent detail closure: no remaining core objection.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "details-r33-v2.png.json",
+            "observation": "ExactGLB assembled and explicitly isolated close-up evidence.",
+            "evidenceSha256": "c81325c4e3603295c79d37416edaaf9417374e79be1fec91f1f3d8b68acb1351"
+          }
+        ]
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "For the declared static source, tires sit on the backing, paired rims share an axle, seated fasteners and dished faces explain assembly, front covers sit over the idler and the rear sprocket sits within the rounded loop. Whole-model and close-up review find no floating or intersecting construction. Exact tooth meshing, guidehorns, end connectors, terrain dynamics and animation are explicitly outside this static result; open shoe gaps are a deliberate simplified visual treatment, not claimed mechanical engagement.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "For the declared static source, tires sit on the backing, paired rims share an axle, seated fasteners and dished faces explain assembly, front covers sit over the idler and the rear sprocket sits within the rounded loop. Whole-model and close-up review find no floating or intersecting construction. Exact tooth meshing, guidehorns, end connectors, terrain dynamics and animation are explicitly outside this static result; open shoe gaps are a deliberate simplified visual treatment, not claimed mechanical engagement.",
+            "evidenceSha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "For the declared static source, tires sit on the backing, paired rims share an axle, seated fasteners and dished faces explain assembly, front covers sit over the idler and the rear sprocket sits within the rounded loop. Whole-model and close-up review find no floating or intersecting construction. Exact tooth meshing, guidehorns, end connectors, terrain dynamics and animation are explicitly outside this static result; open shoe gaps are a deliberate simplified visual treatment, not claimed mechanical engagement.",
+            "evidenceSha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "For the declared static source, tires sit on the backing, paired rims share an axle, seated fasteners and dished faces explain assembly, front covers sit over the idler and the rear sprocket sits within the rounded loop. Whole-model and close-up review find no floating or intersecting construction. Exact tooth meshing, guidehorns, end connectors, terrain dynamics and animation are explicitly outside this static result; open shoe gaps are a deliberate simplified visual treatment, not claimed mechanical engagement.",
+            "evidenceSha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "For the declared static source, tires sit on the backing, paired rims share an axle, seated fasteners and dished faces explain assembly, front covers sit over the idler and the rear sprocket sits within the rounded loop. Whole-model and close-up review find no floating or intersecting construction. Exact tooth meshing, guidehorns, end connectors, terrain dynamics and animation are explicitly outside this static result; open shoe gaps are a deliberate simplified visual treatment, not claimed mechanical engagement.",
+            "evidenceSha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "For the declared static source, tires sit on the backing, paired rims share an axle, seated fasteners and dished faces explain assembly, front covers sit over the idler and the rear sprocket sits within the rounded loop. Whole-model and close-up review find no floating or intersecting construction. Exact tooth meshing, guidehorns, end connectors, terrain dynamics and animation are explicitly outside this static result; open shoe gaps are a deliberate simplified visual treatment, not claimed mechanical engagement.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r33.png.json",
+            "observation": "Current exactGLB256px evidence across all six required views.",
+            "evidenceSha256": "f821faad4e2ff386c4bff47f54fc99b47ff3e87d126419ace121e719edec4e36"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-actual-review.json",
+            "observation": "Independent whole-form critique for the static correction.",
+            "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent detail closure: no remaining core objection.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "details-r33-v2.png.json",
+            "observation": "ExactGLB assembled and explicitly isolated close-up evidence.",
+            "evidenceSha256": "c81325c4e3603295c79d37416edaaf9417374e79be1fec91f1f3d8b68acb1351"
+          }
+        ]
+      },
+      {
+        "categoryId": "surface-material",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Six unchanged PBR materials distinguish dark rubber tires/pads, steel sprockets and fittings, sand-painted rims/body, darker main turret and hatch leaves, and blue-black optics. Material boundaries follow the paired tire/rim and shoe construction. No noisy textures or accidental new palette entries.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Six unchanged PBR materials distinguish dark rubber tires/pads, steel sprockets and fittings, sand-painted rims/body, darker main turret and hatch leaves, and blue-black optics. Material boundaries follow the paired tire/rim and shoe construction. No noisy textures or accidental new palette entries.",
+            "evidenceSha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Six unchanged PBR materials distinguish dark rubber tires/pads, steel sprockets and fittings, sand-painted rims/body, darker main turret and hatch leaves, and blue-black optics. Material boundaries follow the paired tire/rim and shoe construction. No noisy textures or accidental new palette entries.",
+            "evidenceSha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Six unchanged PBR materials distinguish dark rubber tires/pads, steel sprockets and fittings, sand-painted rims/body, darker main turret and hatch leaves, and blue-black optics. Material boundaries follow the paired tire/rim and shoe construction. No noisy textures or accidental new palette entries.",
+            "evidenceSha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Six unchanged PBR materials distinguish dark rubber tires/pads, steel sprockets and fittings, sand-painted rims/body, darker main turret and hatch leaves, and blue-black optics. Material boundaries follow the paired tire/rim and shoe construction. No noisy textures or accidental new palette entries.",
+            "evidenceSha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Six unchanged PBR materials distinguish dark rubber tires/pads, steel sprockets and fittings, sand-painted rims/body, darker main turret and hatch leaves, and blue-black optics. Material boundaries follow the paired tire/rim and shoe construction. No noisy textures or accidental new palette entries.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r33.png.json",
+            "observation": "Current exactGLB256px evidence across all six required views.",
+            "evidenceSha256": "f821faad4e2ff386c4bff47f54fc99b47ff3e87d126419ace121e719edec4e36"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-actual-review.json",
+            "observation": "Independent whole-form critique for the static correction.",
+            "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent detail closure: no remaining core objection.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "details-r33-v2.png.json",
+            "observation": "ExactGLB assembled and explicitly isolated close-up evidence.",
+            "evidenceSha256": "c81325c4e3603295c79d37416edaaf9417374e79be1fec91f1f3d8b68acb1351"
+          }
+        ]
+      },
+      {
+        "categoryId": "viewpoint-robustness",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All six native and256px views are complete and grounded. Exact-GLB close-ups additionally show tire pairs, center channels, dished hubs, seated bolt heads, paired sprocket rings and cover/headlight/idler relationships. Visible20-sided close-up faceting is deliberate at the declared low-poly scale; it does not collapse form at recognition size.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All six native and256px views are complete and grounded. Exact-GLB close-ups additionally show tire pairs, center channels, dished hubs, seated bolt heads, paired sprocket rings and cover/headlight/idler relationships. Visible20-sided close-up faceting is deliberate at the declared low-poly scale; it does not collapse form at recognition size.",
+            "evidenceSha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All six native and256px views are complete and grounded. Exact-GLB close-ups additionally show tire pairs, center channels, dished hubs, seated bolt heads, paired sprocket rings and cover/headlight/idler relationships. Visible20-sided close-up faceting is deliberate at the declared low-poly scale; it does not collapse form at recognition size.",
+            "evidenceSha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All six native and256px views are complete and grounded. Exact-GLB close-ups additionally show tire pairs, center channels, dished hubs, seated bolt heads, paired sprocket rings and cover/headlight/idler relationships. Visible20-sided close-up faceting is deliberate at the declared low-poly scale; it does not collapse form at recognition size.",
+            "evidenceSha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All six native and256px views are complete and grounded. Exact-GLB close-ups additionally show tire pairs, center channels, dished hubs, seated bolt heads, paired sprocket rings and cover/headlight/idler relationships. Visible20-sided close-up faceting is deliberate at the declared low-poly scale; it does not collapse form at recognition size.",
+            "evidenceSha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All six native and256px views are complete and grounded. Exact-GLB close-ups additionally show tire pairs, center channels, dished hubs, seated bolt heads, paired sprocket rings and cover/headlight/idler relationships. Visible20-sided close-up faceting is deliberate at the declared low-poly scale; it does not collapse form at recognition size.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r33.png.json",
+            "observation": "Current exactGLB256px evidence across all six required views.",
+            "evidenceSha256": "f821faad4e2ff386c4bff47f54fc99b47ff3e87d126419ace121e719edec4e36"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-actual-review.json",
+            "observation": "Independent whole-form critique for the static correction.",
+            "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent detail closure: no remaining core objection.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "details-r33-v2.png.json",
+            "observation": "ExactGLB assembled and explicitly isolated close-up evidence.",
+            "evidenceSha256": "c81325c4e3603295c79d37416edaaf9417374e79be1fec91f1f3d8b68acb1351"
+          }
+        ]
+      },
+      {
+        "categoryId": "production-integrity",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All246mesh names/parents remain exact. All210 replacements match intended world vertices/material triangles,36untouched meshes retain geometry/material maps,6materials are unchanged. Proper3Dorigins are assigned to wheel axles and shoe centers. Native246selection/hide probes,1476component-view mask triplets,28dimensions, budget34464/35000 and deterministic source validation are current. No approval or animation qualification is inferred.",
+            "evidenceSha256": "c10cd0f9b36d1300c03e2f1308b27a8e4aeeabc375c0f9b6c13df5cc92428cb4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All246mesh names/parents remain exact. All210 replacements match intended world vertices/material triangles,36untouched meshes retain geometry/material maps,6materials are unchanged. Proper3Dorigins are assigned to wheel axles and shoe centers. Native246selection/hide probes,1476component-view mask triplets,28dimensions, budget34464/35000 and deterministic source validation are current. No approval or animation qualification is inferred.",
+            "evidenceSha256": "1caf3e78f92543d1b529fe9139deed8a1d30d01061e083092806c4c680a1b2fc"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All246mesh names/parents remain exact. All210 replacements match intended world vertices/material triangles,36untouched meshes retain geometry/material maps,6materials are unchanged. Proper3Dorigins are assigned to wheel axles and shoe centers. Native246selection/hide probes,1476component-view mask triplets,28dimensions, budget34464/35000 and deterministic source validation are current. No approval or animation qualification is inferred.",
+            "evidenceSha256": "90a29edf335bf60dea88b68fe98987506d667dcb588cbf8862663cc41db6492d"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All246mesh names/parents remain exact. All210 replacements match intended world vertices/material triangles,36untouched meshes retain geometry/material maps,6materials are unchanged. Proper3Dorigins are assigned to wheel axles and shoe centers. Native246selection/hide probes,1476component-view mask triplets,28dimensions, budget34464/35000 and deterministic source validation are current. No approval or animation qualification is inferred.",
+            "evidenceSha256": "453ec388d4af6777b5cf51a2a194d207e362b41b3cd7b0fd2e1f014931ff42b0"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All246mesh names/parents remain exact. All210 replacements match intended world vertices/material triangles,36untouched meshes retain geometry/material maps,6materials are unchanged. Proper3Dorigins are assigned to wheel axles and shoe centers. Native246selection/hide probes,1476component-view mask triplets,28dimensions, budget34464/35000 and deterministic source validation are current. No approval or animation qualification is inferred.",
+            "evidenceSha256": "3adc59abc0425931bc27c79fae05e128f34659a5854eb0790b1d379a32e92630"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All246mesh names/parents remain exact. All210 replacements match intended world vertices/material triangles,36untouched meshes retain geometry/material maps,6materials are unchanged. Proper3Dorigins are assigned to wheel axles and shoe centers. Native246selection/hide probes,1476component-view mask triplets,28dimensions, budget34464/35000 and deterministic source validation are current. No approval or animation qualification is inferred.",
+            "evidenceSha256": "5ab4e26400258c2ed1317b6dac30db1a1ad345abcee7f4cdea560addb5ec4a3b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r33.png.json",
+            "observation": "Current exactGLB256px evidence across all six required views.",
+            "evidenceSha256": "f821faad4e2ff386c4bff47f54fc99b47ff3e87d126419ace121e719edec4e36"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-actual-review.json",
+            "observation": "Independent whole-form critique for the static correction.",
+            "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-detail-closure.json",
+            "observation": "Independent detail closure: no remaining core objection.",
+            "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "details-r33-v2.png.json",
+            "observation": "ExactGLB assembled and explicitly isolated close-up evidence.",
+            "evidenceSha256": "c81325c4e3603295c79d37416edaaf9417374e79be1fec91f1f3d8b68acb1351"
+          }
+        ]
+      }
+    ],
+    "gates": [
+      {
+        "gateId": "identity-authority",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "../begin-successor.json",
+            "observation": "Current exact static source evidence. No animation/game qualification or human approval transfer.",
+            "evidenceSha256": "3277627e78551b78c2def6b236a483125b0c67b2442ac32d9c2d47ded70f5086"
+          }
+        ]
+      },
+      {
+        "gateId": "required-views",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "render-final.json",
+            "observation": "Current exact static source evidence. No animation/game qualification or human approval transfer.",
+            "evidenceSha256": "7614ade120884f04cefa582c006eb7b9f0fa7f65f57de2199cd847808d6c40d8"
+          }
+        ]
+      },
+      {
+        "gateId": "structural-plausibility",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "actual-export-audit-final.json",
+            "observation": "Current actual static mesh crossings0; containment and close-up review separately corroborate the fit.",
+            "evidenceSha256": "fe75b053277ad0995ec9c87498e359a0e89374ef1d9174920a68f4870f0d1d1a"
+          }
+        ]
+      },
+      {
+        "gateId": "transform-grounding",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "dimension-final.json",
+            "observation": "Current exact static source evidence. No animation/game qualification or human approval transfer.",
+            "evidenceSha256": "9f7db95247cae0770392d64e3e9506e1000cc00ce7e9f71495c1ef1ad5efe898"
+          }
+        ]
+      },
+      {
+        "gateId": "deterministic-output",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "baseline-final.json",
+            "observation": "Current exact static source evidence. No animation/game qualification or human approval transfer.",
+            "evidenceSha256": "153f11320af40257b1707307d97ee82bfd8ac34b2b6cfbcde353ec505b276a71"
+          }
+        ]
+      },
+      {
+        "gateId": "current-validation",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "validation-final.json",
+            "observation": "Current exact static source evidence. No animation/game qualification or human approval transfer.",
+            "evidenceSha256": "e43d1d29efae61f6504a57a52a6a4096baa4a322d83da673dc410bcea40581b5"
+          }
+        ]
+      },
+      {
+        "gateId": "budgets",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "validation-final.json",
+            "observation": "Current exact static source evidence. No animation/game qualification or human approval transfer.",
+            "evidenceSha256": "e43d1d29efae61f6504a57a52a6a4096baa4a322d83da673dc410bcea40581b5"
+          }
+        ]
+      },
+      {
+        "gateId": "explained-content",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "component-plan-final.json",
+            "observation": "Current exact static source evidence. No animation/game qualification or human approval transfer.",
+            "evidenceSha256": "872cbef145528ee3828d357f85e8eb9973b634a8f1ccebc2f8c951803fe1a7ca"
+          }
+        ]
+      },
+      {
+        "gateId": "artifact-integrity",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "bundle-final.json",
+            "observation": "Current exact static source evidence. No animation/game qualification or human approval transfer.",
+            "evidenceSha256": "7b046dd7bf5f1f4aad40116b4f64f6354f569388ad96a82a32f843e074470f24"
+          }
+        ]
+      },
+      {
+        "gateId": "copying-rights",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "../reference-ingest.json",
+            "observation": "Current exact static source evidence. No animation/game qualification or human approval transfer.",
+            "evidenceSha256": "e493bc0c14a43b97e1ce2d0dfe830e2f242548a51815469006a651834caf8e7f"
+          }
+        ]
+      }
+    ],
+    "assessedBy": "Codex /root",
+    "assessedAt": "2026-10-28T13:47:50.091Z",
+    "adversarialReview": {
+      "reviewedBy": "Claude Code claude-opus-5-5",
+      "reviewedAt": "2026-10-28T13:47:50.091Z",
+      "coreCategoryObjections": [
+        {
+          "categoryId": "identity-recognition",
+          "strongestReasonBelowThree": "Low-poly simplification and similar modern tank silhouettes could obscure variant identity in front/top views. Six256px views preserve the broad Abrams cheeks, long barrel, bustle basket and M1A1 roof arrangement.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-actual-review.json",
+              "observation": "Separate adversarial whole-form category review.",
+              "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-detail-closure.json",
+              "observation": "Detail evidence closes remaining viewpoint gap; no unresolved core objection.",
+              "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "native-isolation-final.json",
+              "observation": "Operating agent verified246current native probes and unique mesh bindings; independent reviewer explicitly relied on the compact reported result.",
+              "evidenceSha256": "f9feb7127526742ab59477c23ed19ddc4167a5a3cf40f756dcd02a706685d46a"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "mask-verification-final.json",
+              "observation": "All246components in all six views with hash-verified receipts.",
+              "evidenceSha256": "3388fc6a9badd9844e083bae424921bdbafc830e2a234c1f2bf06602f02a42e4"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "containment-final.json",
+              "observation": "No contained vertices among8114potential fixed-mesh pairs.",
+              "evidenceSha256": "c2dd00096f18d08302afa7fad703b62ca7fd2f581b5aa767cbe19d0243ea6c17"
+            }
+          ]
+        },
+        {
+          "categoryId": "silhouette",
+          "strongestReasonBelowThree": "Rounded track wraps could distort the traced stance or reveal an unrelated body regression. Independent side-view source comparison confirms the new wraps and wider first gap; all unrelated source geometry is preserved.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-actual-review.json",
+              "observation": "Separate adversarial whole-form category review.",
+              "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-detail-closure.json",
+              "observation": "Detail evidence closes remaining viewpoint gap; no unresolved core objection.",
+              "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "native-isolation-final.json",
+              "observation": "Operating agent verified246current native probes and unique mesh bindings; independent reviewer explicitly relied on the compact reported result.",
+              "evidenceSha256": "f9feb7127526742ab59477c23ed19ddc4167a5a3cf40f756dcd02a706685d46a"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "mask-verification-final.json",
+              "observation": "All246components in all six views with hash-verified receipts.",
+              "evidenceSha256": "3388fc6a9badd9844e083bae424921bdbafc830e2a234c1f2bf06602f02a42e4"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "containment-final.json",
+              "observation": "No contained vertices among8114potential fixed-mesh pairs.",
+              "evidenceSha256": "c2dd00096f18d08302afa7fad703b62ca7fd2f581b5aa767cbe19d0243ea6c17"
+            }
+          ]
+        },
+        {
+          "categoryId": "mechanical-coherence",
+          "strongestReasonBelowThree": "Open shoe gaps, absent connectors and simplified sprocket meshing could weaken the running gear. Independent whole-form/detail review accepts this deliberate stylized static treatment, confirms visible support, paired wheels and clear covers, and excludes any motion-readiness claim.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-actual-review.json",
+              "observation": "Separate adversarial whole-form category review.",
+              "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-detail-closure.json",
+              "observation": "Detail evidence closes remaining viewpoint gap; no unresolved core objection.",
+              "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "native-isolation-final.json",
+              "observation": "Operating agent verified246current native probes and unique mesh bindings; independent reviewer explicitly relied on the compact reported result.",
+              "evidenceSha256": "f9feb7127526742ab59477c23ed19ddc4167a5a3cf40f756dcd02a706685d46a"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "mask-verification-final.json",
+              "observation": "All246components in all six views with hash-verified receipts.",
+              "evidenceSha256": "3388fc6a9badd9844e083bae424921bdbafc830e2a234c1f2bf06602f02a42e4"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "containment-final.json",
+              "observation": "No contained vertices among8114potential fixed-mesh pairs.",
+              "evidenceSha256": "c2dd00096f18d08302afa7fad703b62ca7fd2f581b5aa767cbe19d0243ea6c17"
+            }
+          ]
+        },
+        {
+          "categoryId": "production-integrity",
+          "strongestReasonBelowThree": "Recipe checks alone could hide source/export or isolation failures. Current actual GLB, all native selection/hide tests and all six-view mask sets close those concerns; human approval remains absent.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-actual-review.json",
+              "observation": "Separate adversarial whole-form category review.",
+              "evidenceSha256": "7eaa71f96fe30e0c175a05b426535d066bcdf73b845cbfa1ef4d2e729680ddae"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-detail-closure.json",
+              "observation": "Detail evidence closes remaining viewpoint gap; no unresolved core objection.",
+              "evidenceSha256": "3758ed0886ce1cf6fb63156097d0fef3a10ca80c94f20c282a9a683230899551"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "native-isolation-final.json",
+              "observation": "Operating agent verified246current native probes and unique mesh bindings; independent reviewer explicitly relied on the compact reported result.",
+              "evidenceSha256": "f9feb7127526742ab59477c23ed19ddc4167a5a3cf40f756dcd02a706685d46a"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "mask-verification-final.json",
+              "observation": "All246components in all six views with hash-verified receipts.",
+              "evidenceSha256": "3388fc6a9badd9844e083bae424921bdbafc830e2a234c1f2bf06602f02a42e4"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "containment-final.json",
+              "observation": "No contained vertices among8114potential fixed-mesh pairs.",
+              "evidenceSha256": "c2dd00096f18d08302afa7fad703b62ca7fd2f581b5aa767cbe19d0243ea6c17"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "result": {
+    "schemaVersion": "2.0.0",
+    "weightedTotal": 75,
+    "recommendation": "go",
+    "effectiveDecision": "go",
+    "checks": {
+      "threshold": true,
+      "categoryFloors": true,
+      "coreFloors": true,
+      "hardGates": true,
+      "structuredEvidence": true,
+      "adversarialReview": true
+    },
+    "failures": [],
+    "status": {
+      "technicalValidation": "pass",
+      "visualRecommendation": "go",
+      "humanApproval": "absent"
+    },
+    "overrideApplied": false,
+    "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+  }
+}
