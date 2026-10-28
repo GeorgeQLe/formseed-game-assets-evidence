@@ -1,0 +1,460 @@
+{
+  "version": 4,
+  "scope": "Human-directed mounted weapon exterior reconstruction, not functioning weapons; preserve locked tank and all existing motion ownership",
+  "source": {
+    "jobId": "1dea7952-0a5d-46b6-a035-288179077165",
+    "revision": 1,
+    "checkpointHash": "e880df5bff9a4aee6d84cc9e34201547d0ecef1fa2c7ac6dd262a3a276dc3098"
+  },
+  "referenceEvidence": [
+    {
+      "path": "/Users/georgele/Developer/Scratch/abrams-research.BC9Cb5/m2-operator-1992.pdf",
+      "sha256": "b8aab5deae4e0d5e9df6e0a295621008b17f3b46b298b402453fa6a1ee257dff"
+    },
+    {
+      "path": "/Users/georgele/Developer/Scratch/abrams-research.BC9Cb5/gunnery.pdf",
+      "sha256": "2a1845be5683a0a55950b32c639dfad73026365223855e36c4b9314eb14d8718"
+    },
+    {
+      "path": "/Users/georgele/Developer/Scratch/abrams-research.BC9Cb5/loader-mount-manual.jpg",
+      "sha256": "31e82f9c2c6dece60188ab1b3c13c7715825211281b3ccbbad6fff6fa118fa68"
+    },
+    {
+      "path": "/Users/georgele/Developer/Scratch/abrams-research.BC9Cb5/loader-m240-2005.jpg",
+      "sha256": "80bcc863a4fd0a544660c085b9b18b90c4335a94bf7572e6ac3f107379b2572a"
+    },
+    {
+      "path": "/Users/georgele/Developer/Scratch/abrams-research.BC9Cb5/roof-mounted-mgs.jpg",
+      "sha256": "a1390d1a10c646db503c4345e17359231d43b9dad01cdf5df83268f4c0276ebb"
+    },
+    {
+      "path": "/Users/georgele/Developer/Scratch/abrams-research.BC9Cb5/commander-walkaround.jpg",
+      "sha256": "d2ade1b92dbb896407c96565f1bbafab599d38c9aa3cb8400c9fcd9dc70247b7"
+    }
+  ],
+  "crossViewClosure": {
+    "m2Variant": "FM3-20.12 p12-17 identifies legacy M1/M1A1 M2HB with M10 charger, supporting turret-type external fittings in TM9-1005-213-10 p2-4. Inference across sources, not claim of exact installation dimensions.",
+    "m240Rear": "TM9-2350-255-10-1 C3 loader drawing labels spade grips and cradle; base M1 drawing corroborated qualitatively by M1A1 2005 mounted photo. No infantry stock or bipod.",
+    "scale": "M2 generic equipment overall1.6543m used as explicit nominal exterior target. M2401.05664m manufacturer vehicle-family nominal length used as construction target, exact spade grip configuration not dimensioned. None of the perspective traces is metrically extruded."
+  },
+  "criticalRelationships": [
+    {
+      "id": "m2-overall",
+      "targetMeters": 1.6543,
+      "actualRecipeMeters": 1.6543,
+      "basis": "Army generic M2 equipment table; mount excluded",
+      "check": "actual export union M2Receiver + M2Barrel bounds X"
+    },
+    {
+      "id": "m240-overall",
+      "targetMeters": 1.05664,
+      "actualRecipeMeters": 1.05664,
+      "basis": "FN vehicle-family nominal, not installation metrology",
+      "check": "actual export union M240Receiver + M240Barrel X"
+    },
+    {
+      "id": "gun-to-support",
+      "target": "Visible cradle to transverse pins to fixed stand, no floating boxes",
+      "check": "assembled complementary views and source geometry contacts"
+    },
+    {
+      "id": "hatch-clearance",
+      "target": "Unchanged fixed station and lids; weapons forward and above existing hatch opening sweep",
+      "check": "actual candidate sweep comparison, not only endpoint look"
+    },
+    {
+      "id": "weapon-character",
+      "target": "M2 broad jacket/long barrel/M10 exterior versus thinner M240 gas cylinder/spade grips/open ammo cradle/curved case container",
+      "check": "independent close-up and whole-tank review"
+    }
+  ],
+  "designChoices": [
+    "Exterior widths, heights, support cross sections, nominal contact points and simplified rear fittings are visual construction choices constrained by multiple references, not measured engineering specifications.",
+    "Closed muzzle caps and shallow dark jacket marks are miniature-scale stylization; no operating internals.",
+    "Small pins, chains, straps and hidden feed paths excluded. Existing hatch-ring detail retained.",
+    "M2 nominal support bridges original fixed station to forward gun position required by the locked lid sweep; not an exact historical CWS mechanism.",
+    "M240 holder follows manual sheet-metal open-top interpretation rather than differing angular photograph equipment."
+  ],
+  "inventory": [
+    {
+      "id": "M2Receiver",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M2Receiver",
+      "exportNode": "M2Receiver",
+      "geometryOwnership": "Receiver shell, top cover, rear buffer and shallow charger exterior; shared fixed exterior details",
+      "materialOwnership": [
+        "steel"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -3.8499999999999996,
+          -0.702504705163701,
+          2.6670000000000003
+        ],
+        "maximum": [
+          -3.13,
+          -0.492004705163701,
+          2.8565
+        ]
+      },
+      "triangles": 168
+    },
+    {
+      "id": "M2Barrel",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M2Barrel",
+      "exportNode": "M2Barrel",
+      "geometryOwnership": "Tapered visible barrel and broad barrel-support jacket; closed muzzle cap stylization, no modeled bore",
+      "materialOwnership": [
+        "rubber",
+        "steel"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -3.13,
+          -0.627504705163701,
+          2.7079999999999997
+        ],
+        "maximum": [
+          -2.1957,
+          -0.521504705163701,
+          2.812
+        ]
+      },
+      "triangles": 204
+    },
+    {
+      "id": "M2Cradle",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M2Cradle",
+      "exportNode": "M2Cradle",
+      "geometryOwnership": "Paired exterior cradle cheeks, visible transverse trunnion and bottom bed; independent of fixed CWS support",
+      "materialOwnership": [
+        "review-dark-paint",
+        "steel"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -3.6149999999999998,
+          -0.709504705163701,
+          2.639
+        ],
+        "maximum": [
+          -3.185,
+          -0.439504705163701,
+          2.76
+        ]
+      },
+      "triangles": 80
+    },
+    {
+      "id": "M2CWSSupport",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M2CWSSupport",
+      "exportNode": "M2CWSSupport",
+      "geometryOwnership": "Simplified fixed CWS stand and forward arm attached to retained cupola front; hidden linkage deliberately excluded",
+      "materialOwnership": [
+        "paint"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -3.96,
+          -0.659504705163701,
+          2.3425000000000002
+        ],
+        "maximum": [
+          -3.31,
+          -0.489504705163701,
+          2.651795221462835
+        ]
+      },
+      "triangles": 68
+    },
+    {
+      "id": "M2AmmoCradle",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M2AmmoCradle",
+      "exportNode": "M2AmmoCradle",
+      "geometryOwnership": "Open left-side ammunition cradle and compact closed ammunition can; construction proportions from mounted references",
+      "materialOwnership": [
+        "paint",
+        "review-dark-paint",
+        "steel"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -3.65,
+          -0.48700470516370103,
+          2.5875
+        ],
+        "maximum": [
+          -3.35,
+          -0.272004705163701,
+          2.814
+        ]
+      },
+      "triangles": 36
+    },
+    {
+      "id": "M240Receiver",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M240Receiver",
+      "exportNode": "M240Receiver",
+      "geometryOwnership": "Tank-mounted receiver shell, top cover and rear spade grips; no infantry stock or bipod",
+      "materialOwnership": [
+        "review-dark-paint",
+        "steel"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -4.0,
+          0.5056510253623477,
+          2.5865
+        ],
+        "maximum": [
+          -3.48,
+          0.6906510253623476,
+          2.731
+        ]
+      },
+      "triangles": 136
+    },
+    {
+      "id": "M240Barrel",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M240Barrel",
+      "exportNode": "M240Barrel",
+      "geometryOwnership": "Exterior barrel, subordinate gas cylinder, front sight and short cylindrical muzzle fitting; no bore",
+      "materialOwnership": [
+        "steel"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -3.49,
+          0.5741510253623476,
+          2.591
+        ],
+        "maximum": [
+          -2.94336,
+          0.6221510253623477,
+          2.7275
+        ]
+      },
+      "triangles": 188
+    },
+    {
+      "id": "M240Cradle",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M240Cradle",
+      "exportNode": "M240Cradle",
+      "geometryOwnership": "Paired arms and transverse pivot pin; nominal visual construction axes only",
+      "materialOwnership": [
+        "review-dark-paint",
+        "steel"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -3.87,
+          0.4381510253623476,
+          2.53
+        ],
+        "maximum": [
+          -3.51,
+          0.7581510253623477,
+          2.65
+        ]
+      },
+      "triangles": 68
+    },
+    {
+      "id": "M240CaseContainer",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M240CaseContainer",
+      "exportNode": "M240CaseContainer",
+      "geometryOwnership": "Thin open-topped curved lower spent-case container; separate from gun and mounting stem",
+      "materialOwnership": [
+        "review-dark-paint"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -3.895,
+          0.47815102536234766,
+          2.4179999999999997
+        ],
+        "maximum": [
+          -3.525,
+          0.7181510253623477,
+          2.57
+        ]
+      },
+      "triangles": 120
+    },
+    {
+      "id": "M240SkateSupport",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M240SkateSupport",
+      "exportNode": "M240SkateSupport",
+      "geometryOwnership": "Fixed stem, retained forward rim interface and simple skate clamp; static attachment to existing hatch station",
+      "materialOwnership": [
+        "paint"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -4.005,
+          0.4381510253623476,
+          2.2775
+        ],
+        "maximum": [
+          -3.58,
+          0.7581510253623477,
+          2.61
+        ]
+      },
+      "triangles": 168
+    },
+    {
+      "id": "M240AmmoCradle",
+      "role": "isolation-required",
+      "parent": "TurretAssembly",
+      "sourceSlot": "M240AmmoCradle",
+      "exportNode": "M240AmmoCradle",
+      "geometryOwnership": "Open-topped thin sheet-metal ammunition holder based on the manual drawing; no ammunition or solid top",
+      "materialOwnership": [
+        "review-dark-paint"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "motionGroup": "TurretAssembly; static gun rest only, independent weapon aiming excluded",
+      "interfaces": "Nominal exterior contacts in subject frame; retained cupola/hatch and lids unchanged",
+      "bounds": {
+        "minimum": [
+          -3.889,
+          0.6991510253623476,
+          2.591
+        ],
+        "maximum": [
+          -3.571,
+          0.8771510253623477,
+          2.8089999999999997
+        ]
+      },
+      "triangles": 296
+    }
+  ],
+  "attemptAccounting": {
+    "classification": "human-directed",
+    "authorization": "George requested research and revisions for mounted M2 and M240, analytical traces; current pass explicitly requested",
+    "autonomousCharge": 0,
+    "autonomousAllowanceReset": false,
+    "historicalLedger": "Inherited and preserved; no further autonomous artistic correction allowance asserted"
+  },
+  "stage": "authoring-ready after independent critique and operator closure",
+  "futureChecks": [
+    "source/export isolation and siblings unchanged",
+    "rest dimensions",
+    "native masks",
+    "hatch sweep",
+    "deterministic baseline",
+    "independent whole-form/adversarial review",
+    "structured rubric",
+    "human approval separate"
+  ],
+  "approvalTransfer": false,
+  "reviewClosures": {
+    "M240Support": "Crossbar and stem plate lowered below container floor; yoke uprights rise outside walls to pivot. Fixed stem plate tops2.415m, floor minimum2.418m. Exact numeric recipe and audit pinned separately.",
+    "AmmoHolder": "Use manual drawing open-topped thin sheet-metal holder; photograph represents differing external collector/container configuration. No skeleton-frame claim.",
+    "M2Mount": "Generic nominal CWS exterior support construction. Empty CWS photo supports station context only, not gun-to-mount dimensions. No exact physical linkage claimed.",
+    "M240Length": "1.05664m includes grips as an explicitly stylized nominal target; not certified installed length.",
+    "HatchSweep": "Preflight compares proposed mesh triangles against current approved actual lids and accents,181samples per mesh. Initial interference preserved separately. M2 gun rear moved forward250mm from first draft to leave38.6mm conservative X separation from complete commander sweep; CWS foot retained. All pre-authoring recipe changes, zero Blender mutations."
+  },
+  "predecessorSha256": "f59d42362b7af03f0bbb6f6c4265567d71b962adc93ccd7d9881b61df0881807",
+  "currentRecipeSha256": "6495502f611d755deafc6663cdd545d93cb719306a521377fbba9444619709f0",
+  "independentReview": "opus-plan-v3-closure.json",
+  "limitations": [
+    "Loader minimum gap not certified;181 sampled surface checks and actual candidate recheck required.",
+    "Nominal stylized mount preserves original station and hatch configuration, no engineering claim."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "mode": "proposed typed recipe against locked actual lids",
+  "sourceGeometrySha256": "960eb53e1d0a1829dd987bea9ec5e3a354c06dce83d4431ca64cdbd85bc69996",
+  "recipeSha256": "6495502f611d755deafc6663cdd545d93cb719306a521377fbba9444619709f0",
+  "passed": true,
+  "results": [
+    {
+      "hatch": "CommanderHatchLid",
+      "pivot": [
+        -4.731975140615456,
+        -0.574504705163701,
+        2.49
+      ],
+      "angle": -100,
+      "samplesPerMesh": 181,
+      "sweptAabb": {
+        "minimum": [
+          -4.890442607482117,
+          -0.9775047302246094,
+          2.4659998041808153
+        ],
+        "maximum": [
+          -3.8886337435922327,
+          -0.17150470614433289,
+          3.333341397023224
+        ]
+      },
+      "surfaceCrossings": []
+    },
+    {
+      "hatch": "LoaderHatchLid",
+      "pivot": [
+        -4.682759556694407,
+        0.4781510253623477,
+        2.34
+      ],
+      "angle": -105,
+      "samplesPerMesh": 181,
+      "sweptAabb": {
+        "minimum": [
+          -4.904817404676863,
+          0.14315104484558105,
+          2.3085998996307087
+        ],
+        "maximum": [
+          -3.9673601669666465,
+          0.8131510019302368,
+          3.0553961355103487
+        ]
+      },
+      "surfaceCrossings": []
+    },
+    {
+      "hatch": "DriverHatchLid",
+      "pivot": [
+        -1.61,
+        -0.38,
+        1.54
+      ],
+      "angle": -90,
+      "samplesPerMesh": 181,
+      "sweptAabb": {
+        "minimum": [
+          -1.648000016791124,
+          -1.2405166530609133,
+          1.4350000238418579
+        ],
+        "maximum": [
+          -0.6532810718976687,
+          0.3836829662322998,
+          1.662322483062744
+        ]
+      },
+      "surfaceCrossings": []
+    }
+  ],
+  "limitations": [
+    "Sampled surface crossings, not continuous volume or containment certification. Driver tested lifted/swing; weapons far from driver lift. No concurrent turret traverse and hatch operation."
+  ]
+}

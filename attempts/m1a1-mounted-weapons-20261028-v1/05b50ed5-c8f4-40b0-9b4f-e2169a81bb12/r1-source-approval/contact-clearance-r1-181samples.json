@@ -1,0 +1,86 @@
+{
+  "checkpoint": {
+    "checkpointId": "d4dfb598-074f-4930-b543-e8aabb3d2594",
+    "checkpointHash": "69bb62079293d327c447e85bb95c21cbc35c9c6eb7f50ac292432b8950144124"
+  },
+  "geometrySha256": "512b0c8e0f7fb5d468ba3ad0a941e720f863c5ab551eef819330c51a355adcba",
+  "contacts": [
+    {
+      "a": "M2CWSSupport",
+      "b": "CommanderCupola",
+      "surfaceIntersection": true,
+      "surfaceGapMeters": 0,
+      "contactAtTolerance1mm": true
+    },
+    {
+      "a": "M2CWSSupport",
+      "b": "M2Cradle",
+      "surfaceIntersection": true,
+      "surfaceGapMeters": 0,
+      "contactAtTolerance1mm": true
+    },
+    {
+      "a": "M2Cradle",
+      "b": "M2Receiver",
+      "surfaceIntersection": true,
+      "surfaceGapMeters": 0,
+      "contactAtTolerance1mm": true
+    },
+    {
+      "a": "M2AmmoCradle",
+      "b": "M2Cradle",
+      "surfaceIntersection": true,
+      "surfaceGapMeters": 0,
+      "contactAtTolerance1mm": true
+    },
+    {
+      "a": "M240SkateSupport",
+      "b": "LoaderHatch",
+      "surfaceIntersection": true,
+      "surfaceGapMeters": 0,
+      "contactAtTolerance1mm": true
+    },
+    {
+      "a": "M240SkateSupport",
+      "b": "M240Cradle",
+      "surfaceIntersection": true,
+      "surfaceGapMeters": 0,
+      "contactAtTolerance1mm": true
+    },
+    {
+      "a": "M240Cradle",
+      "b": "M240Receiver",
+      "surfaceIntersection": true,
+      "surfaceGapMeters": 0,
+      "contactAtTolerance1mm": true
+    },
+    {
+      "a": "M240CaseContainer",
+      "b": "M240Cradle",
+      "surfaceIntersection": true,
+      "surfaceGapMeters": 0,
+      "contactAtTolerance1mm": true
+    },
+    {
+      "a": "M240AmmoCradle",
+      "b": "M240Cradle",
+      "surfaceIntersection": true,
+      "surfaceGapMeters": 0,
+      "contactAtTolerance1mm": true
+    }
+  ],
+  "allContactsAt1mm": true,
+  "loaderSweepMinimum": {
+    "meters": 0.0034999847412109375,
+    "at": {
+      "leaf": "LoaderHatchLid",
+      "weapon": "M240SkateSupport",
+      "degrees": -0.0
+    },
+    "samples": 181,
+    "method": "Triangle surfaces: vertex-face and interior edge-edge distances; surface crossings return zero. Each pose broadphase prunes only by exact AABB lower bound."
+  },
+  "limitations": [
+    "Sampled angles, not certified continuous mechanical clearance. Intended joined fixed solids intersect; this does not imply operable internal mechanisms."
+  ]
+}

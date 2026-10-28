@@ -1,0 +1,46 @@
+{
+  "jobId": "05b50ed5-c8f4-40b0-9b4f-e2169a81bb12",
+  "branchId": "main",
+  "mode": "dimension-production",
+  "checkpointId": "d76e61db-d124-4fe3-84da-87b7a1bfd50b",
+  "revision": 0,
+  "checkpointHash": "e880df5bff9a4aee6d84cc9e34201547d0ecef1fa2c7ac6dd262a3a276dc3098",
+  "checks": {
+    "coordinatorHealthy": true,
+    "capabilityVersion": "iteration-preflight@2.0.0",
+    "revisionMatches": true,
+    "checkpointHashMatches": true,
+    "specificationHash": "ab0154cce790dfc141137c408c8abf8c458c5b2716fa962e1cac73ec76491558",
+    "deterministicRenderBaseline": true,
+    "referenceConfirmationCurrent": true,
+    "cameraAndRenderAvailable": true,
+    "measurementOperationsAvailable": true,
+    "writerLockActive": true
+  },
+  "applicability": "dimension-bound",
+  "requiredCapabilities": [
+    "dimension-evidence@1.0.0"
+  ],
+  "blockers": [],
+  "ready": true,
+  "allowedActions": [
+    "inspect-current-checkpoint",
+    "dimension-bound-iteration"
+  ],
+  "authority": {
+    "dimensionValidation": "requires-current-dimension-report",
+    "genericTechnicalValidation": "not-recorded",
+    "visualRecommendation": "not-evaluated",
+    "humanApproval": "not-granted",
+    "grantsApproval": false,
+    "grantsPromotion": false,
+    "grantsIntegration": false
+  },
+  "preservationRequirements": [
+    "original-job-and-checkpoint-bytes",
+    "historical-render-and-review-packets",
+    "correction-ledger",
+    "human-review-boundaries",
+    "sibling-writer-leases"
+  ]
+}
