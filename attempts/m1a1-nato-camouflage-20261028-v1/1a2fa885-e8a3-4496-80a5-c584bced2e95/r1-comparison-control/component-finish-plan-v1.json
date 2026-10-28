@@ -1,0 +1,3310 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "jobId": "05b50ed5-c8f4-40b0-9b4f-e2169a81bb12",
+    "revision": 1,
+    "checkpoint": {
+      "checkpointId": "d4dfb598-074f-4930-b543-e8aabb3d2594",
+      "checkpointHash": "69bb62079293d327c447e85bb95c21cbc35c9c6eb7f50ac292432b8950144124",
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/05b50ed5-c8f4-40b0-9b4f-e2169a81bb12/main/checkpoints/77afc3b6-e28b-4d4b-aa85-19f01f7cbd18.blend"
+    },
+    "approval": {
+      "approvedBy": "George",
+      "approvedAt": "2026-10-28T19:32:19.991Z",
+      "record": "human-source-approval.json",
+      "scope": "Exact static mounted-weapons source; no animation or camouflage approval"
+    },
+    "exportSha256": "ec57dff5af7d13c734092185c6354dadb1358c47e75a6970f729e232524d6249"
+  },
+  "authorization": "George: Ok let\u2019s proceed, following agreed NATO, overall green and winter set; approved desert remains immutable",
+  "variants": [
+    "nato",
+    "green",
+    "winter"
+  ],
+  "references": [
+    {
+      "id": "m1a1-camo-pattern",
+      "title": "TB43-0209 Figure91,p196\u2013197",
+      "url": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090201.htm",
+      "companionUrl": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090202.htm",
+      "local": [
+        "camo-figure91a.jpg",
+        "camo-figure91b.jpg"
+      ],
+      "author": "Department of the Army; hosted by Integrated Publishing",
+      "license": "Government-authored figure via mirror; reference pixels excluded from archive",
+      "use": "Actual M1A1 top/right/left/front/rear pattern, smooth irregular interlocking fields, cross-view boundaries and band anchors; not generic noise.",
+      "localHashes": [
+        {
+          "path": "/Users/georgele/Developer/Scratch/abrams-research.BC9Cb5/camo-figure91a.jpg",
+          "sha256": "9667a405599a81a5f41c5ac229cb2fd1790cc756e5941a5bb6bafaa97d7e4222"
+        },
+        {
+          "path": "/Users/georgele/Developer/Scratch/abrams-research.BC9Cb5/camo-figure91b.jpg",
+          "sha256": "7b7f3ffb3fba2b2164f0a3754831779c4b366272580807fc4e6dfcc7c94ad8b6"
+        }
+      ]
+    },
+    {
+      "id": "pattern-principles",
+      "url": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090039.htm",
+      "companionUrl": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090041.htm",
+      "author": "Department of the Army",
+      "use": "Green/brown/black, numbered color fields; fixed-feature pattern reference points. Do not apply color percentages for one example as automatically exact to everyvehicle.",
+      "localHashes": []
+    },
+    {
+      "id": "overall-green-photo-context",
+      "url": "https://www.army.mil/article/185828/3abct_equipment_going_green_for_atlantic_resolve",
+      "author": "SSG Ange Desinor,USArmy,April10,2017",
+      "use": "Documents temporary green repaint of M1A2 tanks for Europe; supports Abrams family treatment, not exact legacyM1A1 identification.",
+      "localHashes": []
+    },
+    {
+      "id": "winter-authority",
+      "url": "https://api.army.mil/e2/c/downloads/2023/01/19/710bff7a/17-17-date-at-the-jmrc-volume-iv-multinational-interoperability-newsletter-jun-17-public.pdf",
+      "author": "USArmy CALL,June2017,p43",
+      "use": "Temporary snowcamouflage for Abrams discussed; notes nonspecific doctrine and units developing patterns. Does not supply exact M1A1 winter template.",
+      "localHashes": []
+    },
+    {
+      "id": "winter-abrams-context",
+      "url": "https://www.benning.army.mil/Armor/eARMOR/content/issues/1996/MAR_APR/ArmorMarchApril1996web.pdf",
+      "author": "USArmy Armor,March\u2013April1996",
+      "use": "Seasonal whitewash discussed specifically for Abrams concealment; not one uniquely prescribed scheme.",
+      "localHashes": []
+    }
+  ],
+  "style": {
+    "profile": "grounded-tactical-miniature",
+    "baseline": "Approved mounted-weapons desert r1",
+    "retain": [
+      "269 meshes and all geometry, parents, pivots, T158 shoes, crew hatches and weapon rest geometry",
+      "Matte painted metal, original steel/rubber/glass properties",
+      "Existing seam and edge accent geometry"
+    ],
+    "change": "Paint regions only, with palette-matched existing seam/highlight colors"
+  },
+  "finishTargets": {
+    "nato": "Broad irregular green/brown/black bands and lobes inspired by TB43-0209 Figure91, not an exact stencil reconstruction or measured paint specification",
+    "green": "Overall green with restrained roof/hatch value separation, Abrams-family treatment supported by2017 Army repaint report; not specific photographed M1A1 unit replication",
+    "winter": "Predominantly off-white temporary field-style overpaint with restrained green islands; Army CALL p43 states pattern guidance non-specific. No claim of official M1A1 winter template"
+  },
+  "isolation": {
+    "assembly": "all269approvedsource mesh nodes unchanged",
+    "entries": [
+      {
+        "id": "BlowoffPanels",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "distance-roof-sand"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "BlowoffPanelsEdgeHighlights",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "BlowoffPanels",
+        "materialFaces": [
+          "readability-highlight"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "BustleArmor",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "distance-roof-sand"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "CentralTurret",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "distance-roof-sand"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "CentralTurretEdgeHighlights",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "CentralTurret",
+        "materialFaces": [
+          "readability-highlight"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "CoaxShroud",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "GunAssembly",
+        "materialFaces": [
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "CommanderCupola",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "glass",
+          "paint",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "CommanderHatchLid",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "distance-hatch-sand",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "CommanderHatchLidSeamAccents",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "CommanderHatchLid",
+        "materialFaces": [
+          "readability-seam"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "CrosswindSensor",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "paint",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "DriverHatchLid",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "distance-hatch-sand",
+          "glass"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "DriverHatchLidSeamAccents",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "DriverHatchLid",
+        "materialFaces": [
+          "readability-seam"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "DriverHatchRim",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "paint",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "EngineDeckGrille",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "GunBarrel",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "GunAssembly",
+        "materialFaces": [
+          "paint",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "Hull",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftAntenna",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "paint",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftFender",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftFenderEdgeHighlights",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftFender",
+        "materialFaces": [
+          "readability-highlight"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftHeadlightGuard",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "glass",
+          "paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftIdler",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftRoadWheel1",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftRoadWheel2",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftRoadWheel3",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftRoadWheel4",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftRoadWheel5",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftRoadWheel6",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftRoadWheel7",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftSkirts",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftSkirtsEdgeHighlights",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftSkirts",
+        "materialFaces": [
+          "readability-highlight"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftSkirtsSeamAccents",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftSkirts",
+        "materialFaces": [
+          "readability-seam"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftSmokeBank",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-dark-paint",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftSprocket",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftStowage",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-light-paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrack",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe000",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe001",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe002",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe003",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe004",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe005",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe006",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe007",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe008",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe009",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe010",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe012",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe013",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe014",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe015",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe016",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe017",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe018",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe019",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe020",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe021",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe022",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe023",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe024",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe025",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe026",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe027",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe028",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe029",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe030",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe031",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe032",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe033",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe034",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe035",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe036",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe037",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe038",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe039",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe040",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe041",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe042",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe043",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe044",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe045",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe046",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe047",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe048",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe049",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe050",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe051",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe052",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe053",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe054",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe055",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe056",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe057",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe058",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe059",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe060",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe061",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe062",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe063",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe064",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe065",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe066",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe067",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe068",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe069",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe070",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe071",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe072",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe073",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe074",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe075",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe076",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe077",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe078",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe079",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe080",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe081",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe082",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe083",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe084",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe085",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe086",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe087",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe088",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe089",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe090",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe091",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe092",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe093",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe094",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTrackShoe095",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTurretCheek",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-light-paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LeftTurretCheekEdgeHighlights",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LeftTurretCheek",
+        "materialFaces": [
+          "readability-highlight"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LoaderHatch",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "paint",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LoaderHatchLid",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "distance-hatch-sand",
+          "glass",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "LoaderHatchLidSeamAccents",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "LoaderHatchLid",
+        "materialFaces": [
+          "readability-seam"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M240AmmoCradle",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-dark-paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M240Barrel",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M240CaseContainer",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-dark-paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M240Cradle",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-dark-paint",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M240Receiver",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-dark-paint",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M240SkateSupport",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M2AmmoCradle",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "paint",
+          "review-dark-paint",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M2Barrel",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M2CWSSupport",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M2Cradle",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-dark-paint",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "M2Receiver",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "Mantlet",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "GunAssembly",
+        "materialFaces": [
+          "review-dark-paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "MantletSeamAccents",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "Mantlet",
+        "materialFaces": [
+          "readability-seam"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "MuzzleReference",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "GunAssembly",
+        "materialFaces": [
+          "glass",
+          "paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RearBasket",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RearExhaustGrilles",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "paint",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightAntenna",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "paint",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightFender",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightFenderEdgeHighlights",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightFender",
+        "materialFaces": [
+          "readability-highlight"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightHeadlightGuard",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "glass",
+          "paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightIdler",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightRoadWheel1",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightRoadWheel2",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightRoadWheel3",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightRoadWheel4",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightRoadWheel5",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightRoadWheel6",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightRoadWheel7",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "rubber"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightSkirts",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "HullAssembly",
+        "materialFaces": [
+          "paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightSkirtsEdgeHighlights",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightSkirts",
+        "materialFaces": [
+          "readability-highlight"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightSkirtsSeamAccents",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightSkirts",
+        "materialFaces": [
+          "readability-seam"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightSmokeBank",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-dark-paint",
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightSprocket",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RunningGear",
+        "materialFaces": [
+          "paint",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightStowage",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-light-paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrack",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe000",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe001",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe002",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe003",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe004",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe005",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe006",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe007",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe008",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe009",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe010",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe012",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe013",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe014",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe015",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe016",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe017",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe018",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe019",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe020",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe021",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe022",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe023",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe024",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe025",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe026",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe027",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe028",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe029",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe030",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe031",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe032",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe033",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe034",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe035",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe036",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe037",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe038",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe039",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe040",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe041",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe042",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe043",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe044",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe045",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe046",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe047",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe048",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe049",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe050",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe051",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe052",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe053",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe054",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe055",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe056",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe057",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe058",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe059",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe060",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe061",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe062",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe063",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe064",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe065",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe066",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe067",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe068",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe069",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe070",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe071",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe072",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe073",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe074",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe075",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe076",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe077",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe078",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe079",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe080",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe081",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe082",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe083",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe084",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe085",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe086",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe087",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe088",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe089",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe090",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe091",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe092",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe093",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe094",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTrackShoe095",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTrackLoop",
+        "materialFaces": [
+          "rubber",
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTurretCheek",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "review-light-paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "RightTurretCheekEdgeHighlights",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "RightTurretCheek",
+        "materialFaces": [
+          "readability-highlight"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "SightHousing",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "glass",
+          "paint"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      },
+      {
+        "id": "TurretBearing",
+        "role": "isolation-required",
+        "geometryOwnership": "Exact inherited approved source object",
+        "parent": "TurretAssembly",
+        "materialFaces": [
+          "steel"
+        ],
+        "motionOwnership": "Retain source parent and pivot; UVs stored per loop for future rigid motion"
+      }
+    ]
+  },
+  "projection": {
+    "kind": "subject-box-atlas-v1",
+    "minimum": [
+      -7.929799919128418,
+      -1.8337999629974364,
+      0.09999998927116394
+    ],
+    "maximum": [
+      1.9084759998321532,
+      1.8337999629974364,
+      4.505
+    ],
+    "width": 1536,
+    "height": 1024,
+    "tiles": [
+      "+Z",
+      "-Z",
+      "+Y",
+      "-Y",
+      "+X",
+      "-X"
+    ],
+    "method": "Rasterize actual selected paint triangles into dominant-normal atlas tiles and retain nearest directional depth. Evaluate original continuous3D color fields at those surface coordinates. Five tonal copies share registered boundaries. Fill2pixel texture gutters only.",
+    "limitations": [
+      "Orthographic atlas projection can overlap hidden surfaces; inspect seams in all6views and native/export UVs. Colors are stylized approximations, not colorimetric CARC matches.",
+      "Atlas is authoring UV support, not directional runtime imagery. No geometry overlay patches."
+    ]
+  },
+  "paintBindings": [
+    {
+      "object": "BlowoffPanels",
+      "sourceMaterial": "distance-roof-sand"
+    },
+    {
+      "object": "BustleArmor",
+      "sourceMaterial": "distance-roof-sand"
+    },
+    {
+      "object": "CentralTurret",
+      "sourceMaterial": "distance-roof-sand"
+    },
+    {
+      "object": "CommanderCupola",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "CommanderHatchLid",
+      "sourceMaterial": "distance-hatch-sand"
+    },
+    {
+      "object": "CrosswindSensor",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "DriverHatchLid",
+      "sourceMaterial": "distance-hatch-sand"
+    },
+    {
+      "object": "DriverHatchRim",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "GunBarrel",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "Hull",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftAntenna",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftFender",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftHeadlightGuard",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftIdler",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftRoadWheel1",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftRoadWheel2",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftRoadWheel3",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftRoadWheel4",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftRoadWheel5",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftRoadWheel6",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftRoadWheel7",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftSkirts",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftSmokeBank",
+      "sourceMaterial": "review-dark-paint"
+    },
+    {
+      "object": "LeftSprocket",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LeftStowage",
+      "sourceMaterial": "review-light-paint"
+    },
+    {
+      "object": "LeftTurretCheek",
+      "sourceMaterial": "review-light-paint"
+    },
+    {
+      "object": "LoaderHatch",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "LoaderHatchLid",
+      "sourceMaterial": "distance-hatch-sand"
+    },
+    {
+      "object": "M240AmmoCradle",
+      "sourceMaterial": "review-dark-paint"
+    },
+    {
+      "object": "M240CaseContainer",
+      "sourceMaterial": "review-dark-paint"
+    },
+    {
+      "object": "M240Cradle",
+      "sourceMaterial": "review-dark-paint"
+    },
+    {
+      "object": "M240Receiver",
+      "sourceMaterial": "review-dark-paint"
+    },
+    {
+      "object": "M240SkateSupport",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "M2AmmoCradle",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "M2AmmoCradle",
+      "sourceMaterial": "review-dark-paint"
+    },
+    {
+      "object": "M2CWSSupport",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "M2Cradle",
+      "sourceMaterial": "review-dark-paint"
+    },
+    {
+      "object": "Mantlet",
+      "sourceMaterial": "review-dark-paint"
+    },
+    {
+      "object": "MuzzleReference",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RearExhaustGrilles",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightAntenna",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightFender",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightHeadlightGuard",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightIdler",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightRoadWheel1",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightRoadWheel2",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightRoadWheel3",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightRoadWheel4",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightRoadWheel5",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightRoadWheel6",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightRoadWheel7",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightSkirts",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightSmokeBank",
+      "sourceMaterial": "review-dark-paint"
+    },
+    {
+      "object": "RightSprocket",
+      "sourceMaterial": "paint"
+    },
+    {
+      "object": "RightStowage",
+      "sourceMaterial": "review-light-paint"
+    },
+    {
+      "object": "RightTurretCheek",
+      "sourceMaterial": "review-light-paint"
+    },
+    {
+      "object": "SightHousing",
+      "sourceMaterial": "paint"
+    }
+  ],
+  "attemptAccounting": {
+    "perVariant": "one specifically requested finish candidate",
+    "classification": "human-directed",
+    "autonomousCharge": 0,
+    "historicalAllowanceReset": false
+  },
+  "verification": [
+    "Producer health, fresh dimensions and baseline before mutation",
+    "Actual geometry/parent/palette region preservation",
+    "Packed Blender/GLB texture hash identity, UV/image native fingerprints and mesh isolation",
+    "All6render views, deterministic baseline,128/256px readability",
+    "Matched approved-source consistency evidence",
+    "Independent adversarial review and hash-bound rubric per finish",
+    "Human approval absent until exact named finish decision"
+  ],
+  "humanApprovalTransfer": false
+}

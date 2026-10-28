@@ -1,0 +1,805 @@
+{
+  "assessment": {
+    "schemaVersion": "2.0.0",
+    "assessmentId": "m1a1-winter-camouflage-r1-20261028",
+    "rubric": {
+      "rubricId": "model-quality",
+      "version": "1.0.0"
+    },
+    "subject": {
+      "assetId": "m1a1-winter-camouflage-20261028-v1",
+      "revisionId": "main-r1",
+      "revision": 1
+    },
+    "evidenceSet": {
+      "revision": 1,
+      "checkpointSha256": "1b8fbfe166532e1b472c706102a4a1712f51792b8b4a2ef722298342e5a445a5",
+      "renderSetSha256": "a355110f4e60504c7c12c33efa0132ae21021c6216c7f0fbe768e37d6e2b45fe",
+      "requiredViews": [
+        {
+          "viewId": "front-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "32cce8712b1f51cf4581ec4280498a04094ec4c24547e331dcc61f4b0ad6bc80"
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d2d7c87060289ddfbf1dac2ce939e6d6eb91b1ceafc69c54eb86f1988673deb3"
+        },
+        {
+          "viewId": "front",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b712ebfb4c30d568a758b19c9de1d6f8eea232d1650b9d1111882542e9480d8e"
+        },
+        {
+          "viewId": "left",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1da7ee813137b3be481100f0e9d39952dda25d4f7766342265f2c9a0123e4e36"
+        },
+        {
+          "viewId": "right",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0a30d2a85ce6bfc1cea673b1de83c4e93338fc0db4134ede8e76e8871849643c"
+        },
+        {
+          "viewId": "top",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8b1bbadc505a172b8a8841876240aa05941f9a7e9f01853fd4070cc0cb54e023"
+        }
+      ],
+      "validation": {
+        "reportId": "cdcab91e-7766-4587-9d44-addff8195b9d",
+        "revision": 1,
+        "checkpointSha256": "1b8fbfe166532e1b472c706102a4a1712f51792b8b4a2ef722298342e5a445a5",
+        "passed": true,
+        "current": true,
+        "deterministic": true
+      }
+    },
+    "scores": [
+      {
+        "categoryId": "identity-recognition",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "32cce8712b1f51cf4581ec4280498a04094ec4c24547e331dcc61f4b0ad6bc80"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "d2d7c87060289ddfbf1dac2ce939e6d6eb91b1ceafc69c54eb86f1988673deb3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "b712ebfb4c30d568a758b19c9de1d6f8eea232d1650b9d1111882542e9480d8e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "1da7ee813137b3be481100f0e9d39952dda25d4f7766342265f2c9a0123e4e36"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "0a30d2a85ce6bfc1cea673b1de83c4e93338fc0db4134ede8e76e8871849643c"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "8b1bbadc505a172b8a8841876240aa05941f9a7e9f01853fd4070cc0cb54e023"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/technical-closure-r1.json",
+            "observation": "Current PBR sheet repeat, recognition and source consistency hashes.",
+            "evidenceSha256": "900e47f352c9691434f2346adfaf857cd52a99f4720b4f91b43bc9042890c715"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/export-audit-r1.json",
+            "observation": "Actual geometry, material, texture embedding and UV checks.",
+            "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note.",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+          }
+        ],
+        "recognition": {
+          "thumbnailPixels": 256,
+          "nearestNeighbors": [
+            "M1 with105mm gun",
+            "M1A2 withCITV",
+            "Leopard2"
+          ],
+          "distinguishers": [
+            "120mm-style barrel and bore evacuator rather than105mm external profile",
+            "M1A1 cupola arrangement without M1A2 CITV",
+            "Abrams wedge/bustle massing and skirted seven-wheel stance; roof weapons are simplified"
+          ]
+        }
+      },
+      {
+        "categoryId": "proportion-mass",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions.",
+            "evidenceSha256": "32cce8712b1f51cf4581ec4280498a04094ec4c24547e331dcc61f4b0ad6bc80"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions.",
+            "evidenceSha256": "d2d7c87060289ddfbf1dac2ce939e6d6eb91b1ceafc69c54eb86f1988673deb3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions.",
+            "evidenceSha256": "b712ebfb4c30d568a758b19c9de1d6f8eea232d1650b9d1111882542e9480d8e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions.",
+            "evidenceSha256": "1da7ee813137b3be481100f0e9d39952dda25d4f7766342265f2c9a0123e4e36"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions.",
+            "evidenceSha256": "0a30d2a85ce6bfc1cea673b1de83c4e93338fc0db4134ede8e76e8871849643c"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions.",
+            "evidenceSha256": "8b1bbadc505a172b8a8841876240aa05941f9a7e9f01853fd4070cc0cb54e023"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/technical-closure-r1.json",
+            "observation": "Current PBR sheet repeat, recognition and source consistency hashes.",
+            "evidenceSha256": "900e47f352c9691434f2346adfaf857cd52a99f4720b4f91b43bc9042890c715"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/export-audit-r1.json",
+            "observation": "Actual geometry, material, texture embedding and UV checks.",
+            "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note.",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+          }
+        ]
+      },
+      {
+        "categoryId": "silhouette",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary.",
+            "evidenceSha256": "32cce8712b1f51cf4581ec4280498a04094ec4c24547e331dcc61f4b0ad6bc80"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary.",
+            "evidenceSha256": "d2d7c87060289ddfbf1dac2ce939e6d6eb91b1ceafc69c54eb86f1988673deb3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary.",
+            "evidenceSha256": "b712ebfb4c30d568a758b19c9de1d6f8eea232d1650b9d1111882542e9480d8e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary.",
+            "evidenceSha256": "1da7ee813137b3be481100f0e9d39952dda25d4f7766342265f2c9a0123e4e36"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary.",
+            "evidenceSha256": "0a30d2a85ce6bfc1cea673b1de83c4e93338fc0db4134ede8e76e8871849643c"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary.",
+            "evidenceSha256": "8b1bbadc505a172b8a8841876240aa05941f9a7e9f01853fd4070cc0cb54e023"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/technical-closure-r1.json",
+            "observation": "Current PBR sheet repeat, recognition and source consistency hashes.",
+            "evidenceSha256": "900e47f352c9691434f2346adfaf857cd52a99f4720b4f91b43bc9042890c715"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/export-audit-r1.json",
+            "observation": "Actual geometry, material, texture embedding and UV checks.",
+            "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note.",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+          }
+        ]
+      },
+      {
+        "categoryId": "form-hierarchy",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "32cce8712b1f51cf4581ec4280498a04094ec4c24547e331dcc61f4b0ad6bc80"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "d2d7c87060289ddfbf1dac2ce939e6d6eb91b1ceafc69c54eb86f1988673deb3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "b712ebfb4c30d568a758b19c9de1d6f8eea232d1650b9d1111882542e9480d8e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "1da7ee813137b3be481100f0e9d39952dda25d4f7766342265f2c9a0123e4e36"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "0a30d2a85ce6bfc1cea673b1de83c4e93338fc0db4134ede8e76e8871849643c"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams.",
+            "evidenceSha256": "8b1bbadc505a172b8a8841876240aa05941f9a7e9f01853fd4070cc0cb54e023"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/technical-closure-r1.json",
+            "observation": "Current PBR sheet repeat, recognition and source consistency hashes.",
+            "evidenceSha256": "900e47f352c9691434f2346adfaf857cd52a99f4720b4f91b43bc9042890c715"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/export-audit-r1.json",
+            "observation": "Actual geometry, material, texture embedding and UV checks.",
+            "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note.",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+          }
+        ]
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification.",
+            "evidenceSha256": "32cce8712b1f51cf4581ec4280498a04094ec4c24547e331dcc61f4b0ad6bc80"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification.",
+            "evidenceSha256": "d2d7c87060289ddfbf1dac2ce939e6d6eb91b1ceafc69c54eb86f1988673deb3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification.",
+            "evidenceSha256": "b712ebfb4c30d568a758b19c9de1d6f8eea232d1650b9d1111882542e9480d8e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification.",
+            "evidenceSha256": "1da7ee813137b3be481100f0e9d39952dda25d4f7766342265f2c9a0123e4e36"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification.",
+            "evidenceSha256": "0a30d2a85ce6bfc1cea673b1de83c4e93338fc0db4134ede8e76e8871849643c"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification.",
+            "evidenceSha256": "8b1bbadc505a172b8a8841876240aa05941f9a7e9f01853fd4070cc0cb54e023"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/technical-closure-r1.json",
+            "observation": "Current PBR sheet repeat, recognition and source consistency hashes.",
+            "evidenceSha256": "900e47f352c9691434f2346adfaf857cd52a99f4720b4f91b43bc9042890c715"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/export-audit-r1.json",
+            "observation": "Actual geometry, material, texture embedding and UV checks.",
+            "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note.",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+          }
+        ]
+      },
+      {
+        "categoryId": "surface-material",
+        "score": 2,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions.",
+            "evidenceSha256": "32cce8712b1f51cf4581ec4280498a04094ec4c24547e331dcc61f4b0ad6bc80"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions.",
+            "evidenceSha256": "d2d7c87060289ddfbf1dac2ce939e6d6eb91b1ceafc69c54eb86f1988673deb3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions.",
+            "evidenceSha256": "b712ebfb4c30d568a758b19c9de1d6f8eea232d1650b9d1111882542e9480d8e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions.",
+            "evidenceSha256": "1da7ee813137b3be481100f0e9d39952dda25d4f7766342265f2c9a0123e4e36"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions.",
+            "evidenceSha256": "0a30d2a85ce6bfc1cea673b1de83c4e93338fc0db4134ede8e76e8871849643c"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Predominantly off-white field treatment with sparse green islands; abrupt turret-side and rear-hull patch edges remain unresolved as possible projection seams. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions.",
+            "evidenceSha256": "8b1bbadc505a172b8a8841876240aa05941f9a7e9f01853fd4070cc0cb54e023"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/technical-closure-r1.json",
+            "observation": "Current PBR sheet repeat, recognition and source consistency hashes.",
+            "evidenceSha256": "900e47f352c9691434f2346adfaf857cd52a99f4720b4f91b43bc9042890c715"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/export-audit-r1.json",
+            "observation": "Actual geometry, material, texture embedding and UV checks.",
+            "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note.",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+          }
+        ]
+      },
+      {
+        "categoryId": "viewpoint-robustness",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets.",
+            "evidenceSha256": "32cce8712b1f51cf4581ec4280498a04094ec4c24547e331dcc61f4b0ad6bc80"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets.",
+            "evidenceSha256": "d2d7c87060289ddfbf1dac2ce939e6d6eb91b1ceafc69c54eb86f1988673deb3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets.",
+            "evidenceSha256": "b712ebfb4c30d568a758b19c9de1d6f8eea232d1650b9d1111882542e9480d8e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets.",
+            "evidenceSha256": "1da7ee813137b3be481100f0e9d39952dda25d4f7766342265f2c9a0123e4e36"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets.",
+            "evidenceSha256": "0a30d2a85ce6bfc1cea673b1de83c4e93338fc0db4134ede8e76e8871849643c"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets.",
+            "evidenceSha256": "8b1bbadc505a172b8a8841876240aa05941f9a7e9f01853fd4070cc0cb54e023"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/technical-closure-r1.json",
+            "observation": "Current PBR sheet repeat, recognition and source consistency hashes.",
+            "evidenceSha256": "900e47f352c9691434f2346adfaf857cd52a99f4720b4f91b43bc9042890c715"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/export-audit-r1.json",
+            "observation": "Actual geometry, material, texture embedding and UV checks.",
+            "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note.",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+          }
+        ]
+      },
+      {
+        "categoryId": "production-integrity",
+        "score": 2,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven.",
+            "evidenceSha256": "32cce8712b1f51cf4581ec4280498a04094ec4c24547e331dcc61f4b0ad6bc80"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven.",
+            "evidenceSha256": "d2d7c87060289ddfbf1dac2ce939e6d6eb91b1ceafc69c54eb86f1988673deb3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven.",
+            "evidenceSha256": "b712ebfb4c30d568a758b19c9de1d6f8eea232d1650b9d1111882542e9480d8e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven.",
+            "evidenceSha256": "1da7ee813137b3be481100f0e9d39952dda25d4f7766342265f2c9a0123e4e36"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven.",
+            "evidenceSha256": "0a30d2a85ce6bfc1cea673b1de83c4e93338fc0db4134ede8e76e8871849643c"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven.",
+            "evidenceSha256": "8b1bbadc505a172b8a8841876240aa05941f9a7e9f01853fd4070cc0cb54e023"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/technical-closure-r1.json",
+            "observation": "Current PBR sheet repeat, recognition and source consistency hashes.",
+            "evidenceSha256": "900e47f352c9691434f2346adfaf857cd52a99f4720b4f91b43bc9042890c715"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "winter/export-audit-r1.json",
+            "observation": "Actual geometry, material, texture embedding and UV checks.",
+            "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note.",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+          }
+        ]
+      }
+    ],
+    "gates": [
+      {
+        "gateId": "identity-authority",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "component-finish-plan-v1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "c698268ed4305d2e81627b6c45b279f2e4316a38b89ffb7e8fd8baf38cb4327d"
+          }
+        ]
+      },
+      {
+        "gateId": "required-views",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "winter/finish-render-set-r1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "f7e7802edcdf09b952afdf22b3b96de6a5c0b6abe23360796a54247d30c3d2db"
+          }
+        ]
+      },
+      {
+        "gateId": "structural-plausibility",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "winter/export-audit-r1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+          }
+        ]
+      },
+      {
+        "gateId": "transform-grounding",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "winter/dimension-r1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "de64dc920509c5eabb61c8f80935c9191a4a5dda385ce6fd17ffd9894273599e"
+          }
+        ]
+      },
+      {
+        "gateId": "deterministic-output",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "winter/finish-render-set-r1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "f7e7802edcdf09b952afdf22b3b96de6a5c0b6abe23360796a54247d30c3d2db"
+          }
+        ]
+      },
+      {
+        "gateId": "current-validation",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "winter/validation-r1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "41e25b59bc2431bc6775f7fab6a43f840ae4dcaa0aa800de3ce450eeef84c558"
+          }
+        ]
+      },
+      {
+        "gateId": "budgets",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "winter/validation-r1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "41e25b59bc2431bc6775f7fab6a43f840ae4dcaa0aa800de3ce450eeef84c558"
+          }
+        ]
+      },
+      {
+        "gateId": "explained-content",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "component-finish-plan-v1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "c698268ed4305d2e81627b6c45b279f2e4316a38b89ffb7e8fd8baf38cb4327d"
+          }
+        ]
+      },
+      {
+        "gateId": "artifact-integrity",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "winter/bundle-r1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "9c2896079cd20fac0349aed9a4082bdf9a97cddc7cd399c955e62ee02301eba8"
+          }
+        ]
+      },
+      {
+        "gateId": "copying-rights",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "component-finish-plan-v1.json",
+            "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer.",
+            "evidenceSha256": "c698268ed4305d2e81627b6c45b279f2e4316a38b89ffb7e8fd8baf38cb4327d"
+          }
+        ]
+      }
+    ],
+    "assessedBy": "Codex /root",
+    "assessedAt": "2026-10-28T20:18:25.512Z",
+    "adversarialReview": {
+      "reviewedBy": "Claude Code claude-opus-5-5 and Codex",
+      "reviewedAt": "2026-10-28T20:18:25.512Z",
+      "coreCategoryObjections": [
+        {
+          "categoryId": "identity-recognition",
+          "strongestReasonBelowThree": "Sparse green islands may look unfinished rather than whitewash.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-finish-review-r1.json",
+              "observation": "Possible seam remains unresolved; no-go pending focused correction.",
+              "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "winter/export-audit-r1.json",
+              "observation": "Exact geometry/nonpaint preservation; UV projection fidelity alone does not prove cross-part continuity.",
+              "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+            }
+          ]
+        },
+        {
+          "categoryId": "silhouette",
+          "strongestReasonBelowThree": "White finish has low contrast against light background.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-finish-review-r1.json",
+              "observation": "Possible seam remains unresolved; no-go pending focused correction.",
+              "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "winter/export-audit-r1.json",
+              "observation": "Exact geometry/nonpaint preservation; UV projection fidelity alone does not prove cross-part continuity.",
+              "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+            }
+          ]
+        },
+        {
+          "categoryId": "mechanical-coherence",
+          "strongestReasonBelowThree": "Isolated green patches may read random at part boundaries.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-finish-review-r1.json",
+              "observation": "Possible seam remains unresolved; no-go pending focused correction.",
+              "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "winter/export-audit-r1.json",
+              "observation": "Exact geometry/nonpaint preservation; UV projection fidelity alone does not prove cross-part continuity.",
+              "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+            }
+          ]
+        },
+        {
+          "categoryId": "production-integrity",
+          "strongestReasonBelowThree": "Turret-side vertical and rear-hull straight patch edges may be projection discontinuities.",
+          "resolved": false,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-finish-review-r1.json",
+              "observation": "Possible seam remains unresolved; no-go pending focused correction.",
+              "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "winter/export-audit-r1.json",
+              "observation": "Exact geometry/nonpaint preservation; UV projection fidelity alone does not prove cross-part continuity.",
+              "evidenceSha256": "5eebaad93e2114c88eabcff4a6d381fff17400eb8e6ebbca4b3e7ae89eb13821"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "result": {
+    "schemaVersion": "2.0.0",
+    "weightedTotal": 71.25,
+    "recommendation": "no-go",
+    "effectiveDecision": "no-go",
+    "checks": {
+      "threshold": false,
+      "categoryFloors": true,
+      "coreFloors": false,
+      "hardGates": true,
+      "structuredEvidence": true,
+      "adversarialReview": false
+    },
+    "failures": [
+      {
+        "kind": "adversarial-objection",
+        "id": "production-integrity",
+        "message": "Unresolved core-floor objection: Turret-side vertical and rear-hull straight patch edges may be projection discontinuities."
+      },
+      {
+        "kind": "threshold",
+        "id": "weighted-total",
+        "message": "71.25 is below the 75-point threshold."
+      },
+      {
+        "kind": "core-floor",
+        "id": "production-integrity",
+        "message": "Production integrity scored 2, below the core floor of 3."
+      }
+    ],
+    "status": {
+      "technicalValidation": "pass",
+      "visualRecommendation": "no-go",
+      "humanApproval": "absent"
+    },
+    "overrideApplied": false,
+    "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+  }
+}

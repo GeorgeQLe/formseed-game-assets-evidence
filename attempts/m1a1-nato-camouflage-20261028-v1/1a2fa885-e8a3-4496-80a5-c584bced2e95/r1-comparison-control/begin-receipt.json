@@ -1,0 +1,1052 @@
+{
+  "id": "1a2fa885-e8a3-4496-80a5-c584bced2e95",
+  "modelResourceId": "1406b858-cb2f-4128-b604-fd3fe742ca95",
+  "kind": "asset",
+  "canonicalRevision": 0,
+  "canonicalCheckpoint": {
+    "id": "9b4d0c7a-c1de-42e4-86b0-a41f8c095e75",
+    "path": "/Users/georgele/FormSeed3D/.formseed3d/staging/1a2fa885-e8a3-4496-80a5-c584bced2e95/main/checkpoints/revision-0.blend",
+    "contentHash": "69bb62079293d327c447e85bb95c21cbc35c9c6eb7f50ac292432b8950144124",
+    "revision": 0
+  },
+  "main": {
+    "id": "main",
+    "label": "Finishing successor",
+    "revision": 0,
+    "base": {
+      "id": "9b4d0c7a-c1de-42e4-86b0-a41f8c095e75",
+      "path": "/Users/georgele/FormSeed3D/.formseed3d/staging/1a2fa885-e8a3-4496-80a5-c584bced2e95/main/checkpoints/revision-0.blend",
+      "contentHash": "69bb62079293d327c447e85bb95c21cbc35c9c6eb7f50ac292432b8950144124",
+      "revision": 0
+    },
+    "checkpoint": {
+      "id": "9b4d0c7a-c1de-42e4-86b0-a41f8c095e75",
+      "path": "/Users/georgele/FormSeed3D/.formseed3d/staging/1a2fa885-e8a3-4496-80a5-c584bced2e95/main/checkpoints/revision-0.blend",
+      "contentHash": "69bb62079293d327c447e85bb95c21cbc35c9c6eb7f50ac292432b8950144124",
+      "revision": 0
+    },
+    "provenance": {
+      "agentId": "finishing-successor"
+    },
+    "status": "ready",
+    "mutationBatches": []
+  },
+  "execution": {
+    "version": 1,
+    "mode": "headless",
+    "branchId": "main",
+    "authoritativeCheckpoint": {
+      "id": "9b4d0c7a-c1de-42e4-86b0-a41f8c095e75",
+      "path": "/Users/georgele/FormSeed3D/.formseed3d/staging/1a2fa885-e8a3-4496-80a5-c584bced2e95/main/checkpoints/revision-0.blend",
+      "contentHash": "69bb62079293d327c447e85bb95c21cbc35c9c6eb7f50ac292432b8950144124",
+      "revision": 0
+    },
+    "journalVersion": 1
+  },
+  "brief": {
+    "schemaVersion": "2.0.0",
+    "subject": "M1A1 Abrams nato paint-only finish",
+    "intendedUse": "Editable finished static source prepared for separately approved rigid-animation production; no historical engineering certification",
+    "mustHaveFeatures": [
+      "Wedge hull with raised rear engine deck",
+      "Separate left/right turret cheeks, core, bustle armor, exterior stowage",
+      "Long gun-forward exterior barrel",
+      "Seven separate road wheels per side and continuous shoe loops",
+      "Open rear basket",
+      "Army six-tube smoke banks; commander M2 and loader M240 exterior silhouettes",
+      "Fixed hatch stations with separate lids, exposed rims, underside seals and shallow dark apertures",
+      "Driver lift/swing hatch and three periscopes",
+      "192 independently selectable T158 shoes retaining accepted geometry",
+      "Antennae, lamps, grilles, blowoff panels, crosswind sensor and muzzle reference fitting",
+      "M2 distinct broad jacket, long barrel, rear buffer, M10 exterior cue and cradle/support",
+      "M240 tank spade grips, slender barrel and gas-cylinder silhouette, open side cradle and curved lower case container",
+      "Broad irregular green/brown/black bands and lobes inspired by TB43-0209 Figure91, not an exact stencil reconstruction or measured paint specification",
+      "Exact269approved meshes and source hierarchy retained; paint regions only"
+    ],
+    "simplifiableFeatures": [
+      "Fine fasteners, cables, markings, full interior, terrain suspension and weapon internals excluded",
+      "Simplified exterior mounts and shallow wells; hinge dimensions and 4.50m whip tip height are visual construction choices",
+      "Edge highlighting and seam contrast are explicitly stylized readability choices, not historical paint markings or physical raised fittings.",
+      "Exterior widths, heights, support cross sections, nominal contact points and simplified rear fittings are visual construction choices constrained by multiple references, not measured engineering specifications.",
+      "Closed muzzle caps and shallow dark jacket marks are miniature-scale stylization; no operating internals.",
+      "Small pins, chains, straps and hidden feed paths excluded. Existing hatch-ring detail retained.",
+      "M2 nominal support bridges original fixed station to forward gun position required by the locked lid sweep; not an exact historical CWS mechanism.",
+      "M240 holder follows manual sheet-metal open-top interpretation rather than differing angular photograph equipment.",
+      "Palette/tonal offsets and camouflage field shape adaptation are declared visual design choices; no exact paint-specification or historical-unit claim."
+    ],
+    "references": [
+      {
+        "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+        "attribution": "United States Marine Corps, MCO8420.13,20 August1991,Figures2-6; locally hash-verified source packet and reviewed trace v3",
+        "license": "U.S. government authored; local research copy; third-party source pixels excluded from public evidence archive"
+      },
+      {
+        "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1loaderdoor.jpg",
+        "attribution": "AFV Database M1A1 at Fort Knox",
+        "license": "Photographic reference, copyright retained by photographer; not redistributed"
+      },
+      {
+        "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1tccupola.jpg",
+        "attribution": "AFV Database M1A1 at Fort Knox",
+        "license": "Photographic reference, copyright retained by photographer; not redistributed"
+      },
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_105-mm_gun_Hull_Operators_Manual_Draft_TM_9-2350-255-10_1981.pdf",
+        "attribution": "US Army M1 hull draft operators manual1981",
+        "license": "US Army government-authored manual; reference only, not redistributed"
+      },
+      {
+        "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1smoke.jpg",
+        "attribution": "Attribution recorded in reference-ingest.json/source page",
+        "license": "Photographic reference, copyright retained by photographer; not redistributed"
+      },
+      {
+        "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1bustle.jpg",
+        "attribution": "Attribution recorded in reference-ingest.json/source page",
+        "license": "Photographic reference, copyright retained by photographer; not redistributed"
+      },
+      {
+        "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1mrs.jpg",
+        "attribution": "TSGT John L. Houghton Jr., USDoD,13November2003",
+        "license": "Photographic reference, copyright retained by photographer; not redistributed"
+      },
+      {
+        "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1abrams.JPEG",
+        "attribution": "Attribution recorded in reference-ingest.json/source page",
+        "license": "Photographic reference, copyright retained by photographer; not redistributed"
+      },
+      {
+        "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1abrams1-13.jpg",
+        "attribution": "Attribution recorded in reference-ingest.json/source page",
+        "license": "Photographic reference, copyright retained by photographer; not redistributed"
+      },
+      {
+        "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1sensor3-205.jpg",
+        "attribution": "Attribution recorded in reference-ingest.json/source page",
+        "license": "Photographic reference, copyright retained by photographer; not redistributed"
+      },
+      {
+        "uri": "https://www.koreanwaronline.com/history/50/1.pdf",
+        "attribution": "US Army TM9-1005-213-10,6August1992,printed1-9 and2-4; general overall dimension plus turret-type exterior",
+        "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+      },
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_Gunnery_FM_3-20_12_2001.pdf",
+        "attribution": "US Army FM3-20.12,1October2001,9-3/9-4 and12-17; mounted M240, legacy CWS/M10 context",
+        "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+      },
+      {
+        "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1abramsloadermg98.jpg",
+        "attribution": "US Army TM9-2350-255-10-1 C3 loader mount illustration, mirrored at AFV Database; base M1, used with M1A1 photo crosscheck",
+        "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+      },
+      {
+        "uri": "https://www.dvidshub.net/image/9213609/us-army-sgt-scott-junkin-mounts-m-240-machine-gun-top-m1a1-abrams-tank",
+        "attribution": "CPO Edward Martens USN,2005 M1A1 loader-mounted M240",
+        "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+      },
+      {
+        "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1roofmgs.jpg",
+        "attribution": "Richard S. Eshleman mounted roof guns, AFV Database; photographic complementary view",
+        "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+      },
+      {
+        "uri": "https://blog.scopelist.com/wp-content/uploads/FN/FNAmerica_Catalog.pdf",
+        "attribution": "FN America catalog vehicle-family M240 overall41.6in; nominal construction target, exact mounted spade-grip length not independently measured",
+        "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+      },
+      {
+        "uri": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090201.htm",
+        "attribution": "Department of the Army; hosted by Integrated Publishing; Actual M1A1 top/right/left/front/rear pattern, smooth irregular interlocking fields, cross-view boundaries and band anchors; not generic noise.",
+        "license": "Government-authored figure via mirror; reference pixels excluded from archive"
+      },
+      {
+        "uri": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090039.htm",
+        "attribution": "Department of the Army; Green/brown/black, numbered color fields; fixed-feature pattern reference points. Do not apply color percentages for one example as automatically exact to everyvehicle.",
+        "license": "Research reference only; pixels excluded from public archive"
+      },
+      {
+        "uri": "https://www.army.mil/article/185828/3abct_equipment_going_green_for_atlantic_resolve",
+        "attribution": "SSG Ange Desinor,USArmy,April10,2017; Documents temporary green repaint of M1A2 tanks for Europe; supports Abrams family treatment, not exact legacyM1A1 identification.",
+        "license": "Research reference only; pixels excluded from public archive"
+      },
+      {
+        "uri": "https://api.army.mil/e2/c/downloads/2023/01/19/710bff7a/17-17-date-at-the-jmrc-volume-iv-multinational-interoperability-newsletter-jun-17-public.pdf",
+        "attribution": "USArmy CALL,June2017,p43; Temporary snowcamouflage for Abrams discussed; notes nonspecific doctrine and units developing patterns. Does not supply exact M1A1 winter template.",
+        "license": "Research reference only; pixels excluded from public archive"
+      },
+      {
+        "uri": "https://www.benning.army.mil/Armor/eARMOR/content/issues/1996/MAR_APR/ArmorMarchApril1996web.pdf",
+        "attribution": "USArmy Armor,March–April1996; Seasonal whitewash discussed specifically for Abrams concealment; not one uniquely prescribed scheme.",
+        "license": "Research reference only; pixels excluded from public archive"
+      }
+    ],
+    "primaryProportions": [
+      "Hull7.9248m, overall9.828276m",
+      "Tracks outside3.4798m, each .635m wide; broad fender width3.6576m",
+      "Gun axis1.83m side-led construction target; front discrepancy retained"
+    ],
+    "silhouetteRequirements": [
+      "Angular low broad turret with sloping cheek shoulders",
+      "Stowage distinct from armor",
+      "Rear basket visibly open",
+      "Track shoes close-spaced around complete loop"
+    ],
+    "mechanicalRelationships": [
+      {
+        "parts": [
+          "Hull",
+          "LeftTrack",
+          "RightTrack"
+        ],
+        "relationship": "Original static stance preserved; individual shoes partition exact loop geometry for subsequent motion qualification."
+      },
+      {
+        "parts": [
+          "CommanderCupola",
+          "CommanderHatchLid",
+          "LoaderHatch",
+          "LoaderHatchLid",
+          "DriverHatchRim",
+          "DriverHatchLid"
+        ],
+        "relationship": "Fixed station geometry separate from leaf geometry; source pivots at declared visual hinge axes; sampled sweep proof before animation approval."
+      },
+      {
+        "parts": [
+          "TurretAssembly",
+          "GunAssembly"
+        ],
+        "relationship": "Accepted turret and gun massing retained; later typed controls establish yaw/elevation/recoil. No certified physical articulation range."
+      },
+      {
+        "parts": [
+          "M2Receiver",
+          "M2Barrel",
+          "M2Cradle",
+          "M2CWSSupport",
+          "M2AmmoCradle",
+          "M240Receiver",
+          "M240Barrel",
+          "M240Cradle",
+          "M240CaseContainer",
+          "M240SkateSupport",
+          "M240AmmoCradle"
+        ],
+        "relationship": "Fixed exterior gun rest geometry follows TurretAssembly. No independent aiming or weapon mechanisms. Cupola and hatch interfaces retained; new contacts nominal."
+      }
+    ],
+    "forbiddenVisualReadings": [
+      "Reuse of r43 geometry",
+      "Gapped decorative track bars",
+      "Solid rear basket",
+      "Stowage mistaken for central armor roof",
+      "Unmeasured physical pivot presented as fact",
+      "M1A2 CITV or TUSK additions",
+      "Simplified external weapon geometry represented as functioning mechanisms",
+      "Material or source validation represented as animation approval"
+    ],
+    "status": "confirmed"
+  },
+  "specification": {
+    "schemaVersion": "2.0.0",
+    "assetId": "m1a1-nato-camouflage-20261028-v1",
+    "kind": "hard-surface-vehicle",
+    "unitSystem": "metric",
+    "budgets": {
+      "triangles": 40000,
+      "materials": 32,
+      "objects": 512,
+      "textures": 5
+    },
+    "sourceDeliverables": {
+      "blend": true,
+      "glb": "required"
+    },
+    "reviewRenderSets": [
+      {
+        "name": "finished-source",
+        "projection": "orthographic",
+        "resolution": {
+          "width": 1000,
+          "height": 1000
+        },
+        "transparentBackground": true,
+        "views": [
+          {
+            "name": "front-three-quarter",
+            "orientation": {
+              "azimuthDegrees": 35,
+              "elevationDegrees": 25,
+              "rollDegrees": 0
+            }
+          },
+          {
+            "name": "rear-three-quarter",
+            "orientation": {
+              "azimuthDegrees": 215,
+              "elevationDegrees": 25,
+              "rollDegrees": 0
+            }
+          },
+          {
+            "name": "front",
+            "orientation": {
+              "azimuthDegrees": 0,
+              "elevationDegrees": 0,
+              "rollDegrees": 0
+            }
+          },
+          {
+            "name": "left",
+            "orientation": {
+              "azimuthDegrees": 270,
+              "elevationDegrees": 0,
+              "rollDegrees": 0
+            }
+          },
+          {
+            "name": "right",
+            "orientation": {
+              "azimuthDegrees": 90,
+              "elevationDegrees": 0,
+              "rollDegrees": 0
+            }
+          },
+          {
+            "name": "top",
+            "orientation": {
+              "azimuthDegrees": 0,
+              "elevationDegrees": 89.99,
+              "rollDegrees": 0
+            }
+          }
+        ],
+        "lightingIntent": "Neutral studio shape inspection with final restrained desert paint, rubber, coated steel and optics colors"
+      }
+    ]
+  },
+  "dimensionSpecification": {
+    "record": {
+      "recordType": "dimension-specification",
+      "schemaVersion": "1.0.0",
+      "specificationId": "abrams-nato-finish-dimensions-20261028",
+      "assetId": "m1a1-nato-camouflage-20261028-v1",
+      "revision": 1,
+      "bindings": {
+        "request": {
+          "requestId": "george-abrams-nato-finish-20261028",
+          "sha256": "679baef71a5107a3583800202f0629e0c71b22fe9f3425f2d9cd7642ad0a7800"
+        },
+        "phase2Packet": {
+          "packetId": "abrams-camouflage-component-finish-plan-v1",
+          "sha256": "c698268ed4305d2e81627b6c45b279f2e4316a38b89ffb7e8fd8baf38cb4327d"
+        },
+        "styleProfile": {
+          "profileId": "grounded-tactical-miniature",
+          "version": "1.0.0",
+          "sha256": "94037bbde55739b9b28871ca675de0c5f557151237053df42e39bb38342244ae"
+        }
+      },
+      "subjectSpace": {
+        "units": "meters",
+        "handedness": "right-handed",
+        "axes": {
+          "width": "Y",
+          "height": "Z",
+          "length": "X",
+          "forward": "+X",
+          "up": "+Z"
+        },
+        "canonicalPose": {
+          "poseId": "rest",
+          "statement": "Complete approved269mesh geometry at fixed weapon rest and closed hatches; only paint changes, separately checked material/UV ownership. No animation approval.",
+          "includedGeometry": [
+            "BlowoffPanels",
+            "BlowoffPanelsEdgeHighlights",
+            "BustleArmor",
+            "CentralTurret",
+            "CentralTurretEdgeHighlights",
+            "CoaxShroud",
+            "CommanderCupola",
+            "CommanderHatchLid",
+            "CommanderHatchLidSeamAccents",
+            "CrosswindSensor",
+            "DriverHatchLid",
+            "DriverHatchLidSeamAccents",
+            "DriverHatchRim",
+            "EngineDeckGrille",
+            "GunBarrel",
+            "Hull",
+            "LeftAntenna",
+            "LeftFender",
+            "LeftFenderEdgeHighlights",
+            "LeftHeadlightGuard",
+            "LeftIdler",
+            "LeftRoadWheel1",
+            "LeftRoadWheel2",
+            "LeftRoadWheel3",
+            "LeftRoadWheel4",
+            "LeftRoadWheel5",
+            "LeftRoadWheel6",
+            "LeftRoadWheel7",
+            "LeftSkirts",
+            "LeftSkirtsEdgeHighlights",
+            "LeftSkirtsSeamAccents",
+            "LeftSmokeBank",
+            "LeftSprocket",
+            "LeftStowage",
+            "LeftTrack",
+            "LeftTrackShoe000",
+            "LeftTrackShoe001",
+            "LeftTrackShoe002",
+            "LeftTrackShoe003",
+            "LeftTrackShoe004",
+            "LeftTrackShoe005",
+            "LeftTrackShoe006",
+            "LeftTrackShoe007",
+            "LeftTrackShoe008",
+            "LeftTrackShoe009",
+            "LeftTrackShoe010",
+            "LeftTrackShoe012",
+            "LeftTrackShoe013",
+            "LeftTrackShoe014",
+            "LeftTrackShoe015",
+            "LeftTrackShoe016",
+            "LeftTrackShoe017",
+            "LeftTrackShoe018",
+            "LeftTrackShoe019",
+            "LeftTrackShoe020",
+            "LeftTrackShoe021",
+            "LeftTrackShoe022",
+            "LeftTrackShoe023",
+            "LeftTrackShoe024",
+            "LeftTrackShoe025",
+            "LeftTrackShoe026",
+            "LeftTrackShoe027",
+            "LeftTrackShoe028",
+            "LeftTrackShoe029",
+            "LeftTrackShoe030",
+            "LeftTrackShoe031",
+            "LeftTrackShoe032",
+            "LeftTrackShoe033",
+            "LeftTrackShoe034",
+            "LeftTrackShoe035",
+            "LeftTrackShoe036",
+            "LeftTrackShoe037",
+            "LeftTrackShoe038",
+            "LeftTrackShoe039",
+            "LeftTrackShoe040",
+            "LeftTrackShoe041",
+            "LeftTrackShoe042",
+            "LeftTrackShoe043",
+            "LeftTrackShoe044",
+            "LeftTrackShoe045",
+            "LeftTrackShoe046",
+            "LeftTrackShoe047",
+            "LeftTrackShoe048",
+            "LeftTrackShoe049",
+            "LeftTrackShoe050",
+            "LeftTrackShoe051",
+            "LeftTrackShoe052",
+            "LeftTrackShoe053",
+            "LeftTrackShoe054",
+            "LeftTrackShoe055",
+            "LeftTrackShoe056",
+            "LeftTrackShoe057",
+            "LeftTrackShoe058",
+            "LeftTrackShoe059",
+            "LeftTrackShoe060",
+            "LeftTrackShoe061",
+            "LeftTrackShoe062",
+            "LeftTrackShoe063",
+            "LeftTrackShoe064",
+            "LeftTrackShoe065",
+            "LeftTrackShoe066",
+            "LeftTrackShoe067",
+            "LeftTrackShoe068",
+            "LeftTrackShoe069",
+            "LeftTrackShoe070",
+            "LeftTrackShoe071",
+            "LeftTrackShoe072",
+            "LeftTrackShoe073",
+            "LeftTrackShoe074",
+            "LeftTrackShoe075",
+            "LeftTrackShoe076",
+            "LeftTrackShoe077",
+            "LeftTrackShoe078",
+            "LeftTrackShoe079",
+            "LeftTrackShoe080",
+            "LeftTrackShoe081",
+            "LeftTrackShoe082",
+            "LeftTrackShoe083",
+            "LeftTrackShoe084",
+            "LeftTrackShoe085",
+            "LeftTrackShoe086",
+            "LeftTrackShoe087",
+            "LeftTrackShoe088",
+            "LeftTrackShoe089",
+            "LeftTrackShoe090",
+            "LeftTrackShoe091",
+            "LeftTrackShoe092",
+            "LeftTrackShoe093",
+            "LeftTrackShoe094",
+            "LeftTrackShoe095",
+            "LeftTurretCheek",
+            "LeftTurretCheekEdgeHighlights",
+            "LoaderHatch",
+            "LoaderHatchLid",
+            "LoaderHatchLidSeamAccents",
+            "M240AmmoCradle",
+            "M240Barrel",
+            "M240CaseContainer",
+            "M240Cradle",
+            "M240Receiver",
+            "M240SkateSupport",
+            "M2AmmoCradle",
+            "M2Barrel",
+            "M2CWSSupport",
+            "M2Cradle",
+            "M2Receiver",
+            "Mantlet",
+            "MantletSeamAccents",
+            "MuzzleReference",
+            "RearBasket",
+            "RearExhaustGrilles",
+            "RightAntenna",
+            "RightFender",
+            "RightFenderEdgeHighlights",
+            "RightHeadlightGuard",
+            "RightIdler",
+            "RightRoadWheel1",
+            "RightRoadWheel2",
+            "RightRoadWheel3",
+            "RightRoadWheel4",
+            "RightRoadWheel5",
+            "RightRoadWheel6",
+            "RightRoadWheel7",
+            "RightSkirts",
+            "RightSkirtsEdgeHighlights",
+            "RightSkirtsSeamAccents",
+            "RightSmokeBank",
+            "RightSprocket",
+            "RightStowage",
+            "RightTrack",
+            "RightTrackShoe000",
+            "RightTrackShoe001",
+            "RightTrackShoe002",
+            "RightTrackShoe003",
+            "RightTrackShoe004",
+            "RightTrackShoe005",
+            "RightTrackShoe006",
+            "RightTrackShoe007",
+            "RightTrackShoe008",
+            "RightTrackShoe009",
+            "RightTrackShoe010",
+            "RightTrackShoe012",
+            "RightTrackShoe013",
+            "RightTrackShoe014",
+            "RightTrackShoe015",
+            "RightTrackShoe016",
+            "RightTrackShoe017",
+            "RightTrackShoe018",
+            "RightTrackShoe019",
+            "RightTrackShoe020",
+            "RightTrackShoe021",
+            "RightTrackShoe022",
+            "RightTrackShoe023",
+            "RightTrackShoe024",
+            "RightTrackShoe025",
+            "RightTrackShoe026",
+            "RightTrackShoe027",
+            "RightTrackShoe028",
+            "RightTrackShoe029",
+            "RightTrackShoe030",
+            "RightTrackShoe031",
+            "RightTrackShoe032",
+            "RightTrackShoe033",
+            "RightTrackShoe034",
+            "RightTrackShoe035",
+            "RightTrackShoe036",
+            "RightTrackShoe037",
+            "RightTrackShoe038",
+            "RightTrackShoe039",
+            "RightTrackShoe040",
+            "RightTrackShoe041",
+            "RightTrackShoe042",
+            "RightTrackShoe043",
+            "RightTrackShoe044",
+            "RightTrackShoe045",
+            "RightTrackShoe046",
+            "RightTrackShoe047",
+            "RightTrackShoe048",
+            "RightTrackShoe049",
+            "RightTrackShoe050",
+            "RightTrackShoe051",
+            "RightTrackShoe052",
+            "RightTrackShoe053",
+            "RightTrackShoe054",
+            "RightTrackShoe055",
+            "RightTrackShoe056",
+            "RightTrackShoe057",
+            "RightTrackShoe058",
+            "RightTrackShoe059",
+            "RightTrackShoe060",
+            "RightTrackShoe061",
+            "RightTrackShoe062",
+            "RightTrackShoe063",
+            "RightTrackShoe064",
+            "RightTrackShoe065",
+            "RightTrackShoe066",
+            "RightTrackShoe067",
+            "RightTrackShoe068",
+            "RightTrackShoe069",
+            "RightTrackShoe070",
+            "RightTrackShoe071",
+            "RightTrackShoe072",
+            "RightTrackShoe073",
+            "RightTrackShoe074",
+            "RightTrackShoe075",
+            "RightTrackShoe076",
+            "RightTrackShoe077",
+            "RightTrackShoe078",
+            "RightTrackShoe079",
+            "RightTrackShoe080",
+            "RightTrackShoe081",
+            "RightTrackShoe082",
+            "RightTrackShoe083",
+            "RightTrackShoe084",
+            "RightTrackShoe085",
+            "RightTrackShoe086",
+            "RightTrackShoe087",
+            "RightTrackShoe088",
+            "RightTrackShoe089",
+            "RightTrackShoe090",
+            "RightTrackShoe091",
+            "RightTrackShoe092",
+            "RightTrackShoe093",
+            "RightTrackShoe094",
+            "RightTrackShoe095",
+            "RightTurretCheek",
+            "RightTurretCheekEdgeHighlights",
+            "SightHousing",
+            "TurretBearing"
+          ],
+          "excludedGeometry": []
+        },
+        "origin": {
+          "kind": "declared-datum",
+          "datumId": "hull-source-origin",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "grounding": {
+            "status": "grounded",
+            "contactDatumIds": [
+              "track-ground"
+            ]
+          }
+        }
+      },
+      "sourceMeasurements": [],
+      "configurations": [
+        {
+          "configurationId": "rest",
+          "conditions": [
+            "Closed static rest; planned axes checked by origin datums, swept motion qualification remains separate"
+          ],
+          "disposition": "proposed-production-canonical"
+        }
+      ],
+      "productionTargets": {
+        "status": "complete",
+        "canonicalConfigurationId": "rest",
+        "envelope": {
+          "length": {
+            "value": 9.828276,
+            "unit": "m",
+            "sourceMeasurementIds": []
+          },
+          "width": {
+            "value": 3.6576,
+            "unit": "m",
+            "sourceMeasurementIds": []
+          },
+          "height": {
+            "value": 4.5,
+            "unit": "m",
+            "sourceMeasurementIds": []
+          }
+        },
+        "componentRatios": [],
+        "componentDatums": [
+          {
+            "datumId": "hull-source-origin",
+            "parent": null,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "basisMeasurementIds": [],
+            "selector": {
+              "type": "object-origin",
+              "object": "Hull"
+            }
+          },
+          {
+            "datumId": "track-ground",
+            "parent": null,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "basisMeasurementIds": [],
+            "selector": {
+              "type": "object-bound",
+              "object": "LeftTrack",
+              "axis": "Z",
+              "side": "minimum"
+            },
+            "coordinateAxes": [
+              "Z"
+            ]
+          },
+          {
+            "datumId": "hull-rear",
+            "parent": null,
+            "position": {
+              "x": -7.9248,
+              "y": 0,
+              "z": 0
+            },
+            "basisMeasurementIds": [],
+            "selector": {
+              "type": "object-bound",
+              "object": "Hull",
+              "axis": "X",
+              "side": "minimum"
+            },
+            "coordinateAxes": [
+              "X"
+            ]
+          },
+          {
+            "datumId": "muzzle",
+            "parent": null,
+            "position": {
+              "x": 1.903476,
+              "y": 0,
+              "z": 0
+            },
+            "basisMeasurementIds": [],
+            "selector": {
+              "type": "object-bound",
+              "object": "GunBarrel",
+              "axis": "X",
+              "side": "maximum"
+            },
+            "coordinateAxes": [
+              "X"
+            ]
+          },
+          {
+            "datumId": "CommanderHatchLid-visual-hinge",
+            "parent": null,
+            "position": {
+              "x": -4.731975140615456,
+              "y": -0.574504705163701,
+              "z": 2.49
+            },
+            "basisMeasurementIds": [],
+            "selector": {
+              "type": "object-origin",
+              "object": "CommanderHatchLid"
+            }
+          },
+          {
+            "datumId": "LoaderHatchLid-visual-hinge",
+            "parent": null,
+            "position": {
+              "x": -4.682759556694407,
+              "y": 0.4781510253623477,
+              "z": 2.34
+            },
+            "basisMeasurementIds": [],
+            "selector": {
+              "type": "object-origin",
+              "object": "LoaderHatchLid"
+            }
+          },
+          {
+            "datumId": "DriverHatchLid-visual-hinge",
+            "parent": null,
+            "position": {
+              "x": -1.61,
+              "y": -0.38,
+              "z": 1.54
+            },
+            "basisMeasurementIds": [],
+            "selector": {
+              "type": "object-origin",
+              "object": "DriverHatchLid"
+            }
+          },
+          {
+            "datumId": "turret-bearing-construction-center",
+            "parent": null,
+            "position": {
+              "x": -3.28,
+              "y": 0,
+              "z": 1.535
+            },
+            "basisMeasurementIds": [],
+            "selector": {
+              "type": "object-bound",
+              "object": "TurretBearing",
+              "axis": "X",
+              "side": "center"
+            }
+          }
+        ],
+        "clearances": [],
+        "articulationEnvelopes": [],
+        "intentionalExaggerations": [],
+        "acceptanceTolerances": [
+          {
+            "target": "overall-envelope",
+            "mode": "per-axis-relative",
+            "lengthPercent": 0.1,
+            "widthPercent": 0.1,
+            "heightPercent": 1,
+            "rationale": "Retain prior length and width tolerances; height includes declared 4.50m antenna tip design choice. Rear grille face relief is approximately2mm within retained length tolerance."
+          },
+          {
+            "target": "hull-source-origin",
+            "mode": "absolute",
+            "meters": 0.001,
+            "rationale": "Preserve declared construction frame and printed longitudinal endpoints"
+          },
+          {
+            "target": "track-ground",
+            "mode": "absolute",
+            "meters": 0.001,
+            "rationale": "Preserve declared construction frame and printed longitudinal endpoints"
+          },
+          {
+            "target": "hull-rear",
+            "mode": "absolute",
+            "meters": 0.001,
+            "rationale": "Preserve declared construction frame and printed longitudinal endpoints"
+          },
+          {
+            "target": "muzzle",
+            "mode": "absolute",
+            "meters": 0.001,
+            "rationale": "Preserve declared construction frame and printed longitudinal endpoints"
+          },
+          {
+            "target": "CommanderHatchLid-visual-hinge",
+            "mode": "absolute",
+            "meters": 0.001,
+            "rationale": "Verify implementation of declared visual construction pivot; no measured physical axis claim."
+          },
+          {
+            "target": "LoaderHatchLid-visual-hinge",
+            "mode": "absolute",
+            "meters": 0.001,
+            "rationale": "Verify implementation of declared visual construction pivot; no measured physical axis claim."
+          },
+          {
+            "target": "DriverHatchLid-visual-hinge",
+            "mode": "absolute",
+            "meters": 0.001,
+            "rationale": "Verify implementation of declared visual construction pivot; no measured physical axis claim."
+          },
+          {
+            "target": "turret-bearing-construction-center",
+            "mode": "absolute",
+            "meters": 0.001,
+            "rationale": "Declared visual motion axis reconciled for full traverse; not a measured historical pivot. The visible support collar moves; its before/after silhouette requires review."
+          }
+        ]
+      },
+      "addenda": {
+        "threeDimensional": {
+          "status": "active",
+          "canonicalArtifact": {
+            "format": "glb",
+            "gltfVersion": "2.0",
+            "embeddedResources": true
+          },
+          "worldSpace": {
+            "units": "meters",
+            "expectedBounds": {
+              "min": {
+                "x": -1.8288,
+                "y": 0,
+                "z": -1.903476
+              },
+              "max": {
+                "x": 1.8288,
+                "y": 4.5,
+                "z": 7.9248
+              }
+            },
+            "mapping": {
+              "length": "maxZ-minus-minZ",
+              "width": "maxX-minus-minX",
+              "height": "maxY-minus-minY"
+            },
+            "boundsInclusion": "evaluated-visible-canonical-nodes",
+            "transformPolicy": {
+              "rootTranslation": [
+                0,
+                0,
+                0
+              ],
+              "rootRotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rootScale": [
+                1,
+                1,
+                1
+              ],
+              "childTransforms": "applied-or-declared"
+            },
+            "pivotValidation": "Hull frame retained; hatch origins match declared visual pivots. Other animation control origins and swept states qualified separately."
+          },
+          "producerHandoff": {
+            "briefLines": [
+              "Approved mounted-weapons geometry retained",
+              "Paint-only nato successor, no approval transferred"
+            ],
+            "specificationFacts": [
+              "269-independent-mesh-components",
+              "no-geometry-parent-pivot-change",
+              "new-textures-packed-and-GLB-embedded"
+            ]
+          }
+        }
+      },
+      "conflicts": [],
+      "provisionalAssumptions": [],
+      "openQuestions": [],
+      "decisions": [
+        {
+          "decisionId": "nominal-construction-targets",
+          "actor": "Codex",
+          "actorRole": "operator",
+          "decidedAt": "2026-10-27T01:09:59.591Z",
+          "inputs": [
+            "60fa2c4decb3710dc4585ad72f9aa556b64798465a1683b384ad5ed57937f47d",
+            "1e4fdfd4dc30eed93b16726ef265ae524911e5faf384e7e47f7b03d885e3edce"
+          ],
+          "outcome": "George requested reconstruction after disclosure of source scale and projection discrepancies. Adopt explicit nominal build choices in the complete plan. This record validates implementation of that plan, not historical accuracy or resolution of reference conflicts. Source observations stay immutable. Physical pivot and hidden surfaces are not claimed measured.",
+          "scope": "phase3-only"
+        },
+        {
+          "decisionId": "finishing-nominal-targets",
+          "actor": "Codex",
+          "actorRole": "operator",
+          "decidedAt": "2026-10-27T16:07:38.481Z",
+          "inputs": [
+            "2b5a6410e15b55913729840f2aa093af7c517b247a34eb17b91f121b911d7a0b",
+            "56ad85fe9506bb1e159b6ac3c0cfbf6a4c563581795354dab598e1e589710f9a",
+            "27e7c9ce72f6c9dad128254596b003e27b7e018fdb4a588cbc9ba9da7eaae6c9"
+          ],
+          "outcome": "Implement George’s finishing request using exact preserved base proportions and explicit equipment/hinge construction choices. The fresh dimension scope includes every final mesh. Incomplete construction checkpoints may report missing future components; none will be presented as validated. No approval transfers.",
+          "scope": "phase3-only"
+        },
+        {
+          "decisionId": "distance-readability-scope",
+          "actor": "Codex",
+          "actorRole": "operator",
+          "decidedAt": "2026-10-28T15:09:58.771Z",
+          "inputs": [
+            "f33b741716d82cbe4958f253c18727ceb771d9092344ad0de8da5b97e6621cf4",
+            "89ba982eb6bccdeccc87b2891acbfce4ff4351cd5c274406059887f1e8ade82b"
+          ],
+          "outcome": "Implement user-directed seam and edge accents on exact r33 successor; inherited nominal envelope and pivots remain construction targets. Not historical paint claims.",
+          "scope": "phase3-only"
+        },
+        {
+          "decisionId": "distance-contrast-material-scope",
+          "actor": "Codex",
+          "actorRole": "operator",
+          "decidedAt": "2026-10-28T15:43:56.227Z",
+          "inputs": [
+            "f03672d24434456dac3cc2fd20695ec8b1a6120f095b2f31aebddae51c2bf3f0",
+            "5fbd4951649f2ab81de0e4053c50ea94014b7abf121caf2a634c1eaf81123d13"
+          ],
+          "outcome": "Save r1 fallback; authorize one broad material-value separation successor; exact nominal envelope and pivots preserved.",
+          "scope": "phase3-only"
+        },
+        {
+          "decisionId": "weapon-successor-scope",
+          "actor": "Codex",
+          "actorRole": "operator",
+          "decidedAt": "2026-10-28T19:10:21.454891Z",
+          "inputs": [
+            "4a19e26b2e8dcea068a8119ea29e1dccbfcbc9b0bd7006a2c46a9612afcd3be8",
+            "f59d42362b7af03f0bbb6f6c4265567d71b962adc93ccd7d9881b61df0881807"
+          ],
+          "outcome": "User-directed weapon reconstruction. Producer dimensions assess retained envelope and pivots; component-plan nominal weapon dimensions and hatch contacts require separate current actual-export checks. All 11 new meshes inside retained envelope. No historical precision or source approval transfer.",
+          "scope": "phase3-only"
+        },
+        {
+          "decisionId": "nato-paint-only-scope",
+          "actor": "Codex",
+          "actorRole": "operator",
+          "decidedAt": "2026-10-28T19:47:51.246970Z",
+          "inputs": [
+            "679baef71a5107a3583800202f0629e0c71b22fe9f3425f2d9cd7642ad0a7800",
+            "c698268ed4305d2e81627b6c45b279f2e4316a38b89ffb7e8fd8baf38cb4327d"
+          ],
+          "outcome": "User-directed finish; fresh full269mesh dimension scope. Exact source geometry and motion ownership frozen. Texture placement and palette are stylistic interpretations of cited sources, not historical paint metrology.",
+          "scope": "phase3-only"
+        }
+      ],
+      "status": "dimension-ready",
+      "authority": {
+        "productionAuthorized": false,
+        "approvalTransfer": false
+      },
+      "invalidation": {
+        "watches": [
+          "request.sha256",
+          "phase2Packet.sha256",
+          "styleProfile.sha256"
+        ],
+        "current": true
+      },
+      "supersession": {
+        "state": "superseding",
+        "priorSpecificationSha256Status": "a0cff1a1e7b2ac4bad5ec6f5582d92e881244bc977d333121af9e96cccc21916"
+      }
+    },
+    "canonicalJsonSha256": "2edef8cd102ad4a000a5ce51edef704c63c835a30aaf37036fb77f8aab69506d",
+    "bindingRevision": 0,
+    "boundAt": "2026-10-28T19:47:51.246970Z"
+  },
+  "finishingSource": {
+    "jobId": "05b50ed5-c8f4-40b0-9b4f-e2169a81bb12",
+    "revision": 1,
+    "checkpointId": "d4dfb598-074f-4930-b543-e8aabb3d2594",
+    "checkpointHash": "69bb62079293d327c447e85bb95c21cbc35c9c6eb7f50ac292432b8950144124",
+    "assetSpecificationHash": "e658b758713af43acba7acc6007c40bdb9131c1b1c7b2c6f8268a1c9af957a7a",
+    "dimensionSpecificationHash": "ab0154cce790dfc141137c408c8abf8c458c5b2716fa962e1cac73ec76491558",
+    "reason": "Specifically requested nato paint-only finish; retain approved mounted-weapon geometry and source fallback",
+    "approvalTransfer": false
+  },
+  "workflowStage": "reference-confirmation",
+  "variantSets": [],
+  "updatedAt": "2026-10-28T19:48:48.324Z"
+}

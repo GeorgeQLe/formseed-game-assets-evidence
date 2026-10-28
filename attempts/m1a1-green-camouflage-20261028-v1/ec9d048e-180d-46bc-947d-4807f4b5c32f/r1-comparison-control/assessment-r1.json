@@ -1,0 +1,765 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "assetId": "m1a1-green-camouflage-20261028-v1",
+    "revisionId": "main-r1",
+    "revision": 1
+  },
+  "evidenceSet": {
+    "revision": 1,
+    "checkpointSha256": "b93cfc87194c5b5d7a0e379b213756d9a0da37c59b9e5c3062b66750d85709e5",
+    "renderSetSha256": "22cab09179da065c127f2f5ddd7dd9c98370fdbb095afbab5a097dd97f2ea9b5",
+    "requiredViews": [
+      {
+        "viewId": "front-three-quarter",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "ded8f692f23c2ea2cd18d602226e4dbbfec5f4833cf4641f186caee5c9d62f34"
+      },
+      {
+        "viewId": "rear-three-quarter",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "789fda66e73ad20845a06bacc94f97d4f673fa6913be6ed620ae85f0f87efdf0"
+      },
+      {
+        "viewId": "front",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "fb21c791812685492ee2368aa5530d4287e3b1fc04d81008c770b80b3565158f"
+      },
+      {
+        "viewId": "left",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "d04e6247cd416123798c2f8d0bac1933e41f554368359be5d29ca6a911ef4f78"
+      },
+      {
+        "viewId": "right",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "511322298ed03e4aef0700e77a0084e6fd8bc0141c3f6eca0537de2a0bbe9db9"
+      },
+      {
+        "viewId": "top",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "36e52514be29df9eb35a77091d144fcb2671d2d722bf21d68654be85cd02496b"
+      }
+    ],
+    "validation": {
+      "reportId": "df8b3721-cd0e-4163-ace8-221da11ef6f7",
+      "revision": 1,
+      "checkpointSha256": "b93cfc87194c5b5d7a0e379b213756d9a0da37c59b9e5c3062b66750d85709e5",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "assessedBy": "Codex /root",
+  "assessedAt": "2026-10-28T20:18:25.319Z",
+  "assessmentId": "m1a1-green-camouflage-r1-20261028",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "ded8f692f23c2ea2cd18d602226e4dbbfec5f4833cf4641f186caee5c9d62f34",
+          "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "789fda66e73ad20845a06bacc94f97d4f673fa6913be6ed620ae85f0f87efdf0",
+          "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "fb21c791812685492ee2368aa5530d4287e3b1fc04d81008c770b80b3565158f",
+          "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "d04e6247cd416123798c2f8d0bac1933e41f554368359be5d29ca6a911ef4f78",
+          "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "511322298ed03e4aef0700e77a0084e6fd8bc0141c3f6eca0537de2a0bbe9db9",
+          "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "36e52514be29df9eb35a77091d144fcb2671d2d722bf21d68654be85cd02496b",
+          "observation": "Six actual PBR views and 256/128px recognition preserve the low M1A1 wedge turret, sleeved long gun, skirted seven-wheel chassis and open bustle basket. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/technical-closure-r1.json",
+          "evidenceSha256": "7e75d5156bb99855dba575de3ec8be953063bf709277fe72f8e7fb96583d2850",
+          "observation": "Current PBR sheet repeat, recognition and source consistency hashes."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/export-audit-r1.json",
+          "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+          "observation": "Actual geometry, material, texture embedding and UV checks."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-finish-review-r1.json",
+          "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+          "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note."
+        }
+      ],
+      "recognition": {
+        "thumbnailPixels": 256,
+        "nearestNeighbors": [
+          "M1 with105mm gun",
+          "M1A2 withCITV",
+          "Leopard2"
+        ],
+        "distinguishers": [
+          "120mm-style barrel and bore evacuator rather than105mm external profile",
+          "M1A1 cupola arrangement without M1A2 CITV",
+          "Abrams wedge/bustle massing and skirted seven-wheel stance; roof weapons are simplified"
+        ]
+      }
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "ded8f692f23c2ea2cd18d602226e4dbbfec5f4833cf4641f186caee5c9d62f34",
+          "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "789fda66e73ad20845a06bacc94f97d4f673fa6913be6ed620ae85f0f87efdf0",
+          "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "fb21c791812685492ee2368aa5530d4287e3b1fc04d81008c770b80b3565158f",
+          "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "d04e6247cd416123798c2f8d0bac1933e41f554368359be5d29ca6a911ef4f78",
+          "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "511322298ed03e4aef0700e77a0084e6fd8bc0141c3f6eca0537de2a0bbe9db9",
+          "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "36e52514be29df9eb35a77091d144fcb2671d2d722bf21d68654be85cd02496b",
+          "observation": "Exact exported geometry is unchanged from approved desert to one micrometer, including all269meshes and parent relationships. Turret, hull, gun and running gear retain the approved proportions."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/technical-closure-r1.json",
+          "evidenceSha256": "7e75d5156bb99855dba575de3ec8be953063bf709277fe72f8e7fb96583d2850",
+          "observation": "Current PBR sheet repeat, recognition and source consistency hashes."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/export-audit-r1.json",
+          "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+          "observation": "Actual geometry, material, texture embedding and UV checks."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-finish-review-r1.json",
+          "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+          "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note."
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "ded8f692f23c2ea2cd18d602226e4dbbfec5f4833cf4641f186caee5c9d62f34",
+          "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "789fda66e73ad20845a06bacc94f97d4f673fa6913be6ed620ae85f0f87efdf0",
+          "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "fb21c791812685492ee2368aa5530d4287e3b1fc04d81008c770b80b3565158f",
+          "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "d04e6247cd416123798c2f8d0bac1933e41f554368359be5d29ca6a911ef4f78",
+          "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "511322298ed03e4aef0700e77a0084e6fd8bc0141c3f6eca0537de2a0bbe9db9",
+          "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "36e52514be29df9eb35a77091d144fcb2671d2d722bf21d68654be85cd02496b",
+          "observation": "Front, side and three-quarter views retain an unclipped low tank silhouette at128px; winter has the weakest white-on-light-background contrast. Antennas and fixed roof weapons remain secondary."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/technical-closure-r1.json",
+          "evidenceSha256": "7e75d5156bb99855dba575de3ec8be953063bf709277fe72f8e7fb96583d2850",
+          "observation": "Current PBR sheet repeat, recognition and source consistency hashes."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/export-audit-r1.json",
+          "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+          "observation": "Actual geometry, material, texture embedding and UV checks."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-finish-review-r1.json",
+          "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+          "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note."
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "ded8f692f23c2ea2cd18d602226e4dbbfec5f4833cf4641f186caee5c9d62f34",
+          "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "789fda66e73ad20845a06bacc94f97d4f673fa6913be6ed620ae85f0f87efdf0",
+          "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "fb21c791812685492ee2368aa5530d4287e3b1fc04d81008c770b80b3565158f",
+          "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "d04e6247cd416123798c2f8d0bac1933e41f554368359be5d29ca6a911ef4f78",
+          "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "511322298ed03e4aef0700e77a0084e6fd8bc0141c3f6eca0537de2a0bbe9db9",
+          "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "36e52514be29df9eb35a77091d144fcb2671d2d722bf21d68654be85cd02496b",
+          "observation": "Major armor planes and roof equipment retain the prior paint-role value separation. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/technical-closure-r1.json",
+          "evidenceSha256": "7e75d5156bb99855dba575de3ec8be953063bf709277fe72f8e7fb96583d2850",
+          "observation": "Current PBR sheet repeat, recognition and source consistency hashes."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/export-audit-r1.json",
+          "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+          "observation": "Actual geometry, material, texture embedding and UV checks."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-finish-review-r1.json",
+          "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+          "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note."
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "ded8f692f23c2ea2cd18d602226e4dbbfec5f4833cf4641f186caee5c9d62f34",
+          "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "789fda66e73ad20845a06bacc94f97d4f673fa6913be6ed620ae85f0f87efdf0",
+          "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "fb21c791812685492ee2368aa5530d4287e3b1fc04d81008c770b80b3565158f",
+          "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "d04e6247cd416123798c2f8d0bac1933e41f554368359be5d29ca6a911ef4f78",
+          "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "511322298ed03e4aef0700e77a0084e6fd8bc0141c3f6eca0537de2a0bbe9db9",
+          "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "36e52514be29df9eb35a77091d144fcb2671d2d722bf21d68654be85cd02496b",
+          "observation": "All approved mechanical surfaces, mounts and hatches remain unchanged. Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Fixed turret-type M2 support remains the previously accepted nominal miniature compromise; no new motion qualification."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/technical-closure-r1.json",
+          "evidenceSha256": "7e75d5156bb99855dba575de3ec8be953063bf709277fe72f8e7fb96583d2850",
+          "observation": "Current PBR sheet repeat, recognition and source consistency hashes."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/export-audit-r1.json",
+          "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+          "observation": "Actual geometry, material, texture embedding and UV checks."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-finish-review-r1.json",
+          "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+          "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note."
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "ded8f692f23c2ea2cd18d602226e4dbbfec5f4833cf4641f186caee5c9d62f34",
+          "observation": "Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "789fda66e73ad20845a06bacc94f97d4f673fa6913be6ed620ae85f0f87efdf0",
+          "observation": "Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "fb21c791812685492ee2368aa5530d4287e3b1fc04d81008c770b80b3565158f",
+          "observation": "Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "d04e6247cd416123798c2f8d0bac1933e41f554368359be5d29ca6a911ef4f78",
+          "observation": "Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "511322298ed03e4aef0700e77a0084e6fd8bc0141c3f6eca0537de2a0bbe9db9",
+          "observation": "Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "36e52514be29df9eb35a77091d144fcb2671d2d722bf21d68654be85cd02496b",
+          "observation": "Uniform olive paint with retained lighter roof and dark hatch hierarchy; no texture or UV seam risk. Rubber, glass and coated steel retain approved native fingerprints and exported properties; camo is restricted to painted regions."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/technical-closure-r1.json",
+          "evidenceSha256": "7e75d5156bb99855dba575de3ec8be953063bf709277fe72f8e7fb96583d2850",
+          "observation": "Current PBR sheet repeat, recognition and source consistency hashes."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/export-audit-r1.json",
+          "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+          "observation": "Actual geometry, material, texture embedding and UV checks."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-finish-review-r1.json",
+          "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+          "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note."
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "ded8f692f23c2ea2cd18d602226e4dbbfec5f4833cf4641f186caee5c9d62f34",
+          "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "789fda66e73ad20845a06bacc94f97d4f673fa6913be6ed620ae85f0f87efdf0",
+          "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "fb21c791812685492ee2368aa5530d4287e3b1fc04d81008c770b80b3565158f",
+          "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "d04e6247cd416123798c2f8d0bac1933e41f554368359be5d29ca6a911ef4f78",
+          "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "511322298ed03e4aef0700e77a0084e6fd8bc0141c3f6eca0537de2a0bbe9db9",
+          "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "36e52514be29df9eb35a77091d144fcb2671d2d722bf21d68654be85cd02496b",
+          "observation": "All six1000px actual PBR views are present and independently hash verified.256/128px recognition sheets and same-camera approved-desert comparison provide distance and style evidence. The128px header clips text, so identity/provenance uses full-size sheets."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/technical-closure-r1.json",
+          "evidenceSha256": "7e75d5156bb99855dba575de3ec8be953063bf709277fe72f8e7fb96583d2850",
+          "observation": "Current PBR sheet repeat, recognition and source consistency hashes."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/export-audit-r1.json",
+          "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+          "observation": "Actual geometry, material, texture embedding and UV checks."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-finish-review-r1.json",
+          "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+          "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note."
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "ded8f692f23c2ea2cd18d602226e4dbbfec5f4833cf4641f186caee5c9d62f34",
+          "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "789fda66e73ad20845a06bacc94f97d4f673fa6913be6ed620ae85f0f87efdf0",
+          "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "fb21c791812685492ee2368aa5530d4287e3b1fc04d81008c770b80b3565158f",
+          "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "d04e6247cd416123798c2f8d0bac1933e41f554368359be5d29ca6a911ef4f78",
+          "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "511322298ed03e4aef0700e77a0084e6fd8bc0141c3f6eca0537de2a0bbe9db9",
+          "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "36e52514be29df9eb35a77091d144fcb2671d2d722bf21d68654be85cd02496b",
+          "observation": "269meshes,37668triangles,279objects preserved.12native controlled isolation probes and216mask hashes pass.28dimension criteria pass. Five textures per patterned candidate are byte-identical in native packed source and diagnosticGLB; green has none. PBR frame capture now waits for animation-frame completion before reading the GPU canvas and repeats byte-exactly. Winter continuity remains unproven."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/technical-closure-r1.json",
+          "evidenceSha256": "7e75d5156bb99855dba575de3ec8be953063bf709277fe72f8e7fb96583d2850",
+          "observation": "Current PBR sheet repeat, recognition and source consistency hashes."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "green/export-audit-r1.json",
+          "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+          "observation": "Actual geometry, material, texture embedding and UV checks."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-finish-review-r1.json",
+          "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+          "observation": "Independent actual-image review; winter seam unresolved; NATO roof contrast is a human review note."
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "component-finish-plan-v1.json",
+          "evidenceSha256": "c698268ed4305d2e81627b6c45b279f2e4316a38b89ffb7e8fd8baf38cb4327d",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "green/finish-render-set-r1.json",
+          "evidenceSha256": "773f3f50ccf5681ce438eda33742d57fc3c8baa87effadd5c3593223fd05e294",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "green/export-audit-r1.json",
+          "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "green/dimension-r1.json",
+          "evidenceSha256": "6a62e244421499674fef5fec78314cb1120f4daf5d5b557765fcbda3f670be0e",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "green/finish-render-set-r1.json",
+          "evidenceSha256": "773f3f50ccf5681ce438eda33742d57fc3c8baa87effadd5c3593223fd05e294",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "green/validation-r1.json",
+          "evidenceSha256": "2a7a83c6f6bc5b1f7760edffe2a06878b4a66ea8c45b0c88107587e36188cf63",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "green/validation-r1.json",
+          "evidenceSha256": "2a7a83c6f6bc5b1f7760edffe2a06878b4a66ea8c45b0c88107587e36188cf63",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "component-finish-plan-v1.json",
+          "evidenceSha256": "c698268ed4305d2e81627b6c45b279f2e4316a38b89ffb7e8fd8baf38cb4327d",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "green/bundle-r1.json",
+          "evidenceSha256": "282b59f85e8c52d9aeb44b7e1e4ec3277fc4fefbcdb54028129369142ce8982e",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "component-finish-plan-v1.json",
+          "evidenceSha256": "c698268ed4305d2e81627b6c45b279f2e4316a38b89ffb7e8fd8baf38cb4327d",
+          "observation": "Current finish successor technical evidence. Producer flat-color renders are geometry diagnostics only. No human or animation approval transfer."
+        }
+      ]
+    }
+  ],
+  "adversarialReview": {
+    "reviewedBy": "Claude Code claude-opus-5-5 and Codex",
+    "reviewedAt": "2026-10-28T20:18:25.319Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "Uniform green may read as generic tank.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+            "observation": "Independent review finds retained geometry and lighter roof separation sufficient."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "green/export-audit-r1.json",
+            "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+            "observation": "Exact geometry/nonpaint preservation; UV projection fidelity alone does not prove cross-part continuity."
+          }
+        ]
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "Dark fields could merge internal armor planes.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+            "observation": "Independent review finds retained geometry and lighter roof separation sufficient."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "green/export-audit-r1.json",
+            "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+            "observation": "Exact geometry/nonpaint preservation; UV projection fidelity alone does not prove cross-part continuity."
+          }
+        ]
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "Uniform finish could conceal similarly colored moving parts.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+            "observation": "Independent review finds retained geometry and lighter roof separation sufficient."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "green/export-audit-r1.json",
+            "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+            "observation": "Exact geometry/nonpaint preservation; UV projection fidelity alone does not prove cross-part continuity."
+          }
+        ]
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "Empty texture checks cannot establish useful integrity evidence.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "opus-finish-review-r1.json",
+            "evidenceSha256": "3af987447711b7657861c90a29afe7f9c2da00b1bbfaddbca2ad514435662abd",
+            "observation": "Independent review finds retained geometry and lighter roof separation sufficient."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "green/export-audit-r1.json",
+            "evidenceSha256": "cd9d16c14881b12ad070a8db4a93f42c4b5d0efbf17ffe9bfcaf341ff675b58c",
+            "observation": "Exact geometry/nonpaint preservation; UV projection fidelity alone does not prove cross-part continuity."
+          }
+        ]
+      }
+    ]
+  }
+}
