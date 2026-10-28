@@ -1,0 +1,861 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "assetId": "m1a1-trace-readable-20261028-v1",
+    "revisionId": "main-r1",
+    "revision": 1
+  },
+  "evidenceSet": {
+    "revision": 1,
+    "checkpointSha256": "32a9ba6ffe87cb6d36261d67425d1fc9c0a0a11e278f62f3a0586f52eed88f23",
+    "renderSetSha256": "a49a0892f0db869ecd83f27fde7763d85c728e538d94998e0115cc1799c70cc9",
+    "requiredViews": [
+      {
+        "viewId": "front-three-quarter",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "df890872a8897c719e2f3aeab633f3d238577958cf7ada7e33880c12feccfd74"
+      },
+      {
+        "viewId": "rear-three-quarter",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "98dfa4b8c2c4586ac73ac5a1c43ca62b705bfb14d32f8acd776473548233e8ab"
+      },
+      {
+        "viewId": "front",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "17a3065cac99e61b6c8b952a5f2beadcc8e4359f46cf634bb74f6b811e51564e"
+      },
+      {
+        "viewId": "left",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "eb976a71586212eeb4125c3d8cd9eb9ac5700af6b1c9d4e1b03d32fb22e36858"
+      },
+      {
+        "viewId": "right",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "bfd88a0d7da7bf13c67111b8ccb52bed70502c462e34a363c7bb63e91330a7d9"
+      },
+      {
+        "viewId": "top",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "dc2154ef2fe9ebde2352153f87e4729fbcf740e5550790ee4f04c70ffb9cd5e6"
+      }
+    ],
+    "validation": {
+      "reportId": "65259f6c-9cea-4bdc-b86d-ac828c0e1a3d",
+      "revision": 1,
+      "checkpointSha256": "32a9ba6ffe87cb6d36261d67425d1fc9c0a0a11e278f62f3a0586f52eed88f23",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "assessedBy": "Codex /root",
+  "assessedAt": "2026-10-28T15:22:10.908Z",
+  "assessmentId": "m1a1-readability-r1-static-source-20261028",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "df890872a8897c719e2f3aeab633f3d238577958cf7ada7e33880c12feccfd74",
+          "observation": "Six native views and exact-GLB 256px/128px views retain the broad angular M1A1 cheeks, long gun, skirted seven-wheel stance, rear basket and roof equipment. Recognition is preserved, not newly established by the accents."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "98dfa4b8c2c4586ac73ac5a1c43ca62b705bfb14d32f8acd776473548233e8ab",
+          "observation": "Six native views and exact-GLB 256px/128px views retain the broad angular M1A1 cheeks, long gun, skirted seven-wheel stance, rear basket and roof equipment. Recognition is preserved, not newly established by the accents."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "17a3065cac99e61b6c8b952a5f2beadcc8e4359f46cf634bb74f6b811e51564e",
+          "observation": "Six native views and exact-GLB 256px/128px views retain the broad angular M1A1 cheeks, long gun, skirted seven-wheel stance, rear basket and roof equipment. Recognition is preserved, not newly established by the accents."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "eb976a71586212eeb4125c3d8cd9eb9ac5700af6b1c9d4e1b03d32fb22e36858",
+          "observation": "Six native views and exact-GLB 256px/128px views retain the broad angular M1A1 cheeks, long gun, skirted seven-wheel stance, rear basket and roof equipment. Recognition is preserved, not newly established by the accents."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "bfd88a0d7da7bf13c67111b8ccb52bed70502c462e34a363c7bb63e91330a7d9",
+          "observation": "Six native views and exact-GLB 256px/128px views retain the broad angular M1A1 cheeks, long gun, skirted seven-wheel stance, rear basket and roof equipment. Recognition is preserved, not newly established by the accents."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "dc2154ef2fe9ebde2352153f87e4729fbcf740e5550790ee4f04c70ffb9cd5e6",
+          "observation": "Six native views and exact-GLB 256px/128px views retain the broad angular M1A1 cheeks, long gun, skirted seven-wheel stance, rear basket and roof equipment. Recognition is preserved, not newly established by the accents."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "pbr-r1.png.json",
+          "evidenceSha256": "d6cd3e9ec45700a47370886a2b43f16c5ba052c27402869d7762f6c34f3d4ffe",
+          "observation": "Exact exported PBR views, no source edits by reviewer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-r1.png.json",
+          "evidenceSha256": "c5e3c708ab86d2aaf66593383c1b2e67f8cafa35d44ddba48aa2eb76b2a24a4e",
+          "observation": "256px native rendered views; small improvement."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-128-r1.png.json",
+          "evidenceSha256": "d1b669a0b473d2b81a9bf5d0e681d4352972cd00c8075ebeaeb73d60d6caa7bc",
+          "observation": "128px native rendered views; fine accents mostly vanish."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-closure.json",
+          "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+          "observation": "Independent actual-view critique; no unresolved static core category objection; distance request only partially addressed."
+        }
+      ],
+      "recognition": {
+        "thumbnailPixels": 256,
+        "nearestNeighbors": [
+          "M1 with105mm gun",
+          "M1A2 withCITV",
+          "Leopard2"
+        ],
+        "distinguishers": [
+          "120mm-style barrel and bore evacuator rather than105mm external profile",
+          "M1A1 cupola arrangement without M1A2 CITV",
+          "Abrams wedge/bustle massing and skirted seven-wheel stance; roof weapons are simplified"
+        ]
+      }
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "df890872a8897c719e2f3aeab633f3d238577958cf7ada7e33880c12feccfd74",
+          "observation": "Exact export comparison preserves all246 source meshes, original materials and transforms. Added1–1.8mm relief stays within the complete nominal envelope; all28 dimension criteria pass. No massing change."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "98dfa4b8c2c4586ac73ac5a1c43ca62b705bfb14d32f8acd776473548233e8ab",
+          "observation": "Exact export comparison preserves all246 source meshes, original materials and transforms. Added1–1.8mm relief stays within the complete nominal envelope; all28 dimension criteria pass. No massing change."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "17a3065cac99e61b6c8b952a5f2beadcc8e4359f46cf634bb74f6b811e51564e",
+          "observation": "Exact export comparison preserves all246 source meshes, original materials and transforms. Added1–1.8mm relief stays within the complete nominal envelope; all28 dimension criteria pass. No massing change."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "eb976a71586212eeb4125c3d8cd9eb9ac5700af6b1c9d4e1b03d32fb22e36858",
+          "observation": "Exact export comparison preserves all246 source meshes, original materials and transforms. Added1–1.8mm relief stays within the complete nominal envelope; all28 dimension criteria pass. No massing change."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "bfd88a0d7da7bf13c67111b8ccb52bed70502c462e34a363c7bb63e91330a7d9",
+          "observation": "Exact export comparison preserves all246 source meshes, original materials and transforms. Added1–1.8mm relief stays within the complete nominal envelope; all28 dimension criteria pass. No massing change."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "dc2154ef2fe9ebde2352153f87e4729fbcf740e5550790ee4f04c70ffb9cd5e6",
+          "observation": "Exact export comparison preserves all246 source meshes, original materials and transforms. Added1–1.8mm relief stays within the complete nominal envelope; all28 dimension criteria pass. No massing change."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "pbr-r1.png.json",
+          "evidenceSha256": "d6cd3e9ec45700a47370886a2b43f16c5ba052c27402869d7762f6c34f3d4ffe",
+          "observation": "Exact exported PBR views, no source edits by reviewer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-r1.png.json",
+          "evidenceSha256": "c5e3c708ab86d2aaf66593383c1b2e67f8cafa35d44ddba48aa2eb76b2a24a4e",
+          "observation": "256px native rendered views; small improvement."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-128-r1.png.json",
+          "evidenceSha256": "d1b669a0b473d2b81a9bf5d0e681d4352972cd00c8075ebeaeb73d60d6caa7bc",
+          "observation": "128px native rendered views; fine accents mostly vanish."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-closure.json",
+          "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+          "observation": "Independent actual-view critique; no unresolved static core category objection; distance request only partially addressed."
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "df890872a8897c719e2f3aeab633f3d238577958cf7ada7e33880c12feccfd74",
+          "observation": "Six views preserve the accepted turret, hull, barrel, wheels and wraps. Surface accents are subordinate and do not introduce new silhouette protrusions; source proportions remain visually coherent."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "98dfa4b8c2c4586ac73ac5a1c43ca62b705bfb14d32f8acd776473548233e8ab",
+          "observation": "Six views preserve the accepted turret, hull, barrel, wheels and wraps. Surface accents are subordinate and do not introduce new silhouette protrusions; source proportions remain visually coherent."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "17a3065cac99e61b6c8b952a5f2beadcc8e4359f46cf634bb74f6b811e51564e",
+          "observation": "Six views preserve the accepted turret, hull, barrel, wheels and wraps. Surface accents are subordinate and do not introduce new silhouette protrusions; source proportions remain visually coherent."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "eb976a71586212eeb4125c3d8cd9eb9ac5700af6b1c9d4e1b03d32fb22e36858",
+          "observation": "Six views preserve the accepted turret, hull, barrel, wheels and wraps. Surface accents are subordinate and do not introduce new silhouette protrusions; source proportions remain visually coherent."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "bfd88a0d7da7bf13c67111b8ccb52bed70502c462e34a363c7bb63e91330a7d9",
+          "observation": "Six views preserve the accepted turret, hull, barrel, wheels and wraps. Surface accents are subordinate and do not introduce new silhouette protrusions; source proportions remain visually coherent."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "dc2154ef2fe9ebde2352153f87e4729fbcf740e5550790ee4f04c70ffb9cd5e6",
+          "observation": "Six views preserve the accepted turret, hull, barrel, wheels and wraps. Surface accents are subordinate and do not introduce new silhouette protrusions; source proportions remain visually coherent."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "pbr-r1.png.json",
+          "evidenceSha256": "d6cd3e9ec45700a47370886a2b43f16c5ba052c27402869d7762f6c34f3d4ffe",
+          "observation": "Exact exported PBR views, no source edits by reviewer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-r1.png.json",
+          "evidenceSha256": "c5e3c708ab86d2aaf66593383c1b2e67f8cafa35d44ddba48aa2eb76b2a24a4e",
+          "observation": "256px native rendered views; small improvement."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-128-r1.png.json",
+          "evidenceSha256": "d1b669a0b473d2b81a9bf5d0e681d4352972cd00c8075ebeaeb73d60d6caa7bc",
+          "observation": "128px native rendered views; fine accents mostly vanish."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-closure.json",
+          "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+          "observation": "Independent actual-view critique; no unresolved static core category objection; distance request only partially addressed."
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "df890872a8897c719e2f3aeab633f3d238577958cf7ada7e33880c12feccfd74",
+          "observation": "Hull/turret/gun dominate. Highlighted upper facets, hatch outlines, mantlet and skirt boundaries remain subordinate to those masses. Top/front separation improves without an all-edge wireframe reading."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "98dfa4b8c2c4586ac73ac5a1c43ca62b705bfb14d32f8acd776473548233e8ab",
+          "observation": "Hull/turret/gun dominate. Highlighted upper facets, hatch outlines, mantlet and skirt boundaries remain subordinate to those masses. Top/front separation improves without an all-edge wireframe reading."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "17a3065cac99e61b6c8b952a5f2beadcc8e4359f46cf634bb74f6b811e51564e",
+          "observation": "Hull/turret/gun dominate. Highlighted upper facets, hatch outlines, mantlet and skirt boundaries remain subordinate to those masses. Top/front separation improves without an all-edge wireframe reading."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "eb976a71586212eeb4125c3d8cd9eb9ac5700af6b1c9d4e1b03d32fb22e36858",
+          "observation": "Hull/turret/gun dominate. Highlighted upper facets, hatch outlines, mantlet and skirt boundaries remain subordinate to those masses. Top/front separation improves without an all-edge wireframe reading."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "bfd88a0d7da7bf13c67111b8ccb52bed70502c462e34a363c7bb63e91330a7d9",
+          "observation": "Hull/turret/gun dominate. Highlighted upper facets, hatch outlines, mantlet and skirt boundaries remain subordinate to those masses. Top/front separation improves without an all-edge wireframe reading."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "dc2154ef2fe9ebde2352153f87e4729fbcf740e5550790ee4f04c70ffb9cd5e6",
+          "observation": "Hull/turret/gun dominate. Highlighted upper facets, hatch outlines, mantlet and skirt boundaries remain subordinate to those masses. Top/front separation improves without an all-edge wireframe reading."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "pbr-r1.png.json",
+          "evidenceSha256": "d6cd3e9ec45700a47370886a2b43f16c5ba052c27402869d7762f6c34f3d4ffe",
+          "observation": "Exact exported PBR views, no source edits by reviewer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-r1.png.json",
+          "evidenceSha256": "c5e3c708ab86d2aaf66593383c1b2e67f8cafa35d44ddba48aa2eb76b2a24a4e",
+          "observation": "256px native rendered views; small improvement."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-128-r1.png.json",
+          "evidenceSha256": "d1b669a0b473d2b81a9bf5d0e681d4352972cd00c8075ebeaeb73d60d6caa7bc",
+          "observation": "128px native rendered views; fine accents mostly vanish."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-closure.json",
+          "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+          "observation": "Independent actual-view critique; no unresolved static core category objection; distance request only partially addressed."
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "df890872a8897c719e2f3aeab633f3d238577958cf7ada7e33880c12feccfd74",
+          "observation": "Accents follow existing panel-solid or facet boundaries and inherit each owner. They are explicit stylistic surface treatment, not added structural parts. No new visible static assembly defect; full motion remains separate."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "98dfa4b8c2c4586ac73ac5a1c43ca62b705bfb14d32f8acd776473548233e8ab",
+          "observation": "Accents follow existing panel-solid or facet boundaries and inherit each owner. They are explicit stylistic surface treatment, not added structural parts. No new visible static assembly defect; full motion remains separate."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "17a3065cac99e61b6c8b952a5f2beadcc8e4359f46cf634bb74f6b811e51564e",
+          "observation": "Accents follow existing panel-solid or facet boundaries and inherit each owner. They are explicit stylistic surface treatment, not added structural parts. No new visible static assembly defect; full motion remains separate."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "eb976a71586212eeb4125c3d8cd9eb9ac5700af6b1c9d4e1b03d32fb22e36858",
+          "observation": "Accents follow existing panel-solid or facet boundaries and inherit each owner. They are explicit stylistic surface treatment, not added structural parts. No new visible static assembly defect; full motion remains separate."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "bfd88a0d7da7bf13c67111b8ccb52bed70502c462e34a363c7bb63e91330a7d9",
+          "observation": "Accents follow existing panel-solid or facet boundaries and inherit each owner. They are explicit stylistic surface treatment, not added structural parts. No new visible static assembly defect; full motion remains separate."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "dc2154ef2fe9ebde2352153f87e4729fbcf740e5550790ee4f04c70ffb9cd5e6",
+          "observation": "Accents follow existing panel-solid or facet boundaries and inherit each owner. They are explicit stylistic surface treatment, not added structural parts. No new visible static assembly defect; full motion remains separate."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "pbr-r1.png.json",
+          "evidenceSha256": "d6cd3e9ec45700a47370886a2b43f16c5ba052c27402869d7762f6c34f3d4ffe",
+          "observation": "Exact exported PBR views, no source edits by reviewer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-r1.png.json",
+          "evidenceSha256": "c5e3c708ab86d2aaf66593383c1b2e67f8cafa35d44ddba48aa2eb76b2a24a4e",
+          "observation": "256px native rendered views; small improvement."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-128-r1.png.json",
+          "evidenceSha256": "d1b669a0b473d2b81a9bf5d0e681d4352972cd00c8075ebeaeb73d60d6caa7bc",
+          "observation": "128px native rendered views; fine accents mostly vanish."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-closure.json",
+          "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+          "observation": "Independent actual-view critique; no unresolved static core category objection; distance request only partially addressed."
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "df890872a8897c719e2f3aeab633f3d238577958cf7ada7e33880c12feccfd74",
+          "observation": "Original six sand, dark paint, rubber, steel and optics materials preserved; two warm accent colors add restrained edge/seam definition. Independent review sees no objectionable chalk or false joints. Gain is modest at256px and negligible at128px, so this is acceptable static first-pass finish, not completed all-distance readability."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "98dfa4b8c2c4586ac73ac5a1c43ca62b705bfb14d32f8acd776473548233e8ab",
+          "observation": "Original six sand, dark paint, rubber, steel and optics materials preserved; two warm accent colors add restrained edge/seam definition. Independent review sees no objectionable chalk or false joints. Gain is modest at256px and negligible at128px, so this is acceptable static first-pass finish, not completed all-distance readability."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "17a3065cac99e61b6c8b952a5f2beadcc8e4359f46cf634bb74f6b811e51564e",
+          "observation": "Original six sand, dark paint, rubber, steel and optics materials preserved; two warm accent colors add restrained edge/seam definition. Independent review sees no objectionable chalk or false joints. Gain is modest at256px and negligible at128px, so this is acceptable static first-pass finish, not completed all-distance readability."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "eb976a71586212eeb4125c3d8cd9eb9ac5700af6b1c9d4e1b03d32fb22e36858",
+          "observation": "Original six sand, dark paint, rubber, steel and optics materials preserved; two warm accent colors add restrained edge/seam definition. Independent review sees no objectionable chalk or false joints. Gain is modest at256px and negligible at128px, so this is acceptable static first-pass finish, not completed all-distance readability."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "bfd88a0d7da7bf13c67111b8ccb52bed70502c462e34a363c7bb63e91330a7d9",
+          "observation": "Original six sand, dark paint, rubber, steel and optics materials preserved; two warm accent colors add restrained edge/seam definition. Independent review sees no objectionable chalk or false joints. Gain is modest at256px and negligible at128px, so this is acceptable static first-pass finish, not completed all-distance readability."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "dc2154ef2fe9ebde2352153f87e4729fbcf740e5550790ee4f04c70ffb9cd5e6",
+          "observation": "Original six sand, dark paint, rubber, steel and optics materials preserved; two warm accent colors add restrained edge/seam definition. Independent review sees no objectionable chalk or false joints. Gain is modest at256px and negligible at128px, so this is acceptable static first-pass finish, not completed all-distance readability."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "pbr-r1.png.json",
+          "evidenceSha256": "d6cd3e9ec45700a47370886a2b43f16c5ba052c27402869d7762f6c34f3d4ffe",
+          "observation": "Exact exported PBR views, no source edits by reviewer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-r1.png.json",
+          "evidenceSha256": "c5e3c708ab86d2aaf66593383c1b2e67f8cafa35d44ddba48aa2eb76b2a24a4e",
+          "observation": "256px native rendered views; small improvement."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-128-r1.png.json",
+          "evidenceSha256": "d1b669a0b473d2b81a9bf5d0e681d4352972cd00c8075ebeaeb73d60d6caa7bc",
+          "observation": "128px native rendered views; fine accents mostly vanish."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-closure.json",
+          "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+          "observation": "Independent actual-view critique; no unresolved static core category objection; distance request only partially addressed."
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "df890872a8897c719e2f3aeab633f3d238577958cf7ada7e33880c12feccfd74",
+          "observation": "All six views are current and unclipped. At256px top/front/right-side accents improve local separation; three-quarter gains are weak. At128px tank recognition persists but fine accents largely vanish. Static presentation is coherent; stronger distance treatment is awaiting user direction."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "98dfa4b8c2c4586ac73ac5a1c43ca62b705bfb14d32f8acd776473548233e8ab",
+          "observation": "All six views are current and unclipped. At256px top/front/right-side accents improve local separation; three-quarter gains are weak. At128px tank recognition persists but fine accents largely vanish. Static presentation is coherent; stronger distance treatment is awaiting user direction."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "17a3065cac99e61b6c8b952a5f2beadcc8e4359f46cf634bb74f6b811e51564e",
+          "observation": "All six views are current and unclipped. At256px top/front/right-side accents improve local separation; three-quarter gains are weak. At128px tank recognition persists but fine accents largely vanish. Static presentation is coherent; stronger distance treatment is awaiting user direction."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "eb976a71586212eeb4125c3d8cd9eb9ac5700af6b1c9d4e1b03d32fb22e36858",
+          "observation": "All six views are current and unclipped. At256px top/front/right-side accents improve local separation; three-quarter gains are weak. At128px tank recognition persists but fine accents largely vanish. Static presentation is coherent; stronger distance treatment is awaiting user direction."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "bfd88a0d7da7bf13c67111b8ccb52bed70502c462e34a363c7bb63e91330a7d9",
+          "observation": "All six views are current and unclipped. At256px top/front/right-side accents improve local separation; three-quarter gains are weak. At128px tank recognition persists but fine accents largely vanish. Static presentation is coherent; stronger distance treatment is awaiting user direction."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "dc2154ef2fe9ebde2352153f87e4729fbcf740e5550790ee4f04c70ffb9cd5e6",
+          "observation": "All six views are current and unclipped. At256px top/front/right-side accents improve local separation; three-quarter gains are weak. At128px tank recognition persists but fine accents largely vanish. Static presentation is coherent; stronger distance treatment is awaiting user direction."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "pbr-r1.png.json",
+          "evidenceSha256": "d6cd3e9ec45700a47370886a2b43f16c5ba052c27402869d7762f6c34f3d4ffe",
+          "observation": "Exact exported PBR views, no source edits by reviewer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-r1.png.json",
+          "evidenceSha256": "c5e3c708ab86d2aaf66593383c1b2e67f8cafa35d44ddba48aa2eb76b2a24a4e",
+          "observation": "256px native rendered views; small improvement."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-128-r1.png.json",
+          "evidenceSha256": "d1b669a0b473d2b81a9bf5d0e681d4352972cd00c8075ebeaeb73d60d6caa7bc",
+          "observation": "128px native rendered views; fine accents mostly vanish."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-closure.json",
+          "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+          "observation": "Independent actual-view critique; no unresolved static core category objection; distance request only partially addressed."
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "df890872a8897c719e2f3aeab633f3d238577958cf7ada7e33880c12feccfd74",
+          "observation": "All246 original mesh geometry/material assignments/parents verified against r33 to1micrometer;14new accents parented to12owners. All26 native isolation probes pass.468mask artifacts verified across six views.36408triangles,8materials and270objects fit successor budgets. Staged bundle pinned; no human approval or animation transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "98dfa4b8c2c4586ac73ac5a1c43ca62b705bfb14d32f8acd776473548233e8ab",
+          "observation": "All246 original mesh geometry/material assignments/parents verified against r33 to1micrometer;14new accents parented to12owners. All26 native isolation probes pass.468mask artifacts verified across six views.36408triangles,8materials and270objects fit successor budgets. Staged bundle pinned; no human approval or animation transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "17a3065cac99e61b6c8b952a5f2beadcc8e4359f46cf634bb74f6b811e51564e",
+          "observation": "All246 original mesh geometry/material assignments/parents verified against r33 to1micrometer;14new accents parented to12owners. All26 native isolation probes pass.468mask artifacts verified across six views.36408triangles,8materials and270objects fit successor budgets. Staged bundle pinned; no human approval or animation transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "eb976a71586212eeb4125c3d8cd9eb9ac5700af6b1c9d4e1b03d32fb22e36858",
+          "observation": "All246 original mesh geometry/material assignments/parents verified against r33 to1micrometer;14new accents parented to12owners. All26 native isolation probes pass.468mask artifacts verified across six views.36408triangles,8materials and270objects fit successor budgets. Staged bundle pinned; no human approval or animation transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "bfd88a0d7da7bf13c67111b8ccb52bed70502c462e34a363c7bb63e91330a7d9",
+          "observation": "All246 original mesh geometry/material assignments/parents verified against r33 to1micrometer;14new accents parented to12owners. All26 native isolation probes pass.468mask artifacts verified across six views.36408triangles,8materials and270objects fit successor budgets. Staged bundle pinned; no human approval or animation transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "dc2154ef2fe9ebde2352153f87e4729fbcf740e5550790ee4f04c70ffb9cd5e6",
+          "observation": "All246 original mesh geometry/material assignments/parents verified against r33 to1micrometer;14new accents parented to12owners. All26 native isolation probes pass.468mask artifacts verified across six views.36408triangles,8materials and270objects fit successor budgets. Staged bundle pinned; no human approval or animation transfer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "pbr-r1.png.json",
+          "evidenceSha256": "d6cd3e9ec45700a47370886a2b43f16c5ba052c27402869d7762f6c34f3d4ffe",
+          "observation": "Exact exported PBR views, no source edits by reviewer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-r1.png.json",
+          "evidenceSha256": "c5e3c708ab86d2aaf66593383c1b2e67f8cafa35d44ddba48aa2eb76b2a24a4e",
+          "observation": "256px native rendered views; small improvement."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "recognition-128-r1.png.json",
+          "evidenceSha256": "d1b669a0b473d2b81a9bf5d0e681d4352972cd00c8075ebeaeb73d60d6caa7bc",
+          "observation": "128px native rendered views; fine accents mostly vanish."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "opus-closure.json",
+          "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+          "observation": "Independent actual-view critique; no unresolved static core category objection; distance request only partially addressed."
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "begin-input.json",
+          "evidenceSha256": "462c598ed7719beb7651081542db11abb09ebc943b51b98c3bec8535a7f95e75",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "render-r1.json",
+          "evidenceSha256": "ea80fb7c356af50853397da5aa8da1b5b06b6a4cca5d3ac5a9858702d4e0fafa",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "export-audit-r1.json",
+          "evidenceSha256": "64a645abeeb5dad0b9e9b68cc0a5b4e824c6600ecb0a530676f291863f982ed5",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "dimension-r1.json",
+          "evidenceSha256": "664f94ac56ed2c6591a68c3a4182bada993770dc835d145d9801ce34b9616a2f",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "baseline-r1.json",
+          "evidenceSha256": "8ac1814a3c10377b9cb107c6244e09883dc441ded5b52ff2823344e8b1f2daf2",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "validation-r1.json",
+          "evidenceSha256": "234317b14eefd724d13d37aee6fdc9874703e6b7d9a2530cb0e308cd712346b2",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "validation-r1.json",
+          "evidenceSha256": "234317b14eefd724d13d37aee6fdc9874703e6b7d9a2530cb0e308cd712346b2",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "component-plan.json",
+          "evidenceSha256": "89ba982eb6bccdeccc87b2891acbfce4ff4351cd5c274406059887f1e8ade82b",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "bundle-r1.json",
+          "evidenceSha256": "75084dc9c2daaaa95289a2329abc8927467f6130522ce707476444559f3ec4fc",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "../reference-ingest.json",
+          "evidenceSha256": "e493bc0c14a43b97e1ce2d0dfe830e2f242548a51815469006a651834caf8e7f",
+          "observation": "Current static-source evidence only; distance readability incomplete at128px and motion unqualified."
+        }
+      ]
+    }
+  ],
+  "adversarialReview": {
+    "reviewedBy": "Claude Code claude-opus-5-5",
+    "reviewedAt": "2026-10-28T15:22:10.908Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "At128px recognition depends on original shape; accents add almost nothing.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "opus-review.json",
+            "evidenceSha256": "8480d8761eb228a62e1f19bb03656a05bab41a5a7823ba5d0c249080e790e33c",
+            "observation": "Initial adversarial review."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+            "observation": "Actual128px follow-up: no unresolved static-source core objection; modest improvement only."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "export-audit-r1.json",
+            "evidenceSha256": "64a645abeeb5dad0b9e9b68cc0a5b4e824c6600ecb0a530676f291863f982ed5",
+            "observation": "Primary exact actual export comparison."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "mask-verification-r1.json",
+            "evidenceSha256": "ce9e59570ea09460a22ad75b1d04b0166838013c7a2bf9e8b444e810c052a457",
+            "observation": "Primary verified current component coverage receipts and hashes."
+          }
+        ]
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "Antennae dominate some silhouettes; surface accents must not distort approved shapes.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "opus-review.json",
+            "evidenceSha256": "8480d8761eb228a62e1f19bb03656a05bab41a5a7823ba5d0c249080e790e33c",
+            "observation": "Initial adversarial review."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+            "observation": "Actual128px follow-up: no unresolved static-source core objection; modest improvement only."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "export-audit-r1.json",
+            "evidenceSha256": "64a645abeeb5dad0b9e9b68cc0a5b4e824c6600ecb0a530676f291863f982ed5",
+            "observation": "Primary exact actual export comparison."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "mask-verification-r1.json",
+            "evidenceSha256": "ce9e59570ea09460a22ad75b1d04b0166838013c7a2bf9e8b444e810c052a457",
+            "observation": "Primary verified current component coverage receipts and hashes."
+          }
+        ]
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "Lines could imply invented joints; driver hatch and turret/deck separation remain weak.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "opus-review.json",
+            "evidenceSha256": "8480d8761eb228a62e1f19bb03656a05bab41a5a7823ba5d0c249080e790e33c",
+            "observation": "Initial adversarial review."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+            "observation": "Actual128px follow-up: no unresolved static-source core objection; modest improvement only."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "export-audit-r1.json",
+            "evidenceSha256": "64a645abeeb5dad0b9e9b68cc0a5b4e824c6600ecb0a530676f291863f982ed5",
+            "observation": "Primary exact actual export comparison."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "mask-verification-r1.json",
+            "evidenceSha256": "ce9e59570ea09460a22ad75b1d04b0166838013c7a2bf9e8b444e810c052a457",
+            "observation": "Primary verified current component coverage receipts and hashes."
+          }
+        ]
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "Thin surface relief could suffer runtime depth artifacts; actual export ownership and native checks required.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "opus-review.json",
+            "evidenceSha256": "8480d8761eb228a62e1f19bb03656a05bab41a5a7823ba5d0c249080e790e33c",
+            "observation": "Initial adversarial review."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "evidenceSha256": "ebfb36506e3c04e8dcabec239eadf2eddd02552f6595e2dc03e124c15de0e61c",
+            "observation": "Actual128px follow-up: no unresolved static-source core objection; modest improvement only."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "export-audit-r1.json",
+            "evidenceSha256": "64a645abeeb5dad0b9e9b68cc0a5b4e824c6600ecb0a530676f291863f982ed5",
+            "observation": "Primary exact actual export comparison."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "mask-verification-r1.json",
+            "evidenceSha256": "ce9e59570ea09460a22ad75b1d04b0166838013c7a2bf9e8b444e810c052a457",
+            "observation": "Primary verified current component coverage receipts and hashes."
+          }
+        ]
+      }
+    ]
+  }
+}

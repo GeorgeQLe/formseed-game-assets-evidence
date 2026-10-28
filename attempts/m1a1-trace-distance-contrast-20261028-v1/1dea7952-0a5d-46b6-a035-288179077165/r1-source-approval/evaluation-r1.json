@@ -1,0 +1,885 @@
+{
+  "assessment": {
+    "schemaVersion": "2.0.0",
+    "assessmentId": "m1a1-distance-contrast-r1-static-source-20261028",
+    "rubric": {
+      "rubricId": "model-quality",
+      "version": "1.0.0"
+    },
+    "subject": {
+      "assetId": "m1a1-trace-distance-contrast-20261028-v1",
+      "revisionId": "main-r1",
+      "revision": 1
+    },
+    "evidenceSet": {
+      "revision": 1,
+      "checkpointSha256": "e880df5bff9a4aee6d84cc9e34201547d0ecef1fa2c7ac6dd262a3a276dc3098",
+      "renderSetSha256": "e790438be5b46342d428d841437bf0161e0c436840f5f2cadc3fd6ff0ba0672f",
+      "requiredViews": [
+        {
+          "viewId": "front-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "af9115d3698945d084ad9518ccc2e62af0760cd7fe3f01d0136ee63df89c6b17"
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f1daa23e841733042778ab56ce542a29367141d563d7f1d053059fb2e7b84add"
+        },
+        {
+          "viewId": "front",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "65287865c2313980d18e62ed2ebbabb6043a6f28ee75db33a9329d5088e58ae5"
+        },
+        {
+          "viewId": "left",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bc5a7fa36abc6e1ba72779362257842d007a6b0a9c43265f3380f93b1dcf61e6"
+        },
+        {
+          "viewId": "right",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5d51ec2a1c417f4d4cb8d12bea14d7a220a3e98e0756e6c36be946b1dc614561"
+        },
+        {
+          "viewId": "top",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "621d2939a9771fd6b30f7a9177b432bac85ff3db192e61d55f878f50f6be8c6a"
+        }
+      ],
+      "validation": {
+        "reportId": "1db3f6ce-4594-4a43-9e93-2868e45ba284",
+        "revision": 1,
+        "checkpointSha256": "e880df5bff9a4aee6d84cc9e34201547d0ecef1fa2c7ac6dd262a3a276dc3098",
+        "passed": true,
+        "current": true,
+        "deterministic": true
+      }
+    },
+    "scores": [
+      {
+        "categoryId": "identity-recognition",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Native and exact-GLB256px views retain low angular M1A1 turret cheeks, long gun, seven-wheel skirted stance, open rear basket, roof stations and absent CITV. These distinguish the established trace-derived identity from rounded-turret and tall-profile neighbors.128px broad separation improves top/front without changing recognition cues.",
+            "evidenceSha256": "af9115d3698945d084ad9518ccc2e62af0760cd7fe3f01d0136ee63df89c6b17"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Native and exact-GLB256px views retain low angular M1A1 turret cheeks, long gun, seven-wheel skirted stance, open rear basket, roof stations and absent CITV. These distinguish the established trace-derived identity from rounded-turret and tall-profile neighbors.128px broad separation improves top/front without changing recognition cues.",
+            "evidenceSha256": "f1daa23e841733042778ab56ce542a29367141d563d7f1d053059fb2e7b84add"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Native and exact-GLB256px views retain low angular M1A1 turret cheeks, long gun, seven-wheel skirted stance, open rear basket, roof stations and absent CITV. These distinguish the established trace-derived identity from rounded-turret and tall-profile neighbors.128px broad separation improves top/front without changing recognition cues.",
+            "evidenceSha256": "65287865c2313980d18e62ed2ebbabb6043a6f28ee75db33a9329d5088e58ae5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Native and exact-GLB256px views retain low angular M1A1 turret cheeks, long gun, seven-wheel skirted stance, open rear basket, roof stations and absent CITV. These distinguish the established trace-derived identity from rounded-turret and tall-profile neighbors.128px broad separation improves top/front without changing recognition cues.",
+            "evidenceSha256": "bc5a7fa36abc6e1ba72779362257842d007a6b0a9c43265f3380f93b1dcf61e6"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Native and exact-GLB256px views retain low angular M1A1 turret cheeks, long gun, seven-wheel skirted stance, open rear basket, roof stations and absent CITV. These distinguish the established trace-derived identity from rounded-turret and tall-profile neighbors.128px broad separation improves top/front without changing recognition cues.",
+            "evidenceSha256": "5d51ec2a1c417f4d4cb8d12bea14d7a220a3e98e0756e6c36be946b1dc614561"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Native and exact-GLB256px views retain low angular M1A1 turret cheeks, long gun, seven-wheel skirted stance, open rear basket, roof stations and absent CITV. These distinguish the established trace-derived identity from rounded-turret and tall-profile neighbors.128px broad separation improves top/front without changing recognition cues.",
+            "evidenceSha256": "621d2939a9771fd6b30f7a9177b432bac85ff3db192e61d55f878f50f6be8c6a"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "pbr-r1.png.json",
+            "observation": "Exact exported PBR views; broad material-only zones.",
+            "evidenceSha256": "52e26235782152280a48fa719c4e32a93e3db7271e77482d6bcf5c08ac0a1189"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r1.png.json",
+            "observation": "Native256px render for all six views.",
+            "evidenceSha256": "719d75ce089db7b44db51e5d053c499f9b1cd4c0814512e198b42273cfe2b5db"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-128-r1.png.json",
+            "observation": "Actual128px render; direction-dependent moderate improvement.",
+            "evidenceSha256": "93f3b43810cd088b59bc93896d261277250620daa9ae1d84a7bb26d83459bca8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "observation": "Independent final review and technical objection closure.",
+            "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+          }
+        ],
+        "recognition": {
+          "thumbnailPixels": 256,
+          "nearestNeighbors": [
+            "M1 with105mm gun",
+            "M1A2 withCITV",
+            "Leopard2"
+          ],
+          "distinguishers": [
+            "120mm-style barrel and bore evacuator rather than105mm external profile",
+            "M1A1 cupola arrangement without M1A2 CITV",
+            "Abrams wedge/bustle massing and skirted seven-wheel stance; roof weapons are simplified"
+          ]
+        }
+      },
+      {
+        "categoryId": "proportion-mass",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Native six views retain grounded hull, low broad turret, long centered gun and complete wheel/shoe stance. Exact comparison preserves260mesh geometry and parents;28nominal dimension criteria pass. This is preserved accepted trace construction, not historical engineering certification.",
+            "evidenceSha256": "af9115d3698945d084ad9518ccc2e62af0760cd7fe3f01d0136ee63df89c6b17"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Native six views retain grounded hull, low broad turret, long centered gun and complete wheel/shoe stance. Exact comparison preserves260mesh geometry and parents;28nominal dimension criteria pass. This is preserved accepted trace construction, not historical engineering certification.",
+            "evidenceSha256": "f1daa23e841733042778ab56ce542a29367141d563d7f1d053059fb2e7b84add"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Native six views retain grounded hull, low broad turret, long centered gun and complete wheel/shoe stance. Exact comparison preserves260mesh geometry and parents;28nominal dimension criteria pass. This is preserved accepted trace construction, not historical engineering certification.",
+            "evidenceSha256": "65287865c2313980d18e62ed2ebbabb6043a6f28ee75db33a9329d5088e58ae5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Native six views retain grounded hull, low broad turret, long centered gun and complete wheel/shoe stance. Exact comparison preserves260mesh geometry and parents;28nominal dimension criteria pass. This is preserved accepted trace construction, not historical engineering certification.",
+            "evidenceSha256": "bc5a7fa36abc6e1ba72779362257842d007a6b0a9c43265f3380f93b1dcf61e6"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Native six views retain grounded hull, low broad turret, long centered gun and complete wheel/shoe stance. Exact comparison preserves260mesh geometry and parents;28nominal dimension criteria pass. This is preserved accepted trace construction, not historical engineering certification.",
+            "evidenceSha256": "5d51ec2a1c417f4d4cb8d12bea14d7a220a3e98e0756e6c36be946b1dc614561"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Native six views retain grounded hull, low broad turret, long centered gun and complete wheel/shoe stance. Exact comparison preserves260mesh geometry and parents;28nominal dimension criteria pass. This is preserved accepted trace construction, not historical engineering certification.",
+            "evidenceSha256": "621d2939a9771fd6b30f7a9177b432bac85ff3db192e61d55f878f50f6be8c6a"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "pbr-r1.png.json",
+            "observation": "Exact exported PBR views; broad material-only zones.",
+            "evidenceSha256": "52e26235782152280a48fa719c4e32a93e3db7271e77482d6bcf5c08ac0a1189"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r1.png.json",
+            "observation": "Native256px render for all six views.",
+            "evidenceSha256": "719d75ce089db7b44db51e5d053c499f9b1cd4c0814512e198b42273cfe2b5db"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-128-r1.png.json",
+            "observation": "Actual128px render; direction-dependent moderate improvement.",
+            "evidenceSha256": "93f3b43810cd088b59bc93896d261277250620daa9ae1d84a7bb26d83459bca8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "observation": "Independent final review and technical objection closure.",
+            "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+          }
+        ]
+      },
+      {
+        "categoryId": "silhouette",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All six views retain hull/turret/gun dominance, open basket, distinct running gear and slender antennas. No silhouette change or new protrusions from this material-only pass; narrow antennae remain subordinate in three-quarter and side views.",
+            "evidenceSha256": "af9115d3698945d084ad9518ccc2e62af0760cd7fe3f01d0136ee63df89c6b17"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All six views retain hull/turret/gun dominance, open basket, distinct running gear and slender antennas. No silhouette change or new protrusions from this material-only pass; narrow antennae remain subordinate in three-quarter and side views.",
+            "evidenceSha256": "f1daa23e841733042778ab56ce542a29367141d563d7f1d053059fb2e7b84add"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All six views retain hull/turret/gun dominance, open basket, distinct running gear and slender antennas. No silhouette change or new protrusions from this material-only pass; narrow antennae remain subordinate in three-quarter and side views.",
+            "evidenceSha256": "65287865c2313980d18e62ed2ebbabb6043a6f28ee75db33a9329d5088e58ae5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All six views retain hull/turret/gun dominance, open basket, distinct running gear and slender antennas. No silhouette change or new protrusions from this material-only pass; narrow antennae remain subordinate in three-quarter and side views.",
+            "evidenceSha256": "bc5a7fa36abc6e1ba72779362257842d007a6b0a9c43265f3380f93b1dcf61e6"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All six views retain hull/turret/gun dominance, open basket, distinct running gear and slender antennas. No silhouette change or new protrusions from this material-only pass; narrow antennae remain subordinate in three-quarter and side views.",
+            "evidenceSha256": "5d51ec2a1c417f4d4cb8d12bea14d7a220a3e98e0756e6c36be946b1dc614561"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All six views retain hull/turret/gun dominance, open basket, distinct running gear and slender antennas. No silhouette change or new protrusions from this material-only pass; narrow antennae remain subordinate in three-quarter and side views.",
+            "evidenceSha256": "621d2939a9771fd6b30f7a9177b432bac85ff3db192e61d55f878f50f6be8c6a"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "pbr-r1.png.json",
+            "observation": "Exact exported PBR views; broad material-only zones.",
+            "evidenceSha256": "52e26235782152280a48fa719c4e32a93e3db7271e77482d6bcf5c08ac0a1189"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r1.png.json",
+            "observation": "Native256px render for all six views.",
+            "evidenceSha256": "719d75ce089db7b44db51e5d053c499f9b1cd4c0814512e198b42273cfe2b5db"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-128-r1.png.json",
+            "observation": "Actual128px render; direction-dependent moderate improvement.",
+            "evidenceSha256": "93f3b43810cd088b59bc93896d261277250620daa9ae1d84a7bb26d83459bca8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "observation": "Independent final review and technical objection closure.",
+            "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+          }
+        ]
+      },
+      {
+        "categoryId": "form-hierarchy",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Continuous light turret roof/body, midtone cheek shoulders and darker mantlet establish clear broad zones. Existing stowage remains distinct. Hatches read as closed midtone discs. At128px top and front-three-quarter organization improves; side-view gains negligible.",
+            "evidenceSha256": "af9115d3698945d084ad9518ccc2e62af0760cd7fe3f01d0136ee63df89c6b17"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Continuous light turret roof/body, midtone cheek shoulders and darker mantlet establish clear broad zones. Existing stowage remains distinct. Hatches read as closed midtone discs. At128px top and front-three-quarter organization improves; side-view gains negligible.",
+            "evidenceSha256": "f1daa23e841733042778ab56ce542a29367141d563d7f1d053059fb2e7b84add"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Continuous light turret roof/body, midtone cheek shoulders and darker mantlet establish clear broad zones. Existing stowage remains distinct. Hatches read as closed midtone discs. At128px top and front-three-quarter organization improves; side-view gains negligible.",
+            "evidenceSha256": "65287865c2313980d18e62ed2ebbabb6043a6f28ee75db33a9329d5088e58ae5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Continuous light turret roof/body, midtone cheek shoulders and darker mantlet establish clear broad zones. Existing stowage remains distinct. Hatches read as closed midtone discs. At128px top and front-three-quarter organization improves; side-view gains negligible.",
+            "evidenceSha256": "bc5a7fa36abc6e1ba72779362257842d007a6b0a9c43265f3380f93b1dcf61e6"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Continuous light turret roof/body, midtone cheek shoulders and darker mantlet establish clear broad zones. Existing stowage remains distinct. Hatches read as closed midtone discs. At128px top and front-three-quarter organization improves; side-view gains negligible.",
+            "evidenceSha256": "5d51ec2a1c417f4d4cb8d12bea14d7a220a3e98e0756e6c36be946b1dc614561"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Continuous light turret roof/body, midtone cheek shoulders and darker mantlet establish clear broad zones. Existing stowage remains distinct. Hatches read as closed midtone discs. At128px top and front-three-quarter organization improves; side-view gains negligible.",
+            "evidenceSha256": "621d2939a9771fd6b30f7a9177b432bac85ff3db192e61d55f878f50f6be8c6a"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "pbr-r1.png.json",
+            "observation": "Exact exported PBR views; broad material-only zones.",
+            "evidenceSha256": "52e26235782152280a48fa719c4e32a93e3db7271e77482d6bcf5c08ac0a1189"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r1.png.json",
+            "observation": "Native256px render for all six views.",
+            "evidenceSha256": "719d75ce089db7b44db51e5d053c499f9b1cd4c0814512e198b42273cfe2b5db"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-128-r1.png.json",
+            "observation": "Actual128px render; direction-dependent moderate improvement.",
+            "evidenceSha256": "93f3b43810cd088b59bc93896d261277250620daa9ae1d84a7bb26d83459bca8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "observation": "Independent final review and technical objection closure.",
+            "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+          }
+        ]
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Paint boundaries follow existing separate armor, lid and mantlet surfaces. No new holes, floating elements, unsupported joins or implied openings. Narrow light side band follows visible component geometry; final independent review found no visual core defect. Motion qualification remains separate.",
+            "evidenceSha256": "af9115d3698945d084ad9518ccc2e62af0760cd7fe3f01d0136ee63df89c6b17"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Paint boundaries follow existing separate armor, lid and mantlet surfaces. No new holes, floating elements, unsupported joins or implied openings. Narrow light side band follows visible component geometry; final independent review found no visual core defect. Motion qualification remains separate.",
+            "evidenceSha256": "f1daa23e841733042778ab56ce542a29367141d563d7f1d053059fb2e7b84add"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Paint boundaries follow existing separate armor, lid and mantlet surfaces. No new holes, floating elements, unsupported joins or implied openings. Narrow light side band follows visible component geometry; final independent review found no visual core defect. Motion qualification remains separate.",
+            "evidenceSha256": "65287865c2313980d18e62ed2ebbabb6043a6f28ee75db33a9329d5088e58ae5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Paint boundaries follow existing separate armor, lid and mantlet surfaces. No new holes, floating elements, unsupported joins or implied openings. Narrow light side band follows visible component geometry; final independent review found no visual core defect. Motion qualification remains separate.",
+            "evidenceSha256": "bc5a7fa36abc6e1ba72779362257842d007a6b0a9c43265f3380f93b1dcf61e6"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Paint boundaries follow existing separate armor, lid and mantlet surfaces. No new holes, floating elements, unsupported joins or implied openings. Narrow light side band follows visible component geometry; final independent review found no visual core defect. Motion qualification remains separate.",
+            "evidenceSha256": "5d51ec2a1c417f4d4cb8d12bea14d7a220a3e98e0756e6c36be946b1dc614561"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Paint boundaries follow existing separate armor, lid and mantlet surfaces. No new holes, floating elements, unsupported joins or implied openings. Narrow light side band follows visible component geometry; final independent review found no visual core defect. Motion qualification remains separate.",
+            "evidenceSha256": "621d2939a9771fd6b30f7a9177b432bac85ff3db192e61d55f878f50f6be8c6a"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "pbr-r1.png.json",
+            "observation": "Exact exported PBR views; broad material-only zones.",
+            "evidenceSha256": "52e26235782152280a48fa719c4e32a93e3db7271e77482d6bcf5c08ac0a1189"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r1.png.json",
+            "observation": "Native256px render for all six views.",
+            "evidenceSha256": "719d75ce089db7b44db51e5d053c499f9b1cd4c0814512e198b42273cfe2b5db"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-128-r1.png.json",
+            "observation": "Actual128px render; direction-dependent moderate improvement.",
+            "evidenceSha256": "93f3b43810cd088b59bc93896d261277250620daa9ae1d84a7bb26d83459bca8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "observation": "Independent final review and technical objection closure.",
+            "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+          }
+        ]
+      },
+      {
+        "categoryId": "surface-material",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Two new warm matte paint values retain coherent desert palette. Mantlet uses existing darkerpaint; all8old material datablocks and rubber/steel/glass faces preserved. Roof accents are slightly lower contrast but remain subordinate. No patchwork or false open-hatch reading observed.",
+            "evidenceSha256": "af9115d3698945d084ad9518ccc2e62af0760cd7fe3f01d0136ee63df89c6b17"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Two new warm matte paint values retain coherent desert palette. Mantlet uses existing darkerpaint; all8old material datablocks and rubber/steel/glass faces preserved. Roof accents are slightly lower contrast but remain subordinate. No patchwork or false open-hatch reading observed.",
+            "evidenceSha256": "f1daa23e841733042778ab56ce542a29367141d563d7f1d053059fb2e7b84add"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Two new warm matte paint values retain coherent desert palette. Mantlet uses existing darkerpaint; all8old material datablocks and rubber/steel/glass faces preserved. Roof accents are slightly lower contrast but remain subordinate. No patchwork or false open-hatch reading observed.",
+            "evidenceSha256": "65287865c2313980d18e62ed2ebbabb6043a6f28ee75db33a9329d5088e58ae5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Two new warm matte paint values retain coherent desert palette. Mantlet uses existing darkerpaint; all8old material datablocks and rubber/steel/glass faces preserved. Roof accents are slightly lower contrast but remain subordinate. No patchwork or false open-hatch reading observed.",
+            "evidenceSha256": "bc5a7fa36abc6e1ba72779362257842d007a6b0a9c43265f3380f93b1dcf61e6"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Two new warm matte paint values retain coherent desert palette. Mantlet uses existing darkerpaint; all8old material datablocks and rubber/steel/glass faces preserved. Roof accents are slightly lower contrast but remain subordinate. No patchwork or false open-hatch reading observed.",
+            "evidenceSha256": "5d51ec2a1c417f4d4cb8d12bea14d7a220a3e98e0756e6c36be946b1dc614561"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Two new warm matte paint values retain coherent desert palette. Mantlet uses existing darkerpaint; all8old material datablocks and rubber/steel/glass faces preserved. Roof accents are slightly lower contrast but remain subordinate. No patchwork or false open-hatch reading observed.",
+            "evidenceSha256": "621d2939a9771fd6b30f7a9177b432bac85ff3db192e61d55f878f50f6be8c6a"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "pbr-r1.png.json",
+            "observation": "Exact exported PBR views; broad material-only zones.",
+            "evidenceSha256": "52e26235782152280a48fa719c4e32a93e3db7271e77482d6bcf5c08ac0a1189"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r1.png.json",
+            "observation": "Native256px render for all six views.",
+            "evidenceSha256": "719d75ce089db7b44db51e5d053c499f9b1cd4c0814512e198b42273cfe2b5db"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-128-r1.png.json",
+            "observation": "Actual128px render; direction-dependent moderate improvement.",
+            "evidenceSha256": "93f3b43810cd088b59bc93896d261277250620daa9ae1d84a7bb26d83459bca8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "observation": "Independent final review and technical objection closure.",
+            "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+          }
+        ]
+      },
+      {
+        "categoryId": "viewpoint-robustness",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All six native and PBR views are current and unclipped.128px improvement is moderate in top/front-three-quarter, slight front, marginal rear-three-quarter and negligible sides. Whole-model coherence is retained in weakest views; no claim of equal all-angle improvement.",
+            "evidenceSha256": "af9115d3698945d084ad9518ccc2e62af0760cd7fe3f01d0136ee63df89c6b17"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All six native and PBR views are current and unclipped.128px improvement is moderate in top/front-three-quarter, slight front, marginal rear-three-quarter and negligible sides. Whole-model coherence is retained in weakest views; no claim of equal all-angle improvement.",
+            "evidenceSha256": "f1daa23e841733042778ab56ce542a29367141d563d7f1d053059fb2e7b84add"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All six native and PBR views are current and unclipped.128px improvement is moderate in top/front-three-quarter, slight front, marginal rear-three-quarter and negligible sides. Whole-model coherence is retained in weakest views; no claim of equal all-angle improvement.",
+            "evidenceSha256": "65287865c2313980d18e62ed2ebbabb6043a6f28ee75db33a9329d5088e58ae5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All six native and PBR views are current and unclipped.128px improvement is moderate in top/front-three-quarter, slight front, marginal rear-three-quarter and negligible sides. Whole-model coherence is retained in weakest views; no claim of equal all-angle improvement.",
+            "evidenceSha256": "bc5a7fa36abc6e1ba72779362257842d007a6b0a9c43265f3380f93b1dcf61e6"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All six native and PBR views are current and unclipped.128px improvement is moderate in top/front-three-quarter, slight front, marginal rear-three-quarter and negligible sides. Whole-model coherence is retained in weakest views; no claim of equal all-angle improvement.",
+            "evidenceSha256": "5d51ec2a1c417f4d4cb8d12bea14d7a220a3e98e0756e6c36be946b1dc614561"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All six native and PBR views are current and unclipped.128px improvement is moderate in top/front-three-quarter, slight front, marginal rear-three-quarter and negligible sides. Whole-model coherence is retained in weakest views; no claim of equal all-angle improvement.",
+            "evidenceSha256": "621d2939a9771fd6b30f7a9177b432bac85ff3db192e61d55f878f50f6be8c6a"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "pbr-r1.png.json",
+            "observation": "Exact exported PBR views; broad material-only zones.",
+            "evidenceSha256": "52e26235782152280a48fa719c4e32a93e3db7271e77482d6bcf5c08ac0a1189"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r1.png.json",
+            "observation": "Native256px render for all six views.",
+            "evidenceSha256": "719d75ce089db7b44db51e5d053c499f9b1cd4c0814512e198b42273cfe2b5db"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-128-r1.png.json",
+            "observation": "Actual128px render; direction-dependent moderate improvement.",
+            "evidenceSha256": "93f3b43810cd088b59bc93896d261277250620daa9ae1d84a7bb26d83459bca8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "observation": "Independent final review and technical objection closure.",
+            "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+          }
+        ]
+      },
+      {
+        "categoryId": "production-integrity",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "260meshes36408triangles10materials270objects within budgets. Exact per-triangle geometry/material substitution audit passes for all260components, parents preserved.7native isolation probes pass,126component maskhashes verified across6views.28dimensioncriteria and deterministic baseline pass; bundle staged; human approval absent.",
+            "evidenceSha256": "af9115d3698945d084ad9518ccc2e62af0760cd7fe3f01d0136ee63df89c6b17"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "260meshes36408triangles10materials270objects within budgets. Exact per-triangle geometry/material substitution audit passes for all260components, parents preserved.7native isolation probes pass,126component maskhashes verified across6views.28dimensioncriteria and deterministic baseline pass; bundle staged; human approval absent.",
+            "evidenceSha256": "f1daa23e841733042778ab56ce542a29367141d563d7f1d053059fb2e7b84add"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "260meshes36408triangles10materials270objects within budgets. Exact per-triangle geometry/material substitution audit passes for all260components, parents preserved.7native isolation probes pass,126component maskhashes verified across6views.28dimensioncriteria and deterministic baseline pass; bundle staged; human approval absent.",
+            "evidenceSha256": "65287865c2313980d18e62ed2ebbabb6043a6f28ee75db33a9329d5088e58ae5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "260meshes36408triangles10materials270objects within budgets. Exact per-triangle geometry/material substitution audit passes for all260components, parents preserved.7native isolation probes pass,126component maskhashes verified across6views.28dimensioncriteria and deterministic baseline pass; bundle staged; human approval absent.",
+            "evidenceSha256": "bc5a7fa36abc6e1ba72779362257842d007a6b0a9c43265f3380f93b1dcf61e6"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "260meshes36408triangles10materials270objects within budgets. Exact per-triangle geometry/material substitution audit passes for all260components, parents preserved.7native isolation probes pass,126component maskhashes verified across6views.28dimensioncriteria and deterministic baseline pass; bundle staged; human approval absent.",
+            "evidenceSha256": "5d51ec2a1c417f4d4cb8d12bea14d7a220a3e98e0756e6c36be946b1dc614561"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "260meshes36408triangles10materials270objects within budgets. Exact per-triangle geometry/material substitution audit passes for all260components, parents preserved.7native isolation probes pass,126component maskhashes verified across6views.28dimensioncriteria and deterministic baseline pass; bundle staged; human approval absent.",
+            "evidenceSha256": "621d2939a9771fd6b30f7a9177b432bac85ff3db192e61d55f878f50f6be8c6a"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "pbr-r1.png.json",
+            "observation": "Exact exported PBR views; broad material-only zones.",
+            "evidenceSha256": "52e26235782152280a48fa719c4e32a93e3db7271e77482d6bcf5c08ac0a1189"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-r1.png.json",
+            "observation": "Native256px render for all six views.",
+            "evidenceSha256": "719d75ce089db7b44db51e5d053c499f9b1cd4c0814512e198b42273cfe2b5db"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "recognition-128-r1.png.json",
+            "observation": "Actual128px render; direction-dependent moderate improvement.",
+            "evidenceSha256": "93f3b43810cd088b59bc93896d261277250620daa9ae1d84a7bb26d83459bca8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-closure.json",
+            "observation": "Independent final review and technical objection closure.",
+            "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+          }
+        ]
+      }
+    ],
+    "gates": [
+      {
+        "gateId": "identity-authority",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "begin-input.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "86c7f0be5fbb60b36b00a6b4ffa4fe923bf38b7b1bfb41704b7cf97fcfa87856"
+          }
+        ]
+      },
+      {
+        "gateId": "required-views",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "render-r1.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "b304a44826002a445c15876b749a2b5ec7046d999865ebfd05b0d73a39f1f637"
+          }
+        ]
+      },
+      {
+        "gateId": "structural-plausibility",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "export-audit-r1.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "b144eaae30191b105e55b5296623a014da58385ed0ca5d563d3a1baac0c65bf6"
+          }
+        ]
+      },
+      {
+        "gateId": "transform-grounding",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "dimension-r1.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "ab1dddfbe936e3be43173030255dfef641accbb198a203e4c9333f8f86a16f6d"
+          }
+        ]
+      },
+      {
+        "gateId": "deterministic-output",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "baseline-r1.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "7d4cab970c9436bd204c435131edb2f90fcfd13d3b1236d1865e08ea4bbff6f8"
+          }
+        ]
+      },
+      {
+        "gateId": "current-validation",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "validation-r1.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "325f2e3734e6ae602c2f951daac9963521ac2eed65a1a945b11c213bbe781329"
+          }
+        ]
+      },
+      {
+        "gateId": "budgets",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "validation-r1.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "325f2e3734e6ae602c2f951daac9963521ac2eed65a1a945b11c213bbe781329"
+          }
+        ]
+      },
+      {
+        "gateId": "explained-content",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "component-plan-v3.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "835d068bf3fbb8c1ffe70c6f2f09687dc4bcc50dae09684e5b4e3e4991ab86fe"
+          }
+        ]
+      },
+      {
+        "gateId": "artifact-integrity",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "bundle-r1.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "edeeb844aaf47d1a15c0e0608474c57a5fbe4a80423fcde442c1dd9623c24a75"
+          }
+        ]
+      },
+      {
+        "gateId": "copying-rights",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "../reference-ingest.json",
+            "observation": "Current static-source evidence; no motion or human approval transfer.",
+            "evidenceSha256": "e493bc0c14a43b97e1ce2d0dfe830e2f242548a51815469006a651834caf8e7f"
+          }
+        ]
+      }
+    ],
+    "assessedBy": "Codex /root",
+    "assessedAt": "2026-10-28T15:56:27.568Z",
+    "adversarialReview": {
+      "reviewedBy": "Claude Code claude-opus-5-5",
+      "reviewedAt": "2026-10-28T15:56:27.568Z",
+      "coreCategoryObjections": [
+        {
+          "categoryId": "identity-recognition",
+          "strongestReasonBelowThree": "128px side views gain nothing and identity could depend on a favored view.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final.json",
+              "observation": "Independent actual-image visual critique.",
+              "evidenceSha256": "a8e5607af38f8883e9d3fb82315942c5f17e80b33652fda3c0ea154ae1d913e0"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-closure.json",
+              "observation": "Final independent evidence closure.",
+              "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "export-audit-r1.json",
+              "observation": "Actual export per-triangle preservation with only planned paint substitutions.",
+              "evidenceSha256": "b144eaae30191b105e55b5296623a014da58385ed0ca5d563d3a1baac0c65bf6"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "technical-closure.json",
+              "observation": "Exact dimension aggregate, isolation checks and source hashes.",
+              "evidenceSha256": "d7c21b3667c49e6bbe4288b99c2f858f23f731629495daada8be741d7ddd3cd7"
+            }
+          ]
+        },
+        {
+          "categoryId": "silhouette",
+          "strongestReasonBelowThree": "Thin antennas dominate the front outline; material change cannot fix an inherited silhouette defect.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final.json",
+              "observation": "Independent actual-image visual critique.",
+              "evidenceSha256": "a8e5607af38f8883e9d3fb82315942c5f17e80b33652fda3c0ea154ae1d913e0"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-closure.json",
+              "observation": "Final independent evidence closure.",
+              "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "export-audit-r1.json",
+              "observation": "Actual export per-triangle preservation with only planned paint substitutions.",
+              "evidenceSha256": "b144eaae30191b105e55b5296623a014da58385ed0ca5d563d3a1baac0c65bf6"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "technical-closure.json",
+              "observation": "Exact dimension aggregate, isolation checks and source hashes.",
+              "evidenceSha256": "d7c21b3667c49e6bbe4288b99c2f858f23f731629495daada8be741d7ddd3cd7"
+            }
+          ]
+        },
+        {
+          "categoryId": "mechanical-coherence",
+          "strongestReasonBelowThree": "Dark mantlet and narrow light side band could suggest an invented joint or wrong construction.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final.json",
+              "observation": "Independent actual-image visual critique.",
+              "evidenceSha256": "a8e5607af38f8883e9d3fb82315942c5f17e80b33652fda3c0ea154ae1d913e0"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-closure.json",
+              "observation": "Final independent evidence closure.",
+              "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "export-audit-r1.json",
+              "observation": "Actual export per-triangle preservation with only planned paint substitutions.",
+              "evidenceSha256": "b144eaae30191b105e55b5296623a014da58385ed0ca5d563d3a1baac0c65bf6"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "technical-closure.json",
+              "observation": "Exact dimension aggregate, isolation checks and source hashes.",
+              "evidenceSha256": "d7c21b3667c49e6bbe4288b99c2f858f23f731629495daada8be741d7ddd3cd7"
+            }
+          ]
+        },
+        {
+          "categoryId": "production-integrity",
+          "strongestReasonBelowThree": "Material slots might recolor nonpaint surfaces; native separation, actual export and current dimensions must be proven.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final.json",
+              "observation": "Independent actual-image visual critique.",
+              "evidenceSha256": "a8e5607af38f8883e9d3fb82315942c5f17e80b33652fda3c0ea154ae1d913e0"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-closure.json",
+              "observation": "Final independent evidence closure.",
+              "evidenceSha256": "3e39aa2ee14874cedd71f7a68d871ba51285385de1c9776b6709dd23995f219e"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "export-audit-r1.json",
+              "observation": "Actual export per-triangle preservation with only planned paint substitutions.",
+              "evidenceSha256": "b144eaae30191b105e55b5296623a014da58385ed0ca5d563d3a1baac0c65bf6"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "technical-closure.json",
+              "observation": "Exact dimension aggregate, isolation checks and source hashes.",
+              "evidenceSha256": "d7c21b3667c49e6bbe4288b99c2f858f23f731629495daada8be741d7ddd3cd7"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "result": {
+    "schemaVersion": "2.0.0",
+    "weightedTotal": 75,
+    "recommendation": "go",
+    "effectiveDecision": "go",
+    "checks": {
+      "threshold": true,
+      "categoryFloors": true,
+      "coreFloors": true,
+      "hardGates": true,
+      "structuredEvidence": true,
+      "adversarialReview": true
+    },
+    "failures": [],
+    "status": {
+      "technicalValidation": "pass",
+      "visualRecommendation": "go",
+      "humanApproval": "absent"
+    },
+    "overrideApplied": false,
+    "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+  }
+}
