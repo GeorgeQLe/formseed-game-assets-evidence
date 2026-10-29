@@ -1,0 +1,1245 @@
+{
+  "assessment": {
+    "schemaVersion": "2.0.0",
+    "assessmentId": "m1a1-coax-green-20261029-v1-r1",
+    "rubric": {
+      "rubricId": "model-quality",
+      "version": "1.0.0"
+    },
+    "subject": {
+      "assetId": "m1a1-coax-green-20261029-v1",
+      "revisionId": "main-r1",
+      "revision": 1
+    },
+    "evidenceSet": {
+      "revision": 1,
+      "checkpointSha256": "dad68836ac8b72257c42b50b86239e477eaf105839e735fc13753faef899be07",
+      "renderSetSha256": "908e1e4dcf96960131b9f1bb6bc5129eef477c0b1132ad60ed2b7bb83d958823",
+      "requiredViews": [
+        {
+          "viewId": "front-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f4219740174a780835180167e55fda2783b71b998e65d121abd2eb26ab3db99e"
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8ea763caecb57ffd4c0b67ba2e72984eaa2c0f1dc5d1b2c4c4725bb720b95af5"
+        },
+        {
+          "viewId": "front",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6ae9273749f9779c0fb0236a16ea4ab6139aafe1f27ea50316e464435248ee40"
+        },
+        {
+          "viewId": "left",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "04ae23dad9fc17b062c6950b7dab3f7bb55d239c9d820ab3623f4d04ce8858bf"
+        },
+        {
+          "viewId": "right",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b2ca3e16d6343ce4ff1832082f4d39bcb2890a4d7a81e7b45cff31144210c4e3"
+        },
+        {
+          "viewId": "top",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b810af1a6f366d64e18324a4389c580fd6450eebd027b6ae36a6c892727dda06"
+        },
+        {
+          "viewId": "front-three-quarter-native-256",
+          "width": 256,
+          "height": 256,
+          "sha256": "7abd476521827d6f7b0c3c8f207ea8cd9f8c1c12e0f2a5c7ca9b4e07f3849dd2"
+        },
+        {
+          "viewId": "rear-three-quarter-native-256",
+          "width": 256,
+          "height": 256,
+          "sha256": "2fb0b5ca8f0c822fe084c205ac033fd549e4552bda95e68d731db324a57a9a74"
+        },
+        {
+          "viewId": "front-native-256",
+          "width": 256,
+          "height": 256,
+          "sha256": "74880e5ab6ba54854605c304faab78c21b59630e8624262c29853ad0cf95d176"
+        },
+        {
+          "viewId": "left-native-256",
+          "width": 256,
+          "height": 256,
+          "sha256": "1c570e37e75502aef7f5babe25a75fd158acf2b5359f5c897cd82e21257be5ba"
+        },
+        {
+          "viewId": "right-native-256",
+          "width": 256,
+          "height": 256,
+          "sha256": "f7862d72f43f1de6de84caa1f3888961c1d0a7c6860462f09183351157f2ff42"
+        },
+        {
+          "viewId": "top-native-256",
+          "width": 256,
+          "height": 256,
+          "sha256": "8b6237117a29b46c94485a753238030197bf1f7fa85876a9532d6ff14f04863e"
+        }
+      ],
+      "validation": {
+        "reportId": "d08dd7db-a116-4c33-accd-d62955bbd1a6",
+        "revision": 1,
+        "checkpointSha256": "dad68836ac8b72257c42b50b86239e477eaf105839e735fc13753faef899be07",
+        "passed": true,
+        "current": true,
+        "deterministic": true
+      }
+    },
+    "scores": [
+      {
+        "categoryId": "identity-recognition",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "f4219740174a780835180167e55fda2783b71b998e65d121abd2eb26ab3db99e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "8ea763caecb57ffd4c0b67ba2e72984eaa2c0f1dc5d1b2c4c4725bb720b95af5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "6ae9273749f9779c0fb0236a16ea4ab6139aafe1f27ea50316e464435248ee40"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "04ae23dad9fc17b062c6950b7dab3f7bb55d239c9d820ab3623f4d04ce8858bf"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "b2ca3e16d6343ce4ff1832082f4d39bcb2890a4d7a81e7b45cff31144210c4e3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "b810af1a6f366d64e18324a4389c580fd6450eebd027b6ae36a6c892727dda06"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter-native-256",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "7abd476521827d6f7b0c3c8f207ea8cd9f8c1c12e0f2a5c7ca9b4e07f3849dd2"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter-native-256",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "2fb0b5ca8f0c822fe084c205ac033fd549e4552bda95e68d731db324a57a9a74"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-native-256",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "74880e5ab6ba54854605c304faab78c21b59630e8624262c29853ad0cf95d176"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left-native-256",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "1c570e37e75502aef7f5babe25a75fd158acf2b5359f5c897cd82e21257be5ba"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right-native-256",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "f7862d72f43f1de6de84caa1f3888961c1d0a7c6860462f09183351157f2ff42"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top-native-256",
+            "observation": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+            "evidenceSha256": "8b6237117a29b46c94485a753238030197bf1f7fa85876a9532d6ff14f04863e"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "root-final-review-closure.json",
+            "observation": "Current review and evidence hashes; no human approval.",
+            "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/isolation-summary.json",
+            "observation": "Current native separation and restoration evidence.",
+            "evidenceSha256": "8900e15de8bb91bedcc3dda6de6b2198d5248cc0db8befd0ac50122a79f97676"
+          }
+        ],
+        "recognition": {
+          "thumbnailPixels": 256,
+          "nearestNeighbors": [
+            "M1 with105mm gun",
+            "M1A2 withCITV",
+            "Leopard2"
+          ],
+          "distinguishers": [
+            "120mm-style barrel and bore evacuator rather than105mm external profile",
+            "M1A1 cupola arrangement without M1A2 CITV",
+            "Abrams wedge/bustle massing and skirted seven-wheel stance; roof weapons are simplified"
+          ]
+        }
+      },
+      {
+        "categoryId": "proportion-mass",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "f4219740174a780835180167e55fda2783b71b998e65d121abd2eb26ab3db99e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "8ea763caecb57ffd4c0b67ba2e72984eaa2c0f1dc5d1b2c4c4725bb720b95af5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "6ae9273749f9779c0fb0236a16ea4ab6139aafe1f27ea50316e464435248ee40"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "04ae23dad9fc17b062c6950b7dab3f7bb55d239c9d820ab3623f4d04ce8858bf"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "b2ca3e16d6343ce4ff1832082f4d39bcb2890a4d7a81e7b45cff31144210c4e3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "b810af1a6f366d64e18324a4389c580fd6450eebd027b6ae36a6c892727dda06"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter-native-256",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "7abd476521827d6f7b0c3c8f207ea8cd9f8c1c12e0f2a5c7ca9b4e07f3849dd2"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter-native-256",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "2fb0b5ca8f0c822fe084c205ac033fd549e4552bda95e68d731db324a57a9a74"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-native-256",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "74880e5ab6ba54854605c304faab78c21b59630e8624262c29853ad0cf95d176"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left-native-256",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "1c570e37e75502aef7f5babe25a75fd158acf2b5359f5c897cd82e21257be5ba"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right-native-256",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "f7862d72f43f1de6de84caa1f3888961c1d0a7c6860462f09183351157f2ff42"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top-native-256",
+            "observation": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+            "evidenceSha256": "8b6237117a29b46c94485a753238030197bf1f7fa85876a9532d6ff14f04863e"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "root-final-review-closure.json",
+            "observation": "Current review and evidence hashes; no human approval.",
+            "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/isolation-summary.json",
+            "observation": "Current native separation and restoration evidence.",
+            "evidenceSha256": "8900e15de8bb91bedcc3dda6de6b2198d5248cc0db8befd0ac50122a79f97676"
+          }
+        ]
+      },
+      {
+        "categoryId": "silhouette",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "f4219740174a780835180167e55fda2783b71b998e65d121abd2eb26ab3db99e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "8ea763caecb57ffd4c0b67ba2e72984eaa2c0f1dc5d1b2c4c4725bb720b95af5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "6ae9273749f9779c0fb0236a16ea4ab6139aafe1f27ea50316e464435248ee40"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "04ae23dad9fc17b062c6950b7dab3f7bb55d239c9d820ab3623f4d04ce8858bf"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "b2ca3e16d6343ce4ff1832082f4d39bcb2890a4d7a81e7b45cff31144210c4e3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "b810af1a6f366d64e18324a4389c580fd6450eebd027b6ae36a6c892727dda06"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter-native-256",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "7abd476521827d6f7b0c3c8f207ea8cd9f8c1c12e0f2a5c7ca9b4e07f3849dd2"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter-native-256",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "2fb0b5ca8f0c822fe084c205ac033fd549e4552bda95e68d731db324a57a9a74"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-native-256",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "74880e5ab6ba54854605c304faab78c21b59630e8624262c29853ad0cf95d176"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left-native-256",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "1c570e37e75502aef7f5babe25a75fd158acf2b5359f5c897cd82e21257be5ba"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right-native-256",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "f7862d72f43f1de6de84caa1f3888961c1d0a7c6860462f09183351157f2ff42"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top-native-256",
+            "observation": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+            "evidenceSha256": "8b6237117a29b46c94485a753238030197bf1f7fa85876a9532d6ff14f04863e"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "root-final-review-closure.json",
+            "observation": "Current review and evidence hashes; no human approval.",
+            "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/isolation-summary.json",
+            "observation": "Current native separation and restoration evidence.",
+            "evidenceSha256": "8900e15de8bb91bedcc3dda6de6b2198d5248cc0db8befd0ac50122a79f97676"
+          }
+        ]
+      },
+      {
+        "categoryId": "form-hierarchy",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "f4219740174a780835180167e55fda2783b71b998e65d121abd2eb26ab3db99e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "8ea763caecb57ffd4c0b67ba2e72984eaa2c0f1dc5d1b2c4c4725bb720b95af5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "6ae9273749f9779c0fb0236a16ea4ab6139aafe1f27ea50316e464435248ee40"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "04ae23dad9fc17b062c6950b7dab3f7bb55d239c9d820ab3623f4d04ce8858bf"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "b2ca3e16d6343ce4ff1832082f4d39bcb2890a4d7a81e7b45cff31144210c4e3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "b810af1a6f366d64e18324a4389c580fd6450eebd027b6ae36a6c892727dda06"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter-native-256",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "7abd476521827d6f7b0c3c8f207ea8cd9f8c1c12e0f2a5c7ca9b4e07f3849dd2"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter-native-256",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "2fb0b5ca8f0c822fe084c205ac033fd549e4552bda95e68d731db324a57a9a74"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-native-256",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "74880e5ab6ba54854605c304faab78c21b59630e8624262c29853ad0cf95d176"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left-native-256",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "1c570e37e75502aef7f5babe25a75fd158acf2b5359f5c897cd82e21257be5ba"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right-native-256",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "f7862d72f43f1de6de84caa1f3888961c1d0a7c6860462f09183351157f2ff42"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top-native-256",
+            "observation": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+            "evidenceSha256": "8b6237117a29b46c94485a753238030197bf1f7fa85876a9532d6ff14f04863e"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "root-final-review-closure.json",
+            "observation": "Current review and evidence hashes; no human approval.",
+            "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/isolation-summary.json",
+            "observation": "Current native separation and restoration evidence.",
+            "evidenceSha256": "8900e15de8bb91bedcc3dda6de6b2198d5248cc0db8befd0ac50122a79f97676"
+          }
+        ]
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "f4219740174a780835180167e55fda2783b71b998e65d121abd2eb26ab3db99e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "8ea763caecb57ffd4c0b67ba2e72984eaa2c0f1dc5d1b2c4c4725bb720b95af5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "6ae9273749f9779c0fb0236a16ea4ab6139aafe1f27ea50316e464435248ee40"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "04ae23dad9fc17b062c6950b7dab3f7bb55d239c9d820ab3623f4d04ce8858bf"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "b2ca3e16d6343ce4ff1832082f4d39bcb2890a4d7a81e7b45cff31144210c4e3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "b810af1a6f366d64e18324a4389c580fd6450eebd027b6ae36a6c892727dda06"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter-native-256",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "7abd476521827d6f7b0c3c8f207ea8cd9f8c1c12e0f2a5c7ca9b4e07f3849dd2"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter-native-256",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "2fb0b5ca8f0c822fe084c205ac033fd549e4552bda95e68d731db324a57a9a74"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-native-256",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "74880e5ab6ba54854605c304faab78c21b59630e8624262c29853ad0cf95d176"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left-native-256",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "1c570e37e75502aef7f5babe25a75fd158acf2b5359f5c897cd82e21257be5ba"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right-native-256",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "f7862d72f43f1de6de84caa1f3888961c1d0a7c6860462f09183351157f2ff42"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top-native-256",
+            "observation": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+            "evidenceSha256": "8b6237117a29b46c94485a753238030197bf1f7fa85876a9532d6ff14f04863e"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "root-final-review-closure.json",
+            "observation": "Current review and evidence hashes; no human approval.",
+            "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/isolation-summary.json",
+            "observation": "Current native separation and restoration evidence.",
+            "evidenceSha256": "8900e15de8bb91bedcc3dda6de6b2198d5248cc0db8befd0ac50122a79f97676"
+          }
+        ]
+      },
+      {
+        "categoryId": "surface-material",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "f4219740174a780835180167e55fda2783b71b998e65d121abd2eb26ab3db99e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "8ea763caecb57ffd4c0b67ba2e72984eaa2c0f1dc5d1b2c4c4725bb720b95af5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "6ae9273749f9779c0fb0236a16ea4ab6139aafe1f27ea50316e464435248ee40"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "04ae23dad9fc17b062c6950b7dab3f7bb55d239c9d820ab3623f4d04ce8858bf"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "b2ca3e16d6343ce4ff1832082f4d39bcb2890a4d7a81e7b45cff31144210c4e3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "b810af1a6f366d64e18324a4389c580fd6450eebd027b6ae36a6c892727dda06"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter-native-256",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "7abd476521827d6f7b0c3c8f207ea8cd9f8c1c12e0f2a5c7ca9b4e07f3849dd2"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter-native-256",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "2fb0b5ca8f0c822fe084c205ac033fd549e4552bda95e68d731db324a57a9a74"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-native-256",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "74880e5ab6ba54854605c304faab78c21b59630e8624262c29853ad0cf95d176"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left-native-256",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "1c570e37e75502aef7f5babe25a75fd158acf2b5359f5c897cd82e21257be5ba"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right-native-256",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "f7862d72f43f1de6de84caa1f3888961c1d0a7c6860462f09183351157f2ff42"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top-native-256",
+            "observation": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+            "evidenceSha256": "8b6237117a29b46c94485a753238030197bf1f7fa85876a9532d6ff14f04863e"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "root-final-review-closure.json",
+            "observation": "Current review and evidence hashes; no human approval.",
+            "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/isolation-summary.json",
+            "observation": "Current native separation and restoration evidence.",
+            "evidenceSha256": "8900e15de8bb91bedcc3dda6de6b2198d5248cc0db8befd0ac50122a79f97676"
+          }
+        ]
+      },
+      {
+        "categoryId": "viewpoint-robustness",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "f4219740174a780835180167e55fda2783b71b998e65d121abd2eb26ab3db99e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "8ea763caecb57ffd4c0b67ba2e72984eaa2c0f1dc5d1b2c4c4725bb720b95af5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "6ae9273749f9779c0fb0236a16ea4ab6139aafe1f27ea50316e464435248ee40"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "04ae23dad9fc17b062c6950b7dab3f7bb55d239c9d820ab3623f4d04ce8858bf"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "b2ca3e16d6343ce4ff1832082f4d39bcb2890a4d7a81e7b45cff31144210c4e3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "b810af1a6f366d64e18324a4389c580fd6450eebd027b6ae36a6c892727dda06"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter-native-256",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "7abd476521827d6f7b0c3c8f207ea8cd9f8c1c12e0f2a5c7ca9b4e07f3849dd2"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter-native-256",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "2fb0b5ca8f0c822fe084c205ac033fd549e4552bda95e68d731db324a57a9a74"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-native-256",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "74880e5ab6ba54854605c304faab78c21b59630e8624262c29853ad0cf95d176"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left-native-256",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "1c570e37e75502aef7f5babe25a75fd158acf2b5359f5c897cd82e21257be5ba"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right-native-256",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "f7862d72f43f1de6de84caa1f3888961c1d0a7c6860462f09183351157f2ff42"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top-native-256",
+            "observation": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+            "evidenceSha256": "8b6237117a29b46c94485a753238030197bf1f7fa85876a9532d6ff14f04863e"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "root-final-review-closure.json",
+            "observation": "Current review and evidence hashes; no human approval.",
+            "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/isolation-summary.json",
+            "observation": "Current native separation and restoration evidence.",
+            "evidenceSha256": "8900e15de8bb91bedcc3dda6de6b2198d5248cc0db8befd0ac50122a79f97676"
+          }
+        ]
+      },
+      {
+        "categoryId": "production-integrity",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "f4219740174a780835180167e55fda2783b71b998e65d121abd2eb26ab3db99e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "8ea763caecb57ffd4c0b67ba2e72984eaa2c0f1dc5d1b2c4c4725bb720b95af5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "6ae9273749f9779c0fb0236a16ea4ab6139aafe1f27ea50316e464435248ee40"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "04ae23dad9fc17b062c6950b7dab3f7bb55d239c9d820ab3623f4d04ce8858bf"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "b2ca3e16d6343ce4ff1832082f4d39bcb2890a4d7a81e7b45cff31144210c4e3"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "b810af1a6f366d64e18324a4389c580fd6450eebd027b6ae36a6c892727dda06"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter-native-256",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "7abd476521827d6f7b0c3c8f207ea8cd9f8c1c12e0f2a5c7ca9b4e07f3849dd2"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter-native-256",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "2fb0b5ca8f0c822fe084c205ac033fd549e4552bda95e68d731db324a57a9a74"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front-native-256",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "74880e5ab6ba54854605c304faab78c21b59630e8624262c29853ad0cf95d176"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left-native-256",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "1c570e37e75502aef7f5babe25a75fd158acf2b5359f5c897cd82e21257be5ba"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right-native-256",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "f7862d72f43f1de6de84caa1f3888961c1d0a7c6860462f09183351157f2ff42"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top-native-256",
+            "observation": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred.",
+            "evidenceSha256": "8b6237117a29b46c94485a753238030197bf1f7fa85876a9532d6ff14f04863e"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+            "observation": "Completed independent exact-state source/model review; recommendations and objections recorded.",
+            "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "root-final-review-closure.json",
+            "observation": "Current review and evidence hashes; no human approval.",
+            "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/isolation-summary.json",
+            "observation": "Current native separation and restoration evidence.",
+            "evidenceSha256": "8900e15de8bb91bedcc3dda6de6b2198d5248cc0db8befd0ac50122a79f97676"
+          }
+        ]
+      }
+    ],
+    "gates": [
+      {
+        "gateId": "identity-authority",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "final-scope-clarification.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "67f1df57b231102e706e147c2f039d9173573d508e5f2dc01fd27713831c6b27"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "position-correction-plan.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "72881ed12afbd9eacef4b01fae2b47895a6cb161a9718fb5d6caddac6d3d759c"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/brief.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "114893412a26b28604e833a8650be4712562952b5c81231efc9b8e1994555e97"
+          }
+        ]
+      },
+      {
+        "gateId": "required-views",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/render-evidence.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "d435fcabce0bbb5efb1b05ecf530913bfa3e81a2ea666a09068abbc9790f68c5"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/assessment-view-set.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "44acae13dd98310f3d887731d55311ca8e915f2cbad9f9a1f46282a145af25a3"
+          }
+        ]
+      },
+      {
+        "gateId": "structural-plausibility",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "green-r1-preservation-form-audit.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "5615d9d289d69872d35b697456754026ecf3a255b1822249cafb21bea855e6f8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "bundle-review-equivalence.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "fd21541965ed85b4cf611e004726468566617d352eafc8563af7822041277d92"
+          }
+        ]
+      },
+      {
+        "gateId": "transform-grounding",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/dimension.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "73b5422e111f053703641d1c4f1f01d5603894dee2db15e68c58cacce443a272"
+          }
+        ]
+      },
+      {
+        "gateId": "deterministic-output",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/render-evidence.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "d435fcabce0bbb5efb1b05ecf530913bfa3e81a2ea666a09068abbc9790f68c5"
+          }
+        ]
+      },
+      {
+        "gateId": "current-validation",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/validation.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "4c1d973771e3d24ae3f528c12aac13582deba7c5cc7ef7fe949746d90ef5a501"
+          }
+        ]
+      },
+      {
+        "gateId": "budgets",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "successor-budget-preservation.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "ac0f984f43a120353c72605e07585779e95df8caa6fcb70c2fd4d87121ab1207"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/validation.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "4c1d973771e3d24ae3f528c12aac13582deba7c5cc7ef7fe949746d90ef5a501"
+          }
+        ]
+      },
+      {
+        "gateId": "explained-content",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "request.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "bfc7c0d75cb046f62f2e830f8229a917f5238c13aeb992a9a5e57c69fe9a35ce"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "component-plan.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "d613a3d22a9c70a2830ea5d5bb47e54a285d2d7095afb142cc4514e9844247d2"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "position-correction-plan.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "72881ed12afbd9eacef4b01fae2b47895a6cb161a9718fb5d6caddac6d3d759c"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "final-scope-clarification.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "67f1df57b231102e706e147c2f039d9173573d508e5f2dc01fd27713831c6b27"
+          }
+        ]
+      },
+      {
+        "gateId": "artifact-integrity",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/green/bundle-verification.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "d85fb1738307b7ac8f8d3d8997003e49647fa47a515d1f643696cd7611c5e22c"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "bundle-review-equivalence.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "fd21541965ed85b4cf611e004726468566617d352eafc8563af7822041277d92"
+          }
+        ]
+      },
+      {
+        "gateId": "copying-rights",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "attempt-ledger.md",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "59b3ba77601b5ef0b296c4cf7037856b8bca39e725f98b45e03e23a1b6ff6150"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "../abrams-gun-base/gun-base-reference-identities.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "c063897034be03c6e047e10f7e608543e7a80767bca0fca9551a850dbe05ef0a"
+          }
+        ]
+      }
+    ],
+    "assessedBy": "Codex /root, informed by GPT-6Astra actualsource production and independent ClaudeCode claude-opus-5-5 main+supplement reviews",
+    "assessedAt": "2026-10-29T15:05:41.341Z",
+    "adversarialReview": {
+      "reviewedBy": "Independent ClaudeCode claude-opus-5-5 and Codex /root exact-GLB audit",
+      "reviewedAt": "2026-10-29T15:05:41.341Z",
+      "coreCategoryObjections": [
+        {
+          "categoryId": "identity-recognition",
+          "strongestReasonBelowThree": "Coax position differs from a photographic radius estimate and could read as a generic pipe; reconcile actual drawing and shield-relative photo placement.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+              "observation": "Independent full-model/core challenge and exact-source visual review.",
+              "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+              "observation": "Independent full-model/core challenge and exact-source visual review.",
+              "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "root-final-review-closure.json",
+              "observation": "Current objections disposition and hash-bound evidence.",
+              "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+            }
+          ]
+        },
+        {
+          "categoryId": "silhouette",
+          "strongestReasonBelowThree": "The tube could merge with the main-barrel top line or retain the raised-rod defect in physical side views.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+              "observation": "Independent full-model/core challenge and exact-source visual review.",
+              "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+              "observation": "Independent full-model/core challenge and exact-source visual review.",
+              "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "root-final-review-closure.json",
+              "observation": "Current objections disposition and hash-bound evidence.",
+              "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+            }
+          ]
+        },
+        {
+          "categoryId": "mechanical-coherence",
+          "strongestReasonBelowThree": "Uncalibrated exposed tube length might be inaccurate; check whether sources actually contradict it and inspect attachment/clearance without overstating mechanical certification.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+              "observation": "Independent full-model/core challenge and exact-source visual review.",
+              "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+              "observation": "Independent full-model/core challenge and exact-source visual review.",
+              "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "root-final-review-closure.json",
+              "observation": "Current objections disposition and hash-bound evidence.",
+              "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+            }
+          ]
+        },
+        {
+          "categoryId": "production-integrity",
+          "strongestReasonBelowThree": "Shared recess shader couples future material changes; differing bundle/review hashes, UVs, global material-user lists and inherited brief wording could conceal a regression.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-desert-r2-review.json",
+              "observation": "Independent full-model/core challenge and exact-source visual review.",
+              "evidenceSha256": "a5dc900c8fb2db05d3501ca53bec9a8b74ae5386490a318744a553b1afb031d8"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/opus-final-four-finish-review.json",
+              "observation": "Independent full-model/core challenge and exact-source visual review.",
+              "evidenceSha256": "cdf83fa81b6459525a736db9ad0fbf155c9639c635057c7b74ba4d97cc4de046"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "root-final-review-closure.json",
+              "observation": "Current objections disposition and hash-bound evidence.",
+              "evidenceSha256": "cba1b3306ec2fb9548ef374692a2d592bb1bdc9445c81cfcee48adae4b93d2a0"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "result": {
+    "schemaVersion": "2.0.0",
+    "weightedTotal": 75,
+    "recommendation": "go",
+    "effectiveDecision": "go",
+    "checks": {
+      "threshold": true,
+      "categoryFloors": true,
+      "coreFloors": true,
+      "hardGates": true,
+      "structuredEvidence": true,
+      "adversarialReview": true
+    },
+    "failures": [],
+    "status": {
+      "technicalValidation": "pass",
+      "visualRecommendation": "go",
+      "humanApproval": "absent"
+    },
+    "overrideApplied": false,
+    "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+  }
+}
