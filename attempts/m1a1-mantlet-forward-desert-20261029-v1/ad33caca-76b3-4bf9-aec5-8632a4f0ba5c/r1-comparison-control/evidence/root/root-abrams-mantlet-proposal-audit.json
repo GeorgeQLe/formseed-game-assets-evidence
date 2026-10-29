@@ -1,0 +1,133 @@
+{
+  "kind": "independent-root-proposal-geometry-check",
+  "observedAt": "2026-10-29T13:03:45.028652+00:00",
+  "currentCheckpointSha256": "ecf2297775b6babed686055b3ded4ad9519260b68761aa6389f140854b99f0be",
+  "currentGLBSha256": "007e803bb8755f8218cf0fe1b5be36dc366e1ebfcf1ce28728d24d9982090198",
+  "proposedOnly": true,
+  "proposalEndpointsXZ": [
+    [
+      -2.12,
+      2.09
+    ],
+    [
+      -1.76,
+      1.6
+    ]
+  ],
+  "proposalRakeDegrees": 36.304497122575235,
+  "currentMantletEndpointsXZ": [
+    [
+      -2.293,
+      2.105
+    ],
+    [
+      -2.089,
+      1.744
+    ],
+    [
+      -2.08,
+      1.6
+    ]
+  ],
+  "currentMismatch": "Top recessed\u22480.2m, lowerface\u22480.34m behind actual adjacent INNERlip, not merely outer-extrema comparison. This corroborates user-visible recess.",
+  "cheekComparisons": [
+    {
+      "component": "LeftTurretCheek",
+      "lowerInnerLip": [
+        -1.7428293,
+        0.235,
+        1.5796195
+      ],
+      "upperInnerLip": [
+        -2.0893137,
+        0.235,
+        2.0831454
+      ],
+      "rakeFromVerticalDegrees": -34.53249571621208,
+      "samples": [
+        {
+          "z": 1.6,
+          "cheekInnerFaceX": -1.7568534550915256,
+          "proposedMantletFaceX": -1.76,
+          "proposedSetbackMeters": 0.0031465449084744357
+        },
+        {
+          "z": 1.744,
+          "cheekInnerFaceX": -1.8559422082221988,
+          "proposedMantletFaceX": -1.865795918367347,
+          "proposedSetbackMeters": 0.009853710145148131
+        },
+        {
+          "z": 1.83,
+          "cheekInnerFaceX": -1.9151202135641285,
+          "proposedMantletFaceX": -1.9289795918367347,
+          "proposedSetbackMeters": 0.013859378272606193
+        },
+        {
+          "z": 2.0,
+          "cheekInnerFaceX": -2.0320999915656177,
+          "proposedMantletFaceX": -2.0538775510204084,
+          "proposedSetbackMeters": 0.02177755945479065
+        },
+        {
+          "z": 2.09,
+          "cheekInnerFaceX": -2.094030462272288,
+          "proposedMantletFaceX": -2.12,
+          "proposedSetbackMeters": 0.025969537727712044
+        }
+      ]
+    },
+    {
+      "component": "RightTurretCheek",
+      "lowerInnerLip": [
+        -1.7266189,
+        -0.32,
+        1.5798897
+      ],
+      "upperInnerLip": [
+        -2.0988505,
+        -0.32,
+        2.0864069
+      ],
+      "rakeFromVerticalDegrees": -36.311586747508116,
+      "samples": [
+        {
+          "z": 1.6,
+          "cheekInnerFaceX": -1.7413976462014715,
+          "proposedMantletFaceX": -1.76,
+          "proposedSetbackMeters": 0.01860235379852848
+        },
+        {
+          "z": 1.744,
+          "cheekInnerFaceX": -1.8472210030391072,
+          "proposedMantletFaceX": -1.865795918367347,
+          "proposedSetbackMeters": 0.01857491532823974
+        },
+        {
+          "z": 1.83,
+          "cheekInnerFaceX": -1.910421063372695,
+          "proposedMantletFaceX": -1.9289795918367347,
+          "proposedSetbackMeters": 0.018558528464039714
+        },
+        {
+          "z": 2.0,
+          "cheekInnerFaceX": -2.0353514151949037,
+          "proposedMantletFaceX": -2.0538775510204084,
+          "proposedSetbackMeters": 0.018526135825504664
+        },
+        {
+          "z": 2.09,
+          "cheekInnerFaceX": -2.1014910132184257,
+          "proposedMantletFaceX": -2.12,
+          "proposedSetbackMeters": 0.01850898678157442
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Proposal not yet authored or validated",
+    "Original side/front/plan registration residuals are not solved by this local fit",
+    "No physical reconstruction accuracy, protection or continuous-motion qualification",
+    "Final visual/source review must inspect actualcloseup and contouroverlay; no approval"
+  ]
+}

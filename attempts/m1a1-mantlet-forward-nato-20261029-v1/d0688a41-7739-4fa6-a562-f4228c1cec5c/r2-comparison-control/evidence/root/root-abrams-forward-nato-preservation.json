@@ -1,0 +1,1944 @@
+{
+  "kind": "independent-root-exact-glb-preservation",
+  "oldSource": {
+    "jobId": "d7a65d61-4504-4a8d-b66a-de76e0fc7d48",
+    "revision": 0,
+    "checkpoint": {
+      "checkpointId": "0660616c-1d48-49f7-81ba-ddb02de92ed8",
+      "checkpointHash": "8e082b09a37adb9f9b6b730645164f1f9c7819da8e58341a407aa7152c95dac8"
+    },
+    "glbSha256": "435f52935c8a780c3bea359ec9504c67cf758ebd0f783b7bc8064f0fb3b174dc"
+  },
+  "newSource": {
+    "jobId": "d0688a41-7739-4fa6-a562-f4228c1cec5c",
+    "revision": 2,
+    "checkpoint": {
+      "checkpointId": "b5365f66-2e38-463d-99b6-e9c875648581",
+      "checkpointHash": "a0b7b616b4e274037d99d91f90b70295112d7cf9b7dc6f4c7e356ce55c2e556a"
+    },
+    "glbSha256": "2a4bfdc4b93decd38c2eedc490aefe50330ef8cf2de0808be8705c32f4d1f827"
+  },
+  "meshCount": 269,
+  "changedMeshes": [
+    "Mantlet",
+    "MantletSeamAccents"
+  ],
+  "all267OtherMeshesExact": true,
+  "materialTableExact": true,
+  "parentAndMatricesAllExact": true,
+  "comparisonScope": "Every accessor byte for positions, indices, normals, UVs and other primitive attributes plus each primitive material and source matrix/parent; independent from producer fingerprints.",
+  "embeddedImages": [
+    {
+      "name": "059f13760fd4cd89da48fa5c06e8eb4f32c71d17259697bd16e3705f1b8ee358",
+      "mimeType": "image/png",
+      "sha256": "059f13760fd4cd89da48fa5c06e8eb4f32c71d17259697bd16e3705f1b8ee358"
+    },
+    {
+      "name": "7aa11eecf86b698ceaafa5bd3924d810ea213a798fec76b93c2fe9c82d150d6c",
+      "mimeType": "image/png",
+      "sha256": "7aa11eecf86b698ceaafa5bd3924d810ea213a798fec76b93c2fe9c82d150d6c"
+    },
+    {
+      "name": "36156da612c9da1556847993e3ec353847243a82d4c0fbddd48e05b21f122c9c",
+      "mimeType": "image/png",
+      "sha256": "36156da612c9da1556847993e3ec353847243a82d4c0fbddd48e05b21f122c9c"
+    },
+    {
+      "name": "05cb87ad2aa8efa9eddfac753dfffd606f628a2384b877ce91a3fdece8b79541",
+      "mimeType": "image/png",
+      "sha256": "05cb87ad2aa8efa9eddfac753dfffd606f628a2384b877ce91a3fdece8b79541"
+    },
+    {
+      "name": "28582be6f19af22d9b231b018260a1fcf11b3296ad535159495b5d6b04669dcd",
+      "mimeType": "image/png",
+      "sha256": "28582be6f19af22d9b231b018260a1fcf11b3296ad535159495b5d6b04669dcd"
+    }
+  ],
+  "embeddedImagesExact": true,
+  "comparisons": [
+    {
+      "name": "BlowoffPanels",
+      "oldSha256": "6ed083becac01cfb29ddb1041dccf995bb6bf93384c3d71dd6504b04b822e585",
+      "newSha256": "6ed083becac01cfb29ddb1041dccf995bb6bf93384c3d71dd6504b04b822e585",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "BlowoffPanelsEdgeHighlights",
+      "oldSha256": "27698e1e86ce8b970c1c4123e56c5692fb7c712fe11dc691cf468d2312c66568",
+      "newSha256": "27698e1e86ce8b970c1c4123e56c5692fb7c712fe11dc691cf468d2312c66568",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "BustleArmor",
+      "oldSha256": "1f7fe2a80aa7e164e9b9c0b633a5c439997b33a865290c30d57c206b9b1dcfae",
+      "newSha256": "1f7fe2a80aa7e164e9b9c0b633a5c439997b33a865290c30d57c206b9b1dcfae",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "CentralTurret",
+      "oldSha256": "e16ee44ef53104c194711769c42d7c81eb15ac7435f09768ed709d5154a78eda",
+      "newSha256": "e16ee44ef53104c194711769c42d7c81eb15ac7435f09768ed709d5154a78eda",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "CentralTurretEdgeHighlights",
+      "oldSha256": "5cdab6660eb7487f2f0dd55c556f6fd9d9664fb8af3f6e6dbc135f01774a5bcc",
+      "newSha256": "5cdab6660eb7487f2f0dd55c556f6fd9d9664fb8af3f6e6dbc135f01774a5bcc",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "CoaxShroud",
+      "oldSha256": "2c88cd8cf9e01439609ff5f7f929719037e2bb058e8cb4a9adec7e5ee6d3666e",
+      "newSha256": "2c88cd8cf9e01439609ff5f7f929719037e2bb058e8cb4a9adec7e5ee6d3666e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "CommanderCupola",
+      "oldSha256": "83e1278bf1ac4b842447927245800821e20b6032a3ba573706eecacbb21f15d0",
+      "newSha256": "83e1278bf1ac4b842447927245800821e20b6032a3ba573706eecacbb21f15d0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "CommanderHatchLid",
+      "oldSha256": "09ffef04fb89706ca44ee3a69ba24c24abb15556cc710dda39123962e1df3b1d",
+      "newSha256": "09ffef04fb89706ca44ee3a69ba24c24abb15556cc710dda39123962e1df3b1d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "CommanderHatchLidSeamAccents",
+      "oldSha256": "556927d73d147779ac61f843727330f9b4f0e2e8ebb90ec84e36a731a95124c8",
+      "newSha256": "556927d73d147779ac61f843727330f9b4f0e2e8ebb90ec84e36a731a95124c8",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "CrosswindSensor",
+      "oldSha256": "156a60754a7bf31e374e274f063c1c788616eaa16c64e210fc23f6f80830ef3b",
+      "newSha256": "156a60754a7bf31e374e274f063c1c788616eaa16c64e210fc23f6f80830ef3b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "DriverHatchLid",
+      "oldSha256": "bfdd67142e2a5c26bba77769e747cfc63e7943dd9c905954ef847a80b4bf370b",
+      "newSha256": "bfdd67142e2a5c26bba77769e747cfc63e7943dd9c905954ef847a80b4bf370b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "DriverHatchLidSeamAccents",
+      "oldSha256": "966712fb97f28af7ecbcdb97c9dd477f6089a7c2cf4fc8400231980c7b821be3",
+      "newSha256": "966712fb97f28af7ecbcdb97c9dd477f6089a7c2cf4fc8400231980c7b821be3",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "DriverHatchRim",
+      "oldSha256": "70b931352f637802c9753540dc721732f4582e99d19f969ad9554fff7009bfff",
+      "newSha256": "70b931352f637802c9753540dc721732f4582e99d19f969ad9554fff7009bfff",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "EngineDeckGrille",
+      "oldSha256": "dd76595a99fc688cfa7f68a474adc173cfde45a3742cd50691ae0df8ed2ababb",
+      "newSha256": "dd76595a99fc688cfa7f68a474adc173cfde45a3742cd50691ae0df8ed2ababb",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "GunBarrel",
+      "oldSha256": "59b63a8256bad088bcbdb0e0d381267d5709b47f72c327f2a4d57ffe8b5231de",
+      "newSha256": "59b63a8256bad088bcbdb0e0d381267d5709b47f72c327f2a4d57ffe8b5231de",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "Hull",
+      "oldSha256": "073291f298db0c185ac926ce3dabb13a9362be37906805cdb556e3cc285bd3a6",
+      "newSha256": "073291f298db0c185ac926ce3dabb13a9362be37906805cdb556e3cc285bd3a6",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftAntenna",
+      "oldSha256": "64449012f465aaf2767f3f571c8e9d458720ead59db9db94c0eb1036bf4b67a9",
+      "newSha256": "64449012f465aaf2767f3f571c8e9d458720ead59db9db94c0eb1036bf4b67a9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftFender",
+      "oldSha256": "88b5e86cf0d999cb38989c2898f981b570ef7c3885ec51e40892f6c3160026fa",
+      "newSha256": "88b5e86cf0d999cb38989c2898f981b570ef7c3885ec51e40892f6c3160026fa",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftFenderEdgeHighlights",
+      "oldSha256": "3470b7eafc2ee5b4ee024101513ab03249047c4a7ada63d68a6df1bd66980845",
+      "newSha256": "3470b7eafc2ee5b4ee024101513ab03249047c4a7ada63d68a6df1bd66980845",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftHeadlightGuard",
+      "oldSha256": "d76ca0d1e5b925d55dde7602c9cb4acc74d0ab2fd2f5ac2c3a45e045a879529e",
+      "newSha256": "d76ca0d1e5b925d55dde7602c9cb4acc74d0ab2fd2f5ac2c3a45e045a879529e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftIdler",
+      "oldSha256": "4065a346fc5a97df3cc4310d11dd2db6a8ebf57b7ff485e7b82bf70907a575ba",
+      "newSha256": "4065a346fc5a97df3cc4310d11dd2db6a8ebf57b7ff485e7b82bf70907a575ba",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftRoadWheel1",
+      "oldSha256": "5a86b82d02d9321a787b88d516644f2807c527165e05d07b29e0b4d84ade311c",
+      "newSha256": "5a86b82d02d9321a787b88d516644f2807c527165e05d07b29e0b4d84ade311c",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftRoadWheel2",
+      "oldSha256": "e2334f821f3a00baaf1cd10b69f4414dd9071069ec192947f0dace47e0b7564e",
+      "newSha256": "e2334f821f3a00baaf1cd10b69f4414dd9071069ec192947f0dace47e0b7564e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftRoadWheel3",
+      "oldSha256": "dcd54ecc27c5aa13efd587a39b34aa0f0521402c3934f4e6b3bbce7975390bd7",
+      "newSha256": "dcd54ecc27c5aa13efd587a39b34aa0f0521402c3934f4e6b3bbce7975390bd7",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftRoadWheel4",
+      "oldSha256": "9d5f420c30e4b8944bae2b0766ef24ec464c468d318fe06adcc5d9b789d03767",
+      "newSha256": "9d5f420c30e4b8944bae2b0766ef24ec464c468d318fe06adcc5d9b789d03767",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftRoadWheel5",
+      "oldSha256": "0930ad21ed029801a167d0fc6051eb2d379635a1d3e49e42320f592d12dcdb21",
+      "newSha256": "0930ad21ed029801a167d0fc6051eb2d379635a1d3e49e42320f592d12dcdb21",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftRoadWheel6",
+      "oldSha256": "4d8413d9630b22cc7921c933450d14c67614905b19c33584aaf90191aeeb7e75",
+      "newSha256": "4d8413d9630b22cc7921c933450d14c67614905b19c33584aaf90191aeeb7e75",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftRoadWheel7",
+      "oldSha256": "135aadcd513642a659ddc3ad67f7ffade3365e4852257855db09be9082c50c35",
+      "newSha256": "135aadcd513642a659ddc3ad67f7ffade3365e4852257855db09be9082c50c35",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftSkirts",
+      "oldSha256": "1610b672465c057841a100e9323615afe7c9b2bf1d9757449f9ef9dc57e9f25f",
+      "newSha256": "1610b672465c057841a100e9323615afe7c9b2bf1d9757449f9ef9dc57e9f25f",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftSkirtsEdgeHighlights",
+      "oldSha256": "bedfa1be73385de30d52def14beb5f1e66f12d71b781ba5b09f64a54daed20eb",
+      "newSha256": "bedfa1be73385de30d52def14beb5f1e66f12d71b781ba5b09f64a54daed20eb",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftSkirtsSeamAccents",
+      "oldSha256": "92be9f36a372b41cfba5429d878536714536ed4637994321c1b86d76c5868095",
+      "newSha256": "92be9f36a372b41cfba5429d878536714536ed4637994321c1b86d76c5868095",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftSmokeBank",
+      "oldSha256": "02cf448afbcd5145ffc12e632745dd026b37f488532431ad2bc46c98703cf2e4",
+      "newSha256": "02cf448afbcd5145ffc12e632745dd026b37f488532431ad2bc46c98703cf2e4",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftSprocket",
+      "oldSha256": "1b8882138e358548bb1de45989fd173c6684706474ceedf039b162c3bd818ca9",
+      "newSha256": "1b8882138e358548bb1de45989fd173c6684706474ceedf039b162c3bd818ca9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftStowage",
+      "oldSha256": "d39739ef701d742176ab8df08c3f343138367830a52bc272eb12ffd24976cf94",
+      "newSha256": "d39739ef701d742176ab8df08c3f343138367830a52bc272eb12ffd24976cf94",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrack",
+      "oldSha256": "26a2fcf7a7e6acac3af52ded1593f5c7bc84e7fa369540284086783fb9c5fb9a",
+      "newSha256": "26a2fcf7a7e6acac3af52ded1593f5c7bc84e7fa369540284086783fb9c5fb9a",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe000",
+      "oldSha256": "2d570226a11dcbd5fbcd78c95879ac7c71ce0c03209b20c85207f1dfe6fc1bcd",
+      "newSha256": "2d570226a11dcbd5fbcd78c95879ac7c71ce0c03209b20c85207f1dfe6fc1bcd",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe001",
+      "oldSha256": "46f626ad64a64529412bd2b80cf1b15de69cb7b7d85a7086d578b9d6e65df2df",
+      "newSha256": "46f626ad64a64529412bd2b80cf1b15de69cb7b7d85a7086d578b9d6e65df2df",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe002",
+      "oldSha256": "aa60ad2e0bb85efc39c1bfbc9b8dd1738be6ecfc19d3965a1639dc486894db99",
+      "newSha256": "aa60ad2e0bb85efc39c1bfbc9b8dd1738be6ecfc19d3965a1639dc486894db99",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe003",
+      "oldSha256": "ac8d0d8b4f1b1d1eee20e2c5bfcb94c9078f7d0e42edf340df7fb82c8bd2452e",
+      "newSha256": "ac8d0d8b4f1b1d1eee20e2c5bfcb94c9078f7d0e42edf340df7fb82c8bd2452e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe004",
+      "oldSha256": "eb2aeff2c0e0569c7f48b5154567135b3104a3c2020bc4b9fbe625686a32d64e",
+      "newSha256": "eb2aeff2c0e0569c7f48b5154567135b3104a3c2020bc4b9fbe625686a32d64e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe005",
+      "oldSha256": "2f464579ca818981d8befa35287b3043d249d202f46a94dd508e9a0e198c2bcd",
+      "newSha256": "2f464579ca818981d8befa35287b3043d249d202f46a94dd508e9a0e198c2bcd",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe006",
+      "oldSha256": "581ad7998f28c49a4bed0cb058bf44b2f213da6791eaadcf1776bda31b5358a9",
+      "newSha256": "581ad7998f28c49a4bed0cb058bf44b2f213da6791eaadcf1776bda31b5358a9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe007",
+      "oldSha256": "ea256012f1dbf245ea41cc5f3668976dd572db092a009facecd316f24d7db4f0",
+      "newSha256": "ea256012f1dbf245ea41cc5f3668976dd572db092a009facecd316f24d7db4f0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe008",
+      "oldSha256": "26642d77d971bb3a7e6bff6db4d908f217920a1d278cf4e39977e27be9e8cb57",
+      "newSha256": "26642d77d971bb3a7e6bff6db4d908f217920a1d278cf4e39977e27be9e8cb57",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe009",
+      "oldSha256": "c39569307a99285018a6f045eb5726b790692d864dc4ed769474708a66f0b5d0",
+      "newSha256": "c39569307a99285018a6f045eb5726b790692d864dc4ed769474708a66f0b5d0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe010",
+      "oldSha256": "37fb5b391a1158e5d689431f0d2bdea79af8c09eefd64f95d8ab03511daa4103",
+      "newSha256": "37fb5b391a1158e5d689431f0d2bdea79af8c09eefd64f95d8ab03511daa4103",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe012",
+      "oldSha256": "dc468700f226ee006deb94f669f795429ac1afda1e3b9af9010989719f3dcd4f",
+      "newSha256": "dc468700f226ee006deb94f669f795429ac1afda1e3b9af9010989719f3dcd4f",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe013",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe014",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe015",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe016",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe017",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe018",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe019",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe020",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe021",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe022",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe023",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe024",
+      "oldSha256": "6f1caf4d12304bf18914a4ace7796f2074755aa92ea8bed7f95e89974b774383",
+      "newSha256": "6f1caf4d12304bf18914a4ace7796f2074755aa92ea8bed7f95e89974b774383",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe025",
+      "oldSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "newSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe026",
+      "oldSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "newSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe027",
+      "oldSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "newSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe028",
+      "oldSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "newSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe029",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe030",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe031",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe032",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe033",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe034",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe035",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe036",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe037",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe038",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe039",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe040",
+      "oldSha256": "fba6dfe891b2ca09f5834077f41f2ff3ff14267fef57396e5cc6e6dfb96f8ab7",
+      "newSha256": "fba6dfe891b2ca09f5834077f41f2ff3ff14267fef57396e5cc6e6dfb96f8ab7",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe041",
+      "oldSha256": "30dc8bee05e204599e692152fb65f4e55c095cd741061a7d3c8932b343c0ebac",
+      "newSha256": "30dc8bee05e204599e692152fb65f4e55c095cd741061a7d3c8932b343c0ebac",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe042",
+      "oldSha256": "8be996ba74dab78ac8b125c52512bc30dafd3f95f7940f436289767836eba9fa",
+      "newSha256": "8be996ba74dab78ac8b125c52512bc30dafd3f95f7940f436289767836eba9fa",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe043",
+      "oldSha256": "c08b991619f7f89068bca1c4882d416aceab51993b01cace58f844a15ddc4721",
+      "newSha256": "c08b991619f7f89068bca1c4882d416aceab51993b01cace58f844a15ddc4721",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe044",
+      "oldSha256": "ad3cb1d6cb475421527fdce3ba01fc69be58024eb399fc4fcb4658cab36a07af",
+      "newSha256": "ad3cb1d6cb475421527fdce3ba01fc69be58024eb399fc4fcb4658cab36a07af",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe045",
+      "oldSha256": "c3e84c1a65067640c012f1248295acb5e3d69a82807b200290b39ea29cf86252",
+      "newSha256": "c3e84c1a65067640c012f1248295acb5e3d69a82807b200290b39ea29cf86252",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe046",
+      "oldSha256": "68984bc29a1f6351a196ac9f3202fbe1c0bbdad6b139001b076d9d7708a42065",
+      "newSha256": "68984bc29a1f6351a196ac9f3202fbe1c0bbdad6b139001b076d9d7708a42065",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe047",
+      "oldSha256": "7fbf7214bd7506b85c1d91e1c7f4f2b744b89df8198c6c5f01cd60fb2b0d49fc",
+      "newSha256": "7fbf7214bd7506b85c1d91e1c7f4f2b744b89df8198c6c5f01cd60fb2b0d49fc",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe048",
+      "oldSha256": "19e63172e2bc26fa5fd5f51ccf4756716b3852892516a7bbfc6bfe55e44e6997",
+      "newSha256": "19e63172e2bc26fa5fd5f51ccf4756716b3852892516a7bbfc6bfe55e44e6997",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe049",
+      "oldSha256": "32eb25ada86b89f618233bcfba161394e726ca5819d0b018fb580f2e2930f479",
+      "newSha256": "32eb25ada86b89f618233bcfba161394e726ca5819d0b018fb580f2e2930f479",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe050",
+      "oldSha256": "93e3ffb401fe91ab337ab85a39ff00f98b43e3f25e8836c357d26001ecaf8608",
+      "newSha256": "93e3ffb401fe91ab337ab85a39ff00f98b43e3f25e8836c357d26001ecaf8608",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe051",
+      "oldSha256": "1bfd19ded89aa6b6b0001398e21a04ecd1ffd3d4a8a3630298e177e591e667b7",
+      "newSha256": "1bfd19ded89aa6b6b0001398e21a04ecd1ffd3d4a8a3630298e177e591e667b7",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe052",
+      "oldSha256": "fd3ac17e66d6a820e4d459a1bc358f7c8f7015e780806f8ff3fdc3ed07e8836c",
+      "newSha256": "fd3ac17e66d6a820e4d459a1bc358f7c8f7015e780806f8ff3fdc3ed07e8836c",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe053",
+      "oldSha256": "afde418a51a025e9b93689bd458bd9f0304b5ae37d67ca7257e5b61a8a3f8f9b",
+      "newSha256": "afde418a51a025e9b93689bd458bd9f0304b5ae37d67ca7257e5b61a8a3f8f9b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe054",
+      "oldSha256": "4952a6d04ba4bf35f742f6a9deed8f648d8ba010e25c6b3683977ddb9ca7199f",
+      "newSha256": "4952a6d04ba4bf35f742f6a9deed8f648d8ba010e25c6b3683977ddb9ca7199f",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe055",
+      "oldSha256": "242bffb94f7d3a512f46a87896371a1ce8ec79e9868a8a65e8fc2598ec2a893b",
+      "newSha256": "242bffb94f7d3a512f46a87896371a1ce8ec79e9868a8a65e8fc2598ec2a893b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe056",
+      "oldSha256": "e4d73043c74af3afd74a04df1bb8f0eb4ac1b3ea43526d558b0d80cf209a84eb",
+      "newSha256": "e4d73043c74af3afd74a04df1bb8f0eb4ac1b3ea43526d558b0d80cf209a84eb",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe057",
+      "oldSha256": "0868665d94ce51a9a32b26b28c8462884ff636fecc64556627247128f95905a0",
+      "newSha256": "0868665d94ce51a9a32b26b28c8462884ff636fecc64556627247128f95905a0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe058",
+      "oldSha256": "1d72d43e66cd640610c2070e95d2334457bd3b274a5e79b898d6128dbeb723a5",
+      "newSha256": "1d72d43e66cd640610c2070e95d2334457bd3b274a5e79b898d6128dbeb723a5",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe059",
+      "oldSha256": "ec1f809a584f2768ab5992a0c4497811a3b9b01fd96af9a1132ec93557d115e9",
+      "newSha256": "ec1f809a584f2768ab5992a0c4497811a3b9b01fd96af9a1132ec93557d115e9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe060",
+      "oldSha256": "f934637590b50d98be608b89868262b1535e8eb177403cf5bfd9d38711a81228",
+      "newSha256": "f934637590b50d98be608b89868262b1535e8eb177403cf5bfd9d38711a81228",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe061",
+      "oldSha256": "1008a5b407a04ec013e1db44c9edeb3cc669d8c69501f97c5ec93b4aca8eb1c6",
+      "newSha256": "1008a5b407a04ec013e1db44c9edeb3cc669d8c69501f97c5ec93b4aca8eb1c6",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe062",
+      "oldSha256": "25a0cd8455698e3b520cdb1ee72e0ef3cea83c4012cd0ba708fb9b7e0c0492d9",
+      "newSha256": "25a0cd8455698e3b520cdb1ee72e0ef3cea83c4012cd0ba708fb9b7e0c0492d9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe063",
+      "oldSha256": "128e999ac75707749584f681f627e45c1d2600a0d8bab81fb71702809549ee96",
+      "newSha256": "128e999ac75707749584f681f627e45c1d2600a0d8bab81fb71702809549ee96",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe064",
+      "oldSha256": "cf04a224ccd086c683d1afa6f31dd01c3512f017a47eb0ced1b8e830a5f19a6f",
+      "newSha256": "cf04a224ccd086c683d1afa6f31dd01c3512f017a47eb0ced1b8e830a5f19a6f",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe065",
+      "oldSha256": "5875f5dd13b3f9a9cee2bfca6853637c92931beb19ac90f2ff11b812bea8ca20",
+      "newSha256": "5875f5dd13b3f9a9cee2bfca6853637c92931beb19ac90f2ff11b812bea8ca20",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe066",
+      "oldSha256": "0868665d94ce51a9a32b26b28c8462884ff636fecc64556627247128f95905a0",
+      "newSha256": "0868665d94ce51a9a32b26b28c8462884ff636fecc64556627247128f95905a0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe067",
+      "oldSha256": "ec1f809a584f2768ab5992a0c4497811a3b9b01fd96af9a1132ec93557d115e9",
+      "newSha256": "ec1f809a584f2768ab5992a0c4497811a3b9b01fd96af9a1132ec93557d115e9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe068",
+      "oldSha256": "dd0ff44dd2d4b3b612d3d21f8eb2f852bed827c681b8d2906e5cff091cd9d835",
+      "newSha256": "dd0ff44dd2d4b3b612d3d21f8eb2f852bed827c681b8d2906e5cff091cd9d835",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe069",
+      "oldSha256": "4d43b8488284ecc08543c879c19303ad97d60e213e246ddebff62ef1a82a221d",
+      "newSha256": "4d43b8488284ecc08543c879c19303ad97d60e213e246ddebff62ef1a82a221d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe070",
+      "oldSha256": "3e85dd0321c18f92ea378d7c6dd319a51245a0dc447b84dd86d2119e08bc9bdb",
+      "newSha256": "3e85dd0321c18f92ea378d7c6dd319a51245a0dc447b84dd86d2119e08bc9bdb",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe071",
+      "oldSha256": "afec425ac875a14a2f76ef3ac2ba85ef151175d898e73feab47b483549e6412b",
+      "newSha256": "afec425ac875a14a2f76ef3ac2ba85ef151175d898e73feab47b483549e6412b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe072",
+      "oldSha256": "cb0a760196504ad96d8cbab1e1a0db6b31f0219bac4d2268099928ed34e978ab",
+      "newSha256": "cb0a760196504ad96d8cbab1e1a0db6b31f0219bac4d2268099928ed34e978ab",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe073",
+      "oldSha256": "db4856ca20950675b6745b187f61f6deb847c03a349c915d651aa4fdef3d8893",
+      "newSha256": "db4856ca20950675b6745b187f61f6deb847c03a349c915d651aa4fdef3d8893",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe074",
+      "oldSha256": "791b0893607eb792f3f122f0c84cbb2987d7f9038b553418f2bf709ab488e176",
+      "newSha256": "791b0893607eb792f3f122f0c84cbb2987d7f9038b553418f2bf709ab488e176",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe075",
+      "oldSha256": "be77d4d89a49538b3e73406d0a9e42cf3ab39576f69eb730bd39f4e248fbfb3f",
+      "newSha256": "be77d4d89a49538b3e73406d0a9e42cf3ab39576f69eb730bd39f4e248fbfb3f",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe076",
+      "oldSha256": "296a620695d960607785b9a27612bff724abe3f206a18e65ea89c34d917f2823",
+      "newSha256": "296a620695d960607785b9a27612bff724abe3f206a18e65ea89c34d917f2823",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe077",
+      "oldSha256": "db4856ca20950675b6745b187f61f6deb847c03a349c915d651aa4fdef3d8893",
+      "newSha256": "db4856ca20950675b6745b187f61f6deb847c03a349c915d651aa4fdef3d8893",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe078",
+      "oldSha256": "1375fbc7887568e369bae8a21c731113ccbf169b351765965b3e4f0db987b108",
+      "newSha256": "1375fbc7887568e369bae8a21c731113ccbf169b351765965b3e4f0db987b108",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe079",
+      "oldSha256": "c3e5901d5c71f27efb705698f5379bc3d5e534304ce1af89c4c0941d65fb7c41",
+      "newSha256": "c3e5901d5c71f27efb705698f5379bc3d5e534304ce1af89c4c0941d65fb7c41",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe080",
+      "oldSha256": "d84e7f285b5e10675eebe347c89445f2a95b1d9d34fac2b78ba40788b777f7de",
+      "newSha256": "d84e7f285b5e10675eebe347c89445f2a95b1d9d34fac2b78ba40788b777f7de",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe081",
+      "oldSha256": "b581aee4ac2b1ccf5490550d7af8f2a15461e9df127377260fcf29619cda22db",
+      "newSha256": "b581aee4ac2b1ccf5490550d7af8f2a15461e9df127377260fcf29619cda22db",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe082",
+      "oldSha256": "27c1369d8b6b849977cee58c80f3bafdfb0a6ee0b1f86647a56a892afe68f082",
+      "newSha256": "27c1369d8b6b849977cee58c80f3bafdfb0a6ee0b1f86647a56a892afe68f082",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe083",
+      "oldSha256": "2553ec3589f5b704826a07f936c0a8e1d416d26c89fb3ff75c44dc7e16f3fb33",
+      "newSha256": "2553ec3589f5b704826a07f936c0a8e1d416d26c89fb3ff75c44dc7e16f3fb33",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe084",
+      "oldSha256": "d3f25bb72b7b0019140258a587f1ec0253f827cf4678592acd418535bff4a37b",
+      "newSha256": "d3f25bb72b7b0019140258a587f1ec0253f827cf4678592acd418535bff4a37b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe085",
+      "oldSha256": "ff16ae313f8a98dba54385f647d3e48622d715c9ea1ce39e92f7b221662c77ef",
+      "newSha256": "ff16ae313f8a98dba54385f647d3e48622d715c9ea1ce39e92f7b221662c77ef",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe086",
+      "oldSha256": "cadfd37744d0e60cc85a02b8a81f013a199c9b920a78269da8fe8564a7c76f47",
+      "newSha256": "cadfd37744d0e60cc85a02b8a81f013a199c9b920a78269da8fe8564a7c76f47",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe087",
+      "oldSha256": "9393aa7fe3e0f5e9c24ed775de3a9d3370d6f4a5622253cdb0c6ea325ba4b492",
+      "newSha256": "9393aa7fe3e0f5e9c24ed775de3a9d3370d6f4a5622253cdb0c6ea325ba4b492",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe088",
+      "oldSha256": "e7e3aaa3974f322ce635352ad05c1a04096dcde397cece878139c394f8d58ea0",
+      "newSha256": "e7e3aaa3974f322ce635352ad05c1a04096dcde397cece878139c394f8d58ea0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe089",
+      "oldSha256": "3d3620ce54bdbe909d7495a806c92d2a8fa31b5e6470f4ef1d752f268445398a",
+      "newSha256": "3d3620ce54bdbe909d7495a806c92d2a8fa31b5e6470f4ef1d752f268445398a",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe090",
+      "oldSha256": "ffd1592d591015fd348313f375d921a529457e4a997100c61b4958d5d3b733be",
+      "newSha256": "ffd1592d591015fd348313f375d921a529457e4a997100c61b4958d5d3b733be",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe091",
+      "oldSha256": "197809c27f239ad406d27b1842c790a526722b182f4acc8e7a41e073116d8fe5",
+      "newSha256": "197809c27f239ad406d27b1842c790a526722b182f4acc8e7a41e073116d8fe5",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe092",
+      "oldSha256": "064d3b3e5552c69c4bfeb57d6fd2ec9325a92ea078e626f149c33fd4f417bc3e",
+      "newSha256": "064d3b3e5552c69c4bfeb57d6fd2ec9325a92ea078e626f149c33fd4f417bc3e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe093",
+      "oldSha256": "a4550669af1fcf522d519d01730b34305ead1d793f6ca07d90c21c9bff802d5d",
+      "newSha256": "a4550669af1fcf522d519d01730b34305ead1d793f6ca07d90c21c9bff802d5d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe094",
+      "oldSha256": "3c5117b1beb7c1941980ba4e2f801cc69c820b35c6f7bed2452c7311e2f2a798",
+      "newSha256": "3c5117b1beb7c1941980ba4e2f801cc69c820b35c6f7bed2452c7311e2f2a798",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTrackShoe095",
+      "oldSha256": "55a3fe8ef74f0e7e908ff6cd872f1fb241941ac03de0e71417aed0f3ad782953",
+      "newSha256": "55a3fe8ef74f0e7e908ff6cd872f1fb241941ac03de0e71417aed0f3ad782953",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTurretCheek",
+      "oldSha256": "1cc2674fea06bc1913d959fdf6e9dfb8572a3a4328a5e7361ab925d9dabf3aa5",
+      "newSha256": "1cc2674fea06bc1913d959fdf6e9dfb8572a3a4328a5e7361ab925d9dabf3aa5",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LeftTurretCheekEdgeHighlights",
+      "oldSha256": "c4cff6de5bfef6650959c634e9df8a3818184e2f915ed53e6b8e697f9a417614",
+      "newSha256": "c4cff6de5bfef6650959c634e9df8a3818184e2f915ed53e6b8e697f9a417614",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LoaderHatch",
+      "oldSha256": "f04c67b28182687e23f5693c2908bd4c029ffded205642d4dbce826f634febd1",
+      "newSha256": "f04c67b28182687e23f5693c2908bd4c029ffded205642d4dbce826f634febd1",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LoaderHatchLid",
+      "oldSha256": "0285e02a4fca456fe18db121a9097d25ea8677f80355b929880b470ec0247a71",
+      "newSha256": "0285e02a4fca456fe18db121a9097d25ea8677f80355b929880b470ec0247a71",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "LoaderHatchLidSeamAccents",
+      "oldSha256": "a3eac1ead92323894c46490211166daaa7f2a66138f15fc9fa766e670837ba65",
+      "newSha256": "a3eac1ead92323894c46490211166daaa7f2a66138f15fc9fa766e670837ba65",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M240AmmoCradle",
+      "oldSha256": "b3887b410df090b6f0edb51ba8672ca40fe06871c45fb295888fe1bcd0635545",
+      "newSha256": "b3887b410df090b6f0edb51ba8672ca40fe06871c45fb295888fe1bcd0635545",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M240Barrel",
+      "oldSha256": "f7b72aa58daf138015204a190e1cca73e847f0ec2a5b962de97a45a4e76ca980",
+      "newSha256": "f7b72aa58daf138015204a190e1cca73e847f0ec2a5b962de97a45a4e76ca980",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M240CaseContainer",
+      "oldSha256": "224139cce20ae5890710c6a9200f48f833f3f5c1b8296a480915df527f459522",
+      "newSha256": "224139cce20ae5890710c6a9200f48f833f3f5c1b8296a480915df527f459522",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M240Cradle",
+      "oldSha256": "6c278b5dd1822929f1661d884074ac54e10ec86e174def710d980d1d70e1f1b1",
+      "newSha256": "6c278b5dd1822929f1661d884074ac54e10ec86e174def710d980d1d70e1f1b1",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M240Receiver",
+      "oldSha256": "7a0b0bd4774ec8a0654443a1a97e44dd6d43252d7d1d032f82838635641fdf72",
+      "newSha256": "7a0b0bd4774ec8a0654443a1a97e44dd6d43252d7d1d032f82838635641fdf72",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M240SkateSupport",
+      "oldSha256": "678cda36ac26674bc6f96cc127e002a359a48f5a5e0b68c6a7d11e3e22b6130d",
+      "newSha256": "678cda36ac26674bc6f96cc127e002a359a48f5a5e0b68c6a7d11e3e22b6130d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M2AmmoCradle",
+      "oldSha256": "de39937757403712c16fd3b3a85ed4b0b956207699682b8ec7de03794410fcc1",
+      "newSha256": "de39937757403712c16fd3b3a85ed4b0b956207699682b8ec7de03794410fcc1",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M2Barrel",
+      "oldSha256": "4fe4e8dcdf4e3f06d0017f6185ee033af550584fc02b4b4a49366a690b642895",
+      "newSha256": "4fe4e8dcdf4e3f06d0017f6185ee033af550584fc02b4b4a49366a690b642895",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M2CWSSupport",
+      "oldSha256": "528f4dab11eaf5b9277e98ebdefea892366acd2a0d14678c1dc7022f121282e7",
+      "newSha256": "528f4dab11eaf5b9277e98ebdefea892366acd2a0d14678c1dc7022f121282e7",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M2Cradle",
+      "oldSha256": "815ab76c2eed66eb8af6d4067f6df375094fa33f801cf93b92228232eb98bf41",
+      "newSha256": "815ab76c2eed66eb8af6d4067f6df375094fa33f801cf93b92228232eb98bf41",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "M2Receiver",
+      "oldSha256": "ba8d80f10fd403ef00f538b3a6f9c72567465574f31c154b2099f540d12062fd",
+      "newSha256": "ba8d80f10fd403ef00f538b3a6f9c72567465574f31c154b2099f540d12062fd",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "Mantlet",
+      "oldSha256": "9368eb164d190b87b601e1b5befc4b3bae811376a29e06a7259d6c9aa65bfb34",
+      "newSha256": "bd48b0fd6be6c78173513866b1dc1ef1483e8508c750db76c40f55eb3bc5f3f3",
+      "geometryAttributesMaterialExact": false,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "MantletSeamAccents",
+      "oldSha256": "c5b616f7c836dbb9843793f027f0748adfb843d0528f1e54f7928a3fb9027122",
+      "newSha256": "c891b9e2cb6536d6aa8d3f96d8f0dd47c344fbb454057dbcf458ef550113f889",
+      "geometryAttributesMaterialExact": false,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "MuzzleReference",
+      "oldSha256": "4a94dbad01e10b95e7384bb92940a01adbe45ff0f917f0151f368183e7f03a19",
+      "newSha256": "4a94dbad01e10b95e7384bb92940a01adbe45ff0f917f0151f368183e7f03a19",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RearBasket",
+      "oldSha256": "66ffb5e3844511bacc857fac4ba7f960443d61f9bb6602078dd32ad53f9793b6",
+      "newSha256": "66ffb5e3844511bacc857fac4ba7f960443d61f9bb6602078dd32ad53f9793b6",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RearExhaustGrilles",
+      "oldSha256": "1c8ced18ad78d5d9605abe6a06070c1da6a70108337800442132a40a67cd0cb3",
+      "newSha256": "1c8ced18ad78d5d9605abe6a06070c1da6a70108337800442132a40a67cd0cb3",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightAntenna",
+      "oldSha256": "4fe4336e40d56257ba7a672d4a17d1146a3714a52dd0e0f5c75a45fdb730fb76",
+      "newSha256": "4fe4336e40d56257ba7a672d4a17d1146a3714a52dd0e0f5c75a45fdb730fb76",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightFender",
+      "oldSha256": "b166afcdbec401380c1f00618ba5a6f6996a5f74f8faf070e03194dac8b2dc25",
+      "newSha256": "b166afcdbec401380c1f00618ba5a6f6996a5f74f8faf070e03194dac8b2dc25",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightFenderEdgeHighlights",
+      "oldSha256": "bbfa885e20949109f0daf72eb27da481780649f8de45f7303c310d6c7977bfea",
+      "newSha256": "bbfa885e20949109f0daf72eb27da481780649f8de45f7303c310d6c7977bfea",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightHeadlightGuard",
+      "oldSha256": "7e3aa390694e9dc242750da558f9168636f175238c03d335c9e9c197d91cc5d2",
+      "newSha256": "7e3aa390694e9dc242750da558f9168636f175238c03d335c9e9c197d91cc5d2",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightIdler",
+      "oldSha256": "979fea8bb0277d1034fc387f2526301dd0822adf1924cc1abd576352e2ceb4be",
+      "newSha256": "979fea8bb0277d1034fc387f2526301dd0822adf1924cc1abd576352e2ceb4be",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightRoadWheel1",
+      "oldSha256": "b7bf6efbe35424ace37686737ecaae1d03123a89cd94d32c1be04cac112eb32b",
+      "newSha256": "b7bf6efbe35424ace37686737ecaae1d03123a89cd94d32c1be04cac112eb32b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightRoadWheel2",
+      "oldSha256": "71801c676710fda9ec6504895ff4cd7beee4d8c785d1b7b4d489284a2cc32413",
+      "newSha256": "71801c676710fda9ec6504895ff4cd7beee4d8c785d1b7b4d489284a2cc32413",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightRoadWheel3",
+      "oldSha256": "a33d357df759073254dada884dccf235cb7d6cb583f561f3b2977079bfdb26e4",
+      "newSha256": "a33d357df759073254dada884dccf235cb7d6cb583f561f3b2977079bfdb26e4",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightRoadWheel4",
+      "oldSha256": "645996230427f966c9dcd3dcaa9c89ea6c2f9822bf123b8ef91916b837b51653",
+      "newSha256": "645996230427f966c9dcd3dcaa9c89ea6c2f9822bf123b8ef91916b837b51653",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightRoadWheel5",
+      "oldSha256": "ffc689c8d247a0cb6d8af88e23dd0e05fdd2bc8512df5d4087d2d089b000fbd9",
+      "newSha256": "ffc689c8d247a0cb6d8af88e23dd0e05fdd2bc8512df5d4087d2d089b000fbd9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightRoadWheel6",
+      "oldSha256": "102f2242422099b5b1843596f74591a9a8a8277e25f945414f7c1be5d0889580",
+      "newSha256": "102f2242422099b5b1843596f74591a9a8a8277e25f945414f7c1be5d0889580",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightRoadWheel7",
+      "oldSha256": "ce20596c984f3efc3879235c88cab55eeab9b1d43507f1af0c7d52b1b0a3f277",
+      "newSha256": "ce20596c984f3efc3879235c88cab55eeab9b1d43507f1af0c7d52b1b0a3f277",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightSkirts",
+      "oldSha256": "1bcce24504bc17964d97e1a6b9f7bb2b7968ecc57ede8b1b0288739f1bbd8000",
+      "newSha256": "1bcce24504bc17964d97e1a6b9f7bb2b7968ecc57ede8b1b0288739f1bbd8000",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightSkirtsEdgeHighlights",
+      "oldSha256": "14f1f7f91263df5c8e0345bee4a325fd6a6d3328f2a59643df3c7b118510d75d",
+      "newSha256": "14f1f7f91263df5c8e0345bee4a325fd6a6d3328f2a59643df3c7b118510d75d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightSkirtsSeamAccents",
+      "oldSha256": "031208a27325f2d1ba307d52906547ded3430f09a2cad6931b9e3383d747636e",
+      "newSha256": "031208a27325f2d1ba307d52906547ded3430f09a2cad6931b9e3383d747636e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightSmokeBank",
+      "oldSha256": "67b17dd16457b41c99584f6966f211dee4c035538cdcd9fd29d9c08cb76f9311",
+      "newSha256": "67b17dd16457b41c99584f6966f211dee4c035538cdcd9fd29d9c08cb76f9311",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightSprocket",
+      "oldSha256": "86b837e71e1b3fdaad25d8533772f521c0c2e8f6601a8febde3ca589f7e89865",
+      "newSha256": "86b837e71e1b3fdaad25d8533772f521c0c2e8f6601a8febde3ca589f7e89865",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightStowage",
+      "oldSha256": "2b82c56f208967a2632223b8e5ad373d53bbbd2bef52aa7aba94aa19e57ead8e",
+      "newSha256": "2b82c56f208967a2632223b8e5ad373d53bbbd2bef52aa7aba94aa19e57ead8e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrack",
+      "oldSha256": "26a2fcf7a7e6acac3af52ded1593f5c7bc84e7fa369540284086783fb9c5fb9a",
+      "newSha256": "26a2fcf7a7e6acac3af52ded1593f5c7bc84e7fa369540284086783fb9c5fb9a",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe000",
+      "oldSha256": "2d570226a11dcbd5fbcd78c95879ac7c71ce0c03209b20c85207f1dfe6fc1bcd",
+      "newSha256": "2d570226a11dcbd5fbcd78c95879ac7c71ce0c03209b20c85207f1dfe6fc1bcd",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe001",
+      "oldSha256": "46f626ad64a64529412bd2b80cf1b15de69cb7b7d85a7086d578b9d6e65df2df",
+      "newSha256": "46f626ad64a64529412bd2b80cf1b15de69cb7b7d85a7086d578b9d6e65df2df",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe002",
+      "oldSha256": "aa60ad2e0bb85efc39c1bfbc9b8dd1738be6ecfc19d3965a1639dc486894db99",
+      "newSha256": "aa60ad2e0bb85efc39c1bfbc9b8dd1738be6ecfc19d3965a1639dc486894db99",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe003",
+      "oldSha256": "ac8d0d8b4f1b1d1eee20e2c5bfcb94c9078f7d0e42edf340df7fb82c8bd2452e",
+      "newSha256": "ac8d0d8b4f1b1d1eee20e2c5bfcb94c9078f7d0e42edf340df7fb82c8bd2452e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe004",
+      "oldSha256": "eb2aeff2c0e0569c7f48b5154567135b3104a3c2020bc4b9fbe625686a32d64e",
+      "newSha256": "eb2aeff2c0e0569c7f48b5154567135b3104a3c2020bc4b9fbe625686a32d64e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe005",
+      "oldSha256": "2f464579ca818981d8befa35287b3043d249d202f46a94dd508e9a0e198c2bcd",
+      "newSha256": "2f464579ca818981d8befa35287b3043d249d202f46a94dd508e9a0e198c2bcd",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe006",
+      "oldSha256": "581ad7998f28c49a4bed0cb058bf44b2f213da6791eaadcf1776bda31b5358a9",
+      "newSha256": "581ad7998f28c49a4bed0cb058bf44b2f213da6791eaadcf1776bda31b5358a9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe007",
+      "oldSha256": "ea256012f1dbf245ea41cc5f3668976dd572db092a009facecd316f24d7db4f0",
+      "newSha256": "ea256012f1dbf245ea41cc5f3668976dd572db092a009facecd316f24d7db4f0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe008",
+      "oldSha256": "26642d77d971bb3a7e6bff6db4d908f217920a1d278cf4e39977e27be9e8cb57",
+      "newSha256": "26642d77d971bb3a7e6bff6db4d908f217920a1d278cf4e39977e27be9e8cb57",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe009",
+      "oldSha256": "c39569307a99285018a6f045eb5726b790692d864dc4ed769474708a66f0b5d0",
+      "newSha256": "c39569307a99285018a6f045eb5726b790692d864dc4ed769474708a66f0b5d0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe010",
+      "oldSha256": "37fb5b391a1158e5d689431f0d2bdea79af8c09eefd64f95d8ab03511daa4103",
+      "newSha256": "37fb5b391a1158e5d689431f0d2bdea79af8c09eefd64f95d8ab03511daa4103",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe012",
+      "oldSha256": "dc468700f226ee006deb94f669f795429ac1afda1e3b9af9010989719f3dcd4f",
+      "newSha256": "dc468700f226ee006deb94f669f795429ac1afda1e3b9af9010989719f3dcd4f",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe013",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe014",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe015",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe016",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe017",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe018",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe019",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe020",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe021",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe022",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe023",
+      "oldSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "newSha256": "49b481752b1430298f16c95e116550b81685f8216c76a256a46c06b62fef626d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe024",
+      "oldSha256": "6f1caf4d12304bf18914a4ace7796f2074755aa92ea8bed7f95e89974b774383",
+      "newSha256": "6f1caf4d12304bf18914a4ace7796f2074755aa92ea8bed7f95e89974b774383",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe025",
+      "oldSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "newSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe026",
+      "oldSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "newSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe027",
+      "oldSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "newSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe028",
+      "oldSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "newSha256": "bf8fbad41d7f9ca2b4e6e8b36925748eb986064d8e58a62f631909929cf364bf",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe029",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe030",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe031",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe032",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe033",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe034",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe035",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe036",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe037",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe038",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe039",
+      "oldSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "newSha256": "2f2a8c9548a9cf29103967f7254fc20acc8a6c177f0550ceeb0748587ddb9b13",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe040",
+      "oldSha256": "fba6dfe891b2ca09f5834077f41f2ff3ff14267fef57396e5cc6e6dfb96f8ab7",
+      "newSha256": "fba6dfe891b2ca09f5834077f41f2ff3ff14267fef57396e5cc6e6dfb96f8ab7",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe041",
+      "oldSha256": "30dc8bee05e204599e692152fb65f4e55c095cd741061a7d3c8932b343c0ebac",
+      "newSha256": "30dc8bee05e204599e692152fb65f4e55c095cd741061a7d3c8932b343c0ebac",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe042",
+      "oldSha256": "8be996ba74dab78ac8b125c52512bc30dafd3f95f7940f436289767836eba9fa",
+      "newSha256": "8be996ba74dab78ac8b125c52512bc30dafd3f95f7940f436289767836eba9fa",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe043",
+      "oldSha256": "c08b991619f7f89068bca1c4882d416aceab51993b01cace58f844a15ddc4721",
+      "newSha256": "c08b991619f7f89068bca1c4882d416aceab51993b01cace58f844a15ddc4721",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe044",
+      "oldSha256": "ad3cb1d6cb475421527fdce3ba01fc69be58024eb399fc4fcb4658cab36a07af",
+      "newSha256": "ad3cb1d6cb475421527fdce3ba01fc69be58024eb399fc4fcb4658cab36a07af",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe045",
+      "oldSha256": "c3e84c1a65067640c012f1248295acb5e3d69a82807b200290b39ea29cf86252",
+      "newSha256": "c3e84c1a65067640c012f1248295acb5e3d69a82807b200290b39ea29cf86252",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe046",
+      "oldSha256": "68984bc29a1f6351a196ac9f3202fbe1c0bbdad6b139001b076d9d7708a42065",
+      "newSha256": "68984bc29a1f6351a196ac9f3202fbe1c0bbdad6b139001b076d9d7708a42065",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe047",
+      "oldSha256": "7fbf7214bd7506b85c1d91e1c7f4f2b744b89df8198c6c5f01cd60fb2b0d49fc",
+      "newSha256": "7fbf7214bd7506b85c1d91e1c7f4f2b744b89df8198c6c5f01cd60fb2b0d49fc",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe048",
+      "oldSha256": "19e63172e2bc26fa5fd5f51ccf4756716b3852892516a7bbfc6bfe55e44e6997",
+      "newSha256": "19e63172e2bc26fa5fd5f51ccf4756716b3852892516a7bbfc6bfe55e44e6997",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe049",
+      "oldSha256": "32eb25ada86b89f618233bcfba161394e726ca5819d0b018fb580f2e2930f479",
+      "newSha256": "32eb25ada86b89f618233bcfba161394e726ca5819d0b018fb580f2e2930f479",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe050",
+      "oldSha256": "93e3ffb401fe91ab337ab85a39ff00f98b43e3f25e8836c357d26001ecaf8608",
+      "newSha256": "93e3ffb401fe91ab337ab85a39ff00f98b43e3f25e8836c357d26001ecaf8608",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe051",
+      "oldSha256": "1bfd19ded89aa6b6b0001398e21a04ecd1ffd3d4a8a3630298e177e591e667b7",
+      "newSha256": "1bfd19ded89aa6b6b0001398e21a04ecd1ffd3d4a8a3630298e177e591e667b7",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe052",
+      "oldSha256": "fd3ac17e66d6a820e4d459a1bc358f7c8f7015e780806f8ff3fdc3ed07e8836c",
+      "newSha256": "fd3ac17e66d6a820e4d459a1bc358f7c8f7015e780806f8ff3fdc3ed07e8836c",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe053",
+      "oldSha256": "afde418a51a025e9b93689bd458bd9f0304b5ae37d67ca7257e5b61a8a3f8f9b",
+      "newSha256": "afde418a51a025e9b93689bd458bd9f0304b5ae37d67ca7257e5b61a8a3f8f9b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe054",
+      "oldSha256": "4952a6d04ba4bf35f742f6a9deed8f648d8ba010e25c6b3683977ddb9ca7199f",
+      "newSha256": "4952a6d04ba4bf35f742f6a9deed8f648d8ba010e25c6b3683977ddb9ca7199f",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe055",
+      "oldSha256": "242bffb94f7d3a512f46a87896371a1ce8ec79e9868a8a65e8fc2598ec2a893b",
+      "newSha256": "242bffb94f7d3a512f46a87896371a1ce8ec79e9868a8a65e8fc2598ec2a893b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe056",
+      "oldSha256": "e4d73043c74af3afd74a04df1bb8f0eb4ac1b3ea43526d558b0d80cf209a84eb",
+      "newSha256": "e4d73043c74af3afd74a04df1bb8f0eb4ac1b3ea43526d558b0d80cf209a84eb",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe057",
+      "oldSha256": "0868665d94ce51a9a32b26b28c8462884ff636fecc64556627247128f95905a0",
+      "newSha256": "0868665d94ce51a9a32b26b28c8462884ff636fecc64556627247128f95905a0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe058",
+      "oldSha256": "1d72d43e66cd640610c2070e95d2334457bd3b274a5e79b898d6128dbeb723a5",
+      "newSha256": "1d72d43e66cd640610c2070e95d2334457bd3b274a5e79b898d6128dbeb723a5",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe059",
+      "oldSha256": "ec1f809a584f2768ab5992a0c4497811a3b9b01fd96af9a1132ec93557d115e9",
+      "newSha256": "ec1f809a584f2768ab5992a0c4497811a3b9b01fd96af9a1132ec93557d115e9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe060",
+      "oldSha256": "f934637590b50d98be608b89868262b1535e8eb177403cf5bfd9d38711a81228",
+      "newSha256": "f934637590b50d98be608b89868262b1535e8eb177403cf5bfd9d38711a81228",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe061",
+      "oldSha256": "1008a5b407a04ec013e1db44c9edeb3cc669d8c69501f97c5ec93b4aca8eb1c6",
+      "newSha256": "1008a5b407a04ec013e1db44c9edeb3cc669d8c69501f97c5ec93b4aca8eb1c6",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe062",
+      "oldSha256": "25a0cd8455698e3b520cdb1ee72e0ef3cea83c4012cd0ba708fb9b7e0c0492d9",
+      "newSha256": "25a0cd8455698e3b520cdb1ee72e0ef3cea83c4012cd0ba708fb9b7e0c0492d9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe063",
+      "oldSha256": "128e999ac75707749584f681f627e45c1d2600a0d8bab81fb71702809549ee96",
+      "newSha256": "128e999ac75707749584f681f627e45c1d2600a0d8bab81fb71702809549ee96",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe064",
+      "oldSha256": "cf04a224ccd086c683d1afa6f31dd01c3512f017a47eb0ced1b8e830a5f19a6f",
+      "newSha256": "cf04a224ccd086c683d1afa6f31dd01c3512f017a47eb0ced1b8e830a5f19a6f",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe065",
+      "oldSha256": "5875f5dd13b3f9a9cee2bfca6853637c92931beb19ac90f2ff11b812bea8ca20",
+      "newSha256": "5875f5dd13b3f9a9cee2bfca6853637c92931beb19ac90f2ff11b812bea8ca20",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe066",
+      "oldSha256": "0868665d94ce51a9a32b26b28c8462884ff636fecc64556627247128f95905a0",
+      "newSha256": "0868665d94ce51a9a32b26b28c8462884ff636fecc64556627247128f95905a0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe067",
+      "oldSha256": "ec1f809a584f2768ab5992a0c4497811a3b9b01fd96af9a1132ec93557d115e9",
+      "newSha256": "ec1f809a584f2768ab5992a0c4497811a3b9b01fd96af9a1132ec93557d115e9",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe068",
+      "oldSha256": "dd0ff44dd2d4b3b612d3d21f8eb2f852bed827c681b8d2906e5cff091cd9d835",
+      "newSha256": "dd0ff44dd2d4b3b612d3d21f8eb2f852bed827c681b8d2906e5cff091cd9d835",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe069",
+      "oldSha256": "4d43b8488284ecc08543c879c19303ad97d60e213e246ddebff62ef1a82a221d",
+      "newSha256": "4d43b8488284ecc08543c879c19303ad97d60e213e246ddebff62ef1a82a221d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe070",
+      "oldSha256": "3e85dd0321c18f92ea378d7c6dd319a51245a0dc447b84dd86d2119e08bc9bdb",
+      "newSha256": "3e85dd0321c18f92ea378d7c6dd319a51245a0dc447b84dd86d2119e08bc9bdb",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe071",
+      "oldSha256": "afec425ac875a14a2f76ef3ac2ba85ef151175d898e73feab47b483549e6412b",
+      "newSha256": "afec425ac875a14a2f76ef3ac2ba85ef151175d898e73feab47b483549e6412b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe072",
+      "oldSha256": "cb0a760196504ad96d8cbab1e1a0db6b31f0219bac4d2268099928ed34e978ab",
+      "newSha256": "cb0a760196504ad96d8cbab1e1a0db6b31f0219bac4d2268099928ed34e978ab",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe073",
+      "oldSha256": "db4856ca20950675b6745b187f61f6deb847c03a349c915d651aa4fdef3d8893",
+      "newSha256": "db4856ca20950675b6745b187f61f6deb847c03a349c915d651aa4fdef3d8893",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe074",
+      "oldSha256": "791b0893607eb792f3f122f0c84cbb2987d7f9038b553418f2bf709ab488e176",
+      "newSha256": "791b0893607eb792f3f122f0c84cbb2987d7f9038b553418f2bf709ab488e176",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe075",
+      "oldSha256": "be77d4d89a49538b3e73406d0a9e42cf3ab39576f69eb730bd39f4e248fbfb3f",
+      "newSha256": "be77d4d89a49538b3e73406d0a9e42cf3ab39576f69eb730bd39f4e248fbfb3f",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe076",
+      "oldSha256": "296a620695d960607785b9a27612bff724abe3f206a18e65ea89c34d917f2823",
+      "newSha256": "296a620695d960607785b9a27612bff724abe3f206a18e65ea89c34d917f2823",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe077",
+      "oldSha256": "db4856ca20950675b6745b187f61f6deb847c03a349c915d651aa4fdef3d8893",
+      "newSha256": "db4856ca20950675b6745b187f61f6deb847c03a349c915d651aa4fdef3d8893",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe078",
+      "oldSha256": "1375fbc7887568e369bae8a21c731113ccbf169b351765965b3e4f0db987b108",
+      "newSha256": "1375fbc7887568e369bae8a21c731113ccbf169b351765965b3e4f0db987b108",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe079",
+      "oldSha256": "c3e5901d5c71f27efb705698f5379bc3d5e534304ce1af89c4c0941d65fb7c41",
+      "newSha256": "c3e5901d5c71f27efb705698f5379bc3d5e534304ce1af89c4c0941d65fb7c41",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe080",
+      "oldSha256": "d84e7f285b5e10675eebe347c89445f2a95b1d9d34fac2b78ba40788b777f7de",
+      "newSha256": "d84e7f285b5e10675eebe347c89445f2a95b1d9d34fac2b78ba40788b777f7de",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe081",
+      "oldSha256": "b581aee4ac2b1ccf5490550d7af8f2a15461e9df127377260fcf29619cda22db",
+      "newSha256": "b581aee4ac2b1ccf5490550d7af8f2a15461e9df127377260fcf29619cda22db",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe082",
+      "oldSha256": "27c1369d8b6b849977cee58c80f3bafdfb0a6ee0b1f86647a56a892afe68f082",
+      "newSha256": "27c1369d8b6b849977cee58c80f3bafdfb0a6ee0b1f86647a56a892afe68f082",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe083",
+      "oldSha256": "2553ec3589f5b704826a07f936c0a8e1d416d26c89fb3ff75c44dc7e16f3fb33",
+      "newSha256": "2553ec3589f5b704826a07f936c0a8e1d416d26c89fb3ff75c44dc7e16f3fb33",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe084",
+      "oldSha256": "d3f25bb72b7b0019140258a587f1ec0253f827cf4678592acd418535bff4a37b",
+      "newSha256": "d3f25bb72b7b0019140258a587f1ec0253f827cf4678592acd418535bff4a37b",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe085",
+      "oldSha256": "ff16ae313f8a98dba54385f647d3e48622d715c9ea1ce39e92f7b221662c77ef",
+      "newSha256": "ff16ae313f8a98dba54385f647d3e48622d715c9ea1ce39e92f7b221662c77ef",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe086",
+      "oldSha256": "cadfd37744d0e60cc85a02b8a81f013a199c9b920a78269da8fe8564a7c76f47",
+      "newSha256": "cadfd37744d0e60cc85a02b8a81f013a199c9b920a78269da8fe8564a7c76f47",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe087",
+      "oldSha256": "9393aa7fe3e0f5e9c24ed775de3a9d3370d6f4a5622253cdb0c6ea325ba4b492",
+      "newSha256": "9393aa7fe3e0f5e9c24ed775de3a9d3370d6f4a5622253cdb0c6ea325ba4b492",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe088",
+      "oldSha256": "e7e3aaa3974f322ce635352ad05c1a04096dcde397cece878139c394f8d58ea0",
+      "newSha256": "e7e3aaa3974f322ce635352ad05c1a04096dcde397cece878139c394f8d58ea0",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe089",
+      "oldSha256": "3d3620ce54bdbe909d7495a806c92d2a8fa31b5e6470f4ef1d752f268445398a",
+      "newSha256": "3d3620ce54bdbe909d7495a806c92d2a8fa31b5e6470f4ef1d752f268445398a",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe090",
+      "oldSha256": "ffd1592d591015fd348313f375d921a529457e4a997100c61b4958d5d3b733be",
+      "newSha256": "ffd1592d591015fd348313f375d921a529457e4a997100c61b4958d5d3b733be",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe091",
+      "oldSha256": "197809c27f239ad406d27b1842c790a526722b182f4acc8e7a41e073116d8fe5",
+      "newSha256": "197809c27f239ad406d27b1842c790a526722b182f4acc8e7a41e073116d8fe5",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe092",
+      "oldSha256": "064d3b3e5552c69c4bfeb57d6fd2ec9325a92ea078e626f149c33fd4f417bc3e",
+      "newSha256": "064d3b3e5552c69c4bfeb57d6fd2ec9325a92ea078e626f149c33fd4f417bc3e",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe093",
+      "oldSha256": "a4550669af1fcf522d519d01730b34305ead1d793f6ca07d90c21c9bff802d5d",
+      "newSha256": "a4550669af1fcf522d519d01730b34305ead1d793f6ca07d90c21c9bff802d5d",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe094",
+      "oldSha256": "3c5117b1beb7c1941980ba4e2f801cc69c820b35c6f7bed2452c7311e2f2a798",
+      "newSha256": "3c5117b1beb7c1941980ba4e2f801cc69c820b35c6f7bed2452c7311e2f2a798",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTrackShoe095",
+      "oldSha256": "55a3fe8ef74f0e7e908ff6cd872f1fb241941ac03de0e71417aed0f3ad782953",
+      "newSha256": "55a3fe8ef74f0e7e908ff6cd872f1fb241941ac03de0e71417aed0f3ad782953",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTurretCheek",
+      "oldSha256": "cb827130af60698f09c57542b4ed96bc2cbf5f80c008b6aa39ac5aeddedb3c41",
+      "newSha256": "cb827130af60698f09c57542b4ed96bc2cbf5f80c008b6aa39ac5aeddedb3c41",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "RightTurretCheekEdgeHighlights",
+      "oldSha256": "80b5802bd34eb9deb8adad21c413431d73002fc308e7e9bafd5a64fdebcd97a1",
+      "newSha256": "80b5802bd34eb9deb8adad21c413431d73002fc308e7e9bafd5a64fdebcd97a1",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "SightHousing",
+      "oldSha256": "942d55e40021515670e058f61d723640b31853d3960f9c8be32abaada7606c14",
+      "newSha256": "942d55e40021515670e058f61d723640b31853d3960f9c8be32abaada7606c14",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    },
+    {
+      "name": "TurretBearing",
+      "oldSha256": "5949ba1b939bcb9d5c91c7807d872233294b45a49fa3bc85b5e9cda0a32240c3",
+      "newSha256": "5949ba1b939bcb9d5c91c7807d872233294b45a49fa3bc85b5e9cda0a32240c3",
+      "geometryAttributesMaterialExact": true,
+      "parentAndMatricesExact": true
+    }
+  ],
+  "approval": false
+}

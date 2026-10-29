@@ -1,0 +1,1279 @@
+{
+  "jobId": "6c523446-6320-407b-b311-7cadd65f1e9b",
+  "revision": 1,
+  "checkpoint": {
+    "checkpointId": "0eeb5cec-6087-4f1d-8dc4-c60e5e30423e",
+    "checkpointHash": "094df403b359903a795589c1a2269c0964f568653bdf182a6ee9ce50d42587fe"
+  },
+  "glbSha256": "8bbdfc9ac0bca9be92e4e143f5addfdfda16e88fd92878a442bb4547e9da5b5b",
+  "priorGlbSha256": "6f6e8643bc026f457fb0b7bec965673040dbb98097545385f13ffc9eb15dc966",
+  "meshes": 269,
+  "triangles": 37776,
+  "changedMeshes": [
+    "Mantlet",
+    "MantletSeamAccents"
+  ],
+  "all267UnaffectedExact": true,
+  "materialTableExact": true,
+  "nativeObjects": 275,
+  "nativeChanges": [
+    "Mantlet",
+    "MantletSeamAccents"
+  ],
+  "allOtherNativeObjectsExact": true,
+  "nativeComplete": true,
+  "nativeStatePreserved": true,
+  "uniqueMeshOwnership": {
+    "Mantlet": [
+      "Mantlet"
+    ],
+    "MantletSeamAccents": [
+      "MantletSeamAccents"
+    ]
+  },
+  "probes": [
+    {
+      "component": "CentralTurret",
+      "selection": true,
+      "hidden": true,
+      "hideRender": true
+    },
+    {
+      "component": "CoaxShroud",
+      "selection": true,
+      "hidden": true,
+      "hideRender": true
+    },
+    {
+      "component": "GunBarrel",
+      "selection": true,
+      "hidden": true,
+      "hideRender": true
+    },
+    {
+      "component": "LeftTurretCheek",
+      "selection": true,
+      "hidden": true,
+      "hideRender": true
+    },
+    {
+      "component": "Mantlet",
+      "selection": true,
+      "hidden": true,
+      "hideRender": true
+    },
+    {
+      "component": "MantletSeamAccents",
+      "selection": true,
+      "hidden": true,
+      "hideRender": true
+    },
+    {
+      "component": "RightTurretCheek",
+      "selection": true,
+      "hidden": true,
+      "hideRender": true
+    }
+  ],
+  "frontPlaneMaxErrorMeters": 8.242470883601527e-08,
+  "rakeDegreesFromVertical": 36.304497122575235,
+  "alignment": [
+    {
+      "side": "Left",
+      "innerY": 0.235,
+      "actualTop": [
+        -2.089314,
+        0.235,
+        2.083145
+      ],
+      "actualBottom": [
+        -1.742829,
+        0.235,
+        1.57962
+      ],
+      "rakeDegrees": 34.532589875248426,
+      "samples": [
+        {
+          "z": 1.6,
+          "cheekX": -1.7568528603842908,
+          "mantletX": -1.76,
+          "newSetbackMeters": 0.003147139615709227,
+          "oldSetbackMeters": 0.3231471396157093,
+          "forwardChangeMeters": 0.32000000000000006
+        },
+        {
+          "z": 1.744,
+          "cheekX": -1.8559419622163744,
+          "mantletX": -1.865795918367347,
+          "newSetbackMeters": 0.00985395615097251,
+          "oldSetbackMeters": 0.23305803778362555,
+          "forwardChangeMeters": 0.22320408163265304
+        },
+        {
+          "z": 1.83,
+          "cheekX": -1.9151201758105356,
+          "mantletX": -1.9289795918367347,
+          "newSetbackMeters": 0.013859416026199112,
+          "oldSetbackMeters": 0.22247816213960303,
+          "forwardChangeMeters": 0.20861874611340392
+        },
+        {
+          "z": 2.035,
+          "cheekX": -2.0561845221687105,
+          "mantletX": -2.0795918367346937,
+          "newSetbackMeters": 0.023407314565983217,
+          "oldSetbackMeters": 0.19725869112768857,
+          "forwardChangeMeters": 0.17385137656170535
+        },
+        {
+          "z": 2.09,
+          "cheekX": -2.0940310541184646,
+          "mantletX": -2.1199999999999997,
+          "newSetbackMeters": 0.025968945881535088,
+          "oldSetbackMeters": 0.19049249158790627,
+          "forwardChangeMeters": 0.16452354570637118
+        }
+      ]
+    },
+    {
+      "side": "Right",
+      "innerY": -0.32,
+      "actualTop": [
+        -2.09885,
+        -0.32,
+        2.086407
+      ],
+      "actualBottom": [
+        -1.726619,
+        -0.32,
+        1.57989
+      ],
+      "rakeDegrees": 36.31155347290449,
+      "samples": [
+        {
+          "z": 1.6,
+          "cheekX": -1.7413975077499866,
+          "mantletX": -1.76,
+          "newSetbackMeters": 0.018602492250013425,
+          "oldSetbackMeters": 0.3386024922500135,
+          "forwardChangeMeters": 0.32000000000000006
+        },
+        {
+          "z": 1.744,
+          "cheekX": -1.8472207357956396,
+          "mantletX": -1.865795918367347,
+          "newSetbackMeters": 0.018575182571707316,
+          "oldSetbackMeters": 0.24177926420436036,
+          "forwardChangeMeters": 0.22320408163265304
+        },
+        {
+          "z": 1.83,
+          "cheekX": -1.9104207192117935,
+          "mantletX": -1.9289795918367347,
+          "newSetbackMeters": 0.01855887262494127,
+          "oldSetbackMeters": 0.2271776187383452,
+          "forwardChangeMeters": 0.20861874611340392
+        },
+        {
+          "z": 2.035,
+          "cheekX": -2.06107184247123,
+          "mantletX": -2.0795918367346937,
+          "newSetbackMeters": 0.018519994263463513,
+          "oldSetbackMeters": 0.19237137082516886,
+          "forwardChangeMeters": 0.17385137656170535
+        },
+        {
+          "z": 2.09,
+          "cheekX": -2.101490436516445,
+          "mantletX": -2.1199999999999997,
+          "newSetbackMeters": 0.018509563483554814,
+          "oldSetbackMeters": 0.183033109189926,
+          "forwardChangeMeters": 0.16452354570637118
+        }
+      ]
+    }
+  ],
+  "degenerateChangedTriangles": [],
+  "checks": [
+    {
+      "component": "BlowoffPanels",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "BlowoffPanelsEdgeHighlights",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "BustleArmor",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "CentralTurret",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "CentralTurretEdgeHighlights",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "CoaxShroud",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "CommanderCupola",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "CommanderHatchLid",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "CommanderHatchLidSeamAccents",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "CrosswindSensor",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "DriverHatchLid",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "DriverHatchLidSeamAccents",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "DriverHatchRim",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "EngineDeckGrille",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "GunBarrel",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "Hull",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftAntenna",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftFender",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftFenderEdgeHighlights",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftHeadlightGuard",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftIdler",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftRoadWheel1",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftRoadWheel2",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftRoadWheel3",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftRoadWheel4",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftRoadWheel5",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftRoadWheel6",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftRoadWheel7",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftSkirts",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftSkirtsEdgeHighlights",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftSkirtsSeamAccents",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftSmokeBank",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftSprocket",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftStowage",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrack",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe000",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe001",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe002",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe003",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe004",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe005",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe006",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe007",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe008",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe009",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe010",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe012",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe013",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe014",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe015",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe016",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe017",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe018",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe019",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe020",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe021",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe022",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe023",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe024",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe025",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe026",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe027",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe028",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe029",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe030",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe031",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe032",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe033",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe034",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe035",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe036",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe037",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe038",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe039",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe040",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe041",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe042",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe043",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe044",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe045",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe046",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe047",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe048",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe049",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe050",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe051",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe052",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe053",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe054",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe055",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe056",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe057",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe058",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe059",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe060",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe061",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe062",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe063",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe064",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe065",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe066",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe067",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe068",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe069",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe070",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe071",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe072",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe073",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe074",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe075",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe076",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe077",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe078",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe079",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe080",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe081",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe082",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe083",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe084",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe085",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe086",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe087",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe088",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe089",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe090",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe091",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe092",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe093",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe094",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTrackShoe095",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTurretCheek",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LeftTurretCheekEdgeHighlights",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LoaderHatch",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LoaderHatchLid",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "LoaderHatchLidSeamAccents",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M240AmmoCradle",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M240Barrel",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M240CaseContainer",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M240Cradle",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M240Receiver",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M240SkateSupport",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M2AmmoCradle",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M2Barrel",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M2CWSSupport",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M2Cradle",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "M2Receiver",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "Mantlet",
+      "exactGeometryAttributesMaterialsParentUnchanged": false
+    },
+    {
+      "component": "MantletSeamAccents",
+      "exactGeometryAttributesMaterialsParentUnchanged": false
+    },
+    {
+      "component": "MuzzleReference",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RearBasket",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RearExhaustGrilles",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightAntenna",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightFender",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightFenderEdgeHighlights",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightHeadlightGuard",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightIdler",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightRoadWheel1",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightRoadWheel2",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightRoadWheel3",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightRoadWheel4",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightRoadWheel5",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightRoadWheel6",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightRoadWheel7",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightSkirts",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightSkirtsEdgeHighlights",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightSkirtsSeamAccents",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightSmokeBank",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightSprocket",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightStowage",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrack",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe000",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe001",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe002",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe003",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe004",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe005",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe006",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe007",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe008",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe009",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe010",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe012",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe013",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe014",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe015",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe016",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe017",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe018",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe019",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe020",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe021",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe022",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe023",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe024",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe025",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe026",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe027",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe028",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe029",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe030",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe031",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe032",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe033",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe034",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe035",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe036",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe037",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe038",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe039",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe040",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe041",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe042",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe043",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe044",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe045",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe046",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe047",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe048",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe049",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe050",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe051",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe052",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe053",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe054",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe055",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe056",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe057",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe058",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe059",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe060",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe061",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe062",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe063",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe064",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe065",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe066",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe067",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe068",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe069",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe070",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe071",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe072",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe073",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe074",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe075",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe076",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe077",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe078",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe079",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe080",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe081",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe082",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe083",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe084",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe085",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe086",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe087",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe088",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe089",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe090",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe091",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe092",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe093",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe094",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTrackShoe095",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTurretCheek",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "RightTurretCheekEdgeHighlights",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "SightHousing",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    },
+    {
+      "component": "TurretBearing",
+      "exactGeometryAttributesMaterialsParentUnchanged": true
+    }
+  ],
+  "limitations": [
+    "Source front/side/plan registration discrepancies retained. Model inner cheek anchors derive from previous traced reconstruction; new shield dimensions are bounded construction choices.",
+    "Unchanged gun/coax retain source relationship and nominal closed rest. No real articulation limits or animation qualification asserted."
+  ]
+}

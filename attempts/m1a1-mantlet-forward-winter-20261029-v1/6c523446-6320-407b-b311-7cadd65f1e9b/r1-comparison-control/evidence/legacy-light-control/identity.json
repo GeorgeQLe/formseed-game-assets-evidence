@@ -1,0 +1,36 @@
+{
+  "jobId": "fca7f235-a397-4df3-ace6-b41f550d373a",
+  "revision": 5,
+  "checkpoint": {
+    "checkpointId": "94f6703d-1a6f-4d58-974e-14dd50d26b56",
+    "checkpointHash": "6095f15ce063f1cc23f937b838fd65f9469b6a3ccceb0831b8a3ee0d0dfd88e9"
+  },
+  "glbSha256": "6f6e8643bc026f457fb0b7bec965673040dbb98097545385f13ffc9eb15dc966",
+  "hullPrimitiveCount": 1,
+  "hullMaterials": [
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "paint"
+      },
+      "name": "paint",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6800000071525574,
+          0.7099999785423279,
+          0.6600000262260437,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8199999928474426
+      }
+    }
+  ],
+  "conclusion": "Hull has one constant off-white green-gray paint and no texture or separately green lower-plate region. Same exact GLB neutralground-illumination control turns its underside lightgray, confirming a lighting tint rather than missed paint.",
+  "neutralControl": {
+    "path": "winter-r5-neutral-control.png",
+    "sha256": "a37e4a94018613d9a903c66bfc7926e1f67ff1285dc91277089d4e01d0aa4166",
+    "change": "Only hemisphere ground illumination0x59654e to0xffffff; no model mutation"
+  },
+  "humanApproval": false
+}

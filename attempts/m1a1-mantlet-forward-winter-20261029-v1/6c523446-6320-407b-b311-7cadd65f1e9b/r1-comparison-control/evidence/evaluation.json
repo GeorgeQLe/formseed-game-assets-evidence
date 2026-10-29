@@ -1,0 +1,927 @@
+{
+  "assessment": {
+    "schemaVersion": "2.0.0",
+    "assessmentId": "m1a1-mantlet-forward-winter-20261029-v1-r1",
+    "rubric": {
+      "rubricId": "model-quality",
+      "version": "1.0.0"
+    },
+    "subject": {
+      "assetId": "m1a1-mantlet-forward-winter-20261029-v1",
+      "revisionId": "main-r1",
+      "revision": 1
+    },
+    "evidenceSet": {
+      "revision": 1,
+      "checkpointSha256": "094df403b359903a795589c1a2269c0964f568653bdf182a6ee9ce50d42587fe",
+      "renderSetSha256": "b4eb12e9a18d79a436de12203efb29b676963dee5d0ba41bf09946d04836bf90",
+      "requiredViews": [
+        {
+          "viewId": "front-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "060db70e5b130afa96d5a5763cad39451858d049149de552694438d7d5a837a4"
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d11d1f068027d1128ef91133ba2a79501b800b3145d1431f575bbc87aad54485"
+        },
+        {
+          "viewId": "front",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "db52d45f79f31eb095d960dab42b71bff3ae0a1a78e6adf62afcece946304db5"
+        },
+        {
+          "viewId": "left",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "60b944b982a5ecf4764605fa5189b8f5e454ebf66ffc47dc5e06c56b18cd99a8"
+        },
+        {
+          "viewId": "right",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ff9652bd4986860ee6ac56ffccff1a726f7feeebb855e0803fe8cbb114f34f4e"
+        },
+        {
+          "viewId": "top",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c982c6bc6c4fdf04f0e7809ed27cb02a957a093ec4757101e32cbc8b75c3aa9b"
+        }
+      ],
+      "validation": {
+        "reportId": "d4f70f21-ad4a-49b2-ab53-88cfd8ae72b8",
+        "revision": 1,
+        "checkpointSha256": "094df403b359903a795589c1a2269c0964f568653bdf182a6ee9ce50d42587fe",
+        "passed": true,
+        "current": true,
+        "deterministic": true
+      }
+    },
+    "scores": [
+      {
+        "categoryId": "identity-recognition",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Actual six configured whole-tank views plus closeups/native128px retain M1A1 recognition. The recessed shield tunnel is removed. Inherited shield width/split and coax height remain explicit source advisories, not engineering accuracy claims.",
+            "evidenceSha256": "060db70e5b130afa96d5a5763cad39451858d049149de552694438d7d5a837a4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Actual six configured whole-tank views plus closeups/native128px retain M1A1 recognition. The recessed shield tunnel is removed. Inherited shield width/split and coax height remain explicit source advisories, not engineering accuracy claims.",
+            "evidenceSha256": "d11d1f068027d1128ef91133ba2a79501b800b3145d1431f575bbc87aad54485"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Actual six configured whole-tank views plus closeups/native128px retain M1A1 recognition. The recessed shield tunnel is removed. Inherited shield width/split and coax height remain explicit source advisories, not engineering accuracy claims.",
+            "evidenceSha256": "db52d45f79f31eb095d960dab42b71bff3ae0a1a78e6adf62afcece946304db5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Actual six configured whole-tank views plus closeups/native128px retain M1A1 recognition. The recessed shield tunnel is removed. Inherited shield width/split and coax height remain explicit source advisories, not engineering accuracy claims.",
+            "evidenceSha256": "60b944b982a5ecf4764605fa5189b8f5e454ebf66ffc47dc5e06c56b18cd99a8"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Actual six configured whole-tank views plus closeups/native128px retain M1A1 recognition. The recessed shield tunnel is removed. Inherited shield width/split and coax height remain explicit source advisories, not engineering accuracy claims.",
+            "evidenceSha256": "ff9652bd4986860ee6ac56ffccff1a726f7feeebb855e0803fe8cbb114f34f4e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Actual six configured whole-tank views plus closeups/native128px retain M1A1 recognition. The recessed shield tunnel is removed. Inherited shield width/split and coax height remain explicit source advisories, not engineering accuracy claims.",
+            "evidenceSha256": "c982c6bc6c4fdf04f0e7809ed27cb02a957a093ec4757101e32cbc8b75c3aa9b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-four-finish-review.json",
+            "observation": "Independent actualsource/pixel review, all8 category recommendations3/4 and core challenges.",
+            "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-supplement.json",
+            "observation": "Corrects winterlighting claim and closes NATOmaterials/budgets/production evidence gaps; all8 recommendations retained.",
+            "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "final-review-closure.json",
+            "observation": "Hashes completed actualOpus5.5 receipts and postreview technicalhardening; no humanapproval.",
+            "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/isolation-summary.json",
+            "observation": "Current native separation/state-restoration evidence.",
+            "evidenceSha256": "41d4dce5ba6647f814374da92f097a1c05a2478265704eb432b24300a1d13469"
+          }
+        ],
+        "recognition": {
+          "thumbnailPixels": 256,
+          "nearestNeighbors": [
+            "M1 with105mm gun",
+            "M1A2 withCITV",
+            "Leopard2"
+          ],
+          "distinguishers": [
+            "120mm-style barrel and bore evacuator rather than105mm external profile",
+            "M1A1 cupola arrangement without M1A2 CITV",
+            "Abrams wedge/bustle massing and skirted seven-wheel stance; roof weapons are simplified"
+          ]
+        }
+      },
+      {
+        "categoryId": "proportion-mass",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "The new front is a continuous36.3045deg face fromX-2.12/Z2.09 toX-1.76/Z1.60. It follows actual innercheek slopes34.53/36.31deg, with3–26mm residualsetback. Topfront lowered15mm; forward change173–320mm. Only2meshes change; original cross-view registration discrepancies remain.",
+            "evidenceSha256": "060db70e5b130afa96d5a5763cad39451858d049149de552694438d7d5a837a4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "The new front is a continuous36.3045deg face fromX-2.12/Z2.09 toX-1.76/Z1.60. It follows actual innercheek slopes34.53/36.31deg, with3–26mm residualsetback. Topfront lowered15mm; forward change173–320mm. Only2meshes change; original cross-view registration discrepancies remain.",
+            "evidenceSha256": "d11d1f068027d1128ef91133ba2a79501b800b3145d1431f575bbc87aad54485"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "The new front is a continuous36.3045deg face fromX-2.12/Z2.09 toX-1.76/Z1.60. It follows actual innercheek slopes34.53/36.31deg, with3–26mm residualsetback. Topfront lowered15mm; forward change173–320mm. Only2meshes change; original cross-view registration discrepancies remain.",
+            "evidenceSha256": "db52d45f79f31eb095d960dab42b71bff3ae0a1a78e6adf62afcece946304db5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "The new front is a continuous36.3045deg face fromX-2.12/Z2.09 toX-1.76/Z1.60. It follows actual innercheek slopes34.53/36.31deg, with3–26mm residualsetback. Topfront lowered15mm; forward change173–320mm. Only2meshes change; original cross-view registration discrepancies remain.",
+            "evidenceSha256": "60b944b982a5ecf4764605fa5189b8f5e454ebf66ffc47dc5e06c56b18cd99a8"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "The new front is a continuous36.3045deg face fromX-2.12/Z2.09 toX-1.76/Z1.60. It follows actual innercheek slopes34.53/36.31deg, with3–26mm residualsetback. Topfront lowered15mm; forward change173–320mm. Only2meshes change; original cross-view registration discrepancies remain.",
+            "evidenceSha256": "ff9652bd4986860ee6ac56ffccff1a726f7feeebb855e0803fe8cbb114f34f4e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "The new front is a continuous36.3045deg face fromX-2.12/Z2.09 toX-1.76/Z1.60. It follows actual innercheek slopes34.53/36.31deg, with3–26mm residualsetback. Topfront lowered15mm; forward change173–320mm. Only2meshes change; original cross-view registration discrepancies remain.",
+            "evidenceSha256": "c982c6bc6c4fdf04f0e7809ed27cb02a957a093ec4757101e32cbc8b75c3aa9b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-four-finish-review.json",
+            "observation": "Independent actualsource/pixel review, all8 category recommendations3/4 and core challenges.",
+            "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-supplement.json",
+            "observation": "Corrects winterlighting claim and closes NATOmaterials/budgets/production evidence gaps; all8 recommendations retained.",
+            "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "final-review-closure.json",
+            "observation": "Hashes completed actualOpus5.5 receipts and postreview technicalhardening; no humanapproval.",
+            "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/isolation-summary.json",
+            "observation": "Current native separation/state-restoration evidence.",
+            "evidenceSha256": "41d4dce5ba6647f814374da92f097a1c05a2478265704eb432b24300a1d13469"
+          }
+        ]
+      },
+      {
+        "categoryId": "silhouette",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All current configured views are complete and unclipped. Actual same-camera closeups show the roof notch/tunnel and lowerface kink gone, without a proudtopbox. Whole tank silhouette and267other meshes are preserved exactly.",
+            "evidenceSha256": "060db70e5b130afa96d5a5763cad39451858d049149de552694438d7d5a837a4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All current configured views are complete and unclipped. Actual same-camera closeups show the roof notch/tunnel and lowerface kink gone, without a proudtopbox. Whole tank silhouette and267other meshes are preserved exactly.",
+            "evidenceSha256": "d11d1f068027d1128ef91133ba2a79501b800b3145d1431f575bbc87aad54485"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All current configured views are complete and unclipped. Actual same-camera closeups show the roof notch/tunnel and lowerface kink gone, without a proudtopbox. Whole tank silhouette and267other meshes are preserved exactly.",
+            "evidenceSha256": "db52d45f79f31eb095d960dab42b71bff3ae0a1a78e6adf62afcece946304db5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All current configured views are complete and unclipped. Actual same-camera closeups show the roof notch/tunnel and lowerface kink gone, without a proudtopbox. Whole tank silhouette and267other meshes are preserved exactly.",
+            "evidenceSha256": "60b944b982a5ecf4764605fa5189b8f5e454ebf66ffc47dc5e06c56b18cd99a8"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All current configured views are complete and unclipped. Actual same-camera closeups show the roof notch/tunnel and lowerface kink gone, without a proudtopbox. Whole tank silhouette and267other meshes are preserved exactly.",
+            "evidenceSha256": "ff9652bd4986860ee6ac56ffccff1a726f7feeebb855e0803fe8cbb114f34f4e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All current configured views are complete and unclipped. Actual same-camera closeups show the roof notch/tunnel and lowerface kink gone, without a proudtopbox. Whole tank silhouette and267other meshes are preserved exactly.",
+            "evidenceSha256": "c982c6bc6c4fdf04f0e7809ed27cb02a957a093ec4757101e32cbc8b75c3aa9b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-four-finish-review.json",
+            "observation": "Independent actualsource/pixel review, all8 category recommendations3/4 and core challenges.",
+            "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-supplement.json",
+            "observation": "Corrects winterlighting claim and closes NATOmaterials/budgets/production evidence gaps; all8 recommendations retained.",
+            "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "final-review-closure.json",
+            "observation": "Hashes completed actualOpus5.5 receipts and postreview technicalhardening; no humanapproval.",
+            "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/isolation-summary.json",
+            "observation": "Current native separation/state-restoration evidence.",
+            "evidenceSha256": "41d4dce5ba6647f814374da92f097a1c05a2478265704eb432b24300a1d13469"
+          }
+        ]
+      },
+      {
+        "categoryId": "form-hierarchy",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "The shield now reads as a secondary plate following the primary turret front. Existing hatch/deck value hierarchy and restrained seam/edge accents remain. Small asymmetric cheek seam is a nonblocking static construction choice.",
+            "evidenceSha256": "060db70e5b130afa96d5a5763cad39451858d049149de552694438d7d5a837a4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "The shield now reads as a secondary plate following the primary turret front. Existing hatch/deck value hierarchy and restrained seam/edge accents remain. Small asymmetric cheek seam is a nonblocking static construction choice.",
+            "evidenceSha256": "d11d1f068027d1128ef91133ba2a79501b800b3145d1431f575bbc87aad54485"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "The shield now reads as a secondary plate following the primary turret front. Existing hatch/deck value hierarchy and restrained seam/edge accents remain. Small asymmetric cheek seam is a nonblocking static construction choice.",
+            "evidenceSha256": "db52d45f79f31eb095d960dab42b71bff3ae0a1a78e6adf62afcece946304db5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "The shield now reads as a secondary plate following the primary turret front. Existing hatch/deck value hierarchy and restrained seam/edge accents remain. Small asymmetric cheek seam is a nonblocking static construction choice.",
+            "evidenceSha256": "60b944b982a5ecf4764605fa5189b8f5e454ebf66ffc47dc5e06c56b18cd99a8"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "The shield now reads as a secondary plate following the primary turret front. Existing hatch/deck value hierarchy and restrained seam/edge accents remain. Small asymmetric cheek seam is a nonblocking static construction choice.",
+            "evidenceSha256": "ff9652bd4986860ee6ac56ffccff1a726f7feeebb855e0803fe8cbb114f34f4e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "The shield now reads as a secondary plate following the primary turret front. Existing hatch/deck value hierarchy and restrained seam/edge accents remain. Small asymmetric cheek seam is a nonblocking static construction choice.",
+            "evidenceSha256": "c982c6bc6c4fdf04f0e7809ed27cb02a957a093ec4757101e32cbc8b75c3aa9b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-four-finish-review.json",
+            "observation": "Independent actualsource/pixel review, all8 category recommendations3/4 and core challenges.",
+            "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-supplement.json",
+            "observation": "Corrects winterlighting claim and closes NATOmaterials/budgets/production evidence gaps; all8 recommendations retained.",
+            "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "final-review-closure.json",
+            "observation": "Hashes completed actualOpus5.5 receipts and postreview technicalhardening; no humanapproval.",
+            "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/isolation-summary.json",
+            "observation": "Current native separation/state-restoration evidence.",
+            "evidenceSha256": "41d4dce5ba6647f814374da92f097a1c05a2478265704eb432b24300a1d13469"
+          }
+        ]
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Changed shield/seam geometry has no degenerate triangles; native ownership and parent hierarchy preserved. Gun/coax roots/endpoints and267other meshes are exact.96coarsepose/recoilpairs plus6restchecks show no scoped crossing/onewaycontainment; these finite checks do not qualify physical pivots, continuous motion or animation.",
+            "evidenceSha256": "060db70e5b130afa96d5a5763cad39451858d049149de552694438d7d5a837a4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Changed shield/seam geometry has no degenerate triangles; native ownership and parent hierarchy preserved. Gun/coax roots/endpoints and267other meshes are exact.96coarsepose/recoilpairs plus6restchecks show no scoped crossing/onewaycontainment; these finite checks do not qualify physical pivots, continuous motion or animation.",
+            "evidenceSha256": "d11d1f068027d1128ef91133ba2a79501b800b3145d1431f575bbc87aad54485"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Changed shield/seam geometry has no degenerate triangles; native ownership and parent hierarchy preserved. Gun/coax roots/endpoints and267other meshes are exact.96coarsepose/recoilpairs plus6restchecks show no scoped crossing/onewaycontainment; these finite checks do not qualify physical pivots, continuous motion or animation.",
+            "evidenceSha256": "db52d45f79f31eb095d960dab42b71bff3ae0a1a78e6adf62afcece946304db5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Changed shield/seam geometry has no degenerate triangles; native ownership and parent hierarchy preserved. Gun/coax roots/endpoints and267other meshes are exact.96coarsepose/recoilpairs plus6restchecks show no scoped crossing/onewaycontainment; these finite checks do not qualify physical pivots, continuous motion or animation.",
+            "evidenceSha256": "60b944b982a5ecf4764605fa5189b8f5e454ebf66ffc47dc5e06c56b18cd99a8"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Changed shield/seam geometry has no degenerate triangles; native ownership and parent hierarchy preserved. Gun/coax roots/endpoints and267other meshes are exact.96coarsepose/recoilpairs plus6restchecks show no scoped crossing/onewaycontainment; these finite checks do not qualify physical pivots, continuous motion or animation.",
+            "evidenceSha256": "ff9652bd4986860ee6ac56ffccff1a726f7feeebb855e0803fe8cbb114f34f4e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Changed shield/seam geometry has no degenerate triangles; native ownership and parent hierarchy preserved. Gun/coax roots/endpoints and267other meshes are exact.96coarsepose/recoilpairs plus6restchecks show no scoped crossing/onewaycontainment; these finite checks do not qualify physical pivots, continuous motion or animation.",
+            "evidenceSha256": "c982c6bc6c4fdf04f0e7809ed27cb02a957a093ec4757101e32cbc8b75c3aa9b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-four-finish-review.json",
+            "observation": "Independent actualsource/pixel review, all8 category recommendations3/4 and core challenges.",
+            "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-supplement.json",
+            "observation": "Corrects winterlighting claim and closes NATOmaterials/budgets/production evidence gaps; all8 recommendations retained.",
+            "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "final-review-closure.json",
+            "observation": "Hashes completed actualOpus5.5 receipts and postreview technicalhardening; no humanapproval.",
+            "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/isolation-summary.json",
+            "observation": "Current native separation/state-restoration evidence.",
+            "evidenceSha256": "41d4dce5ba6647f814374da92f097a1c05a2478265704eb432b24300a1d13469"
+          }
+        ]
+      },
+      {
+        "categoryId": "surface-material",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All material tables and267unaffected attributes/materials are byte-identical to each finish predecessor. NATO5embeddedimages are byte-identical and newfaceUVs show coherentcamouflage. WinterHull is one constant off-whitegreen-gray material; localizedoliveunderside is illumination, not missedpaint. Field-style winter remains an adaptation, not exactM1A1 prescribedscheme.",
+            "evidenceSha256": "060db70e5b130afa96d5a5763cad39451858d049149de552694438d7d5a837a4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All material tables and267unaffected attributes/materials are byte-identical to each finish predecessor. NATO5embeddedimages are byte-identical and newfaceUVs show coherentcamouflage. WinterHull is one constant off-whitegreen-gray material; localizedoliveunderside is illumination, not missedpaint. Field-style winter remains an adaptation, not exactM1A1 prescribedscheme.",
+            "evidenceSha256": "d11d1f068027d1128ef91133ba2a79501b800b3145d1431f575bbc87aad54485"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All material tables and267unaffected attributes/materials are byte-identical to each finish predecessor. NATO5embeddedimages are byte-identical and newfaceUVs show coherentcamouflage. WinterHull is one constant off-whitegreen-gray material; localizedoliveunderside is illumination, not missedpaint. Field-style winter remains an adaptation, not exactM1A1 prescribedscheme.",
+            "evidenceSha256": "db52d45f79f31eb095d960dab42b71bff3ae0a1a78e6adf62afcece946304db5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All material tables and267unaffected attributes/materials are byte-identical to each finish predecessor. NATO5embeddedimages are byte-identical and newfaceUVs show coherentcamouflage. WinterHull is one constant off-whitegreen-gray material; localizedoliveunderside is illumination, not missedpaint. Field-style winter remains an adaptation, not exactM1A1 prescribedscheme.",
+            "evidenceSha256": "60b944b982a5ecf4764605fa5189b8f5e454ebf66ffc47dc5e06c56b18cd99a8"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All material tables and267unaffected attributes/materials are byte-identical to each finish predecessor. NATO5embeddedimages are byte-identical and newfaceUVs show coherentcamouflage. WinterHull is one constant off-whitegreen-gray material; localizedoliveunderside is illumination, not missedpaint. Field-style winter remains an adaptation, not exactM1A1 prescribedscheme.",
+            "evidenceSha256": "ff9652bd4986860ee6ac56ffccff1a726f7feeebb855e0803fe8cbb114f34f4e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All material tables and267unaffected attributes/materials are byte-identical to each finish predecessor. NATO5embeddedimages are byte-identical and newfaceUVs show coherentcamouflage. WinterHull is one constant off-whitegreen-gray material; localizedoliveunderside is illumination, not missedpaint. Field-style winter remains an adaptation, not exactM1A1 prescribedscheme.",
+            "evidenceSha256": "c982c6bc6c4fdf04f0e7809ed27cb02a957a093ec4757101e32cbc8b75c3aa9b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-four-finish-review.json",
+            "observation": "Independent actualsource/pixel review, all8 category recommendations3/4 and core challenges.",
+            "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-supplement.json",
+            "observation": "Corrects winterlighting claim and closes NATOmaterials/budgets/production evidence gaps; all8 recommendations retained.",
+            "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "final-review-closure.json",
+            "observation": "Hashes completed actualOpus5.5 receipts and postreview technicalhardening; no humanapproval.",
+            "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/isolation-summary.json",
+            "observation": "Current native separation/state-restoration evidence.",
+            "evidenceSha256": "41d4dce5ba6647f814374da92f097a1c05a2478265704eb432b24300a1d13469"
+          }
+        ]
+      },
+      {
+        "categoryId": "viewpoint-robustness",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "All4exactGLBs repeat identically in8nativeviews at1000/256/128px. The6configured source views and same-camera closeups establish the new front relationship. Extra rear/underside are diagnostics; underside illumination and winter ground tint remain presentation limits.",
+            "evidenceSha256": "060db70e5b130afa96d5a5763cad39451858d049149de552694438d7d5a837a4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "All4exactGLBs repeat identically in8nativeviews at1000/256/128px. The6configured source views and same-camera closeups establish the new front relationship. Extra rear/underside are diagnostics; underside illumination and winter ground tint remain presentation limits.",
+            "evidenceSha256": "d11d1f068027d1128ef91133ba2a79501b800b3145d1431f575bbc87aad54485"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "All4exactGLBs repeat identically in8nativeviews at1000/256/128px. The6configured source views and same-camera closeups establish the new front relationship. Extra rear/underside are diagnostics; underside illumination and winter ground tint remain presentation limits.",
+            "evidenceSha256": "db52d45f79f31eb095d960dab42b71bff3ae0a1a78e6adf62afcece946304db5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "All4exactGLBs repeat identically in8nativeviews at1000/256/128px. The6configured source views and same-camera closeups establish the new front relationship. Extra rear/underside are diagnostics; underside illumination and winter ground tint remain presentation limits.",
+            "evidenceSha256": "60b944b982a5ecf4764605fa5189b8f5e454ebf66ffc47dc5e06c56b18cd99a8"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "All4exactGLBs repeat identically in8nativeviews at1000/256/128px. The6configured source views and same-camera closeups establish the new front relationship. Extra rear/underside are diagnostics; underside illumination and winter ground tint remain presentation limits.",
+            "evidenceSha256": "ff9652bd4986860ee6ac56ffccff1a726f7feeebb855e0803fe8cbb114f34f4e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "All4exactGLBs repeat identically in8nativeviews at1000/256/128px. The6configured source views and same-camera closeups establish the new front relationship. Extra rear/underside are diagnostics; underside illumination and winter ground tint remain presentation limits.",
+            "evidenceSha256": "c982c6bc6c4fdf04f0e7809ed27cb02a957a093ec4757101e32cbc8b75c3aa9b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-four-finish-review.json",
+            "observation": "Independent actualsource/pixel review, all8 category recommendations3/4 and core challenges.",
+            "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-supplement.json",
+            "observation": "Corrects winterlighting claim and closes NATOmaterials/budgets/production evidence gaps; all8 recommendations retained.",
+            "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "final-review-closure.json",
+            "observation": "Hashes completed actualOpus5.5 receipts and postreview technicalhardening; no humanapproval.",
+            "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/isolation-summary.json",
+            "observation": "Current native separation/state-restoration evidence.",
+            "evidenceSha256": "41d4dce5ba6647f814374da92f097a1c05a2478265704eb432b24300a1d13469"
+          }
+        ]
+      },
+      {
+        "categoryId": "production-integrity",
+        "score": 3,
+        "evidence": [
+          {
+            "kind": "view-observation",
+            "viewId": "front-three-quarter",
+            "observation": "Each exact revision has16passingdimensions with269visiblemeshes included, current backenddeterminism/validation, native uniqueownership/selection/hide restoration, verified8filebundle and bundle/reviewgeometry equivalence. Root independently verifies267unchanged meshes/allparents/materials/images and4finish geometry. Exact companionnote supersedes stalebrief/lighting text; no approval, runtimequalification or ancestorjournalrepair is transferred.",
+            "evidenceSha256": "060db70e5b130afa96d5a5763cad39451858d049149de552694438d7d5a837a4"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "rear-three-quarter",
+            "observation": "Each exact revision has16passingdimensions with269visiblemeshes included, current backenddeterminism/validation, native uniqueownership/selection/hide restoration, verified8filebundle and bundle/reviewgeometry equivalence. Root independently verifies267unchanged meshes/allparents/materials/images and4finish geometry. Exact companionnote supersedes stalebrief/lighting text; no approval, runtimequalification or ancestorjournalrepair is transferred.",
+            "evidenceSha256": "d11d1f068027d1128ef91133ba2a79501b800b3145d1431f575bbc87aad54485"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "front",
+            "observation": "Each exact revision has16passingdimensions with269visiblemeshes included, current backenddeterminism/validation, native uniqueownership/selection/hide restoration, verified8filebundle and bundle/reviewgeometry equivalence. Root independently verifies267unchanged meshes/allparents/materials/images and4finish geometry. Exact companionnote supersedes stalebrief/lighting text; no approval, runtimequalification or ancestorjournalrepair is transferred.",
+            "evidenceSha256": "db52d45f79f31eb095d960dab42b71bff3ae0a1a78e6adf62afcece946304db5"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "left",
+            "observation": "Each exact revision has16passingdimensions with269visiblemeshes included, current backenddeterminism/validation, native uniqueownership/selection/hide restoration, verified8filebundle and bundle/reviewgeometry equivalence. Root independently verifies267unchanged meshes/allparents/materials/images and4finish geometry. Exact companionnote supersedes stalebrief/lighting text; no approval, runtimequalification or ancestorjournalrepair is transferred.",
+            "evidenceSha256": "60b944b982a5ecf4764605fa5189b8f5e454ebf66ffc47dc5e06c56b18cd99a8"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "right",
+            "observation": "Each exact revision has16passingdimensions with269visiblemeshes included, current backenddeterminism/validation, native uniqueownership/selection/hide restoration, verified8filebundle and bundle/reviewgeometry equivalence. Root independently verifies267unchanged meshes/allparents/materials/images and4finish geometry. Exact companionnote supersedes stalebrief/lighting text; no approval, runtimequalification or ancestorjournalrepair is transferred.",
+            "evidenceSha256": "ff9652bd4986860ee6ac56ffccff1a726f7feeebb855e0803fe8cbb114f34f4e"
+          },
+          {
+            "kind": "view-observation",
+            "viewId": "top",
+            "observation": "Each exact revision has16passingdimensions with269visiblemeshes included, current backenddeterminism/validation, native uniqueownership/selection/hide restoration, verified8filebundle and bundle/reviewgeometry equivalence. Root independently verifies267unchanged meshes/allparents/materials/images and4finish geometry. Exact companionnote supersedes stalebrief/lighting text; no approval, runtimequalification or ancestorjournalrepair is transferred.",
+            "evidenceSha256": "c982c6bc6c4fdf04f0e7809ed27cb02a957a093ec4757101e32cbc8b75c3aa9b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-four-finish-review.json",
+            "observation": "Independent actualsource/pixel review, all8 category recommendations3/4 and core challenges.",
+            "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "opus-final-supplement.json",
+            "observation": "Corrects winterlighting claim and closes NATOmaterials/budgets/production evidence gaps; all8 recommendations retained.",
+            "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "final-review-closure.json",
+            "observation": "Hashes completed actualOpus5.5 receipts and postreview technicalhardening; no humanapproval.",
+            "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/isolation-summary.json",
+            "observation": "Current native separation/state-restoration evidence.",
+            "evidenceSha256": "41d4dce5ba6647f814374da92f097a1c05a2478265704eb432b24300a1d13469"
+          }
+        ]
+      }
+    ],
+    "gates": [
+      {
+        "gateId": "identity-authority",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "brief-metadata-clarification.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "9aa6230bbb3b2846bcc2a8e4fe1c1bead330ca0c4dc4c9d370201d25d1bbcbb8"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/brief.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "63d531793550c62a205d347faedb921ba6ca314a4275a192b2bd1cacda6bf016"
+          }
+        ]
+      },
+      {
+        "gateId": "required-views",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/render-evidence.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "c5c65d7f97efa142beefefbeec057372ed5b91d6e36953b8cad2a5c560bce03a"
+          }
+        ]
+      },
+      {
+        "gateId": "structural-plausibility",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "winter-r1-preservation-form-audit.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "9b8bda2ae8e4b6d974fa9e1d237c62bf2dd5ba4a4c20444af35e138c37d69629"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "bundle-review-equivalence.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "619abd4893507a66762cd9866bce60c1ffbe1fa650878d453e9ad4e189fff486"
+          }
+        ]
+      },
+      {
+        "gateId": "transform-grounding",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/dimension.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "d22f68acf287c6619ad44106074e03a5a9199fe51c64a4f587c4c470ca616f26"
+          }
+        ]
+      },
+      {
+        "gateId": "deterministic-output",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/render-evidence.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "c5c65d7f97efa142beefefbeec057372ed5b91d6e36953b8cad2a5c560bce03a"
+          }
+        ]
+      },
+      {
+        "gateId": "current-validation",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/validation.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "6401f81eb48a23267f4888e63256693212a7cbb7fe988dfe0b292350ba6c9306"
+          }
+        ]
+      },
+      {
+        "gateId": "budgets",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "successor-budget-preservation.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "9b30b12e63b3882827306471cc8a15d4379603b7dc241b845068e7463d7ef59b"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/validation.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "6401f81eb48a23267f4888e63256693212a7cbb7fe988dfe0b292350ba6c9306"
+          }
+        ]
+      },
+      {
+        "gateId": "explained-content",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "request.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "bac7e01509eef621b7b5054a6f4de3419cc2dbb3d860ea3c18e0b5e214560b04"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "component-plan.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "2898e33d9d0771b9b8dfff3d74cd4c04dbe7f9c89f377f66562a880cfa753907"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "brief-metadata-clarification.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "9aa6230bbb3b2846bcc2a8e4fe1c1bead330ca0c4dc4c9d370201d25d1bbcbb8"
+          }
+        ]
+      },
+      {
+        "gateId": "artifact-integrity",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "catalog-evidence/winter/bundle-verification.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "d9152a02ede9f0cf0ab5b6564d00d14c15234ab9804d0ea2062e4f09f7437008"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "bundle-review-equivalence.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "619abd4893507a66762cd9866bce60c1ffbe1fa650878d453e9ad4e189fff486"
+          }
+        ]
+      },
+      {
+        "gateId": "copying-rights",
+        "passed": true,
+        "evidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "attempt-ledger.md",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "887db3645e416efd37dcc9e4b39076eda6e41fd8668f9ff5da9e15c2954c941c"
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "../abrams-gun-base/gun-base-reference-identities.json",
+            "observation": "Current static source evidence; attributable exteriorreferences, original authoredgeometry and existing AbramsCC0publicationpermission. Sourcepixels excluded.",
+            "evidenceSha256": "c063897034be03c6e047e10f7e608543e7a80767bca0fca9551a850dbe05ef0a"
+          }
+        ]
+      }
+    ],
+    "assessedBy": "Codex /root, informed by GPT-6Astra actualsource production and independent ClaudeCode claude-opus-5-5 main+supplement reviews",
+    "assessedAt": "2026-10-29T13:43:33.589Z",
+    "adversarialReview": {
+      "reviewedBy": "ClaudeCode claude-opus-5-5 and independent Codex /root verification",
+      "reviewedAt": "2026-10-29T13:43:33.589Z",
+      "coreCategoryObjections": [
+        {
+          "categoryId": "identity-recognition",
+          "strongestReasonBelowThree": "Inherited shieldwidth/coax placement may weaken recognition, or the old recessedtunnel may still remain.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final-four-finish-review.json",
+              "observation": "Actual before/after+source+all4finishes pixel/core review: no blocking scoped defect.",
+              "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final-supplement.json",
+              "observation": "Explicit source/material/evidence reconciliation; no remainingcoreobjection, allscores3/4.",
+              "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "final-review-closure.json",
+              "observation": "Current review/evidencehashes and technicalhardening.",
+              "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "brief-metadata-clarification.json",
+              "observation": "Exact4source-pinned semantic supersession and aliasnote; no producerrecord mutation.",
+              "evidenceSha256": "9aa6230bbb3b2846bcc2a8e4fe1c1bead330ca0c4dc4c9d370201d25d1bbcbb8"
+            }
+          ]
+        },
+        {
+          "categoryId": "silhouette",
+          "strongestReasonBelowThree": "Newtop maystandproud orsideprofile maybreak; oldglobalregistrationuncertainty persists.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final-four-finish-review.json",
+              "observation": "Actual before/after+source+all4finishes pixel/core review: no blocking scoped defect.",
+              "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final-supplement.json",
+              "observation": "Explicit source/material/evidence reconciliation; no remainingcoreobjection, allscores3/4.",
+              "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "final-review-closure.json",
+              "observation": "Current review/evidencehashes and technicalhardening.",
+              "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "brief-metadata-clarification.json",
+              "observation": "Exact4source-pinned semantic supersession and aliasnote; no producerrecord mutation.",
+              "evidenceSha256": "9aa6230bbb3b2846bcc2a8e4fe1c1bead330ca0c4dc4c9d370201d25d1bbcbb8"
+            }
+          ]
+        },
+        {
+          "categoryId": "mechanical-coherence",
+          "strongestReasonBelowThree": "Forwardshield couldintersectcheeks/gun/coax orshowfloatingjoin; physicalpivotlimits remainunqualified.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final-four-finish-review.json",
+              "observation": "Actual before/after+source+all4finishes pixel/core review: no blocking scoped defect.",
+              "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final-supplement.json",
+              "observation": "Explicit source/material/evidence reconciliation; no remainingcoreobjection, allscores3/4.",
+              "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "final-review-closure.json",
+              "observation": "Current review/evidencehashes and technicalhardening.",
+              "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "brief-metadata-clarification.json",
+              "observation": "Exact4source-pinned semantic supersession and aliasnote; no producerrecord mutation.",
+              "evidenceSha256": "9aa6230bbb3b2846bcc2a8e4fe1c1bead330ca0c4dc4c9d370201d25d1bbcbb8"
+            }
+          ]
+        },
+        {
+          "categoryId": "production-integrity",
+          "strongestReasonBelowThree": "NATOmaterial/UV changes, winterpaintinterpretation, sourcebundledifference, stalebrieftext orshoe011alias could undermine exactstate.",
+          "resolved": true,
+          "resolutionEvidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final-four-finish-review.json",
+              "observation": "Actual before/after+source+all4finishes pixel/core review: no blocking scoped defect.",
+              "evidenceSha256": "43d2a345aa2c23b979652b924f45f0b0e2a1cba79f341f113c4fccc3feed9800"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "opus-final-supplement.json",
+              "observation": "Explicit source/material/evidence reconciliation; no remainingcoreobjection, allscores3/4.",
+              "evidenceSha256": "1ea116c456ab5f22dfddfff1686af4568f1451ecfdfbdde5a1577208970f1ee9"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "final-review-closure.json",
+              "observation": "Current review/evidencehashes and technicalhardening.",
+              "evidenceSha256": "48369b03f2ef0c357305849142a6715daf96965bf595a461600bdec67bfb4ece"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "brief-metadata-clarification.json",
+              "observation": "Exact4source-pinned semantic supersession and aliasnote; no producerrecord mutation.",
+              "evidenceSha256": "9aa6230bbb3b2846bcc2a8e4fe1c1bead330ca0c4dc4c9d370201d25d1bbcbb8"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "result": {
+    "schemaVersion": "2.0.0",
+    "weightedTotal": 75,
+    "recommendation": "go",
+    "effectiveDecision": "go",
+    "checks": {
+      "threshold": true,
+      "categoryFloors": true,
+      "coreFloors": true,
+      "hardGates": true,
+      "structuredEvidence": true,
+      "adversarialReview": true
+    },
+    "failures": [],
+    "status": {
+      "technicalValidation": "pass",
+      "visualRecommendation": "go",
+      "humanApproval": "absent"
+    },
+    "overrideApplied": false,
+    "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+  }
+}

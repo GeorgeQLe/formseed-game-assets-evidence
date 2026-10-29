@@ -1,0 +1,108 @@
+{
+  "id": "abrams-mantlet-forward-plan-20261029",
+  "frame": "+X forward, +Z up, Y width; meters; original immutable source registration retained",
+  "changedComponents": [
+    {
+      "id": "Mantlet",
+      "role": "isolation-required",
+      "parent": "GunAssembly",
+      "ownership": "Main separate shield; same Y interval -0.30..0.22; changed front wedge only",
+      "material": "Existing exact source material"
+    },
+    {
+      "id": "MantletSeamAccents",
+      "role": "isolation-required",
+      "parent": "Mantlet",
+      "ownership": "Existing separate seam strips adapted to new front face",
+      "material": "Existing readability-seam material"
+    }
+  ],
+  "unchanged": "All other 267 meshes, materials, textures, UVs, parents, gun/coax axis and muzzle endpoints, hatches, tracks and equipment",
+  "sourceEvidence": {
+    "originalTrace": "diagnostics/abrams-turret-contours-20260926/trace-restart-20261026/trace-target-v3.json",
+    "sideUpper": [
+      [
+        375,
+        145
+      ],
+      [
+        363,
+        163
+      ]
+    ],
+    "sideLower": [
+      [
+        363,
+        185
+      ],
+      [
+        375,
+        196
+      ]
+    ],
+    "caveat": "Side shoulder is not independently proven to be shield silhouette. Do not equate occluded mantlet with side projected cheek outline. Side/plan longitudinal discrepancy 0.15–0.2m and side/front gun-axis discrepancy remain."
+  },
+  "actualInnerAnchors": {
+    "left": [
+      [
+        -2.089314,
+        0.235,
+        2.083145
+      ],
+      [
+        -1.742829,
+        0.235,
+        1.57962
+      ]
+    ],
+    "right": [
+      [
+        -2.09885,
+        -0.32,
+        2.086407
+      ],
+      [
+        -1.726619,
+        -0.32,
+        1.57989
+      ]
+    ]
+  },
+  "diagnosis": "Old shield top is about0.20m and bottom about0.34m aft of corresponding inner cheek fronts. Upper rake29.5deg ends in near-vertical lowerface. In3q this forms a recessed tunnel below the central roof.",
+  "candidate": {
+    "rearX": -2.31,
+    "rearTopZ": 2.105,
+    "frontTopXZ": [
+      -2.12,
+      2.09
+    ],
+    "frontBottomXZ": [
+      -1.76,
+      1.6
+    ],
+    "y": [
+      -0.3,
+      0.22
+    ],
+    "frontRakeDegreesFromVertical": 36.30449712257524,
+    "interpretation": "Continuous front slope parallels34.5–36.3deg inner cheek slopes; topfront lowered15mm versus predecessor to sit near existing cheek roof. Preserve source gun and coax."
+  },
+  "formAudit": {
+    "intent": "Visible forward angled gun shield continuous with broad front turret slope",
+    "criticalRelationships": [
+      "New front follows adjacent inner cheek line at upper, bore-axis and lower heights",
+      "Top near cheek roof without proud box/lip",
+      "Separate shield and seam; gun/coax still connect",
+      "Whole silhouette, texture and equipment unchanged"
+    ],
+    "blockingUnknowns": [],
+    "verify": [
+      "Actual GLB source-space vertices and plane deviations",
+      "Exact unaffected meshes/materials/UVs/parents",
+      "Native unique mesh ownership, select/hide and restored state",
+      "Side/front/3q actual before/after; original source overlays; Opus pixel review",
+      "Complete all-visible269 binding, configured deterministic renders, validation"
+    ],
+    "motion": "Static-only evidence; coarse fit samples may detect regressions but no motion qualification"
+  }
+}
