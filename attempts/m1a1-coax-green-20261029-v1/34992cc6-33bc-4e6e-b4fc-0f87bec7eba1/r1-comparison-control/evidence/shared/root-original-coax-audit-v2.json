@@ -1,0 +1,54 @@
+{
+  "kind": "independent-root-coax-source-audit-v2",
+  "source": {
+    "jobId": "ad33caca-76b3-4bf9-aec5-8632a4f0ba5c",
+    "revision": 1,
+    "checkpoint": {
+      "checkpointId": "c2a8f3a5-1c02-4554-8f7f-0a5bf0731593",
+      "checkpointHash": "ada3919977b96c4b95423705c10ca7a96717be4b8870523a795a88d56dd8b372"
+    },
+    "glbSha256": "1eff2592f73abf6d73f2bed5f13cb8ae41986719778fcab3ad4f074bac657c9d"
+  },
+  "component": "CoaxShroud",
+  "parent": "GunAssembly",
+  "reviewGlbPositionAccessor": {
+    "bufferView": 975,
+    "componentType": 5126,
+    "count": 96,
+    "max": [
+      0.22599999606609344,
+      2.061000108718872,
+      2.299999952316284
+    ],
+    "min": [
+      0.17399999499320984,
+      2.009000062942505,
+      1.4299999475479126
+    ],
+    "type": "VEC3"
+  },
+  "reviewGlbFrame": "Y up; negative Z forward; source +X maps to review \u2212Z.",
+  "currentDiameterMeters": 0.052000001072883606,
+  "currentTotalLengthMeters": 0.8700000047683716,
+  "faceEstimate": {
+    "sourceZ": 2.035,
+    "sourceX": -2.079591836734694,
+    "method": "Interpolate the latest continuous mantlet front top X\u22122.12/Z2.09 and bottom X\u22121.76/Z1.60. Approximate centreline entry, not a replacement mesh raycast.",
+    "exposedLengthMeters": 0.6495918367346942,
+    "buriedLengthMeters": 0.22040816326530566
+  },
+  "sources": [
+    "https://commons.wikimedia.org/wiki/File:M1A1_abrams_front.jpg",
+    "https://commons.wikimedia.org/wiki/File:Left_front_view_M1A1_Abrams_Main_Battle_Tank_at_U.S._Army_Armor_Center,_USAARMC_DA-SC-94-01698.jpg"
+  ],
+  "visualFinding": "Source photos show a dark open muzzle and inward rim features. A uniform end-cap fails that cue. Diameter changes require approximate source-ratio justification; no calibrated coax diameter is established.",
+  "limits": [
+    "Existing coax axis location was an inherited advisory; this correction must not be described as exact engineering fit.",
+    "Total tube length is 870mm; ~650mm is exposed and ~220mm is buried under the approximate current face intersection.",
+    "Static model review only; no animation qualification or human approval."
+  ],
+  "supersedes": {
+    "path": "root-original-coax-audit.json",
+    "reason": "Rejected v1 reversed the longitudinal sign and consequently swapped exposed/buried lengths. Main barrel extends to source positive X (review negative Z); public exporter/source convention agrees."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "abrams-coax-component-plan-20261029-v1",
+  "request": "request.json",
+  "scope": [
+    "CoaxShroud"
+  ],
+  "preserved": "All268 other logical meshes including current forward-sloped Mantlet, all parent transforms, source materials/images/UVs; all4 latest jobs retained as fallbacks.",
+  "intent": "Static exterior refinement. No functional gun internals, motion qualification or historical measurement certification.",
+  "sources": [
+    {
+      "path": "/Users/georgele/Developer/Scratch/abrams-mantlet-forward.AFSQGH/Houghton-front-2003.jpg",
+      "sha256": "c39309b16b783ccbad937a966baff7a7c534135b9eea29739277de753cb60d39",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/M1A1_abrams_front.jpg",
+      "author": "USAF Houghton,2003",
+      "observed": "Open dark mouth with light/thick rim and approximately5 inward tabs; perspective and blur prevent calibrated diameter."
+    },
+    {
+      "path": "/Users/georgele/Developer/Scratch/abrams-mantlet-forward.AFSQGH/Catlin-Fort-Knox-1989.jpg",
+      "sha256": "b25c1ed27fc838a0f1865d6857a68b821e231b5aebc937860f79c790ce5b72cb",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Left_front_view_M1A1_Abrams_Main_Battle_Tank_at_U.S._Army_Armor_Center%2C_USAARMC_DA-SC-94-01698.jpg",
+      "author": "USArmy Catlin,1989",
+      "observed": "Exposed tubular shroud, modestly fuller distal rim, dark interior with star/tab shapes; length heavily foreshortened."
+    }
+  ],
+  "sourcePixelsPublic": false,
+  "independentTargetReview": {
+    "path": "opus-target-review.json",
+    "sha256": "c23c222a331ef7d840f363b5642d3bc1e73c4649deef0f145609bf4742ffdc87",
+    "finding": "Source-backed64/72mm target supported; short30–50mm rim and25–40mm recess;tabcount5±1 uncertain;no blocking targetissue."
+  },
+  "component": {
+    "id": "CoaxShroud",
+    "isolation": "isolation-required",
+    "sourceObject": "CoaxShroud",
+    "parent": "GunAssembly",
+    "ownership": "Exterior tube, distal lip, shallow closed recess and simplified inward rimtabs in one independently editable closed manifold mesh.",
+    "sourceAxes": {
+      "forward": "+X",
+      "up": "+Z",
+      "width": "Y"
+    },
+    "axisYZ": [
+      -0.2,
+      2.035
+    ],
+    "endpointsX": [
+      -2.3,
+      -1.43
+    ],
+    "oldDiameter": 0.052,
+    "targetBodyDiameter": 0.064,
+    "targetRimDiameter": 0.072,
+    "rimLength": 0.04,
+    "recessDepth": 0.035,
+    "tabCount": 5,
+    "tabCountUncertainty": 1,
+    "mantletFaceAtAxisX": -2.0795918367346937,
+    "exposedLength": 0.6495918367346938,
+    "buriedLength": 0.2204081632653061,
+    "materialOwnership": "Existing steel exterior, existing dark rubber shader only on recess back as stylized occlusion; shader name does not claim rubber physical gun material.",
+    "designChoice": "Dimensions are bounded visual constructions informed by image ratios, not calibrated measurements. No exposed receiver invented."
+  },
+  "criticalRelationships": [
+    {
+      "feature": "Tube diameter",
+      "target": "64mm body,72mm shortdistalrim",
+      "evidence": "Photographic ratio approximately58–75mm vs retained290mmmainbarrelroot; perspectiveuncertain.",
+      "check": "ActualGLB radialbounds plus source/modelcloseups"
+    },
+    {
+      "feature": "Open muzzle",
+      "target": "35mmdepth with annularrim,5inwardtabs",
+      "evidence": "Bothphotos darkopening/tabbedrim;countuncertain±1.",
+      "check": "Front and3qactualpixels; topologyclosed with caprecessedbehindopening"
+    },
+    {
+      "feature": "Interfaces",
+      "target": "Sameaxis,endpoints,parent;nearbyMantlet/GunBarrel unchanged",
+      "evidence": "Scopepreservation; no calibratednewplacement.",
+      "check": "Exact268preservation+sourcepositioncomparison andnativeisolation"
+    }
+  ],
+  "advisories": [
+    "Inherited~650mmexposedlength remains; source perspective cannotcalibrate it.",
+    "Inheritedaxisheight/inboardplacement differsphotographicappearance; separate scoped decision needed.",
+    "Five/six-tab ambiguity retained;fivechosenasreasonablevisualsimplification.",
+    "No real articulationrange or continuousmotion qualification."
+  ],
+  "attempt": {
+    "id": "CX-1",
+    "classification": "human-directed",
+    "autonomousCharge": 0,
+    "priorLedger": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-mantlet-forward-20261029/attempt-ledger.md",
+    "preservePriorCharges": true
+  }
+}

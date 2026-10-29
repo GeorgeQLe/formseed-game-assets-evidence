@@ -1,0 +1,1618 @@
+{
+  "candidates": {
+    "desert": {
+      "jobId": "2ee3ab25-8a81-4aef-8c58-ca4fb18bf769",
+      "assetId": "m1a1-coax-desert-20261029-v1",
+      "revision": 2,
+      "checkpoint": {
+        "id": "624bd287-44ce-4a33-a2f3-2b929a525528",
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/checkpoints/e6f39f0c-223b-404f-849e-da480ef697e2.blend",
+        "contentHash": "60005058c0ebb37d474cb2f7fa44bf3be89281538171b32447e208b3a4fa9390",
+        "revision": 2
+      },
+      "source": {
+        "jobId": "ad33caca-76b3-4bf9-aec5-8632a4f0ba5c",
+        "revision": 1,
+        "checkpointId": "c2a8f3a5-1c02-4554-8f7f-0a5bf0731593",
+        "checkpointHash": "ada3919977b96c4b95423705c10ca7a96717be4b8870523a795a88d56dd8b372",
+        "assetSpecificationHash": "b3f8d60c97be0df4a289a8510cce43f288315b811504f4fb513633fc0bf27f0d",
+        "dimensionSpecificationHash": "9b4bc43f413bab717e60b973cf60615adf769aab1a25a664d6c1d70a8371af5d",
+        "reason": "Human-directed coax exterior correction; preserve latest forward mantlet, exact predecessor and allpriorcharges. Noapprovaltransfer.",
+        "approvalTransfer": false
+      },
+      "brief": {
+        "schemaVersion": "2.0.0",
+        "subject": "M1A1 Abrams desert — coax exterior rim and open muzzle correction",
+        "intendedUse": "Editable finished static source prepared for separately approved rigid-animation production; no historical engineering certification",
+        "mustHaveFeatures": [
+          "Wedge hull with raised rear engine deck",
+          "Separate left/right turret cheeks, core, bustle armor, exterior stowage",
+          "Long gun-forward exterior barrel",
+          "Seven separate road wheels per side and continuous shoe loops",
+          "Open rear basket",
+          "Army six-tube smoke banks; commander M2 and loader M240 exterior silhouettes",
+          "Fixed hatch stations with separate lids, exposed rims, underside seals and shallow dark apertures",
+          "Driver lift/swing hatch and three periscopes",
+          "192 independently selectable T158 shoes retaining accepted geometry",
+          "Antennae, lamps, grilles, blowoff panels, crosswind sensor and muzzle reference fitting",
+          "Dark warm seam accents on hatch rims, mantlet and skirt boundaries; selective warm edge highlights on broad upper surfaces",
+          "Broad tonal separation of turret roof, cheek shoulders, hatch lids and surrounding hull deck. Original restrained accents retained.",
+          "M2 distinct broad jacket, long barrel, rear buffer, M10 exterior cue and cradle/support",
+          "M240 tank spade grips, slender barrel and gas-cylinder silhouette, open side cradle and curved lower case container",
+          "Separate gun shield with top and upper front following turret contours; retain gun and coax roots",
+          "Mantlet front follows the adjacent inner cheek frontal slope, with forward positioning and no recessed tunnel or proud upper lip; exact gun/coax and all unrelated equipment retained.",
+          "Preserve forward-sloped mantlet. Coax exterior remains tubular with fuller short rim, visibly recessed open muzzle and simplified inward tabs; no exposed receiver."
+        ],
+        "simplifiableFeatures": [
+          "Fine fasteners, cables, markings, full interior, terrain suspension and weapon internals excluded",
+          "Simplified exterior mounts and shallow wells; hinge dimensions and 4.50m whip tip height are visual construction choices",
+          "Edge highlighting and seam contrast are explicitly stylized readability choices, not historical paint markings or physical raised fittings.",
+          "Three coherent warm sand values for stylized distance readability, not historical paint markings.",
+          "Exterior widths, heights, support cross sections, nominal contact points and simplified rear fittings are visual construction choices constrained by multiple references, not measured engineering specifications.",
+          "Closed muzzle caps and shallow dark jacket marks are miniature-scale stylization; no operating internals.",
+          "Small pins, chains, straps and hidden feed paths excluded. Existing hatch-ring detail retained.",
+          "M2 nominal support bridges original fixed station to forward gun position required by the locked lid sweep; not an exact historical CWS mechanism.",
+          "M240 holder follows manual sheet-metal open-top interpretation rather than differing angular photograph equipment.",
+          "Mantlet face coordinates are a bounded model construction derived from the original trace-backed inner cheek anchors, not claimed historical measurements.",
+          "Coax64mm body/72mm rim and35mm recess are bounded visual construction choices, not engineering measurements. Five rimtabs with±1sourceuncertainty; dark recess shader stands for occlusion, not physical rubber."
+        ],
+        "references": [
+          {
+            "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+            "attribution": "United States Marine Corps, MCO8420.13,20 August1991,Figures2-6; locally hash-verified source packet and reviewed trace v3",
+            "license": "U.S. government authored; local research copy; third-party source pixels excluded from public evidence archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1loaderdoor.jpg",
+            "attribution": "AFV Database M1A1 at Fort Knox",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1tccupola.jpg",
+            "attribution": "AFV Database M1A1 at Fort Knox",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_105-mm_gun_Hull_Operators_Manual_Draft_TM_9-2350-255-10_1981.pdf",
+            "attribution": "US Army M1 hull draft operators manual1981",
+            "license": "US Army government-authored manual; reference only, not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1smoke.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1bustle.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1mrs.jpg",
+            "attribution": "TSGT John L. Houghton Jr., USDoD,13November2003",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1abrams.JPEG",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1abrams1-13.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1sensor3-205.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.koreanwaronline.com/history/50/1.pdf",
+            "attribution": "US Army TM9-1005-213-10,6August1992,printed1-9 and2-4; general overall dimension plus turret-type exterior",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_Gunnery_FM_3-20_12_2001.pdf",
+            "attribution": "US Army FM3-20.12,1October2001,9-3/9-4 and12-17; mounted M240, legacy CWS/M10 context",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1abramsloadermg98.jpg",
+            "attribution": "US Army TM9-2350-255-10-1 C3 loader mount illustration, mirrored at AFV Database; base M1, used with M1A1 photo crosscheck",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://www.dvidshub.net/image/9213609/us-army-sgt-scott-junkin-mounts-m-240-machine-gun-top-m1a1-abrams-tank",
+            "attribution": "CPO Edward Martens USN,2005 M1A1 loader-mounted M240",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1roofmgs.jpg",
+            "attribution": "Richard S. Eshleman mounted roof guns, AFV Database; photographic complementary view",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://blog.scopelist.com/wp-content/uploads/FN/FNAmerica_Catalog.pdf",
+            "attribution": "FN America catalog vehicle-family M240 overall41.6in; nominal construction target, exact mounted spade-grip length not independently measured",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://commons.wikimedia.org/wiki/File:M1A1_abrams_front.jpg",
+            "attribution": "US Air Force Tech Sgt John Houghton, 13 November 2003",
+            "license": "US government work; local review only"
+          },
+          {
+            "uri": "https://commons.wikimedia.org/wiki/File:Left_front_view_M1A1_Abrams_Main_Battle_Tank_at_U.S._Army_Armor_Center,_USAARMC_DA-SC-94-01698.jpg",
+            "attribution": "Steve Catlin, US Army, 20 November 1989",
+            "license": "US government work; local review only"
+          }
+        ],
+        "primaryProportions": [
+          "Hull7.9248m, overall9.828276m",
+          "Tracks outside3.4798m, each .635m wide; broad fender width3.6576m",
+          "Gun axis1.83m side-led construction target; front discrepancy retained"
+        ],
+        "silhouetteRequirements": [
+          "Angular low broad turret with sloping cheek shoulders",
+          "Stowage distinct from armor",
+          "Rear basket visibly open",
+          "Track shoes close-spaced around complete loop",
+          "Gun-base upper contour follows the local turret front without a raised projecting rectangular box"
+        ],
+        "mechanicalRelationships": [
+          {
+            "parts": [
+              "Hull",
+              "LeftTrack",
+              "RightTrack"
+            ],
+            "relationship": "Original static stance preserved; individual shoes partition exact loop geometry for subsequent motion qualification."
+          },
+          {
+            "parts": [
+              "CommanderCupola",
+              "CommanderHatchLid",
+              "LoaderHatch",
+              "LoaderHatchLid",
+              "DriverHatchRim",
+              "DriverHatchLid"
+            ],
+            "relationship": "Fixed station geometry separate from leaf geometry; source pivots at declared visual hinge axes; sampled sweep proof before animation approval."
+          },
+          {
+            "parts": [
+              "TurretAssembly",
+              "GunAssembly"
+            ],
+            "relationship": "Accepted turret and gun massing retained; later typed controls establish yaw/elevation/recoil. No certified physical articulation range."
+          },
+          {
+            "parts": [
+              "M2Receiver",
+              "M2Barrel",
+              "M2Cradle",
+              "M2CWSSupport",
+              "M2AmmoCradle",
+              "M240Receiver",
+              "M240Barrel",
+              "M240Cradle",
+              "M240CaseContainer",
+              "M240SkateSupport",
+              "M240AmmoCradle"
+            ],
+            "relationship": "Fixed exterior gun rest geometry follows TurretAssembly. No independent aiming or weapon mechanisms. Cupola and hatch interfaces retained; new contacts nominal."
+          }
+        ],
+        "forbiddenVisualReadings": [
+          "Reuse of r43 geometry",
+          "Gapped decorative track bars",
+          "Solid rear basket",
+          "Stowage mistaken for central armor roof",
+          "Unmeasured physical pivot presented as fact",
+          "M1A2 CITV or TUSK additions",
+          "Simplified external weapon geometry represented as functioning mechanisms",
+          "Material or source validation represented as animation approval"
+        ],
+        "status": "confirmed"
+      },
+      "specification": {
+        "schemaVersion": "2.0.0",
+        "assetId": "m1a1-coax-desert-20261029-v1",
+        "kind": "hard-surface-vehicle",
+        "unitSystem": "metric",
+        "budgets": {
+          "triangles": 40000,
+          "materials": 11,
+          "objects": 512,
+          "textures": 0
+        },
+        "sourceDeliverables": {
+          "blend": true,
+          "glb": "required"
+        },
+        "reviewRenderSets": [
+          {
+            "name": "finished-source",
+            "projection": "orthographic",
+            "resolution": {
+              "width": 1000,
+              "height": 1000
+            },
+            "transparentBackground": true,
+            "views": [
+              {
+                "name": "front-three-quarter",
+                "orientation": {
+                  "azimuthDegrees": 35,
+                  "elevationDegrees": 25,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "rear-three-quarter",
+                "orientation": {
+                  "azimuthDegrees": 215,
+                  "elevationDegrees": 25,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "front",
+                "orientation": {
+                  "azimuthDegrees": 0,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "left",
+                "orientation": {
+                  "azimuthDegrees": 270,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "right",
+                "orientation": {
+                  "azimuthDegrees": 90,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "top",
+                "orientation": {
+                  "azimuthDegrees": 0,
+                  "elevationDegrees": 89.99,
+                  "rollDegrees": 0
+                }
+              }
+            ],
+            "lightingIntent": "Neutral studio shape inspection with final restrained desert paint, rubber, coated steel and optics colors"
+          }
+        ]
+      },
+      "dimensions": {
+        "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/inspection/revision-2/asset-dimension-validation-eace6bc5a6d5d62868a9010018f51ca96f4b959902b78373a2127244d039a5c2.json",
+        "resultHash": "eace6bc5a6d5d62868a9010018f51ca96f4b959902b78373a2127244d039a5c2",
+        "aggregate": {
+          "passed": true,
+          "complete": true,
+          "reproducible": true,
+          "internallyConsistent": true,
+          "expectedBlockingCriterionCount": 16,
+          "reportedBlockingCriterionCount": 16,
+          "passedBlockingCriterionCount": 16,
+          "blockingFailureCriterionIds": []
+        },
+        "revision": 2,
+        "checkpointHash": "60005058c0ebb37d474cb2f7fa44bf3be89281538171b32447e208b3a4fa9390"
+      },
+      "baseline": {
+        "revision": 2,
+        "checkpointHash": "60005058c0ebb37d474cb2f7fa44bf3be89281538171b32447e208b3a4fa9390",
+        "deterministic": true,
+        "firstHash": "9ad7e32608ac3237004bdc6bd65164631fae547eade3926f78adb3935b4d8c51",
+        "secondHash": "9ad7e32608ac3237004bdc6bd65164631fae547eade3926f78adb3935b4d8c51",
+        "dimensionValidationReportHash": "eace6bc5a6d5d62868a9010018f51ca96f4b959902b78373a2127244d039a5c2"
+      },
+      "validation": {
+        "triangleCount": 38184,
+        "materialCount": 10,
+        "textureCount": 0,
+        "objectCount": 279,
+        "deterministic": true,
+        "issues": [],
+        "renderPaths": [
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/renders/revision-2/production/run-C7FwPk/pass-2/finished-source/front-three-quarter.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/renders/revision-2/production/run-C7FwPk/pass-2/finished-source/rear-three-quarter.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/renders/revision-2/production/run-C7FwPk/pass-2/finished-source/front.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/renders/revision-2/production/run-C7FwPk/pass-2/finished-source/left.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/renders/revision-2/production/run-C7FwPk/pass-2/finished-source/right.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/renders/revision-2/production/run-C7FwPk/pass-2/finished-source/top.png"
+        ],
+        "validationRevision": 2,
+        "checkpointHash": "60005058c0ebb37d474cb2f7fa44bf3be89281538171b32447e208b3a4fa9390",
+        "passed": true,
+        "id": "e256b13f-b072-4148-a6bd-b34bb4fc772f",
+        "revision": 2,
+        "renderRevision": 2,
+        "renderHash": "9ad7e32608ac3237004bdc6bd65164631fae547eade3926f78adb3935b4d8c51",
+        "contactSheetHash": "441233e69a512cb78824030a1539d6a112fa64d7fb24d2a0a863a662aef79396",
+        "createdAt": "2026-10-29T14:48:47.092Z"
+      },
+      "render": {
+        "contactSheet": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/renders/revision-2/production/run-C7FwPk/pass-2/contact-sheet.png",
+        "contactSheetHash": "441233e69a512cb78824030a1539d6a112fa64d7fb24d2a0a863a662aef79396",
+        "renderHash": "9ad7e32608ac3237004bdc6bd65164631fae547eade3926f78adb3935b4d8c51",
+        "deterministic": true,
+        "renderRevision": 2,
+        "checkpointHash": "60005058c0ebb37d474cb2f7fa44bf3be89281538171b32447e208b3a4fa9390"
+      },
+      "native": {
+        "complete": true,
+        "statePreserved": true,
+        "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/native-isolation-diagnostics/native-rigid-isolation-v1/e23c5798f66282d0938ea12b4970250053e23920721e0ac0b72eabe9fe3f7f8c/receipt.json",
+        "receiptSha256": "458a0246ef547acc72f59ef3b3317db8c05faf3fc3d8043b9a7641465d4a8ed5",
+        "probes": [
+          {
+            "component": "CoaxShroud",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          },
+          {
+            "component": "GunBarrel",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          },
+          {
+            "component": "Mantlet",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          }
+        ]
+      },
+      "export": {
+        "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/review-glb-diagnostics/review-glb-subject-axes-v2/99554caff56b3d3eefe8eaa78e3236d8518c0ffa85e4335df72e93221211505a/receipt.json",
+        "receiptSha256": "f946f10ccc7f89b57a0e5fde3d2805a385cbd2ea77762009d55f32a87aa02036",
+        "glbPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/review-glb-diagnostics/review-glb-subject-axes-v2/99554caff56b3d3eefe8eaa78e3236d8518c0ffa85e4335df72e93221211505a/review.glb",
+        "glbSha256": "1f0e6a332173d09cd052e4e7a8a6a8ec29d39ab8339bf470bd27cf11d25d6e88",
+        "meshCount": 269
+      },
+      "bundle": {
+        "manifestPath": "/Users/georgele/FormSeed3D/.formseed3d/staging/2ee3ab25-8a81-4aef-8c58-ca4fb18bf769/main/formseed3d-asset.json"
+      },
+      "humanApproval": "absent",
+      "visualRecommendation": "independent-retain-recommendation; formalstructuredassessment ownedbyroot",
+      "scopeClarification": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/final-scope-clarification.json"
+    },
+    "green": {
+      "jobId": "34992cc6-33bc-4e6e-b4fc-0f87bec7eba1",
+      "assetId": "m1a1-coax-green-20261029-v1",
+      "revision": 1,
+      "checkpoint": {
+        "id": "ff0aff8a-8e5d-4f4b-b611-3116feed3834",
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/checkpoints/282c0639-af0a-41e3-8a27-b47b30e9fd2f.blend",
+        "contentHash": "dad68836ac8b72257c42b50b86239e477eaf105839e735fc13753faef899be07",
+        "revision": 1
+      },
+      "source": {
+        "jobId": "2086ad28-7c0b-4653-8907-3d390b96377e",
+        "revision": 1,
+        "checkpointId": "68b7ab22-7196-4ffd-aea7-86d8fd0c6387",
+        "checkpointHash": "f33e18910d4b8eda4b52f1ce667bb0dccd05b6ab6d4fe1277539a7b5f83564d8",
+        "assetSpecificationHash": "a483d7bc0eb3b4b78e7215cf5cecbaaba4876b0e5db3e5c9c0ac152c378533b2",
+        "dimensionSpecificationHash": "6b0774b7d5ba4de58170a553abdb25e217a2d78cfc81eb65567d137dc5878241",
+        "reason": "Human-directed coax exterior correction; preserve latest forward mantlet, exact predecessor and allpriorcharges. Noapprovaltransfer.",
+        "approvalTransfer": false
+      },
+      "brief": {
+        "schemaVersion": "2.0.0",
+        "subject": "M1A1 Abrams green — coax exterior rim and open muzzle correction",
+        "intendedUse": "Editable finished static source prepared for separately approved rigid-animation production; no historical engineering certification",
+        "mustHaveFeatures": [
+          "Wedge hull with raised rear engine deck",
+          "Separate left/right turret cheeks, core, bustle armor, exterior stowage",
+          "Long gun-forward exterior barrel",
+          "Seven separate road wheels per side and continuous shoe loops",
+          "Open rear basket",
+          "Army six-tube smoke banks; commander M2 and loader M240 exterior silhouettes",
+          "Fixed hatch stations with separate lids, exposed rims, underside seals and shallow dark apertures",
+          "Driver lift/swing hatch and three periscopes",
+          "192 independently selectable T158 shoes retaining accepted geometry",
+          "Antennae, lamps, grilles, blowoff panels, crosswind sensor and muzzle reference fitting",
+          "M2 distinct broad jacket, long barrel, rear buffer, M10 exterior cue and cradle/support",
+          "M240 tank spade grips, slender barrel and gas-cylinder silhouette, open side cradle and curved lower case container",
+          "Overall green with restrained roof/hatch value separation, Abrams-family treatment supported by2017 Army repaint report; not specific photographed M1A1 unit replication",
+          "Exact269approved meshes and source hierarchy retained; paint regions only",
+          "Mantlet front follows the adjacent inner cheek frontal slope, with forward positioning and no recessed tunnel or proud upper lip; exact gun/coax and all unrelated equipment retained.",
+          "Preserve forward-sloped mantlet. Coax exterior remains tubular with fuller short rim, visibly recessed open muzzle and simplified inward tabs; no exposed receiver.",
+          "Coax axis follows original front drawing/photo relationship: about half main-root radius above, near the shield outer edge; retain bounded end treatment."
+        ],
+        "simplifiableFeatures": [
+          "Fine fasteners, cables, markings, full interior, terrain suspension and weapon internals excluded",
+          "Simplified exterior mounts and shallow wells; hinge dimensions and 4.50m whip tip height are visual construction choices",
+          "Edge highlighting and seam contrast are explicitly stylized readability choices, not historical paint markings or physical raised fittings.",
+          "Exterior widths, heights, support cross sections, nominal contact points and simplified rear fittings are visual construction choices constrained by multiple references, not measured engineering specifications.",
+          "Closed muzzle caps and shallow dark jacket marks are miniature-scale stylization; no operating internals.",
+          "Small pins, chains, straps and hidden feed paths excluded. Existing hatch-ring detail retained.",
+          "M2 nominal support bridges original fixed station to forward gun position required by the locked lid sweep; not an exact historical CWS mechanism.",
+          "M240 holder follows manual sheet-metal open-top interpretation rather than differing angular photograph equipment.",
+          "Palette/tonal offsets and camouflage field shape adaptation are declared visual design choices; no exact paint-specification or historical-unit claim.",
+          "Mantlet face coordinates are a bounded model construction derived from the original trace-backed inner cheek anchors, not claimed historical measurements.",
+          "Coax64mm body/72mm rim and35mm recess are bounded visual construction choices, not engineering measurements. Five rimtabs with±1sourceuncertainty; dark recess shader stands for occlusion, not physical rubber.",
+          "Coax positionY−.245/Z1.905 is a source-reconciled visual construction; no exact historical measurement implied."
+        ],
+        "references": [
+          {
+            "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+            "attribution": "United States Marine Corps, MCO8420.13,20 August1991,Figures2-6; locally hash-verified source packet and reviewed trace v3",
+            "license": "U.S. government authored; local research copy; third-party source pixels excluded from public evidence archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1loaderdoor.jpg",
+            "attribution": "AFV Database M1A1 at Fort Knox",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1tccupola.jpg",
+            "attribution": "AFV Database M1A1 at Fort Knox",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_105-mm_gun_Hull_Operators_Manual_Draft_TM_9-2350-255-10_1981.pdf",
+            "attribution": "US Army M1 hull draft operators manual1981",
+            "license": "US Army government-authored manual; reference only, not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1smoke.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1bustle.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1mrs.jpg",
+            "attribution": "TSGT John L. Houghton Jr., USDoD,13November2003",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1abrams.JPEG",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1abrams1-13.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1sensor3-205.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.koreanwaronline.com/history/50/1.pdf",
+            "attribution": "US Army TM9-1005-213-10,6August1992,printed1-9 and2-4; general overall dimension plus turret-type exterior",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_Gunnery_FM_3-20_12_2001.pdf",
+            "attribution": "US Army FM3-20.12,1October2001,9-3/9-4 and12-17; mounted M240, legacy CWS/M10 context",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1abramsloadermg98.jpg",
+            "attribution": "US Army TM9-2350-255-10-1 C3 loader mount illustration, mirrored at AFV Database; base M1, used with M1A1 photo crosscheck",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://www.dvidshub.net/image/9213609/us-army-sgt-scott-junkin-mounts-m-240-machine-gun-top-m1a1-abrams-tank",
+            "attribution": "CPO Edward Martens USN,2005 M1A1 loader-mounted M240",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1roofmgs.jpg",
+            "attribution": "Richard S. Eshleman mounted roof guns, AFV Database; photographic complementary view",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://blog.scopelist.com/wp-content/uploads/FN/FNAmerica_Catalog.pdf",
+            "attribution": "FN America catalog vehicle-family M240 overall41.6in; nominal construction target, exact mounted spade-grip length not independently measured",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090201.htm",
+            "attribution": "Department of the Army; hosted by Integrated Publishing; Actual M1A1 top/right/left/front/rear pattern, smooth irregular interlocking fields, cross-view boundaries and band anchors; not generic noise.",
+            "license": "Government-authored figure via mirror; reference pixels excluded from archive"
+          },
+          {
+            "uri": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090039.htm",
+            "attribution": "Department of the Army; Green/brown/black, numbered color fields; fixed-feature pattern reference points. Do not apply color percentages for one example as automatically exact to everyvehicle.",
+            "license": "Research reference only; pixels excluded from public archive"
+          },
+          {
+            "uri": "https://www.army.mil/article/185828/3abct_equipment_going_green_for_atlantic_resolve",
+            "attribution": "SSG Ange Desinor,USArmy,April10,2017; Documents temporary green repaint of M1A2 tanks for Europe; supports Abrams family treatment, not exact legacyM1A1 identification.",
+            "license": "Research reference only; pixels excluded from public archive"
+          },
+          {
+            "uri": "https://api.army.mil/e2/c/downloads/2023/01/19/710bff7a/17-17-date-at-the-jmrc-volume-iv-multinational-interoperability-newsletter-jun-17-public.pdf",
+            "attribution": "USArmy CALL,June2017,p43; Temporary snowcamouflage for Abrams discussed; notes nonspecific doctrine and units developing patterns. Does not supply exact M1A1 winter template.",
+            "license": "Research reference only; pixels excluded from public archive"
+          },
+          {
+            "uri": "https://www.benning.army.mil/Armor/eARMOR/content/issues/1996/MAR_APR/ArmorMarchApril1996web.pdf",
+            "attribution": "USArmy Armor,March–April1996; Seasonal whitewash discussed specifically for Abrams concealment; not one uniquely prescribed scheme.",
+            "license": "Research reference only; pixels excluded from public archive"
+          }
+        ],
+        "primaryProportions": [
+          "Hull7.9248m, overall9.828276m",
+          "Tracks outside3.4798m, each .635m wide; broad fender width3.6576m",
+          "Gun axis1.83m side-led construction target; front discrepancy retained"
+        ],
+        "silhouetteRequirements": [
+          "Angular low broad turret with sloping cheek shoulders",
+          "Stowage distinct from armor",
+          "Rear basket visibly open",
+          "Track shoes close-spaced around complete loop"
+        ],
+        "mechanicalRelationships": [
+          {
+            "parts": [
+              "Hull",
+              "LeftTrack",
+              "RightTrack"
+            ],
+            "relationship": "Original static stance preserved; individual shoes partition exact loop geometry for subsequent motion qualification."
+          },
+          {
+            "parts": [
+              "CommanderCupola",
+              "CommanderHatchLid",
+              "LoaderHatch",
+              "LoaderHatchLid",
+              "DriverHatchRim",
+              "DriverHatchLid"
+            ],
+            "relationship": "Fixed station geometry separate from leaf geometry; source pivots at declared visual hinge axes; sampled sweep proof before animation approval."
+          },
+          {
+            "parts": [
+              "TurretAssembly",
+              "GunAssembly"
+            ],
+            "relationship": "Accepted turret and gun massing retained; later typed controls establish yaw/elevation/recoil. No certified physical articulation range."
+          },
+          {
+            "parts": [
+              "M2Receiver",
+              "M2Barrel",
+              "M2Cradle",
+              "M2CWSSupport",
+              "M2AmmoCradle",
+              "M240Receiver",
+              "M240Barrel",
+              "M240Cradle",
+              "M240CaseContainer",
+              "M240SkateSupport",
+              "M240AmmoCradle"
+            ],
+            "relationship": "Fixed exterior gun rest geometry follows TurretAssembly. No independent aiming or weapon mechanisms. Cupola and hatch interfaces retained; new contacts nominal."
+          }
+        ],
+        "forbiddenVisualReadings": [
+          "Reuse of r43 geometry",
+          "Gapped decorative track bars",
+          "Solid rear basket",
+          "Stowage mistaken for central armor roof",
+          "Unmeasured physical pivot presented as fact",
+          "M1A2 CITV or TUSK additions",
+          "Simplified external weapon geometry represented as functioning mechanisms",
+          "Material or source validation represented as animation approval"
+        ],
+        "status": "confirmed"
+      },
+      "specification": {
+        "schemaVersion": "2.0.0",
+        "assetId": "m1a1-coax-green-20261029-v1",
+        "kind": "hard-surface-vehicle",
+        "unitSystem": "metric",
+        "budgets": {
+          "triangles": 40000,
+          "materials": 16,
+          "objects": 512,
+          "textures": 0
+        },
+        "sourceDeliverables": {
+          "blend": true,
+          "glb": "required"
+        },
+        "reviewRenderSets": [
+          {
+            "name": "finished-source",
+            "projection": "orthographic",
+            "resolution": {
+              "width": 1000,
+              "height": 1000
+            },
+            "transparentBackground": true,
+            "views": [
+              {
+                "name": "front-three-quarter",
+                "orientation": {
+                  "azimuthDegrees": 35,
+                  "elevationDegrees": 25,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "rear-three-quarter",
+                "orientation": {
+                  "azimuthDegrees": 215,
+                  "elevationDegrees": 25,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "front",
+                "orientation": {
+                  "azimuthDegrees": 0,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "left",
+                "orientation": {
+                  "azimuthDegrees": 270,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "right",
+                "orientation": {
+                  "azimuthDegrees": 90,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "top",
+                "orientation": {
+                  "azimuthDegrees": 0,
+                  "elevationDegrees": 89.99,
+                  "rollDegrees": 0
+                }
+              }
+            ],
+            "lightingIntent": "Neutral studio shape inspection with final restrained green paint, rubber, coated steel and optics colors"
+          }
+        ]
+      },
+      "dimensions": {
+        "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/inspection/revision-1/asset-dimension-validation-5df1ac86549b31f19b4c2e764d2b0649ee318329f2634f0038f1ad20bddb9427.json",
+        "resultHash": "5df1ac86549b31f19b4c2e764d2b0649ee318329f2634f0038f1ad20bddb9427",
+        "aggregate": {
+          "passed": true,
+          "complete": true,
+          "reproducible": true,
+          "internallyConsistent": true,
+          "expectedBlockingCriterionCount": 16,
+          "reportedBlockingCriterionCount": 16,
+          "passedBlockingCriterionCount": 16,
+          "blockingFailureCriterionIds": []
+        },
+        "revision": 1,
+        "checkpointHash": "dad68836ac8b72257c42b50b86239e477eaf105839e735fc13753faef899be07"
+      },
+      "baseline": {
+        "revision": 1,
+        "checkpointHash": "dad68836ac8b72257c42b50b86239e477eaf105839e735fc13753faef899be07",
+        "deterministic": true,
+        "firstHash": "36a6b59fee1fb9f54a044cbc2c7589884fa2daccaf4338fae2221c7ced1027ad",
+        "secondHash": "36a6b59fee1fb9f54a044cbc2c7589884fa2daccaf4338fae2221c7ced1027ad",
+        "dimensionValidationReportHash": "5df1ac86549b31f19b4c2e764d2b0649ee318329f2634f0038f1ad20bddb9427"
+      },
+      "validation": {
+        "triangleCount": 38184,
+        "materialCount": 10,
+        "textureCount": 0,
+        "objectCount": 279,
+        "deterministic": true,
+        "issues": [],
+        "renderPaths": [
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/renders/revision-1/production/run-qTMhTa/pass-2/finished-source/front-three-quarter.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/renders/revision-1/production/run-qTMhTa/pass-2/finished-source/rear-three-quarter.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/renders/revision-1/production/run-qTMhTa/pass-2/finished-source/front.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/renders/revision-1/production/run-qTMhTa/pass-2/finished-source/left.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/renders/revision-1/production/run-qTMhTa/pass-2/finished-source/right.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/renders/revision-1/production/run-qTMhTa/pass-2/finished-source/top.png"
+        ],
+        "validationRevision": 1,
+        "checkpointHash": "dad68836ac8b72257c42b50b86239e477eaf105839e735fc13753faef899be07",
+        "passed": true,
+        "id": "d08dd7db-a116-4c33-accd-d62955bbd1a6",
+        "revision": 1,
+        "renderRevision": 1,
+        "renderHash": "36a6b59fee1fb9f54a044cbc2c7589884fa2daccaf4338fae2221c7ced1027ad",
+        "contactSheetHash": "3a58a085d279aef073db65cb9ba71a576540cf16d70f9bfeda10edbf75c7d8b8",
+        "createdAt": "2026-10-29T14:54:07.585Z"
+      },
+      "render": {
+        "contactSheet": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/renders/revision-1/production/run-qTMhTa/pass-2/contact-sheet.png",
+        "contactSheetHash": "3a58a085d279aef073db65cb9ba71a576540cf16d70f9bfeda10edbf75c7d8b8",
+        "renderHash": "36a6b59fee1fb9f54a044cbc2c7589884fa2daccaf4338fae2221c7ced1027ad",
+        "deterministic": true,
+        "renderRevision": 1,
+        "checkpointHash": "dad68836ac8b72257c42b50b86239e477eaf105839e735fc13753faef899be07"
+      },
+      "native": {
+        "complete": true,
+        "statePreserved": true,
+        "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/native-isolation-diagnostics/native-rigid-isolation-v1/fccbcd84da490ebcbd20c0cb5f5c91c42e736c2a738e1b80b0acdf206b955dd7/receipt.json",
+        "receiptSha256": "cb771dd4ba13c953b4a28e33e6e1c439e7fa81a57adce7ce9ebf75dc676732b4",
+        "probes": [
+          {
+            "component": "CoaxShroud",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          },
+          {
+            "component": "GunBarrel",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          },
+          {
+            "component": "Mantlet",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          }
+        ]
+      },
+      "export": {
+        "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/review-glb-diagnostics/review-glb-subject-axes-v2/65cf7a1c449feb0a4077756592b6d5c784e781e20fee9bcfe8688c78c0fe8012/receipt.json",
+        "receiptSha256": "7964466e08c4a49b78468249c3b6a4e435a993c86ecee74654b45f8d10b5b7ab",
+        "glbPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/review-glb-diagnostics/review-glb-subject-axes-v2/65cf7a1c449feb0a4077756592b6d5c784e781e20fee9bcfe8688c78c0fe8012/review.glb",
+        "glbSha256": "4c74a0747cacfe5dfcea9869db3d66b8ebca954c0ec222f7570b6958b8f678f4",
+        "meshCount": 269
+      },
+      "bundle": {
+        "manifestPath": "/Users/georgele/FormSeed3D/.formseed3d/staging/34992cc6-33bc-4e6e-b4fc-0f87bec7eba1/main/formseed3d-asset.json"
+      },
+      "humanApproval": "absent",
+      "visualRecommendation": "independent-retain-recommendation; formalstructuredassessment ownedbyroot",
+      "scopeClarification": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/final-scope-clarification.json"
+    },
+    "winter": {
+      "jobId": "0be8311f-f9b2-4a23-b79a-98761f0decbb",
+      "assetId": "m1a1-coax-winter-20261029-v1",
+      "revision": 1,
+      "checkpoint": {
+        "id": "a8b3b8de-622a-4251-bac0-cccc24ec6dbf",
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/checkpoints/c649d4fc-e9a2-4a6b-af9b-d9bbc982d615.blend",
+        "contentHash": "f95e301d7bda86e7f35483b8caeb543632d9e92be11735c265bfb85cd6fe4c82",
+        "revision": 1
+      },
+      "source": {
+        "jobId": "6c523446-6320-407b-b311-7cadd65f1e9b",
+        "revision": 1,
+        "checkpointId": "0eeb5cec-6087-4f1d-8dc4-c60e5e30423e",
+        "checkpointHash": "094df403b359903a795589c1a2269c0964f568653bdf182a6ee9ce50d42587fe",
+        "assetSpecificationHash": "d04733e04548fd7e5dfb687f91028036b821090b074be66c096a12385644901f",
+        "dimensionSpecificationHash": "1d7b84883fdff4d348da48e324dd6f594c718a4e0d34373d75596d718addb3ad",
+        "reason": "Human-directed coax exterior correction; preserve latest forward mantlet, exact predecessor and allpriorcharges. Noapprovaltransfer.",
+        "approvalTransfer": false
+      },
+      "brief": {
+        "schemaVersion": "2.0.0",
+        "subject": "M1A1 Abrams winter — coax exterior rim and open muzzle correction",
+        "intendedUse": "Editable finished static source prepared for separately approved rigid-animation production; no historical engineering certification",
+        "mustHaveFeatures": [
+          "Wedge hull with raised rear engine deck",
+          "Separate left/right turret cheeks, core, bustle armor, exterior stowage",
+          "Long gun-forward exterior barrel",
+          "Seven separate road wheels per side and continuous shoe loops",
+          "Open rear basket",
+          "Army six-tube smoke banks; commander M2 and loader M240 exterior silhouettes",
+          "Fixed hatch stations with separate lids, exposed rims, underside seals and shallow dark apertures",
+          "Driver lift/swing hatch and three periscopes",
+          "192 independently selectable T158 shoes retaining accepted geometry",
+          "Antennae, lamps, grilles, blowoff panels, crosswind sensor and muzzle reference fitting",
+          "M2 distinct broad jacket, long barrel, rear buffer, M10 exterior cue and cradle/support",
+          "M240 tank spade grips, slender barrel and gas-cylinder silhouette, open side cradle and curved lower case container",
+          "Exact269approved meshes and source hierarchy retained; paint regions only",
+          "Even off-white field-style coat with hatch/deck value separation; no patterned texture seams; exact source269mesh assembly retained",
+          "Mantlet front follows the adjacent inner cheek frontal slope, with forward positioning and no recessed tunnel or proud upper lip; exact gun/coax and all unrelated equipment retained.",
+          "Preserve forward-sloped mantlet. Coax exterior remains tubular with fuller short rim, visibly recessed open muzzle and simplified inward tabs; no exposed receiver.",
+          "Coax axis follows original front drawing/photo relationship: about half main-root radius above, near the shield outer edge; retain bounded end treatment."
+        ],
+        "simplifiableFeatures": [
+          "Fine fasteners, cables, markings, full interior, terrain suspension and weapon internals excluded",
+          "Simplified exterior mounts and shallow wells; hinge dimensions and 4.50m whip tip height are visual construction choices",
+          "Edge highlighting and seam contrast are explicitly stylized readability choices, not historical paint markings or physical raised fittings.",
+          "Exterior widths, heights, support cross sections, nominal contact points and simplified rear fittings are visual construction choices constrained by multiple references, not measured engineering specifications.",
+          "Closed muzzle caps and shallow dark jacket marks are miniature-scale stylization; no operating internals.",
+          "Small pins, chains, straps and hidden feed paths excluded. Existing hatch-ring detail retained.",
+          "M2 nominal support bridges original fixed station to forward gun position required by the locked lid sweep; not an exact historical CWS mechanism.",
+          "M240 holder follows manual sheet-metal open-top interpretation rather than differing angular photograph equipment.",
+          "Palette/tonal offsets and camouflage field shape adaptation are declared visual design choices; no exact paint-specification or historical-unit claim.",
+          "Even clean whitewash is a deliberate simplification. No green-island continuity claims; no weathering or stencil reconstruction required. Existing optics, steel, rubber and geometry retained.",
+          "Mantlet face coordinates are a bounded model construction derived from the original trace-backed inner cheek anchors, not claimed historical measurements.",
+          "Coax64mm body/72mm rim and35mm recess are bounded visual construction choices, not engineering measurements. Five rimtabs with±1sourceuncertainty; dark recess shader stands for occlusion, not physical rubber.",
+          "Coax positionY−.245/Z1.905 is a source-reconciled visual construction; no exact historical measurement implied."
+        ],
+        "references": [
+          {
+            "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+            "attribution": "United States Marine Corps, MCO8420.13,20 August1991,Figures2-6; locally hash-verified source packet and reviewed trace v3",
+            "license": "U.S. government authored; local research copy; third-party source pixels excluded from public evidence archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1loaderdoor.jpg",
+            "attribution": "AFV Database M1A1 at Fort Knox",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1tccupola.jpg",
+            "attribution": "AFV Database M1A1 at Fort Knox",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_105-mm_gun_Hull_Operators_Manual_Draft_TM_9-2350-255-10_1981.pdf",
+            "attribution": "US Army M1 hull draft operators manual1981",
+            "license": "US Army government-authored manual; reference only, not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1smoke.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1bustle.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1mrs.jpg",
+            "attribution": "TSGT John L. Houghton Jr., USDoD,13November2003",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1abrams.JPEG",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1abrams1-13.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1sensor3-205.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.koreanwaronline.com/history/50/1.pdf",
+            "attribution": "US Army TM9-1005-213-10,6August1992,printed1-9 and2-4; general overall dimension plus turret-type exterior",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_Gunnery_FM_3-20_12_2001.pdf",
+            "attribution": "US Army FM3-20.12,1October2001,9-3/9-4 and12-17; mounted M240, legacy CWS/M10 context",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1abramsloadermg98.jpg",
+            "attribution": "US Army TM9-2350-255-10-1 C3 loader mount illustration, mirrored at AFV Database; base M1, used with M1A1 photo crosscheck",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://www.dvidshub.net/image/9213609/us-army-sgt-scott-junkin-mounts-m-240-machine-gun-top-m1a1-abrams-tank",
+            "attribution": "CPO Edward Martens USN,2005 M1A1 loader-mounted M240",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1roofmgs.jpg",
+            "attribution": "Richard S. Eshleman mounted roof guns, AFV Database; photographic complementary view",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://blog.scopelist.com/wp-content/uploads/FN/FNAmerica_Catalog.pdf",
+            "attribution": "FN America catalog vehicle-family M240 overall41.6in; nominal construction target, exact mounted spade-grip length not independently measured",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090201.htm",
+            "attribution": "Department of the Army; hosted by Integrated Publishing; Actual M1A1 top/right/left/front/rear pattern, smooth irregular interlocking fields, cross-view boundaries and band anchors; not generic noise.",
+            "license": "Government-authored figure via mirror; reference pixels excluded from archive"
+          },
+          {
+            "uri": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090039.htm",
+            "attribution": "Department of the Army; Green/brown/black, numbered color fields; fixed-feature pattern reference points. Do not apply color percentages for one example as automatically exact to everyvehicle.",
+            "license": "Research reference only; pixels excluded from public archive"
+          },
+          {
+            "uri": "https://www.army.mil/article/185828/3abct_equipment_going_green_for_atlantic_resolve",
+            "attribution": "SSG Ange Desinor,USArmy,April10,2017; Documents temporary green repaint of M1A2 tanks for Europe; supports Abrams family treatment, not exact legacyM1A1 identification.",
+            "license": "Research reference only; pixels excluded from public archive"
+          },
+          {
+            "uri": "https://api.army.mil/e2/c/downloads/2023/01/19/710bff7a/17-17-date-at-the-jmrc-volume-iv-multinational-interoperability-newsletter-jun-17-public.pdf",
+            "attribution": "USArmy CALL,June2017,p43; Temporary snowcamouflage for Abrams discussed; notes nonspecific doctrine and units developing patterns. Does not supply exact M1A1 winter template.",
+            "license": "Research reference only; pixels excluded from public archive"
+          },
+          {
+            "uri": "https://www.benning.army.mil/Armor/eARMOR/content/issues/1996/MAR_APR/ArmorMarchApril1996web.pdf",
+            "attribution": "USArmy Armor,March–April1996; Seasonal whitewash discussed specifically for Abrams concealment; not one uniquely prescribed scheme.",
+            "license": "Research reference only; pixels excluded from public archive"
+          }
+        ],
+        "primaryProportions": [
+          "Hull7.9248m, overall9.828276m",
+          "Tracks outside3.4798m, each .635m wide; broad fender width3.6576m",
+          "Gun axis1.83m side-led construction target; front discrepancy retained"
+        ],
+        "silhouetteRequirements": [
+          "Angular low broad turret with sloping cheek shoulders",
+          "Stowage distinct from armor",
+          "Rear basket visibly open",
+          "Track shoes close-spaced around complete loop"
+        ],
+        "mechanicalRelationships": [
+          {
+            "parts": [
+              "Hull",
+              "LeftTrack",
+              "RightTrack"
+            ],
+            "relationship": "Original static stance preserved; individual shoes partition exact loop geometry for subsequent motion qualification."
+          },
+          {
+            "parts": [
+              "CommanderCupola",
+              "CommanderHatchLid",
+              "LoaderHatch",
+              "LoaderHatchLid",
+              "DriverHatchRim",
+              "DriverHatchLid"
+            ],
+            "relationship": "Fixed station geometry separate from leaf geometry; source pivots at declared visual hinge axes; sampled sweep proof before animation approval."
+          },
+          {
+            "parts": [
+              "TurretAssembly",
+              "GunAssembly"
+            ],
+            "relationship": "Accepted turret and gun massing retained; later typed controls establish yaw/elevation/recoil. No certified physical articulation range."
+          },
+          {
+            "parts": [
+              "M2Receiver",
+              "M2Barrel",
+              "M2Cradle",
+              "M2CWSSupport",
+              "M2AmmoCradle",
+              "M240Receiver",
+              "M240Barrel",
+              "M240Cradle",
+              "M240CaseContainer",
+              "M240SkateSupport",
+              "M240AmmoCradle"
+            ],
+            "relationship": "Fixed exterior gun rest geometry follows TurretAssembly. No independent aiming or weapon mechanisms. Cupola and hatch interfaces retained; new contacts nominal."
+          }
+        ],
+        "forbiddenVisualReadings": [
+          "Reuse of r43 geometry",
+          "Gapped decorative track bars",
+          "Solid rear basket",
+          "Stowage mistaken for central armor roof",
+          "Unmeasured physical pivot presented as fact",
+          "M1A2 CITV or TUSK additions",
+          "Simplified external weapon geometry represented as functioning mechanisms",
+          "Material or source validation represented as animation approval"
+        ],
+        "status": "confirmed"
+      },
+      "specification": {
+        "schemaVersion": "2.0.0",
+        "assetId": "m1a1-coax-winter-20261029-v1",
+        "kind": "hard-surface-vehicle",
+        "unitSystem": "metric",
+        "budgets": {
+          "triangles": 40000,
+          "materials": 16,
+          "objects": 512,
+          "textures": 0
+        },
+        "sourceDeliverables": {
+          "blend": true,
+          "glb": "required"
+        },
+        "reviewRenderSets": [
+          {
+            "name": "finished-source",
+            "projection": "orthographic",
+            "resolution": {
+              "width": 1000,
+              "height": 1000
+            },
+            "transparentBackground": true,
+            "views": [
+              {
+                "name": "front-three-quarter",
+                "orientation": {
+                  "azimuthDegrees": 35,
+                  "elevationDegrees": 25,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "rear-three-quarter",
+                "orientation": {
+                  "azimuthDegrees": 215,
+                  "elevationDegrees": 25,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "front",
+                "orientation": {
+                  "azimuthDegrees": 0,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "left",
+                "orientation": {
+                  "azimuthDegrees": 270,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "right",
+                "orientation": {
+                  "azimuthDegrees": 90,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "top",
+                "orientation": {
+                  "azimuthDegrees": 0,
+                  "elevationDegrees": 89.99,
+                  "rollDegrees": 0
+                }
+              }
+            ],
+            "lightingIntent": "Neutral studio inspection of off-white temporary field finish and dark rubber, coated steel and optics"
+          }
+        ]
+      },
+      "dimensions": {
+        "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/inspection/revision-1/asset-dimension-validation-ca212669c28662466da11c6fe555341c5d6804b83da370195fec4cf5ae42e753.json",
+        "resultHash": "ca212669c28662466da11c6fe555341c5d6804b83da370195fec4cf5ae42e753",
+        "aggregate": {
+          "passed": true,
+          "complete": true,
+          "reproducible": true,
+          "internallyConsistent": true,
+          "expectedBlockingCriterionCount": 16,
+          "reportedBlockingCriterionCount": 16,
+          "passedBlockingCriterionCount": 16,
+          "blockingFailureCriterionIds": []
+        },
+        "revision": 1,
+        "checkpointHash": "f95e301d7bda86e7f35483b8caeb543632d9e92be11735c265bfb85cd6fe4c82"
+      },
+      "baseline": {
+        "revision": 1,
+        "checkpointHash": "f95e301d7bda86e7f35483b8caeb543632d9e92be11735c265bfb85cd6fe4c82",
+        "deterministic": true,
+        "firstHash": "9f104b1fa75f690f221aa4544903309bb78bea02b92f31da3c9b35f7151736dc",
+        "secondHash": "9f104b1fa75f690f221aa4544903309bb78bea02b92f31da3c9b35f7151736dc",
+        "dimensionValidationReportHash": "ca212669c28662466da11c6fe555341c5d6804b83da370195fec4cf5ae42e753"
+      },
+      "validation": {
+        "triangleCount": 38184,
+        "materialCount": 10,
+        "textureCount": 0,
+        "objectCount": 279,
+        "deterministic": true,
+        "issues": [],
+        "renderPaths": [
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/renders/revision-1/production/run-XL3otW/pass-2/finished-source/front-three-quarter.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/renders/revision-1/production/run-XL3otW/pass-2/finished-source/rear-three-quarter.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/renders/revision-1/production/run-XL3otW/pass-2/finished-source/front.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/renders/revision-1/production/run-XL3otW/pass-2/finished-source/left.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/renders/revision-1/production/run-XL3otW/pass-2/finished-source/right.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/renders/revision-1/production/run-XL3otW/pass-2/finished-source/top.png"
+        ],
+        "validationRevision": 1,
+        "checkpointHash": "f95e301d7bda86e7f35483b8caeb543632d9e92be11735c265bfb85cd6fe4c82",
+        "passed": true,
+        "id": "5039c3ee-ec77-4b05-8808-eb81a3bc6209",
+        "revision": 1,
+        "renderRevision": 1,
+        "renderHash": "9f104b1fa75f690f221aa4544903309bb78bea02b92f31da3c9b35f7151736dc",
+        "contactSheetHash": "2a63fbdc647ee0cd491382671051c37d929b7d904ee9b494856964caf29a3bc2",
+        "createdAt": "2026-10-29T14:56:24.162Z"
+      },
+      "render": {
+        "contactSheet": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/renders/revision-1/production/run-XL3otW/pass-2/contact-sheet.png",
+        "contactSheetHash": "2a63fbdc647ee0cd491382671051c37d929b7d904ee9b494856964caf29a3bc2",
+        "renderHash": "9f104b1fa75f690f221aa4544903309bb78bea02b92f31da3c9b35f7151736dc",
+        "deterministic": true,
+        "renderRevision": 1,
+        "checkpointHash": "f95e301d7bda86e7f35483b8caeb543632d9e92be11735c265bfb85cd6fe4c82"
+      },
+      "native": {
+        "complete": true,
+        "statePreserved": true,
+        "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/native-isolation-diagnostics/native-rigid-isolation-v1/c8d0924f4b9e1e483cd8288c7f64c4ffde9cf785024a558076fe3170ecf206d4/receipt.json",
+        "receiptSha256": "3aec6c6281647e935f567a938fa8bc364bdd45fe327f4f53423617f7a1bf5ad5",
+        "probes": [
+          {
+            "component": "CoaxShroud",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          },
+          {
+            "component": "GunBarrel",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          },
+          {
+            "component": "Mantlet",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          }
+        ]
+      },
+      "export": {
+        "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/review-glb-diagnostics/review-glb-subject-axes-v2/97282617092fbabce93adf2ba1eee734c113fda7f8e0a76f6945c2ed66aa36b3/receipt.json",
+        "receiptSha256": "c3d1f5cffbd2a0fe851f248c03ab526c3857a59279daeeabe23cfcd6c4382961",
+        "glbPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/review-glb-diagnostics/review-glb-subject-axes-v2/97282617092fbabce93adf2ba1eee734c113fda7f8e0a76f6945c2ed66aa36b3/review.glb",
+        "glbSha256": "51f88a6e4a405b663ed542686e6611154801899fd42495254c4c66c7ada5650c",
+        "meshCount": 269
+      },
+      "bundle": {
+        "manifestPath": "/Users/georgele/FormSeed3D/.formseed3d/staging/0be8311f-f9b2-4a23-b79a-98761f0decbb/main/formseed3d-asset.json"
+      },
+      "humanApproval": "absent",
+      "visualRecommendation": "independent-retain-recommendation; formalstructuredassessment ownedbyroot",
+      "scopeClarification": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/final-scope-clarification.json"
+    },
+    "nato": {
+      "jobId": "516253b9-959b-4f14-b6d5-fea22dd7cc09",
+      "assetId": "m1a1-coax-nato-20261029-v1",
+      "revision": 1,
+      "checkpoint": {
+        "id": "98602859-7023-433e-bf5c-aea80d18dafc",
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/checkpoints/84ae96bd-8916-41b5-a267-1ae05f27ae04.blend",
+        "contentHash": "1922a76e322afeef6f2332c099b7a45c2583411747de3d78618c4104291501ef",
+        "revision": 1
+      },
+      "source": {
+        "jobId": "d0688a41-7739-4fa6-a562-f4228c1cec5c",
+        "revision": 2,
+        "checkpointId": "b5365f66-2e38-463d-99b6-e9c875648581",
+        "checkpointHash": "a0b7b616b4e274037d99d91f90b70295112d7cf9b7dc6f4c7e356ce55c2e556a",
+        "assetSpecificationHash": "61a7dc3ea31154351a18ff818177eb95af18cf2e229501aa652d5c37dcb2f1e3",
+        "dimensionSpecificationHash": "cb5c33f43017b9370c2c8083d3cf5ea230034d9b6cc5d8bac8aada1a0b43ffaf",
+        "reason": "Human-directed coax exterior correction; preserve latest forward mantlet, exact predecessor and allpriorcharges. Noapprovaltransfer.",
+        "approvalTransfer": false
+      },
+      "brief": {
+        "schemaVersion": "2.0.0",
+        "subject": "M1A1 Abrams nato — coax exterior rim and open muzzle correction",
+        "intendedUse": "Editable finished static source prepared for separately approved rigid-animation production; no historical engineering certification",
+        "mustHaveFeatures": [
+          "Wedge hull with raised rear engine deck",
+          "Separate left/right turret cheeks, core, bustle armor, exterior stowage",
+          "Long gun-forward exterior barrel",
+          "Seven separate road wheels per side and continuous shoe loops",
+          "Open rear basket",
+          "Army six-tube smoke banks; commander M2 and loader M240 exterior silhouettes",
+          "Fixed hatch stations with separate lids, exposed rims, underside seals and shallow dark apertures",
+          "Driver lift/swing hatch and three periscopes",
+          "192 independently selectable T158 shoes retaining accepted geometry",
+          "Antennae, lamps, grilles, blowoff panels, crosswind sensor and muzzle reference fitting",
+          "M2 distinct broad jacket, long barrel, rear buffer, M10 exterior cue and cradle/support",
+          "M240 tank spade grips, slender barrel and gas-cylinder silhouette, open side cradle and curved lower case container",
+          "Broad irregular green/brown/black bands and lobes inspired by TB43-0209 Figure91, not an exact stencil reconstruction or measured paint specification",
+          "Exact269approved meshes and source hierarchy retained; paint regions only",
+          "Mantlet front follows the adjacent inner cheek frontal slope, with forward positioning and no recessed tunnel or proud upper lip; exact gun/coax and all unrelated equipment retained.",
+          "Preserve forward-sloped mantlet. Coax exterior remains tubular with fuller short rim, visibly recessed open muzzle and simplified inward tabs; no exposed receiver.",
+          "Coax axis follows original front drawing/photo relationship: about half main-root radius above, near the shield outer edge; retain bounded end treatment."
+        ],
+        "simplifiableFeatures": [
+          "Fine fasteners, cables, markings, full interior, terrain suspension and weapon internals excluded",
+          "Simplified exterior mounts and shallow wells; hinge dimensions and 4.50m whip tip height are visual construction choices",
+          "Edge highlighting and seam contrast are explicitly stylized readability choices, not historical paint markings or physical raised fittings.",
+          "Exterior widths, heights, support cross sections, nominal contact points and simplified rear fittings are visual construction choices constrained by multiple references, not measured engineering specifications.",
+          "Closed muzzle caps and shallow dark jacket marks are miniature-scale stylization; no operating internals.",
+          "Small pins, chains, straps and hidden feed paths excluded. Existing hatch-ring detail retained.",
+          "M2 nominal support bridges original fixed station to forward gun position required by the locked lid sweep; not an exact historical CWS mechanism.",
+          "M240 holder follows manual sheet-metal open-top interpretation rather than differing angular photograph equipment.",
+          "Palette/tonal offsets and camouflage field shape adaptation are declared visual design choices; no exact paint-specification or historical-unit claim.",
+          "Mantlet face coordinates are a bounded model construction derived from the original trace-backed inner cheek anchors, not claimed historical measurements.",
+          "Coax64mm body/72mm rim and35mm recess are bounded visual construction choices, not engineering measurements. Five rimtabs with±1sourceuncertainty; dark recess shader stands for occlusion, not physical rubber.",
+          "Coax positionY−.245/Z1.905 is a source-reconciled visual construction; no exact historical measurement implied."
+        ],
+        "references": [
+          {
+            "uri": "https://www.globalsecurity.org/military/library/policy/usmc/mco/8420-13/mco8420-13.pdf",
+            "attribution": "United States Marine Corps, MCO8420.13,20 August1991,Figures2-6; locally hash-verified source packet and reviewed trace v3",
+            "license": "U.S. government authored; local research copy; third-party source pixels excluded from public evidence archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1loaderdoor.jpg",
+            "attribution": "AFV Database M1A1 at Fort Knox",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1tccupola.jpg",
+            "attribution": "AFV Database M1A1 at Fort Knox",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_105-mm_gun_Hull_Operators_Manual_Draft_TM_9-2350-255-10_1981.pdf",
+            "attribution": "US Army M1 hull draft operators manual1981",
+            "license": "US Army government-authored manual; reference only, not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1smoke.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1bustle.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1mrs.jpg",
+            "attribution": "TSGT John L. Houghton Jr., USDoD,13November2003",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1abrams.JPEG",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1abrams1-13.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.afvdatabase.com/usa/pics/m1abrams/m1a1sensor3-205.jpg",
+            "attribution": "Attribution recorded in reference-ingest.json/source page",
+            "license": "Photographic reference, copyright retained by photographer; not redistributed"
+          },
+          {
+            "uri": "https://www.koreanwaronline.com/history/50/1.pdf",
+            "attribution": "US Army TM9-1005-213-10,6August1992,printed1-9 and2-4; general overall dimension plus turret-type exterior",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_Gunnery_FM_3-20_12_2001.pdf",
+            "attribution": "US Army FM3-20.12,1October2001,9-3/9-4 and12-17; mounted M240, legacy CWS/M10 context",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1abramsloadermg98.jpg",
+            "attribution": "US Army TM9-2350-255-10-1 C3 loader mount illustration, mirrored at AFV Database; base M1, used with M1A1 photo crosscheck",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://www.dvidshub.net/image/9213609/us-army-sgt-scott-junkin-mounts-m-240-machine-gun-top-m1a1-abrams-tank",
+            "attribution": "CPO Edward Martens USN,2005 M1A1 loader-mounted M240",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1roofmgs.jpg",
+            "attribution": "Richard S. Eshleman mounted roof guns, AFV Database; photographic complementary view",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://blog.scopelist.com/wp-content/uploads/FN/FNAmerica_Catalog.pdf",
+            "attribution": "FN America catalog vehicle-family M240 overall41.6in; nominal construction target, exact mounted spade-grip length not independently measured",
+            "license": "Research reference only; source pixels and analytical derivatives excluded from public archive"
+          },
+          {
+            "uri": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090201.htm",
+            "attribution": "Department of the Army; hosted by Integrated Publishing; Actual M1A1 top/right/left/front/rear pattern, smooth irregular interlocking fields, cross-view boundaries and band anchors; not generic noise.",
+            "license": "Government-authored figure via mirror; reference pixels excluded from archive"
+          },
+          {
+            "uri": "https://automotiveaccessories.tpub.com/TB-43-0209/TB-43-02090039.htm",
+            "attribution": "Department of the Army; Green/brown/black, numbered color fields; fixed-feature pattern reference points. Do not apply color percentages for one example as automatically exact to everyvehicle.",
+            "license": "Research reference only; pixels excluded from public archive"
+          },
+          {
+            "uri": "https://www.army.mil/article/185828/3abct_equipment_going_green_for_atlantic_resolve",
+            "attribution": "SSG Ange Desinor,USArmy,April10,2017; Documents temporary green repaint of M1A2 tanks for Europe; supports Abrams family treatment, not exact legacyM1A1 identification.",
+            "license": "Research reference only; pixels excluded from public archive"
+          },
+          {
+            "uri": "https://api.army.mil/e2/c/downloads/2023/01/19/710bff7a/17-17-date-at-the-jmrc-volume-iv-multinational-interoperability-newsletter-jun-17-public.pdf",
+            "attribution": "USArmy CALL,June2017,p43; Temporary snowcamouflage for Abrams discussed; notes nonspecific doctrine and units developing patterns. Does not supply exact M1A1 winter template.",
+            "license": "Research reference only; pixels excluded from public archive"
+          },
+          {
+            "uri": "https://www.benning.army.mil/Armor/eARMOR/content/issues/1996/MAR_APR/ArmorMarchApril1996web.pdf",
+            "attribution": "USArmy Armor,March–April1996; Seasonal whitewash discussed specifically for Abrams concealment; not one uniquely prescribed scheme.",
+            "license": "Research reference only; pixels excluded from public archive"
+          }
+        ],
+        "primaryProportions": [
+          "Hull7.9248m, overall9.828276m",
+          "Tracks outside3.4798m, each .635m wide; broad fender width3.6576m",
+          "Gun axis1.83m side-led construction target; front discrepancy retained"
+        ],
+        "silhouetteRequirements": [
+          "Angular low broad turret with sloping cheek shoulders",
+          "Stowage distinct from armor",
+          "Rear basket visibly open",
+          "Track shoes close-spaced around complete loop"
+        ],
+        "mechanicalRelationships": [
+          {
+            "parts": [
+              "Hull",
+              "LeftTrack",
+              "RightTrack"
+            ],
+            "relationship": "Original static stance preserved; individual shoes partition exact loop geometry for subsequent motion qualification."
+          },
+          {
+            "parts": [
+              "CommanderCupola",
+              "CommanderHatchLid",
+              "LoaderHatch",
+              "LoaderHatchLid",
+              "DriverHatchRim",
+              "DriverHatchLid"
+            ],
+            "relationship": "Fixed station geometry separate from leaf geometry; source pivots at declared visual hinge axes; sampled sweep proof before animation approval."
+          },
+          {
+            "parts": [
+              "TurretAssembly",
+              "GunAssembly"
+            ],
+            "relationship": "Accepted turret and gun massing retained; later typed controls establish yaw/elevation/recoil. No certified physical articulation range."
+          },
+          {
+            "parts": [
+              "M2Receiver",
+              "M2Barrel",
+              "M2Cradle",
+              "M2CWSSupport",
+              "M2AmmoCradle",
+              "M240Receiver",
+              "M240Barrel",
+              "M240Cradle",
+              "M240CaseContainer",
+              "M240SkateSupport",
+              "M240AmmoCradle"
+            ],
+            "relationship": "Fixed exterior gun rest geometry follows TurretAssembly. No independent aiming or weapon mechanisms. Cupola and hatch interfaces retained; new contacts nominal."
+          }
+        ],
+        "forbiddenVisualReadings": [
+          "Reuse of r43 geometry",
+          "Gapped decorative track bars",
+          "Solid rear basket",
+          "Stowage mistaken for central armor roof",
+          "Unmeasured physical pivot presented as fact",
+          "M1A2 CITV or TUSK additions",
+          "Simplified external weapon geometry represented as functioning mechanisms",
+          "Material or source validation represented as animation approval"
+        ],
+        "status": "confirmed"
+      },
+      "specification": {
+        "schemaVersion": "2.0.0",
+        "assetId": "m1a1-coax-nato-20261029-v1",
+        "kind": "hard-surface-vehicle",
+        "unitSystem": "metric",
+        "budgets": {
+          "triangles": 40000,
+          "materials": 32,
+          "objects": 512,
+          "textures": 5
+        },
+        "sourceDeliverables": {
+          "blend": true,
+          "glb": "required"
+        },
+        "reviewRenderSets": [
+          {
+            "name": "finished-source",
+            "projection": "orthographic",
+            "resolution": {
+              "width": 1000,
+              "height": 1000
+            },
+            "transparentBackground": true,
+            "views": [
+              {
+                "name": "front-three-quarter",
+                "orientation": {
+                  "azimuthDegrees": 35,
+                  "elevationDegrees": 25,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "rear-three-quarter",
+                "orientation": {
+                  "azimuthDegrees": 215,
+                  "elevationDegrees": 25,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "front",
+                "orientation": {
+                  "azimuthDegrees": 0,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "left",
+                "orientation": {
+                  "azimuthDegrees": 270,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "right",
+                "orientation": {
+                  "azimuthDegrees": 90,
+                  "elevationDegrees": 0,
+                  "rollDegrees": 0
+                }
+              },
+              {
+                "name": "top",
+                "orientation": {
+                  "azimuthDegrees": 0,
+                  "elevationDegrees": 89.99,
+                  "rollDegrees": 0
+                }
+              }
+            ],
+            "lightingIntent": "Neutral studio shape inspection with final restrained nato paint, rubber, coated steel and optics colors"
+          }
+        ]
+      },
+      "dimensions": {
+        "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/inspection/revision-1/asset-dimension-validation-caf12d5a6966626e20750edfe12a54b3d0ff0aadcabb64461f9dd511c926445f.json",
+        "resultHash": "caf12d5a6966626e20750edfe12a54b3d0ff0aadcabb64461f9dd511c926445f",
+        "aggregate": {
+          "passed": true,
+          "complete": true,
+          "reproducible": true,
+          "internallyConsistent": true,
+          "expectedBlockingCriterionCount": 16,
+          "reportedBlockingCriterionCount": 16,
+          "passedBlockingCriterionCount": 16,
+          "blockingFailureCriterionIds": []
+        },
+        "revision": 1,
+        "checkpointHash": "1922a76e322afeef6f2332c099b7a45c2583411747de3d78618c4104291501ef"
+      },
+      "baseline": {
+        "revision": 1,
+        "checkpointHash": "1922a76e322afeef6f2332c099b7a45c2583411747de3d78618c4104291501ef",
+        "deterministic": true,
+        "firstHash": "ea13307616fbf1aa95e1e2704b30e80f4867fcb93786e57c25455bf4ef3150e7",
+        "secondHash": "ea13307616fbf1aa95e1e2704b30e80f4867fcb93786e57c25455bf4ef3150e7",
+        "dimensionValidationReportHash": "caf12d5a6966626e20750edfe12a54b3d0ff0aadcabb64461f9dd511c926445f"
+      },
+      "validation": {
+        "triangleCount": 38184,
+        "materialCount": 15,
+        "textureCount": 5,
+        "objectCount": 279,
+        "deterministic": true,
+        "issues": [],
+        "renderPaths": [
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/renders/revision-1/production/run-lmLMDt/pass-2/finished-source/front-three-quarter.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/renders/revision-1/production/run-lmLMDt/pass-2/finished-source/rear-three-quarter.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/renders/revision-1/production/run-lmLMDt/pass-2/finished-source/front.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/renders/revision-1/production/run-lmLMDt/pass-2/finished-source/left.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/renders/revision-1/production/run-lmLMDt/pass-2/finished-source/right.png",
+          "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/renders/revision-1/production/run-lmLMDt/pass-2/finished-source/top.png"
+        ],
+        "validationRevision": 1,
+        "checkpointHash": "1922a76e322afeef6f2332c099b7a45c2583411747de3d78618c4104291501ef",
+        "passed": true,
+        "id": "4bb460ac-52ed-4683-9df4-2b1c225554eb",
+        "revision": 1,
+        "renderRevision": 1,
+        "renderHash": "ea13307616fbf1aa95e1e2704b30e80f4867fcb93786e57c25455bf4ef3150e7",
+        "contactSheetHash": "e798fdf1ea8a8dbd0a5bde0eb4c84ea3fa371de28c4afa94c9e397ce97353f47",
+        "createdAt": "2026-10-29T14:57:43.733Z"
+      },
+      "render": {
+        "contactSheet": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/renders/revision-1/production/run-lmLMDt/pass-2/contact-sheet.png",
+        "contactSheetHash": "e798fdf1ea8a8dbd0a5bde0eb4c84ea3fa371de28c4afa94c9e397ce97353f47",
+        "renderHash": "ea13307616fbf1aa95e1e2704b30e80f4867fcb93786e57c25455bf4ef3150e7",
+        "deterministic": true,
+        "renderRevision": 1,
+        "checkpointHash": "1922a76e322afeef6f2332c099b7a45c2583411747de3d78618c4104291501ef"
+      },
+      "native": {
+        "complete": true,
+        "statePreserved": true,
+        "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/native-isolation-diagnostics/native-rigid-isolation-v1/f07e26bb525d83296fbc570ec9e232ef39c138a29c3ba1cef0284a236bbeabab/receipt.json",
+        "receiptSha256": "49f75366bdc3be572eceb951bcb0846053f6950e9c31dbc65546f653c7bd712a",
+        "probes": [
+          {
+            "component": "CoaxShroud",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          },
+          {
+            "component": "GunBarrel",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          },
+          {
+            "component": "Mantlet",
+            "selection": true,
+            "hidden": true,
+            "hideRender": true
+          }
+        ]
+      },
+      "export": {
+        "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/review-glb-diagnostics/review-glb-subject-axes-v2/f5c33651589fda4af9f4e0b7aeac9cd9f3e5e469bccfffe3ec0f84ff7a33a086/receipt.json",
+        "receiptSha256": "5cd1dbd72c88c5b5394f947a527827ace529660c334801aa9a58705cf96299f2",
+        "glbPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/review-glb-diagnostics/review-glb-subject-axes-v2/f5c33651589fda4af9f4e0b7aeac9cd9f3e5e469bccfffe3ec0f84ff7a33a086/review.glb",
+        "glbSha256": "5254521f10bb9900fd2b91d62f691aa11965427869f3c3eea5edaee8dfa66b97",
+        "meshCount": 269
+      },
+      "bundle": {
+        "manifestPath": "/Users/georgele/FormSeed3D/.formseed3d/staging/516253b9-959b-4f14-b6d5-fea22dd7cc09/main/formseed3d-asset.json"
+      },
+      "humanApproval": "absent",
+      "visualRecommendation": "independent-retain-recommendation; formalstructuredassessment ownedbyroot",
+      "scopeClarification": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/final-scope-clarification.json"
+    }
+  },
+  "scope": "Coax exterior and source-reconciledposition; static source only. No approval, promotion,integration ormotionqualification.",
+  "attemptLedger": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/attempt-ledger.md",
+  "scopeClarification": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/final-scope-clarification.json",
+  "independentReviewReceipt": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/abrams-coax-20261029/independent-review-receipt.json"
+}

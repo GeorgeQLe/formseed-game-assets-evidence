@@ -1,0 +1,71 @@
+{
+  "id": "abrams-coax-position-plan-20261029-v2",
+  "supersedes": {
+    "path": "component-plan.json",
+    "sha256": "d613a3d22a9c70a2830ea5d5bb47e54a285d2d7095afb142cc4514e9844247d2",
+    "fields": [
+      "component.axisYZ",
+      "component.mantletFaceAtAxisX",
+      "component.exposedLength",
+      "component.buriedLength"
+    ],
+    "reason": "Actual-model independentreview found major verticalplacement mismatch; inheritedpositioncannotwaivecoreformobjection."
+  },
+  "candidate": "desert2ee3ab25 r1 retained as no-go intermediate; all4originalsourcefallbacks preserved",
+  "classification": "autonomous-correction",
+  "attemptId": "CX-2",
+  "autonomousCharge": 1,
+  "priorChargesRetained": true,
+  "sourceLandmarks": {
+    "manualFront": {
+      "path": "research/art-direction/daisenjutsu/2026-09-13/73-easting-m1a1-exterior-dimensions-motion-v2/images/crop-19.png",
+      "coaxCenterPx": [
+        403,
+        161
+      ],
+      "gunRootCenterPx": [
+        453,
+        174
+      ],
+      "rootRadiusPx": 25,
+      "verticalSeparationRootRadii": 0.52,
+      "lateralSeparationRootRadii": 2,
+      "limitations": "Small raster approximate landmarks, notengineeringmeasurements; sourcefrontside registrationdiscrepancyretained."
+    },
+    "photo": "Correctly normalized Houghton shieldcrop shows muzzle aboutonehalf rootcollarradius above rootcollarcentre. Compare rootcollaraxis, notclosermuzzlebore, andkeep perspectiveuncertainty. Thiscorroboratesdrawingverticalrelation; earlierreview0\u2013.3estimatewasunnecessarilylow."
+  },
+  "target": {
+    "component": "CoaxShroud",
+    "axisYZ": [
+      -0.245,
+      1.905
+    ],
+    "priorAxisYZ": [
+      -0.2,
+      2.035
+    ],
+    "translationYZ": [
+      -0.045,
+      -0.13
+    ],
+    "gunAxisZ": 1.83,
+    "mainRootRadius": 0.145,
+    "verticalOffsetRootRadii": 0.5172413793103449,
+    "lateralOffsetRootRadii": 1.6896551724137931,
+    "endpointsX": [
+      -2.3,
+      -1.43
+    ],
+    "bodyDiameter": 0.064,
+    "rimDiameter": 0.072,
+    "rimLength": 0.04,
+    "recessDepth": 0.035,
+    "tabCount": 5,
+    "mantletFaceAtAxisX": -1.9840816326530613,
+    "exposedLength": 0.5540816326530613,
+    "minimumLateralEdgeMargin": 0.019,
+    "nominalMainRootSurfaceClearance": 0.07522255950637913
+  },
+  "preservation": "OnlyCoaxShroud coordinateschange; all268others includingforwardMantlet byteexact. Shape/endpoints/parent/materials retained. No new motion or functionalinternals.",
+  "reviewRequired": "Actualcloseups+1000/256/128fulltankandOpusmustreassessheightrelation;no scoretransfer."
+}

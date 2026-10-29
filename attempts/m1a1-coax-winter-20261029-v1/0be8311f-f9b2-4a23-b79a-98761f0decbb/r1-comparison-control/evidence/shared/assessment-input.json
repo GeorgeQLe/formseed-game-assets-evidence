@@ -1,0 +1,68 @@
+{
+  "assessedAt": "2026-10-29T15:05:41.341Z",
+  "scores": {
+    "desert": {
+      "identity-recognition": 3,
+      "proportion-mass": 3,
+      "silhouette": 3,
+      "form-hierarchy": 3,
+      "mechanical-coherence": 3,
+      "surface-material": 3,
+      "viewpoint-robustness": 3,
+      "production-integrity": 3
+    },
+    "green": {
+      "identity-recognition": 3,
+      "proportion-mass": 3,
+      "silhouette": 3,
+      "form-hierarchy": 3,
+      "mechanical-coherence": 3,
+      "surface-material": 3,
+      "viewpoint-robustness": 3,
+      "production-integrity": 3
+    },
+    "winter": {
+      "identity-recognition": 3,
+      "proportion-mass": 3,
+      "silhouette": 3,
+      "form-hierarchy": 3,
+      "mechanical-coherence": 3,
+      "surface-material": 3,
+      "viewpoint-robustness": 3,
+      "production-integrity": 3
+    },
+    "nato": {
+      "identity-recognition": 3,
+      "proportion-mass": 3,
+      "silhouette": 3,
+      "form-hierarchy": 3,
+      "mechanical-coherence": 3,
+      "surface-material": 3,
+      "viewpoint-robustness": 3,
+      "production-integrity": 3
+    }
+  },
+  "scoreSource": "opus-final-four-finish-review.json",
+  "formAudits": {
+    "desert": "desert-r2-preservation-form-audit.json",
+    "green": "green-r1-preservation-form-audit.json",
+    "winter": "winter-r1-preservation-form-audit.json",
+    "nato": "nato-r1-preservation-form-audit.json"
+  },
+  "observations": {
+    "identity-recognition": "The six named orientations at native1000px and native256px retain M1A1 recognition through the 120mm-style main gun, wedge turret/bustle, seven-wheel skirted stance and cupola arrangement without a CITV. The coax is now beside the main collar rather than high in the shield corner; its recess/rim/tab cues show in source closeups.",
+    "proportion-mass": "The 64mm body,72mm short rim and35mm recessed mouth are modest source-informed visual constructions relative to the main collar. AxisY−.245/Z1.905 follows corroborated front drawing/photo landmarks within the retained narrower shield. Exposed length≈554mm remains uncalibrated; no source here establishes a contradictory exact length.",
+    "silhouette": "Only CoaxShroud changed. All268 other meshes including the forward-sloped mantlet are exact. The tube no longer stands as a separate raised rod above the main-gun root in profile; its rim terminates the smaller secondary silhouette. All whole-tank views remain complete and unclipped.",
+    "form-hierarchy": "The coax remains secondary to the main gun and shield. The short rim, shallow recess and five simplified inward tabs fit nearby detail density without an invented exposed receiver. At256/128px the coax merges naturally into mantlet detail; source-level detail is judged in labeled closeups.",
+    "mechanical-coherence": "Coax axis is parallel to the retained main gun, enters the shield cleanly and has approximately75mm radial clearance from the main root. Lowering/outboard correction closes the independent height objection. Mesh has476triangles, no degenerate triangles, and2incident geometric edges; finite rays establish a35mm centre recess. Static hierarchy/attachment evidence does not qualify real articulation or animation.",
+    "surface-material": "Existing material tables, all268 unaffected meshes and all five NATO packed images are exact. A steel exterior and existing dark shader on the recessed back convey an open muzzle; unpainted port tone is a stylistic adaptation. Reusing the shared rubber-named shader adds CoaxShroud to its user list, so future shared recoloring is coupled. This is disclosed, not a new physical rubber claim. Winter lower-plate tint remains lighting.",
+    "viewpoint-robustness": "All four exact exports repeat identically in eight views at native1000/256/128px. Each assessment explicitly includes the six configured orientations at both1000px and256px. Source/model closeups show the rim/recess, lower mount and clean entry; NATO has the lowest rim/background contrast but remains readable in the final independent review.",
+    "production-integrity": "All four exact sources have16passing dimension criteria including269visible meshes, current deterministic backend renders/validation, native unique ownership/selection/hide restoration, verified eight-file bundles and distinct review/bundle exports reconciled by geometry/normals/UVs/materials/images. Root independently verifies268unchanged meshes, parent matrices, four-finish world geometry and192native view PNGs. Budgets and attempt history are preserved. No human approval, promotion or runtime/motion qualification is transferred."
+  },
+  "coreObjections": {
+    "identity-recognition": "Coax position differs from a photographic radius estimate and could read as a generic pipe; reconcile actual drawing and shield-relative photo placement.",
+    "silhouette": "The tube could merge with the main-barrel top line or retain the raised-rod defect in physical side views.",
+    "mechanical-coherence": "Uncalibrated exposed tube length might be inaccurate; check whether sources actually contradict it and inspect attachment/clearance without overstating mechanical certification.",
+    "production-integrity": "Shared recess shader couples future material changes; differing bundle/review hashes, UVs, global material-user lists and inherited brief wording could conceal a regression."
+  }
+}
