@@ -1,0 +1,789 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "assetId": "m1a1-gun-base-nato-20261029-v2",
+    "revisionId": "main-r0",
+    "revision": 0
+  },
+  "evidenceSet": {
+    "revision": 0,
+    "checkpointSha256": "8e082b09a37adb9f9b6b730645164f1f9c7819da8e58341a407aa7152c95dac8",
+    "renderSetSha256": "fb5a5bcc5c5ea989cf57b33575c2dfd1c6667693df345750b830b9674857e8d7",
+    "requiredViews": [
+      {
+        "viewId": "front-three-quarter",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "9f3934a271fd6932525552dec767a7dc8869585f3b88f22efc32c7588a71bbdc"
+      },
+      {
+        "viewId": "rear-three-quarter",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "669b7458aaf7a126531e7291ff96da0eea0afa46f95880eac1ae7c7189ebc5e9"
+      },
+      {
+        "viewId": "front",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "b0a65797eccd9254cbe4bede2965a660df376f0a334fb50d77eab655abc88978"
+      },
+      {
+        "viewId": "left",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "0e25d34569edfd50d86049c1450111d3f3dd3fe150491753209d38bb50dbc73d"
+      },
+      {
+        "viewId": "right",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "a33df1fe9d5053d2016fe062674e1787cefdc619d8b34af1fd2a8e89ae435c96"
+      },
+      {
+        "viewId": "top",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "65d0341955ab74d7efcf70b017f37be7baf3fd0dd86547c5461a2cc8c8645331"
+      }
+    ],
+    "validation": {
+      "reportId": "6282fafb-1ffb-49c4-9410-70c9a9df342c",
+      "revision": 0,
+      "checkpointSha256": "8e082b09a37adb9f9b6b730645164f1f9c7819da8e58341a407aa7152c95dac8",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "assessedBy": "Codex /root",
+  "assessedAt": "2026-10-29T05:56:38.150Z",
+  "assessmentId": "m1a1-gun-base-nato-20261029-v2-r0",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "9f3934a271fd6932525552dec767a7dc8869585f3b88f22efc32c7588a71bbdc",
+          "observation": "Current native1000/256/128px exact-GLB views retain M1A1 wedge turret, long sleeved gun, seven-wheel stance, skirted hull, open bustle and unequal roof weapons. No CITV/TUSK or exact historical unit claim."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "669b7458aaf7a126531e7291ff96da0eea0afa46f95880eac1ae7c7189ebc5e9",
+          "observation": "Current native1000/256/128px exact-GLB views retain M1A1 wedge turret, long sleeved gun, seven-wheel stance, skirted hull, open bustle and unequal roof weapons. No CITV/TUSK or exact historical unit claim."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "b0a65797eccd9254cbe4bede2965a660df376f0a334fb50d77eab655abc88978",
+          "observation": "Current native1000/256/128px exact-GLB views retain M1A1 wedge turret, long sleeved gun, seven-wheel stance, skirted hull, open bustle and unequal roof weapons. No CITV/TUSK or exact historical unit claim."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "0e25d34569edfd50d86049c1450111d3f3dd3fe150491753209d38bb50dbc73d",
+          "observation": "Current native1000/256/128px exact-GLB views retain M1A1 wedge turret, long sleeved gun, seven-wheel stance, skirted hull, open bustle and unequal roof weapons. No CITV/TUSK or exact historical unit claim."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "a33df1fe9d5053d2016fe062674e1787cefdc619d8b34af1fd2a8e89ae435c96",
+          "observation": "Current native1000/256/128px exact-GLB views retain M1A1 wedge turret, long sleeved gun, seven-wheel stance, skirted hull, open bustle and unequal roof weapons. No CITV/TUSK or exact historical unit claim."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "65d0341955ab74d7efcf70b017f37be7baf3fd0dd86547c5461a2cc8c8645331",
+          "observation": "Current native1000/256/128px exact-GLB views retain M1A1 wedge turret, long sleeved gun, seven-wheel stance, skirted hull, open bustle and unequal roof weapons. No CITV/TUSK or exact historical unit claim."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/isolation-summary.json",
+          "evidenceSha256": "b30b79aeb72fccbb322b568b7bb4af89a7f293ffb569d4f20d30a4949da3adc7",
+          "observation": "Current native ownership/selection/hide evidence, with actual controlled replacement preservation."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+          "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+          "observation": "Independent eight-category3/4 recommendation and adversarial core challenges for these exact four sources."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-winter-lighting-closure.json",
+          "evidenceSha256": "ded614779c61cd0909144dd621990301c70061070d210d78c2e56c812e05db95",
+          "observation": "Independent correction of the winter lower-plate lighting interpretation, no paint mutation or human confirmation required."
+        }
+      ],
+      "recognition": {
+        "thumbnailPixels": 256,
+        "nearestNeighbors": [
+          "M1 with105mm gun",
+          "M1A2 withCITV",
+          "Leopard2"
+        ],
+        "distinguishers": [
+          "120mm-style barrel and bore evacuator rather than105mm external profile",
+          "M1A1 cupola arrangement without M1A2 CITV",
+          "Abrams wedge/bustle massing and skirted seven-wheel stance; roof weapons are simplified"
+        ]
+      }
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "9f3934a271fd6932525552dec767a7dc8869585f3b88f22efc32c7588a71bbdc",
+          "observation": "All four exports share269 meshes/37776 triangles and world geometry/parents at1micrometer. Global hull/track/gun proportions are retained; source-led roof-height raked shield replaces the projecting box.15mm roof clearance and diagonal interpretation are explicit construction choices."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "669b7458aaf7a126531e7291ff96da0eea0afa46f95880eac1ae7c7189ebc5e9",
+          "observation": "All four exports share269 meshes/37776 triangles and world geometry/parents at1micrometer. Global hull/track/gun proportions are retained; source-led roof-height raked shield replaces the projecting box.15mm roof clearance and diagonal interpretation are explicit construction choices."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "b0a65797eccd9254cbe4bede2965a660df376f0a334fb50d77eab655abc88978",
+          "observation": "All four exports share269 meshes/37776 triangles and world geometry/parents at1micrometer. Global hull/track/gun proportions are retained; source-led roof-height raked shield replaces the projecting box.15mm roof clearance and diagonal interpretation are explicit construction choices."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "0e25d34569edfd50d86049c1450111d3f3dd3fe150491753209d38bb50dbc73d",
+          "observation": "All four exports share269 meshes/37776 triangles and world geometry/parents at1micrometer. Global hull/track/gun proportions are retained; source-led roof-height raked shield replaces the projecting box.15mm roof clearance and diagonal interpretation are explicit construction choices."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "a33df1fe9d5053d2016fe062674e1787cefdc619d8b34af1fd2a8e89ae435c96",
+          "observation": "All four exports share269 meshes/37776 triangles and world geometry/parents at1micrometer. Global hull/track/gun proportions are retained; source-led roof-height raked shield replaces the projecting box.15mm roof clearance and diagonal interpretation are explicit construction choices."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "65d0341955ab74d7efcf70b017f37be7baf3fd0dd86547c5461a2cc8c8645331",
+          "observation": "All four exports share269 meshes/37776 triangles and world geometry/parents at1micrometer. Global hull/track/gun proportions are retained; source-led roof-height raked shield replaces the projecting box.15mm roof clearance and diagonal interpretation are explicit construction choices."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/isolation-summary.json",
+          "evidenceSha256": "b30b79aeb72fccbb322b568b7bb4af89a7f293ffb569d4f20d30a4949da3adc7",
+          "observation": "Current native ownership/selection/hide evidence, with actual controlled replacement preservation."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+          "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+          "observation": "Independent eight-category3/4 recommendation and adversarial core challenges for these exact four sources."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-winter-lighting-closure.json",
+          "evidenceSha256": "ded614779c61cd0909144dd621990301c70061070d210d78c2e56c812e05db95",
+          "observation": "Independent correction of the winter lower-plate lighting interpretation, no paint mutation or human confirmation required."
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "9f3934a271fd6932525552dec767a7dc8869585f3b88f22efc32c7588a71bbdc",
+          "observation": "Six complete current views remain unclipped, with the central gun base below the roof. Cheek occlusion matches the source; closeups/sections independently establish the down-forward rake. Native128px views test actual distance recognition, not downscaled large views."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "669b7458aaf7a126531e7291ff96da0eea0afa46f95880eac1ae7c7189ebc5e9",
+          "observation": "Six complete current views remain unclipped, with the central gun base below the roof. Cheek occlusion matches the source; closeups/sections independently establish the down-forward rake. Native128px views test actual distance recognition, not downscaled large views."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "b0a65797eccd9254cbe4bede2965a660df376f0a334fb50d77eab655abc88978",
+          "observation": "Six complete current views remain unclipped, with the central gun base below the roof. Cheek occlusion matches the source; closeups/sections independently establish the down-forward rake. Native128px views test actual distance recognition, not downscaled large views."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "0e25d34569edfd50d86049c1450111d3f3dd3fe150491753209d38bb50dbc73d",
+          "observation": "Six complete current views remain unclipped, with the central gun base below the roof. Cheek occlusion matches the source; closeups/sections independently establish the down-forward rake. Native128px views test actual distance recognition, not downscaled large views."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "a33df1fe9d5053d2016fe062674e1787cefdc619d8b34af1fd2a8e89ae435c96",
+          "observation": "Six complete current views remain unclipped, with the central gun base below the roof. Cheek occlusion matches the source; closeups/sections independently establish the down-forward rake. Native128px views test actual distance recognition, not downscaled large views."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "65d0341955ab74d7efcf70b017f37be7baf3fd0dd86547c5461a2cc8c8645331",
+          "observation": "Six complete current views remain unclipped, with the central gun base below the roof. Cheek occlusion matches the source; closeups/sections independently establish the down-forward rake. Native128px views test actual distance recognition, not downscaled large views."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/isolation-summary.json",
+          "evidenceSha256": "b30b79aeb72fccbb322b568b7bb4af89a7f293ffb569d4f20d30a4949da3adc7",
+          "observation": "Current native ownership/selection/hide evidence, with actual controlled replacement preservation."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+          "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+          "observation": "Independent eight-category3/4 recommendation and adversarial core challenges for these exact four sources."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-winter-lighting-closure.json",
+          "evidenceSha256": "ded614779c61cd0909144dd621990301c70061070d210d78c2e56c812e05db95",
+          "observation": "Independent correction of the winter lower-plate lighting interpretation, no paint mutation or human confirmation required."
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "9f3934a271fd6932525552dec767a7dc8869585f3b88f22efc32c7588a71bbdc",
+          "observation": "Armor masses, roof/deck/hatch value roles and restrained edge accents remain deliberate. NATO pale outlines and restrained green separation are nonblocking style advisories; user specifically requested distance-readable highlights."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "669b7458aaf7a126531e7291ff96da0eea0afa46f95880eac1ae7c7189ebc5e9",
+          "observation": "Armor masses, roof/deck/hatch value roles and restrained edge accents remain deliberate. NATO pale outlines and restrained green separation are nonblocking style advisories; user specifically requested distance-readable highlights."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "b0a65797eccd9254cbe4bede2965a660df376f0a334fb50d77eab655abc88978",
+          "observation": "Armor masses, roof/deck/hatch value roles and restrained edge accents remain deliberate. NATO pale outlines and restrained green separation are nonblocking style advisories; user specifically requested distance-readable highlights."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "0e25d34569edfd50d86049c1450111d3f3dd3fe150491753209d38bb50dbc73d",
+          "observation": "Armor masses, roof/deck/hatch value roles and restrained edge accents remain deliberate. NATO pale outlines and restrained green separation are nonblocking style advisories; user specifically requested distance-readable highlights."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "a33df1fe9d5053d2016fe062674e1787cefdc619d8b34af1fd2a8e89ae435c96",
+          "observation": "Armor masses, roof/deck/hatch value roles and restrained edge accents remain deliberate. NATO pale outlines and restrained green separation are nonblocking style advisories; user specifically requested distance-readable highlights."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "65d0341955ab74d7efcf70b017f37be7baf3fd0dd86547c5461a2cc8c8645331",
+          "observation": "Armor masses, roof/deck/hatch value roles and restrained edge accents remain deliberate. NATO pale outlines and restrained green separation are nonblocking style advisories; user specifically requested distance-readable highlights."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/isolation-summary.json",
+          "evidenceSha256": "b30b79aeb72fccbb322b568b7bb4af89a7f293ffb569d4f20d30a4949da3adc7",
+          "observation": "Current native ownership/selection/hide evidence, with actual controlled replacement preservation."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+          "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+          "observation": "Independent eight-category3/4 recommendation and adversarial core challenges for these exact four sources."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-winter-lighting-closure.json",
+          "evidenceSha256": "ded614779c61cd0909144dd621990301c70061070d210d78c2e56c812e05db95",
+          "observation": "Independent correction of the winter lower-plate lighting interpretation, no paint mutation or human confirmation required."
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "9f3934a271fd6932525552dec767a7dc8869585f3b88f22efc32c7588a71bbdc",
+          "observation": "Current cheek repair eliminates seven inherited strict self-crossings;1581 tested junction first hits now face the camera. Closed winding/axis checks and96 coarse pose/recoil pairs support the local static interface, with finite limits. Actual typed replacements preserve other components. Nominal M2 support is the declared accepted visual compromise; no animation qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "669b7458aaf7a126531e7291ff96da0eea0afa46f95880eac1ae7c7189ebc5e9",
+          "observation": "Current cheek repair eliminates seven inherited strict self-crossings;1581 tested junction first hits now face the camera. Closed winding/axis checks and96 coarse pose/recoil pairs support the local static interface, with finite limits. Actual typed replacements preserve other components. Nominal M2 support is the declared accepted visual compromise; no animation qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "b0a65797eccd9254cbe4bede2965a660df376f0a334fb50d77eab655abc88978",
+          "observation": "Current cheek repair eliminates seven inherited strict self-crossings;1581 tested junction first hits now face the camera. Closed winding/axis checks and96 coarse pose/recoil pairs support the local static interface, with finite limits. Actual typed replacements preserve other components. Nominal M2 support is the declared accepted visual compromise; no animation qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "0e25d34569edfd50d86049c1450111d3f3dd3fe150491753209d38bb50dbc73d",
+          "observation": "Current cheek repair eliminates seven inherited strict self-crossings;1581 tested junction first hits now face the camera. Closed winding/axis checks and96 coarse pose/recoil pairs support the local static interface, with finite limits. Actual typed replacements preserve other components. Nominal M2 support is the declared accepted visual compromise; no animation qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "a33df1fe9d5053d2016fe062674e1787cefdc619d8b34af1fd2a8e89ae435c96",
+          "observation": "Current cheek repair eliminates seven inherited strict self-crossings;1581 tested junction first hits now face the camera. Closed winding/axis checks and96 coarse pose/recoil pairs support the local static interface, with finite limits. Actual typed replacements preserve other components. Nominal M2 support is the declared accepted visual compromise; no animation qualification."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "65d0341955ab74d7efcf70b017f37be7baf3fd0dd86547c5461a2cc8c8645331",
+          "observation": "Current cheek repair eliminates seven inherited strict self-crossings;1581 tested junction first hits now face the camera. Closed winding/axis checks and96 coarse pose/recoil pairs support the local static interface, with finite limits. Actual typed replacements preserve other components. Nominal M2 support is the declared accepted visual compromise; no animation qualification."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/isolation-summary.json",
+          "evidenceSha256": "b30b79aeb72fccbb322b568b7bb4af89a7f293ffb569d4f20d30a4949da3adc7",
+          "observation": "Current native ownership/selection/hide evidence, with actual controlled replacement preservation."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+          "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+          "observation": "Independent eight-category3/4 recommendation and adversarial core challenges for these exact four sources."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-winter-lighting-closure.json",
+          "evidenceSha256": "ded614779c61cd0909144dd621990301c70061070d210d78c2e56c812e05db95",
+          "observation": "Independent correction of the winter lower-plate lighting interpretation, no paint mutation or human confirmation required."
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "9f3934a271fd6932525552dec767a7dc8869585f3b88f22efc32c7588a71bbdc",
+          "observation": "Exact exported material/image audit verifies actual bindings. NATO retains5 embedded images and UVs on rebuilt surfaces; closeup mask stair-steps and pale accents are advisories. Winter is clean off-white field-style adaptation: same-GLB neutral-light control disproves a separately green lower plate. Other finishes retain their approved-style material roles without new historical exactness claims."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "669b7458aaf7a126531e7291ff96da0eea0afa46f95880eac1ae7c7189ebc5e9",
+          "observation": "Exact exported material/image audit verifies actual bindings. NATO retains5 embedded images and UVs on rebuilt surfaces; closeup mask stair-steps and pale accents are advisories. Winter is clean off-white field-style adaptation: same-GLB neutral-light control disproves a separately green lower plate. Other finishes retain their approved-style material roles without new historical exactness claims."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "b0a65797eccd9254cbe4bede2965a660df376f0a334fb50d77eab655abc88978",
+          "observation": "Exact exported material/image audit verifies actual bindings. NATO retains5 embedded images and UVs on rebuilt surfaces; closeup mask stair-steps and pale accents are advisories. Winter is clean off-white field-style adaptation: same-GLB neutral-light control disproves a separately green lower plate. Other finishes retain their approved-style material roles without new historical exactness claims."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "0e25d34569edfd50d86049c1450111d3f3dd3fe150491753209d38bb50dbc73d",
+          "observation": "Exact exported material/image audit verifies actual bindings. NATO retains5 embedded images and UVs on rebuilt surfaces; closeup mask stair-steps and pale accents are advisories. Winter is clean off-white field-style adaptation: same-GLB neutral-light control disproves a separately green lower plate. Other finishes retain their approved-style material roles without new historical exactness claims."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "a33df1fe9d5053d2016fe062674e1787cefdc619d8b34af1fd2a8e89ae435c96",
+          "observation": "Exact exported material/image audit verifies actual bindings. NATO retains5 embedded images and UVs on rebuilt surfaces; closeup mask stair-steps and pale accents are advisories. Winter is clean off-white field-style adaptation: same-GLB neutral-light control disproves a separately green lower plate. Other finishes retain their approved-style material roles without new historical exactness claims."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "65d0341955ab74d7efcf70b017f37be7baf3fd0dd86547c5461a2cc8c8645331",
+          "observation": "Exact exported material/image audit verifies actual bindings. NATO retains5 embedded images and UVs on rebuilt surfaces; closeup mask stair-steps and pale accents are advisories. Winter is clean off-white field-style adaptation: same-GLB neutral-light control disproves a separately green lower plate. Other finishes retain their approved-style material roles without new historical exactness claims."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/isolation-summary.json",
+          "evidenceSha256": "b30b79aeb72fccbb322b568b7bb4af89a7f293ffb569d4f20d30a4949da3adc7",
+          "observation": "Current native ownership/selection/hide evidence, with actual controlled replacement preservation."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+          "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+          "observation": "Independent eight-category3/4 recommendation and adversarial core challenges for these exact four sources."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-winter-lighting-closure.json",
+          "evidenceSha256": "ded614779c61cd0909144dd621990301c70061070d210d78c2e56c812e05db95",
+          "observation": "Independent correction of the winter lower-plate lighting interpretation, no paint mutation or human confirmation required."
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "9f3934a271fd6932525552dec767a7dc8869585f3b88f22efc32c7588a71bbdc",
+          "observation": "All six PBR views at1000/256/128px repeat byte-identically with fixed semantic draw order. Current closeups and approved-source comparison supplement these complete views; darkest NATO and pale winter retain recognition at native distance resolution."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "669b7458aaf7a126531e7291ff96da0eea0afa46f95880eac1ae7c7189ebc5e9",
+          "observation": "All six PBR views at1000/256/128px repeat byte-identically with fixed semantic draw order. Current closeups and approved-source comparison supplement these complete views; darkest NATO and pale winter retain recognition at native distance resolution."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "b0a65797eccd9254cbe4bede2965a660df376f0a334fb50d77eab655abc88978",
+          "observation": "All six PBR views at1000/256/128px repeat byte-identically with fixed semantic draw order. Current closeups and approved-source comparison supplement these complete views; darkest NATO and pale winter retain recognition at native distance resolution."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "0e25d34569edfd50d86049c1450111d3f3dd3fe150491753209d38bb50dbc73d",
+          "observation": "All six PBR views at1000/256/128px repeat byte-identically with fixed semantic draw order. Current closeups and approved-source comparison supplement these complete views; darkest NATO and pale winter retain recognition at native distance resolution."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "a33df1fe9d5053d2016fe062674e1787cefdc619d8b34af1fd2a8e89ae435c96",
+          "observation": "All six PBR views at1000/256/128px repeat byte-identically with fixed semantic draw order. Current closeups and approved-source comparison supplement these complete views; darkest NATO and pale winter retain recognition at native distance resolution."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "65d0341955ab74d7efcf70b017f37be7baf3fd0dd86547c5461a2cc8c8645331",
+          "observation": "All six PBR views at1000/256/128px repeat byte-identically with fixed semantic draw order. Current closeups and approved-source comparison supplement these complete views; darkest NATO and pale winter retain recognition at native distance resolution."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/isolation-summary.json",
+          "evidenceSha256": "b30b79aeb72fccbb322b568b7bb4af89a7f293ffb569d4f20d30a4949da3adc7",
+          "observation": "Current native ownership/selection/hide evidence, with actual controlled replacement preservation."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+          "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+          "observation": "Independent eight-category3/4 recommendation and adversarial core challenges for these exact four sources."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-winter-lighting-closure.json",
+          "evidenceSha256": "ded614779c61cd0909144dd621990301c70061070d210d78c2e56c812e05db95",
+          "observation": "Independent correction of the winter lower-plate lighting interpretation, no paint mutation or human confirmation required."
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-three-quarter",
+          "evidenceSha256": "9f3934a271fd6932525552dec767a7dc8869585f3b88f22efc32c7588a71bbdc",
+          "observation": "Current hash-bound dimensions, backend baseline, validation, unique native mesh ownership, selection/hide probes, actual replacement preservation and verified production bundle support the static source. NATO current exact-copy successor is independently checked; its parent indeterminate journal remains unresolved and disclosed, without approval or retry-budget transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-three-quarter",
+          "evidenceSha256": "669b7458aaf7a126531e7291ff96da0eea0afa46f95880eac1ae7c7189ebc5e9",
+          "observation": "Current hash-bound dimensions, backend baseline, validation, unique native mesh ownership, selection/hide probes, actual replacement preservation and verified production bundle support the static source. NATO current exact-copy successor is independently checked; its parent indeterminate journal remains unresolved and disclosed, without approval or retry-budget transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "evidenceSha256": "b0a65797eccd9254cbe4bede2965a660df376f0a334fb50d77eab655abc88978",
+          "observation": "Current hash-bound dimensions, backend baseline, validation, unique native mesh ownership, selection/hide probes, actual replacement preservation and verified production bundle support the static source. NATO current exact-copy successor is independently checked; its parent indeterminate journal remains unresolved and disclosed, without approval or retry-budget transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "left",
+          "evidenceSha256": "0e25d34569edfd50d86049c1450111d3f3dd3fe150491753209d38bb50dbc73d",
+          "observation": "Current hash-bound dimensions, backend baseline, validation, unique native mesh ownership, selection/hide probes, actual replacement preservation and verified production bundle support the static source. NATO current exact-copy successor is independently checked; its parent indeterminate journal remains unresolved and disclosed, without approval or retry-budget transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "right",
+          "evidenceSha256": "a33df1fe9d5053d2016fe062674e1787cefdc619d8b34af1fd2a8e89ae435c96",
+          "observation": "Current hash-bound dimensions, backend baseline, validation, unique native mesh ownership, selection/hide probes, actual replacement preservation and verified production bundle support the static source. NATO current exact-copy successor is independently checked; its parent indeterminate journal remains unresolved and disclosed, without approval or retry-budget transfer."
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "evidenceSha256": "65d0341955ab74d7efcf70b017f37be7baf3fd0dd86547c5461a2cc8c8645331",
+          "observation": "Current hash-bound dimensions, backend baseline, validation, unique native mesh ownership, selection/hide probes, actual replacement preservation and verified production bundle support the static source. NATO current exact-copy successor is independently checked; its parent indeterminate journal remains unresolved and disclosed, without approval or retry-budget transfer."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/isolation-summary.json",
+          "evidenceSha256": "b30b79aeb72fccbb322b568b7bb4af89a7f293ffb569d4f20d30a4949da3adc7",
+          "observation": "Current native ownership/selection/hide evidence, with actual controlled replacement preservation."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+          "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+          "observation": "Independent eight-category3/4 recommendation and adversarial core challenges for these exact four sources."
+        },
+        {
+          "kind": "technical-record",
+          "recordId": "../reviews/opus-abrams-winter-lighting-closure.json",
+          "evidenceSha256": "ded614779c61cd0909144dd621990301c70061070d210d78c2e56c812e05db95",
+          "observation": "Independent correction of the winter lower-plate lighting interpretation, no paint mutation or human confirmation required."
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/brief.json",
+          "evidenceSha256": "d1c43811e082f7fe6fa1585f0ab7adf653c204cc85dd7b2d4daa1c36eddd8a5e",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/render-evidence.json",
+          "evidenceSha256": "c5375fe17bdb50d9ee577fa58afc7770aed20b5ff0ffe4583d824269191da7ea",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "desert-r11-cheek-self-intersections.json",
+          "evidenceSha256": "d4cfd7f0991a8ae362d5835299ee01a41fbeff196fbdf51986f15ffae5f8fe6c",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/dimension.json",
+          "evidenceSha256": "9a1e74aaa1eaafee64ede11b525a717c4d3c12d41bc2691ced7177d38ac2c7ef",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/render-evidence.json",
+          "evidenceSha256": "c5375fe17bdb50d9ee577fa58afc7770aed20b5ff0ffe4583d824269191da7ea",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/validation.json",
+          "evidenceSha256": "bd7d31d7b991bc8172c22c9b59149c3a244e9581d35724b87817d3c79ee87479",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/validation.json",
+          "evidenceSha256": "bd7d31d7b991bc8172c22c9b59149c3a244e9581d35724b87817d3c79ee87479",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "consolidated-current-evidence.json",
+          "evidenceSha256": "b4b5d3856df05094f4404394df714417dba5b769666d3864d25206b163bc9d6c",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "current-evidence/nato/bundle-verification.json",
+          "evidenceSha256": "cbc76c5e69de47f4a676d5ca0a2757a8af6a38b48aa1f89989a6b0807bad345a",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "attempt-ledger.md",
+          "evidenceSha256": "8eb376fa086d1bf2ef71e053c7b2ce3bab87ab4b4307890e8fdd4d6b1773db3b",
+          "observation": "Current static source and authorized original artwork; external reference pixels excluded. No human, animation, runtime or integration approval granted."
+        }
+      ]
+    }
+  ],
+  "adversarialReview": {
+    "reviewedBy": "Claude Code claude-opus-5-5 and Codex /root",
+    "reviewedAt": "2026-10-29T05:56:38.150Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "Green/winter low internal contrast may merge at128px.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+            "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+            "observation": "Independent current artifact/core-category closure; source-journal event remains disclosed, not resolved."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "current-evidence/nato/bundle-verification.json",
+            "evidenceSha256": "cbc76c5e69de47f4a676d5ca0a2757a8af6a38b48aa1f89989a6b0807bad345a",
+            "observation": "Every current production bundle file hash checked."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "desert-r11-topology-axis.json",
+            "evidenceSha256": "9352eaef611d4dcae70d899637f70534c44501e2149861d655b417b9ec6586c2",
+            "observation": "Exact current axis and closed consistently wound junction topology; shared geometry proof connects finishes."
+          }
+        ]
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "Cheek-hidden shield and slight roof clearance might conceal a projecting box.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+            "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+            "observation": "Independent current artifact/core-category closure; source-journal event remains disclosed, not resolved."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "current-evidence/nato/bundle-verification.json",
+            "evidenceSha256": "cbc76c5e69de47f4a676d5ca0a2757a8af6a38b48aa1f89989a6b0807bad345a",
+            "observation": "Every current production bundle file hash checked."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "desert-r11-topology-axis.json",
+            "evidenceSha256": "9352eaef611d4dcae70d899637f70534c44501e2149861d655b417b9ec6586c2",
+            "observation": "Exact current axis and closed consistently wound junction topology; shared geometry proof connects finishes."
+          }
+        ]
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "Original cheek self-crossing and raked-shield interface could remain defective.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+            "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+            "observation": "Independent current artifact/core-category closure; source-journal event remains disclosed, not resolved."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "current-evidence/nato/bundle-verification.json",
+            "evidenceSha256": "cbc76c5e69de47f4a676d5ca0a2757a8af6a38b48aa1f89989a6b0807bad345a",
+            "observation": "Every current production bundle file hash checked."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "desert-r11-topology-axis.json",
+            "evidenceSha256": "9352eaef611d4dcae70d899637f70534c44501e2149861d655b417b9ec6586c2",
+            "observation": "Exact current axis and closed consistently wound junction topology; shared geometry proof connects finishes."
+          }
+        ]
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "NATO parent indeterminate journal could undermine the current artifact.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "../reviews/opus-abrams-four-finishes-current.json",
+            "evidenceSha256": "fb929283d8bf1fa8b6afe0857270ebda459fb9f808f6de186c5d245f39199511",
+            "observation": "Independent current artifact/core-category closure; source-journal event remains disclosed, not resolved."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "current-evidence/nato/bundle-verification.json",
+            "evidenceSha256": "cbc76c5e69de47f4a676d5ca0a2757a8af6a38b48aa1f89989a6b0807bad345a",
+            "observation": "Every current production bundle file hash checked."
+          },
+          {
+            "kind": "technical-record",
+            "recordId": "desert-r11-topology-axis.json",
+            "evidenceSha256": "9352eaef611d4dcae70d899637f70534c44501e2149861d655b417b9ec6586c2",
+            "observation": "Exact current axis and closed consistently wound junction topology; shared geometry proof connects finishes."
+          }
+        ]
+      }
+    ]
+  }
+}

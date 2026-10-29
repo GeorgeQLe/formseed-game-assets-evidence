@@ -1,0 +1,565 @@
+{
+  "record": {
+    "recordType": "dimension-specification",
+    "schemaVersion": "1.0.0",
+    "specificationId": "abrams-gun-base-green-dimensions-20261029",
+    "assetId": "m1a1-gun-base-green-20261029-v1",
+    "revision": 1,
+    "bindings": {
+      "request": {
+        "requestId": "abrams-gun-base-green-request-20261029",
+        "sha256": "935be1ebd3219af60b789e542a355de5e8d3db23727a3c3a7e26804c91c8bdf8"
+      },
+      "phase2Packet": {
+        "packetId": "abrams-gun-base-green-plan-20261029",
+        "sha256": "beb669a0d989d5a002eae841df84c3b3be77c4fee95abbf91b26b0b26157a792"
+      },
+      "styleProfile": {
+        "profileId": "grounded-tactical-miniature",
+        "version": "1.0.0",
+        "sha256": "94037bbde55739b9b28871ca675de0c5f557151237053df42e39bb38342244ae"
+      }
+    },
+    "subjectSpace": {
+      "units": "meters",
+      "handedness": "right-handed",
+      "axes": {
+        "width": "Y",
+        "height": "Z",
+        "length": "X",
+        "forward": "+X",
+        "up": "+Z"
+      },
+      "canonicalPose": {
+        "poseId": "rest",
+        "statement": "Current static rest; modeled gun-base correction remains inside retained envelope; no animation range asserted.",
+        "includedGeometry": [
+          "BlowoffPanels",
+          "BlowoffPanelsEdgeHighlights",
+          "BustleArmor",
+          "CentralTurret",
+          "CentralTurretEdgeHighlights",
+          "CoaxShroud",
+          "CommanderCupola",
+          "CommanderHatchLid",
+          "CommanderHatchLidSeamAccents",
+          "CrosswindSensor",
+          "DriverHatchLid",
+          "DriverHatchLidSeamAccents",
+          "DriverHatchRim",
+          "EngineDeckGrille",
+          "GunBarrel",
+          "Hull",
+          "LeftAntenna",
+          "LeftFender",
+          "LeftFenderEdgeHighlights",
+          "LeftHeadlightGuard",
+          "LeftIdler",
+          "LeftRoadWheel1",
+          "LeftRoadWheel2",
+          "LeftRoadWheel3",
+          "LeftRoadWheel4",
+          "LeftRoadWheel5",
+          "LeftRoadWheel6",
+          "LeftRoadWheel7",
+          "LeftSkirts",
+          "LeftSkirtsEdgeHighlights",
+          "LeftSkirtsSeamAccents",
+          "LeftSmokeBank",
+          "LeftSprocket",
+          "LeftStowage",
+          "LeftTrack",
+          "LeftTrackShoe000",
+          "LeftTrackShoe001",
+          "LeftTrackShoe002",
+          "LeftTrackShoe003",
+          "LeftTrackShoe004",
+          "LeftTrackShoe005",
+          "LeftTrackShoe006",
+          "LeftTrackShoe007",
+          "LeftTrackShoe008",
+          "LeftTrackShoe009",
+          "LeftTrackShoe010",
+          "LeftTrackShoe012",
+          "LeftTrackShoe013",
+          "LeftTrackShoe014",
+          "LeftTrackShoe015",
+          "LeftTrackShoe016",
+          "LeftTrackShoe017",
+          "LeftTrackShoe018",
+          "LeftTrackShoe019",
+          "LeftTrackShoe020",
+          "LeftTrackShoe021",
+          "LeftTrackShoe022",
+          "LeftTrackShoe023",
+          "LeftTrackShoe024",
+          "LeftTrackShoe025",
+          "LeftTrackShoe026",
+          "LeftTrackShoe027",
+          "LeftTrackShoe028",
+          "LeftTrackShoe029",
+          "LeftTrackShoe030",
+          "LeftTrackShoe031",
+          "LeftTrackShoe032",
+          "LeftTrackShoe033",
+          "LeftTrackShoe034",
+          "LeftTrackShoe035",
+          "LeftTrackShoe036",
+          "LeftTrackShoe037",
+          "LeftTrackShoe038",
+          "LeftTrackShoe039",
+          "LeftTrackShoe040",
+          "LeftTrackShoe041",
+          "LeftTrackShoe042",
+          "LeftTrackShoe043",
+          "LeftTrackShoe044",
+          "LeftTrackShoe045",
+          "LeftTrackShoe046",
+          "LeftTrackShoe047",
+          "LeftTrackShoe048",
+          "LeftTrackShoe049",
+          "LeftTrackShoe050",
+          "LeftTrackShoe051",
+          "LeftTrackShoe052",
+          "LeftTrackShoe053",
+          "LeftTrackShoe054",
+          "LeftTrackShoe055",
+          "LeftTrackShoe056",
+          "LeftTrackShoe057",
+          "LeftTrackShoe058",
+          "LeftTrackShoe059",
+          "LeftTrackShoe060",
+          "LeftTrackShoe061",
+          "LeftTrackShoe062",
+          "LeftTrackShoe063",
+          "LeftTrackShoe064",
+          "LeftTrackShoe065",
+          "LeftTrackShoe066",
+          "LeftTrackShoe067",
+          "LeftTrackShoe068",
+          "LeftTrackShoe069",
+          "LeftTrackShoe070",
+          "LeftTrackShoe071",
+          "LeftTrackShoe072",
+          "LeftTrackShoe073",
+          "LeftTrackShoe074",
+          "LeftTrackShoe075",
+          "LeftTrackShoe076",
+          "LeftTrackShoe077",
+          "LeftTrackShoe078",
+          "LeftTrackShoe079",
+          "LeftTrackShoe080",
+          "LeftTrackShoe081",
+          "LeftTrackShoe082",
+          "LeftTrackShoe083",
+          "LeftTrackShoe084",
+          "LeftTrackShoe085",
+          "LeftTrackShoe086",
+          "LeftTrackShoe087",
+          "LeftTrackShoe088",
+          "LeftTrackShoe089",
+          "LeftTrackShoe090",
+          "LeftTrackShoe091",
+          "LeftTrackShoe092",
+          "LeftTrackShoe093",
+          "LeftTrackShoe094",
+          "LeftTrackShoe095",
+          "LeftTurretCheek",
+          "LeftTurretCheekEdgeHighlights",
+          "LoaderHatch",
+          "LoaderHatchLid",
+          "LoaderHatchLidSeamAccents",
+          "M240AmmoCradle",
+          "M240Barrel",
+          "M240CaseContainer",
+          "M240Cradle",
+          "M240Receiver",
+          "M240SkateSupport",
+          "M2AmmoCradle",
+          "M2Barrel",
+          "M2CWSSupport",
+          "M2Cradle",
+          "M2Receiver",
+          "Mantlet",
+          "MantletSeamAccents",
+          "MuzzleReference",
+          "RearBasket",
+          "RearExhaustGrilles",
+          "RightAntenna",
+          "RightFender",
+          "RightFenderEdgeHighlights",
+          "RightHeadlightGuard",
+          "RightIdler",
+          "RightRoadWheel1",
+          "RightRoadWheel2",
+          "RightRoadWheel3",
+          "RightRoadWheel4",
+          "RightRoadWheel5",
+          "RightRoadWheel6",
+          "RightRoadWheel7",
+          "RightSkirts",
+          "RightSkirtsEdgeHighlights",
+          "RightSkirtsSeamAccents",
+          "RightSmokeBank",
+          "RightSprocket",
+          "RightStowage",
+          "RightTrack",
+          "RightTrackShoe000",
+          "RightTrackShoe001",
+          "RightTrackShoe002",
+          "RightTrackShoe003",
+          "RightTrackShoe004",
+          "RightTrackShoe005",
+          "RightTrackShoe006",
+          "RightTrackShoe007",
+          "RightTrackShoe008",
+          "RightTrackShoe009",
+          "RightTrackShoe010",
+          "RightTrackShoe012",
+          "RightTrackShoe013",
+          "RightTrackShoe014",
+          "RightTrackShoe015",
+          "RightTrackShoe016",
+          "RightTrackShoe017",
+          "RightTrackShoe018",
+          "RightTrackShoe019",
+          "RightTrackShoe020",
+          "RightTrackShoe021",
+          "RightTrackShoe022",
+          "RightTrackShoe023",
+          "RightTrackShoe024",
+          "RightTrackShoe025",
+          "RightTrackShoe026",
+          "RightTrackShoe027",
+          "RightTrackShoe028",
+          "RightTrackShoe029",
+          "RightTrackShoe030",
+          "RightTrackShoe031",
+          "RightTrackShoe032",
+          "RightTrackShoe033",
+          "RightTrackShoe034",
+          "RightTrackShoe035",
+          "RightTrackShoe036",
+          "RightTrackShoe037",
+          "RightTrackShoe038",
+          "RightTrackShoe039",
+          "RightTrackShoe040",
+          "RightTrackShoe041",
+          "RightTrackShoe042",
+          "RightTrackShoe043",
+          "RightTrackShoe044",
+          "RightTrackShoe045",
+          "RightTrackShoe046",
+          "RightTrackShoe047",
+          "RightTrackShoe048",
+          "RightTrackShoe049",
+          "RightTrackShoe050",
+          "RightTrackShoe051",
+          "RightTrackShoe052",
+          "RightTrackShoe053",
+          "RightTrackShoe054",
+          "RightTrackShoe055",
+          "RightTrackShoe056",
+          "RightTrackShoe057",
+          "RightTrackShoe058",
+          "RightTrackShoe059",
+          "RightTrackShoe060",
+          "RightTrackShoe061",
+          "RightTrackShoe062",
+          "RightTrackShoe063",
+          "RightTrackShoe064",
+          "RightTrackShoe065",
+          "RightTrackShoe066",
+          "RightTrackShoe067",
+          "RightTrackShoe068",
+          "RightTrackShoe069",
+          "RightTrackShoe070",
+          "RightTrackShoe071",
+          "RightTrackShoe072",
+          "RightTrackShoe073",
+          "RightTrackShoe074",
+          "RightTrackShoe075",
+          "RightTrackShoe076",
+          "RightTrackShoe077",
+          "RightTrackShoe078",
+          "RightTrackShoe079",
+          "RightTrackShoe080",
+          "RightTrackShoe081",
+          "RightTrackShoe082",
+          "RightTrackShoe083",
+          "RightTrackShoe084",
+          "RightTrackShoe085",
+          "RightTrackShoe086",
+          "RightTrackShoe087",
+          "RightTrackShoe088",
+          "RightTrackShoe089",
+          "RightTrackShoe090",
+          "RightTrackShoe091",
+          "RightTrackShoe092",
+          "RightTrackShoe093",
+          "RightTrackShoe094",
+          "RightTrackShoe095",
+          "RightTurretCheek",
+          "RightTurretCheekEdgeHighlights",
+          "SightHousing",
+          "TurretBearing"
+        ],
+        "excludedGeometry": []
+      },
+      "origin": {
+        "kind": "declared-datum",
+        "datumId": "hull-source-origin",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "grounding": {
+          "status": "grounded",
+          "contactDatumIds": [
+            "track-ground"
+          ]
+        }
+      }
+    },
+    "sourceMeasurements": [],
+    "configurations": [
+      {
+        "configurationId": "rest",
+        "conditions": [
+          "Closed rest geometry and retained visual construction datums"
+        ],
+        "disposition": "proposed-production-canonical"
+      }
+    ],
+    "productionTargets": {
+      "status": "complete",
+      "canonicalConfigurationId": "rest",
+      "envelope": {
+        "length": {
+          "value": 9.828276,
+          "unit": "m",
+          "sourceMeasurementIds": []
+        },
+        "width": {
+          "value": 3.6576,
+          "unit": "m",
+          "sourceMeasurementIds": []
+        },
+        "height": {
+          "value": 4.5,
+          "unit": "m",
+          "sourceMeasurementIds": []
+        }
+      },
+      "componentRatios": [],
+      "componentDatums": [
+        {
+          "datumId": "hull-source-origin",
+          "parent": null,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "basisMeasurementIds": [],
+          "selector": {
+            "type": "object-origin",
+            "object": "Hull"
+          }
+        },
+        {
+          "datumId": "track-ground",
+          "parent": null,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "basisMeasurementIds": [],
+          "selector": {
+            "type": "object-bound",
+            "object": "LeftTrack",
+            "axis": "Z",
+            "side": "minimum"
+          },
+          "coordinateAxes": [
+            "Z"
+          ]
+        },
+        {
+          "datumId": "hull-rear",
+          "parent": null,
+          "position": {
+            "x": -7.9248,
+            "y": 0,
+            "z": 0
+          },
+          "basisMeasurementIds": [],
+          "selector": {
+            "type": "object-bound",
+            "object": "Hull",
+            "axis": "X",
+            "side": "minimum"
+          },
+          "coordinateAxes": [
+            "X"
+          ]
+        },
+        {
+          "datumId": "muzzle",
+          "parent": null,
+          "position": {
+            "x": 1.903476,
+            "y": 0,
+            "z": 0
+          },
+          "basisMeasurementIds": [],
+          "selector": {
+            "type": "object-bound",
+            "object": "GunBarrel",
+            "axis": "X",
+            "side": "maximum"
+          },
+          "coordinateAxes": [
+            "X"
+          ]
+        }
+      ],
+      "clearances": [],
+      "articulationEnvelopes": [],
+      "intentionalExaggerations": [],
+      "acceptanceTolerances": [
+        {
+          "target": "overall-envelope",
+          "mode": "per-axis-relative",
+          "lengthPercent": 0.1,
+          "widthPercent": 0.1,
+          "heightPercent": 1,
+          "rationale": "Retain actual modeled envelope; antenna height is nominal visual construction."
+        },
+        {
+          "target": "hull-source-origin",
+          "mode": "absolute",
+          "meters": 0.001,
+          "rationale": "Retain source frame and landmark."
+        },
+        {
+          "target": "track-ground",
+          "mode": "absolute",
+          "meters": 0.001,
+          "rationale": "Retain source frame and landmark."
+        },
+        {
+          "target": "hull-rear",
+          "mode": "absolute",
+          "meters": 0.001,
+          "rationale": "Retain source frame and landmark."
+        },
+        {
+          "target": "muzzle",
+          "mode": "absolute",
+          "meters": 0.001,
+          "rationale": "Retain source frame and landmark."
+        }
+      ]
+    },
+    "addenda": {
+      "threeDimensional": {
+        "status": "active",
+        "canonicalArtifact": {
+          "format": "glb",
+          "gltfVersion": "2.0",
+          "embeddedResources": true
+        },
+        "worldSpace": {
+          "units": "meters",
+          "expectedBounds": {
+            "min": {
+              "x": -1.8288,
+              "y": 0,
+              "z": -1.903476
+            },
+            "max": {
+              "x": 1.8288,
+              "y": 4.5,
+              "z": 7.9248
+            }
+          },
+          "mapping": {
+            "length": "maxZ-minus-minZ",
+            "width": "maxX-minus-minX",
+            "height": "maxY-minus-minY"
+          },
+          "boundsInclusion": "evaluated-visible-canonical-nodes",
+          "transformPolicy": {
+            "rootTranslation": [
+              0,
+              0,
+              0
+            ],
+            "rootRotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rootScale": [
+              1,
+              1,
+              1
+            ],
+            "childTransforms": "applied-or-declared"
+          },
+          "pivotValidation": "Source gun axis and parent retained; separate motion qualification required."
+        },
+        "producerHandoff": {
+          "briefLines": [
+            "Keep original model envelope and gun axis; alter gun-base shape only."
+          ],
+          "specificationFacts": [
+            "+X forward",
+            "no human approval transfer"
+          ]
+        }
+      }
+    },
+    "conflicts": [],
+    "provisionalAssumptions": [],
+    "openQuestions": [],
+    "decisions": [
+      {
+        "decisionId": "green-scope",
+        "actor": "Codex",
+        "actorRole": "operator",
+        "decidedAt": "2026-10-29T04:27:08.318Z",
+        "inputs": [
+          "935be1ebd3219af60b789e542a355de5e8d3db23727a3c3a7e26804c91c8bdf8",
+          "beb669a0d989d5a002eae841df84c3b3be77c4fee95abbf91b26b0b26157a792"
+        ],
+        "outcome": "Fresh finish-specific scope with nominal envelope and visual axes checked against this finish source; no historical cavity measurement, approval transfer or animation claim.",
+        "scope": "phase3-only"
+      }
+    ],
+    "status": "dimension-ready",
+    "authority": {
+      "productionAuthorized": false,
+      "approvalTransfer": false
+    },
+    "invalidation": {
+      "watches": [
+        "request.sha256",
+        "phase2Packet.sha256",
+        "styleProfile.sha256"
+      ],
+      "current": true
+    },
+    "supersession": {
+      "state": "superseding",
+      "priorSpecificationSha256Status": "documented original remains immutable"
+    }
+  },
+  "canonicalJsonSha256": "180980d7dae148ef83dd54b4a97e189d282d63015066125884463fdc0b904791",
+  "bindingRevision": 0,
+  "boundAt": "2026-10-29T04:27:08.318Z"
+}

@@ -1,0 +1,199 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-gun-base-desert-20261029-v1",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "825cf5e1-87aa-4436-99cb-d8532726bdd6",
+    "revision": 3,
+    "checkpointSha256": "98237e7dae9b5b9db65c0984b239913e708b9dc3d9e69d914e08112c23d0e986"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "dimensionReportHash": "4284e910b6b0eb07d36829078690fa622378427cf8bb46c3b23ce2341552d611",
+    "labeledSheet": {
+      "path": "review/labeled-source-review.png",
+      "sha256": "11825736a4ca67539998cd835fa71789e7bda45f715ea847ae0b07038f9b1064",
+      "bytes": 787593
+    },
+    "files": [
+      {
+        "path": "evidence/desert-r3-export-full.json",
+        "sha256": "529cd72a365c7948d01664c669cc7595f4dfd121a0c2f56b61b980d6ca3ae423",
+        "bytes": 263709
+      },
+      {
+        "path": "evidence/desert-r3-export.json",
+        "sha256": "2c9d1f23f7228f4cc8207cd2c9cb4bf5c1e484618c49e723b4ae9b2b9cd55892",
+        "bytes": 468
+      },
+      {
+        "path": "evidence/desert-r3-geometry-audit.json",
+        "sha256": "8de12150c2c7c40ce154f58947d09c6a41ab986e893a3b25f845ebc8a7ac6b46",
+        "bytes": 1007
+      },
+      {
+        "path": "evidence/desert-r3-pbr.png.json",
+        "sha256": "4b3e2332bc9a5f54ae2244f8871ffbdcf31656c73eff3982a71c93358e7dfded",
+        "bytes": 824
+      },
+      {
+        "path": "source/disputed-review.glb",
+        "sha256": "46ed4affbee0d9667213decc66f3e2c3a62952681ca76adc0c2caf05714982bc",
+        "bytes": 2041944
+      },
+      {
+        "path": "evidence/attempt-ledger.md",
+        "sha256": "8eb376fa086d1bf2ef71e053c7b2ce3bab87ab4b4307890e8fdd4d6b1773db3b",
+        "bytes": 12743
+      },
+      {
+        "path": "review/producer/contact-sheet.png",
+        "sha256": "492ebaad27d556087eebdfeb3c92b08818024cc7766e0017e49fb53cf599761d",
+        "bytes": 2569806
+      },
+      {
+        "path": "review/producer/finished-source/front-three-quarter.png",
+        "sha256": "4abce11382b666902cd0fea72343583535a64ebad7ebae5ee485329b0e351b08",
+        "bytes": 429927
+      },
+      {
+        "path": "review/producer/finished-source/front.png",
+        "sha256": "53a2a88c284a321277e49ddd8428b196e4a03f7716b85fcd9b381c47c02b08f5",
+        "bytes": 312542
+      },
+      {
+        "path": "review/producer/finished-source/left.png",
+        "sha256": "cb21f29ed6283df3545e49e52c9ed24fd3c1334a42655c7571f38bfc54916f54",
+        "bytes": 350210
+      },
+      {
+        "path": "review/producer/finished-source/rear-three-quarter.png",
+        "sha256": "ce597cdf568ca545d3e3a0bc588ee678e8020c3ede17ddeca0691006b56499a1",
+        "bytes": 424045
+      },
+      {
+        "path": "review/producer/finished-source/right.png",
+        "sha256": "5c9503db4f55429d71eb8f09bbbea8bd78847f2a4d5ebbe0f71d3ef9b624a8bf",
+        "bytes": 349502
+      },
+      {
+        "path": "review/producer/finished-source/top.png",
+        "sha256": "887ad22bde352545baf7b516bcd80b05050a75fb9821ba4af22cb8b59433ef91",
+        "bytes": 497273
+      },
+      {
+        "path": "evidence/dimension-report.json",
+        "sha256": "22d9c587259c1bfeff422cde227d736d0467bb18b80edffb9f2c95ad2a6665c6",
+        "bytes": 339422
+      },
+      {
+        "path": "evidence/brief.json",
+        "sha256": "c68b780bda2eac95b4d0e64c230a7505ecef36fab9fe47c5533073c2acfd4076",
+        "bytes": 10564
+      },
+      {
+        "path": "review/labeled-source-review.png",
+        "sha256": "11825736a4ca67539998cd835fa71789e7bda45f715ea847ae0b07038f9b1064",
+        "bytes": 787593
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "c68b780bda2eac95b4d0e64c230a7505ecef36fab9fe47c5533073c2acfd4076",
+    "dimensionSpecificationSha256": "f0763eb0d63a3e23aa937cc862698864117d8f27a574c55a3642c5fefab92d86",
+    "references": [
+      {
+        "uri": "https://www.koreanwaronline.com/history/50/1.pdf",
+        "sha256": "b8aab5deae4e0d5e9df6e0a295621008b17f3b46b298b402453fa6a1ee257dff",
+        "author": "United States Army",
+        "license": "Reference only; pixels and analytical derivatives excluded",
+        "role": "Exterior form/variant research; no third-party source content included"
+      },
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/usa/m1_abrams/M1_Abrams_Tank_Gunnery_FM_3-20_12_2001.pdf",
+        "sha256": "2a1845be5683a0a55950b32c639dfad73026365223855e36c4b9314eb14d8718",
+        "author": "United States Army",
+        "license": "Reference only; pixels and analytical derivatives excluded",
+        "role": "Exterior form/variant research; no third-party source content included"
+      },
+      {
+        "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1abramsloadermg98.jpg",
+        "sha256": "31e82f9c2c6dece60188ab1b3c13c7715825211281b3ccbbad6fff6fa118fa68",
+        "author": "United States Army",
+        "license": "Reference only; pixels and analytical derivatives excluded",
+        "role": "Exterior form/variant research; no third-party source content included"
+      },
+      {
+        "uri": "https://www.dvidshub.net/image/9213609/us-army-sgt-scott-junkin-mounts-m-240-machine-gun-top-m1a1-abrams-tank",
+        "sha256": "80bcc863a4fd0a544660c085b9b18b90c4335a94bf7572e6ac3f107379b2572a",
+        "author": "CPO Edward Martens USN",
+        "license": "Reference only; pixels and analytical derivatives excluded",
+        "role": "Exterior form/variant research; no third-party source content included"
+      },
+      {
+        "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1roofmgs.jpg",
+        "sha256": "a1390d1a10c646db503c4345e17359231d43b9dad01cdf5df83268f4c0276ebb",
+        "author": "Richard S. Eshleman",
+        "license": "Reference only; pixels and analytical derivatives excluded",
+        "role": "Exterior form/variant research; no third-party source content included"
+      },
+      {
+        "uri": "https://afvdatabase.com/usa/pics/m1abrams/m1a1tccupola.jpg",
+        "sha256": "d2ade1b92dbb896407c96565f1bbafab599d38c9aa3cb8400c9fcd9dc70247b7",
+        "author": "AFV Database, photograph attribution retained by source",
+        "license": "Reference only; pixels and analytical derivatives excluded",
+        "role": "Exterior form/variant research; no third-party source content included"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:M1A1_abrams_front.jpg",
+        "sha256": "c39309b16b783ccbad937a966baff7a7c534135b9eea29739277de753cb60d39",
+        "author": "US Air Force Tech Sgt John Houghton, 13 November 2003",
+        "license": "Research reference only; source pixels and analytical overlays excluded. Schematic original attribution remains unverified.",
+        "role": "Qualitative gun-base, roof junction and separate shield shape, not metric engineering evidence."
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Left_front_view_M1A1_Abrams_Main_Battle_Tank_at_U.S._Army_Armor_Center,_USAARMC_DA-SC-94-01698.jpg",
+        "sha256": "b25c1ed27fc838a0f1865d6857a68b821e231b5aebc937860f79c790ce5b72cb",
+        "author": "Steve Catlin, US Army, 20 November 1989",
+        "license": "Research reference only; source pixels and analytical overlays excluded. Schematic original attribution remains unverified.",
+        "role": "Qualitative gun-base, roof junction and separate shield shape, not metric engineering evidence."
+      },
+      {
+        "uri": "https://www.inetres.com/gp/military/cv/tank/M1.html",
+        "sha256": "07984e97671c8b1ebbaf6d8d7f9bb6170479e12bd870ed3148085f8f85352b1a",
+        "author": "Inetres M1A1 turret schematic; original source to be checked",
+        "license": "Research reference only; source pixels and analytical overlays excluded. Schematic original attribution remains unverified.",
+        "role": "Qualitative gun-base, roof junction and separate shield shape, not metric engineering evidence."
+      },
+      {
+        "uri": "https://nara.getarchive.net/media/a-soldier-mans-the-m2-50-caliber-machine-gun-in-the-commanders-hatch-of-an-f91be5",
+        "sha256": "2474f01e036a1dd44aa1032135393c3ff598c98e4f159d3e82e3511831b08739",
+        "author": "SPC David Kornblum, US Army, Fort Knox, 29 April 1986",
+        "license": "Research reference only; source pixels and analytical overlays excluded. Schematic original attribution remains unverified.",
+        "role": "Qualitative gun-base, roof junction and separate shield shape, not metric engineering evidence."
+      }
+    ]
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Recessed shield retained a concrete internal core overlap.",
+    "decidedAt": "2026-10-29T06:25:21.851Z"
+  },
+  "notes": [
+    "Agent/source-fit disposition only; no human rejection or approval is claimed.",
+    "Recessed shield retained a concrete internal core overlap.",
+    "Authored model-only review images and disputed GLB retained under existing Abrams publication permission; third-party pixels and analytical overlays excluded.",
+    "Reference identities include later comparative corroboration; not every source was present at the first authoring attempt.",
+    "No retry budget reset or animation/runtime approval.",
+    "Disposition timestamp records archival supersession now, not an inferred earlier human decision. Earlier local metadata preparation used an incorrect template and was quarantined before publication; original manifest SHA-256 44ec90990c72366449c44181fbb5e3f733b7f4582d3a18c85d65a1ae1b58248e remains retained. No model or render bytes changed."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

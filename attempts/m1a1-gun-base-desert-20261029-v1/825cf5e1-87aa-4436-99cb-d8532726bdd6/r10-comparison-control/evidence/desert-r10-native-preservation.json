@@ -1,0 +1,13 @@
+{
+  "fromCheckpoint": "69bb62079293d327c447e85bb95c21cbc35c9c6eb7f50ac292432b8950144124",
+  "toCheckpoint": "d61e8d727f604427ebfdf806616818c0459b9d10a17adb11d1a579e5c53580d8",
+  "complete": true,
+  "unaffectedMeshCount": 264,
+  "exactNativeObjectMeshMaterialMatchCount": 263,
+  "differences": [
+    "CentralTurretEdgeHighlights"
+  ],
+  "explanation": "CentralTurretEdgeHighlights was recreated to retain its parent during core replacement; object and material hashes match but native mesh hash differs. Compare its actual exported geometry separately; do not claim its native fingerprint is identical.",
+  "sourceReceipt": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/05b50ed5-c8f4-40b0-9b4f-e2169a81bb12/native-isolation-diagnostics/native-rigid-isolation-v1/2e23e343ef6b28529116a96b52cab33ce0497bd498f9076e109c8e763e443c6f/receipt.json",
+  "candidateReceipt": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/825cf5e1-87aa-4436-99cb-d8532726bdd6/native-isolation-diagnostics/native-rigid-isolation-v1/2c3260bd4a7f00dc3cee967033102ac8a5764eebb15a58a96fbc65432abc6284/receipt.json"
+}

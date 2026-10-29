@@ -1,0 +1,52 @@
+{
+  "checkpoint": {
+    "checkpointId": "b4c97855-5b84-4358-8d50-e6e190745aa2",
+    "checkpointHash": "ecf2297775b6babed686055b3ded4ad9519260b68761aa6389f140854b99f0be"
+  },
+  "glbSha256": "007e803bb8755f8218cf0fe1b5be36dc366e1ebfcf1ce28728d24d9982090198",
+  "axisCheck": {
+    "barrelMinX": -2.299999952316284,
+    "barrelMaxX": 1.9034759998321533,
+    "forward": "+X",
+    "muzzleTowardPositiveX": true
+  },
+  "topology": [
+    {
+      "name": "Mantlet",
+      "triangles": 16,
+      "weldedEdges": 24,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "sameDirectionPairedEdges": 0,
+      "signedVolume": 0.03922410806463008
+    },
+    {
+      "name": "CentralTurret",
+      "triangles": 28,
+      "weldedEdges": 42,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "sameDirectionPairedEdges": 0,
+      "signedVolume": 1.108079812740938
+    },
+    {
+      "name": "LeftTurretCheek",
+      "triangles": 20,
+      "weldedEdges": 30,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "sameDirectionPairedEdges": 0,
+      "signedVolume": 0.8070204484352557
+    },
+    {
+      "name": "RightTurretCheek",
+      "triangles": 20,
+      "weldedEdges": 30,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "sameDirectionPairedEdges": 0,
+      "signedVolume": 0.9747330919429006
+    }
+  ],
+  "method": "Weld evaluated exported positions at 1 micrometre rounding; count undirected edge incidence and directed orientation. Signed volume in source coordinates. This does not prove lack of self-intersections or all per-face outward normals."
+}

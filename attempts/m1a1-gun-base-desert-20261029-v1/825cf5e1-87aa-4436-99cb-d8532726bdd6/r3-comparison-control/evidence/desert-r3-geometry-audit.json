@@ -1,0 +1,33 @@
+{
+  "checkpoint": {
+    "checkpointId": "2cf01cec-9673-48ba-9468-da79f5704e6b",
+    "checkpointHash": "98237e7dae9b5b9db65c0984b239913e708b9dc3d9e69d914e08112c23d0e986"
+  },
+  "glbSha256": "46ed4affbee0d9667213decc66f3e2c3a62952681ca76adc0c2caf05714982bc",
+  "meshCount": 269,
+  "triangleCount": 37736,
+  "retainedGeometryCount": 265,
+  "retainedGeometryAndParentAllEqual": true,
+  "changed": [
+    "CoaxShroud",
+    "GunBarrel",
+    "Mantlet",
+    "MantletSeamAccents"
+  ],
+  "containmentWitness": {
+    "point": [
+      -2.3,
+      0,
+      1.83
+    ],
+    "coreRoof": 2.130635710337203,
+    "coreFloor": 1.5802012161185186,
+    "coreHalfWidth": 0.4018518518518518,
+    "pointStrictlyInsideCore": true,
+    "shieldInterior": true,
+    "note": "Core/sheild overlap at rest; exact source mesh linear-prism section, containment not inferred from overlapping AABBs."
+  },
+  "limitations": [
+    "Triangle coordinates rounded to one micrometer; shader materials and motion not evaluated by this report."
+  ]
+}

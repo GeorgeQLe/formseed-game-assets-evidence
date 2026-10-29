@@ -1,0 +1,31 @@
+{
+  "checkpoint": {
+    "checkpointId": "b7911baf-3891-4dac-a098-5ff1eba15b4f",
+    "checkpointHash": "43260f1b575bcd1ed2b14150494fe26aa9a6f96a8297d4586436b4ff9b13041e"
+  },
+  "glbSha256": "10845a6cdf46ef02cead9589d2853e9199b11557b4065e673c20f31cd34818b9",
+  "actualHullPrimitiveMaterials": [
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "paint"
+      },
+      "name": "paint",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6800000071525574,
+          0.7099999785423279,
+          0.6600000262260437,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8199999928474426
+      }
+    }
+  ],
+  "finding": "The entire Hull uses one constant off-white paint material. No green image or separate lower-plate paint primitive exists. Original studio hemisphere uses groundlight0x59654e, causing green underside shading. Neutral groundlight0xb0b0b0 is a read-only lighting control, not an asset change.",
+  "controlPngSha256": "52286c2c4dac5de521f56b577ec0db0180bf349a44f17b635954884f677c3f6a",
+  "renderSource": "neutral-lighting-control.ts",
+  "geometryOrMaterialsMutated": false,
+  "humanApproved": false
+}

@@ -1,0 +1,37 @@
+# Abrams gun base: r11 vs r10, checked against the two source photos
+
+**Bottom line:** r11 removes every cheek-strip artifact I could see in r10. I found no new defect at this sheet's resolution. The roof-height, angled, non-projecting gun base still reads correctly and still matches the sources. One small source-fit gap carries over unchanged from r10. This is not an approval.
+
+## r10 → r11 differences
+I read both PNGs at full sheet resolution and couldn't crop or zoom. The tank-scale panels in rows 1–2 look the same in both. Every change is on the cheek and gun-base edges:
+
+| Close-up panel | r10 | r11 |
+|---|---|---|
+| Front three-quarter low | Small light/dark spur where the image-left cheek's top meets its front edge | Clean edge with a continuous highlight line |
+| Rear three-quarter | Small dark sliver at the cheek's front-top corner, above the mantlet | Clean; the highlight strip follows the cheek top |
+| Front | Thin dark sliver on the right of the mantlet's top edge | Gone |
+| Top | Two dark spike notches along the right cheek's inner edge | Gone; both cheek inner edges are straight dark strips |
+
+These match what you described: the self-crossing on the left cheek strip is gone, and only the Y positions of the front cheek vertices changed. The cheek outlines, the mantlet frame, the roof trapezoid and the cheek wedges look the same as r10 in every panel. I don't see any shape changing that shouldn't have.
+
+## Fit to the source photos
+- **Roof height, no projecting box:** this holds. In the 2003 Houghton front photo, the mantlet is a roughly square slab set back between the angled cheeks, with its top close to the cheek and roof line. The r11 front close-up shows the same: a square frame (about 165×160 px) set back between the cheeks, with nothing sticking out past them. The 1986 Fort Knox three-quarter view shows a similar slot between the cheeks, and the front three-quarter low close-up matches it.
+- **Angled cheeks:** the shape and angle are consistent with both photos.
+- **Port position:** the small port at the mantlet's upper left matches the port in the Houghton photo.
+- **Gap (carried over from r10):** the top of the mantlet frame sits a little below the roof edge (about 35 px in the close-up). In the Houghton photo it is nearly flush. This is a small proportion difference, not a regression.
+
+## Camera blocking vs modelled shape vs source limits
+- **Camera blocking, not shape:** in the physical-left and physical-right close-ups, the smoke-grenade launchers and the gun barrel cover the gun base, so those panels say almost nothing about it. They look the same in r10 and r11.
+- **Lighting, not shape:** the diagonal dark band across the front views is the barrel's cast shadow.
+- **Source limits:**
+  - The Fort Knox photo is black-and-white and taken from high above at three-quarter angle.
+  - The Houghton photo is head-on, so it shows little depth.
+  - Neither photo shows the gun base from directly above, so how deep the mantlet is set back is only loosely constrained by the references.
+  - Stowage, crew and camouflage in the photos hide some edges.
+
+## What I didn't check
+- I didn't re-check any of your GLB numbers: the self-crossing count, face directions, notch hit tests, open edges, the 1.81 mm projection, or the 96 pose/recoil pairs. I only compared images.
+- Artifacts smaller than about one pixel at this sheet scale can't be ruled out.
+- As you noted, the 96 coarse pose samples don't cover continuous motion or the animation.
+
+This is image evidence only. It doesn't amount to a structured evaluation, an adversarial review, or human approval.
