@@ -1,0 +1,42 @@
+## D03 — damaged03-soot-v84 (job 2a2265ed…, r3, checkpoint db8d3bf5…, GLB 7a8b5bd8…)
+
+One oddity: `original-render-evidence.json` still names the asset "engine-fire finish candidate". The relocation hashes match the brief.
+
+### Six 256 views
+| File | What I see |
+|---|---|
+| `256-front-three-quarter.png` | Looks clean. The rear deck is out of view, as expected. |
+| `256-rear-three-quarter.png` | Two grille bays. The near bay has the darker, irregular lifted slats from v69. I can't see any soot around them. |
+| `256-front.png` | Same as clean. |
+| `256-left.png` | The lifted grille makes a tiny tick on the rear-deck line. No soot visible. |
+| `256-right.png` | Looks clean. The feature is on the other side, so this is expected. |
+| `256-top.png` | Two framed bays. The bay on the right of the image has a faint darker cast that spreads a little onto the cross plate below it. It's barely separable from v69. |
+
+### 1000 comparisons (same camera)
+- **Top.** In `soot-v84/1000-top.png` there is a soft brown-black smudge around the bent bay on the right of the image. It is heaviest at the bay and bleeds down across the cross plate. `fire-v69/1000-top.png` has the same bent bars without the smudge. `clean-desert-v1-r2/1000-top.png` has one continuous grille.
+  - The smudge falls down-right of the bay, while the scene's shadows fall up-left. So it reads as a stain rather than a cast shadow.
+  - It sits on the bent bay and not on the normal one, so it hangs together with the displaced grille.
+  - Its edge is a uniform soft blur, so it reads as an airbrushed smudge rather than soot streaking.
+- **Rear three-quarter.** I see no visible difference between `soot-v84/1000-rear-three-quarter.png` and `fire-v69/1000-rear-three-quarter.png`. The brown curled slats on the near bay are unchanged, and no soot reads on the surrounding deck. Clean has one grille.
+- **Left.** v84 and v69 look identical: both have the lifted slats breaking the rear-deck line. Clean has a flat dotted deck line.
+
+### 128 comparisons
+- **Top.** `128-top.png` may be very slightly darker at the right-of-image bay than v69. That is at the edge of what I can see. Clean differs mainly because it has one grille.
+- **Rear three-quarter and left.** `128-rear-three-quarter.png` and `128-left.png` look the same as v69 to me, and I can't pick out the damage at this size.
+
+### Strongest objections
+1. **The finish only shows in one view.** It reads in `1000-top.png` but not in `1000-rear-three-quarter.png`, the main oblique view of the deck. As a fire cue, it adds almost nothing over v69.
+2. **The soot looks like a smudge.** The soft, even falloff reads as an airbrushed brown smudge, not soot pattern from heat leaving a vent.
+3. **The grille layout still differs from clean.** The two-bay layout doesn't match the single grille on clean v1.0, as the prior findings already noted, and v84 doesn't resolve that.
+4. **The slats could still read as debris.** The brown curled slats in `1000-rear-three-quarter.png` could still pass for loose material, and the soot doesn't help them read as a warped frame.
+5. **Recognition is intact.** The tank reads as an M1A1 in every view, and I have no objection to its primary forms. It reads as a lightly damaged tank only from close range.
+
+### Recommendation: **KEEP THIS FINISH DIRECTION WITH LIMITS**
+The soot is harmless and in the right place, at the level of restraint the brief asked for. Limits:
+- It doesn't show fire beyond the 1000 top view.
+- It must not be counted as visible at 256 or 128.
+- The grille-layout question still needs a decision.
+
+**The physical direction (the bent grille) is still useful.** The prior D03 v69 findings stand, and no approval transfers.
+
+---
