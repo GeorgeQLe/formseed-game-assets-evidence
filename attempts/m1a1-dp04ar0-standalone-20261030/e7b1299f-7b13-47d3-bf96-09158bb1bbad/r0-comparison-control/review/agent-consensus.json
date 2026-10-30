@@ -1,0 +1,21 @@
+{
+  "format": "dp04a-r0-informal-review-consensus-v1",
+  "partId": "DP04A",
+  "jobId": "e7b1299f-7b13-47d3-bf96-09158bb1bbad",
+  "revision": 0,
+  "checkpointSha256": "ebfc998aca2f952e43e45aa44372bf1e1270e6340dc031d84a1d282ad6a99c67",
+  "glbSha256": "d35738dd21d527dc2966eca316ebb39c59fb1dbe01b7248f4de648e3d8e5b213",
+  "outcome": "Root agent rejects the salvage candidate for isolated/close-up part quality; start the user-authorized clean P04 fallback. No human approval or human rejection is asserted.",
+  "rootStatementVerbatim": "Root concurs reject DP04A salvagedcloseup: axisaligned manufacturedrectangularinset +oversizedfolds/reartrim, actualstandaloneimage1000-left inspected.",
+  "opusStatementVerbatim": "If the part has to hold up at isolated or close-up scale, I'd reject it and rebuild from the clean P04.",
+  "opusTankScaleQualification": "Opus considers it defensible as preliminary salvage only at tank scale; do not describe this as an unconditional Opus rejection.",
+  "visualConcerns": [
+    "Rectangular bezel-like boundary",
+    "Sharp oversized folds",
+    "Inherited rear trim tip below displaced corner"
+  ],
+  "technicalEvidence": "Technical validation and source-role correspondence pass are distinct from the close-up visual objection.",
+  "materialCountCorrection": "13 native datablocks; 6 mesh slots including unused paint; 5 materials used in GLB; 64 paint-source faces bound to DP04A_Scuff.",
+  "opusOutputSha256": "f6a1afb7a977adc5552b37e8f02ba74fbf24752e4ec65d87347fae840a0f4d5a",
+  "humanApproval": false
+}

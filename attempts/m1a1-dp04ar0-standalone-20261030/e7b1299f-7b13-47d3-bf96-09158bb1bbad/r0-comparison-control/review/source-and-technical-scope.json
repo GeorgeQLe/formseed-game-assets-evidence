@@ -1,0 +1,38 @@
+{
+  "subject": "DP04A isolated source candidate and assembled optional Hull-scuff core",
+  "standalone": {
+    "jobId": "e7b1299f-7b13-47d3-bf96-09158bb1bbad",
+    "revision": 0,
+    "checkpointSha256": "ebfc998aca2f952e43e45aa44372bf1e1270e6340dc031d84a1d282ad6a99c67",
+    "glbSha256": "d35738dd21d527dc2966eca316ebb39c59fb1dbe01b7248f4de648e3d8e5b213",
+    "technicalPass": true,
+    "nativeMeshCount": 1,
+    "triangles": 132,
+    "sourceMaterialDatablocks": 13,
+    "nativeMeshSlots": 6,
+    "unusedPaintSlot": true,
+    "gltfUsedMaterialCount": 5,
+    "paintedFacesUseScuffMaterial": 64
+  },
+  "core": {
+    "jobId": "0658e376-3989-4fd9-aa91-f29a83fc0904",
+    "revision": 1,
+    "checkpointSha256": "d5f0d8551ecc49ec5e2c052e685032b8b4e82b5af58913bfc62788d0a6e17421",
+    "glbSha256": "c553c763d58c888bbde866a1732f2402bc0778e7dcb9fe845b7d856eed8b917f",
+    "hullScuffIsSeparate": true,
+    "hullGeometryIntact": true
+  },
+  "evidenceDigests": {
+    "originalReviewerOutput": "f6a1afb7a977adc5552b37e8f02ba74fbf24752e4ec65d87347fae840a0f4d5a",
+    "captureInputProof": "ec176b3e83bf8fb3427b9c76027f6eab11984f9ddda7ca1a10c1ce4a7a960962",
+    "independentActualTechnicalAudit": "0048f7305301901b03ffa016cea1e36a54d5d9bda74b9934dd661adc8155e8c3",
+    "nativeMaterialNames": "33d4b62151add5e90a94ad9df754a170a50a19b3d57fe9410a63a93bb1ca6912",
+    "nativeFaceRoles": "0842764f4e3dac509c589efb77d605bcda2339cc9c93e728be9d300216b09266"
+  },
+  "visualDecision": "Root agent rejected for isolated/close-up quality; Opus conditionally recommended preliminary tank-scale retention but also advised rebuild for close-up. Neither agent is a human approver.",
+  "limits": [
+    "Only source-category skirt damage is supported, not exact incident, weapon, internal armor construction or operation.",
+    "Supplementary PNGs do not replace native/dimension checks.",
+    "No GLB, blend, private paths or third-party image pixels included."
+  ]
+}
