@@ -1,0 +1,33 @@
+# W03 v109 (destroyed03-folded-finish-v109): independent visual review
+
+**Verdict: REJECT the current execution.** The localized roof-aperture direction is still worth pursuing, and the soot change should be kept. But the exposed region still reads mostly as a clean open hatch well with a separate dark prop next to it, not as a torn roof with a panel thrown from it.
+
+## What I looked at
+- **v109:** all six 256 views (top, front, front-three-quarter, rear-three-quarter, left, right), plus top, rear-three-quarter and left at 1000 and 128.
+- **Comparisons:** v106 at 1000 (top, rear-three-quarter, left) and 256 (front, top); v101 at 1000 (rear-three-quarter); clean-desert-v1-r2 at 1000 (top, rear-three-quarter).
+- **References:** usmc-hansen.jpg and b23.jpg.
+
+I couldn't confirm the job/checkpoint identity. The directory can't be listed, and I found no `render-evidence.json` or `manifest.json` under the expected names, so I worked out the file names from the existing ones. There is no plain `rear` view in this set.
+
+## What actually changed since v106
+1. **The pale fallback panel is fixed.** In v106 both rear roof panels were bright tan rectangles in the 1000 top view. In v109 the left panel is sooted to match the surrounding stain, and the aperture's surround is dark. The roof no longer reads as a crisp pale service panel next to a hole.
+2. **The rim is taller, but still regular.** In the 1000 left profile, a dark sloped wedge now rises above the bustle roof (about x 690–775). v106 had only a low pale lip there. This is the only new cue that shows in silhouette. In the 1000 rear-three-quarter view, though, the opening is still a straight-edged rectangle with even, symmetrical walls sloping inward and light inner faces. It looks like a funnel or hatch well. Compared with v101's square box hole, the change is mostly the bevel. There are no jagged or peeled edges, no uneven lip height, and no missing-lid gap.
+3. **The fragment now has some height, but still reads as a separate dark prop.** In the 256 front view it stands up as a dark triangular wedge, where v106 showed a flat sliver. In the 1000 rear-three-quarter view it is a chevron with one lifted fold. Problems remain:
+   - It is still the same near-black brown as before, with no bare-metal or paint edge, so it doesn't look like it came from the tan roof.
+   - In the 1000 top view it is a dark rectangle with a V-notch, set off from the hull side (about x 675–715, y 188–252). It reads like a dark block or crate.
+   - Nothing on the ground suggests contact: no visible contact shadow, scorch, scuffing or small debris. The hansen reference shows a ground halo and scattered small debris; v109 has none.
+   - At 128 it is a lone dark speck.
+4. **Soot works.** The stain is spread unevenly across the turret roof around both hatch rings and fades toward the front of the roof. It stays local, which is appropriate; I'm not asking for a uniformly burned vehicle.
+
+## Answers to the review questions
+- **Does the opening read as a damaged roof or as a service hatch?** Mostly a service hatch / open well in the three-quarter view, and somewhat more damaged in the left profile. At 128 the damage reads only as a darker turret roof; the opening itself isn't readable.
+- **Does the fragment read as a loose roof panel or a disconnected prop?** A disconnected prop. Its color, its size against the opening (roughly 40×64 px vs 75×95 px in the 1000 top view) and its lack of ground interaction don't tie it to the roof.
+- **Is the subject still recognizable?** Yes. The Abrams form, running gear and turret match clean r2 in every view. Damage that isn't visible from the occluded front is acceptable.
+- **Strongest new defect:** the raised dark rim in the left profile is a symmetrical tent shape. At a glance it could pass for a propped-open hatch lid, which works against the intended reading.
+
+## What to carry into the next attempt
+- **Keep:** the v109 soot treatment and the removal of the pale fallback.
+- **Rework the opening:** make the rim irregular, with uneven heights and at least one torn or peeled edge visible in the rear-three-quarter view.
+- **Rework the fragment:** give it a top face matching the roof (tan, sooted) and edges that show it was torn from the roof, plus ground contact cues (shadow or scorch, maybe a little small debris).
+
+Limitations: the panel category is source-informed, but the shapes, crease and soot are designed. This review makes no claim about any real incident, physics or ammunition mechanism. The references are broad analogues of fully burned vehicles and set no burn-extent target. No technical validation was done, and nothing here is a score, a formal go, a consensus or a human approval. I did not modify any files.
