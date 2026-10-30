@@ -1,0 +1,44 @@
+## W01: destroyed01-fragments-v62
+
+Job `e0314a39…` r2, checkpoint `dd5b40f5…`, GLB `80bbd138…`. Both the evidence manifest and `relocation.json` bind to this exact checkpoint and GLB.
+
+### (1) Per-view observations
+
+- **`256-front-three-quarter.png`**: Clearly different from clean. The near flank is a dark band, the road wheels stand exposed with no upper run or wrap, a small shoe cluster sits on the ground near the front corner, and the sprocket is bare. The turret, deck, antennas and machine guns are fully clean tan.
+- **`256-rear-three-quarter.png`**: This shows the intact far side. It reads as a normal, undamaged tank. The only cue is a small dark shoe group on the ground behind the right rear.
+- **`256-front.png`**: The view is clearly asymmetric. The left-image side shows bare wheel columns with a flat shoe at the ground and a dark fender, while the right-image side shows a dense intact track face. This is the strongest small-scale view.
+- **`256-left.png`**: The intact side, so it reads as clean. A few extra dashes poke out past the ends of the track.
+- **`256-right.png`**: A black-and-tan block pattern along the skirt. The ground row looks like a continuous dashed track.
+- **`256-top.png`**: A dark strip along one fender. At this size it reads as shadow or dark trim rather than fire damage.
+- **`1000-right.png`**: The flank is flat black with crisp edges. One tan panel (about x 352–432) splits the black band. The ground dashes and both diagonal runs up to the idler and sprocket are still visible. In this orthographic view that is almost certainly the intact far-side track showing through. Compare the near-identical track line in `clean-desert-v1-r2/1000-right.png`. Because of this, the near-side track loss **does not read in the side view**. Every wheel bottom meets the ground row and nothing hovers.
+- **`128-right.png`**: Reads as a tan tank with a dark lower skirt band. Nothing about it says destroyed.
+- **`1000-front-three-quarter.png`**: Each of the seven wheels stands on its own small dark pad, with even gaps between pads. There is a front end group of about four shoes, splayed flat (around x 450–545, y 790–845), and a rear group near the sprocket. The wheels are undeformed, with bright silver-gray hubs.
+- **`1000-rear-three-quarter.png`**: The far-side track and the whole body are pristine. The rear end group (around x 815–925, y 795–840) is a neat fan of four parallel shoes.
+- **`1000-front.png`**: Confirms the bare wheel columns, the single flat ground shoe and the darkened fender on one side.
+- **`1000-top.png`**: The dark fender strip runs the full length of the hull. No end group is legible.
+
+### (2) Strongest objections
+
+- **Primary form and recognition (core):** This does not read as a destroyed burnout. About 75% of the visible surface is untouched clean tan: turret, deck, gun, antennas, machine guns and hatches. The wheels are undeformed (exact protected geometry) and show bright hubs. Source packet target `destroyed-01` names *"running-gear collapse anchors wreck identity; not just dark panel paint"*, and this candidate has no disrupted wheel stations and no slack run. It currently reads as "track thrown or stripped on one side" in the 3/4 and front views, and as a two-tone tank in the side and 128 views.
+- **Mechanical support:** Support is grounded and there is no hovering. The audit shows wheel-bottom-to-shoe-top gaps of about 1e-8 to 4e-8 m and ground fragments at z = 0. However, one evenly spaced pad per wheel (`1000-front-three-quarter.png`) reads as **wheel chocks or jack pads** more than as burned-through track remains, because the rhythm is too regular. The neat four-shoe fans at the ends (`1000-rear-three-quarter.png`) read as laid-out spares.
+- **Material:** The flank is coherent and the v37 noise is gone. But the flat near-black skirt (`baseColorFactor` ≈ 0.054/0.045/0.036) and the single-colour fender texture (decoded RGBA 66,60,53, so it carries no tonal variation) give crisp-edged painted blocks, not char. Compare the irregular dark, pale and mottled patches in `usmc-hansen.jpg`. The tan panel in `1000-right.png` could be a missing skirt section exposing the hull, but at `256-right.png` it reads as arbitrary two-tone paint.
+- **Distinctness (ADR 0015):** The W01 front-corner shoe cluster (`1000-front-three-quarter.png`) looks almost the same as D02's four-shoe front group (D02 `1000-front-three-quarter.png`, x 515–615, y 830–880). Both variants now tell "right-side track off with shoes on the ground near the front", so the distinct physical damage stories overlap.
+
+### (3) Comparison with the failed control and the source
+
+- **Against `destroyed01-candidate3-material-v37/1000-right.png`:** This is a real improvement. The noisy striped camouflage-like flank is gone, and the continuous straight ground strip that read as a plank is replaced by separate pieces. Both stated failure modes, plank and stripe noise, are fixed.
+- **Against the clean `1000-right.png`:** The side profile is otherwise identical, including the far-track ghost, so the side view still under-communicates the loss.
+- **Against Hansen and source packet v6:** The source supports disrupted gear and patchy exterior in a 2003 USMC analogue. It does not prescribe this fragment arrangement, and it shows charring and patching across the whole hull and turret, not one lower band. The flat char here is a simplification of the source, not a match for it.
+- **Technical status:** This is technical validation only. 180 geometries are exact, the fender roles are preserved, the native181 check passes and dimensions are 16/16. In `w01-native-uv-image-comparison-v1.json` the active and default UV is still `W01C3RightFenderUV`, but the GLB binds the flat fender texture through `texCoord 1`, so the renders reflect the new layer. The six supplementary masks are **pending**, not a stale failure, and they don't invalidate producer validation. None of this is visual clearance.
+
+### (4) Recommendation
+
+**KEEP THIS PHYSICAL DIRECTION FOR FINISHING WITH LIMITS.** The plank and hover objections are resolved, and the support is grounded and honest. Keep it as an unapproved preliminary with these core objections left open:
+
+- Destroyed severity does not read. Finishing must carry broad, irregular fire weathering over the upper hull and turret, and the wheels need fire damage.
+- The pad-per-wheel layout reads as chocks.
+- The front shoe cluster overlaps D02's story.
+
+If finishing cannot make it read as destroyed in the 3/4 views at 256, the geometry needs to be reopened: wheel-station disruption is what the source target asks for. This is not a visual go.
+
+---

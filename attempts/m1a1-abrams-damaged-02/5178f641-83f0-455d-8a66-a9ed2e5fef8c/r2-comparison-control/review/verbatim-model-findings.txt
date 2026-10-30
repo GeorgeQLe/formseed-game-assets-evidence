@@ -1,0 +1,36 @@
+## D02: damaged02-frontbreak-v59
+
+Job `5178f641…` r2, checkpoint `49b87905…`, GLB `81300da3…`. These match `relocation.json`.
+
+### (1) Per-view observations
+
+- **`256-front-three-quarter.png`**: Looks the same as clean except for a small gray flat slab on the ground ahead of the front corner. The near-track front wrap is hidden under the fender, as it is in clean.
+- **`256-rear-three-quarter.png`**: There is no visible cue at all. It reads as the intact tank.
+- **`256-front.png`**: There is a faint difference in the left-image track face, with lighter gaps and a gray base. You would only notice it next to clean.
+- **`256-left.png`**: A tiny dash sits on the ground ahead of the bow.
+- **`256-right.png`**: The track loop looks complete, with a tiny dash ahead of the idler.
+- **`256-top.png`**: A small gray rectangle sits at one front corner.
+- **`1000-right.png`**: The full loop is visible, including both diagonal runs and the idler wrap, almost the same as `clean-desert-v1-r2/1000-right.png`. The far-track ghost and the unchanged upper end shoes hide the break. Four shoes lie in a level, evenly spaced row on the ground ahead of the idler (about x 752–825).
+- **`128-right.png`**: The cue shrinks to a few pixels. It reads as an intact tank.
+- **`1000-front-three-quarter.png`**: Four shoes lie side by side as a tidy slab (x 515–615, y 830–880). There is a clear gap between them and the tank, and no connection to the track run. Everything else matches `clean-desert-v1-r2/1000-front-three-quarter.png`.
+- **`128-front-three-quarter.png`**: A tiny gray mark. It reads as an intact tank.
+- **`1000-front.png`**: One track face has two separated dark blocks with lighter gaps, plus a gray end-on slab at its foot. Compared with the solid face on clean `1000-front.png`, this is the only real view of the break.
+- **`1000-top.png`**: The shoes are partly tucked under the front plate edge and read as a small dark rectangle.
+
+### (2) Strongest objections
+
+- **Recognition (core):** The tank reads as **normal and intact** in five of the six 256 views and in both key 128 views. The front-wrap discontinuity only shows in `1000-front.png`, and faintly in `256-front.png`. In the main 3/4 view the fender hides it.
+- **Primary form:** The positive cue is four flat, nearly aligned shoes. The audit gives z min ≈ 0 for all four, lateral offsets of about 3 cm and inter-shoe gaps of about 1.8 cm. That is not visibly "uneven". It reads as a **set-down spare segment or maintenance parts**, not a torn-off track. Nothing visually links the cue to the break, such as a dragged or hanging end or a run off the idler.
+- **Mechanical support:** The moved shoes rest on the ground and none hover. Static support is fine. The issue is legibility, not physics. I'm not attaching any meaning to the ~0.00575° normal difference. The inherited tiny clearances from the clean base aren't something this candidate introduced.
+- **Material:** Unchanged clean tan. That is acceptable for a damaged variant, but it gives the reader no help.
+
+### (3) Comparison with the failed control and the source
+
+- **Against `damaged02-candidate2-stack-final-v31/1000-right.png` and `1000-front-three-quarter.png`:** v31's deck stack read as stowage. v59 moves the same kind of tidy shoe pile from the deck to the ground ahead. The failure mode, "spare cargo", has moved rather than been resolved. Both versions also keep a full-looking loop in the side view.
+- **Against the loose-tail concept v1:** The concept proposed about 12 shoes as a rearward tail in the right lane, with an unprompted recognition test at 128 right. v59 uses 4 shoes at the front and does not meet that check (`128-right.png`).
+- **Against the sources:** `dvids-4423869-2018-1000w.jpg` is itself a **maintenance** scene, with a long track run laid on the ground. A neat flat segment on the ground literally matches that read, which is the problem. `hard-rock.png` shows a trackless running gear with the track stacked on the rear, and v31 already failed on that analogy. As stated, the sources support generic track disruption only, not this path or any incident.
+- **Technical status:** 265 protected meshes are exact, native269 passes, the six masks pass and dimensions are 16/16. This is technical validation only, not visual clearance.
+
+### (4) Recommendation
+
+**REJECT THIS GEOMETRY.** It still reads as the normal intact tank plus loose maintenance or spare shoes. The break is only visible from the front at 1000 px. Keep v59 as a failed attempt next to the two earlier failures. Charge it under the producer ledger's iteration accounting; this review neither resets nor grants any attempt budget.
