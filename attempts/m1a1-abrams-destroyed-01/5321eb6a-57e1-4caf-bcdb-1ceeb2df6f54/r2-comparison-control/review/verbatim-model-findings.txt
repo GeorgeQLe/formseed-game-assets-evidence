@@ -1,0 +1,52 @@
+## W01 · destroyed01-steel-v94 (job 5321eb6a… r2, ckpt 6d8a48da…, GLB 2eade109…)
+
+**Plan claims (not visually verified).** The source index and ready audit describe:
+- 96 steel shoes taken from the source model, forming one remnant;
+- 7 translated wheels;
+- 7 coarse designed static road arms;
+- 181 owners retained.
+
+The audit says outright that this is designed extrapolation with pins omitted, and that it grants no visual go. I can't confirm the exact track material or how it is built from images alone.
+
+**Six 256 views**
+- **Front three-quarter:** the near-side lower run is continuous, with dark gray shoes under all seven wheels. There are no isolated ticks under each wheel and no stacked plank group at the bow. Reads as a tan tank with a black skirt band sitting on normal track.
+- **Rear three-quarter:** shows the left side, intact and tan; it matches clean. That is expected occlusion.
+- **Front:** both track ends show as similar dark blocks. The right fender is dark brown, unlike the left. There is no flat slab and no wheel columns.
+- **Left:** intact and tan; the same as clean.
+- **Right:** black skirt band with one tan panel in the middle. The lower track loop is continuous from sprocket to idler, and the wheels look grounded.
+- **Top:** tan, with only a dark strip along the right fender edge. No cue.
+
+**1000 and 128 against the same cameras**
+- **`1000-front-three-quarter` vs v89 and v62:**
+  - v89 and v62 had seven identical pads, one under each wheel, with open ground between them. They also had a fanned shoe group at the rear (x≈70–140) and a flat plank stack at the bow (x≈455–545, y≈795–845).
+  - v94 removes all of those. A linked run now goes from the sprocket wrap (x≈85–140, y≈510–600) under every wheel to an upturn at the bow (x≈500–520, y≈760–800).
+  - The chock, plank and spare-parts readings are gone. I see no floating or intersecting wheel at this resolution.
+- **`1000-right` vs v89 and clean:**
+  - v89's dashed ground row (x≈80–735, broken under the wheels) has become a single loop. It has the same silhouette as the clean loop: sprocket x≈100 → ground y≈700 → idler x≈745.
+  - Wheels 3–6 sit with small dark tabs above them; those are the arms. The height difference from clean is barely visible.
+  - The far-side track lies inside the same projected silhouette, so I see no duplicated strand.
+- **`1000-front` vs v89:** v89's two wheel columns standing on one thin slab (x≈140–280) have become a solid track block (x≈150–280, y≈800–948) that matches the left track.
+- **128:**
+  - `128-front-three-quarter`: v94 is a tan tank with a dark lower band and a normal track; v89 is a gray tank whose under-wheel ticks are not resolvable.
+  - `128-right`: v94 and clean are almost indistinguishable apart from the black skirt band.
+  - `128-front`: a symmetric pair of track blocks.
+
+**Strongest objections**
+1. **Physical/recognition.** The running gear now reads as an intact, functioning track. The chock defect is resolved, but no damage or wreck cue remains in the running gear. In `1000-right` the side silhouette is effectively the clean loop.
+   - The remnant and raised-wheel design is not legible at any size; only the faint arm tabs at 1000 hint at it.
+   - If the running gear is meant to carry any of the condition read, it currently carries none.
+2. **Condition readability.** At 1000, 256 and 128 v94 does not read as destroyed. It reads as a tan tank with a black skirt band.
+   - This is expected because the finish is deliberately not applied yet. Per your instruction, I am not counting it against the geometry.
+   - The previously charged v89 finish no-go and its limits still stand.
+3. **Two-tone skirt.** In `1000-right` the black skirt with one tan panel at x≈355–430 reads as panel-by-panel paint rather than a burnt or missing skirt. This will need to be resolved by the burn finish.
+4. **Source fidelity.** The source receipts say pins and hinges are omitted and gaps go up to about 6 mm. Neither is visible at review sizes, so I have no objection.
+
+**Recommendation**
+- **Geometry (steel loop, raised wheels, arms): KEEP DIRECTION WITH LIMITS.**
+  - This is the first W01 running gear that does not read as chocks, missing track, an extra strand or spare parts.
+  - Limit 1: it reads as intact, so any requirement for visible track damage is still open.
+  - Limit 2: final mask, native and dimension checks are still required.
+- **Finish: not assessed.** v89's charged finish findings carry forward unchanged.
+- The condition is not readable yet. Earlier attempts (v62, v77, v89) remain charged.
+
+---

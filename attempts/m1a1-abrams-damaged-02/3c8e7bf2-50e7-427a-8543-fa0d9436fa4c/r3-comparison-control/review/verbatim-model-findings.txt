@@ -1,0 +1,43 @@
+## D02 · damaged02-cover-v93 (job 3c8e7bf2… r3, ckpt caac130e…, GLB 9b8e20d0…)
+
+**What changed.** The scope audit shows the change is a cut of front-skirt faces 94–109, which form a small notch around the idler.
+
+**Six 256 views**
+- **Front three-quarter:** a light-gray slatted block under the front-right fender, with the near lower run stopping just behind it. Visually the same as v86 (step or grating box).
+- **Rear three-quarter:** shows the left side, intact; expected occlusion.
+- **Front:** a stepped stack of gray slabs under the right fender, stepping outward at the bottom. Unchanged from v86: it reads as a staircase.
+- **Left:** a far-side strand projects past the bow. This is orthographic projection, not duplicated geometry.
+- **Right:** a short dark strand hangs ahead of the idler. I can't tell it apart from v86 `256-right`.
+- **Top:** only a tiny dark notch at the front-right edge.
+
+**1000 and 128 against the same cameras**
+- **`1000-right` vs v86 and clean:**
+  - The only visible difference: in v93 the idler at (712, 625) is fully outlined, including its top arc. Shoes now visibly wrap over it (x≈730–745, y≈605–620).
+  - In v86 the skirt hid the top of the idler.
+  - Everything else is unchanged:
+    - about five tidy grounded shoes run on to x≈690;
+    - a strand hangs to about (780, 688), roughly 10 px above the ground line;
+    - the far-side climb fills the gap, so the loop still looks closed.
+  - The idler is more visible but not bare; shoes still wrap it.
+- **`1000-front-three-quarter` vs v86:** I see no visible difference. The fender corner still hides the idler, so the cover cut does not show in the hero view. The gap of about 20 px and the light slat stack (x≈520–580, y≈780–855) are the same as before.
+- **`1000-front` vs v86:** I see no visible difference. The stair-tread stack (x≈95–275, y≈790–948) is unchanged.
+- **128:** `128-right` and `128-front-three-quarter` look identical to v86 to my eye. `128-front` steps are just visible.
+
+**Damage vs missing equipment.** The cover change is too small to read either way. Where it shows (1000-right only), the crisp, straight edge looks like an intentional cutaway or a removed panel rather than torn or deformed metal. It does not read as damage.
+
+**Strongest objections**
+1. **The cover change does not carry the read.** It is visible only in the 1000 side view and invisible in the hero view and at 256 and 128. It exposes the idler without showing that the idler or track ends are damaged.
+2. **Every v86 objection still stands:**
+   - the loop does not visibly open;
+   - the shoes read as a staircase or ladder in the front and hero views;
+   - the grounded end is too regular;
+   - the hanging strand reads as an extra strand.
+3. **Material.** The light-lit gray steel faces still drive the step reading. This is unchanged.
+4. **Contact.** No clipping or floating cover is visible. The hanging end is about 10 px above the ground in the side view, but I can't resolve whether it touches the ground.
+
+**Recommendation: REJECT DIRECTION** for v93 as executed (the front-cover cut on top of the v86 track ends).
+- The geometry gives no visible gain over v86 in the views that matter.
+- The track-end damage is still not readable, and the condition is not readable in the hero view or at 128.
+- v86, v74 and earlier attempts stay charged. I did not treat the full269 binding as a validated successor.
+
+---
