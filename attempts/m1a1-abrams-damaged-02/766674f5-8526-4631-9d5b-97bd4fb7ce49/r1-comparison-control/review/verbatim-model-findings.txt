@@ -1,0 +1,34 @@
+## D02 damaged02-tail-v74 (job 766674f5…, CP 0f8333bf…)
+
+**Per-view observations**
+- **`1000-right.png`:** Seven pads leave the idler area at the front and run down in a straight diagonal. Only the end pad touches the ground, ahead of the hull. The rest of the loop (lower run, rear sprocket wrap, front climb to the idler) looks pixel-for-pixel the same as `clean-desert-v1-r2/1000-right.png`. It reads as an intact track with an extra strand hanging off the front.
+- **`1000-front-three-quarter.png`:** This is the hero view. The tail looks like a rigid grey **boarding ladder or ramp** hanging from the front-right fender: evenly spaced slats, straight, lit lighter than the dark track. The fender hides where it joins the idler, so it does not read as connected to the running gear. The lower run along the near (right) side is fully visible and continuous, the same as the clean model.
+- **`1000-front.png`:** Seen end-on, the right-side tail looks like a grating or ladder below the fender. Track width matches. The grounded end looks plausible and nothing visibly clips.
+- **`1000-left.png` / `256-left.png`:** The tail shows past the bow on the far side. This is normal orthographic projection, not duplicated geometry.
+- **`1000-top.png` / `256-top.png`:** Only a small grey slatted stub shows below the front-left corner of the image. No break cue is visible.
+- **`256-rear-three-quarter.png`:** This view shows the opposite side, so the cue is hidden as expected. The model is unchanged from clean here.
+- **`256-front-three-quarter.png`, `256-right.png`, `256-front.png`:** Same reads as at 1000: a ladder in the 3/4 view, a dangling strand in the side view.
+- **`128-right.png`:** The tail is a thin dark diagonal line at the bow. It could be a strut, a tow cable or a dangling strand, not clearly track.
+- **`128-front-three-quarter.png`:** A small grey ladder-like shape at the front corner.
+- **`128-front.png`:** Slight asymmetry below the right fender. Barely legible.
+
+**Compared with v59 (`damaged02-frontbreak-v59/1000-right.png`, `1000-front-three-quarter.png`)**
+- **Improved:** v59 was a tidy four-pad row lying flat on the ground ahead of the vehicle. It read as spares or maintenance stock, unconnected to the tank. v74 is attached at the idler, so it belongs to the vehicle in the side views.
+- **Same core failure:** In both, the right loop still reads as complete. In v74, only shoes 000–006 moved (`d02-attached-tail-phase2-v2.json` `scope.modifiedMeshes`). The other roughly 88 right-side shoes stay in place, so the loop is not visually opened.
+  - Far-side projection explains why the right orthographic view looks intact. It does **not** explain the front 3/4 view: there the near-side run is actually present and continuous.
+  - I could not find the seven-shoe gap in any render. The fender probably hides it.
+  - So the cue is "extra strand added to an intact track", not "broken or derailed track".
+
+**Strongest objections**
+1. **Recognition:** No view shows an opened loop. The hero 3/4 view reads as a ladder or ramp, and the 128 side view reads as a strut or cable.
+2. **Form and contact:** The seven pads form a rigid straight run with one grounded end, so it looks like a stiff prop rather than heavy track draped across the ground. The static contacts are verified; the visual weight is not convincing.
+3. **Reference fit:** The DVIDS image (`dvids-4423869-2018-1000w.jpg`) shows a long segmented run lying flat on the ground. v74 departs from it as a design choice. As the brief says, that image supports a generic displaced run only, not attachment or cause.
+4. **Material:** The slats light up lighter grey than the track and stand out against the dark track, which adds to the ladder read. Finishing could soften this, but cannot fix 1 or 2.
+
+**Also checked**
+- **Clipping and hovering:** None visible at any scale. The end pad sits on the ground.
+- **Distinct from W01:** Yes. Tan intact running gear with an attached strand, no crushed or charred under-wheel strip.
+
+**Recommendation: REJECT THIS GEOMETRY.** The fixes needed are geometric: open the loop at the idler or front, and lengthen and drape the run onto the ground. Material finishing cannot fix them. Keep the attach-at-idler idea for a successor. Preserve v74 as an unapproved charged attempt, with the v59 rejection and the attempt ledger unchanged.
+
+---
