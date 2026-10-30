@@ -1,0 +1,69 @@
+## W02 destroyed02-ash-v87
+Job `deabb081…` r3, checkpoint `d52ed9be…`, GLB `a16c4167…`.
+
+The selected index lists three v5 atlases (Hull 357 polygons, Left and Right Fender 234 each, max overlap 0) plus the flat-boundary record. The index itself states that output UV/GLB/PBR validation was pending when it was written. I'm treating that as pending, not as a failure.
+
+### Six 256 views
+- **`256-front-three-quarter.png`:** Clean tan. The rear is out of view; expected.
+- **`256-rear-three-quarter.png`:** The rear plate is slightly darker and mottled grey. The cavity is a small dark spot at the left of the plate. It is weaker than at 1000, but the plate is no longer one uniform dark brown as it was in v78.
+- **`256-front.png`:** Clean.
+- **`256-left.png`:** Dark grey at the rear end plus the vane silhouette (x≈235–250).
+- **`256-right.png`:** Dark grey at the rear end (x≈10–25). It mirrors the left view.
+- **`256-top.png`:** The rear deck end has irregular grey, black and tan patches (x≈95–160, y≈12–28). This is no longer a uniform band.
+
+### 1000 and 128 against the same cameras
+**`1000-rear-three-quarter.png` vs v78, v54 and clean:**
+- **v78:** a smooth dark brown plateau over the whole plate, with a linear fade.
+- **v87:** a broken pattern with irregular edges:
+  - black (x≈650–700, y≈740–830 and x≈880–910, y≈690–720);
+  - mid-grey and pale grey (x≈690–760, y≈705–760 and x≈840–880, y≈700–740);
+  - tan showing through.
+- Pale tones are now present, which answers v78 objection 1 in kind.
+- **The cavity** (bent vanes at x≈705–790, y≈740–805) now sits against a lighter grey area and separates from the plate again. It is clearly more legible than in v78's `1000-rear-three-quarter.png`, though slightly less than on the plain tan plate in v54.
+- At 1000 it still reads as **fractured**, not as an open service door, because the vanes are splayed and irregular.
+- **The risk:** soft-edged black/grey/tan blotches on a flat-shaded tank are very close to **disruptive three-tone camouflage**. Nothing is charred, blistered or exposed as metal, and there is no soot plume. Only the confinement to the rear argues against a camo reading. Hansen (`usmc-hansen.jpg`) shows real burnout can also look blotchy, but its main cues are white ash, bare light metal and debris on the ground, and v87 has none of these at comparable strength.
+
+**`1000-top.png` vs v78 `1000-top.png`:**
+- v78 had a straight-edged full-width dark rectangle.
+- v87 has irregular blotches at x≈370–630, y≈50–100 that break up the rectangle. This answers v78 objection 4 for the top view.
+- I did not see a visible linear stripe from the declared chart or flat discontinuities. The fender-tip patches (x≈335–365 and 635–665, y≈85–95) are small and consistent with the field, not a stripe.
+
+**`1000-right.png` vs v78 `1000-right.png`:**
+- v78 had a near-black rear end with an airbrush fade to x≈130.
+- v87 has a mid-grey rear end with slight mottle and a darker lower corner (x≈50–90, y≈580–640), fading by x≈100. It is greyer and less like a painted tail, but still a soft fade.
+
+**`1000-left.png`:** Nearly a mirror of the right view (x≈900–950). **Left/right symmetry remains.**
+
+**128 views:**
+- **`128-rear-three-quarter.png`:** A faint grey rear. It is very close to v78's `128-rear-three-quarter.png` and does not read destroyed.
+- **`128-top.png`:** A few grey specks at the rear.
+- **`128-right.png`:** Effectively clean.
+
+### Source, material, form, physical damage and recognition
+- **Source and form:** The v54 cavity and vanes appear preserved. There is no new geometry, and the vane still protrudes as recorded previously.
+- **Material:** The finish has improved in kind, from airbrushed plateau to broken char with pale tones, but it is ambiguous between char and camouflage.
+- **Physical damage:** The cavity is readable again at 1000, marginal at 256 and lost at 128.
+- **Recognition:**
+  - Roughly 85–90% of the vehicle is still clean tan, and the front three views show nothing.
+  - At 256 and 128 the vehicle does **not** read destroyed: it reads as a tank with a dirty or patterned rear.
+
+### Strongest objections
+1. **The destroyed reading as a whole fails** at the gameplay scales (`256-rear-three-quarter.png`, `128-rear-three-quarter.png`, `128-right.png`, `256-front-three-quarter.png`). A rear-only burn has to carry "destroyed" by itself, and it doesn't.
+2. **It can be read as camouflage.** In `1000-rear-three-quarter.png` and `1000-top.png` the blotches look like a disruptive pattern.
+3. **Left and right are still symmetric** (`1000-left.png` and `1000-right.png`).
+4. **The side-view fades are still soft ramps** (`1000-right.png`).
+
+**Recommendation: KEEP THIS DIRECTION WITH LIMITS.** The direction is mottled, multi-tone ash with the v54 cavity left readable.
+- **Progress on v78's objections:**
+  - Objection 1 (plateau): improved in kind.
+  - Objection 3 (cavity contrast): improved.
+  - Objection 4 (top rectangle): improved.
+- **Limits:**
+  - v87 is **not** an acceptable destroyed condition as it stands.
+  - The camouflage reading and the left/right symmetry are unresolved.
+  - The vehicle-scale destroyed reading needs more than the rear finish.
+  - I did not observe any chart or flat-seam stripes, but I'm not claiming they are absent under other lighting.
+
+v78, v68 and all earlier failures stay charged. Hansen is used as a broad reference only. I make no claim about cause, incident or 1991 pattern.
+
+---

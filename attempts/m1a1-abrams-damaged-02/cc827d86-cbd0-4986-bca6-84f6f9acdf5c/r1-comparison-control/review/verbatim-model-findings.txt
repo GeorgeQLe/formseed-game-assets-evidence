@@ -1,0 +1,79 @@
+## D02 damaged02-twoends-v86
+Job `cc827d86…` r1, checkpoint `40976ecf…`, GLB `0bd14498…`.
+
+The relocation manifest shows every original/repeat pair with the same hash, and pixels were not altered. Per the audit, shoes 002–010 changed and the protected 260 objects are exact. The audit itself says this does not establish anatomy or visual condition.
+
+### Six 256 views
+- **`256-right.png`:** A short dark strand hangs in front of the idler at the bow (x≈180–200, y≈160–178). The lower run looks continuous from sprocket to idler. Reads as "track with something dangling at the front", not as an opened loop.
+- **`256-front-three-quarter.png`:** A small lighter-grey slatted block sits under the front-right fender (x≈118–145, y≈200–215). The near-side lower run ends just behind it. Reads as a step or grating box, not as track.
+- **`256-rear-three-quarter.png`:** Shows the opposite side, which is intact and matches clean. This is expected camera occlusion, not a defect.
+- **`256-front.png`:** Below the right fender (image left) there is a stack of horizontal grey slabs that steps outward at the bottom (x≈25–70, y≈200–240). The other side is a uniform dark track block. This is the clearest asymmetry, but it reads as **steps or a staircase**.
+- **`256-left.png`:** The far-side strand shows past the bow (x≈55–65, y≈160–178). This is ordinary orthographic projection, not duplicated geometry.
+- **`256-top.png`:** Only a tiny dark notch at the front-right edge (x≈76–80, y≈165–175). No break cue.
+
+### 1000 and 128 against the same cameras
+**`1000-right.png` vs clean `1000-right.png` and v74 `1000-right.png`:**
+- Clean: the ground run turns up at x≈620 and climbs to the idler.
+- v86 shows three changes:
+  - the ground run carries on as about five regularly spaced grounded shoes to x≈690;
+  - a climbing strand still runs from x≈630 up to the idler;
+  - shoes still wrap the front of the idler (x≈735–750, y≈620–645), and a strand drops from there to about (780, 688).
+- Because the far-side climb projects over the near-side gap, the loop **still looks closed**. The two ends read as "extra shoes on the ground plus a strand hanging off the idler".
+- The idler is not visibly bare: its silhouette at (710, 630) looks the same as in clean.
+- The hanging end stops about 10 px above the ground line (y≈700). In this side view it reads as dangling free, which is plausible, but I can't confirm from this view whether it touches the ground.
+- v74 had a straight seven-pad diagonal grounded at x≈810. v86's drop is shorter and more chain-like, which is better as a drape. The "intact loop plus an add-on" reading is unchanged.
+
+**`1000-front-three-quarter.png` vs v74 and clean:**
+- v74 had a long straight grey **ladder** at x≈520–610, y≈770–875.
+- v86 instead shows:
+  - the near-side lower run stopping at about (500, 830);
+  - a separate, shorter stack of lighter-grey slats at x≈520–580, y≈780–855, with a visible gap of about 20 px between them.
+- That gap is the first actual two-ends evidence in the hero view, which is a real improvement.
+- The stack is still evenly spaced, flat-faced and lighter-lit than the dark track, so it still reads as a **step box or grating** rather than broken track.
+- The fender hides the idler, so the "exposed idler" cannot be seen in this view.
+
+**`1000-front.png` vs v74 `1000-front.png`:**
+- v74 had an even column of grey slats.
+- v86 has slabs that step outward and downward (x≈95–275, y≈790–948), with the lowest one sticking out past the track width. That suggests something fell sideways, which is better. It still looks like **stair treads**.
+
+**`1000-rear-three-quarter.png`:** Opposite side, intact; expected.
+
+**`1000-top.png`:** A dark stub at x≈315–335, y≈650–690 and a grey slab at x≈330–385, y≈775–785. Barely noticeable.
+
+**128 views:**
+- **`128-right.png`:** A thin dark dangle at the bow. It reads about like v74's `128-right.png`, as a strut or cable.
+- **`128-front-three-quarter.png`:** A small grey block under the front corner. It is less ladder-like than v74's `128-front-three-quarter.png` but still not track.
+- **`128-front.png`:** Steps are just about visible under the left fender of the image.
+- **`128-rear-three-quarter.png`:** Clean.
+
+### Source, material, form, contact and recognition
+- **Source and geometry:** The audit reports actual geometry matching the plan within 1 µm, and the protected objects and materials are exact. Neither says anything about how the track reads visually.
+- **Material:** The steel/rubber split is unchanged. On upward-facing shoe faces the lighting makes the steel look light grey against the dark track, which drives the step/ladder reading in `1000-front-three-quarter.png` and `1000-front.png`.
+- **Form:** The pads keep a constant pitch and parallel faces, with no twist and no hanging slack. The five grounded shoes in `1000-right.png` look as tidy as an intact run (the audit's own hold also flags this).
+- **Contact:**
+  - Ground-run contact looks the same as clean.
+  - The hanging end in the right view sits about 10 px above the ground.
+  - The bottom slab in the front view looks grounded.
+  - I saw no clipping or hovering artefact that I'd call a defect.
+- **Recognition:** In the hero view it does not read as cargo or as a maintenance layout, but it does read as a step. In the side view it reads as an extra strand. No view reads clearly as "track broken, loop open".
+
+### Strongest objections
+1. **The loop does not visibly open.** In `1000-right.png` and `256-right.png` the lower run plus the far-side climb look like the clean loop. The gap the geometry creates is hidden by projection and the fender.
+2. **It still reads as steps or ladder.** See `1000-front-three-quarter.png`, `1000-front.png` and `256-front.png`. It is shorter than v74's ladder but the same kind of thing.
+3. **The idler is not visibly exposed** in any view. In `1000-right.png` shoes still wrap the front of the idler.
+4. **The grounded end is too regular.** In `1000-right.png`, x≈630–690, it looks like the run simply continues.
+5. **No cue at 128** beyond what v74 already had.
+
+**Recommendation: REJECT THIS DIRECTION.** I mean the local nine-pad idler-region revision as executed in v86.
+- **Improvements over v74:**
+  - a visible gap in the hero view;
+  - outward fall in the front view;
+  - a more chain-like drop.
+- **Why it still fails:** every change sits in the region that the fender and far-side projection hide. A successor needs:
+  - a visibly empty stretch of road wheels or idler on the near side in the side and three-quarter views;
+  - irregular, twisted or slack shoes rather than parallel slats;
+  - shoe value kept dark enough that they don't read as steel steps.
+
+v74, v59 and all earlier charges stay as they are. v86 should be kept as an unapproved charged attempt. The full269 binding being prepared is not a validated successor, and I treated nothing in it as one.
+
+---

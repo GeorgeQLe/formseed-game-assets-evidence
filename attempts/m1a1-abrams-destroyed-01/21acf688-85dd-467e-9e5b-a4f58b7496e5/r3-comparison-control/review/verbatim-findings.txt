@@ -1,0 +1,130 @@
+# W01 M1A1 destroyed-01 whole-body burnout v89: read-only actual PBR review
+
+**Bottom line:** v89 is not yet usable as a preliminary burned-out tank. It is still clearly an Abrams at every size. It has two unresolved primary defects:
+
+- **Burnout read:** from the three-quarter views and from the left it does not read as burned out. At 128 and 256 it reads as an intact tank in a plain gray paint scheme.
+- **Running gear:** the right running gear reads as wheels standing on chocks, not on track.
+
+The source checks and the visual review are separate. The source validation passed. The independent native/mask audit may still be pending, which is not a failure. Nothing here implies human approval, a score, a formal go, or a reset of the attempt history.
+
+## Provenance checked
+- `relocation.json` and `original-render-evidence.json` both match the run you named: job 21acf688…, r3, checkpoint af85f635…, GLB f7056af5….
+  - Every 1000, 256 and 128 view has a matching repeat render with the same hash, so the renders are deterministic.
+  - Bounds are fixed and identical across the compared versions, so the cameras match.
+  - Neither file records any human approval or review-gate change.
+- The ready audit (`w01-whole-v2-independent-ready-audit-v1.json`) passes for bounded technical authoring.
+  - 35 parts got the new finish; 181 parts' geometry is unchanged and locked.
+  - The new burn materials are roughness 0.86, metallic 0.
+  - It says itself that it does not settle whether the finish reads as paint or whether the pads read as chocks.
+- The proposal index (`w01-whole-body-proposal-index-v2.json`) already listed "Wheel-chock appearance remains open" as a risk.
+
+## The six 256 views (`destroyed01-wholeburn-v89/256-*.png`)
+- **`256-right.png`:** charcoal hull and turret, with lighter gray soft blotches mid-skirt and on the turret cheek, and a pale wedge on the turret front.
+  - This is the closest view to "blackened": it could pass as smoke-darkened.
+  - It could equally read as a dark tank in camouflage blotches.
+- **`256-left.png`:** even mid-gray, tan road wheels, intact track. It reads as an undamaged gray tank, with no burn cue at all.
+- **`256-front.png`:** gray turret and glacis.
+  - On the right side, the wheels show as two dark columns standing on a single flat slab; the left track is a solid block.
+  - Pale tan sight housings and headlight guards stand out as bright spots.
+  - It reads as a gray tank missing one track, not a burnt one.
+- **`256-top.png`:** gray overall. There are small dark smudges around the commander and loader hatches and one pale patch at the right rear of the turret. These are faint at this size.
+- **`256-front-three-quarter.png`:**
+  - Gray body with a dark right flank.
+  - One dark tick sits under each wheel, so the wheels look raised on blocks.
+  - A bright tan box sits on the turret front, plus the shoe group at the bow.
+  - The burnout is not legible; it reads as a gray tank on blocks.
+- **`256-rear-three-quarter.png`:** gray body, tan wheels, intact left track, shoe group behind the hull. It reads as an intact gray tank with debris behind it.
+
+## 1000 and 128: v89 against v77, v62 and clean (same cameras)
+
+**`1000-right.png`**
+- v89 vs v77: the black skirt band plus tan upper hull is replaced by a charcoal hull and turret.
+- The pale gray blotches now cross panel seams: x≈140–330 across the seams at x≈190 and 293, and x≈430–520 at y≈580–630.
+  - That fixes v77's objection that the change stopped at each panel's edges like panel-by-panel spray paint.
+  - But the blotches have soft, rounded, near-white cloud shapes. They read as camouflage blotches or smoke graphics rather than ash.
+- The turret front wedge (x≈550–615) stays pale as a separate panel.
+- Unexplained pale spots remain: a pale tan disc at the rear sprocket position (x≈128, y≈628; it was a dark gear in v62 and v77), the pale front idler (x≈685–740), and the tan muzzle tip.
+- From this side view, the dashed ground row cannot be split between the right-side pads and the far-side track, so the pads are not judged here.
+
+**`1000-left.png`**
+- Even warm gray, tan wheels, intact track. Compared with v77's clean tan, only the hue changed.
+- No ash, soot or value variation is visible.
+
+**`1000-front-three-quarter.png`**
+- v62 and v77 were tan with a black skirt. v89 is mid-gray with a dark flank.
+- The ash shows only as faint pale patches on the turret roof near the rail (x≈210–320, y≈395–440).
+- Bright tan items are now the highest-contrast marks on the model:
+  - the turret-front housing at x≈388–465, y≈485–530;
+  - the bow guards at x≈525–565, y≈690–718 and x≈750–790, y≈625–652;
+  - the muzzle.
+- Pads and shoe groups: compared below under "Running gear".
+
+**`1000-rear-three-quarter.png`**
+- v77 was tan; v89 is uniform gray with tan wheels, tan stowage boxes and tan bow guards. No burn cue is visible.
+
+**`1000-top.png`**
+- v62 was tan with a black right fender strip.
+- v89 is gray, with dark blotches around the commander hatch (x≈420–490, y≈330–520), near the loader hatch (x≈520–575, y≈360–400), and streaks on the front hull (x≈455–540, y≈620–775).
+  - Soot concentrated around the hatch openings is the best burnout cue anywhere in this set.
+- A near-white patch at x≈395–470, y≈205–300 reads more like a splash of white paint than ash.
+- The left half of the turret roof is clean.
+
+**`1000-front.png` (v89 only)**
+- The right-side wheel columns stand on one flat slab (x≈140–280, y≈930–948).
+- On its own, this reads acceptably as a single track shoe seen end-on.
+
+**128 views**
+- `128-front-three-quarter.png`: v77 and v62 are a tan tank with a black lower band; v89 is a gray tank with a dark lower band. Neither reads as burnt.
+- `128-right.png`: v89 is a dark tank with a light smudge, which is plausible as blackened. v77 and v62 read as two-tone tan and black. Clean is uniform tan.
+- `128-left.png` and `128-rear-three-quarter.png`: an intact gray tank (v89) versus intact tan (v77).
+- `128-top.png`: v89 is gray with a few specks, against v77's tan.
+- Recognition as an Abrams holds at every size in every version.
+
+## Source, material, primary form, contacts, recognition
+- **Primary form:** silhouette, turret, gun, bustle rack and hull are unchanged and recognizable at all sizes.
+- **Material:** the matte gray (roughness 0.86, no metal anywhere) reads as primer or a gray paint scheme.
+  - Compared with S/usmc-hansen.jpg, which I am using only as a broad cross-period analogue, not an exact incident or pattern:
+    - The photo shows broken-up black soot, rust-brown, pale ash and leftover camouflage, varying across every visible face.
+    - v89 has one flat gray with localized blotches, and those are visible mainly in the right and top orthographic views.
+- **Pale items left on the gray body (what is visible only; I can't tell which mesh owns what from an image):**
+  - Tan casings: the turret-front sight housing in `1000-front.png` (x≈298–402, y≈472–505) and in `1000-front-three-quarter.png` (x≈388–465, y≈485–530).
+  - Tan frames around the headlight and bow clusters.
+  - Tan side boxes on the turret roof.
+  - Tan smoke-launcher mounts.
+  - The tan muzzle tip.
+  - The glass inside these casings, and the cupola vision blocks in their gray rings, render as clean blue. I can tell the glass apart from the surrounding tan hardware.
+  - Together these tan accessories and clean glass are the strongest single sign that the tank was not burnt.
+- **Physical contacts:**
+  - The right road wheels appear to sit on the pads, and the pads cast shadows onto the ground. I see no visible float or intersection at this resolution.
+  - The right road wheels themselves stay bright silver-gray.
+
+## Strongest objections
+1. **Burnout is not legible from the three-quarter views, the left side, or at 128 and 256.** Desaturating the whole body has swapped "pristine tan" for "pristine gray". This is a primary finish defect.
+2. **Clean tan accessories and clear blue glass contradict a burnout** and draw the eye at every size.
+3. **The ash blobs read as camouflage or smoke graphics:** soft-edged, near-white clouds. The only convincing soot is around the hatches, and it is one-sided.
+4. **The running gear reads as chocks** (detailed below). A passing material check does not excuse this physical objection.
+
+## Running gear
+- In `1000-front-three-quarter.png`, the seven dark pads sit one under each wheel, all the same size and evenly spaced:
+  - roughly x≈150–185 / y≈630 through x≈420–455 / y≈795;
+  - with open ground between them;
+  - with nothing linking them along the run.
+- They read as wheel chocks or pedestals. The tank looks jacked up on blocks, not resting on short lengths of track.
+- The gray body makes them stand out more than the tan body of v62 and v77 did; the geometry and placement look identical across all three versions.
+- The fanned shoe group at the rear (x≈70–140, y≈575–615) and the flat stack at the bow (x≈455–545, y≈795–845) still look like laid-out planks or spare shoes.
+- At 256 they show as dark ticks under each wheel. At 128 they are not readable.
+- I make no claim about what caused the failure, about mobility, or about engineering. This is purely what the image shows.
+
+## Recommendations
+- **Finish: KEEP DIRECTION WITH LIMITS.**
+  - Covering the whole body is right, and it fixes v77's main failure of leaving 75–80% of the tank clean.
+  - Limit 1: flat desaturation on its own fails as the burnout carrier, so v89 itself does not pass as a burnout read.
+  - Limit 2: a passing finish needs strong light-and-dark variation (soot-dark, ash-pale) on every side, including the left and the top.
+  - Limit 3: the remaining tan casings and accessories need to stop reading as factory-fresh.
+  - Limit 4: the ash shapes need to stop reading as clouds.
+- **Physical running gear: REJECT DIRECTION.**
+  - Isolated, evenly spaced one-per-wheel pads read as chocks in the three-quarter view, and they have done so through v62, v77 and v89.
+  - What is still open is the look of track: linked shoes running under several wheels, with breaks that don't line up with each wheel.
+  - The v62 escalation condition, which calls for reopening the wheel-station geometry, still stands.
+
+**Is the whole model usable as a preliminary burned-out tank?** No. Recognition is fine, but the finish legibility and the chock-like supports are both unresolved primary defects. v89 counts against the attempt budget, all earlier attempts stay counted, and nothing is reset.
