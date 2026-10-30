@@ -1,0 +1,51 @@
+## D03: damaged03-recovered-v95
+
+### Six 256 views
+| View | What I see |
+|---|---|
+| `256-front-three-quarter.png` | Clean tan M1A1. The deck is out of view, which is expected. |
+| `256-rear-three-quarter.png` | A dark charred patch around the near grille bay, at about x≈165–190, y≈172–190. It is separable from the grille's own dark slats. v84 at 256 shows only the slats. |
+| `256-front.png` | Same as clean. |
+| `256-left.png` | The lifted-slat tick on the rear-deck line. The soot isn't visible from the side, which is expected. |
+| `256-right.png` | Clean. The opposite side naturally hides the damage. |
+| `256-top.png` | A distinct black, lobed blot over the right-of-image bay, at about x≈130–160, y≈15–50. It is clearly stronger than the barely-visible cast in `soot-v84/256-top.png`. |
+
+### 1000 and 128, same cameras
+**`1000-top.png`:**
+- v95 has a black-gray blot at about x≈505–625, y≈60–195.
+  - It is centered on the bent bay and bleeds onto the cross plate (y≈170–195) and onto the rear deck (y≈60–105).
+  - The left bay at x≈398–475 stays clean.
+- v84 (same file name in `damaged03-soot-v84/`) had only a faint brown smudge. v69 has bent bars and no smudge. Clean has a single continuous grille.
+- It isn't a shadow: scene shadows fall up-left, while the blot is black and sits on the feature.
+- It isn't symmetrical paint: only one bay is marked.
+
+**`1000-rear-three-quarter.png`:**
+- v95 has a dark, mottled halo at about x≈620–760, y≈680–750 around the near bay.
+- v84 and v69 look identical to each other: brown curled slats on clean tan. Clean has one grille.
+- This fixes the v84 charge that the soot didn't show in the main oblique view.
+
+**`1000-left.png`:** the lifted slats break the deck line at x≈850–890. There is no soot, as expected.
+
+**128:**
+- `128-top.png`: v95 shows a dark spot at the upper right. v84 has none.
+- `128-rear-three-quarter.png`: v95 shows at most a slightly darker grille spot compared with v84, v69 and clean. This is marginal and I wouldn't count it as visible.
+
+### Strongest objections
+1. **The blot looks like an ink blot.** It is a rounded, lobed cloud with a uniform black core and a soft halo, and it has no directional streaking. It could also pass for spilled oil, a burnt patch or a decal-like stain rather than soot patterning.
+2. **Pale specks inside the blot are ambiguous.** In `1000-top.png` at about x≈520–575, y≈150–190, they are close to the background's blue-gray. They could read as ash or as see-through holes.
+3. **The blot stops beside a clean tan fender.** On the right, the black ends right next to the fender lip at about x≈625–635. This could be occlusion, but it may read as an owner cutoff.
+4. **The two-bay grille still differs from clean v1.0's single grille.** This charge carries over unresolved.
+5. **No damage reads anywhere else.** This is consistent with a "damaged", not "destroyed", brief. Recognition and primary silhouette are intact at every size. I make no claim about thermal or other cause.
+
+**Grille coherence:** the soot context now makes the brown curled slats read more like a warped, scorched grate than loose debris. It is a modest gain; the framed bay still reads as one deformed grate next to an intact one.
+
+**Does the whole model read as damaged at game sizes?** Yes in top-down views at 128, 256 and 1000, and in the oblique view at 256 and 1000. It does not read in oblique 128.
+
+### Recommendations (informal)
+- **Finish: KEEP DIRECTION WITH LIMITS.**
+  - Break up the blot shape with streaking or a falloff tied to the vents.
+  - Resolve the pale specks.
+  - Don't count it as visible at 128 oblique.
+- **Physical geometry (the source bent grille): KEEP DIRECTION WITH LIMITS.** The grille-layout decision is still open, and the v69 and v84 limits stand. No approval transfers.
+
+---

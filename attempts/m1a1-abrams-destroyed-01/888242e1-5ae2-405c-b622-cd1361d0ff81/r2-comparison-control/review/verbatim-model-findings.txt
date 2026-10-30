@@ -1,0 +1,80 @@
+## W01: destroyed01-patina-v96
+
+### Six 256 views
+| View | What I see |
+|---|---|
+| `256-front-three-quarter.png` | Whole-body warm charcoal with pale streaks on the turret cheek and glacis. The track is continuous and there are no chocks. Pale road wheels and cream bow-light frames stand out. |
+| `256-rear-three-quarter.png` | Dark body with faint streaks on the bustle and deck. There are tan boxes on the turret roof, the wheels are pale and the track is intact. |
+| `256-front.png` | Gray turret front with whitish cloud and streak shapes. Tan sight boxes sit on the roof, the bow-light frames are cream with blue glass, and both track blocks are symmetric. |
+| `256-left.png` | Mid-dark gray with faint lighter streaks. This is an improvement on v89's flat gray, but it still reads as intact. There is a row of bright road wheels. |
+| `256-right.png` | The darkest side, with pale streaks across the turret and hull. The idler and sprocket hubs are pale. |
+| `256-top.png` | Dark gray with long pale slanted streaks over the whole deck and turret. Cream bow guards and antenna bases remain. |
+
+### 1000 and 128, same cameras
+**`1000-front-three-quarter.png`:**
+- v96 has a whole-body charcoal finish. The muzzle, sight housing and smoke-launcher boxes are now dark; in v89 they were tan, which fixes that v89 charge.
+- The pale soft blotches are at about x≈210–330/y≈390–560, x≈440–560/y≈580–660 and x≈740–830/y≈590–700. They read like dappled sunlight or camouflage.
+- v94 was tan with a black skirt. v89 was gray with chocks and shoe stacks.
+- v96 keeps v94's continuous run: wheels seated, no hover, no chocks, no plank stacks.
+
+**`1000-left.png`:**
+- v89 was even gray. v96 adds faint pale streaks on the bustle (x≈580–700, y≈500–550) and the rear hull (x≈650–800, y≈560–620).
+- The smoke-launcher box is now dark. The road wheels and sprocket hub (x≈870, y≈628) stay pale tan.
+
+**`1000-right.png`:**
+- v89 had near-white cloud blobs. v96 has softer streaks, at x≈260–400/y≈500–550 and x≈170–300/y≈590–640.
+- The pale turret-front wedge (x≈550–615) persists as a lighter slab.
+- The rear sprocket hub disc (x≈128, y≈628) and the front idler stay pale.
+- The muzzle is now dark. The loop has the same silhouette as v94's.
+
+**`1000-top.png`:**
+- In v96 the slanted streaks of similar width repeat across the hatches, deck and glacis.
+- v89's best burnout cue, soot concentrated around the commander and loader hatches, is gone. Its near-white splash is also gone.
+- Pale items remain: the box at x≈455–475, y≈440–470, the bow guards at about x≈370–392 and x≈607–630 (y≈725–755), the antenna bases at y≈250, and the launcher mount plates.
+
+**`1000-rear-three-quarter.png`:**
+- v94 was tan. v96 is dark with streaks on the deck and bustle (x≈600–840, y≈560–740).
+- Tan boxes remain at x≈460–515/y≈485–530 and x≈545–580/y≈450–480, and the lift brackets are cream.
+
+**`1000-front.png` (v96 only):**
+- Cloud-like puffs sit on the left turret face (x≈240–330, y≈560–630).
+- The mantlet box reads as a uniformly darker separate panel.
+- The diagonal dark band across the glacis is the gun's cast shadow, not the finish.
+- The sight boxes are tan, at x≈405–445 and x≈640–675 (y≈388–430). The light frames are cream with blue glass.
+
+**128:**
+- `128-front-three-quarter.png`: v96 and v89 look nearly the same, a dark gray tank. v94 is a tan tank with a dark band.
+- `128-left.png`: a gray tank with a row of bright wheel dots. The wheels are the dominant "clean" cue.
+- `128-right.png`, `128-top.png` and `128-rear-three-quarter.png`: a plain dark-gray tank with faint streaks.
+- Recognition as an Abrams holds everywhere.
+
+### Strongest objections
+1. **It reads as a camouflage or dark-paint scheme, not a burnout.**
+   - The map is cool neutral gray at one mid-dark value, with whitish soft streaks.
+   - It has no char-black, rust-brown or bare-metal extremes. S/usmc-hansen.jpg, used only as a broad analogue, varies across every face.
+   - At 128 the streaks vanish and leave "dark gray tank".
+2. **The pattern looks regular.** The same slant and stroke width repeat across the top, which reads as one repeated brush. It isn't a hard tile.
+3. **The localization cue was lost.** v89's hatch-concentrated soot was its strongest cue, and nothing replaces it.
+4. **Clean pale parts remain:**
+   - road wheels on both sides;
+   - sprocket and idler hubs;
+   - cream bow and headlight frames with clear blue glass;
+   - tan roof sight and ammo boxes and MG pintle parts;
+   - lift brackets and antenna bases.
+5. **Seams and chart splits:** I saw no obvious hard UV split line at 1000. The mantlet and the right turret wedge do read as separately toned panels. The 0.14-linear hard-edge risk is not observed at these sizes, which doesn't prove it is absent.
+
+### Physical geometry
+- v94's continuous steel loop is retained and coherent: no chocks, no hover, and the front view is symmetric.
+- The separate concern still stands: the loop reads as intact, functioning track.
+- 96 source shoes don't establish an exact real incident.
+- The bright wheels against the dark hull amplify the intact read.
+
+**Does the whole model read as destroyed at game sizes?** No.
+
+### Recommendations (informal)
+- **Finish: KEEP DIRECTION WITH LIMITS.**
+  - The shared whole-body chart carrier is right: it fixes v89's left-side, top and tan-casing gaps.
+  - The map content fails as a burnout read. It needs char-black and rust value and hue extremes, soot concentrated at openings, broken streak regularity, and darkened wheels, hubs and hardware.
+- **Physical geometry: KEEP DIRECTION WITH LIMITS.** This is unchanged from v94, and any requirement for visible track or running-gear damage is still open.
+
+All prior failures and charges are preserved: D03 v69 and v84, and W01 v62, v77, v89 and v94. Nothing here is a score, a rater record, source approval or human approval.

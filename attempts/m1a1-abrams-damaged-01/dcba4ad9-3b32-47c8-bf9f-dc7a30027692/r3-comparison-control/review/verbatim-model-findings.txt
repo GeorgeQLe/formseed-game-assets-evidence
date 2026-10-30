@@ -1,0 +1,46 @@
+## D01 — damaged01-scuff-v98 (job dcba4ad9…, r3, CP d9436ad8…, GLB 4cc43eeb…)
+
+**Provenance.** `relocation.json` and `original-render-evidence.json` bind these to the stated job, checkpoint and GLB. Framing is locked to the clean source and the same for every sibling, with the 6 views at fixed azimuths. `pixelsAltered`, `humanApproved` and `reviewGateAdvanced` are all false. Both authored textures (`LeftSkirts-scuff-v1.png`, `Hull-scuff-v1.png`) are opaque tan with one small angular gray motif each. The skirt motif is a cluster of sharp-edged, roughly parallelogram shards. The hull motif is a single pointed lozenge with two light diagonal score lines.
+
+**Six 256 views**
+| File | Observation |
+|---|---|
+| `256-front-three-quarter.png` | Shows the right flank. No wound, which is the expected occlusion. Reads as a whole Abrams. |
+| `256-rear-three-quarter.png` | A tiny dark fleck on the left skirt at about the third panel. It looks the same as v67's fleck and reads as a fitting or speck, not damage. |
+| `256-front.png` | Clean. Expected. |
+| `256-left.png` | A dark mark about 6–8 px mid-skirt. It is a bit more ragged than v67's `256-left.png`, but it still reads as a small emblem or decal at this size. |
+| `256-right.png` | Clean. Expected. |
+| `256-top.png` | Clean. The skirt face can't be seen from above. |
+
+**1000 comparisons on the same cameras**
+- **`1000-left.png` against v67, v52 and clean `1000-left.png`.**
+  - The only change is the mark at about (580–640, 600–635).
+  - v67 and v52 look effectively identical to each other: a tidy hex outline with evenly spaced light radial strokes, like a port or badge.
+  - v98 has a darker, filled central opening and uneven grey scrape smears. They extend further to the left and lower-left than to the right, with darker chips at the rim.
+  - The symmetric "hex with rays" reading is clearly weaker. It now looks more like a gouge with scraped paint around it.
+  - The opening is still compact and centered in one panel, and it still has a faint lozenge outline.
+  - The clean control confirms that everything else is unchanged.
+- **`1000-rear-three-quarter.png` against v67.** At about (410, 705) both show a small dark diamond with a light rim. I can't see a difference. At this angle it still reads as a small vent or plate, so the v67 charge stands for this view.
+- **`1000-front-three-quarter.png`.** The opposite flank, and identical to the earlier renders. This is expected.
+- **128.** In `128-left.png` (against v67 `128-left.png`), `128-front-three-quarter.png` and `128-rear-three-quarter.png` I see no cue at all. That is acceptable for light damage, and I am not asking for it to be enlarged.
+
+**Hull behind the opening.** At 1000-left the opening is darker and greyer than in v67. That fits with scuffed grey hull showing through, so it is plausible in kind. At this resolution I can't separate the hull scuff from the opening's shadow. I see no light-coloured patch that would suggest the hull is missing or that a backface is showing.
+
+**Strongest objections**
+1. **The outline is still too designed (`1000-left.png`, `LeftSkirts-scuff-v1.png`).**
+   - The shards are crisp, straight-edged and partly parallel, so close up they read more like an applied graphic than worn paint.
+   - The opening still sits neatly in the middle of a panel.
+   - The "manufactured" charge is reduced, not removed.
+2. **No improvement in the rear-three-quarter view (`1000-rear-three-quarter.png`).** It is indistinguishable from v67, so the fitting or vent ambiguity from v67 persists in that view.
+3. **Material.** The scrape is a flat mid-grey with no metallic or roughness difference that I can see. There are no hard texture seams, stripes, floating pieces or colour bleed onto other parts. The rest of the Abrams and its materials are unchanged and coherent.
+4. **Source.** Damage on the skirt is supported as a category; see `usmc-mco-8420-13-p326.png` in the prior findings. The shape, the paint and substrate, and the location are all designed, not measured, as the brief discloses.
+
+**Informal recommendation, finish: KEEP DIRECTION WITH LIMITS.**
+- This is the first D01 finish revision with a visible benefit over v67 and v52, and only in the 1000-left view.
+- The limits:
+  - The rear-three-quarter view still reads as a fitting.
+  - At 256 it still reads as a decal.
+  - The angular shard artwork needs softer, less regular edges before it reads as worn paint.
+- The physical form, which is the v52 source opening, is unchanged. Its manufactured-outline charge stays open.
+
+---
