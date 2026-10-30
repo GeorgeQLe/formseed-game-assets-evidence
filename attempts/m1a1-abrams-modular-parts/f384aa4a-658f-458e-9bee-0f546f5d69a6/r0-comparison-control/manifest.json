@@ -1,0 +1,88 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-abrams-modular-parts",
+  "project": "formseed-game-assets",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "f384aa4a-658f-458e-9bee-0f546f5d69a6",
+    "revision": 0,
+    "checkpointSha256": "1f3568cba998af7577e087d86ba221e5e01b26e89fc39be38a18809c8ff66101"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "ae84e65765647a6dac03c21cabbd89f3681e20fb8934f937766ff45d3bf648ce",
+    "files": [
+      {
+        "path": "renders/front-three-quarter.png",
+        "sha256": "ae84e65765647a6dac03c21cabbd89f3681e20fb8934f937766ff45d3bf648ce",
+        "bytes": 430089
+      },
+      {
+        "path": "renders/rear-three-quarter.png",
+        "sha256": "90660a5869cacf69e8637dd7ecaa61d6d8dc237b30e104c8a5c9de98967fb9f6",
+        "bytes": 424181
+      },
+      {
+        "path": "renders/front.png",
+        "sha256": "a1a28832a59ef4e66371f89ff21eff74d0b91ad287003c0f1c0cd68a0505e8ed",
+        "bytes": 312540
+      },
+      {
+        "path": "renders/left.png",
+        "sha256": "a6244f21e3304b9a0ba4aeb2650530e464e3c2877b646fd2d3266bb22e291b1f",
+        "bytes": 349911
+      },
+      {
+        "path": "renders/right.png",
+        "sha256": "374260706dd58a2e18cf6bc435221486d439349965cc56f513e90336bfb67b9e",
+        "bytes": 349327
+      },
+      {
+        "path": "renders/top.png",
+        "sha256": "7be454433cc9759fddb307fb3a578e9f92961c40ddb014cb853f1dab4b8c7b7d",
+        "bytes": 497251
+      },
+      {
+        "path": "review/opus-final-review.json",
+        "sha256": "c307ef1e4886362966608a14f2ed790142bc6b9b76f0d0ddb65cc339b8746b92",
+        "bytes": 7929
+      },
+      {
+        "path": "review/technical-scope.json",
+        "sha256": "3b077c141afe1cb3015686fc106e97ef53ed75bd460e6d589f04123c68c03906",
+        "bytes": 1797
+      },
+      {
+        "path": "review/part-registry.json",
+        "sha256": "3a09f2e6f08d242b639f9f2dd4db7a8546133e846f6baa9df1ee244e1bbffed4",
+        "bytes": 409818
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://github.com/GeorgeQLe/formseed-game-assets/blob/78a56c7b/catalog/asset-releases/m1a1-abrams/1.0.0/release.json",
+        "sha256": "8c0665189f7222d2bedb32a44bd1c1dbe37653c53eec99c5758d0110ee53177f",
+        "author": "George and FormSeed authored asset lineage",
+        "license": "CC0-1.0 authored Abrams evidence; source metadata only",
+        "role": "Approved clean lineage; no third-party source pixels included"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Actual independent Opus5.5 supports static modular source direction; no formal visual go or human approval.",
+    "Source pixels reproduced in all six views; all279 mesh native probes and six-view mask partition verified separately."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
