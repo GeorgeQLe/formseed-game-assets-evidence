@@ -1,0 +1,26 @@
+## D03 — damaged03-fire-v69 (r1, checkpoint `2c91e4de…`, GLB `96fd83d5…`)
+
+**256 views**
+| File | Observation |
+|---|---|
+| `256-front-three-quarter.png` | Looks clean. The rear deck is hidden, as expected. |
+| `256-rear-three-quarter.png` | Two separate grille bays are visible. The near (left) bay has a darker, irregular blob. You can tell it from clean when comparing side by side. |
+| `256-front.png` | Looks the same as clean. |
+| `256-left.png` | There's a very small raised tick on the rear deck line. It's hard to see. |
+| `256-right.png` | Looks clean. The raised bay is on the left side. |
+| `256-top.png` | Two framed bays are visible. The right-hand bay in the image (the vehicle's left) has broken bars. |
+
+**1000.** In `1000-rear-three-quarter.png` the left bay has brown, curled, lifted slats. They are clearly nonplanar and sit inside the frame, so they don't float. The right bay and the solid center look normal. In `1000-left.png` the lifted bars break the rear deck silhouette, which is a real geometric cue. In `1000-top.png` the left bay's bars are wavy with gaps, and the right bay is regular.
+
+**128.** In `128-rear-three-quarter.png`, `128-left.png` and `128-top.png` you can't tell it from clean.
+
+**Controls.** `clean-desert-v1-r2/1000-top.png` has one wide grille, and v69 clearly differs from it. `damaged03-candidate5-closed-rack-v40/1000-rear-three-quarter.png` has two thin rods near the bustle that read as wires or a floating rack. **v69 is clearly better than v40.** It has no floating parts, no fake hole and no black-painted decal look.
+
+**Strongest objections**
+1. **Mismatch with the clean baseline.** The two-bay layout supported by the sources doesn't match the single grille on the locked clean v1.0 (`clean-desert-v1-r2/1000-top.png`). So even the undamaged right bay differs from clean. Either the change spreads to the whole set or the layout itself gives the variant away. This needs a decision recorded across the set.
+2. **The lifted slats could read as debris.** At 1000 rear-three-quarter, the brown curled slats could pass for debris lying on the grille rather than a warped frame. The brown char color adds to that.
+3. **The damage is invisible at 128 and marginal at 256.** That's normal for a top-deck feature seen from the side, but it means this is a feature for close range.
+
+**Source context compared with designed choices.** `m1a1-fort-knox-afv-rear-deck.jpg` and the M1 predecessor diagram support framed lateral grilles on an M1A1. The uneven lift, its location and the char are designed choices with no photo match.
+
+**Informal recommendation: retain for finishing, with limits.** It's a sound physical direction: connected, nonplanar damage that doesn't read as a service opening. Before finishing, resolve the grille-layout question against clean v1.0. Make the lifted shape read as a warped frame, not as loose material. It won't communicate fire yet, and it doesn't claim to.

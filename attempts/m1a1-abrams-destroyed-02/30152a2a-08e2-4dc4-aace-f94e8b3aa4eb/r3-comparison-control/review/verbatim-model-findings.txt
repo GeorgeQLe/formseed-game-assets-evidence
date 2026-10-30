@@ -1,0 +1,31 @@
+## W02 — destroyed02-finish-v68 (r3, checkpoint `7bbd3754…`, GLB `7cce3c9b…`)
+
+**256 views**
+| File | Observation |
+|---|---|
+| `256-front-three-quarter.png` | Looks pristine. Occlusion from the front is expected. |
+| `256-rear-three-quarter.png` | The left rear grille bay is a dark, broken notch. The finish is hard to see. |
+| `256-front.png` | Looks the same as clean. |
+| `256-left.png` | The rear end is slightly darker, and the protruding vanes are faintly visible. |
+| `256-right.png` | The rear third has a darker brown gradient, and thin vanes stick out past the rear plate. |
+| `256-top.png` | The rear deck is a bit browner. I can't make out the breach. |
+
+**1000.** `1000-rear-three-quarter.png` shows an irregular open cavity where the left two rear grille bays should be. It has bent and broken vanes and a dark interior. **It reads as a breach, not as a grille opened for service.** Compare `clean-desert-v1-r2/1000-rear-three-quarter.png`, which shows three intact louvered bays.
+
+In `1000-right.png` the finish is a smooth dark-brown ramp along the rear of the hull side and fender. It fades evenly toward the front with a soft horizontal edge.
+
+`1000-top.png` shows a brownish rear-deck band with faint streaks. It also shows a thin vane sliver past the hull's rear edge at the top of the frame. That's consistent with `actualBounds` max z of 8.215 against the fixed 7.9248. The sliver isn't cropped, but from the top I can't confirm that it's attached.
+
+**128.** In `128-rear-three-quarter.png`, `128-right.png` and `128-top.png` the vehicle effectively reads as a clean M1A1.
+
+**Comparison with the prior control.** `destroyed02-fracture-v54/1000-right.png` and `1000-top.png` are the flat sand color. The only change in v68 is the darkening gradient. The geometry is the same in `1000-rear-three-quarter.png`. I saw no seams or smears.
+
+**Strongest objections**
+1. **The finish reads as an airbrushed weathering gradient, not as broad irregular fire or heat (`1000-right.png`, `1000-top.png`).** It has no mottling, no burnt-through paint and no ash pattern at the creases that I can see. It's subtle, not striped.
+2. **It doesn't communicate "destroyed" (all views).** The turret, gun, antennas, road wheels, tracks and paint are all intact and clean. `usmc-hansen.jpg` shows what the category looks like: a total burnout with blackened, mottled paint across the hull and turret, burnt running gear and ash on the ground. That photo is cross-period evidence for the category only, not for this event or its contours.
+3. **The vane remnant sticks out past the rear plate** (`1000-right.png`, `1000-top.png`). In the side view it reads as a rake. From the top it looks detached. It needs an attachment check from an angle where the join is visible.
+4. **It can't be told apart at 128**, and the breach is only a small notch at 256.
+
+**Informal recommendation: retain for finishing, with limits.** The rear breach is a sound physical direction, and it reads as damage, not maintenance. The v68 texture is a weak first pass that doesn't read as fire. The **destroyed condition as a whole is still unfinished**: it needs a burnout treatment across the vehicle, and probably secondary consequences on the turret and running gear, before a destroyed read is plausible. That's a scope note, not an invented incident.
+
+---
