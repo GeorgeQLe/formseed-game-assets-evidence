@@ -1,0 +1,37 @@
+## D01: damaged 01, asymmetric fracture (r3)
+
+**`technicalValidation`:** passes, per your report; I didn't rerun it. The audit shows exactly one part changed, the left skirt; all other 268 parts are untouched. The Hull is unchanged. Each piece of the skirt is a clean closed solid. Overall size matches the clean model exactly.
+
+**1. Does it fix the old objection (manufactured fitting vs damaged rim)?** Mostly, yes. In the old v48 side view the wound was a symmetric diamond-shaped bulge that read as a bolted-on fitting. In v52 it reads as a dark opening with an uneven thin rim and a bent lower petal. It no longer looks like an add-on part.
+- What's left: the central opening is still a fairly regular six-sided shape. At 1000 px it could still read as a recessed hex fitting. Finishing should break up that outline (charred edge, uneven shading) rather than enlarge it.
+
+**2. Support and what sits behind the hole.** Credible.
+- All nine test rays fired through the hole hit the Hull side behind it, which is intact. That supports "outer skirt perforated, hull not penetrated", and nothing shows a fake black hole.
+- The audit confirms the bent piece sits inside the skirt and fender.
+- The unchanged seam and edge-trim overlays don't cross the wound, either in the audit or in the side view, so nothing floats over the hole.
+- The 18 contacts with the left fender are along the existing upper join, not new.
+- Limitation: the audit itself says its collision check is not a complete proof.
+
+**3. Does it still look like the same tank?** Yes. In every view the silhouette, turret and running gear match the clean model.
+
+**4. All six 256 views, and is hiding honest?**
+- **Left:** the wound is visible as a small mark on skirt panel 4.
+- **Rear three-quarter (az 215):** this is the view that faces the damaged left flank, so it's the key three-quarter. The wound is visible.
+- **Front three-quarter (az 35):** shows the right flank, unchanged. This is honest.
+- **Front, right, top:** unchanged, also honest. The skirt's inward bend can't be seen in any of the six views; the fender hides the skirt edge. So the bend is real geometry but adds nothing visible.
+
+**5. 128 px.** The wound is a speck of a few pixels in the left and rear three-quarter views. Physically, D01 is nearly identical to the clean model at 128. As you asked, I don't hold that against the geometry. It means finishing has to carry the damaged read at small sizes.
+
+**Sources.** MCO 8420.13 p.326 supports the damage categories only: damaged sides, bent skirts, broken welds, a breach exposing the interior. It says nothing about rim shape, and its "sticks out more than 2 inches" criterion describes an outward bend. So the inward bend, the thin rim, the hole size and its location are all design choices. That matches the source packet's "designed, not traced" grading, and there's no claim about caliber or armor layers.
+
+**Strongest objections**
+- **Visual:** the regular six-sided opening is the remaining risk of a "fitting" read.
+- **Material:** the cavity is lit the same tan as the Hull, so the hole reads as shallow. That's a finishing job.
+- **Mechanical:** the bend can't be seen, so it can't support recognition.
+- **Recognition:** nothing distinguishes D01 at 128 without finishing.
+
+**Remaining whole-condition work:** char/soot around the wound, scuffing on that skirt panel, darkening inside the cavity, and making sure D01 stays visibly different from the D03 target once D03 exists.
+
+**`visualRecommendation`:** **keep the physical direction for finishing, with the limitations above.** I don't recommend rejecting or reworking the geometry.
+
+---
