@@ -1,0 +1,28 @@
+{
+  "format": "d01-physical-v48-archive-scope-v1",
+  "scope": "Agent-authored model-only PBR PNGs, informational labeled preview, portable typed-receipt copy and exact agent review; no GLB, Blend, source photos, native raw receipts, credentials or private file paths.",
+  "source": {
+    "jobId": "b6453d0a-a096-4e22-abc0-d7658089853e",
+    "revision": 3,
+    "checkpointSha256": "58038c169342c6b155546976e5aaaf5f8510fca461be6c97a05d9f45af89eef4",
+    "reviewGlbSha256": "855789d8a037d5f452b69a37e6992bfd689a3f43152fdcca16d526db651cdeb7"
+  },
+  "technicalEvidenceHashes": {
+    "pbrNativeAuditSha256": "9159915f4fc9ff73c1cb37eba55ecd21dcb926812373b8d91d7050b5bb2cb84b",
+    "maskPixelAuditSha256": "477008dcd09555229272d00939477bacd87ddb772229ae5e2a901f31ad925007",
+    "actualSourceAuditSha256": "c9866324c10b2e8a79f946d31722f94023b2823898c8a721bfc580ab105bd19a",
+    "pbrOriginalManifestSha256": "3c9ce5189a6531e0081fee12b81f96abf183eb6c8ef4b638a931ea9a0d0ade39",
+    "pbrRelocationSha256": "4e0c4773ae5e3581f53c757c134779a199d8e07b110f740f804a97d43eddc2e4",
+    "agentReviewSha256": "8a5baddc8ed75a3940ee223e72105083c4c850e2b7fe5f3cf2c68d21754adaea",
+    "agentReviewManifestSha256": "b72a7b3bb60adcd9c9f41a254a29553c1e01b4ea8ef50a10ac295cde4b343f81",
+    "originalLabelReceiptSha256": "e5e44511b5cae132cfe3be03a214b5699e6e96dbf5be09d1dee1264a2d6ae382"
+  },
+  "verified": "Full269 dimension binding and 16 checks pass; 269 native probes pass; six masks and 36 PBR PNG hashes pass. Actual protected-region PNG comparison passes.",
+  "review": "Informal independent agent no-go: opening reads as a manufactured fitting with intact tan body behind it, and condition is weak at 256/128. The current producer validation passed; missing-at-review mask evidence was supplemental, not a stale-validation failure. No formal scored evaluation or human rejection or approval.",
+  "timestamp": "Archive decidedAt is review-file modification time UTC as capture proxy, not a claimed exact decision time.",
+  "limitations": [
+    "Raw meshes, source photos and original private-path receipt bytes are not distributed.",
+    "Technical validation and mask coverage do not establish visual success.",
+    "Earlier candidate history and attempt charges remain unchanged."
+  ]
+}
