@@ -1,0 +1,41 @@
+## W02 — destroyed02-rearburn-v78 (job `cc0097fd…` r3, checkpoint `c9277f5a…`, GLB `106b94a0…`)
+
+**Context.** Five source-bound atlases cover Hull, RearExhaustGrilles, RearGrilleRemnant, LeftFender and RightFender. The pre-author audit predicted a "broad near-uniform charcoal plateau… can still read as a painted rectangle/airbrushed fade and may not show ash." Separately, the actual bounds reach max z 8.215 against the fixed framing's 7.925, so a broken vane protrudes. It is visible but not cropped in the right, left and top views (top: thin sliver at x≈545–595, y≈20–50).
+
+### Six 256 views
+- **`256-front-three-quarter.png`**: Clean tan, with nothing visible from the front. The rear fire is fully hidden by normal camera occlusion.
+- **`256-rear-three-quarter.png`**: A dark brown rear plate and rear deck edge. It is clearly darker than v68, but the cavity becomes a dark spot inside a dark plate.
+- **`256-front.png`**: Clean, no damage cues.
+- **`256-left.png`**: Darkening at the rear end plus the protruding vane, and nothing else.
+- **`256-right.png`**: The same rear-end darkening as on the left side.
+- **`256-top.png`**: A dark band across the full width of the rear deck end, with darker rear fender tips on both sides.
+
+### 1000/128 comparison with v68, v54 and clean (same cameras)
+- **`1000-rear-three-quarter.png`**: v54 (physical) and v68 both show the broken-vane cavity on a tan plate, with v68 adding a faint sepia wash. v78 turns the whole rear plate and the back strip of the deck dark brown (x≈620–920, y≈670–830), with a diagonal soft fade into the tan. The value change is real and stronger than v68's weak airbrush. However:
+  - it is a smooth, uniform plateau with no ash, pale or white tones and no mottling;
+  - the fade edge is a clean linear ramp.
+  
+  It reads as soot spray or a dark-painted tail, not burned paint.
+- **Cavity**: At 1000 the bent vanes and dark interior (x≈705–820, y≈735–805) still read as a genuinely broken opening rather than a service panel, because of the splayed vane fragments. But the dark plate **reduces contrast** with the hole. It was more legible on tan in v54 and v68. At 256 it is marginal, and at 128 it is gone.
+- **`1000-right.png`** vs v68 and v54: A horizontal fade from near-black at the rear (x≈50) to tan by about x≈130 on the upper rear hull, plus a solid black lower rear corner (x≈50–90, y≈585–645). v68 had a brown-grey fade over a similar span. v78 is darker but has the same airbrushed shape.
+- **`1000-left.png`**: Nearly a mirror of the right view (x≈870–950). The darkening is **symmetric** from both sides and in `1000-top.png`, which weakens the designed asymmetry. In practice it reads as a uniformly darkened tail.
+- **`1000-top.png`** vs v68: v68 had a light sepia rear band. v78 has a darker brown rectangle across the full deck width (x≈370–630, y≈50–110) with straight lateral edges matching the hull outline. It reads as a **large rectangle with a fade**, not an irregular thermal field.
+- **`128-rear-three-quarter/right/top.png`**: A slightly darker tail on a clean tank. I would not recognise it as destroyed.
+- **Disclosed underbody seam (0.09254)**: Not observed. The underbody is effectively hidden from all six cameras, so this is unproven either way, not a finding.
+- **Camouflage or new seam**: Not camouflage, since there is a single blob. I saw no new hard seam beyond the straight hull-outline edges of the plateau.
+
+### Strongest objections
+1. **It is still airbrush, now darker (core material).** The plateau and linear fade in `1000-rear-three-quarter.png`, `1000-right.png` and `1000-top.png` read as dark paint or a soot spray. The "restrained ash" is not visible in any view.
+2. **Destroyed recognition (core).** Seen as a whole, about 85–90% of the vehicle is clean tan, and the front three views show nothing. A rear-only fire can be legitimate, but the rear evidence alone has to carry "destroyed," and at 256 and 128 it doesn't.
+3. **The finish hurts the physical damage.** The cavity, the strongest real damage cue, loses contrast against the darkened plate (`256-rear-three-quarter.png` vs `destroyed02-finish-v68/256-rear-three-quarter.png`).
+4. **Symmetry and rectangle.** Left and right are mirror images and the top shows a full-width straight band, so the designed irregular field does not come through.
+
+### Recommendation: **REJECT THIS FINISH**
+It improves on v68's value strength but not its kind: it is still a smooth airbrush, now darker and rectangular. Keep the v54 physical rear cavity and broken vanes as the precursor; that geometry still reads as genuine breakage at 1000. A successor finish would need:
+- broken, mottled char with pale ash in the tones, not a uniform plateau;
+- a field that breaks the deck-width rectangle and the left/right symmetry;
+- a lighter rim or heat halo so the cavity separates from the plate instead of sinking into it.
+
+v68 and all earlier failures stay charged, and v78 is added to that ledger. The Hansen packet is not treated as a rear-incident or temperature-map source.
+
+---

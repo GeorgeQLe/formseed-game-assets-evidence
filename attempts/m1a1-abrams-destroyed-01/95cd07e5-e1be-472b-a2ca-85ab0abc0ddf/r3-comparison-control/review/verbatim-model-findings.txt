@@ -1,0 +1,37 @@
+## W01 — destroyed01-burn-v77 (job `95cd07e5…` r3, checkpoint `40b27d97…`, GLB `86cff5c0…`)
+
+**Source and role context.** The target evidence file selects only a small set of faces: RightSkirts 411, Hull 35, **RightTurretCheek 2**, BustleArmor 18. The heat field is described as "a designed asymmetric x,z function, not a historical heat simulation." It allows hard-edge contrast up to 0.2237 linear RGB at role boundaries and notes this "may read as painted edge." The geometry is unchanged from v62. The Hansen photo shows mottled char and pale ash over the **whole** hull and turret, an ash bed on the ground, and broken running gear. v77 does not get close to that broad analogue.
+
+### Six 256 views
+- **`256-front-three-quarter.png`**: Black lower flank, bare wheels and shoe clusters on the ground. The turret, deck and front glacis are clean tan. No heat or ash is visible on the hull top or the turret cheek.
+- **`256-rear-three-quarter.png`**: The intact far side. It reads as a pristine tank with a small dark shoe group behind the rear. This view correctly carries no burn mark.
+- **`256-front.png`**: Asymmetric. One side shows a dark fender block, bare wheel columns and a flat shoe; the other side has an intact track face. Nothing reads as fire.
+- **`256-left.png`**: Clean tan, with no marks bleeding to this side (correct).
+- **`256-right.png`**: A tan upper hull over a black skirt band with some greyer panels. It reads as two-tone paint.
+- **`256-top.png`**: A dark strip along one fender. The deck, turret and bustle are clean tan.
+
+### 1000/128 comparison with v62 (same cameras)
+- **`1000-right.png` vs `destroyed01-fragments-v62/1000-right.png`**: This is the only view with a clear change.
+  - Skirt panel 3 (x≈190–290) went from flat black to a grey-to-black diagonal gradient.
+  - Panel 4 (x≈295–350) went from black to flat mid-grey.
+  - Panel 5 (x≈355–430) went from flat tan to a tan-grey gradient.
+  - A soft dark smudge appears on the upper rear hull (x≈130–330, y≈555–580).
+  - The turret cheek (x≈455–610) is essentially unchanged.
+  - Each change stops at the panel's straight edges, so it reads as **panel-by-panel spray paint**: a smeared, airbrushed patch on a black skirt, not char.
+- **`1000-front-three-quarter.png`**: Almost identical to v62. One skirt section (x≈140–250) is slightly greyer. The turret, deck, glacis and right turret cheek show no visible heat field.
+- **`1000-rear-three-quarter.png`**: I can't see any difference from v62. This is the opposite side, so that is expected, but the bustle armor change is not visible here either.
+- **`1000-top.png`**: Effectively identical to v62. I can't find the Hull or Bustle selection at this camera.
+- **`128-right/front-three-quarter/rear-three-quarter/top.png`**: Can't be told apart from v62. It's a tan tank with a dark lower band and does not read as destroyed.
+
+### Strongest objections
+1. **The burnout is not credible as a whole (core).** About 75–80% of the visible surface is still clean tan: turret, deck, glacis, gun, hatches and antennas. The answer to the brief's question is: **pristine tan vehicle plus flat black skirt plus a smeared, airbrushed patch** (`1000-right.png`, `1000-front-three-quarter.png`). There is no pale ash, no mottling and no turret involvement. With only two RightTurretCheek faces selected, turret change could never be visible.
+2. **The material reads as paint.** The gradients are cut off by panel seams (`1000-right.png`, panels 3–5). This matches the predicted risk at the 0.22 hard-edge boundary.
+3. **The chock/fragment ambiguity is unchanged.** The geometry is the same, so the per-wheel pads still read as chocks and the four-shoe fans still read as laid-out spares (`1000-front-three-quarter.png` x≈450–545, y≈790–845; `1000-rear-three-quarter.png` x≈815–925, y≈795–840). The overlap with D02's front shoe group also remains open.
+4. **The physical precursor's escalation condition is triggered.** The v62 review required that if finishing could not make the model read as destroyed in the 3/4 views at 256, the geometry (wheel-station disruption) must be reopened. v77 does not get there.
+
+I am not inventing any physical failure. These are statements about what is visible.
+
+### Recommendation: **REJECT THIS FINISH**
+The visible change from v62 is small and reads as panel paint. The finish approach that remains open is broad, irregular, mottled char-and-ash across the upper hull and turret. On the geometry side, wheel-station disruption and a less regular fragment layout remain open. v62 stays a preliminary physical precursor with its objections unresolved. This attempt counts against the budget, and nothing is reset.
+
+---
