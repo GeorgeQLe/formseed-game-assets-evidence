@@ -1,0 +1,62 @@
+# W01 destroyed01 v108: independent visual review (read-only)
+
+**Recommendation: KEEP the settled-burnout direction for further finishing, with limits.** The lowered stance and the open commander hatch are the right direction and an improvement on v94. But the lower running gear is not a finished physical solution. The front view reads as a hull standing on stilts, and the idler and sprocket look like they float above the ground. These need to be resolved before any visual go. If they can't be fixed, I'd reject this direction.
+
+This is not a formal go, a score, a consensus result or a human approval. I didn't change any files. The earlier failure history for this asset still stands.
+
+## What I looked at
+
+- **v108** (job 4014c46d…, r0, checkpoint 3680d3f2…): all six 256px views (right, left, front, front-three-quarter, rear-three-quarter, top). At 1000px: right, left, front, both three-quarters and top. At 128px: right, front and both three-quarters. I didn't open 128-left or 128-top.
+- **Comparisons:** destroyed01-steel-v94 and clean-desert-v1-r2 at 1000px in the right, front, front-three-quarter and rear-three-quarter views.
+- **Analogue photos** (usmc-hansen.jpg, doha-i14.png): used only as broad, non-forensic analogues. I'm not identifying a vehicle or an incident.
+- **Image hashes:** there's no directory listing tool here, so I found files by the `<size>-<view>.png` naming pattern. I didn't check any image hashes against a manifest.
+
+## What changed from v94 and clean
+
+v94 has the same geometry as clean apart from the charred right skirt. v108 really does change the geometry:
+
+- **Lowered stance:** the hull, turret, gun, antennas and bustle rack all drop together.
+  - About 30px at 1000px side scale, roughly 0.3m. For example, the turret roof moves from y≈495 to 522 and the hull deck from ≈565 to 595.
+  - In the front view the fender tops drop from 665 to 725. The gap between hull belly and ground shrinks from about 96px to about 36px.
+  - The road wheels stay where they were (they rise relative to the hull), so the skirts now cover more of them. Everything moves as one rigid body: I saw no turret tilt, no ring gap and no gun droop.
+- **Tracks:** the wraps around the front and rear and the upper run are gone. Only a flat strip under the road wheels remains.
+- **Commander hatch:** opened.
+
+## Observations by topic
+
+- **M1A1 identity:** holds clearly in every view, including 128px. The turret wedge, mantlet, bustle rack, smoke launchers and seven road wheels are all intact and readable.
+- **Collapse and groundedness:** the direction is right but the degree is moderate.
+  - At 1000-right the skirt bottom is still about 37px (≈0.4m) above the ground.
+  - In both analogue photos the skirts sit almost on the ground and ash surrounds the running gear.
+  - The wheels still show full tan tyre faces, so at 256 and 128 the vehicle still reads somewhat like a parked tank that sits low, rather than a settled burnout.
+- **Commander hatch:** reads well.
+  - Rear-three-quarter: the hatch stands upright from the rear edge of the cupola, with a believable hinge contact.
+  - Front: a large disc stands above the cupola, matching the broad hatch-up silhouette in both photos.
+  - Top: the hatch is seen edge-on over a dark opening.
+  - I saw no gap or overlap at the hinge, but at this resolution that is observed contact, not proof of a modelled hinge.
+- **Tracks and wheels:** this is the strongest physical objection.
+  - **Side views:** the idler (about 712,660) and sprocket (about 127,660) sit about 17px (≈0.18m) above the ground. The flat strip ends before each of them, so nothing visibly connects them to the track. Real idlers and sprockets do ride above the ground, so the raised position alone isn't wrong. What's missing is the wrap linking them to the bottom run.
+  - **Photos:** in both, the steel track is still present, slack and draped, around the end wheels. Removing only the wraps and keeping a perfectly flat bottom run isn't supported by these analogues. It is an invented design choice.
+  - **Front (1000/256/128):** with the front track face gone, the paired tyres show as narrow dark columns standing on a thin pad under each fender. At 256 and 128 the hull looks like it's standing on stilts. This is the worst exposed view.
+- **The "designed endwheel supports":** I couldn't make them out as distinct parts in any exterior view.
+  - At 1000 rear-three-quarter, there are two gear-like shapes side by side at the left rear corner (about 600,860 and 650,845). That's ambiguous: it could be the sprocket plus a support, or a duplicate. It doesn't read as a deliberate mechanical support.
+  - On the side views, the sprockets and idlers look like they hang from the hull, not like they're supported.
+  - So from the images I'd say the supports are not visually demonstrated. That says nothing about the actual geometry, its engineering or whether it would bear load.
+- **Artifacts:**
+  - The thin dark curl at the right front (about 770,640) also appears in v94 and clean, so it's inherited, not new.
+  - At 1000-right one skirt panel in the middle (about 355–430) stays tan between black panels. It's the same in v94, so I'm treating it as finish, not geometry.
+  - Left and right are asymmetric (the right side is charred/black). That's a finish matter and was deferred as instructed.
+- **Burnout geometry:** apart from the lowering, the open hatch and the trimmed tracks, the turret and hull geometry is untouched. There is no buckling, missing stowage or deformed fittings. That's acceptable for a geometry-direction check, but finishing will carry most of the destroyed read.
+
+## Limits on the KEEP
+
+1. Resolve the track ends before finishing goes further, either by restoring slack steel wraps around the idler and sprocket or by adding supports that are clearly readable. The front-view stilt read must go.
+2. Consider lowering further, or partly hiding the tyre faces (for example burned bare rims), so it reads as settled at 256 and 128.
+3. Clarify or remove the doubled gear shape at the left rear.
+4. Nothing here shows how it was destroyed, whether it could move, or that the structure is sound. It only shows the condition visually.
+
+## Status
+
+- **technicalValidation:** not assessed here.
+- **visualRecommendation:** KEEP the direction with the limits above; this is not a visual go.
+- **humanApproval:** none.
