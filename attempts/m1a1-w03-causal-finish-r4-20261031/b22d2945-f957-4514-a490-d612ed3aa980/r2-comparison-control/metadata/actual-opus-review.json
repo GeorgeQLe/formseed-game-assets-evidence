@@ -1,0 +1,80 @@
+{
+  "modelIdentity": {
+    "modelUsageKey": "claude-opus-5-5",
+    "is_error": false,
+    "producerExitCode": 0,
+    "rawOutputSha256": "0f5d57947ac5cdef1dc4dc7780e044dc1fd2f523ffc78eb649cca35b840b1ccd",
+    "rawPromptSha256": "383a69c1e0f1c40425a11645fbc35e61a203b00c6302ab384b65b397e8a0f447"
+  },
+  "findingsVerbatimParsed": {
+    "reviewer": "Claude Opus 5.5, independent adversarial reviewer, read-only. I made no producer, file or approval mutations.",
+    "subject": {
+      "job": "b22d2945-f957-4514-a490-d612ed3aa980",
+      "revision": 2,
+      "checkpoint": "214c301b762f766a30abc9a72359206f9f0dc51ba17c486952c9d153535a91a0",
+      "glb": "1380ee724bff959e43875f38b75dcef8a5a96646d57ed0726b19f34783038831",
+      "logicalCandidate": "r4, the fifth whole finishing candidate (history not reset)"
+    },
+    "filesActuallyOpened": {
+      "json": [
+        "actual-r4/actual-export-correspondence-v1.json (first 200 lines only; the per-owner proof list is truncated)",
+        "actual-r4/native-compare-v1.json (first 200 lines only; the UV list is truncated)",
+        "actual-r4/omitted-fragment-edge-scope-v1.json (complete)",
+        "actual-r4/actual-capture-integrity-v1.json (complete)"
+      ],
+      "wholeCurrent": "All 18: 1000/256/128 \u00d7 front-three-quarter, rear-three-quarter, front, left, right, top",
+      "wp27Focus": "All 6: 1000/256/128 \u00d7 rear-three-quarter, top",
+      "priorR3": "1000-rear-three-quarter, 256-rear-three-quarter, 1000-top",
+      "sourceAnalogues": "usmc-hansen.jpg, doha-i14.png",
+      "notOpened": "The other 48 of the 72 PNGs listed in the capture receipt (repeats and other sets), both render-evidence.json receipts, the GLB itself, and ready-current-b22-r1-closure-v1.json"
+    },
+    "technicalEvidenceLimits": [
+      "I did not recompute any hash, triangle multiset, UV loop, packed-image hash or GLB channel binding. The geometry and technical facts are accepted as reported, not verified by me.",
+      "The JSON files I read do contain these consistent statements: all279MeshNames/Matrices/Parents exact; all278OtherMesh exact; wp82ExactRetainedR4 true; 38,500 triangles; 266 protected and 13 changed appearance owners; 21 graphs preserved, W03FragmentEdge missing, 0 changed; 16 WP82 source faces were the only uses of W03FragmentEdge, with 0 replacement uses.",
+      "The fragment-edge scope file states its own limit: it covers visible mesh face use only and makes no claim about non-mesh datablock references.",
+      "Only five native isolation probes were run, so not all 279 owners have current visibility probes. My whole-view observations cannot stand in for that coverage.",
+      "I identified parts (P29 box, WP23 roof field, WP30 basket) by their position in the views. I did not inspect mesh IDs. The WP23 = turret-roof causal field mapping is inferred from the W03P23CausalClone graph name.",
+      "The WP27 focus images are a renderer-only isolation. The frame-filling 128 focus image does not show whole-vehicle game-scale recognition."
+    ],
+    "geometryTechnicalCorrectness": "Accepted as reported: PASS on the stated scope. I saw no new geometry, framing change or bounds change compared with r3 at the same bounds. The ground fragment and overall silhouette are identical in position.",
+    "relativeWorkingRetention": "Retention looks good across the whole vehicle. Hull, running gear, front glacis, gun, smoke banks and the deck grille look identical to r3. The front-hull condition stays clean, as the brief intends. All changes are confined to the bustle, the turret roof, the box and the fragment.",
+    "categoryObjections": {
+      "wholeForm": "No objection. The silhouette and proportions are unchanged, and no catastrophic form was added, which matches the brief.",
+      "referenceFidelity": "Partial. In both analogues the char/paint-loss boundaries are hard-edged, lacy and mottled, with paint and ash/bare-metal patches mixed through the dark zone. Current r4 is a single smooth radial gradient with almost no high-frequency breakup and no visible scorched-tan rim with a broken edge. It matches the brief's 'connected field' and 'restrained' requirements, but not the source morphology of coating loss.",
+      "connectionAppearance": "The field is now connected across the roof, the bustle sides and the cupola surround, and it reads as one event. That is better than r3. Remaining issues: (a) In the right-view box, a jagged black zig-zag on the bustle side reads as a decal or graphic rather than an opening. (b) In the top view, a long black wedge along the left bustle edge reads as a flat black slab. (c) In the left view, the gradient mostly reads as a soft shadow cast toward the rear.",
+      "finishStyle": "Main objection: at 1000 the char still reads as airbrushed soot or ambient-occlusion shading, not fire-driven coating loss. The falloff is uniform and centred, with no edge character, no blistering or flaking boundary, and no lighter heat-bleached or ash zones inside the dark field. The cause is mask frequency and edge character, not palette.",
+      "conditionRecognition": "At 1000 and 256 rear-three-quarter and top, a localized burn on the rear turret is recognizable. At 128 it degrades to 'dark patch on the rear turret roof': plausible as damage, but also readable as shadow or dark paint. The front three-quarter at 128 carries it weakly, and the front view not at all (occluded, as declared).",
+      "readability": "The roof and bustle field reads at 256 in rear-three-quarter and top. At 128 the cavity and hatch holes merge into the field, and only overall value carries the condition."
+    },
+    "predeclaredQuestions": {
+      "Q1_wholeFinish": "Yes: the connected field clearly improves on r3's pale-gray, camouflage-like islands, which I compared directly at 1000 and 256 rear-three-quarter and 1000 top. Yes: at 1000 it still reads airbrushed, as shadow or soot, not fire or coating loss. As a working direction it is the best current one. It is not finished.",
+      "Q2_wp27": "I did not see the previous pale radial or mip lines in whole 256/128 or focus 256/128 (rear-three-quarter and top). The limit is finite visual inspection, not a pixel-level guarantee. Cavity depth reads clearly at focus 1000 and 256, with a visible wall/floor value step under shadows, separate from the roof char. At focus 128 it reads as a darker rectangle, separable mainly by value. Not-seen limit: the cavity is a fairly clean chamfered rectangle, with no lip, peel or torn rim. It reads as an engineered pocket more than a blowout opening. That is a geometry or owner matter, not a finishing one. The two round hatch interfaces read as intact, as stated. Minor: faint vertical banding on the left side face in focus 1000 rear-three-quarter.",
+      "Q3_p29": "Risk confirmed in the actual views. Front-three-quarter 1000: a large black angular region with a jagged top rim. Right 1000: a jagged black zig-zag that reads as a graphic. Top 1000: a black slab or wedge. I accept that the open box is real geometry, but that is not a visual waiver. The hard mesh-boundary transitions are the cause, so finishing cannot fully resolve this.",
+      "Q4_wp30": "I see no diagonal streak on the basket in current rear-three-quarter or top. The diagonal on the deck/grille in the top view matches antenna and cast shadows, and I am not judging it as paint. Basket finish: dark gray rails are controlled and do not compete with the field. They slightly merge with the char at 256, which is acceptable. I make no claim about UV for any streak.",
+      "Q5_wp82": "The fragment now reads dark and scorched, not pale gray as in r3. A thin tan exposed-edge sliver is visible at 1000 (front, top, rear-three-quarter). At 256 and 128 it is only a speck. That is adequate for its role. I am not requesting a new shape, and the whole views do not amount to close-up finish approval.",
+      "Q6_contextAndScale": "Untouched teal glass and bright cupola/hatch rims sit inside the char field and stand out at 1000 rear-three-quarter and top. I am not overriding the optics protection, but this is a visible inconsistency for finish readiness. Antenna bases are clean. The front is occluded and the sides are weak: left reads as shading, right as the graphic issue. At 128 the condition is marginal but present in rear-three-quarter and top. I do not require all-around damage or a catastrophic silhouette."
+    },
+    "perPartObservations": {
+      "WP27_BustleArmor": "Connected char. No radial or mip lines seen at 256/128. Cavity depth reads. The cavity rim is too clean for a blowout (geometry note). Not seen: underside, interior beyond the visible floor, the all-pixel guarantee.",
+      "WP23_roofField_inferred": "The roof field is continuous with the bustle and has the smooth airbrushed falloff described above. The hatch outline plate is visible within the field. Not seen: mesh-ID confirmation.",
+      "WP29_openBox": "Black slab and jagged graphic read in front-three-quarter, right and top. The hard mesh-boundary transition is the driver. Not seen: an interior close-up, so I make no claims about box windows.",
+      "WP30_basket": "Controlled contrast. No streak observed. Shadows left untouched. Not seen: a basket close-up.",
+      "WP82_fragment": "Quiet scorch with a short tan edge cue, visible only at 1000. Not seen: close-up."
+    },
+    "decisions": {
+      "workingDirection": "KEEP",
+      "finishDisposition": "CORRECT",
+      "rationale": "The connected field is the right direction and is better than r3. It is not finish-ready, for two reasons: the airbrushed edge character at 1000, and P29's slab/graphic reading. Neither is a palette problem."
+    },
+    "priorityCorrections": [
+      "1. P29 hard boundaries: send to the source/owner phase for a decision on the torn-rim geometry and boundary of the box. Do not try to fix it with finishing.",
+      "2. Char edge character: within the existing 15 maps and UVs, the coating-loss boundary needs breakup, meaning an irregular hard-edged rim and some lighter heat or ash patches inside the field, following the source morphology. This is mask authoring, not palette.",
+      "3. Optional, after 1\u20132: decide as an owner matter how the protected clean glass and cupola rims will be handled visually inside the field. Do not alter the protection unilaterally."
+    ],
+    "noNewPaletteVariantProposed": true,
+    "retentionVsReturn": "Keep the current r4 working bytes as the baseline for part-role inspection. After five whole finishes, do not run another palette-only whole retry. Send P29 to the source/owner phase. Do the char edge-character correction only as a targeted mask/breakup change on the retained bytes, after part-role inspection.",
+    "formalReadiness": "Not ready. Technical validation passing does not count as visual approval, and I am not issuing a rubric go.",
+    "humanApproval": "None recorded, and I am not implying any. A named human review is still required."
+  },
+  "qualification": "Actual independent visual review; no human approval, no rubric go. Technical calculations not recomputed by Opus. Current working KEEP is distinct from finish CORRECT."
+}

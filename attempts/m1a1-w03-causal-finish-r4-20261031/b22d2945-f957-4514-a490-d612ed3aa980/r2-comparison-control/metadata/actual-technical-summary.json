@@ -1,0 +1,86 @@
+{
+  "actual": {
+    "job": "b22d2945-f957-4514-a490-d612ed3aa980",
+    "revision": 2,
+    "checkpoint": "214c301b762f766a30abc9a72359206f9f0dc51ba17c486952c9d153535a91a0",
+    "glbSha256": "1380ee724bff959e43875f38b75dcef8a5a96646d57ed0726b19f34783038831"
+  },
+  "source": {
+    "job": "e25efd30-e127-47ec-adf4-fe5792cc584f",
+    "revision": 1,
+    "checkpoint": "ba75307ae3faa057295a079020e4159ef9ec03ba9107c84d07ac6dbdbc255e30"
+  },
+  "counts": {
+    "meshes": 279,
+    "triangles": 38500,
+    "materials": 63,
+    "nativePackedImages": 22,
+    "actualDimensionPasses": 16,
+    "declaredChangedNativeFaces": 902,
+    "newUVLayers": 15,
+    "newNativeUVLoops": 1864
+  },
+  "preservation": {
+    "278OtherGeometryNormalsParentsMatrices": "exact exported oriented triangle multiset and native indexed arrays",
+    "WP82": "exact retained r4 planned and actual 28-triangle replacement",
+    "materialGraphs": "21/22 source semantic graphs unchanged; unused WP82-only W03FragmentEdge omitted after save, no retained mesh role lost",
+    "images": "7 old+15 selected new packed hashes exact",
+    "UVs": "all old buffers and applicable active/default unchanged; selected projections within2.98e-8 native; exported channels checked",
+    "scope": "5 current native selection/hide probes; full279 native mesh-data replay, not all279 current isolation probes"
+  },
+  "proofPins": [
+    {
+      "name": "actual-export-correspondence-v1.json",
+      "sha256": "eb5e7c80bc20e20fd405fb54646e8d4b88b5dafdfc9cb512fcf501d8a33366a7",
+      "bytes": 70142
+    },
+    {
+      "name": "native-compare-v1.json",
+      "sha256": "c9b72b9596b8afb7cf81ce115aa0d8244893df6c0f7f248c962ad10880578d4f",
+      "bytes": 23599
+    },
+    {
+      "name": "uv-projection-v1.json",
+      "sha256": "c0049b7d7ad78b6ff113f3533a11189068c40c5eccce0c8d5b3e14d73105cbb3",
+      "bytes": 2438
+    },
+    {
+      "name": "packed-compare-v1.json",
+      "sha256": "2dd6f5ff5921ddfee2552ce97f081094fd7cb87b0f81fbb22d42b480c635f461",
+      "bytes": 1943
+    },
+    {
+      "name": "omitted-fragment-edge-scope-v1.json",
+      "sha256": "7cf2d970080f654d8e57f2a38c47d96698a8a6e16c73e8fd75d6179e2dcbdc68",
+      "bytes": 1437
+    },
+    {
+      "name": "actual-capture-integrity-v1.json",
+      "sha256": "181703ede64373a40e34d55b1e14166c3fabdcb1163f64cad99f0b0a1e5ad064",
+      "bytes": 4925
+    }
+  ],
+  "proofScope": "Raw computational proofs retained locally and hash-pinned; no Blender or GLB source bytes published in this comparison control.",
+  "captureQualification": {
+    "whole": "actual whole GLB at source-fixed full bounds with fragment, 36 direct PNGs, sixviews and three resolutions repeated",
+    "focus": "actual BustleArmor mesh selected in memory, 36 direct PNGs; no standalone producer artifact",
+    "indexProofClarification": "Focus capture records attribute hashes and index COUNT, not a separate index-byte hash. The review prompt wording overstates index hashing. Installed THREE.Mesh.copy retains identical geometry/index buffer by reference, confirmed in pinned source; focused code does not modify geometry or index. Whole GLB oriented-triangle audit independently proves actual indices/surfaces.",
+    "cleanup": "both capture producers exit0; all task-owned browser/profile/server cleanup flags pass"
+  },
+  "attemptAccounting": {
+    "logicalFinish": "r4",
+    "actualFinishCandidateOrdinal": 5,
+    "priorFourCharged": true,
+    "geometryTransfer": "retained WP82r4, not new form attempt",
+    "humanApproval": false,
+    "wholeFinishReadiness": false
+  },
+  "actualTechnicalClosureSha256": "0fa3f9a6bdf268ceb573f15a4be07dfd35ea478c7a999619dbe83bf85b2c6303",
+  "metadataCorrectionSha256": "eb912c825a2c17756be794ade3786820798cc1dfa119ff67c5f21b5513522563",
+  "limits": [
+    "5 current native selection/hide probes; all279 mesh-data parsing is different evidence",
+    "One unused source-only fragment edge graph omitted after save, not all22 source graphs preserved",
+    "Source photos are morphology analogues, not exact incident/color/temperature/material-layer proof",
+    "All current geometry is retained; P29 appearance cause remains a visual inference, not automatic geometry rejection"
+  ]
+}
