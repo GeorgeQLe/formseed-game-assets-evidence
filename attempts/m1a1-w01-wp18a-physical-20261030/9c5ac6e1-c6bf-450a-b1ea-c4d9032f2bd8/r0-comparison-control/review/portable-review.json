@@ -1,0 +1,24 @@
+{
+  "format": "standalone-physical-source-review@1",
+  "part": "WP18A",
+  "model": "claude-opus-5-5",
+  "sourceReviewOutputSha256": "163df8d44009b03f1de5bcf50cbf2d52a9f65f60aabe8849ba334a0910967917",
+  "jobId": "9c5ac6e1-c6bf-450a-b1ea-c4d9032f2bd8",
+  "revision": 0,
+  "checkpointSha256": "61296efced8f0dc451cb935bac878ff5222a8ef28d11b1718ced021beb03db8d",
+  "glbSha256": "8dedc674ed5afefa161a8fca060323c7be1b4f6817ca0bb5497724bb0fe67a1f",
+  "captureManifestSha256": "ad7341811fa829e839f91bd83be20a68dcdbfbfd4f5af6c7b79a6eefd3ef77d9",
+  "reviewSection": "## WP18A: EngineDeckGrille, unchanged geometry and steel material (reused material and pose, not new damage)\n\n**What I saw**\n- **Twelve separate bars:** The part is 12 identical, evenly spaced, square-section steel bars running across the tank's width. Top views at 1000, 256 and 128 show 12 stripes. Left and right show 12 bar ends as a dashed line. Front shows a single thin line.\n- **Placement:** It matches the grille slats on the rear deck in context 1000-top and 1000-rear-three-quarter, where they sit in a dark deck recess behind the turret bustle rack.\n- **Bar ends:** The ends are clean and square, and the spacing is even.\n\n**Concerns**\n- **Loose bars on their own:** There is no frame, rail or backing plate. Isolated, the part is 12 bars not joined to each other, so it reads as a pile of loose flat bar stock rather than a grille unit. In context, the hull recess supplies the frame visually.\n- **Weak at 128:** 128-front-three-quarter reads as a plain grey sheet. 128-rear-three-quarter shows moir\u00e9 from the fine gaps. The part only has a clear identity at 256 and above.\n- **Steel colour:** The colour is a cool grey-green. It stands slightly apart from the warm-dark hull, which is a finish matter and outside this review.\n- **No placement or geometry faults:** I saw no misplaced or deformed bars, and nothing beyond the expected source shape.\n\n**Recommendation: retain as a physical source, provisionally limited to reusing material and pose in its original hull position.**\n- Do not present it as a standalone salvage piece or as damaged geometry.\n- If a future job needs a grille that reads on its own as wreckage, such as a dislodged grille lying separately, that would justify a clean P rebuild with a frame or tie rails. The current geometry does not need one for in-place reuse.\n\n---\n\n",
+  "reviewScope": "Excerpt of batch output; local absolute paths redacted, other wording preserved. Original complete batch output identified by hash.",
+  "qualification": "Physical source geometry recommendation only; whole burnout finish remains provisional.",
+  "rootDisposition": {
+    "geometry": "KEEP_PHYSICAL_SOURCE_FOR_FINISHING",
+    "appearance": "PROVISIONAL_OR_CORRECT_NOT_APPROVED",
+    "notes": "Twelve source grille bars and original steel; no new damage geometry or new finished burn treatment.",
+    "sourceRecordSha256": "8f11f00a4b2be5056bb1289e4555e842cee7427019c99ebcba56bcc5b81a9d01",
+    "humanApproval": false,
+    "formalVisualGo": false
+  },
+  "humanApproval": false,
+  "formalGo": false
+}

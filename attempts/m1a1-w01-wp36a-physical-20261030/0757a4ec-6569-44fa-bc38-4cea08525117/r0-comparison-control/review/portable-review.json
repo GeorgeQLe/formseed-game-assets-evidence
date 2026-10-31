@@ -1,0 +1,24 @@
+{
+  "format": "standalone-physical-source-review@1",
+  "part": "WP36A",
+  "model": "claude-opus-5-5",
+  "sourceReviewOutputSha256": "163df8d44009b03f1de5bcf50cbf2d52a9f65f60aabe8849ba334a0910967917",
+  "jobId": "0757a4ec-6569-44fa-bc38-4cea08525117",
+  "revision": 0,
+  "checkpointSha256": "e66e4dd41b5c45b30ae28a4f6cb056e57fed3ed34eb37ab9ccbbd84911b2d76f",
+  "glbSha256": "6f8b0cb60d8c2a2343b247671271380dcf90d35bd82f948bfc456db16d684ce9",
+  "captureManifestSha256": "e93d97e64470da0d6015cdca29bbd5074bea746f9635c5efc87bafca313e77fe",
+  "reviewSection": "## WP36A: Hatch lid plus seam accents, open source pose\n\n**What I saw**\n- **Pose:** A round lid tilted to near upright, on a short tab joined to a cylindrical hinge bar. This matches the open commander's hatch in context 1000-front-three-quarter and 1000-rear-three-quarter. In context 1000-top it is the dark disk at the left cupola. The pose and proportions fit.\n- **Face with the accents:** In front at 256 and front-three-quarter at 256 and 1000, the face has a lighter outer rim with segmented dark arc seam accents set just inside it.\n- **Other face:** The rear-three-quarter shows the other face with a raised handle strip near the centre. The raised block in the left and right views matches that handle.\n- **Rim:** It is a closed, faceted ring.\n\n**Concerns**\n- **Seam accents:** The arcs are uneven in length and spacing (1000-front-three-quarter, 256-front). At a glance they could read as broken rendering or partial z-fighting rather than a deliberate seam. They are readable at 1000. At 128 they mostly disappear and the lid reads as a plain disk, which is fine.\n- **Side view, 256 (left and right):** The lid edge looks sawtooothed or jagged. At 1000-right this resolves into flat-shaded rim faces, so it comes from facet shading at low resolution and is not real geometry. It is still a visible low-resolution artifact.\n- **Hinge tab, 1000-right:** At the lower end, the hinge tab sits slightly off the lid's plane and has a thin black sliver beside it. This is small and does not show up as a gap in the three-quarter views.\n- **Gap at the opening:** Isolated, the lid and hinge have nothing visible to hinge from. Context supplies the cupola. This is expected for the part and not a defect.\n\n**Recommendation: retain the physical source for future work.** Provisional limitations:\n1. The seam accents should be checked in a future pass to confirm they are intended and not a coplanar or z-fighting leftover. If they turn out to be unintended, simplifying them is a small fix, not a rebuild.\n2. Low-resolution side views show stepped edges from the rim facets.\n\nA clean P rebuild is not warranted by what I saw.\n\n---\n\n**Overall:** I recommend retaining all three as physical source parts, each with the limitations above, and recommend no P rebuilds. The five earlier whole-finish failures remain charged. This review neither resets them nor carries them over.",
+  "reviewScope": "Excerpt of batch output; local absolute paths redacted, other wording preserved. Original complete batch output identified by hash.",
+  "qualification": "Physical source geometry recommendation only; whole burnout finish remains provisional.",
+  "rootDisposition": {
+    "geometry": "KEEP_PHYSICAL_SOURCE_FOR_FINISHING",
+    "appearance": "PROVISIONAL_OR_CORRECT_NOT_APPROVED",
+    "notes": "Source open hatch and seam retained; faceted edge/seam arcs merit later appearance inspection.",
+    "sourceRecordSha256": "8f11f00a4b2be5056bb1289e4555e842cee7427019c99ebcba56bcc5b81a9d01",
+    "humanApproval": false,
+    "formalVisualGo": false
+  },
+  "humanApproval": false,
+  "formalGo": false
+}

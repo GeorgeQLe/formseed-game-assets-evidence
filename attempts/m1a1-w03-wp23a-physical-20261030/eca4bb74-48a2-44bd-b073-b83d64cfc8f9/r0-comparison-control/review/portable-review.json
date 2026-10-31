@@ -1,0 +1,24 @@
+{
+  "format": "standalone-physical-source-review@1",
+  "part": "WP23A",
+  "model": "claude-opus-5-5",
+  "sourceReviewOutputSha256": "31b464e7d0a5cdf876bef1e04b99c23121a64099d35fb5592cd60c1d79a1c491",
+  "jobId": "eca4bb74-48a2-44bd-b073-b83d64cfc8f9",
+  "revision": 0,
+  "checkpointSha256": "68440b3178772ec4ce28a51ce9a77c0ca71dea58fb820196c966245efb98e9e2",
+  "glbSha256": "a04b7a946108225949af7bf43962c00c8c83bc35d02ff557d33c92e1dafffdf4",
+  "captureManifestSha256": "d73299bce14890febd863efc8d2bde5e292f11c20a990fbbb9c1e74a218e88d6",
+  "reviewSection": "## WP23A \u2014 P23_BlowoffRight (appearance-only; no damaged geometry claimed)\n\n**Geometry: KEEP-FOR-FINISHING**\n- A thin flat panel inside a raised trim frame (1000 front shows two layers). The plate is very thin in the 1000 left/right views.\n- It matches the framed panel in the whole-tank top view. There's nothing to judge as anatomy, and I'm not asking for new damage.\n\n**Finish: CORRECT** (this is the part's only role)\n- **Ownership seam:** the dark soot band runs to the frame and stops (1000 top). The trim stays uniform clean gray on all four sides, which makes the hard ownership boundary literal.\n- The field is still flat mid-gray, which reads as paint.\n- The light-gray patch with a hole and the tan polygon read as stickers. They are still distinct at 256 and still visible as light blobs at 128.\n- **Strongest unresolved objection:** trim untouched by residue, plus the gray paint and sticker reading.\n\n",
+  "reviewScope": "Excerpt of batch output; local absolute paths redacted, other wording preserved. Original complete batch output identified by hash.",
+  "qualification": "Geometry and finish recommendations are separate; W03 source finish remains under correction.",
+  "rootDisposition": {
+    "geometry": "KEEP_PHYSICAL_SOURCE_FOR_FINISHING",
+    "appearance": "PROVISIONAL_OR_CORRECT_NOT_APPROVED",
+    "notes": "Appearance-only source panel, not newly deformed armor; gray/white field is not retained finish.",
+    "sourceRecordSha256": "8f11f00a4b2be5056bb1289e4555e842cee7427019c99ebcba56bcc5b81a9d01",
+    "humanApproval": false,
+    "formalVisualGo": false
+  },
+  "humanApproval": false,
+  "formalGo": false
+}

@@ -1,0 +1,24 @@
+{
+  "format": "standalone-physical-source-review@1",
+  "part": "WP17A",
+  "model": "claude-opus-5-5",
+  "sourceReviewOutputSha256": "163df8d44009b03f1de5bcf50cbf2d52a9f65f60aabe8849ba334a0910967917",
+  "jobId": "3a3d9bb6-1630-411a-b67b-4708e7d55d92",
+  "revision": 0,
+  "checkpointSha256": "b7697f2d1bfeba6f89c54e60f32a1816726728c957769feaf512e168a2b1e7a5",
+  "glbSha256": "423b2913c0f854967f6c78e352740760f7c7e49991c4ade337188b6ca53824a9",
+  "captureManifestSha256": "3f76cfb565b9c0af757f07bd03d8ea9cf155b8b1bae11e87616f62491b854974",
+  "reviewSection": "## WP17A: Hull, settled original shape with P11 dark occlusion\n\n**What I saw**\n- **Shape:** The hull matches the context hull in plan and profile. It has a tapered nose, a flat deck, a raised rear deck step and chamfered front corners. In the 1000-right view the nose is on the right and the raised rear deck on the left, the same as in the context 1000-right.\n- **Front of the deck:** There is a round opening on the centreline near the front, plus a small pin hole to its left. This lines up with the driver's hatch dome in the context front-three-quarter and top views. The opening is a shallow blind recess: its lit floor shows in 1000-front-three-quarter.\n- **Rear plate:** It is recessed and has three panel dividers (1000-rear-three-quarter). This matches where the context's three rear grille panels sit, without the grille inserts.\n- **Missing pieces:** The tan side skirts, tracks, turret and engine grille are absent, as expected for the hull core alone. Nothing is cut where the turret sits. The source deck is flat there, which matches the source rather than being a defect.\n\n**Concerns**\n- **Dark sides:** The P11 occlusion makes every side and lower face close to flat black. Left, right and front at 256, and right at 1000 and 128, show a solid black shape with almost no visible form inside it. The only line is a thin seam where the deck plate meets the side. At 128-right the part reads as a thin black wedge.\n- **Strong contrast:** The jump between the warm-grey deck and the black sides is stark. That fits a salvage context, but it is part of the deferred finish question, not a geometry fault.\n- **Deck banding:** The flat-shaded deck shows gentle bands (1000-top, 1000-front-three-quarter). These come from the deck's flat faces and are not an artifact.\n- **No geometry faults:** I saw no gaps, intersections, flipped-normal patches or stray geometry.\n\n**Recommendation: retain the physical source for future work.** Provisional limitations:\n1. The side and front faces are unreadable under the current dark occlusion. Future finish work has to bring back some form on the sides, or the part needs a lighter occlusion pass.\n2. The front hatch opening reads as an empty socket. Any salvage scene should either intend it as a missing hatch or put a hatch in it.\n\nThe geometry does not justify a clean P rebuild.\n\n---\n\n",
+  "reviewScope": "Excerpt of batch output; local absolute paths redacted, other wording preserved. Original complete batch output identified by hash.",
+  "qualification": "Physical source geometry recommendation only; whole burnout finish remains provisional.",
+  "rootDisposition": {
+    "geometry": "KEEP_PHYSICAL_SOURCE_FOR_FINISHING",
+    "appearance": "PROVISIONAL_OR_CORRECT_NOT_APPROVED",
+    "notes": "Physical settled-hull reuse, not a newly modeled hull impact. Dark appearance limits standalone readability.",
+    "sourceRecordSha256": "8f11f00a4b2be5056bb1289e4555e842cee7427019c99ebcba56bcc5b81a9d01",
+    "humanApproval": false,
+    "formalVisualGo": false
+  },
+  "humanApproval": false,
+  "formalGo": false
+}

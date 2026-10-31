@@ -1,0 +1,24 @@
+{
+  "format": "standalone-physical-source-review@1",
+  "part": "WP27A",
+  "model": "claude-opus-5-5",
+  "sourceReviewOutputSha256": "31b464e7d0a5cdf876bef1e04b99c23121a64099d35fb5592cd60c1d79a1c491",
+  "jobId": "9a15a04a-16d7-459b-8c5f-f8dc87870a76",
+  "revision": 0,
+  "checkpointSha256": "03d47fd0ab874b4c1b74a363d64c27486abadcf0fb2d10f18256ab644f5979fd",
+  "glbSha256": "39242388b13cdfee6eb7ffab63523b177df48b3fac21628e976431079c479f9f",
+  "captureManifestSha256": "e2f6f6c6d5d38aa5ee5e2755bc0c2deafd73063bd2e711a9239e309adcdb0e36",
+  "reviewSection": "## WP27A \u2014 BustleArmor (physical damaged anatomy)\n\n**Geometry: KEEP-FOR-FINISHING**\n- **What the pixels show:**\n  - 1000 three-quarter and top views: a thick solid slab with one chamfered rounded-rectangle cavity that has a visible floor, plus two round wells.\n  - 1000 front: a uniform thick wall with no gaps. 1000 left/right: a closed slab.\n  - At 256 and 128 three-quarter, the cavity still reads as a dark opening, and the wells still read as round recesses.\n- **Identity and context:** in the whole-tank top view, the cavity sits correctly against the cupola and loader hatch wells. The wells are factory hatch seats, as stated. I'm not counting them as damage.\n- **Objection, not a blocker:** the cavity walls are clean and evenly chamfered, so it reads more like a machined access well than a release compartment. You told me not to demand jagged armor, and I'm not. The shape is a legitimate simplification.\n- **Closure and thickness:** closed and consistent in every view.\n- **Interface:** I didn't verify the underside contact. It's mounted, so no floor is expected.\n\n**Finish: CORRECT**\n- The top still reads as a gray painted field with soot, light-gray patches shaped like stickers, and a tan stripe with a waterline edge. This is the inherited roof objection, and it's genuinely present in this part.\n- The front face (1000 front) is spotless uniform tan right next to the cavity, with no spill-over residue.\n- On the left/right faces, the soot ends in hard, jagged painted-looking edges.\n- **Low-resolution artifact:** in the 256 and 128 three-quarter views, faint light lines radiate across the roof from the cavity, and a pale blotch appears on the dark side face. I see neither at 1000. This could be texture-seam or mipmap bleed, or shading on thin triangles. The cause is unverified, but it shows up at game sizes.\n- **Strongest unresolved objection:** the gray paint field and sticker patches, plus the artifact lines that appear only at low resolution.\n\n",
+  "reviewScope": "Excerpt of batch output; local absolute paths redacted, other wording preserved. Original complete batch output identified by hash.",
+  "qualification": "Geometry and finish recommendations are separate; W03 source finish remains under correction.",
+  "rootDisposition": {
+    "geometry": "KEEP_PHYSICAL_SOURCE_FOR_FINISHING",
+    "appearance": "PROVISIONAL_OR_CORRECT_NOT_APPROVED",
+    "notes": "Real cavity anatomy retained; pale minification lines and paint-like roof remain appearance blockers.",
+    "sourceRecordSha256": "8f11f00a4b2be5056bb1289e4555e842cee7427019c99ebcba56bcc5b81a9d01",
+    "humanApproval": false,
+    "formalVisualGo": false
+  },
+  "humanApproval": false,
+  "formalGo": false
+}

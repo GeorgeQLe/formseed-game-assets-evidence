@@ -1,0 +1,24 @@
+{
+  "format": "standalone-physical-source-review@1",
+  "part": "WP29A",
+  "model": "claude-opus-5-5",
+  "sourceReviewOutputSha256": "31b464e7d0a5cdf876bef1e04b99c23121a64099d35fb5592cd60c1d79a1c491",
+  "jobId": "0339fd82-d973-488e-adeb-57e282d147f4",
+  "revision": 0,
+  "checkpointSha256": "7aa9154581a98ff417702d2ef7b197ea3ce3c9bd008e6323e68f092b56082dae",
+  "glbSha256": "6dc7e7a504c9d8ad60135f636fbbfb56cc19a7c068b1b8e3151932da13072780",
+  "captureManifestSha256": "ff268269d8d4fb3ad9183bc5da465569bc1427ee58b9d09485f967deddb4eec2",
+  "reviewSection": "## WP29A \u2014 RightStowage (physical damaged anatomy)\n\n**Geometry: KEEP-FOR-FINISHING, with a minor note**\n- **What the pixels show:**\n  - It reads as one genuine open box, not windows or a manufactured trough. In the 1000 front/rear three-quarter and left/right views, the walls are thin with a rim, there's a visible floor, and one end loses its upper walls in steps on both sides.\n  - The two mounting proxies are plain blocks on the wall that faces the turret. The whole-tank top view shows the tabs on the turret side, so the interface is plausible.\n  - The 1983 TM figure supports the box-with-cover-and-strap-rails architecture. The missing cover is consistent with the loss story. The blocks are a crude stand-in for strap clamps, which is acceptable for a proxy.\n- **Minor note:** the loss edge is straight segments with a uniform beveled lip, so it reads as cut sheet rather than torn sheet. That's a later refinement and doesn't block retention.\n- **At 128 front three-quarter:** the opening reads as a black lid. That's mainly the interior value problem below, not geometry.\n\n**Finish: CORRECT**\n- The interior is uniform near-black with no value structure. In the 1000 and 256 top views it reads as a black tablet. In the whole-tank top view it reads as a black screen. The prior P29 dark screen/tray objection is still fully present.\n- On the exterior, a clean tan field ends at a vertical soot band (1000 front, front three-quarter) that looks painted on.\n- **Strongest unresolved objection:** the black screen or tray reading, from the top and at 128.\n\n",
+  "reviewScope": "Excerpt of batch output; local absolute paths redacted, other wording preserved. Original complete batch output identified by hash.",
+  "qualification": "Geometry and finish recommendations are separate; W03 source finish remains under correction.",
+  "rootDisposition": {
+    "geometry": "KEEP_PHYSICAL_SOURCE_FOR_FINISHING",
+    "appearance": "PROVISIONAL_OR_CORRECT_NOT_APPROVED",
+    "notes": "Clean-P based rebuilt open shell replaces rejected window-like pockets; void and wall anatomy retained, coating remains provisional.",
+    "sourceRecordSha256": "8f11f00a4b2be5056bb1289e4555e842cee7427019c99ebcba56bcc5b81a9d01",
+    "humanApproval": false,
+    "formalVisualGo": false
+  },
+  "humanApproval": false,
+  "formalGo": false
+}
