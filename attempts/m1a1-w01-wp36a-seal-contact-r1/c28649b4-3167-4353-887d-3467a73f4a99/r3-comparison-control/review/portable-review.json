@@ -1,0 +1,83 @@
+{
+  "kind": "wp36-seated-source-form-review-and-diagnostics",
+  "jobId": "c28649b4-3167-4353-887d-3467a73f4a99",
+  "revision": 3,
+  "checkpointSha256": "68dd471d3353e22dabe573309e250133e93a91f95851e4fb35f6bca6749d823c",
+  "sourceGlbSha256": "15ee174bb02c7ea1a87bd72f183976efb6e44b99b57b6319d0546121081edf0d",
+  "captures": [
+    {
+      "role": "whole",
+      "receiptSha256": "8ba91e7131813821e0387ed1e3741875dcc99beca7127d385c0a90e0d1608fa3",
+      "sourceGlbSha256": "15ee174bb02c7ea1a87bd72f183976efb6e44b99b57b6319d0546121081edf0d",
+      "sourceCheckpointSha256": "68dd471d3353e22dabe573309e250133e93a91f95851e4fb35f6bca6749d823c",
+      "cameraSetCount": 3,
+      "exactPixelRepeatsVerified": true,
+      "focusScope": "unmodified complete GLB"
+    },
+    {
+      "role": "focus",
+      "receiptSha256": "5ecc7bea9851e9395863fbbd66e32766cc6ceb282962b5668c6b5e802e716ce7",
+      "sourceGlbSha256": "15ee174bb02c7ea1a87bd72f183976efb6e44b99b57b6319d0546121081edf0d",
+      "sourceCheckpointSha256": "68dd471d3353e22dabe573309e250133e93a91f95851e4fb35f6bca6749d823c",
+      "cameraSetCount": 3,
+      "exactPixelRepeatsVerified": true,
+      "focusScope": "other meshes hidden in memory"
+    }
+  ],
+  "auxiliaryImages": [
+    {
+      "name": "wp36-original",
+      "sha256": "36b2101976d52793a06a5907ae364df505915a51fbf270ebfa6fb94bdee5a67b"
+    },
+    {
+      "name": "wp36-seam-hidden",
+      "sha256": "f8cf4201dd3b2b0ac3b612aebd34282610363324c634921bf3d876f8d7e041d9"
+    },
+    {
+      "name": "wp36-rubber-hidden",
+      "sha256": "b249015fb482b35d1d973f352a1081c1f92c34ab16f36ac616956fdc89951094"
+    },
+    {
+      "name": "wp36-no-receive-shadow",
+      "sha256": "5501bba4b132b7aea6a48a1056b354d7543be12fdd112d4d434cf3373ebcf8ae"
+    },
+    {
+      "name": "wp18-top-128",
+      "sha256": "c504db911691815e46672370a8360fe0fcf3b50c666e0f4578cdd041a0aa8ac0"
+    },
+    {
+      "name": "wp18-top-256",
+      "sha256": "16122e2cae74a707ef5ac54a124a1170d661787159bef3f69f649125e3448456"
+    },
+    {
+      "name": "wp18-top-1000",
+      "sha256": "30c112dc27a0cf85627e64c80c3caf35d78b96de361a7ff3964a4ac467cea30b"
+    },
+    {
+      "name": "wp82-original",
+      "sha256": "e4a0951c59e6710710a798e7d2a75cb34e90da4d6ca8a306021ff723c030c074"
+    },
+    {
+      "name": "wp82-floor-no-shadow",
+      "sha256": "1c71ba7eb62b80fd31caeca5b2aa11ca01988d190dcdf40b7e0fa1887e42b2e1"
+    },
+    {
+      "name": "wp82-fitted-shadow-rejected",
+      "sha256": "f25d44b99535c4fde0829344b59f6ce82d0d61fafbeb3f87434fde8cace7a31a"
+    }
+  ],
+  "independentOpusManifestSha256": "1178537dbd8226d09c0c996496b7e6c91438803e927e3b0754dae2e684e8c359",
+  "independentObservation": "Original broken crescents resolved in opened views; hinge and source pose plausible. Reviewer did not inspect whole front/right or compute hashes; operator verified direct/repeat hashes.",
+  "diagnosticInterpretation": [
+    "Rubber-only ablation removes crescents; seam-only and shadow-receive ablations do not remove the principal crescents. Prior contrary shadow claim retracted.",
+    "WP18 static 128px samples merge bars; temporal shimmer is not established.",
+    "WP82 floor-only no-shadow ablation removes floor marks; fitted-shadow trial introduces striping and is rejected."
+  ],
+  "limitations": [
+    "The 5.7mm move and 0.3mm seating embed are design choices, not measured engineering.",
+    "Whole W01 finish unfinished. No score, source approval, human approval or runtime qualification.",
+    "Auxiliary images are generated diagnostics; their visibility/lighting changes are not source assets."
+  ],
+  "humanApproved": false,
+  "formalVisualGo": false
+}
