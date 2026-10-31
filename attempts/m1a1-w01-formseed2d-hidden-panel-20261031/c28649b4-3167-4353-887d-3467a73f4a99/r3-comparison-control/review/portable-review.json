@@ -1,0 +1,52 @@
+{
+  "schema": "abrams-formseed2d-source-control@1",
+  "decision": "Visibility-inconclusive; target largely occluded. Retained only as placement evidence; no art verdict.",
+  "reviewers": [
+    "Codex root",
+    "M source-mapping agent"
+  ],
+  "mappedSourceReceipt": {
+    "status": "Completed source-only preview; visible mapped face mostly occluded by stowage; contour not meaningfully legible at 256. No whole-burn conclusion or 3D candidate.",
+    "sourceCheckpoint": "68dd471d3353e22dabe573309e250133e93a91f95851e4fb35f6bca6749d823c",
+    "formseed2dJob": "69408678-aeba-4383-b3e2-94629637c8e0",
+    "formseed2dRevision": 1,
+    "canonicalPngSha256": "aba8030e74a2eae460822410accceee56972d5485ba8c075fa5a0f6adb36cd89",
+    "renderEvidenceSha256": "0c0f54ae5bd21f3ba5c1b07369d4eed5f4b9a856b781d7ac1ddfcc6699281614",
+    "studyDataSha256": "6409201265b9cfa3b0a788dc460d0a83f6bbb8d0150108894e0bbc7733a12016",
+    "sourcePreviewMapping": "Only BustleArmor native face 3, two triangles, changed to candidate material. All other 126 geometry owners and all other native face materials remain source in transient replay.",
+    "findings": [
+      "A dark region is visible on a small exposed portion of the face at 1000-right; most of the long source face is occluded by the stowage fitting.",
+      "The ragged boundary is not reliably distinguishable at 256-right. The source body retains physical-source paint and has not received a whole-burn finish.",
+      "No claim of UV seam safety, final 3D quality, source approval or user approval."
+    ],
+    "deterministic": true,
+    "cleanup": {
+      "browserContextClosed": true,
+      "taskProfileRemoved": true,
+      "profileNamedBrowserProcessAbsent": true,
+      "serverClosed": true
+    },
+    "producerMutation": false
+  },
+  "actualOpus": null,
+  "formseed2d": {
+    "atlasJob": "69408678-aeba-4383-b3e2-94629637c8e0",
+    "revision": 1,
+    "canonicalSha256": "aba8030e74a2eae460822410accceee56972d5485ba8c075fa5a0f6adb36cd89",
+    "maskJob": "8b41a0e4-6b6d-4121-b911-93083fd4dc0c",
+    "maskRevision": 2,
+    "maskSha256": "5effd8d80e3909edfcbf48460c907d354c137c4fde261848db5b4c8c4e44ef6e"
+  },
+  "rootIntegrity": {
+    "frames": 36,
+    "matchingRepeatPairs": 18,
+    "pngDimensionsVerified": true
+  },
+  "limits": [
+    "Source-only transient assembled preview; no 3D checkpoint or geometry mutation.",
+    "No whole-burn claim, native UV/export claim, human approval or release change.",
+    "Prior W01 and W03 five actual finish attempts remain charged.",
+    "No third-party photo pixels, model binaries or arbitrary raster writes."
+  ],
+  "humanApproved": false
+}
