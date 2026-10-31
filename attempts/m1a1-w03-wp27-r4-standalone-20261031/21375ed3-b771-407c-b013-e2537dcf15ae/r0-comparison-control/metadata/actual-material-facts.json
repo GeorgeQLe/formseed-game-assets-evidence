@@ -1,0 +1,186 @@
+{
+  "part": "wp27-r4",
+  "job": "21375ed3-b771-407c-b013-e2537dcf15ae",
+  "checkpoint": "266bab2aec43a7375792983315bd9101d8b75c047945bab9819a85be99134dd9",
+  "glb": "868aa0fa06347932574c609c4e73d549e00356c134d5eab9b5a2c7779768999c",
+  "materials": [
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "distance-roof-sand"
+      },
+      "name": "distance-roof-sand",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5799999833106995,
+          0.44999998807907104,
+          0.30000001192092896,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8199999928474426
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03R4CavityUpward"
+      },
+      "name": "W03R4CavityUpward",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.02500000037252903,
+          0.024000000208616257,
+          0.02199999988079071,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9700000286102295
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03R4CavityWall"
+      },
+      "name": "W03R4CavityWall",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0430000014603138,
+          0.03999999910593033,
+          0.03500000014901161,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9599999785423279
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03CausalR4Map01",
+        "formseedTextureBinding": "{\"sourceMaterial\": \"W03CausalR4Seed01\", \"textureSha256\": \"68f18930f3a0333d9ba7d9bbf8bb20b48b94ca57b9cfda653f52a7f0fd82449c\", \"uvMap\": \"W03CausalR4UV1\"}"
+      },
+      "name": "W03CausalR4Map01",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 1
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8199999928474426
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03CausalR4Map02",
+        "formseedTextureBinding": "{\"sourceMaterial\": \"W03CausalR4Seed02\", \"textureSha256\": \"5d404c13413d1271eaa1ee66d363ef1caa5651d2074fc7666040a646d8c04d38\", \"uvMap\": \"W03CausalR4UV2\"}"
+      },
+      "name": "W03CausalR4Map02",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 2
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8199999928474426
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03CausalR4Map03",
+        "formseedTextureBinding": "{\"sourceMaterial\": \"W03CausalR4Seed03\", \"textureSha256\": \"aebb0e319ecbeb3bdecfc164bc45a85dfcb887e8256a6989407d65b167e19f43\", \"uvMap\": \"W03CausalR4UV3\"}"
+      },
+      "name": "W03CausalR4Map03",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 3
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8199999928474426
+      }
+    }
+  ],
+  "primitives": [
+    {
+      "owner": "BustleArmor",
+      "rows": [
+        {
+          "material": "distance-roof-sand",
+          "triangles": 192,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "TEXCOORD_1",
+            "TEXCOORD_2",
+            "TEXCOORD_3"
+          ]
+        },
+        {
+          "material": "W03R4CavityUpward",
+          "triangles": 34,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "TEXCOORD_1",
+            "TEXCOORD_2",
+            "TEXCOORD_3"
+          ]
+        },
+        {
+          "material": "W03R4CavityWall",
+          "triangles": 68,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "TEXCOORD_1",
+            "TEXCOORD_2",
+            "TEXCOORD_3"
+          ]
+        },
+        {
+          "material": "W03CausalR4Map01",
+          "triangles": 149,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "TEXCOORD_1",
+            "TEXCOORD_2",
+            "TEXCOORD_3"
+          ]
+        },
+        {
+          "material": "W03CausalR4Map02",
+          "triangles": 26,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "TEXCOORD_1",
+            "TEXCOORD_2",
+            "TEXCOORD_3"
+          ]
+        },
+        {
+          "material": "W03CausalR4Map03",
+          "triangles": 1,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0",
+            "TEXCOORD_1",
+            "TEXCOORD_2",
+            "TEXCOORD_3"
+          ]
+        }
+      ]
+    }
+  ]
+}

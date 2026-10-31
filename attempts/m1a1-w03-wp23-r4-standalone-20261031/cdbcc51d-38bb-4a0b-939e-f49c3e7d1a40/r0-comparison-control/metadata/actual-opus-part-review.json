@@ -1,0 +1,54 @@
+{
+  "reviewerModelIdentity": {
+    "model": "claude-opus-5-5",
+    "exitCode": 0,
+    "is_error": false,
+    "rawBatchOutputSha256": "a4efd2bf116cb97a76b33bc7ca20c9e9508e2b92388bbc16ce5e40ab13dfb5a9",
+    "rawPromptSha256": "199b2a969d5400a8dfea2bd6a4ac4e7c14f452c6b7eb37ca37c5a197fab47960"
+  },
+  "partFindingsVerbatim": {
+    "materialOnly": true,
+    "geometryDecision": "KEEP-FOR-FINISHING (intact original panel plus trim; no torn-geometry claim)",
+    "finishDecision": "CORRECT, folded into the whole-field mask breakup. No separate palette work.",
+    "obs1000": [
+      "A smooth, near-linear lateral gradient from tan-brown to char. It has no breakup, hard edge or ash and reads as an airbrushed card. This is the same root cause as the whole-model finding.",
+      "The trim frame is a uniform mid-gray, lighter than the charred interior across the whole panel. It reads as a clean protected rim inside the fire field, the same context mismatch as the cupola rims and glass.",
+      "The top view shows faint vertical banding steps in the gradient around x 250\u2013290.",
+      "Edge-on views (front, left, right) are thin dark strips. The front view shows lighter square trim end caps at both ends."
+    ],
+    "obs256_128": "Reads as a dark gradient plate with a lighter outline. The outline survives to 128 and is the most legible feature, which is the wrong emphasis.",
+    "anatomicalTargetNote": "As stated in the brief, a uniform gradient in the standalone view does not by itself indicate a wrong anatomical target. That is accepted.",
+    "correction": "During the whole-field breakup, decide the trim role explicitly: either char it with the field or document why it stays clean. No geometry change."
+  },
+  "openedInventory": {
+    "json": [
+      "all-five-actual-capture-integrity-v1.json (complete)",
+      "wp27-r4, wp23-r4, wp29-r4, wp30-r4 and wp82-r5 full-pre-capture-proof-v1.json (all five, complete)",
+      "actual-r4/opus-actual-findings-v1.json (complete)"
+    ],
+    "partPNGs": "All 90 first-pass PNGs listed: 5 parts \u00d7 6 views (front-three-quarter, rear-three-quarter, front, left, right, top) \u00d7 1000/256/128. I opened and inspected every one.",
+    "wholeContext": "1000-rear-three-quarter, 1000-top and 256-rear-three-quarter (whole r4)",
+    "sourceContext": "army-m1-1983-stowage-p239.png, usmc-hansen.jpg, doha-i14.png",
+    "notOpened": "The 90 second-pass deterministic PNGs; all five render-evidence.json receipts; the 25 sourcePin files (final-status, export, validation, native, initial-dimensions); the GLBs and blends. I make no claim of complete coverage beyond the 90 first-pass images."
+  },
+  "technicalLimits": [
+    "I recomputed no SHA, triangle multiset, corner, normal or UV data, and no matrix or GLB byte equality. Every technical PASS is accepted as reported, not verified by me.",
+    "The proof files I read are internally consistent: one MESH each; 18/18 dimension criteria (WP82 20/20); nativeComplete; three isolation probes; isolated-predecessor GLB byte-identical; same source checkpoint 214c301b; producer exit 0; cleanup flags true; humanApproval false.",
+    "Each part is framed to fill the image, so the 128 views are part-scale only. They do not show whole-tank game-scale recognition.",
+    "I cannot attribute any pixel feature to a texture versus a shadow with certainty. No shadow-off or unlit control exists for these exact captures, so cause attributions below are visual inferences.",
+    "I did not inspect mesh IDs or UV layouts. Statements about material roles and regions come from what renders."
+  ],
+  "batchRelativeWorkingRetention": "All five parts are worth retaining as the working baseline. None needs a geometry rebuild. Corrections are material-role and mask-local on the existing bytes.",
+  "batchFormalReadiness": "Not ready. The whole finish stays CORRECT, and items 1\u20133 above are open. Technical PASS does not count as visual approval. This is not a rubric go.",
+  "postReviewQualifications": [
+    "WP27 andP29 already have distinct upward/floor andwall materialroles, atdifferentnumericPBRvalues. Reviewer singlevalue describesperceivedimage, notactualshaderidentity. Any correctioniscontrast/coverageevaluationofexistingroles, not automaticallynewroles.",
+    "WP30currentexactGLB hasnoUV orimagebinding, twouniformmaterials. Currentonly-shadow-disabledcontrol nowdirectlyremovesstripe; thiscontrolfinishedafterreviewprompt, wasnotseenbyOpus, andclosesattributionindependently. Itdoesnotprovephysicallyincorrectshadow.",
+    "Onecomponentnativeprobeperpartwiththreepassedactions(selection/hide/hideRender), notthreedifferentcomponents.",
+    "Sourcephotosdonotestablishexactcontainerinteriorash/materiallayer; lighterfloorrecommendationisdesignedreadabilityhypothesis.",
+    "Opus withinexistingUVs recommendationisart-scopeonly; noauthorization/capabilityclaimtooverwriteexistingUVmaps. Typedfreshbindingconstraintsremain.",
+    "Part128framefillisnotwholevehicle128visibility. WP23/WP30material-onlyrolesareexplicit.",
+    "WP82r5labelisnewpartmaterialstate; retainedr4foldgeometryunchanged. No sixthwholefinishattempt created.",
+    "Current WP27 shadow-off control closesfineverticalstripeattribution: leftROI55154/80000pixels changed,max4RGB8, stripingvisuallyremoved. RightscallopROIonly35/70000pixelschanged,max1RGB8; broadlobesremain. Thusdonotpaintoverfine receiver-shadow stripes; persistingscallop/maskcause remainsseparate fromshadowandoldradialmiplineissue."
+  ],
+  "batchReviewManifestSha256": "3968eb6ba5f0fd1462a6d16237ad35916a51073fe7997fb239e7f4f618284c75"
+}

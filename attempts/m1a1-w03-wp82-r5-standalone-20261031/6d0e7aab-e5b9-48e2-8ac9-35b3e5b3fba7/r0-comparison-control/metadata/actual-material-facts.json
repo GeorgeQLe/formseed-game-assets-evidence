@@ -1,0 +1,91 @@
+{
+  "part": "wp82-r5",
+  "job": "6d0e7aab-e5b9-48e2-8ac9-35b3e5b3fba7",
+  "checkpoint": "b569681b2349dacc4c1fec32b519a78a2d73ce5086e5055acebfc6d87af663fc",
+  "glb": "00d3b1049e7c415f8b1ceb6e93970db8f4757b2cc3be01ed9caaf8db09bc8485",
+  "materials": [
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03R4FragmentExposedEdge"
+      },
+      "name": "W03R4FragmentExposedEdge",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1599999964237213,
+          0.15000000596046448,
+          0.12999999523162842,
+          1
+        ],
+        "metallicFactor": 0.05000000074505806,
+        "roughnessFactor": 0.9300000071525574
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03R4FragmentCharEdge"
+      },
+      "name": "W03R4FragmentCharEdge",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.054999999701976776,
+          0.052000001072883606,
+          0.04500000178813934,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9599999785423279
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03CausalR4Map09",
+        "formseedTextureBinding": "{\"sourceMaterial\": \"W03CausalR4Seed09\", \"textureSha256\": \"f34f84f2a1f3683f27715bc7d17cd5d2cc8bdfe0aaa507d93f266bd7040cfff5\", \"uvMap\": \"W03CausalR4UV1\"}"
+      },
+      "name": "W03CausalR4Map09",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8199999928474426
+      }
+    }
+  ],
+  "primitives": [
+    {
+      "owner": "WP82_Surface",
+      "rows": [
+        {
+          "material": "W03R4FragmentExposedEdge",
+          "triangles": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "material": "W03R4FragmentCharEdge",
+          "triangles": 18,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "material": "W03CausalR4Map09",
+          "triangles": 6,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ]
+}

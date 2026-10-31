@@ -1,0 +1,55 @@
+{
+  "reviewerModelIdentity": {
+    "model": "claude-opus-5-5",
+    "exitCode": 0,
+    "is_error": false,
+    "rawBatchOutputSha256": "a4efd2bf116cb97a76b33bc7ca20c9e9508e2b92388bbc16ce5e40ab13dfb5a9",
+    "rawPromptSha256": "199b2a969d5400a8dfea2bd6a4ac4e7c14f452c6b7eb37ca37c5a197fab47960"
+  },
+  "partFindingsVerbatim": {
+    "geometryDecision": "KEEP-FOR-FINISHING (the parent physical decision stands; one connected open box; no window layout present in current images)",
+    "finishDecision": "CORRECT, with material-role separation warranted",
+    "obs1000": [
+      "Interior floor, inner walls and the inside end wall are all a single near-black value. 1000-top is one undifferentiated black slab: the floor cannot be told from the walls, and only the thin wall-thickness rim and the two block stubs give it shape. This is the direct cause of the slab/graphic reading in the whole model.",
+      "The exterior walls are clean uniform tan right up to the torn rim, apart from slight soft darkening near the break in 1000-rear-three-quarter. The tan-to-black boundary at the rim is therefore a hard silhouette value step. In 1000-right this becomes the jagged zig-zag graphic.",
+      "The torn contour is a fairly regular sawtooth. It is designed rather than measured, and I accept that as stated.",
+      "The two inboard mounting blocks read as attached supports (top view: flush stubs; left and rear-three-quarter: cast shadows land on the wall). They are not floating debris. Their pure black against tan reads as graphic squares.",
+      "1000-front shows a thin vertical line near x 724 and dark sliver strokes along the right edge, consistent with wall-thickness edges seen edge-on. Minor."
+    ],
+    "obs256": "The open box reads in both three-quarter views. The top view is still a black slab.",
+    "obs128": "Reads as a tan box with a black top. The zig-zag survives in the right view as a graphic band.",
+    "floorVsWallRoles": "JUSTIFIED and, for readability, NECESSARY before any future bake. Proposal: a matte floor role with a lighter ash/residue value and high roughness; soot near-black walls; optionally a narrow heat-darkened band on the exterior below the torn rim, so the rim boundary is not a pure tan/black step. This follows the ash and residue categories in Hansen and Doha (lighter debris on lower surfaces; blackened box sides with hard-edged paint loss). It does not copy their colors. It is a material-role assignment within the existing UVs. It is not a geometry rebuild and not a whole palette retry.",
+    "sourceNote": "Army 1983 p239 supports container, cover and strap architecture only. It says nothing about M1A1 break contour or interior finish."
+  },
+  "openedInventory": {
+    "json": [
+      "all-five-actual-capture-integrity-v1.json (complete)",
+      "wp27-r4, wp23-r4, wp29-r4, wp30-r4 and wp82-r5 full-pre-capture-proof-v1.json (all five, complete)",
+      "actual-r4/opus-actual-findings-v1.json (complete)"
+    ],
+    "partPNGs": "All 90 first-pass PNGs listed: 5 parts \u00d7 6 views (front-three-quarter, rear-three-quarter, front, left, right, top) \u00d7 1000/256/128. I opened and inspected every one.",
+    "wholeContext": "1000-rear-three-quarter, 1000-top and 256-rear-three-quarter (whole r4)",
+    "sourceContext": "army-m1-1983-stowage-p239.png, usmc-hansen.jpg, doha-i14.png",
+    "notOpened": "The 90 second-pass deterministic PNGs; all five render-evidence.json receipts; the 25 sourcePin files (final-status, export, validation, native, initial-dimensions); the GLBs and blends. I make no claim of complete coverage beyond the 90 first-pass images."
+  },
+  "technicalLimits": [
+    "I recomputed no SHA, triangle multiset, corner, normal or UV data, and no matrix or GLB byte equality. Every technical PASS is accepted as reported, not verified by me.",
+    "The proof files I read are internally consistent: one MESH each; 18/18 dimension criteria (WP82 20/20); nativeComplete; three isolation probes; isolated-predecessor GLB byte-identical; same source checkpoint 214c301b; producer exit 0; cleanup flags true; humanApproval false.",
+    "Each part is framed to fill the image, so the 128 views are part-scale only. They do not show whole-tank game-scale recognition.",
+    "I cannot attribute any pixel feature to a texture versus a shadow with certainty. No shadow-off or unlit control exists for these exact captures, so cause attributions below are visual inferences.",
+    "I did not inspect mesh IDs or UV layouts. Statements about material roles and regions come from what renders."
+  ],
+  "batchRelativeWorkingRetention": "All five parts are worth retaining as the working baseline. None needs a geometry rebuild. Corrections are material-role and mask-local on the existing bytes.",
+  "batchFormalReadiness": "Not ready. The whole finish stays CORRECT, and items 1\u20133 above are open. Technical PASS does not count as visual approval. This is not a rubric go.",
+  "postReviewQualifications": [
+    "WP27 andP29 already have distinct upward/floor andwall materialroles, atdifferentnumericPBRvalues. Reviewer singlevalue describesperceivedimage, notactualshaderidentity. Any correctioniscontrast/coverageevaluationofexistingroles, not automaticallynewroles.",
+    "WP30currentexactGLB hasnoUV orimagebinding, twouniformmaterials. Currentonly-shadow-disabledcontrol nowdirectlyremovesstripe; thiscontrolfinishedafterreviewprompt, wasnotseenbyOpus, andclosesattributionindependently. Itdoesnotprovephysicallyincorrectshadow.",
+    "Onecomponentnativeprobeperpartwiththreepassedactions(selection/hide/hideRender), notthreedifferentcomponents.",
+    "Sourcephotosdonotestablishexactcontainerinteriorash/materiallayer; lighterfloorrecommendationisdesignedreadabilityhypothesis.",
+    "Opus withinexistingUVs recommendationisart-scopeonly; noauthorization/capabilityclaimtooverwriteexistingUVmaps. Typedfreshbindingconstraintsremain.",
+    "Part128framefillisnotwholevehicle128visibility. WP23/WP30material-onlyrolesareexplicit.",
+    "WP82r5labelisnewpartmaterialstate; retainedr4foldgeometryunchanged. No sixthwholefinishattempt created.",
+    "Current WP27 shadow-off control closesfineverticalstripeattribution: leftROI55154/80000pixels changed,max4RGB8, stripingvisuallyremoved. RightscallopROIonly35/70000pixelschanged,max1RGB8; broadlobesremain. Thusdonotpaintoverfine receiver-shadow stripes; persistingscallop/maskcause remainsseparate fromshadowandoldradialmiplineissue."
+  ],
+  "batchReviewManifestSha256": "3968eb6ba5f0fd1462a6d16237ad35916a51073fe7997fb239e7f4f618284c75"
+}

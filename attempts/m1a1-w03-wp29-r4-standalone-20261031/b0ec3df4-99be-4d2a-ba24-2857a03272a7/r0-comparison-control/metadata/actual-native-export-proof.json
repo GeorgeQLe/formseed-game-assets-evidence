@@ -1,0 +1,47 @@
+{
+  "status": "PASS actual full-scope standalone/native/export before PBR",
+  "part": "wp29-r4-full",
+  "owner": "RightStowage",
+  "job": "b0ec3df4-99be-4d2a-ba24-2857a03272a7",
+  "revision": 0,
+  "checkpoint": "9999ba230bb850103b28cc4049a2acccd175debaefb5d36798e4943d0d4ca0c8",
+  "glb": "48067afa96220b9de312eaaa58f2d926d28582bfe9155bd72df6c37fa04894e5",
+  "meshCount": 1,
+  "triangles": 160,
+  "dimensionCriteriaPassed": 18,
+  "isolatedPredecessorGlbByteIdentical": true,
+  "sourceWholeJob": "b22d2945-f957-4514-a490-d612ed3aa980",
+  "sourceWholeCheckpoint": "214c301b762f766a30abc9a72359206f9f0dc51ba17c486952c9d153535a91a0",
+  "nativeMeshSha256": "d4fa6486cacb351dd759110a009dc5c704e15375e2ad8663ced95b12912bf1b8",
+  "nativeMaterialGraphCount": 6,
+  "allOrientedCornerPositionsNormalsUVsMaterialImageSemanticsExact": true,
+  "sourceParentAndLocalWorldMatricesExact": true,
+  "triangleAttributeMultisetSha256": "e49d6404749b2dc7218313842399885033f2b0405cda187ed6c98b3d7d7b9874",
+  "nativeComplete": true,
+  "allThreeNativeIsolationProbesPassed": true,
+  "statePreserved": true,
+  "sourcePins": [
+    {
+      "name": "wp29-r4-full-final-status.json",
+      "sha256": "d1968866b0b08d8a558364fcef86d693f1bf3ff47b971a58ae04a35b40203a9d"
+    },
+    {
+      "name": "wp29-r4-full-export.json",
+      "sha256": "aa896c12556b54645379130b416a4062a07dcdd5f875820866ebbaf9123db46a"
+    },
+    {
+      "name": "wp29-r4-full-validation.json",
+      "sha256": "eb0e3d40ed4640146ccf68a7fa1caf4ee9120626eb54b0ee2027cf046ad42f2b"
+    },
+    {
+      "name": "wp29-r4-full-native.json",
+      "sha256": "d8cf74fc4b279e6b1c09f8a0e9173725595eb973d34a9b77a5df7761e1d78545"
+    },
+    {
+      "name": "wp29-r4-full-initial-dimensions.json",
+      "sha256": "8ff4e385ac03f4ecaac5dfc1062c562c4aea4f9b51efc34fc39bcaea5979fe03"
+    }
+  ],
+  "qualification": "Existing EMPTY identity frames retained; exactly one MESH, no hidden tank meshes. Whole finish remains CORRECT; this proof grants no part approval.",
+  "nativeProbeQualification": "One component with three passed actions, not three components."
+}

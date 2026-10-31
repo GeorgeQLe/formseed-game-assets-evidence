@@ -1,0 +1,73 @@
+{
+  "status": "PASS current exact-source shadow control; stripe disappears with review shadows disabled",
+  "source": {
+    "job": "985b2525-0bee-4cc3-8050-fc4eaf5f60a5",
+    "revision": 0,
+    "checkpoint": {
+      "checkpointId": "fbf38af2-9143-40c6-ace4-f923ef82e5e4",
+      "checkpointHash": "d3b920102b301bfc6ac2b07ffef1038eda2ba6ec299f0bd1f43f67ce6c2911f9"
+    },
+    "glb": "4b5f19d511091313950b8e982493787928846ce92f053a5afb9a0919b0b81600"
+  },
+  "sameGeometryMaterialsCamerasFraming": true,
+  "onlyRendererChange": "renderer.shadowMap.enabled true -> false",
+  "rendererPins": [
+    {
+      "path": "part-review-renderer.ts",
+      "sha256": "4832afe6f5a00fa784c61991ca6e9512d397d5555a7ce757abfc19a3d6ef50fd"
+    },
+    {
+      "path": "part-review-renderer.ts",
+      "sha256": "66318ffe253030f07e69658f2eddd1bb3ea4ff52f932468f808068ec7636a253"
+    }
+  ],
+  "capturePins": [
+    {
+      "path": "render-evidence.json",
+      "sha256": "2c184535bf8ffdc1cea7c657c2d80c734e3d6e16f69df9357e7bd26a061ca536"
+    },
+    {
+      "path": "render-evidence.json",
+      "sha256": "5798fab0bc063dfea2d50661f96dc1d65d38e6e94950f5634ef77bb0024a5b1a"
+    }
+  ],
+  "currentNativeMaterialFact": "Current actual GLB RearBasket has two primitives with POSITION/NORMAL only, uniform W03R4BasketUpper/Lower, no COLOR/UV or baseColorTexture. Source-native graph/corner exactness independently checked.",
+  "nativeExportProof": {
+    "path": "wp30-r4-full-pre-capture-proof-v1.json",
+    "sha256": "c8b5fb67b651692d871329c396edd8f4e77e1cbf6153c5f68540c7016c66f2e0"
+  },
+  "rightStripeROI": {
+    "xyxy": [
+      870,
+      495,
+      938,
+      507
+    ],
+    "changedPixels": 465,
+    "maxRGB8Difference": 51,
+    "onMinRGB8": [
+      17,
+      19,
+      18
+    ],
+    "offMinRGB8": [
+      68,
+      68,
+      64
+    ]
+  },
+  "directDiagnosticPNGsVerified": 36,
+  "producerExitCode": 0,
+  "cleanup": {
+    "browserContextClosed": true,
+    "taskProfileRemoved": true,
+    "profileNamedBrowserProcessAbsent": true,
+    "serverClosed": true
+  },
+  "visualObservation": "Current front-right diagonal stripe is absent when only shadows are disabled. This directly establishes a cast-shadow contribution for this current source, not just transfer from an older material state.",
+  "limits": [
+    "Does not classify the cast shadow as physically wrong or require painting/geometry changes.",
+    "Shadow-off is diagnostic only; normal production/review lighting and stored asset remain untouched.",
+    "No approval or archive action."
+  ]
+}

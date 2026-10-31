@@ -1,0 +1,117 @@
+{
+  "part": "wp29-r4",
+  "job": "b0ec3df4-99be-4d2a-ba24-2857a03272a7",
+  "checkpoint": "9999ba230bb850103b28cc4049a2acccd175debaefb5d36798e4943d0d4ca0c8",
+  "glb": "48067afa96220b9de312eaaa58f2d926d28582bfe9155bd72df6c37fa04894e5",
+  "materials": [
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "review-light-paint"
+      },
+      "name": "review-light-paint",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4000000059604645,
+          0.30000001192092896,
+          0.20000000298023224,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8199999928474426
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03R4BoxUpward"
+      },
+      "name": "W03R4BoxUpward",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.03500000014901161,
+          0.03200000151991844,
+          0.02800000086426735,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9700000286102295
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03R4BoxWall"
+      },
+      "name": "W03R4BoxWall",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.05000000074505806,
+          0.04600000008940697,
+          0.03999999910593033,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9700000286102295
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03CausalR4Map13",
+        "formseedTextureBinding": "{\"sourceMaterial\": \"W03CausalR4Seed13\", \"textureSha256\": \"5cebb5c49789b037365cd340d488b8827224c81ecf6914d9f4b791ebf6a51622\", \"uvMap\": \"W03CausalR4UV1\"}"
+      },
+      "name": "W03CausalR4Map13",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8199999928474426
+      }
+    }
+  ],
+  "primitives": [
+    {
+      "owner": "RightStowage",
+      "rows": [
+        {
+          "material": "review-light-paint",
+          "triangles": 17,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "material": "W03R4BoxUpward",
+          "triangles": 55,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "material": "W03R4BoxWall",
+          "triangles": 54,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        },
+        {
+          "material": "W03CausalR4Map13",
+          "triangles": 34,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ]
+        }
+      ]
+    }
+  ]
+}

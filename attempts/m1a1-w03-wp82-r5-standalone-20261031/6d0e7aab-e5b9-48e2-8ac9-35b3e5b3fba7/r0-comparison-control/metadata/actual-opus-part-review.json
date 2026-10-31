@@ -1,0 +1,55 @@
+{
+  "reviewerModelIdentity": {
+    "model": "claude-opus-5-5",
+    "exitCode": 0,
+    "is_error": false,
+    "rawBatchOutputSha256": "a4efd2bf116cb97a76b33bc7ca20c9e9508e2b92388bbc16ce5e40ab13dfb5a9",
+    "rawPromptSha256": "199b2a969d5400a8dfea2bd6a4ac4e7c14f452c6b7eb37ca37c5a197fab47960"
+  },
+  "partFindingsVerbatim": {
+    "geometryDecision": "KEEP-FOR-FINISHING (exact retained r4 fold; I am not reopening it)",
+    "finishDecision": "CORRECT (bounded: edge-role consistency only)",
+    "obs1000": [
+      "The top surface is a dark warm-gray scorch with a soft AO-like darkening toward the fold base. Airbrushed in character, but quiet.",
+      "The perimeter edge band switches abruptly between mid-gray and black in rectangular segments: 1000-front (gray left segment, then darker segments), 1000-left (gray middle, black right), 1000-right (black run ending in a light-gray end tab). These per-face value switches are the main 'manufactured tab/miter' risk.",
+      "The prior tan exposed-edge sliver is not visible in any r5 standalone view. The edge now carries no cut-metal cue.",
+      "The black triangle in front, left and right is the underface of the high fold, consistent with an underface projection about 18 mm thick, not a solid wall. Accepted.",
+      "The single straight crisp hinge with no bend radius, together with the clipped octagonal corners, reads as cut and folded sheet stock more than torn armor. This is a retained geometry limit and does not justify reopening.",
+      "Grounding: the flat rest reads. Contact shadow is weak, and the floor shadow shows horizontal banding in 1000-top and 1000-rear-three-quarter, consistent with shadow-map aliasing (presentation, not asset)."
+    ],
+    "obs256": "The fold and dark plate read. The edge segment switching is visible in the edge-on views.",
+    "obs128": "Reads as a dark flat fragment with a raised flap. The edge segments survive in the left view as a gray/black split.",
+    "correction": "Unify the cut-edge faces into one consistent edge role. Optionally make it a slightly lighter, rougher exposed-edge value, uniform along the whole perimeter. No fold, thickness or contour change."
+  },
+  "openedInventory": {
+    "json": [
+      "all-five-actual-capture-integrity-v1.json (complete)",
+      "wp27-r4, wp23-r4, wp29-r4, wp30-r4 and wp82-r5 full-pre-capture-proof-v1.json (all five, complete)",
+      "actual-r4/opus-actual-findings-v1.json (complete)"
+    ],
+    "partPNGs": "All 90 first-pass PNGs listed: 5 parts \u00d7 6 views (front-three-quarter, rear-three-quarter, front, left, right, top) \u00d7 1000/256/128. I opened and inspected every one.",
+    "wholeContext": "1000-rear-three-quarter, 1000-top and 256-rear-three-quarter (whole r4)",
+    "sourceContext": "army-m1-1983-stowage-p239.png, usmc-hansen.jpg, doha-i14.png",
+    "notOpened": "The 90 second-pass deterministic PNGs; all five render-evidence.json receipts; the 25 sourcePin files (final-status, export, validation, native, initial-dimensions); the GLBs and blends. I make no claim of complete coverage beyond the 90 first-pass images."
+  },
+  "technicalLimits": [
+    "I recomputed no SHA, triangle multiset, corner, normal or UV data, and no matrix or GLB byte equality. Every technical PASS is accepted as reported, not verified by me.",
+    "The proof files I read are internally consistent: one MESH each; 18/18 dimension criteria (WP82 20/20); nativeComplete; three isolation probes; isolated-predecessor GLB byte-identical; same source checkpoint 214c301b; producer exit 0; cleanup flags true; humanApproval false.",
+    "Each part is framed to fill the image, so the 128 views are part-scale only. They do not show whole-tank game-scale recognition.",
+    "I cannot attribute any pixel feature to a texture versus a shadow with certainty. No shadow-off or unlit control exists for these exact captures, so cause attributions below are visual inferences.",
+    "I did not inspect mesh IDs or UV layouts. Statements about material roles and regions come from what renders."
+  ],
+  "batchRelativeWorkingRetention": "All five parts are worth retaining as the working baseline. None needs a geometry rebuild. Corrections are material-role and mask-local on the existing bytes.",
+  "batchFormalReadiness": "Not ready. The whole finish stays CORRECT, and items 1\u20133 above are open. Technical PASS does not count as visual approval. This is not a rubric go.",
+  "postReviewQualifications": [
+    "WP27 andP29 already have distinct upward/floor andwall materialroles, atdifferentnumericPBRvalues. Reviewer singlevalue describesperceivedimage, notactualshaderidentity. Any correctioniscontrast/coverageevaluationofexistingroles, not automaticallynewroles.",
+    "WP30currentexactGLB hasnoUV orimagebinding, twouniformmaterials. Currentonly-shadow-disabledcontrol nowdirectlyremovesstripe; thiscontrolfinishedafterreviewprompt, wasnotseenbyOpus, andclosesattributionindependently. Itdoesnotprovephysicallyincorrectshadow.",
+    "Onecomponentnativeprobeperpartwiththreepassedactions(selection/hide/hideRender), notthreedifferentcomponents.",
+    "Sourcephotosdonotestablishexactcontainerinteriorash/materiallayer; lighterfloorrecommendationisdesignedreadabilityhypothesis.",
+    "Opus withinexistingUVs recommendationisart-scopeonly; noauthorization/capabilityclaimtooverwriteexistingUVmaps. Typedfreshbindingconstraintsremain.",
+    "Part128framefillisnotwholevehicle128visibility. WP23/WP30material-onlyrolesareexplicit.",
+    "WP82r5labelisnewpartmaterialstate; retainedr4foldgeometryunchanged. No sixthwholefinishattempt created.",
+    "Current WP27 shadow-off control closesfineverticalstripeattribution: leftROI55154/80000pixels changed,max4RGB8, stripingvisuallyremoved. RightscallopROIonly35/70000pixelschanged,max1RGB8; broadlobesremain. Thusdonotpaintoverfine receiver-shadow stripes; persistingscallop/maskcause remainsseparate fromshadowandoldradialmiplineissue."
+  ],
+  "batchReviewManifestSha256": "3968eb6ba5f0fd1462a6d16237ad35916a51073fe7997fb239e7f4f618284c75"
+}

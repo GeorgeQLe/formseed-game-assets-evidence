@@ -1,0 +1,88 @@
+{
+  "status": "PASS exact current shadow-control attribution: fine left-side striping is shadow contribution; right-side scallops persist",
+  "source": {
+    "job": "21375ed3-b771-407c-b013-e2537dcf15ae",
+    "revision": 0,
+    "checkpoint": {
+      "checkpointId": "96253942-45d7-45b5-b52a-b350af0df6fd",
+      "checkpointHash": "266bab2aec43a7375792983315bd9101d8b75c047945bab9819a85be99134dd9"
+    },
+    "glb": "868aa0fa06347932574c609c4e73d549e00356c134d5eab9b5a2c7779768999c"
+  },
+  "sameGeometryMaterialsCamerasFraming": true,
+  "onlyRendererChange": "renderer.shadowMap.enabled true -> false",
+  "rendererPins": [
+    {
+      "path": "part-review-renderer.ts",
+      "sha256": "4832afe6f5a00fa784c61991ca6e9512d397d5555a7ce757abfc19a3d6ef50fd"
+    },
+    {
+      "path": "part-review-renderer.ts",
+      "sha256": "66318ffe253030f07e69658f2eddd1bb3ea4ff52f932468f808068ec7636a253"
+    }
+  ],
+  "capturePins": [
+    {
+      "path": "render-evidence.json",
+      "sha256": "50660f47bd3104349f7cb282fab0a35eb6d98db65ebf0234b5f5f88c7db71581"
+    },
+    {
+      "path": "render-evidence.json",
+      "sha256": "fce231c23aa18d68b2eefc6927b0d74c3252fa61f018a930c9f9c03dc8bd45ce"
+    }
+  ],
+  "nativeExportProof": {
+    "path": "wp27-r4-full-pre-capture-proof-v1.json",
+    "sha256": "2de73e060af07c983ce17e57b692b4bd93de3a88d2bd6e364cbda05a616c90ef"
+  },
+  "pixelComparisons": [
+    {
+      "view": "left",
+      "ROIxyxy": [
+        100,
+        420,
+        900,
+        520
+      ],
+      "wholeImageIdentical": false,
+      "ROIChangedPixels": 55154,
+      "maxRGB8Difference": 4.0,
+      "onMeanAbsoluteSecondDifferenceX_RGB8": 0.8404135338345865,
+      "offMeanAbsoluteSecondDifferenceX_RGB8": 0.2816457811194653
+    },
+    {
+      "view": "right",
+      "ROIxyxy": [
+        100,
+        420,
+        800,
+        520
+      ],
+      "wholeImageIdentical": false,
+      "ROIChangedPixels": 35,
+      "maxRGB8Difference": 1.0,
+      "onMeanAbsoluteSecondDifferenceX_RGB8": 0.24280324737344794,
+      "offMeanAbsoluteSecondDifferenceX_RGB8": 0.24286055396370582
+    }
+  ],
+  "directDiagnosticPNGsVerified": 36,
+  "producerExitCode": 0,
+  "cleanup": {
+    "browserContextClosed": true,
+    "taskProfileRemoved": true,
+    "profileNamedBrowserProcessAbsent": true,
+    "serverClosed": true
+  },
+  "observations": [
+    "Faint vertical fine bands in left orthographic1000 disappear when only shadowsdisabled; sourcefield smoothtransitionremains.",
+    "Rightorthographic1000 scallopROI has35of70000pixels changed byatmost1RGB8 level; broadscallopedlobesremain. Itisnotpixelidentical, butthe visiblelobeshape isnotremoved bythiscastshadowtoggle.",
+    "Front-quarter cavity/borecastshadows disappear, provingcontrolactive; geometryandnormaldata unchanged."
+  ],
+  "initialDiagnosticFailure": "Overstrict wholeimage equality assertion failed; preserved preliminary script. Measured small rightROI differences are reported, not an asset failure or silently claimed byte equality.",
+  "limits": [
+    "Does not byitselfseparate authoredmaskshape fromtextureprojection/filtering forpersistingscallops; do notclaimUVdefect solelyfromimage.",
+    "Doesnotproveallshadowsphysicallywrong; ordinaryproductionshadows remain.",
+    "Oldpaleradialmiplinesremainunseen; differentissuesnotconflated.",
+    "SoftburnedgefinishCORRECT unchanged; noassetmutation orsixthwholeattempt."
+  ]
+}

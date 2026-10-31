@@ -1,0 +1,65 @@
+{
+  "part": "wp30-r4",
+  "job": "985b2525-0bee-4cc3-8050-fc4eaf5f60a5",
+  "checkpoint": "d3b920102b301bfc6ac2b07ffef1038eda2ba6ec299f0bd1f43f67ce6c2911f9",
+  "glb": "4b5f19d511091313950b8e982493787928846ce92f053a5afb9a0919b0b81600",
+  "materials": [
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03R4BasketUpper"
+      },
+      "name": "W03R4BasketUpper",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.10999999940395355,
+          0.10499999672174454,
+          0.0949999988079071,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9300000071525574
+      }
+    },
+    {
+      "doubleSided": true,
+      "extras": {
+        "formseedReviewSource": "W03R4BasketLower"
+      },
+      "name": "W03R4BasketLower",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.07500000298023224,
+          0.07199999690055847,
+          0.06499999761581421,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.949999988079071
+      }
+    }
+  ],
+  "primitives": [
+    {
+      "owner": "RearBasket",
+      "rows": [
+        {
+          "material": "W03R4BasketUpper",
+          "triangles": 36,
+          "attributes": [
+            "NORMAL",
+            "POSITION"
+          ]
+        },
+        {
+          "material": "W03R4BasketLower",
+          "triangles": 144,
+          "attributes": [
+            "NORMAL",
+            "POSITION"
+          ]
+        }
+      ]
+    }
+  ]
+}
