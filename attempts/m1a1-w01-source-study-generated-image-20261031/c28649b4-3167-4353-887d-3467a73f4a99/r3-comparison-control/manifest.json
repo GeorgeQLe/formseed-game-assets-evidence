@@ -1,0 +1,46 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-w01-source-study-generated-image-20261031",
+  "project": "formseed-game-assets",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "c28649b4-3167-4353-887d-3467a73f4a99",
+    "revision": 3,
+    "checkpointSha256": "68dd471d3353e22dabe573309e250133e93a91f95851e4fb35f6bca6749d823c"
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "7ec3d5e7850201ad7a4597c7e6ea6f1729d16596095ec2682f5470f55e794965",
+    "files": [
+      {
+        "path": "source/original-generated-image.png",
+        "sha256": "7ec3d5e7850201ad7a4597c7e6ea6f1729d16596095ec2682f5470f55e794965",
+        "bytes": 4451947
+      },
+      {
+        "path": "review/portable-review.json",
+        "sha256": "fd7163fbaaffd6cf572716cac66c6269dfffe2ee9de308fcd1d00b4dc54a644b",
+        "bytes": 6221
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Source-only comparison; no source blend or GLB, third-party photo pixels, formal go or human approval.",
+    "Producer job is the physical source context, not a new producer candidate. Five past actual finish attempts remain charged.",
+    "ImageGen original unaltered source; direct texture use held. Reviewer disclosed in-memory image statistics, no changed bitmap written; original hash verified unchanged. Generation prompt is not recorded in supplied provenance receipt."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
