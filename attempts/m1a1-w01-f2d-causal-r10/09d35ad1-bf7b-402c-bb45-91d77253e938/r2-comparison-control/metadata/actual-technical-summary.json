@@ -1,0 +1,291 @@
+{
+  "candidate": {
+    "jobId": "09d35ad1-bf7b-402c-bb45-91d77253e938",
+    "revision": 2,
+    "checkpointHash": "90fb0b29fc831abcd6eee354c19fd5c6ebcc0f0dd577f34829ef2e75f371d1cb",
+    "glbSha256": "f108c26e93b66c44f7fafc92104129e7e8445e7a523c2d7e623a581bcdc02219"
+  },
+  "technicalValidation": {
+    "triangleCount": 31188,
+    "materialCount": 38,
+    "textureCount": 22,
+    "objectCount": 189,
+    "deterministic": true,
+    "issues": [],
+    "renderPaths": [
+      "local-only/front-three-quarter.png",
+      "local-only/rear-three-quarter.png",
+      "local-only/front.png",
+      "local-only/left.png",
+      "local-only/right.png",
+      "local-only/top.png"
+    ],
+    "validationRevision": 2,
+    "checkpointHash": "90fb0b29fc831abcd6eee354c19fd5c6ebcc0f0dd577f34829ef2e75f371d1cb",
+    "passed": true,
+    "id": "d01ef68b-5ef0-4010-b239-a898ea08dbf5",
+    "revision": 2,
+    "renderRevision": 2,
+    "renderHash": "26e2f8a81dbfb5015553dd6a44e09989248d20567066a2b9b9013ef43e61f1ac",
+    "contactSheetHash": "6ee5c2b0eacc8e6ec3e19fdd1e905a282e7c150e11cd5bc1a5804a9eb0314286",
+    "createdAt": "2026-11-01T03:18:19.061Z"
+  },
+  "dimensionResult": {
+    "jobId": "09d35ad1-bf7b-402c-bb45-91d77253e938",
+    "revision": 2,
+    "checkpointHash": "90fb0b29fc831abcd6eee354c19fd5c6ebcc0f0dd577f34829ef2e75f371d1cb",
+    "specificationHash": "425e1a2ccb700059f802ebd57071229ad9b380bbdfe190d28fab0d5192cdd880",
+    "resultHash": "5ded744a3c8b25105e59e11578a38dd9d18556d28c4d3c82e6e6b791fec859c6",
+    "validationScope": {
+      "policy": "configuration-and-pose",
+      "canonical": true,
+      "declaredCriterionIds": [
+        "datum:hull-rear:X",
+        "datum:hull-source-origin:X",
+        "datum:hull-source-origin:Y",
+        "datum:hull-source-origin:Z",
+        "datum:muzzle:X",
+        "datum:track-ground:Z",
+        "grounding:track-ground",
+        "origin:X",
+        "origin:Y",
+        "origin:Z",
+        "overall-height",
+        "overall-length",
+        "overall-width",
+        "pivot:X",
+        "pivot:Y",
+        "pivot:Z"
+      ],
+      "applicableCriterionIds": [
+        "datum:hull-rear:X",
+        "datum:hull-source-origin:X",
+        "datum:hull-source-origin:Y",
+        "datum:hull-source-origin:Z",
+        "datum:muzzle:X",
+        "datum:track-ground:Z",
+        "grounding:track-ground",
+        "origin:X",
+        "origin:Y",
+        "origin:Z",
+        "overall-height",
+        "overall-length",
+        "overall-width",
+        "pivot:X",
+        "pivot:Y",
+        "pivot:Z"
+      ],
+      "excludedCriterionIds": []
+    },
+    "aggregate": {
+      "passed": true,
+      "complete": true,
+      "reproducible": true,
+      "internallyConsistent": true,
+      "expectedBlockingCriterionCount": 16,
+      "reportedBlockingCriterionCount": 16,
+      "passedBlockingCriterionCount": 16,
+      "blockingFailureCriterionIds": []
+    }
+  },
+  "glbSummary": {
+    "preservedMeshCount": 127,
+    "preservedAllMappedNodeTransforms": 185,
+    "exactPositionCornerNormalOrientedTriangleMultiplicity": true,
+    "exactSourceParentsLocalAndWorldMatrices": true,
+    "sourceTriangleCount": 31188,
+    "originalExportMaterialDefinitionsExact": 14,
+    "embeddedImagesExact": {
+      "0": "30797e1f7a380b9b424766606a4f30aabae9eab9cb48ab8c2e7ec695a2790b7f",
+      "1": "538a9718b33a5548defcb3462366416bf410e0a80786e00b4e435314af511b30",
+      "2": "09f10d0e961084a7c9a97dd9df817deba808349355a9bf76ccbe2df4d4ed6ca9",
+      "3": "8469a1bc27c2c38c649f496308811ad9d86f4de4124b6269f76cb020d5223bbf",
+      "4": "07800365d852ff49f3d05a62ffeaa501fe34e6c82a7ea83126e1f873de1d4e97",
+      "5": "a709bd1d8cfda28fa5cbe554b8f8c8f47a7b32421bccc389f79234e63e15a1be",
+      "6": "2016218f5bb9876bee500a1ba89e87574a698411b78d2fa92c0efa124faba1f3",
+      "7": "4b1cf406bdf0d9d5384b5c5aab30cc835dec0051b8e3e929bfc6ac3eba7cda11",
+      "8": "8a762a3e16fb8837c7b506f3326505dcce3840b6d9bb4fac0b7de31703e3a634",
+      "9": "ea5e264abb5ee0f7499009a2c52d756df373c00f68f9a72a1707b9563989570e",
+      "10": "8d94903016766e40079ae740e8e7712983c3d6db3b6cdc69daa2e1e8646fd651",
+      "11": "cf38123da0bb200d394f8508588e176537e957353933220a9914dac44e246de1",
+      "12": "b5c9db33dafcbcd40dbe9ace99e2e16ecab746738dd68c0ff3f5ccd7cc048c7c",
+      "13": "ee68c1445e2da3f3c10260b84454eca157d9fee4b831b9bcb422945df0a4405d",
+      "14": "1a007a23b10a019a5291963db76d6443a3ba959df59948638076b67909597b84",
+      "15": "012c8d328317647d06a8a0f480f37244257b522c3a6f15839bc675715f41af86",
+      "16": "4d47877fe92305738f5d1743959970f2d299926b1873ac2c423b41f2159af458",
+      "17": "d4692f1fd3c6fed03e943a5070c0b30efb7557f488c09da196d50fb009fd157f",
+      "18": "2bf94f72469253e66baa9af16f7c424114d4f9b223de30030a878282e80f7c4f",
+      "19": "c3e18a959e186dbc805093539699db3730cfe2a88db62c8203398518f81865a2",
+      "20": "8bfc1551fa578cee46f32f265fafd7073c61e310cb8cf8f325cf78876ff2b9a7",
+      "21": "3bc81ba9e383b5e9bab11913f4b667baf1f11891fd7aa317a1f64184eae8237e"
+    },
+    "mappedNativeFaces": 428,
+    "mappedExportTriangles": 1009,
+    "maximumUvProjectionError": 5.1541774515051486e-08,
+    "channels": {
+      "W01CausalHeatAtlas11": [
+        0
+      ],
+      "W01CausalHeatAtlas12": [
+        0,
+        1
+      ],
+      "W01CausalHeatAtlas19": [
+        0,
+        2
+      ],
+      "W01CausalHeatAtlas03": [
+        0,
+        1,
+        2
+      ],
+      "W01CausalHeatAtlas04": [
+        1,
+        2,
+        3
+      ],
+      "W01CausalHeatAtlas05": [
+        1,
+        2
+      ],
+      "W01CausalHeatAtlas14": [
+        0
+      ],
+      "W01CausalHeatAtlas01": [
+        0
+      ],
+      "W01CausalHeatAtlas02": [
+        0,
+        1
+      ],
+      "W01CausalHeatAtlas10": [
+        3
+      ],
+      "W01CausalHeatAtlas20": [
+        0
+      ],
+      "W01CausalHeatAtlas21": [
+        1
+      ],
+      "W01CausalHeatAtlas22": [
+        2
+      ],
+      "W01CausalHeatAtlas13": [
+        0
+      ],
+      "W01CausalHeatAtlas15": [
+        0,
+        1
+      ],
+      "W01CausalHeatAtlas16": [
+        1
+      ],
+      "W01CausalHeatAtlas17": [
+        2
+      ],
+      "W01CausalHeatAtlas18": [
+        3
+      ],
+      "W01CausalHeatAtlas08": [
+        3
+      ],
+      "W01CausalHeatAtlas06": [
+        2
+      ],
+      "W01CausalHeatAtlas09": [
+        3
+      ],
+      "W01CausalHeatAtlas07": [
+        3
+      ]
+    },
+    "perOwnerFinalMaterialTriangleCountsMatch": true,
+    "actualChannelsEqualIndependentPredictedPermutations": true,
+    "solidNativeFaces": 421,
+    "solidNoncolorPBR": [
+      {
+        "material": "W01CausalSeamCore",
+        "sourceRole": "readability-seam",
+        "allExportNoncolorPBRFieldsExact": true,
+        "nameAndSourceLabelUpdatedAsDeclared": true
+      },
+      {
+        "material": "W01CausalHighlightCore",
+        "sourceRole": "readability-highlight",
+        "allExportNoncolorPBRFieldsExact": true,
+        "nameAndSourceLabelUpdatedAsDeclared": true
+      }
+    ],
+    "limits": [
+      "Original material shader graphs/face role/UV native parse is independently reported by M; this proof covers actualGLB geometry, PBR links, image hashes and selectedchannel projection.",
+      "Workbench native receipt uses material-color studio inspection; shader-aware PBR views are the appearance evidence.",
+      "Ten prior W01 finish attempts remain charged; this is eleventh actual candidate r10. No producer mutation or appearance change."
+    ]
+  },
+  "nativeCounts": {
+    "status": "PASS counts derived from actual-native all-face equality to plan",
+    "checkpoint": "90fb0b29fc831abcd6eee354c19fd5c6ebcc0f0dd577f34829ef2e75f371d1cb",
+    "nativeDiagnosisSha256": "81092e0193a96e81318fbaa9d093d7f29bdf85de0a6268bb3673e8ec2a2a9eda",
+    "mappedFaceCount": 428,
+    "coreSolidFaceCount": 421,
+    "totalTreatmentFaces": 849,
+    "changedNativeRolesIncludingRecovery": 1020,
+    "solidCounts": {
+      "W01CausalSeamCore": 356,
+      "W01CausalHighlightCore": 65
+    },
+    "limits": [
+      "Treatment count excludes restored physical-placeholder source roles that remain original paint; included in 1020 changes.",
+      "Actual GLB and PBR visual review separate."
+    ]
+  },
+  "proofs": {
+    "independentGLB": {
+      "path": "local-only/actual-r10-glb-binding-audit-v2.json",
+      "sha256": "c3f0504b518e7f3db5b8317e397cfaee0dda973d627881719c604807c10bd1b2"
+    },
+    "independentNativeByM": {
+      "path": "local-only/world-r10-actual-native-diagnosis-v1.json",
+      "sha256": "81092e0193a96e81318fbaa9d093d7f29bdf85de0a6268bb3673e8ec2a2a9eda"
+    },
+    "nativeCountsByM": {
+      "path": "local-only/world-r10-actual-native-counts-v1.json",
+      "sha256": "8bbd8dc4eea30378c2d0b4a444be2b134b63aeebcee91b259a0a0193e988a462"
+    },
+    "capture": {
+      "path": "local-only/capture-integrity-v1.json",
+      "sha256": "e4aef285fdd3b497d975421a0733c09a2810eadad706f807fef23bac8f6acdd3"
+    },
+    "captureManifest": {
+      "path": "local-only/render-evidence.json",
+      "sha256": "4522c0420828b0ac43cf963cce8a1d17cff9c8ed26bb4156140767b163ad7c0a"
+    },
+    "inputImagePins": {
+      "path": "local-only/review-image-input-pins-v1.json",
+      "sha256": "6b34bea31d9b5bc565ae4bdd24667f5ea2b59ef72f2aa0a3b2127ad2b4e1ddba"
+    },
+    "controllerObservations": {
+      "path": "local-only/controller-visual-observations-v1.json",
+      "sha256": "36320f8477088b23f9c739a13f45b56cb5887de6490031c06e2b9a10e56cd8f2"
+    },
+    "actualOpus": {
+      "path": "local-only/opus-whole-r10-findings-v1.json",
+      "sha256": "f13a8aa43aecfde441cb02f532e1fa9bf8cdb2f25a8a387f172335bf4b21facb"
+    },
+    "reviewerProvenance": {
+      "path": "local-only/claude-readiness-and-completion-v1.json",
+      "sha256": "b34093654de6388237dfde899b2056be1b2c5b6da991a02593b96e5d5678e4b7"
+    },
+    "sourceContext": {
+      "path": "local-only/review-evidence-summary-v1.json",
+      "sha256": "9fbe6d31a6ce73126afcdc905cf0d5757221171838679191028560254d7c04f0"
+    }
+  },
+  "cleanup": {
+    "captureResourcesVerified": true,
+    "reviewCliCompletedExit0": true,
+    "reviewerProducerLeases": 0,
+    "reviewerBitmapOrModelWrites": false
+  },
+  "technicalSuccessDoesNotApproveArt": true
+}

@@ -1,0 +1,220 @@
+{
+  "candidate": {
+    "jobId": "09d35ad1-bf7b-402c-bb45-91d77253e938",
+    "revision": 2,
+    "checkpointHash": "90fb0b29fc831abcd6eee354c19fd5c6ebcc0f0dd577f34829ef2e75f371d1cb",
+    "glbSha256": "f108c26e93b66c44f7fafc92104129e7e8445e7a523c2d7e623a581bcdc02219"
+  },
+  "history": {
+    "priorWholeFinishAttempts": 10,
+    "thisActualOrdinal": 11,
+    "logicalRevision": "r10",
+    "reset": false,
+    "sourceConceptGenerationsUsed": 1,
+    "sourceConceptMaximum": 2
+  },
+  "technicalValidation": "PASS",
+  "rootDecision": {
+    "decision": "CORRECT",
+    "retainAs": "Working fallback; not finished art",
+    "authority": "Root actual-image decision; not named human approval",
+    "agreedBlockingIssue": "Transition regularity is the only current blocker: broad uniform fade reads too straight at game scale.",
+    "optionalOnly": "Large1000pixel source elongation is optional polish,not a blocking art requirement.",
+    "nextAction": "One bounded coverage-only correction requested for source/geometry/camera/UV challenge; no new actual candidate or pixels authored by reviewer.",
+    "actualReview": {
+      "path": "local-only/actual-whole-r10-review-manifest-v1.json",
+      "sha256": "ce35eb0a43192b8182b10cac4bd5c8e3008b05bfec5f10d7de522e819e074714"
+    },
+    "history": {
+      "actualWholeFinishCount": 11,
+      "logicalRevision": "r10",
+      "sourceGenerationsUsed": 1,
+      "maximumSourceGenerations": 2,
+      "reset": false
+    },
+    "humanApproval": false
+  },
+  "actualReviewer": {
+    "cliVersion": "2.1.311",
+    "executable": "local-only/claude",
+    "requestedModel": "claude-opus-5-5",
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "mode": "Read-only Read tool,outside sandbox,authorized review",
+    "session": 11835,
+    "observedProcessExitCode": 0,
+    "isError": false,
+    "subtype": "success",
+    "durationMs": 101930,
+    "turns": 29,
+    "rawOutput": {
+      "path": "local-only/opus-whole-r10-output-v1.json",
+      "sha256": "42073e0de58deb1d22e59b0c35679d081eb4f841f5a5b53a4be1240bdbd11819"
+    },
+    "stderr": {
+      "path": "local-only/opus-whole-r10-stderr-v1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "prompt": {
+      "path": "local-only/opus-whole-r10-prompt-v1.txt",
+      "sha256": "d5fed24804cbbe3c1a7aa6d9198d39bb072c1bf77fa94324b100958c21286db6"
+    },
+    "reviewerPreludePreserved": "I've opened all 30 images and am writing the verdict now.\n\n",
+    "imageOpeningEvidence": "27 supplied PNGs are all named in reviewer inspection list. Prelude says30 images; this overcount is not adopted. Inspection list also includes1contextJSON. No per-tool event trace available; image opening is reviewer self-report. Controller independently hashed27 and directly inspected7current+2prior views.",
+    "cleanup": "CLI completedexit0; no task browser opened by reviewer. F all task-owned capture browser/profile/server cleanup independently verified."
+  },
+  "actualFindings": {
+    "disposition": "KEEP_FOR_FINISHING",
+    "finishedArtReady": false,
+    "overallReason": "r10 delivers most of what was promised. The rear soot is now one connected mass across the rear deck, the turret bustle and the rear hull sides. The old rounded islands and camouflage shapes are gone. The soot is a neutral gray-black with no brown, and the gray trim stays readable. Silhouette and condition read well at 256 and 128, so r10 is clearly better than r9 and should replace it as the working fallback. One new regression stops it from being finished art: the boundary between paint and soot is a perfectly straight, even airbrushed fade, laid along X. In top view it is a horizontal band straight across the whole vehicle. In side views it is a vertical band through the turret and the hull. It reads like the tank was half-dipped or masked with a gradient, not like irregular burned coating. This is the most visible feature of the condition at every size, so it matters at game scale, not just in closeup. The fix is bounded: make the edge of the existing transition irregular. No geometry, palette or source change is needed.",
+    "inspectedImages": [
+      "review-evidence-summary-v1.json",
+      "w01-f2d-causal-r10-pbr-20261101/1000-front-three-quarter.png",
+      "w01-f2d-causal-r10-pbr-20261101/1000-rear-three-quarter.png",
+      "w01-f2d-causal-r10-pbr-20261101/1000-front.png",
+      "w01-f2d-causal-r10-pbr-20261101/1000-left.png",
+      "w01-f2d-causal-r10-pbr-20261101/1000-right.png",
+      "w01-f2d-causal-r10-pbr-20261101/1000-top.png",
+      "w01-f2d-causal-r10-pbr-20261101/256-front-three-quarter.png",
+      "w01-f2d-causal-r10-pbr-20261101/256-rear-three-quarter.png",
+      "w01-f2d-causal-r10-pbr-20261101/256-front.png",
+      "w01-f2d-causal-r10-pbr-20261101/256-left.png",
+      "w01-f2d-causal-r10-pbr-20261101/256-right.png",
+      "w01-f2d-causal-r10-pbr-20261101/256-top.png",
+      "w01-f2d-causal-r10-pbr-20261101/128-front-three-quarter.png",
+      "w01-f2d-causal-r10-pbr-20261101/128-rear-three-quarter.png",
+      "w01-f2d-causal-r10-pbr-20261101/128-front.png",
+      "w01-f2d-causal-r10-pbr-20261101/128-left.png",
+      "w01-f2d-causal-r10-pbr-20261101/128-right.png",
+      "w01-f2d-causal-r10-pbr-20261101/128-top.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/1000-top.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/1000-right.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/1000-rear-three-quarter.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/256-top.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/256-right.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/128-rear-three-quarter.png",
+      "abrams-condition-evidence-20261029/usmc-hansen.jpg",
+      "abrams-condition-evidence-20261029/doha-i14.png",
+      "formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/bundles/1/canonical.png"
+    ],
+    "sizeFindings": {
+      "1000": "The soot is neutral black with lighter gray mottling and no brown. Grille slats, rear louvers, hatch outlines and railing keep subdued gray edges. The rear face mottling is continuous, with no visible vertical streaks or seams. The transition is a smooth linear ramp about 0.45 m wide. In top view it runs straight across at roughly y=330-410 px. In left and right views it is a straight vertical band through the turret bustle and through the hull side and skirt. On the rear deck and bustle roof, the gray mottles are stretched diagonally in one direction (top view), which suggests projection stretch. It is subtle and not wallpaper-like. Front view and front armor are untouched, as intended.",
+      "256": "The burned rear reads clearly and right away in every view, and the silhouette is intact. The straight wipe boundary is the dominant read in top and both side views: the black and tan halves meet along a clean line or soft band. The mottling turns into faint gray texture that keeps the black from looking like a flat void. Trim on the rear deck, grille and railing is still legible. There are no aliasing bands or sparkle.",
+      "128": "The condition is still recognizable as a rear-burned Abrams. The tank reads as two zones, a black rear and a tan front, with a straight divider in top, left and right views. Mottling and trim mostly disappear, which is acceptable at this size. There are no filtering artifacts and no new noise. Compared with r9 at 128, the black is cleaner and more neutral, and there are no brown or pixel-island edges."
+    },
+    "targetFindings": {
+      "connectedCoverage": "Achieved. One continuous soot region covers the rear deck, grille area, turret bustle roof and sides, rear hull sides and skirts, and the rear plate above the louvers, with no detached islands. Below the louvers, the lower rear plate and lower hull strip are still tan. That is consistent with r9 and plausible for soot that rises, but I can't confirm whether it is deliberate scope or protected geometry.",
+      "paintTransition": "Partly achieved. The old rounded binary islands and camouflage blotches are fully retired. The replacement, though, is a geometrically straight, constant-width linear fade that follows world X exactly. It reads as an artificial gradient band, not as irregular coating loss. Both photo references show ragged, irregular boundaries that vary by panel. This is the main remaining defect.",
+      "neutralColor": "Achieved. The soot is neutral charcoal with cool gray mottles, with no warm brown or mud on vertical faces, an improvement over r9's warm brown-black.",
+      "trimReadability": "Achieved. Burned-zone trim uses dark seams and subdued gray highlights that stay readable on the rear deck, grille slats, louvers, hatch frames and railing at 1000 and 256, without bright tan outlines. Trim outside the zone keeps the original style.",
+      "rearProjection": "Improved. The rear face and louver surround show continuous mottling with no visible repeated vertical streaks. The r9 rear 3/4 showed streaky directional marks on the rear deck and plate, and they are no longer evident. There is residual diagonal elongation of gray patches on the rear deck and bustle roof in top view, which is minor.",
+      "chartFiltering": "No visible seams, chart-edge bleeding, mip aliasing or sparkle at any of the three sizes in these GPU views. The author's numerical risk bounds did not show up as visible artifacts.",
+      "regressions": "New: the broad, straight artificial fade band, visible in all six views and at all three sizes. Possible: a slight hard step where the hull edge or fender tops meet the transition line in top view, about x=333-365 and x=636-666 near y\u2248340. My confidence that this is a mask edge and not a physical panel join or geometry is low to medium. I see no material-repeat streaks, marble or wallpaper read, or loss of form contrast. The faceted shading stays readable through the soot. Dark rectangles on the hull sides (e.g. right view x\u2248350-430) and the dark lower glacis were already present in r9, so I treat them as existing geometry or materials, not new paint."
+    },
+    "comparisonWithR9": "r10 is a clear net improvement. r9 had warm brown-black soot, pixel-stepped rounded islands, camouflage-like blotches and tan patches inside the burn on the bustle sides and deck (r9 1000-top, 1000-right, 1000-rear-three-quarter). r10 removes all of these and makes the burned zone coherent and neutral. The cost is that r9's boundary, though blocky, was at least irregular. r10 replaced it with a mechanically straight fade. Overall r10 is closer to finished and should become the retained fallback over r9.",
+    "blockingIssues": [
+      {
+        "view": "top; left; right; rear-three-quarter; front-three-quarter",
+        "size": "1000, 256, 128",
+        "region": "Paint-to-soot transition across the turret bustle, the turret sides and the hull sides and skirts",
+        "visibleFact": "The boundary is a perfectly straight, constant-width linear gradient perpendicular to the vehicle's long axis. It is a horizontal band across the whole width in top view and a vertical band in side views, with no variation in where it falls along the length or in its edge shape between panels.",
+        "confidence": "high",
+        "whyBlocking": "At 256 and 128 this boundary is the most visible feature of the condition, and it reads as a dip or gradient mask, not burned coating loss. That goes against the irregular morphology the references support and the coherent finished treatment the brief asks for. It is a core finish error, not closeup polish."
+      }
+    ],
+    "optionalPolish": [
+      {
+        "visibleFact": "The gray mottles on the rear deck and bustle roof are stretched diagonally in one direction (1000-top).",
+        "impact": "Low. Only visible at 1000 and gone by 256."
+      },
+      {
+        "visibleFact": "There may be a hard step at the hull edge or fender tops where they meet the transition line (1000-top, near y\u2248340). I'm not certain whether this is the mask or a physical join.",
+        "impact": "Low to medium at 1000, negligible at 128."
+      },
+      {
+        "visibleFact": "The rear soot interior has fairly even tone, with little heavier soot near the grilles or vents and little lighter burned-out patching.",
+        "impact": "Low. Optional extra variation inside the burned zone."
+      }
+    ],
+    "boundedRecommendations": [
+      "Keep the r10 coverage, neutral source, trim and rear mapping as they are. Change only the transition mask: offset its X position with low-frequency irregular noise, for example \u00b10.2-0.4 m varying with Y and Z, or derived from the neutral source's own light-patch structure. That gives ragged, panel-varying edges while staying connected and avoiding rounded islands. The width can stay about 0.45 m but should vary locally.",
+      "Let the boundary sit at a different X on the turret, the deck and the hull sides, for example extending further forward along the upper bustle where heat would rise. Then the side views won't show one shared vertical line. Check the result at 256 and 128 in top and side views.",
+      "Optionally check the fender and hull-edge faces in top view near the transition for a hard mask cut, and confirm whether it is a physical join before changing anything."
+    ],
+    "sourceReferenceAssessment": "Both photos (Hansen 2003 USMC; Doha I-14 1991) support connected heavy blackening with irregular, ragged boundaries against surviving paint, mottled coating loss and lighter scorched patches. r10's neutral, connected, mottled soot is consistent with that. Its straight linear fade is not, because neither photo shows a uniform gradient band. The neutral synthesized source (not a photo) is a suitable irregular dark mottle. It reads as reasonable burned-surface variation on the model, with no visible tiling or marble effect at game sizes.",
+    "limitations": "I read every listed PNG directly but did not open the JSON audit files that the summary references, and I did not verify any hashes. I can't map pixels to native face IDs, so I treat what might be the Hull24 and inner-hatch-32 placeholders, physical joins and cast shadows only by visual inference. The lower-rear tan areas and the fender step are uncertain. These were single static renders under one lighting setup, so I can't judge in-game lighting or motion.",
+    "humanApproval": false
+  },
+  "controllerObservations": {
+    "status": "Controller direct visual observations, separate from pending Opus/root decision",
+    "inspectedCurrent": [
+      {
+        "path": "local-only/1000-right.png",
+        "sha256": "be17589328cb84bea9b47f9cc2f2c27f12eaf11985fe33b472f51883bed36c5b"
+      },
+      {
+        "path": "local-only/1000-top.png",
+        "sha256": "af078cf4b46ef6b2d1f0d51b79766b48d00ee68118994fa9128e93faf24c2958"
+      },
+      {
+        "path": "local-only/1000-rear-three-quarter.png",
+        "sha256": "968cef386fed3aa6d4150a57a4e28c58e0de42aa65fc5f36a42a8763dffba198"
+      },
+      {
+        "path": "local-only/256-rear-three-quarter.png",
+        "sha256": "fe271e49e51763db5768b6eaa38154a56a9d64c2dc0fd3b50ab36df49d534309"
+      },
+      {
+        "path": "local-only/256-right.png",
+        "sha256": "3e182ed815a7472655ab1d62970f06129fc1cc755d6adfb90a1ba25abd71cdb0"
+      },
+      {
+        "path": "local-only/128-rear-three-quarter.png",
+        "sha256": "a8bc60a10a0db1b465a47bc94a6268b12d3eb1e1c97c52fe0aca86ca66023b6e"
+      },
+      {
+        "path": "local-only/256-top.png",
+        "sha256": "b0b422d1446be2118405cb013a06e2c022a7c66e9066910f2ff5ac80952c9f8b"
+      }
+    ],
+    "inspectedPriorR9": [
+      {
+        "path": "local-only/1000-right.png",
+        "sha256": "5381c3e4e8ca1e62861afa36d4a912885a7f3828d17faad3e073d2bb3111527b"
+      },
+      {
+        "path": "local-only/256-top.png",
+        "sha256": "6eabbf097b23b1d5f6c8b496d12b27e4a2b3eb86691569833d8f9d8c22bf0967"
+      }
+    ],
+    "improvements": [
+      "Scalloped retained-paint islands on right stowage and top are gone in these views.",
+      "Rear structure now carries connected soot/albedo coverage with reduced brown cast.",
+      "Subdued gray trim preserves grille/panel outlines and sharp physical silhouette.",
+      "At256/128 rear condition remains distinct from clean tan front."
+    ],
+    "remainingQuestions": [
+      "At1000top broad diagonal gray source streaks can read as printed or marbled material rather than residue; this is a style/scale observation, not a proved UV defect.",
+      "Transition is soft and broadly aligned across several rear structures; actual game-scale acceptability remains a visual judgment.",
+      "At256right the darkest side loses some mottled detail while keeping macrocondition contrast."
+    ],
+    "attributionLimits": [
+      "Visible gaps and source physical part boundaries are not presumed texture defects.",
+      "Hull24 and innerlid32 are declared original placeholders; source preservation is not proof these are historically charred.",
+      "No photorealism or new physical damage required; game-scale style and promised improvements are the target."
+    ],
+    "disposition": "Await actual independent Opus and root decision; no art-ready claim from numerical pass",
+    "producerOrPixelMutation": false
+  },
+  "qualifications": [
+    "Reviewer calls transition perfectly constantX/linear; actual selected field has height dependence,source-luminance perturbation and smoothstep. The blocking finding is visual regularity,not literal formula identity.",
+    "Reviewer heat-rise suggestions are design choices,not measured incident mechanics or required physics.",
+    "Reviewer says all6views affected but blocking list specifies5 excludingfront; retain exact evidence and do not assert equally visible front obstruction.",
+    "No visible filter issue in these sampled renders is not a universal mip-safety certification.",
+    "Controller raised printed/marbled closeup risk; reviewer explicitly finds no such game-scale issue. This remains a separate optional observation rather than an agreed blocker.",
+    "Underlying geometry/source placeholders,includingHull24 andinnerhatch32,are preserved; do not attribute every darkrectangle to newmask.",
+    "ActualOpus images claimed30inprelude versus27supplied; all27listed imagepaths verified,but no individualtooltrace claim."
+  ],
+  "humanApproval": false,
+  "sourcePromotion": false
+}

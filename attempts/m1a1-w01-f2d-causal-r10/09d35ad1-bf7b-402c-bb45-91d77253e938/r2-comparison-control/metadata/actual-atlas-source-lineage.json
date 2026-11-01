@@ -1,0 +1,1004 @@
+{
+  "status": "Completed exact typed FormSeed2D outputs;no approval inferred",
+  "originalSource": {
+    "conceptId": "5a6938b9d6e8717fe79959e3d0d3b7dc76cac805e02c4f8a38d7288e2334f722",
+    "generationAttempt": "13d0a6f0-5d9f-4599-b2d0-28ea68e3d2b2",
+    "generationsUsed": 1,
+    "maximumGenerations": 2,
+    "officialHostStageSha256": "f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514",
+    "importerR0Sha256": "ed553f530ecd8e97d8c55280a54b30239016567e36ed1e59dc8846fe53c59051",
+    "canonical512Sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+    "sourceJobId": "2673a19b-2924-462d-a61e-f50ee2328422",
+    "sourceRevision": 1,
+    "publishedOriginalSourceEvidenceCommit": "21049631a15143a74a64e073e59aefe7e795a106"
+  },
+  "neutralSource": {
+    "jobId": "249e0343-3c37-4276-98ac-934542e91d8e",
+    "revision": 1,
+    "canonicalSha256": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f",
+    "method": "Public FormSeed2D clone then saturation25%;no new generation",
+    "independentSourceProofSha256": "b5f45756603ff75c5af843be1b5bc22bc2d848852d36946c3bc6ac072ec531a2",
+    "sourceStatus": "KEEP-FOR-APPLICATION only;not finished-model approval"
+  },
+  "atlasProduction": {
+    "status": "PASS independent actual22 PNG/provenance/command equality gate",
+    "index": {
+      "path": "local-only/actual-twenty-two-atlases-v1.json",
+      "sha256": "fdac5304a14e36c785887f74be847c333e143bab839dab97453cc5edce399a4a"
+    },
+    "predictions": {
+      "path": "local-only/split-command-rgba-predictions-v1.json",
+      "sha256": "9b570a27a428e0c992dbe5c46d45c94275025be8a2b96631ae66ef00256e2f72"
+    },
+    "commandPlan": {
+      "path": "local-only/causal-2d-command-plan-v3.json",
+      "sha256": "1b17b409d6302a42254296b8df4ac39bc5cd595a4dc22abb768674f87e1a735b"
+    },
+    "atlases": [
+      {
+        "atlas": 1,
+        "jobId": "2a054c3b-25ea-4417-9199-aca92fa2b46b",
+        "name": "w01-r10-causal-95b22487-atlas-01",
+        "finalRevision": 2,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "69343ab8bfef86f74c74abcef0aa564a02a2eb3c460db18d2a30b65e471681ba"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "30797e1f7a380b9b424766606a4f30aabae9eab9cb48ab8c2e7ec695a2790b7f"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "666807edad91674d9c5d3110e00ce5c72b1464a571a3a861cce5f13f3073c475",
+            "decodedRGBAsha256": "bd8b6713140c25b2c89688527f8395f7c16e806b181cdac185fb189c514729db",
+            "encodedBytes": 16801
+          },
+          {
+            "revision": 2,
+            "pngSha256": "30797e1f7a380b9b424766606a4f30aabae9eab9cb48ab8c2e7ec695a2790b7f",
+            "decodedRGBAsha256": "0553942e37f3124f3a4c4a3596fc48096992e85b82d4ade2ed00ee5ac3daeb94",
+            "encodedBytes": 28785
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-01-r2.png"
+      },
+      {
+        "atlas": 2,
+        "jobId": "9bcf8896-02d6-4e22-9339-45862037df54",
+        "name": "w01-r10-causal-95b22487-atlas-02",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "cd9f518c82ccc7d32506f22cd9e6fe2aed296f0e101c4767ec5ca4e770ebb27a"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "09f10d0e961084a7c9a97dd9df817deba808349355a9bf76ccbe2df4d4ed6ca9"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "09f10d0e961084a7c9a97dd9df817deba808349355a9bf76ccbe2df4d4ed6ca9",
+            "decodedRGBAsha256": "11deb806b61df01e80eabf030a97b33deb29cfdc95d3be3969e330d85f802a21",
+            "encodedBytes": 24640
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-02-r1.png"
+      },
+      {
+        "atlas": 3,
+        "jobId": "9e719845-3dcf-4012-aef0-d07f37cace35",
+        "name": "w01-r10-causal-95b22487-atlas-03",
+        "finalRevision": 2,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "5c2d4589fafa599f12c91decdb95aeeadc2641ab4dde4e23587e4d675f9ec2ae"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "8a762a3e16fb8837c7b506f3326505dcce3840b6d9bb4fac0b7de31703e3a634"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "a960e746f8d543c71e0c426d45aac27ed9f52ece9dbe6ca108df4358c5a4993d",
+            "decodedRGBAsha256": "a33b26c8ab8c2dde1120657854a4e00fb2f630850aa838bbdb036b5f0a4cab4c",
+            "encodedBytes": 15001
+          },
+          {
+            "revision": 2,
+            "pngSha256": "8a762a3e16fb8837c7b506f3326505dcce3840b6d9bb4fac0b7de31703e3a634",
+            "decodedRGBAsha256": "60624980784bcf36f8a794c667565bc9fe3585b442330ce8788c72eaba420c1a",
+            "encodedBytes": 19909
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-03-r2.png"
+      },
+      {
+        "atlas": 4,
+        "jobId": "ffa4a4c7-b1b1-4fe4-9816-34786c13bf5c",
+        "name": "w01-r10-causal-95b22487-atlas-04",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "6e1196717539b276f25dbf4e9a79599d84c84a552c3093935e945217b430e033"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "538a9718b33a5548defcb3462366416bf410e0a80786e00b4e435314af511b30"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "538a9718b33a5548defcb3462366416bf410e0a80786e00b4e435314af511b30",
+            "decodedRGBAsha256": "6e1095e3d642bf3a52026eddd3411c929f543cadd9109098f0008cb1fad4bb83",
+            "encodedBytes": 17256
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-04-r1.png"
+      },
+      {
+        "atlas": 5,
+        "jobId": "5bc85bdf-1fba-4025-ac5a-bfc565a871fd",
+        "name": "w01-r10-causal-95b22487-atlas-05",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "a88d0fc4ebfd2343d45f125a92dba1d6821ba5fb6e0665ce18fa726086dfd531"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "ea5e264abb5ee0f7499009a2c52d756df373c00f68f9a72a1707b9563989570e"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "ea5e264abb5ee0f7499009a2c52d756df373c00f68f9a72a1707b9563989570e",
+            "decodedRGBAsha256": "9a55f15cdc2819a0f123c0377e953a1ab1bb110fb3405b78074948763e37c5b6",
+            "encodedBytes": 7162
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-05-r1.png"
+      },
+      {
+        "atlas": 6,
+        "jobId": "a095df6c-2faa-4a93-9f86-af52eec22465",
+        "name": "w01-r10-causal-95b22487-atlas-06",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "f7b85d3bc73fb3118e5d0a06d764a7c3127ce423e86fec08b1188026b98432bd"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "b5c9db33dafcbcd40dbe9ace99e2e16ecab746738dd68c0ff3f5ccd7cc048c7c"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "b5c9db33dafcbcd40dbe9ace99e2e16ecab746738dd68c0ff3f5ccd7cc048c7c",
+            "decodedRGBAsha256": "a7ebcf1e18e9403bd8ae11a181418f9ccfd0ecad774a8c2ad4226eca29a07b06",
+            "encodedBytes": 3434
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-06-r1.png"
+      },
+      {
+        "atlas": 7,
+        "jobId": "96a23ec3-d8b2-4d48-90ec-1e604cca3c58",
+        "name": "w01-r10-causal-95b22487-atlas-07",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "55dc3eb1d1bc2cf3857aa506fb9913ac4e041588ca263a6af895908724c84c33"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "1a007a23b10a019a5291963db76d6443a3ba959df59948638076b67909597b84"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "1a007a23b10a019a5291963db76d6443a3ba959df59948638076b67909597b84",
+            "decodedRGBAsha256": "6b9db841f63ef69647b77015fa0ef8f8fd840282780b0604bb8dcac6bc6f97b7",
+            "encodedBytes": 2549
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-07-r1.png"
+      },
+      {
+        "atlas": 8,
+        "jobId": "ff29a281-c83c-46bd-820b-3adb3f6b71ae",
+        "name": "w01-r10-causal-95b22487-atlas-08",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "c83ff216e665f0420cc19b408ddad8f9d119ad3b461cefefb1efa2c40f71a35b"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "cf38123da0bb200d394f8508588e176537e957353933220a9914dac44e246de1"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "cf38123da0bb200d394f8508588e176537e957353933220a9914dac44e246de1",
+            "decodedRGBAsha256": "a29fe1ceb47d9274a8f59142f00560cc1ead4318f25fa20d3f9c59198cd28273",
+            "encodedBytes": 1884
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-08-r1.png"
+      },
+      {
+        "atlas": 9,
+        "jobId": "c0125b79-1297-4dd6-85d9-5272574eb459",
+        "name": "w01-r10-causal-95b22487-atlas-09",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "42ab091574eef9beac20de8d09282042a5e0ac0a5a9991661f29551ebb82b33b"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "ee68c1445e2da3f3c10260b84454eca157d9fee4b831b9bcb422945df0a4405d"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "ee68c1445e2da3f3c10260b84454eca157d9fee4b831b9bcb422945df0a4405d",
+            "decodedRGBAsha256": "bd6b6309850b637ad10d955995e3ff211e3191f7aa44139ddf188f1d31532577",
+            "encodedBytes": 2037
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-09-r1.png"
+      },
+      {
+        "atlas": 10,
+        "jobId": "bbf11e36-7f44-410b-ba38-4e0e3fc5110f",
+        "name": "w01-r10-causal-95b22487-atlas-10",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "681d8c5e1cb802c6bd10653d0146ed23543faa99251b959886e788bab5de1c69"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "8d94903016766e40079ae740e8e7712983c3d6db3b6cdc69daa2e1e8646fd651"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "8d94903016766e40079ae740e8e7712983c3d6db3b6cdc69daa2e1e8646fd651",
+            "decodedRGBAsha256": "894d03c130f811281efbac3c8e9221740368a5055bed0486f1b260c90430de27",
+            "encodedBytes": 3992
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-10-r1.png"
+      },
+      {
+        "atlas": 11,
+        "jobId": "f8498d84-4a42-4f3f-9ddb-65b47d98744d",
+        "name": "w01-r10-causal-95b22487-atlas-11",
+        "finalRevision": 1,
+        "sourceSHA": "e165b3b41ce3355ff7392285fae35e4177f477b7ea90035678f8d7a93f8026c5",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "04db4f64dab12e0ce4be63347b184467f775d41c00b81df84896875f39a54a21"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "d4692f1fd3c6fed03e943a5070c0b30efb7557f488c09da196d50fb009fd157f"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "d4692f1fd3c6fed03e943a5070c0b30efb7557f488c09da196d50fb009fd157f",
+            "decodedRGBAsha256": "b103f116465bb4d18af3808e163cea3e560c03dfe6a110f86b2ba7c325cbf8a3",
+            "encodedBytes": 23465
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-11-r1.png"
+      },
+      {
+        "atlas": 12,
+        "jobId": "859c8d87-ffe4-4e58-a130-dca56ac13851",
+        "name": "w01-r10-causal-95b22487-atlas-12",
+        "finalRevision": 1,
+        "sourceSHA": "e165b3b41ce3355ff7392285fae35e4177f477b7ea90035678f8d7a93f8026c5",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "64b0f5e6bb0244bec65f82aea48f2ba6727e7cc6abb8ed2ed60fb2400a2166a9"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "012c8d328317647d06a8a0f480f37244257b522c3a6f15839bc675715f41af86"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "012c8d328317647d06a8a0f480f37244257b522c3a6f15839bc675715f41af86",
+            "decodedRGBAsha256": "79c58774d431f19dc7e886445b024d63c4e2dd8afac93469dcf558c00db05487",
+            "encodedBytes": 7772
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-12-r1.png"
+      },
+      {
+        "atlas": 13,
+        "jobId": "4aa73821-af54-493f-9d0b-f2c0fc45250c",
+        "name": "w01-r10-causal-95b22487-atlas-13",
+        "finalRevision": 1,
+        "sourceSHA": "2deb673ac5b20462c56fc0ce02e1c4f9f7de8a39fc8da6d7b4536bf4eee8e933",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "b88ae78fcb5523c0ba45069550153dda70bff6b79c33c6c0cf81d42b47fab6f9"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "4d47877fe92305738f5d1743959970f2d299926b1873ac2c423b41f2159af458"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "4d47877fe92305738f5d1743959970f2d299926b1873ac2c423b41f2159af458",
+            "decodedRGBAsha256": "6b0b2b68939ae8f51be5ea62026fd0e8a2346a5e74b633fd61ded38a1284f9ee",
+            "encodedBytes": 13553
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-13-r1.png"
+      },
+      {
+        "atlas": 14,
+        "jobId": "bfc6d6d1-37ef-48bc-8418-b0e3193e96e3",
+        "name": "w01-r10-causal-95b22487-atlas-14",
+        "finalRevision": 1,
+        "sourceSHA": "28cf4a659f60ab143fad257a939af2eba067df5821f16944350749b8876afad9",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "bfe04d6bdcf3d321d39ce24056f5df21b3943feeb44f6a5fbda9b9094c6a5179"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "2bf94f72469253e66baa9af16f7c424114d4f9b223de30030a878282e80f7c4f"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "2bf94f72469253e66baa9af16f7c424114d4f9b223de30030a878282e80f7c4f",
+            "decodedRGBAsha256": "e830c282b3752a8000914f147132ba45164635968effe9e40ef73b0f69d0fc28",
+            "encodedBytes": 5795
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-14-r1.png"
+      },
+      {
+        "atlas": 15,
+        "jobId": "eb8837e0-d57d-45d6-8428-fdbc56373693",
+        "name": "w01-r10-causal-95b22487-atlas-15",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "d38443c81b70397df73eeb47d5b874fdf205918100b383c98dee5056c2d3b30b"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "8469a1bc27c2c38c649f496308811ad9d86f4de4124b6269f76cb020d5223bbf"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "8469a1bc27c2c38c649f496308811ad9d86f4de4124b6269f76cb020d5223bbf",
+            "decodedRGBAsha256": "cad7d76134871b5073cf7152d7dfb2842bce2282e4a33e2943bc077cf9d841c2",
+            "encodedBytes": 3453
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-15-r1.png"
+      },
+      {
+        "atlas": 16,
+        "jobId": "7b373087-95b7-4763-8473-1c333127f4e2",
+        "name": "w01-r10-causal-95b22487-atlas-16",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "fc0e12ff6ac217614e272c87cc6a43342c71bad9dbe1b18d693c6c7f121f649a"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "c3e18a959e186dbc805093539699db3730cfe2a88db62c8203398518f81865a2"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "c3e18a959e186dbc805093539699db3730cfe2a88db62c8203398518f81865a2",
+            "decodedRGBAsha256": "81d50c07a7483f1700de65eb3e4445e7d9bf27890b0dd98d4880d1985a2eef8a",
+            "encodedBytes": 3530
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-16-r1.png"
+      },
+      {
+        "atlas": 17,
+        "jobId": "1782b94a-a9e0-4feb-8326-2001ddcf5ef9",
+        "name": "w01-r10-causal-95b22487-atlas-17",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "e10d5d4ddacfc11f3cddcfad6a4e44e1eb91a8ce29bb07db333be8aec2d28639"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "8bfc1551fa578cee46f32f265fafd7073c61e310cb8cf8f325cf78876ff2b9a7"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "8bfc1551fa578cee46f32f265fafd7073c61e310cb8cf8f325cf78876ff2b9a7",
+            "decodedRGBAsha256": "0756376dd2500eb9b2a812137573d955b4eb748436b6d3a2561bdc1db955252b",
+            "encodedBytes": 3477
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-17-r1.png"
+      },
+      {
+        "atlas": 18,
+        "jobId": "a40712f2-10a9-456c-8e93-eaa6f3649428",
+        "name": "w01-r10-causal-95b22487-atlas-18",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "c58c4951067d87d8589974192a2b6fe32580c864f1ecd0f9badfa1979ed37735"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "3bc81ba9e383b5e9bab11913f4b667baf1f11891fd7aa317a1f64184eae8237e"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "3bc81ba9e383b5e9bab11913f4b667baf1f11891fd7aa317a1f64184eae8237e",
+            "decodedRGBAsha256": "c6aa8c64db92508aa9c5dc8e46ebdff195471d9d8fdb8bcac3bf424a872ef583",
+            "encodedBytes": 2100
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-18-r1.png"
+      },
+      {
+        "atlas": 19,
+        "jobId": "672b25a3-f5bb-4ee6-a74a-9d548a73718b",
+        "name": "w01-r10-causal-95b22487-atlas-19",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "c89dc9c7b5d09e5138de80d536c03f329a74d802a1377194b7abd49d6ce9a652"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "07800365d852ff49f3d05a62ffeaa501fe34e6c82a7ea83126e1f873de1d4e97"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "07800365d852ff49f3d05a62ffeaa501fe34e6c82a7ea83126e1f873de1d4e97",
+            "decodedRGBAsha256": "21b2241dd3b65b61890e049ff1b08845eb5615392302b821bbf1c76accacea8e",
+            "encodedBytes": 2026
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-19-r1.png"
+      },
+      {
+        "atlas": 20,
+        "jobId": "bf5d2614-e2ee-4e9e-8b04-2d8e3553906d",
+        "name": "w01-r10-causal-95b22487-atlas-20",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "2a4b66fdf8bad8e1fb80e1b48d6e02edf5feee0593e98e7fff603c1d0371c2b4"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "a709bd1d8cfda28fa5cbe554b8f8c8f47a7b32421bccc389f79234e63e15a1be"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "a709bd1d8cfda28fa5cbe554b8f8c8f47a7b32421bccc389f79234e63e15a1be",
+            "decodedRGBAsha256": "ba51989f27c71471a64718e9e21901c26e1c874f929e4eb88ab54523027a67c1",
+            "encodedBytes": 3368
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-20-r1.png"
+      },
+      {
+        "atlas": 21,
+        "jobId": "0e7ea13d-c66a-4048-947d-d0e201d4813a",
+        "name": "w01-r10-causal-95b22487-atlas-21",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "2ff580ca64e14e598fa385a1b6b98a7d2a0013e97cf4b76cd2a9f0a3f3e98e9e"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "2016218f5bb9876bee500a1ba89e87574a698411b78d2fa92c0efa124faba1f3"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "2016218f5bb9876bee500a1ba89e87574a698411b78d2fa92c0efa124faba1f3",
+            "decodedRGBAsha256": "c3bcda7c615e77e80308666c86ac2598fa5ef27c294657e3e16d9613fdb1a360",
+            "encodedBytes": 3018
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-21-r1.png"
+      },
+      {
+        "atlas": 22,
+        "jobId": "c892b2fb-7c19-4066-8c99-3dbc370af6d9",
+        "name": "w01-r10-causal-95b22487-atlas-22",
+        "finalRevision": 1,
+        "sourceSHA": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2",
+        "manifest": {
+          "path": "local-only/manifest.json",
+          "sha256": "53c01904861adb3fbc8d21e2d4b9c639d64b72042f72ab70ed7904866d2291d7"
+        },
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "4b1cf406bdf0d9d5384b5c5aab30cc835dec0051b8e3e929bfc6ac3eba7cda11"
+        },
+        "states": [
+          {
+            "revision": 1,
+            "pngSha256": "4b1cf406bdf0d9d5384b5c5aab30cc835dec0051b8e3e929bfc6ac3eba7cda11",
+            "decodedRGBAsha256": "3cc5cd7d6fdde4844018a4187273ef08782eb8820d0294999052b4d0e599dbc6",
+            "encodedBytes": 1833
+          }
+        ],
+        "archivedCanonical": "atlases/atlas-22-r1.png"
+      }
+    ],
+    "receipts": [
+      {
+        "path": "local-only/atlas-01-create.json",
+        "sha256": "8a11d9cbfa0d011c27dcd38f5d94dbf5f4c2fb250f0952a4511d38a9fae30a0f"
+      },
+      {
+        "path": "local-only/atlas-01-pixels-01.json",
+        "sha256": "03d697713d23cee92a4c952245af8be9c7cff1c328038a2dabd4efdc50436b8b"
+      },
+      {
+        "path": "local-only/atlas-01-pixels-02.json",
+        "sha256": "a62f7fcef2c8bb40c537a7e051ce578819b26a8d656c435d0eaf22199ed41929"
+      },
+      {
+        "path": "local-only/atlas-01-validate.json",
+        "sha256": "655b4245531b2dcf9eddc3ae75db7349628a08de82e51cfe0c64be6ee4cb22a8"
+      },
+      {
+        "path": "local-only/atlas-01-bundle.json",
+        "sha256": "dc1415996947b2faf1bc77debb3edb9ca76bff3872f502038383e20e94966b18"
+      },
+      {
+        "path": "local-only/atlas-02-create.json",
+        "sha256": "bd6474119a5bfd5532426ceeaaeff2746c19192006c92346febf7e4123b37c10"
+      },
+      {
+        "path": "local-only/atlas-02-pixels-01.json",
+        "sha256": "6dbe7b9428279040a04e758d0444234fdf298e3612fff45e16864c3881f73b29"
+      },
+      {
+        "path": "local-only/atlas-02-validate.json",
+        "sha256": "1d1da219b24b6395e403dc1fdd82da32bbd6a6fd38fad9d11ce957fd001f5f5e"
+      },
+      {
+        "path": "local-only/atlas-02-bundle.json",
+        "sha256": "4345376e3453a82ed5aafa9a5a94a014d83f1144feb9af649e7191584ea9b0f7"
+      },
+      {
+        "path": "local-only/atlas-03-create.json",
+        "sha256": "50a557d13a1343ff8ee810805b1a8f4d76411792667b2b06b4023579ec7d44a4"
+      },
+      {
+        "path": "local-only/atlas-03-pixels-01.json",
+        "sha256": "1c79545679fe66d48dd38e4adcd538c837078d6e073a139c4bc2033fe0ad5c1d"
+      },
+      {
+        "path": "local-only/atlas-03-pixels-02.json",
+        "sha256": "80c84e38c97d6dad3f720fdfa69e9b1d7fafe4c9be097cd8c04f62a7512a6ebe"
+      },
+      {
+        "path": "local-only/atlas-03-validate.json",
+        "sha256": "8f99a37190c50ab8d44b154326c43eb376e7f7760cf1a87dd96f8c646bfbb4d6"
+      },
+      {
+        "path": "local-only/atlas-03-bundle.json",
+        "sha256": "c3221a6f8bfd3c37670da09ceb0dd2313d9b0fc64814cba2ddefdcc4e14889a7"
+      },
+      {
+        "path": "local-only/atlas-04-create.json",
+        "sha256": "373f6f34bb6774416079f612285c95ba33706386019f1c9df0caeace7ddc8a97"
+      },
+      {
+        "path": "local-only/atlas-04-pixels-01.json",
+        "sha256": "39a0984a5bab2b87492670cdf22b9ba6dfd3fbea1e8b7b09622e7a923226a7c9"
+      },
+      {
+        "path": "local-only/atlas-04-validate.json",
+        "sha256": "a69fb69e3fa18a97a1e16c51978c3cdede39fbafc3809cc69d036465e19c0e03"
+      },
+      {
+        "path": "local-only/atlas-04-bundle.json",
+        "sha256": "cfe9517fa29321f67911b3a9246cd07743568633a79c8eeeaf008c9b73c1d92a"
+      },
+      {
+        "path": "local-only/atlas-05-create.json",
+        "sha256": "a8ffc1a5546d12a7494871f1a2b4f925eaa309a289bde9fadff5cf52402cf04b"
+      },
+      {
+        "path": "local-only/atlas-05-pixels-01.json",
+        "sha256": "32ab6a058de2b3ef159a147bece230387941500ca034695fe76ed7e4719e46a7"
+      },
+      {
+        "path": "local-only/atlas-05-validate.json",
+        "sha256": "c0f8feebb86379d56f9212e1b60e573cfd6377a14dffaec6ae19f47b4303fcbb"
+      },
+      {
+        "path": "local-only/atlas-05-bundle.json",
+        "sha256": "e833ab5bc7f5951712cc19d8160ca62a071fb64fe7bc726f45b23af77b7dc43d"
+      },
+      {
+        "path": "local-only/atlas-06-create.json",
+        "sha256": "a20cf3d9840af2e1755b14ec0d8f6a461e8b4e62470a847b82f2b41d472c0496"
+      },
+      {
+        "path": "local-only/atlas-06-pixels-01.json",
+        "sha256": "2d309ca7ab57db8380a57cb9959739ed5b80c4b15788e1a2be95745f4b0ac3ba"
+      },
+      {
+        "path": "local-only/atlas-06-validate.json",
+        "sha256": "e1aafd85151a7c8641c0db4e9bf327459b0d100293b34cbfd59b8f89c8534992"
+      },
+      {
+        "path": "local-only/atlas-06-bundle.json",
+        "sha256": "c8a560b596baf5bbe17f62b22fa9ffce242ada0a91b88b4d09660e007098d247"
+      },
+      {
+        "path": "local-only/atlas-07-create.json",
+        "sha256": "623a5c518ae35f5afb58e188c2eb3517d7c1a1386c1ef7b49770b599666803b7"
+      },
+      {
+        "path": "local-only/atlas-07-pixels-01.json",
+        "sha256": "db4e03f852506b6618e3eb8d7960704ad05b5eb9ac1b8cec7ed0e6d8987fdb65"
+      },
+      {
+        "path": "local-only/atlas-07-validate.json",
+        "sha256": "86fcf735028aaa8c3f1cf570f0aa56f9e1d1219540e6eed41f472f879639184b"
+      },
+      {
+        "path": "local-only/atlas-07-bundle.json",
+        "sha256": "942e89726c2e8114c2063f5dfaa8ab333f8c545afbdcc29f07a422e74e0cce7e"
+      },
+      {
+        "path": "local-only/atlas-08-create.json",
+        "sha256": "d6bdb8803a43bebe8f19a3edd2968b2b1814cf03f12772daa918bb1edc0cf3c5"
+      },
+      {
+        "path": "local-only/atlas-08-pixels-01.json",
+        "sha256": "3f6ca5b5fa21c3b14117661e8d4d8c5b4e9f5e7e5f0c71ab18d3fbadebf38c20"
+      },
+      {
+        "path": "local-only/atlas-08-validate.json",
+        "sha256": "3fe22354b8f89f6431438fe509138075417e43fdbd845eae845f7329c04b4e83"
+      },
+      {
+        "path": "local-only/atlas-08-bundle.json",
+        "sha256": "f7023f35ca157741598e45978c8508644b88a3d580d41a6bf2d9dbfddcc44d98"
+      },
+      {
+        "path": "local-only/atlas-09-create.json",
+        "sha256": "f21c523635ca9fbececa3a789b8276a471e117fb691b6bcbde7821d44d5c9b16"
+      },
+      {
+        "path": "local-only/atlas-09-pixels-01.json",
+        "sha256": "c6f92f700e2b8e6e24c14a9dae3c8a0ced8768bd5c3c7986c402d511a2be61bd"
+      },
+      {
+        "path": "local-only/atlas-09-validate.json",
+        "sha256": "ce2cdecdd3dd50e4466f49dc7bb715fd9c2330c14699e7390eed42717b6221f9"
+      },
+      {
+        "path": "local-only/atlas-09-bundle.json",
+        "sha256": "9286de110fe7e13bec306d8b97f1ba06968a88dbcfe5cb076e8c91b60c10a162"
+      },
+      {
+        "path": "local-only/atlas-10-create.json",
+        "sha256": "4eab76410830b9b1d25349f32740d216eddb3df9c6dd06c5d75981c0aca071fd"
+      },
+      {
+        "path": "local-only/atlas-10-pixels-01.json",
+        "sha256": "aac13022b1e515ebb1cfa33352e410a966f5ce1d7443590185edaa7f959b605e"
+      },
+      {
+        "path": "local-only/atlas-10-validate.json",
+        "sha256": "ef267f1d17a30109ee955c506a141094090e1d8c84b92d81aec08590c3c3f956"
+      },
+      {
+        "path": "local-only/atlas-10-bundle.json",
+        "sha256": "33d0c80e3a921c43fc2c55b40438e1479a9ac5cc9bc008b41c5dc39fc313af1d"
+      },
+      {
+        "path": "local-only/atlas-11-create.json",
+        "sha256": "e9be05f9baeded957994d252f949aa47481afba1e573d0285c8d3c772b009143"
+      },
+      {
+        "path": "local-only/atlas-11-pixels-01.json",
+        "sha256": "06958ca9a188c01d5bc7c2a8cadac90f29026dc2e587a3fc48911dd9c4149d29"
+      },
+      {
+        "path": "local-only/atlas-11-validate.json",
+        "sha256": "2823778313b8decc3f4070578ac3c34ec1b773b5d0768ecb3bf703bdb5566098"
+      },
+      {
+        "path": "local-only/atlas-11-bundle.json",
+        "sha256": "699951532920c29cabf04f965039f0054b4f0d0c591fe8fdfdf5be730fdd1b9f"
+      },
+      {
+        "path": "local-only/atlas-12-create.json",
+        "sha256": "ba2363f43537bfdb622da307aeab6c621d4dc339abcfe767b679fc8425d33fae"
+      },
+      {
+        "path": "local-only/atlas-12-pixels-01.json",
+        "sha256": "956e0e62eabf697d4155588825a9544793d5bf9bad991ea8cb92f95cf458e5f6"
+      },
+      {
+        "path": "local-only/atlas-12-validate.json",
+        "sha256": "b0427f2a3ee1f9f9de3f5c5ded6fefb0c7768389e187e6eea7b23d51705d9fa4"
+      },
+      {
+        "path": "local-only/atlas-12-bundle.json",
+        "sha256": "5c96c0ecf57c7faa90ed5e90581f79632b9544c43ee086a6ffc657a853ebaa7d"
+      },
+      {
+        "path": "local-only/atlas-13-create.json",
+        "sha256": "926a9ec019108bd2b3ac04b33fdfabc7bb7d3598e301216c9a4b00c50e4aa977"
+      },
+      {
+        "path": "local-only/atlas-13-pixels-01.json",
+        "sha256": "d8fe01e8537b758196a3a044706ab71607775d5f2065a95d5de71c43af9723e0"
+      },
+      {
+        "path": "local-only/atlas-13-validate.json",
+        "sha256": "7b596e0a3790b9726b670c7a59c4289775827dc11306b3c48e7a33fe305e394b"
+      },
+      {
+        "path": "local-only/atlas-13-bundle.json",
+        "sha256": "33dc56d429fca4d8dcf5488c06462aa46f1eaf015fbd1d6168dbfc88ee4ffeb7"
+      },
+      {
+        "path": "local-only/atlas-14-create.json",
+        "sha256": "e705627fd2c56ee8d11ecb3f077d300a685da5e23070bbd972642aefb8a72348"
+      },
+      {
+        "path": "local-only/atlas-14-pixels-01.json",
+        "sha256": "c1c73a902aabb0b36190e6366cd3067fb3365268598341b61a6441151dc01587"
+      },
+      {
+        "path": "local-only/atlas-14-validate.json",
+        "sha256": "0d6a5d49d1ddb3dff5d0040a859ee6f3172fd1f83e967e961787c9fb3d478771"
+      },
+      {
+        "path": "local-only/atlas-14-bundle.json",
+        "sha256": "c26b1bf6dfb83f304342212b5fafdda61ece35443d1ace4990271ffa15c37c2e"
+      },
+      {
+        "path": "local-only/atlas-15-create.json",
+        "sha256": "8a1e90cdafc72863ba1630cb2b0d1d171288046d46f57ca07d4099db94d69a3f"
+      },
+      {
+        "path": "local-only/atlas-15-pixels-01.json",
+        "sha256": "9616385ce1e50de5eeed41b1d2a82c75bd5e0b2abdc50ffd9f66f36f0d961a1e"
+      },
+      {
+        "path": "local-only/atlas-15-validate.json",
+        "sha256": "ec2d10646eb6eebee21eade5481bd7f05834adc18774246b38bf9acd3e97082a"
+      },
+      {
+        "path": "local-only/atlas-15-bundle.json",
+        "sha256": "7bd3b978d41e1dad94e634364c33e60755f3b46fd14f3c67ca5fb263d4434286"
+      },
+      {
+        "path": "local-only/atlas-16-create.json",
+        "sha256": "e436894d41660355513607d7f5797b8df20fa9f3509d5861545b5963fa179fee"
+      },
+      {
+        "path": "local-only/atlas-16-pixels-01.json",
+        "sha256": "7cdaea17447944f0c416c57d66b7b55b8c375bd6e5aef6f4bd222093403300fa"
+      },
+      {
+        "path": "local-only/atlas-16-validate.json",
+        "sha256": "48479d6a0e71750df89482c41c4cc425239fba54c9f4e58e8e98a8b1473f9905"
+      },
+      {
+        "path": "local-only/atlas-16-bundle.json",
+        "sha256": "c82fa965e9ae22a107d28b57345aa63e7ce9ca2a98b5eea41c7117eb355b7e92"
+      },
+      {
+        "path": "local-only/atlas-17-create.json",
+        "sha256": "94f69b6fd9e1c8c67e5ff24a3a1f31b56ecb94110c94f3650ef4b6a7f4b4807d"
+      },
+      {
+        "path": "local-only/atlas-17-pixels-01.json",
+        "sha256": "f34f54e20527468ad095526b20694d997c6290e5d47a4df4c5ef17971ef751c2"
+      },
+      {
+        "path": "local-only/atlas-17-validate.json",
+        "sha256": "1b9c50387a644ebfb6bc511e19c7cad1b9d3d2ce2b0fcc216c8b99ae9266d9df"
+      },
+      {
+        "path": "local-only/atlas-17-bundle.json",
+        "sha256": "29cefc28070c3a56e3c7ddd8cf049879530e5ae9ef4e0fd94f93224b75bbfb6f"
+      },
+      {
+        "path": "local-only/atlas-18-create.json",
+        "sha256": "421f327373a81dc03583ef4e21dda3019fc3e609a73009369cb47608ae14d4f7"
+      },
+      {
+        "path": "local-only/atlas-18-pixels-01.json",
+        "sha256": "811db5eea764bef298dbd8ec9e64d38045f1e1fad1f3047b30c83e047c2f04df"
+      },
+      {
+        "path": "local-only/atlas-18-validate.json",
+        "sha256": "83aa52d738e281c6e4cde6e7a5039504ee3f9d0601f69f46e716e827c16aa9fe"
+      },
+      {
+        "path": "local-only/atlas-18-bundle.json",
+        "sha256": "f4472bd27cc4d25c1b7e35e2b6870cb3ec57cc49ab8be7cab818c8181ff02eb2"
+      },
+      {
+        "path": "local-only/atlas-19-create.json",
+        "sha256": "bab9140817d3953b45aa63a40f8735e3734a1075d2425c86a99337236101f661"
+      },
+      {
+        "path": "local-only/atlas-19-pixels-01.json",
+        "sha256": "98d8067a66f0730a8e97704dac322a5b5f0aca078b27466a6e801a0898a996d9"
+      },
+      {
+        "path": "local-only/atlas-19-validate.json",
+        "sha256": "741d2106e4995d99d50ad4ae9e007e2db17038a540e33c3eaa98479707b534ab"
+      },
+      {
+        "path": "local-only/atlas-19-bundle.json",
+        "sha256": "66d0001effd0f032309bb0332a71702c439759119728a8e6fcf86043ad6103c7"
+      },
+      {
+        "path": "local-only/atlas-20-create.json",
+        "sha256": "ae6a9e05a4125ca9b47422b668a3b942a79fe9dc52ece29cd21556308c983b31"
+      },
+      {
+        "path": "local-only/atlas-20-pixels-01.json",
+        "sha256": "4a76a58d22f31533ea4145deb93dc32ccbe364bac7908f796319c25c5e194e8f"
+      },
+      {
+        "path": "local-only/atlas-20-validate.json",
+        "sha256": "3424b8c4f53529b5cbf57a23757b3d2c928e7ac90d6be288070708fcdf0e7d32"
+      },
+      {
+        "path": "local-only/atlas-20-bundle.json",
+        "sha256": "a815107a84961515ab6a1e4c0b13ad839152d53ded376d7f456e4b5726986582"
+      },
+      {
+        "path": "local-only/atlas-21-create.json",
+        "sha256": "f9a555712035a7860b5c01dfdc6c9ecbbd15b4365795d4b0246ab919b08009e4"
+      },
+      {
+        "path": "local-only/atlas-21-pixels-01.json",
+        "sha256": "b829898f241389a5366203404f21e2908faf0b445b6584c085ef6a60128a0c6b"
+      },
+      {
+        "path": "local-only/atlas-21-validate.json",
+        "sha256": "357eba1968499099498a3e68952f0eee0b246068f5d3f3215a4a3bfa470f53ec"
+      },
+      {
+        "path": "local-only/atlas-21-bundle.json",
+        "sha256": "4161983425b014b917b74c3a40d29cec030d79df92bf81cfb874216161eb2a29"
+      },
+      {
+        "path": "local-only/atlas-22-create.json",
+        "sha256": "5427ce00cc26cd8023bc0191dfb0d4518d48ceb7bb6aff241b5f38f5a452963f"
+      },
+      {
+        "path": "local-only/atlas-22-pixels-01.json",
+        "sha256": "a97c88a1fd727b6abb43b6380273be0494321a2fec276550b788fd7f74209144"
+      },
+      {
+        "path": "local-only/atlas-22-validate.json",
+        "sha256": "8bd5c77b6c3ec24dfc51b4ebdb4c753cebede1a2df491ab7115e20f30016d594"
+      },
+      {
+        "path": "local-only/atlas-22-bundle.json",
+        "sha256": "459a69e38c894942e7b1bfd5efbf6dd8b782a0cb4e1567edbddd25ae5d21a875"
+      }
+    ],
+    "checks": {
+      "uniqueFreshJobIds": 22,
+      "decodedRevisionStatesExact": 24,
+      "allRGBA8": true,
+      "dimensions": [
+        1020,
+        256
+      ],
+      "allOpaque": true,
+      "finalRevisions": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "actualCommandHistoriesExact": true,
+      "allBundleAndCanonicalHashesExact": true
+    },
+    "limits": [
+      "3D registration/material/UV payload remains a separate gate.",
+      "Decoded equality establishes authored output, not actual model visual quality or source approval."
+    ],
+    "producerOrBitmapWrites": false,
+    "priorActualModelAttempts": 10,
+    "conceptGenerationsUsed": 1
+  },
+  "operationPayload": {
+    "path": "local-only/causal-final-operations-v1.json",
+    "sha256": "5b673efcbf65d060a8bd1e8a4241f4c1cb6bb19aca869c589753fb5b17cd87b5"
+  },
+  "independentPayloadGate": {
+    "path": "local-only/actual-payload-stage-audit-v1.json",
+    "sha256": "08a6d25f02f137af5ffa2a692636d89587c51c9999f572b8bd5e7ec4ae5b3c27"
+  },
+  "selectedRecipe": {
+    "path": "local-only/causal-selected-index-v1.json",
+    "sha256": "50a8cf25e519aab49f10fdd4e1cd6ffa2a58df1606d23ad0325825257e4ec03d"
+  },
+  "method": "Continuous source-calibrated paint-to-neutral-albedo world field;0.45mX transition,4x4 source area sampling,421 exactly proven solid trim faces plus428 textured faces.22 original public typed atlases,24 mutation requests. Actual finish CORRECT for transition shape.",
+  "limits": [
+    "Stage/import/resize/neutral-edit hashes represent distinct original outputs and are not interchangeable.",
+    "No third-party reference pixels redistributed or used as authored texture samples.",
+    "No additional source generation for neutral correction or22atlas authoring.",
+    "No postprocessing of canonical atlas bytes by archive worker."
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "implementation": "supplementary-exact-glb-part-pbr-v1",
+  "assetName": "W01 eleventh finish source r10",
+  "jobId": "09d35ad1-bf7b-402c-bb45-91d77253e938",
+  "revision": 2,
+  "checkpoint": {
+    "checkpointId": "205b8f43-9395-4316-bf04-5c325b022de0",
+    "checkpointHash": "90fb0b29fc831abcd6eee354c19fd5c6ebcc0f0dd577f34829ef2e75f371d1cb"
+  },
+  "glbSha256": "f108c26e93b66c44f7fafc92104129e7e8445e7a523c2d7e623a581bcdc02219",
+  "sourceReceipt": "local-only/w01-f2d-causal-r10-export.json",
+  "sourceReceiptSha256": "b68197e129b5bc095ad21799e27bbba0ea37648e4cf7bb7d6322ae7402186f6d",
+  "cameraReceipt": "local-only/w01-r10-public-cameras-v1.json",
+  "cameraReceiptSha256": "a108f7e08dd79cc8e34ba78a17fdf81dd9774d44e9450d9f3d0d20e29f326761",
+  "rendererSourceSha256": "4832afe6f5a00fa784c61991ca6e9512d397d5555a7ce757abfc19a3d6ef50fd",
+  "rendererBundleSha256": "26e1bdf000551b3956f3e19e448498519f1705a0c51e7fc95c8b3f2fa0866bbd",
+  "browser": {
+    "executablePath": "local-only/Brave Browser",
+    "version": "153.0.8010.37",
+    "playwrightVersion": "1.62.1"
+  },
+  "storage": {
+    "volumeId": "vol_47c979fb1804b7e9",
+    "checkedAt": "2026-11-01T03:19:51Z",
+    "scratch": "local-only/Scratch"
+  },
+  "framing": {
+    "mode": "explicit",
+    "explicitBounds": {
+      "min": [
+        -1.8288,
+        0,
+        -1.903476
+      ],
+      "max": [
+        1.8288,
+        4.5,
+        7.9248
+      ],
+      "basis": "Locked clean source v1 subject bounds in glTF world axes; unchanged prior fixed PBR frame."
+    },
+    "explicitBoundsFileSha256": "5557bd1b75faf83cea69793c7fdd9357bbfc9c1a6f87c81f9ebebe679cdcf54b",
+    "selectedBounds": {
+      "min": [
+        -1.8288,
+        0,
+        -1.903476
+      ],
+      "max": [
+        1.8288,
+        4.5,
+        7.9248
+      ],
+      "basis": "explicit"
+    },
+    "actualGlbBounds": {
+      "min": [
+        -1.8287999629974365,
+        0,
+        -1.9034759998321533
+      ],
+      "max": [
+        1.8287999629974365,
+        4.199999988079071,
+        7.924799919128418
+      ]
+    },
+    "coordinateSystem": "glTF world axes; metres",
+    "floor": "floor"
+  },
+  "reviewViews": [
+    {
+      "name": "front-three-quarter",
+      "azimuthDegrees": 35,
+      "elevationDegrees": 25,
+      "rollDegrees": 0
+    },
+    {
+      "name": "rear-three-quarter",
+      "azimuthDegrees": 215,
+      "elevationDegrees": 25,
+      "rollDegrees": 0
+    },
+    {
+      "name": "front",
+      "azimuthDegrees": 0,
+      "elevationDegrees": 0,
+      "rollDegrees": 0
+    },
+    {
+      "name": "left",
+      "azimuthDegrees": 270,
+      "elevationDegrees": 0,
+      "rollDegrees": 0
+    },
+    {
+      "name": "right",
+      "azimuthDegrees": 90,
+      "elevationDegrees": 0,
+      "rollDegrees": 0
+    },
+    {
+      "name": "top",
+      "azimuthDegrees": 0,
+      "elevationDegrees": 89.99,
+      "rollDegrees": 0
+    }
+  ],
+  "sets": [
+    {
+      "size": 1000,
+      "views": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/1000-front-three-quarter.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "34451793341822982c678deac6418d10196516fd50e2be2ee2a13e02fa7ceb2b",
+          "bytes": 269661,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/1000-rear-three-quarter.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "968cef386fed3aa6d4150a57a4e28c58e0de42aa65fc5f36a42a8763dffba198",
+          "bytes": 356326,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/1000-front.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8ff6ce7c0d53340dad8eee1e98ec25bfcc791334395167f817abe1dbbee5e13b",
+          "bytes": 128100,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/1000-left.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "66b8932dd853d899d7ae082a72aa158f3ef361e01d124d72bdf9bd9430426c12",
+          "bytes": 156893,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/1000-right.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "be17589328cb84bea9b47f9cc2f2c27f12eaf11985fe33b472f51883bed36c5b",
+          "bytes": 108804,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/1000-top.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "af078cf4b46ef6b2d1f0d51b79766b48d00ee68118994fa9128e93faf24c2958",
+          "bytes": 266794,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "repeatViews": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/1000-front-three-quarter-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "34451793341822982c678deac6418d10196516fd50e2be2ee2a13e02fa7ceb2b",
+          "bytes": 269661,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/1000-rear-three-quarter-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "968cef386fed3aa6d4150a57a4e28c58e0de42aa65fc5f36a42a8763dffba198",
+          "bytes": 356326,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/1000-front-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8ff6ce7c0d53340dad8eee1e98ec25bfcc791334395167f817abe1dbbee5e13b",
+          "bytes": 128100,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/1000-left-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "66b8932dd853d899d7ae082a72aa158f3ef361e01d124d72bdf9bd9430426c12",
+          "bytes": 156893,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/1000-right-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "be17589328cb84bea9b47f9cc2f2c27f12eaf11985fe33b472f51883bed36c5b",
+          "bytes": 108804,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/1000-top-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "af078cf4b46ef6b2d1f0d51b79766b48d00ee68118994fa9128e93faf24c2958",
+          "bytes": 266794,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "deterministic": true
+    },
+    {
+      "size": 256,
+      "views": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/256-front-three-quarter.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "70a1b9ba8c5a1612e4501aec87138381ef6b4c00a66a1b852cb2828a2f3f480b",
+          "bytes": 33018,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/256-rear-three-quarter.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "fe271e49e51763db5768b6eaa38154a56a9d64c2dc0fd3b50ab36df49d534309",
+          "bytes": 38368,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/256-front.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "4837cc86668b4159139a1b203afcd71ce17e31a14879e198376e1aca425059e6",
+          "bytes": 20431,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/256-left.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "1081da1611b4efff80186d7af70c91392ceac6b0a63f9f8dbaf8d18d672b75bc",
+          "bytes": 19839,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/256-right.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "3e182ed815a7472655ab1d62970f06129fc1cc755d6adfb90a1ba25abd71cdb0",
+          "bytes": 16695,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/256-top.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "b0b422d1446be2118405cb013a06e2c022a7c66e9066910f2ff5ac80952c9f8b",
+          "bytes": 30426,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "repeatViews": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/256-front-three-quarter-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "70a1b9ba8c5a1612e4501aec87138381ef6b4c00a66a1b852cb2828a2f3f480b",
+          "bytes": 33018,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/256-rear-three-quarter-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "fe271e49e51763db5768b6eaa38154a56a9d64c2dc0fd3b50ab36df49d534309",
+          "bytes": 38368,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/256-front-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "4837cc86668b4159139a1b203afcd71ce17e31a14879e198376e1aca425059e6",
+          "bytes": 20431,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/256-left-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "1081da1611b4efff80186d7af70c91392ceac6b0a63f9f8dbaf8d18d672b75bc",
+          "bytes": 19839,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/256-right-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "3e182ed815a7472655ab1d62970f06129fc1cc755d6adfb90a1ba25abd71cdb0",
+          "bytes": 16695,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/256-top-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "b0b422d1446be2118405cb013a06e2c022a7c66e9066910f2ff5ac80952c9f8b",
+          "bytes": 30426,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "deterministic": true
+    },
+    {
+      "size": 128,
+      "views": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/128-front-three-quarter.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "bee2aaade78c495f8a91f6ed9065f7d8975ce087e7e182b2938be163a38eb184",
+          "bytes": 11964,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/128-rear-three-quarter.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "a8bc60a10a0db1b465a47bc94a6268b12d3eb1e1c97c52fe0aca86ca66023b6e",
+          "bytes": 13099,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/128-front.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "20d258134c48ae423126fb08e1860caede0adf61ed949a369bccdfb5f0bd1126",
+          "bytes": 9045,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/128-left.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "5569aa47297c8c984254b308e15d0c5ab35405b563d547effe37ef1587646a5a",
+          "bytes": 7766,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/128-right.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "e88dec40c29cba5f044d8431c7d35857b1792e6f7264005843568a7f3e2ad214",
+          "bytes": 7265,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/128-top.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "57ccf1258479bf3019b1e06e9487375eb261911687ac1822c4bc23105924c891",
+          "bytes": 10623,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "repeatViews": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/128-front-three-quarter-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "bee2aaade78c495f8a91f6ed9065f7d8975ce087e7e182b2938be163a38eb184",
+          "bytes": 11964,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/128-rear-three-quarter-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "a8bc60a10a0db1b465a47bc94a6268b12d3eb1e1c97c52fe0aca86ca66023b6e",
+          "bytes": 13099,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/128-front-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "20d258134c48ae423126fb08e1860caede0adf61ed949a369bccdfb5f0bd1126",
+          "bytes": 9045,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/128-left-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "5569aa47297c8c984254b308e15d0c5ab35405b563d547effe37ef1587646a5a",
+          "bytes": 7766,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/128-right-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "e88dec40c29cba5f044d8431c7d35857b1792e6f7264005843568a7f3e2ad214",
+          "bytes": 7265,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/128-top-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "57ccf1258479bf3019b1e06e9487375eb261911687ac1822c4bc23105924c891",
+          "bytes": 10623,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "deterministic": true
+    }
+  ],
+  "deterministic": true,
+  "sourceMutated": false,
+  "reviewGateAdvanced": false,
+  "humanApproved": false,
+  "limitations": [
+    "Supplementary PBR evidence, not producer technical validation or approval.",
+    "Each PNG is the direct native-resolution canvas (1000, 256 or 128); no crop or resampling.",
+    "A conservative projected GLB AABB controls the frame guard; no inference of support or motion."
+  ],
+  "cleanup": {
+    "browserContextClosed": true,
+    "taskProfileRemoved": true,
+    "profileNamedBrowserProcessAbsent": true,
+    "serverClosed": true
+  },
+  "producerCompleted": true
+}
