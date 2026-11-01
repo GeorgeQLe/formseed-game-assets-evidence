@@ -1,0 +1,61 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-eg-rifle",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "eg-rifle-v1-group",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "eg-rifle-lifecycle-v1.png",
+      "sha256": "7f2a6ed083807b83ee4f3cf914670bc53fa02c9aab928552ba5b8da73bf5263a",
+      "bytes": 166109
+    },
+    "files": [
+      {
+        "path": "review/infantry-closeup-v1.png",
+        "sha256": "8e56855a28ddccdb1a5c948d9cccdb4fefb36db394a1d335a0ecde3923c2e76f",
+        "bytes": 18217
+      },
+      {
+        "path": "eg-rifle-lifecycle-v1.png",
+        "sha256": "7f2a6ed083807b83ee4f3cf914670bc53fa02c9aab928552ba5b8da73bf5263a",
+        "bytes": 166109
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Various_Arabic_Troops_during_Operation_Desert_Storm.jpg",
+        "sha256": "d4e425496c6df7c2a57a8e9aafba257a744f6ee404c1a1a8fc45e6f5f8b63596",
+        "author": "D. W. Holmes",
+        "license": "File-specific official-duty US Navy public-domain declaration on Commons; mirrored DoD photograph. Reference use only, not shipped in game.",
+        "role": "period photograph DN-ST-92-08940"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Parent Codex assistant (AI review; not a human decision)",
+    "decidedAt": "2026-11-01T22:10:11.190Z",
+    "quote": "INF-RIFLE-SILHOUETTE-1: Active and dropped rifles have near-uniform broad rectangular cross-section across much of their length. Closeups read as bars with color bands; barrel/handguard/receiver/stock differentiation is too weak for the selected AK-family and M16A2 forms. Game-scale readability is constrained, but source silhouette can improve without extra game pixels."
+  },
+  "notes": [
+    "Egyptian rifle group v1 (rifle components superseded by r1; anatomy retained).",
+    "parent-infantry-review-r0.json CHANGES_REQUESTED (material-source-polish) sha256 03d21e8703945bd4ccff5b9f8533e2a2759d2e917ee619f51a565304e3f4061d; infantry-closeup-v1.png is the shared Egyptian/Kuwaiti closeup.",
+    "AI review gate only; no individual human visual inspection.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

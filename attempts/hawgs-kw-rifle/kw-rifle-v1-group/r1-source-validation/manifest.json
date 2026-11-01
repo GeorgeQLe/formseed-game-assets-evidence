@@ -1,0 +1,78 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-kw-rifle",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "kw-rifle-v1-group",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "kw-lifecycle-r1.png",
+      "sha256": "8a85a296420e308c3cca1cbc0cab046498114b4cf2f697f42d724728f6184167",
+      "bytes": 164725
+    },
+    "files": [
+      {
+        "path": "review/kw-weapon-before-after.png",
+        "sha256": "261b473e246ee6343eb6989820bd8d2e3b5c7f19acd390c4b47d4118dc8b9a36",
+        "bytes": 13889
+      },
+      {
+        "path": "review/kw-figure-group-before-after.png",
+        "sha256": "b8cd53975b69c5e795442b5e747b2ccd6d0e2043d34dd25085f905d0fcf9fbe0",
+        "bytes": 45851
+      },
+      {
+        "path": "kw-lifecycle-r1.png",
+        "sha256": "8a85a296420e308c3cca1cbc0cab046498114b4cf2f697f42d724728f6184167",
+        "bytes": 164725
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:DA-SC-92-00984.jpg",
+        "sha256": "a653f192b249fae8119e691d8e064a835657ba602da3f37cf7da4542f02aeb9f",
+        "author": "T. Stephan Thompson",
+        "license": "Official-duty US federal photograph; file-specific PD-USGov record",
+        "role": "period photograph DA-SC-92-00984"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_soldiers_and_a_Kuwaiti_BMP-2.JPEG",
+        "sha256": "172e850f35d1b4d1bc296b182ab40933f5e194e32a72ce94581180ac5831d3d4",
+        "author": "Unknown US Marine photographer",
+        "license": "Official-duty US Marine photograph; file-specific PD-USMarines",
+        "role": "period photograph DM-ST-91-11672"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_guards_at_a_roadside_checkpoint_in_Kuwait_City_following_the_withdrawal_of_Iraqi_forces.JPEG",
+        "sha256": "59bf472fa5187bfbc45499f4db9b3fc68f39a16f9699cc18af8af18dc58b6a35",
+        "author": "CW02 Ed Bailey",
+        "license": "Public domain",
+        "role": "period photograph DN-SC-91-08532"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Kuwaiti rifle correction r1 (six rifle components replaced; anatomy pins unchanged); handoff-manifest sha256 ffcf7a186d69a612ffe109b2fd1cba413d04b368aecb22d3821bfb584b3a0d3c.",
+    "Parent parent-infantry-review-r1.json PASS_STATIC_SOURCE (closes INF-RIFLE-SILHOUETTE-1, sha256 756d89fdfa7abffe34661757a51ddfb99b780e3d8577c09ae370ef45d56d131c); parent-infantry-runtime-review-r1.json PASS_SAMPLED_ISOLATED_RUNTIME.",
+    "Independent Opus review PASS_WITH_NOTES (independent-infantry-review/findings.json sha256 670d49e337097f1e76ca4090e1aca7ce67ec058272ddc8f16e622c68935f0804).",
+    "Outcome pending: AI review recommendations are not a human gate decision or confirmed semantic release; standing production authorization only.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

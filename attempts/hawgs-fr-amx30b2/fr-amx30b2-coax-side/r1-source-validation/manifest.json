@@ -1,0 +1,86 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-fr-amx30b2",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "fr-amx30b2-coax-side",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "native-lifecycle-old-vs-new.png",
+      "sha256": "be5a66fa35adc41a765dd6937d12e6f0d3e60cca39df4c24caa7620b46bdc259",
+      "bytes": 201481
+    },
+    "files": [
+      {
+        "path": "review/game-scale-old-vs-new.png",
+        "sha256": "0bd4c8f48310d816002aac89fe3b3a7a5c5112567cbbb350a20e819f20465e7a",
+        "bytes": 66519
+      },
+      {
+        "path": "review/motion-live-states.png",
+        "sha256": "e5c697f78a3ad9de1cbf5175e9c266a3c3b6b563bf0b194f454df1f4970eb9b8",
+        "bytes": 302222
+      },
+      {
+        "path": "review/coax-kick-old-vs-new.png",
+        "sha256": "930c6f87a02ed18818596d2df855f2c8cc8c93dd0926d42818f0bf85ea56e0b6",
+        "bytes": 16136
+      },
+      {
+        "path": "native-lifecycle-old-vs-new.png",
+        "sha256": "be5a66fa35adc41a765dd6937d12e6f0d3e60cca39df4c24caa7620b46bdc259",
+        "bytes": 201481
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/france/amx-30/AMX-30B2_Chassis_Partie_Figures_Blueprints_Documentation_Technique_1994.pdf",
+        "sha256": "a540790780b27a7dbe7301057fd67a76ba45882f190d0701b510b09b1f20d87b",
+        "author": "French Army (Armee de Terre) official technical documentation",
+        "license": "Reference use only; not shipped in the game.",
+        "role": "French AMX-30B2 coax/housing reference: A.M.X. 30 B2 Documentation technique - Chassis (Partie Figures)"
+      },
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/france/amx-30/AMX-30B2_Chassis_Partie_Texte_Documentation_Technique_Manual_1994.pdf",
+        "sha256": "a66342905c633db8c7c2c8bcc9f1f052c3e1725a560bdf0ce798d0d1527f1f24",
+        "author": "U.S. Army 203d MI Battalion (scan)",
+        "license": "U.S. government manual; third-party mirror scan; reference only",
+        "role": "French AMX-30B2 coax/housing reference: A.M.X. 30 B2 Documentation technique - Chassis (Texte)"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:French_AMX-30_Desert_Storm.jpg",
+        "sha256": "b4853e6b3f80a3f9adf7606164d580397879c6ac1919dfca31a7a2579b2026a8",
+        "author": "SSgt Dean Wagner (US DoD)",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "French AMX-30B2 coax/housing reference: French AMX-30 Desert Storm (period photograph, 3 March 1991, near Al Salman)"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "French Daguet AMX-30B2 coax-side correction r1: 20 mm coax moved to vehicle left with housing aperture; PH-8-B projector added on the right (fore-aft inferred). Old-vs-new boards retain the predecessor appearance as evidence.",
+    "Predecessor (french-closure-v2) assemblies 996a29ba-d11d-5d70-bd3d-c8a83fd21b8a, 86e3896a-dbe8-58cc-bfe3-60582503851d, 05252853-5a21-5579-bbae-3a902c443cb2, 2761706f-e0d1-50b3-beec-960e6207c640, 64209c92-9ce6-5111-8512-bb62723dd65b, a5d2f1ec-527f-5e2c-a5b1-449f1c2e6564, 29135763-0fc3-565a-94ea-c59a7a4a34a3 remain immutable; predecessor blanket approvals stay attached to the predecessors only; no rejection decision was recorded for the predecessor.",
+    "Successor assemblies e5da1c52-6cf4-563b-8c7d-f0bc8211e800, 5b966151-3986-5bd2-a9cf-c8649515ec33, 955ce333-14b0-5057-869d-f3c1cc90ede6, 14c2e0fc-f2d0-5d82-a13d-0b66bc244c99, 0466fe78-1d46-506b-98cc-9b354a75fed3, 690b69cc-b394-5afb-a75e-c5ce42a10098, 7c8658cf-245b-57b3-8d78-2bf319995c01; handoff sha256 104edb857d03b5e26f6678002c6808f53da51f9ea4f0633d4a94116cba34815e.",
+    "Parent parent-french-review-r1.json PASS_STATIC_AND_SAMPLED_ISOLATED_RUNTIME (sha256 a620fab1ddbb40a413bd3846be7d8ae2f5b107bc2dc6eccd0c617dd194874628); cross-package disposition: resolved as explicitly qualified equipment difference, no further artwork change.",
+    "Independent French r1 review PASS, 0 material findings (findings.json sha256 4bdef0029d8682cbe4f8f2f50eaf6bb01ca89d405d6f072040f71ed96a4512ca).",
+    "PH-8-B fore-aft position inferred; 1994 manual to 1991 transfer caveat retained.",
+    "Outcome pending: AI review recommendations are not a human gate decision or confirmed semantic release; standing production authorization only.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

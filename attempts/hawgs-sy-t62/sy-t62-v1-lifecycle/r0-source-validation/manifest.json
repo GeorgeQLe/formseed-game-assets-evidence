@@ -1,0 +1,71 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sy-t62",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sy-t62-v1-lifecycle",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "sy-t62-lifecycle-v1.png",
+      "sha256": "fbcaeff59a4e07d596361bd8eaa29720eccc281f7cfcb3f6875339b99b3b67ec",
+      "bytes": 114166
+    },
+    "files": [
+      {
+        "path": "review/sy-t62-base-v1.png",
+        "sha256": "b1dd06bfa7f9fd7ac666b0526d81037070e4adabbf53a1231edc58e27cb94725",
+        "bytes": 124993
+      },
+      {
+        "path": "review/sy-t62-v1-review-v1.png",
+        "sha256": "96349d9610cafd16a171ee072a738345c130caf20b3f081270305e692ee25dd4",
+        "bytes": 135603
+      },
+      {
+        "path": "sy-t62-lifecycle-v1.png",
+        "sha256": "fbcaeff59a4e07d596361bd8eaa29720eccc281f7cfcb3f6875339b99b3b67ec",
+        "bytes": 114166
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/tanks/ussr/t-62/T-62_Medium_Tank_Operators_Manual.pdf",
+        "sha256": "79c75eae434952082da95de3d36cd31259e1945fdd6a50c6630d14ebd1a892e4",
+        "author": "Dept of the Army 203d MI Bn",
+        "license": "Reference-only local copy; copyright/redistribution not assumed.",
+        "role": "research reference: Operators Manual for T-62, Dept of the Army 203d MI Bn, undated scan (prior retained source)"
+      },
+      {
+        "uri": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/160628_Lessons_of_the_Gulf_War_1990-1991_full.pdf",
+        "sha256": "42673c31f0d0e0babe7b94fcfd2e841f67cf4d20707ccbb3c29c5a03ebcc3add",
+        "author": "Lessons of the Gulf War 1990-1991 (CSIS",
+        "license": "Reference-only local copy; copyright/redistribution not assumed.",
+        "role": "research reference: Cordesman & Wagner, Lessons of the Gulf War 1990-1991 (CSIS; printed page = PDF - 29). Secondary near-contemporary; OOB"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Batch2 syT62 v1 source package.",
+    "Parent parent-batch2-static-review-r0.json PASS_STATIC_SOURCE and parent-batch2-runtime-review-r0.json PASS_SAMPLED_BROWSER; disposition parent-batch2-review-disposition-r1.json (sha256 42aba19deb558ffa34be6714690450dc0ade70fbf3c4896f65d54d6841790978): PASS_WITH_NOTES; no source correction.",
+    "Independent Opus batch2 review PASS_WITH_NOTES (independent-batch2-review/findings.json sha256 2fa8f6b47d33ee34dd500f8fdaaab7d837ff56eb0d43ff95d6680f013795c63f).",
+    "Outcome pending: AI review recommendations are not a human gate decision or confirmed semantic release; standing production authorization only.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

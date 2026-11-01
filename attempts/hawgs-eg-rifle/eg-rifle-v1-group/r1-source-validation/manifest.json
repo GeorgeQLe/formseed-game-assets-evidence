@@ -1,0 +1,64 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-eg-rifle",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "eg-rifle-v1-group",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "eg-lifecycle-r1.png",
+      "sha256": "3b6a2bae780fbbbceb92051ceceff06dc621889578d09d9eda4cb9b8db06552e",
+      "bytes": 165769
+    },
+    "files": [
+      {
+        "path": "review/eg-weapon-before-after.png",
+        "sha256": "515d4c48e2a89f97deaaa1faf03c0c8d356e7b9895673900673014fb8b3252fc",
+        "bytes": 13439
+      },
+      {
+        "path": "review/eg-figure-group-before-after.png",
+        "sha256": "b09357b70401f14a6fe269d67163b344c96a9fe8630d9699408759daabae49ae",
+        "bytes": 50447
+      },
+      {
+        "path": "eg-lifecycle-r1.png",
+        "sha256": "3b6a2bae780fbbbceb92051ceceff06dc621889578d09d9eda4cb9b8db06552e",
+        "bytes": 165769
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Various_Arabic_Troops_during_Operation_Desert_Storm.jpg",
+        "sha256": "d4e425496c6df7c2a57a8e9aafba257a744f6ee404c1a1a8fc45e6f5f8b63596",
+        "author": "D. W. Holmes",
+        "license": "File-specific official-duty US Navy public-domain declaration on Commons; mirrored DoD photograph. Reference use only, not shipped in game.",
+        "role": "period photograph DN-ST-92-08940"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Egyptian rifle correction r1 (six rifle components replaced; anatomy pins unchanged); handoff-manifest sha256 ffcf7a186d69a612ffe109b2fd1cba413d04b368aecb22d3821bfb584b3a0d3c.",
+    "Parent parent-infantry-review-r1.json PASS_STATIC_SOURCE (closes INF-RIFLE-SILHOUETTE-1, sha256 756d89fdfa7abffe34661757a51ddfb99b780e3d8577c09ae370ef45d56d131c); parent-infantry-runtime-review-r1.json PASS_SAMPLED_ISOLATED_RUNTIME.",
+    "Independent Opus review PASS_WITH_NOTES (independent-infantry-review/findings.json sha256 670d49e337097f1e76ca4090e1aca7ce67ec058272ddc8f16e622c68935f0804).",
+    "Outcome pending: AI review recommendations are not a human gate decision or confirmed semantic release; standing production authorization only.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

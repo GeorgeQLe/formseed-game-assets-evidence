@@ -1,0 +1,77 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sa-m113",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sa-m113-v1-cold-wrecks",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "sa-m113-lifecycle-v1.png",
+      "sha256": "4fe80370ee772b583b0bddceb109dd9fc740289217d0b038f1b646dfb288a03e",
+      "bytes": 102970
+    },
+    "files": [
+      {
+        "path": "sa-m113-lifecycle-v1.png",
+        "sha256": "4fe80370ee772b583b0bddceb109dd9fc740289217d0b038f1b646dfb288a03e",
+        "bytes": 102970
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Egyptian_M113_APCs_during_Operation_Desert_Shield.JPEG",
+        "sha256": "6f1731b267f5cc4793283744938855902b9f95f2bb8b479644628735de2da60d",
+        "author": "Tech.Sgt.H.H.Deffner,USAF",
+        "license": "Official-duty USAF photograph;Commons file-specificPD-USGov-Military-AirForce notice",
+        "role": "period photograph DF-ST-92-07486"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:DF-ST-92-08022-C.jpg",
+        "sha256": "81ac878346c70570ca8769be719317a879871915fd9ba7a8c44ee5e2f8782ef2",
+        "author": "Staff Sgt. Dean M. Fox",
+        "license": "Official-duty US military photograph; file-specific Commons PD-USGov-Military notice",
+        "role": "period photograph DF-ST-92-08022"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sa/saudiarabiacount00metz_0/saudiarabiacount00metz_0.pdf",
+        "sha256": "0845a6ebdc98500f03dec31f305415e335c72bc659c66d383cc107cea0cece4f",
+        "author": "Library of Congress Federal Research Division",
+        "license": "U.S. federal government work; reference only",
+        "role": "inventory/deployment reference"
+      },
+      {
+        "uri": "https://cvgstrategy.com/wp-content/uploads/2013/08/MIL-HDBK-1222D.pdf",
+        "sha256": "11b03f9f815e1eda1bcd896ee14f0dbddc3f6f9691c5faad86a3fe48a763ad5c",
+        "author": "U.S. Department of Defense",
+        "license": "U.S. federal government work; third-party mirror; reference only",
+        "role": "manual overhead/plan reference (shared pre-A3 trace)"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Parent Codex assistant (AI review; not a human decision)",
+    "decidedAt": "2026-11-01T21:46:13.889Z",
+    "quote": "M113-WRECK-READABILITY-1: All three destroyed states retain nearly the complete intact roof, cupola, gun and rectangular silhouette. Their principal distinctions are global darkening and small localized holes. At the displayed small scales the structural damage stories are not sufficiently distinct."
+  },
+  "notes": [
+    "Saudi M113 pre-A3 original cold-wreck treatments (destroyed assemblies 1ab02c5f-e07a-58da-8932-e09dfc7ffcee, 605d3ae2-a37a-526c-9756-05f68e6752eb, f2f8ca89-0b32-51e1-a5ce-8ebb8091043e).",
+    "parent-m113-review-r0.json CHANGES_REQUESTED (material) sha256 d0ef1f88421ef6a475cd31fad0c23fc08e317c3b91b5ad92e8e3c8505d3eec0f.",
+    "AI review gate only; no individual human visual inspection.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

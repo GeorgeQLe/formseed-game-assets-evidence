@@ -1,0 +1,108 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-qa-amx30",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "qa-amx30-v1-lifecycle",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "qa-amx30-lifecycle-v1.png",
+      "sha256": "e5058d1a6c3290d272c7a31ed6d373e2af0734505e6d7a3e4faeb8de0dc1723b",
+      "bytes": 112484
+    },
+    "files": [
+      {
+        "path": "review/qa-amx30-base-v1.png",
+        "sha256": "9c5dad8a2872fe8ed6879f1d1f4e3c56b64bf71d2ae7149270c8f7a5a404a1d5",
+        "bytes": 129978
+      },
+      {
+        "path": "review/qa-amx30-v1-review-v1.png",
+        "sha256": "a197bbab668fcf5c16744915c4b8d84e51ba848824a9c67771faed8333973672",
+        "bytes": 138242
+      },
+      {
+        "path": "qa-amx30-lifecycle-v1.png",
+        "sha256": "e5058d1a6c3290d272c7a31ed6d373e2af0734505e6d7a3e4faeb8de0dc1723b",
+        "bytes": 112484
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://permanent.fdlp.gov/gpo31128/",
+        "sha256": "c7e2569384d9b7772f1a44e202c16bf6126b1e937fa13a27f895a64890dffb07",
+        "author": "U.S. Marines in Battle: Al-Khafji",
+        "license": "U.S. government publication; embedded courtesy photos not cleared",
+        "role": "research reference: Westermeyer, U.S. Marines in Battle: Al-Khafji, 28 Jan-1 Feb 1991 (USMC History Division 2008), GPO permanent copy part"
+      },
+      {
+        "uri": "https://permanent.fdlp.gov/gpo31128/",
+        "sha256": "32a863d087a98a3f6b1e4736c444faf7d58bbca9f1e95e445834a1c825e971df",
+        "author": "part 2 (Coalition Armored Vehicles table PDF 2",
+        "license": "U.S. government publication; embedded courtesy photos not cleared",
+        "role": "research reference: Same, part 2 (Coalition Armored Vehicles table PDF 2, printed ~8: AMX-30 105mm, coax 12.7mm, 7.62mm)"
+      },
+      {
+        "uri": "https://permanent.fdlp.gov/gpo31128/",
+        "sha256": "81637302ade3b7b99858c801134288a7f305beadd1bdda7b375685dc3084fd3e",
+        "author": "part 3",
+        "license": "U.S. government publication",
+        "role": "research reference: Same, part 3"
+      },
+      {
+        "uri": "https://permanent.fdlp.gov/gpo31128/",
+        "sha256": "35108f452459118f362a381aa66d6ec0d1af7d69ae3ad9ca7cb71dcfc87e6712",
+        "author": "part 4",
+        "license": "U.S. government publication",
+        "role": "research reference: Same, part 4"
+      },
+      {
+        "uri": "https://permanent.fdlp.gov/gpo31128/",
+        "sha256": "d84788aadf716c9c13270ba65fc2940cc3703628bbbd287386210061acf580d6",
+        "author": "part 5 (order of battle)",
+        "license": "U.S. government publication",
+        "role": "research reference: Same, part 5 (order of battle)"
+      },
+      {
+        "uri": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/160628_Lessons_of_the_Gulf_War_1990-1991_full.pdf",
+        "sha256": "42673c31f0d0e0babe7b94fcfd2e841f67cf4d20707ccbb3c29c5a03ebcc3add",
+        "author": "Lessons of the Gulf War 1990-1991 (CSIS",
+        "license": "Reference-only local copy; copyright/redistribution not assumed.",
+        "role": "research reference: Cordesman & Wagner, Lessons of the Gulf War 1990-1991 (CSIS; printed page = PDF - 29). Secondary near-contemporary; OOB"
+      },
+      {
+        "uri": "https://www.govinfo.gov/content/pkg/GOVPUB-D214-PURL-gpo52758/pdf/GOVPUB-D214-PURL-gpo52758.pdf",
+        "sha256": "428f0df475e9c1b67ea79aad3bcb1a3489957c667e5fa9d929d5683522ffd108",
+        "author": "Liberating Kuwait (USMC 2014)",
+        "license": "U.S. government publication; courtesy images/paintings not cleared",
+        "role": "research reference: Westermeyer, Liberating Kuwait (USMC 2014); printed = PDF - 12; Qatari Brigade/AMX-30 printed 124-130"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "r0 was conditionally accepted (CONDITIONAL: resolve coax side and B2-fitting identity before final qualification), not rejected; it was superseded by the r1 coax-side correction reviewed in parent-batch2-correction-review-r1.json.",
+    "decidedAt": "2026-11-01T22:46:41.150Z"
+  },
+  "notes": [
+    "Batch2 qaAMX30 v1 source package.",
+    "Parent parent-batch2-static-review-r0.json PASS_STATIC_SOURCE and parent-batch2-runtime-review-r0.json PASS_SAMPLED_BROWSER; disposition parent-batch2-review-disposition-r1.json (sha256 42aba19deb558ffa34be6714690450dc0ade70fbf3c4896f65d54d6841790978): CONDITIONAL: resolve coax side and B2-fitting identity before final qualification.",
+    "Independent Opus batch2 review PASS_WITH_NOTES (independent-batch2-review/findings.json sha256 2fa8f6b47d33ee34dd500f8fdaaab7d837ff56eb0d43ff95d6680f013795c63f).",
+    "AI review gate only; no individual human visual inspection.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

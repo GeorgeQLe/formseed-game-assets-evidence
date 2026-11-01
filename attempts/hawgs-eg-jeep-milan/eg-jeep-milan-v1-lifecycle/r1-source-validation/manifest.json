@@ -1,0 +1,98 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-eg-jeep-milan",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "eg-jeep-milan-v1-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "eg-jeep-milan-r0-vs-r1.png",
+      "sha256": "0c5eaca0bf0b87c5b908d957228886e4f2abbc988f25a2794d6ebb78586be73e",
+      "bytes": 176349
+    },
+    "files": [
+      {
+        "path": "review/eg-jeep-milan-r1-base-poses.png",
+        "sha256": "855609a80d2ed9999aa0b89785f8eae7946360409cee5b14a4e8050dcfffeded",
+        "bytes": 33257
+      },
+      {
+        "path": "review/eg-jeep-milan-r1-lifecycle.png",
+        "sha256": "736d5f6b8d0e985aaecb5070b7ba3a64a55fb85a22450f422fe6a8d84264ce93",
+        "bytes": 70407
+      },
+      {
+        "path": "review/eg-jeep-milan-r1-review.png",
+        "sha256": "0a3c2a23bd4e27cffffeeb1d8632ee77a06a153c7ed74aa817545c6cf0bdb86c",
+        "bytes": 72608
+      },
+      {
+        "path": "eg-jeep-milan-r0-vs-r1.png",
+        "sha256": "0c5eaca0bf0b87c5b908d957228886e4f2abbc988f25a2794d6ebb78586be73e",
+        "bytes": 176349
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:A_crew_of_an_Egyptian_ranger_battalion_waits_to_parade_in_their_Jeep_YJ_light_vehicle_armed_with_a_MILAN_portable_ATGM_launcher_during_Operation_Desert_Shield.JPEG",
+        "sha256": "8c0e5846745b17c82fd23591827dc8b56957067cf034264c2d9b8005d7527c3a",
+        "author": "TSgt H. H. Deffner USAF",
+        "license": "U.S. federal government work (PD-USGov declaration on Commons file page); retained as local reference only, no new shipment authorization.",
+        "role": "research reference: DF-ST-92-07479, TSgt H. H. Deffner USAF; catalog 15 May 1992 (conflicts with Desert Shield caption)"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Egyptian_rangers_in_Jeeps_with_MANPADS.JPEG",
+        "sha256": "2ad69f43fbc45bfd0890bf8e849fd62bfb5b46645905cf1b03354e7be7375fb7",
+        "author": "Deffner",
+        "license": "U.S. federal government work (PD-USGov declaration on Commons file page); retained as local reference only, no new shipment authorization.",
+        "role": "research reference: DF-ST-92-07476, Deffner; ranger Jeep YJs with SA-7"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Crews_of_an_Egyptian_ranger_battalion_parade_in_Jeep_YJ_light_vehicles_during_Operation_Desert_Shield.JPEG",
+        "sha256": "9e529ba40c765756f648f80681afa22faf99a2e223a8f514b3a26a6b21ff2bfb",
+        "author": "Deffner",
+        "license": "U.S. federal government work (PD-USGov declaration on Commons file page); retained as local reference only, no new shipment authorization.",
+        "role": "research reference: DF-ST-92-07477, Deffner; side/three-quarter wheelbase check"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Crews_of_an_Egyptian_ranger_battalion_parade_in_Jeep_YJ_light_vehicles_during_Operation_Desert_Shield_2.JPEG",
+        "sha256": "bd4f4cd1241edf5a1968b80a930662fd62d2121b88410cfd9cfc643f6447c37b",
+        "author": "Deffner",
+        "license": "U.S. federal government work (PD-USGov declaration on Commons file page); retained as local reference only, no new shipment authorization.",
+        "role": "research reference: DF-ST-92-07478, Deffner; head-on YJ grille/headlamps"
+      },
+      {
+        "uri": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/160628_Lessons_of_the_Gulf_War_1990-1991_full.pdf",
+        "sha256": "42673c31f0d0e0babe7b94fcfd2e841f67cf4d20707ccbb3c29c5a03ebcc3add",
+        "author": "Lessons of the Gulf War 1990-1991 (CSIS",
+        "license": "Reference-only local copy; copyright/redistribution not assumed.",
+        "role": "research reference: Cordesman & Wagner, Lessons of the Gulf War 1990-1991 (CSIS; printed page = PDF - 29). Secondary near-contemporary; OOB"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Batch2 egJeepMILAN correction r1 (batch2-correction-r1); boards pinned to the independent r1 reviewer inputs (r1-pins.json sha256 9f24c65e50acef93ee6c22aa831d9326517f64755a4431c3536ced845487921f).",
+    "Parent parent-batch2-correction-review-r1.json PASS_STATIC_CORRECTION (closes B2-JEEP-TUBE-SIDE-1, B2-AMX-COAX-SIDE-Q); parent-batch2-installed-review-r1.json sampled installed review sha256 9308de452175c488bf60ce1aeb9ead3a32cd73f4f38c448f302b45760774f6b4.",
+    "Independent Opus r1 review PASS, no material findings (r1-findings.json sha256 b78a0b648689cdb2a03eb461c8e05a0db9446cee2e162fef58f0c61506837be9).",
+    "Excluded third-party/derived inputs: reference photographs and sources/front-10-view.png (manual-derived render) are never archived.",
+    "Outcome pending: AI review recommendations are not a human gate decision or confirmed semantic release; standing production authorization only.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

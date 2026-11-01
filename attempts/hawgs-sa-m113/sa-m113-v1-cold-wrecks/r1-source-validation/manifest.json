@@ -1,0 +1,80 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sa-m113",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sa-m113-v1-cold-wrecks",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "sa-coldwreck-comparison-r1.png",
+      "sha256": "47e03bfa29149dfa089f83ab9948a5fb1212488babde449cb2c749fc8524742a",
+      "bytes": 398979
+    },
+    "files": [
+      {
+        "path": "review/sa-original-vs-corrected-r1.png",
+        "sha256": "f410626fc733f5ed91b230feb37faef6645838b19a6b546a1118b14c13bf5e66",
+        "bytes": 183668
+      },
+      {
+        "path": "sa-coldwreck-comparison-r1.png",
+        "sha256": "47e03bfa29149dfa089f83ab9948a5fb1212488babde449cb2c749fc8524742a",
+        "bytes": 398979
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Egyptian_M113_APCs_during_Operation_Desert_Shield.JPEG",
+        "sha256": "6f1731b267f5cc4793283744938855902b9f95f2bb8b479644628735de2da60d",
+        "author": "Tech.Sgt.H.H.Deffner,USAF",
+        "license": "Official-duty USAF photograph;Commons file-specificPD-USGov-Military-AirForce notice",
+        "role": "period photograph DF-ST-92-07486"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:DF-ST-92-08022-C.jpg",
+        "sha256": "81ac878346c70570ca8769be719317a879871915fd9ba7a8c44ee5e2f8782ef2",
+        "author": "Staff Sgt. Dean M. Fox",
+        "license": "Official-duty US military photograph; file-specific Commons PD-USGov-Military notice",
+        "role": "period photograph DF-ST-92-08022"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sa/saudiarabiacount00metz_0/saudiarabiacount00metz_0.pdf",
+        "sha256": "0845a6ebdc98500f03dec31f305415e335c72bc659c66d383cc107cea0cece4f",
+        "author": "Library of Congress Federal Research Division",
+        "license": "U.S. federal government work; reference only",
+        "role": "inventory/deployment reference"
+      },
+      {
+        "uri": "https://cvgstrategy.com/wp-content/uploads/2013/08/MIL-HDBK-1222D.pdf",
+        "sha256": "11b03f9f815e1eda1bcd896ee14f0dbddc3f6f9691c5faad86a3fe48a763ad5c",
+        "author": "U.S. Department of Defense",
+        "license": "U.S. federal government work; third-party mirror; reference only",
+        "role": "manual overhead/plan reference (shared pre-A3 trace)"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Saudi M113 wreck correction r1 (destroyed assemblies bf7a25d8-18a4-5390-ade4-73ce481ee107, 591a9536-271f-5f17-9e1b-c9cf87883a04, 49442730-de9d-59b0-b332-b8806019f363); handoff-manifest sha256 f3270284c241a563f850068f80e43d0750ca88028a2ac30bbd1e9bc96269abde.",
+    "Parent parent-m113-review-r1.json PASS_STATIC_SOURCE (closes M113-WRECK-READABILITY-1, sha256 35a931562d7742c7590632e2d87cc9bd88484ed183369e2fa962eceb3dfba05a); parent-m113-runtime-review-r1.json PASS_SAMPLED_BROWSER.",
+    "Independent Opus review PASS_WITH_NOTES (independent-m113-review/findings.json sha256 7e66513aa16723aafc31960bd9c3b116782dd9548ffc3a73653499b6cd5257f1).",
+    "Outcome pending: AI review recommendations are not a human gate decision or confirmed semantic release; standing production authorization only.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

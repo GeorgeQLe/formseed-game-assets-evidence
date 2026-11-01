@@ -1,0 +1,75 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-kw-rifle",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "kw-rifle-v1-group",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "kw-rifle-lifecycle-v1.png",
+      "sha256": "9fd9cf4df15b4d3fd2d628a983f86e6beedbe4a04c34e4d167f777c0b1c26ff5",
+      "bytes": 163677
+    },
+    "files": [
+      {
+        "path": "review/infantry-closeup-v1.png",
+        "sha256": "8e56855a28ddccdb1a5c948d9cccdb4fefb36db394a1d335a0ecde3923c2e76f",
+        "bytes": 18217
+      },
+      {
+        "path": "kw-rifle-lifecycle-v1.png",
+        "sha256": "9fd9cf4df15b4d3fd2d628a983f86e6beedbe4a04c34e4d167f777c0b1c26ff5",
+        "bytes": 163677
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:DA-SC-92-00984.jpg",
+        "sha256": "a653f192b249fae8119e691d8e064a835657ba602da3f37cf7da4542f02aeb9f",
+        "author": "T. Stephan Thompson",
+        "license": "Official-duty US federal photograph; file-specific PD-USGov record",
+        "role": "period photograph DA-SC-92-00984"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_soldiers_and_a_Kuwaiti_BMP-2.JPEG",
+        "sha256": "172e850f35d1b4d1bc296b182ab40933f5e194e32a72ce94581180ac5831d3d4",
+        "author": "Unknown US Marine photographer",
+        "license": "Official-duty US Marine photograph; file-specific PD-USMarines",
+        "role": "period photograph DM-ST-91-11672"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_guards_at_a_roadside_checkpoint_in_Kuwait_City_following_the_withdrawal_of_Iraqi_forces.JPEG",
+        "sha256": "59bf472fa5187bfbc45499f4db9b3fc68f39a16f9699cc18af8af18dc58b6a35",
+        "author": "CW02 Ed Bailey",
+        "license": "Public domain",
+        "role": "period photograph DN-SC-91-08532"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Parent Codex assistant (AI review; not a human decision)",
+    "decidedAt": "2026-11-01T22:10:11.190Z",
+    "quote": "INF-RIFLE-SILHOUETTE-1: Active and dropped rifles have near-uniform broad rectangular cross-section across much of their length. Closeups read as bars with color bands; barrel/handguard/receiver/stock differentiation is too weak for the selected AK-family and M16A2 forms. Game-scale readability is constrained, but source silhouette can improve without extra game pixels."
+  },
+  "notes": [
+    "Kuwaiti rifle group v1 (rifle components superseded by r1; anatomy retained).",
+    "parent-infantry-review-r0.json CHANGES_REQUESTED (material-source-polish) sha256 03d21e8703945bd4ccff5b9f8533e2a2759d2e917ee619f51a565304e3f4061d; infantry-closeup-v1.png is the shared Egyptian/Kuwaiti closeup.",
+    "AI review gate only; no individual human visual inspection.",
+    "Archived under standing ADR 0008 policy for newly authored post-2026-09-27 Hawgs evidence (archive-policy-applicability.json sha256 e34cdcbef6d6a2be2bea26194840932e39d4a5883c5fff765b35683c7b449c0c); authored boards only, third-party references recorded by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
