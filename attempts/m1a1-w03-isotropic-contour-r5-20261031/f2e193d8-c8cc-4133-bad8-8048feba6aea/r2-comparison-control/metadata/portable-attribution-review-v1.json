@@ -1,0 +1,82 @@
+{
+  "role": "Independent read-only reviewer (Claude Opus 5.5). No edits, writes, mutations, approvals or formal go.",
+  "openedFiles": [
+    "research/army-manual-model-program-20261028/abrams-next-20261029/parts-production-20261030/w03/isotropic-actual-audit-v1/pixel-face-material-trace-v1.json",
+    "research/army-manual-model-program-20261028/abrams-next-20261029/parts-production-20261030/w03/isotropic-actual-audit-v1/albedo-only-diagnostic-v1/diagnostic-integrity-v1.json",
+    "[local-reference]/1000-front.png",
+    "[local-reference]/1000-front.png",
+    "[local-reference]/1000-right.png",
+    "[local-reference]/1000-right.png",
+    "[local-reference]/1000-top.png",
+    "[local-reference]/1000-right.png",
+    "[local-reference]/1000-right.png",
+    "[local-reference]/256-right.png",
+    "[local-reference]/1000-right.png",
+    "[local-reference]/256-right.png"
+  ],
+  "provenance": {
+    "sourceJob": "f2e193d8-c8cc-4133-bad8-8048feba6aea",
+    "revision": 2,
+    "checkpoint": "4253c33bf073630109b06138f8485e36e6096ab7c8dbd3f0f0cf6c97c18577f7",
+    "glbSha256": "1c2517485f6b2579ddcf0bacb0a1ee247898c631250e82e4fa4843c13088b70e"
+  },
+  "globalLimits": [
+    "I did not hash the PNGs. Image identity rests on the imageSha256 values in the trace and on the diagnostic-integrity record. I did not open or re-verify the three render-evidence.json manifests it cites.",
+    "Every tone value here is my visual estimate from looking at the images. None of them is a measured pixel read.",
+    "The ray trace covers only selected sample pixels. It is not a full segmentation and does not split out the lighting contribution, so any statement about shadow versus albedo is an inference.",
+    "For WP82 I reviewed only the front view, for WP29 the right and top views, and for WP27 the right view. Other views were not inspected.",
+    "The unlit images are diagnostic overrides made only in the renderer. They are not the source PBR. I relied on them only to compare albedo and material placement."
+  ],
+  "components": [
+    {
+      "component": "WP82 (WP82_Surface)",
+      "verdict": "KEEP",
+      "question": "Is the edge appearance explained by one exposed-edge material plus directional normal lighting, with a darker separate underface? Is a further material fix warranted?",
+      "evidence": [
+        "In the trace, samples (100,610), (300,610), (350,607), (500,550), (650,450) and (700,425) all hit W03R4FragmentExposedEdge, which has a single baseColorFactor [0.16,0.15,0.13]. They fall on faces 14, 16, 17 and 19.",
+        "Those faces have very different normals. Face 14 is (0.678,0,-0.735), face 16 is (-0.142,0,-0.990), face 17 is (-0.187,0.319,-0.929) and face 19 is (0.027,0.545,-0.838).",
+        "In the PBR front view, the left segment (x\u224850\u2013262) is visibly darker than the middle and sloped band (x\u2248262\u2013750). In the unlit diagnostic, the whole edge band from x\u224850 to 950, including the sloped ridge, is one uniform tone. That rules out a second material. The tonal steps in PBR come from per-facet normals under directional light.",
+        "Samples (600,550), (800,500) and (900,609) hit face 11, which uses W03R4FragmentCharEdge with base [0.055,0.052,0.045]. Its normal is (-0.627,-0.643,-0.439), which faces away from the light and downward. In the unlit image this triangle is a uniform dark grey. In PBR it is close to black. Both renders show it as a separate, darker underface.",
+        "The faint diagonal tone seam inside the left/middle band in PBR is not present in the unlit image. It fits a triangle or facet shading boundary on the same material."
+      ],
+      "conclusion": "Yes. One exposed-edge material plus directional normal lighting explains the edge appearance, and the darker region is the separate char underface. I see no material defect, so a further material fix is not warranted.",
+      "boundedTarget": "No material change. If the near-black underface is later judged too heavy, that is an art-direction choice about how dark the char reads, not a fix for a defect. Any such change would need to be limited to W03R4FragmentCharEdge."
+    },
+    {
+      "component": "WP29 (RightStowage)",
+      "verdict": "KEEP",
+      "question": "Is the zigzag the actual dark interior wall seen through a torn rim, or a painted mark? Would a material change improve readability without erasing depth?",
+      "evidence": [
+        "The trace hits that land inside the dark zigzag region are (150,453), (200,440), (250,435), (300,440), (360,405) and (400,400). Every one maps to W03R4BoxWall (base [0.05,0.046,0.04], with no UV texture). The hit world X is about 1.234\u20131.242, and the normals point +X toward the camera.",
+        "The hits on the lighter surrounding face are (80,480), (420,450), (300,515), (160,515) and (600,500). They map to W03CausalR4Map13 (texture 6) at world X about 1.559\u20131.658. So the dark region sits roughly 0.32\u20130.42 m inboard of the textured outer face. It is the opposite interior wall, seen through the torn top edge of the outer face. It is not texture or paint on the outer face.",
+        "The unlit diagnostic shows the same zigzag outline as a flat dark grey. The PBR render shows it as near-black. The PBR is clearly darker than the unlit albedo, which suggests the interior is shadowed or occluded behind the outer wall. That is an inference, because the trace does not decompose lighting.",
+        "At the far left of the isolated PBR (x\u2248100\u2013135) there is a small lit inner-corner facet. That is the only local cue in the image that this is a cavity.",
+        "The top view shows the floor as W03PolishFloorAsh01 (0.09) and the upward rim faces as W03R4BoxUpward (0.035). Both read as a dark, enclosed box interior, which matches an opening.",
+        "In the whole-vehicle 1000-right render, the zigzag shows at the turret rear as a dark notch. At whole 256 it is one of the strongest dark accents on the turret. With no visible lit rim thickness, it can read as either an opening or a dark paint stripe."
+      ],
+      "conclusion": "The zigzag is actual geometry: the dark interior wall seen through the torn rim, not a painted mark. A material change would help readability only a little. The PBR darkness seems to be mostly shadow, so raising the BoxWall albedo would move the rendered value only slightly. The cue that is mostly missing is a lit rim or wall-thickness edge, and that is geometry, not material.",
+      "boundedTarget": "No required material correction. If one optional readability trial is wanted, change only W03R4BoxWall base color: raise it from 0.05 toward about 0.08\u20130.09 linear, with the ceiling being FloorAsh at 0.09. Keep it well below the exterior albedo so the opening still reads as recessed. Do not change the outer face, its texture or any geometry. Accept the trial only if the zigzag stays clearly darker than the exterior at whole 256."
+    },
+    {
+      "component": "WP27 (BustleArmor)",
+      "verdict": "KEEP",
+      "question": "Do the streaks persist in the unlit albedo, and are they noticeable at part 256 and whole 256?",
+      "evidence": [
+        "Every trace sample hits W03CausalR4Map01 (baseColorTexture index 2, texCoord 1). The normal is about +X, (0.99999,0,-0.0038), with world X about 1.175\u20131.179.",
+        "The streaks persist in the unlit albedo. Both PBR and unlit show the same three vertical drip or streak clusters (x\u2248135\u2013165, 240\u2013300 and 365\u2013405 at 1000px) and the same darker diagonal band at the upper left. So they are content of the base-color texture, not lighting.",
+        "At part 256-right they are faintly visible as low-contrast vertical smudges in the left half of the plate. They are noticeable on close inspection but do not stand out.",
+        "At whole 256-right I cannot see them. In the whole 1000-right I also cannot pick out the WP27 streak pattern in the turret-rear area. The WP29 outer face sits at world X 1.56\u20131.66, outboard of WP27 at about 1.18, over a similar Z span (WP29 about 4.77\u20136.05, WP27 about 4.85\u20135.90). So WP27 appears to be mostly hidden behind WP29 in the right view. That occlusion is inferred from the trace world coordinates, not from a component mask."
+      ],
+      "conclusion": "The streaks are baked into the albedo texture and persist without lighting. They are faintly noticeable at part 256 and not noticeable at whole 256-right, where the bustle armor appears to be mostly behind the stowage box. This review does not try to judge whether the streaks are intended.",
+      "boundedTarget": "No correction needed on visibility grounds. If confirmation is wanted, the only bounded follow-up is a read-only component-mask or visibility check of WP27 in the whole right view (and any other required review views) to verify the inferred occlusion. No extra full-look experiment is needed."
+    }
+  ],
+  "summary": {
+    "WP82": "KEEP: one exposed-edge material, tone steps from facet normals, separate char underface; no material fix warranted",
+    "WP29": "KEEP: zigzag is the real interior wall seen through the torn rim; only an optional BoxWall albedo trial (\u22640.09 linear), expected gain small",
+    "WP27": "KEEP: streaks are in the albedo; faint at part 256, not seen at whole 256-right (likely hidden behind WP29)"
+  },
+  "technicalValidation": "not assessed by this reviewer",
+  "visualRecommendation": "Per-component KEEP/CORRECT/HOLD only. This is not a structured evaluator result and not a formal go.",
+  "humanApproval": "none; this review grants no approval"
+}

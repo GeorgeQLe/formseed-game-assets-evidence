@@ -1,0 +1,241 @@
+{
+  "reviewer": {
+    "identity": "Claude Opus 5.5 (claude-opus-5-5), independent read-only art reviewer",
+    "toolsUsed": "Read only. No mutation, no file write, no approval, and no hash, geometry or GLB verification.",
+    "subject": "W03 sixth charged whole finish candidate: job f2e193d8 r2, CP 4253c33b\u2026, GLB 1c251748\u2026. The five part views are temporary renderer-only visibility isolations of that same whole GLB, not standalone exports."
+  },
+  "openedInventory": {
+    "json": [
+      "research/.../w03/isotropic-actual-audit-v1/renderer-only-parts-v1/five-capture-integrity-v1.json (complete)",
+      "research/.../finish-polish-20261031/w03-part-closeups-r4/opus-five-parts-findings-v1.json (complete)"
+    ],
+    "currentWhole_w03-f2d-isotropic-r5-pbr-20261031": [
+      "1000-rear-three-quarter.png",
+      "1000-top.png",
+      "1000-front-three-quarter.png",
+      "1000-right.png",
+      "256-rear-three-quarter.png",
+      "128-rear-three-quarter.png",
+      "128-top.png"
+    ],
+    "currentParts": {
+      "w03-f2d-r5-isolate-wp27-20261031": [
+        "1000-right.png",
+        "1000-front-three-quarter.png",
+        "1000-top.png",
+        "256-right.png",
+        "128-right.png"
+      ],
+      "w03-f2d-r5-isolate-wp23-20261031": [
+        "1000-front-three-quarter.png",
+        "1000-top.png",
+        "1000-front.png",
+        "256-top.png",
+        "128-front-three-quarter.png"
+      ],
+      "w03-f2d-r5-isolate-wp29-20261031": [
+        "1000-top.png",
+        "1000-rear-three-quarter.png",
+        "1000-front-three-quarter.png",
+        "256-top.png",
+        "128-right.png"
+      ],
+      "w03-f2d-r5-isolate-wp82-20261031": [
+        "1000-front.png",
+        "1000-left.png",
+        "1000-front-three-quarter.png",
+        "256-left.png",
+        "128-front-three-quarter.png"
+      ],
+      "w03-f2d-r5-isolate-wp30-20261031": [
+        "1000-front.png",
+        "1000-front-three-quarter.png",
+        "256-front.png"
+      ]
+    },
+    "priorStandalones": {
+      "w03-wp27-r4-standalone-pbr-20261031": [
+        "1000-right.png",
+        "1000-front-three-quarter.png",
+        "256-right.png"
+      ],
+      "w03-wp23-r4-standalone-pbr-20261031": [
+        "1000-front-three-quarter.png",
+        "1000-top.png",
+        "256-front-three-quarter.png"
+      ],
+      "w03-wp29-r4-standalone-pbr-20261031": [
+        "1000-top.png",
+        "1000-rear-three-quarter.png",
+        "1000-front-three-quarter.png"
+      ],
+      "w03-wp82-r5-standalone-pbr-20261031": [
+        "1000-front.png",
+        "1000-left.png",
+        "1000-front-three-quarter.png"
+      ],
+      "w03-wp30-r4-standalone-pbr-20261031": [
+        "1000-front.png"
+      ]
+    },
+    "priorWhole_w03-causal-r4-actual-whole-pbr-20261031": [
+      "1000-rear-three-quarter.png",
+      "1000-top.png",
+      "256-rear-three-quarter.png"
+    ],
+    "references": [
+      "army-m1-1983-stowage-p239.png",
+      "usmc-hansen.jpg",
+      "doha-i14.png"
+    ],
+    "totals": "2 JSON files and 49 images opened: 25 current part, 13 prior part, 7 current whole, 3 prior whole and 3 references."
+  },
+  "omittedInventory": {
+    "currentWholeNotOpened (11)": [
+      "1000-front",
+      "1000-left",
+      "256-front-three-quarter",
+      "256-front",
+      "256-left",
+      "256-right",
+      "256-top",
+      "128-front-three-quarter",
+      "128-front",
+      "128-left",
+      "128-right"
+    ],
+    "currentPartsNotOpened (65 of 90)": {
+      "wp27": [
+        "1000-rear-three-quarter",
+        "1000-front",
+        "1000-left",
+        "256-front-three-quarter",
+        "256-rear-three-quarter",
+        "256-front",
+        "256-left",
+        "256-top",
+        "all 128 except right"
+      ],
+      "wp23": [
+        "1000-rear-three-quarter",
+        "1000-left",
+        "1000-right",
+        "all 256 except top",
+        "all 128 except front-three-quarter"
+      ],
+      "wp29": [
+        "1000-front",
+        "1000-left",
+        "1000-right",
+        "all 256 except top",
+        "all 128 except right"
+      ],
+      "wp82": [
+        "1000-rear-three-quarter",
+        "1000-right",
+        "1000-top",
+        "all 256 except left",
+        "all 128 except front-three-quarter"
+      ],
+      "wp30": [
+        "1000-rear-three-quarter",
+        "1000-left",
+        "1000-right",
+        "1000-top",
+        "all 256 except front",
+        "all 128"
+      ]
+    },
+    "priorStandalonesNotOpened (47 of 60)": "Every listed prior 1000/256 view not named in openedInventory, including all prior 256 views for WP29, WP82 and WP30.",
+    "notOpenedOther": "All five render-evidence.json manifests, the GLB, the blend, any native-comparison artifact (still pending), and any shadow-off control for WP30."
+  },
+  "limitations": [
+    "I recomputed no SHA, triangle, normal, UV or matrix data. I take the five-capture-integrity PASS (180 PNGs, producerMutation false, humanApproval false) as reported, not as verified by me.",
+    "The part captures are renderer-only isolations of the whole GLB. They show neither producer source isolation nor native completeness, and the native comparison is still pending.",
+    "Each part fills its frame, so part-scale 128 is not whole-tank 128. The two are assessed separately below.",
+    "No unlit or albedo-only control exists for these captures. Where face orientation could explain a value change, attributing it to texture rather than lighting is a visual inference.",
+    "I inspected 25 of the 90 current part PNGs and 7 of the 18 current whole PNGs. My conclusions cover only the images listed as opened.",
+    "This review is not a formal rubric evaluator result, an adversarial pass, source-correctness evidence or human approval."
+  ],
+  "overallDisposition": {
+    "workingDirection": "KEEP-WITH-LIMITS. The changes are local and in the right direction: the WP23 trim is darkened, the WP29 floor is lifted, the WP82 edges are less black, and the WP27 lobe contour is no longer smooth. No geometry regression is visible in the opened views.",
+    "gameSizeReading": "Mostly unchanged from r4. 256-rear-three-quarter is nearly indistinguishable from the prior r4 256-rear-three-quarter. At whole-tank 128 (128-rear-three-quarter, 128-top), the tank reads as a tan Abrams with a dark burn zone over the rear turret and bustle. The ground fragment is a dark speck. The finish changes in this sixth attempt cannot be seen at whole-tank 128 or 256 in the opened views.",
+    "dominantRemainingWholeArtifact": "In whole 1000-right, the black zig-zag WP29 torn-box graphic on the turret side (about x 215\u2013320, y 495\u2013525) is unchanged. It is also present at part-scale 128 in wp29 128-right.",
+    "visualRecommendation": "CORRECT (bounded, part-local). This is not a formal go: no deterministic evaluator result or adversarial review exists for this revision.",
+    "technicalValidation": "Not assessed by me. Capture-integrity PASS is reported only.",
+    "humanApproval": "none"
+  },
+  "parts": {
+    "WP27_BustleArmor": {
+      "question": "Three scallops vs irregular 2D contour",
+      "geometry": "KEEP",
+      "finish": "CORRECT (bounded; low whole-scale priority)",
+      "evidence": {
+        "1000": "In current wp27 1000-right versus r4 1000-right, the smooth W-shaped lobes are replaced by an irregular, broken lower contour. However, the three dark vertical columns remain at the same evenly spaced positions (about x 150, 270 and 400), so the threefold periodicity still dominates. Current 1000-front-three-quarter shows the same left face, with three equally spaced dark columns, softened but still present. 1000-top shows the cavity and bores unchanged, and the stair-stepped crescent shading in the bores persists (minor).",
+        "256": "In current 256-right versus r4 256-right, the three faint columns are nearly identical. The contour improvement does not survive at this size.",
+        "128": "In current 128-right, the pattern is lost (part-scale only)."
+      },
+      "objection": "The equal spacing of the three char columns still reads as a projection or mask artifact. The irregular contour fixed the edge but not the rhythm."
+    },
+    "WP23_P23_BlowoffRight": {
+      "question": "Trim",
+      "geometry": "KEEP",
+      "finish": "KEEP-WITH-LIMITS",
+      "evidence": {
+        "1000": "In current 1000-top versus r4 1000-top, the trim changed from a light mid-gray outline to dark charcoal that matches the charred field. The prior objection (a clean protected rim inside the fire field) is resolved. In 1000-front-three-quarter, the trim is dark on all sides apart from a thin lit thickness edge at the lower left. In 1000-front, the end caps are dark squares.",
+        "256": "In current 256-top, there is no light outline. Compare r4 256-front-three-quarter, where the lighter rim was visible.",
+        "128": "In current 128-front-three-quarter, the plate reads as a dark plate, and only a faint lit edge at the lower left remains."
+      },
+      "limits": "The panel interior is still a smooth airbrushed lateral gradient with faint vertical banding steps (1000-top, about x 250\u2013290 and x 470). The dark trim now frames the tan left zone, a mild reverse emphasis. These are acceptable only within the whole-field breakup scope already noted."
+    },
+    "WP29_RightStowage": {
+      "question": "Floor versus walls",
+      "geometry": "KEEP",
+      "finish": "CORRECT (bounded)",
+      "evidence": {
+        "1000": "In current 1000-top versus r4 1000-top, the floor is lifted from near-black to dark gray, with a faint lighter rim and corner highlight. In current 1000-front-three-quarter versus r4 1000-front-three-quarter, the visible floor patch near the tear (about x 250\u2013350, y 355\u2013400) is now distinguishably lighter than the walls. In current 1000-rear-three-quarter versus r4, the view is visually unchanged: tan exterior to black interior is still a hard value step at the torn rim, and the mounting blocks are pure black.",
+        "256": "In current 256-top, the floor still reads as a uniform dark slab.",
+        "128": "In current 128-right, the black zig-zag graphic band persists at part scale. In whole 1000-right, the same graphic is unchanged."
+      },
+      "objection": "The floor and wall separation exists at 1000 only and is weak. It is still dark gray, not a distinctly lighter matte residue role. The exterior rim step, the main cause of the whole-model zig-zag graphic, was not addressed."
+    },
+    "WP82_Surface": {
+      "question": "Perimeter edge",
+      "geometry": "KEEP (retained fold; not reopened)",
+      "finish": "HOLD (pending attribution control)",
+      "evidence": {
+        "1000": "In current 1000-front-three-quarter versus r5 standalone, the left long edge changed from near-black to dark gray, so the perimeter is more uniform. In current 1000-front versus r5, the fold edge is now a lighter gray, giving more of a cut-edge cue, but it still switches against the darker left flat segment. In current 1000-left versus r5, the rightmost flat edge segment is still much darker than the middle segment.",
+        "256": "In current 256-left, the gray/dark segment switch is still visible.",
+        "128": "In current 128-front-three-quarter, it reads as a dark fragment with a uniform-looking rim, and the switching is not legible."
+      },
+      "objection": "Per-face value switching is reduced but still present. I cannot separate albedo from face-orientation lighting in these captures. I do not recommend another charged finish pass on this part until an unlit or albedo control shows whether the remaining switching is authored."
+    },
+    "WP30_RearBasket": {
+      "question": "Cast-shadow stripe",
+      "geometry": "KEEP",
+      "finish": "KEEP-WITH-LIMITS",
+      "evidence": {
+        "1000": "Current 1000-front is visually identical to r4 1000-front, including the dark diagonal mark on the middle rail at the right end post (about x 900\u2013930, y 495\u2013505) and the small ticks at the top right. Current 1000-front-three-quarter shows a uniform charcoal lattice.",
+        "256": "In current 256-front, there is a faint tick at the right end of the middle rail. It is near sub-pixel.",
+        "128": "Not opened."
+      },
+      "shadowNote": "I accept the presentation-effect attribution as previously proven, per the brief. I did not open the control myself. Consistent with that, the mark is unchanged from r4 under the same rig.",
+      "limits": "There is no heat or value variation, so the rack reads as black-painted as easily as burnt. This is unchanged and accepted."
+    }
+  },
+  "unresolvedObjections": [
+    "WP29: the hard exterior rim value step drives the unchanged black zig-zag graphic (whole 1000-right, wp29 128-right, wp29 1000-rear-three-quarter). The floor lift is weak and visible only at 1000.",
+    "WP27: the equally spaced triple char columns persist (wp27 1000-right, 256-right).",
+    "WP82: residual per-face edge switching cannot be attributed to albedo or lighting without a control (wp82 1000-left, 256-left).",
+    "Whole: no finish change is perceptible at whole-tank 256 or 128 relative to r4 in the opened views.",
+    "Native comparison pending. No formal evaluator, adversarial review or human approval exists."
+  ],
+  "boundedNextSteps": [
+    "1. Do not start a seventh whole finish attempt on the strength of these part deltas. Any further autonomous correction is charged under iteration accounting and needs requester or root direction.",
+    "2. If directed: WP29 should get a narrow exterior value transition below the torn rim plus a distinctly lighter matte floor role, within the existing UVs. Check it in whole 1000-right and 256-right, not only in the isolation views.",
+    "3. If directed: WP27 should break the equal spacing of the side-face columns in the same mask, without a new palette.",
+    "4. WP82: run an unlit or albedo-only control render of the existing capture before any edge-role change.",
+    "5. Complete the native comparison and the remaining unopened views (whole 256 and 128 side, front and top) before any formal evaluator run.",
+    "6. Report technicalValidation, visualRecommendation and humanApproval separately. All six finish attempts remain charged, and no human approval exists."
+  ]
+}

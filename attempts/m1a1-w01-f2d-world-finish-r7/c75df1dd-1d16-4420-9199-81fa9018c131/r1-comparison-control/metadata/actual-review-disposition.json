@@ -1,0 +1,503 @@
+{
+  "candidate": {
+    "jobId": "c75df1dd-1d16-4420-9199-81fa9018c131",
+    "revision": 1,
+    "checkpointSha256": "1b243093be56f4a377f659713031732abd2cacebb66210780e08ae0ee84b0eed",
+    "glbSha256": "b5e91e9a06d74b9881a46d0ed61c1153ed4a1baea1b5ade8c56aa64555887a6c"
+  },
+  "attemptHistory": {
+    "priorActualFinishesCharged": 7,
+    "thisActualFinishOrdinal": 8,
+    "logicalLabel": "r7",
+    "reset": false
+  },
+  "technicalValidation": "PASS",
+  "visualRecommendation": "CORRECT",
+  "rootDecision": "CORRECT: flat paint-like finish and proved new broad top bands; lower-right wedge remains. No retention/extraction selected.",
+  "reviewer": {
+    "tool": "Claude Code CLI",
+    "version": "2.1.311",
+    "requestedModel": "claude-opus-5-5",
+    "observedCanonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "execSessionId": 75567,
+    "exitCode": 0,
+    "isError": false,
+    "durationMs": 89508,
+    "turns": 28,
+    "prompt": {
+      "path": "local-only/opus-whole-r7-prompt-v1.txt",
+      "sha256": "1d2df13e2c22bd30ecc99f5670e37cc4f8ed608c7d162c80dc916ad614fb18c1"
+    },
+    "rawOutput": {
+      "path": "local-only/opus-whole-r7-output-v1.json",
+      "sha256": "548050a2c7d5c8560a77ae0c7a7181472ab81d0e4a66cb0bf233b839d26ddcc6"
+    },
+    "verbatimFindingsAsParsedJson": {
+      "path": "local-only/opus-whole-r7-findings-v1.json",
+      "sha256": "969c40fdfc7322c533cd696f916817d95dd2b6c9fe8bcde8f2ea3a976613a2a4"
+    },
+    "stderrBytes": 0
+  },
+  "rawOpusVerdict": "KEEP_WORKING",
+  "rawOpusFinishedArtReady": false,
+  "rawFindings": {
+    "disposition": "KEEP_WORKING",
+    "overallReason": "Actual r7 keeps r6's resolved coverage and physical direction, and I found no regression. Its visible improvement over r6 is small. Side by side with r6 at the same camera, the fringe barely changes the stencil/stair-step boundaries. The new residue cannot be seen at 1000, 256 or 128. The Hull30/22 cutback only slightly shortens or breaks the long lower-right dark band; it does not remove it. Across the whole model the finish still reads as a hard-edged, flat two-tone painted or camouflage scheme (uniform dark brown on tan), not as burned, soot-feathered coating loss. Keep it as the working base. It is not ready for finishing.",
+    "inspectedImages": [
+      "review-evidence-summary-v1.json",
+      "r7/1000-front-three-quarter.png",
+      "r7/1000-rear-three-quarter.png",
+      "r7/1000-front.png",
+      "r7/1000-left.png",
+      "r7/1000-right.png",
+      "r7/1000-top.png",
+      "r7/256-front-three-quarter.png",
+      "r7/256-rear-three-quarter.png",
+      "r7/256-front.png",
+      "r7/256-left.png",
+      "r7/256-right.png",
+      "r7/256-top.png",
+      "r7/128-front-three-quarter.png",
+      "r7/128-rear-three-quarter.png",
+      "r7/128-front.png",
+      "r7/128-left.png",
+      "r7/128-right.png",
+      "r7/128-top.png",
+      "r6/1000-top.png",
+      "r6/1000-right.png",
+      "r6/1000-rear-three-quarter.png",
+      "r6/1000-left.png",
+      "r6/256-right.png",
+      "r6/256-rear-three-quarter.png",
+      "usmc-hansen.jpg",
+      "doha-i14.png"
+    ],
+    "sizeFindings": {
+      "1000": "The dark region is one flat, uniform dark brown with almost no value variation inside it apart from lighting and cast shadows. Its boundaries are hard, and in several places they step along the texel grid: the top view's right turret/hull edge at about x605-650, y230-470; its left edge at about x335-390, y280-420; and a sawtooth diagonal on the rear-quarter turret and hull side at about x460-600, y560-800. Pale tan islands inside the dark on the right turret side (right view about x255-300, y530-565; front-quarter about x200-260, y480-530) read as camouflage blobs. Rear deck, grille, rear plate, roof and hatch exteriors are coherently dark. The left side and front stay mostly tan, as intended.",
+      "256": "The rear half reads clearly as one dark mass. In the right view, the black/tan alternation along the turret side and the lower hull band (about x12-85, y143-162) reads as banded camouflage. The fringe makes no visible difference. The rear-quarter is effectively identical to r6 at 256.",
+      "128": "The silhouette and the overall dark-rear/tan-front split survive. The right view collapses into black and tan bands. Residue and fringe are invisible at this size, which matches the summary's own limit note (0.3-1.5 px). No new speckle or aliasing noise is visible."
+    },
+    "targetFindings": {
+      "fringe": "The reduction is marginal to nil at review distances. The stair-step staircases on the top view and on the rear-quarter turret/hull boundary look nearly the same as r6. Any narrow anti-aliasing transition there may be is not visible as softening at 1000. Edges still read as stencil-cut.",
+      "residue": "I can't see any residue that reads as irregular coating loss or value variation at any size. The dark fill looks flat. The only lighter features inside the dark are a few large, hard-edged tan islands, and those read as decorative or camouflage patches, not residue.",
+      "lowerRightWedge": "There is a modest local change. In 1000-right the dark wedge's front tip now ends around x~330 instead of roughly x~360 in r6, and its lower edge has steps or notches. However, the long horizontal dark band from the rear (x~50) to about x~330 along y~575-640 is still a conspicuous planar band, and at 256 it is still the dominant read. It is reduced, not resolved.",
+      "preservedCoverage": "This holds. Roof, rear deck and grille, rear plate, both hatch exteriors and the bustle/stowage upper wrap stay coherently dark and match r6. I saw no coverage holes or new light gaps. Cupola faces read solid dark in the views I inspected.",
+      "seamsAndShadows": "I found no clearly new seams or bleed. Several things I separated out: (a) the diagonal dark stripe across the front glacis and turret face in 1000-front, and the barrel shadow on the front deck, are cast shadows; (b) the dark olive lower front hull plate in the front view is unchanged from earlier and appears to be a source role, not new bleed; (c) a thin dashed light line along about y~605, x~85-330 inside the right-side dark band is present in both r6 and r7. Its cause is uncertain: it could be the deck/side-panel physical edge or a mask edge leaking the base tan. A component-mask or UV-edge overlay of Hull30/22 for that camera would settle it; (d) the center-left dark rectangle under the right side skirt is the stated pre-existing Hull24 placeholder."
+    },
+    "comparisonToR6": "I compared r6 and r7 top, right, rear-quarter and left at 1000, plus right and rear-quarter at 256. Top: practically identical. The staircase on both sides is still present and the pale bits at left (about x370-385, y280-300) are unchanged. Right: the dark tip of the lower hull wedge is slightly shorter and more broken, and the turret-side dark/light split is redistributed so a tan island now sits inside the dark. Rear-quarter: a little more tan intrudes along the turret/hull boundary near x500-560, y660-800, but the sawtooth character is the same. Left: no material change. Net: a small relative improvement in one local area, with coverage preserved and no regression. The overall appearance is not meaningfully different from r6.",
+    "sourceReferenceAssessment": "Both photographs show connected dark burned surfaces with strong small-to-mid-scale mottling: soot gradients feathering into retained coating, irregular light bare or retained patches with ragged, scorched edges, and multi-tone value breakup inside the dark areas. The model takes from them only 'connected dark plus retained lighter coating', at the macro level. It is missing the internal value variation and the feathered, irregular transitions, so it reads as flat two-tone paint. This review makes no claim beyond appearance vocabulary; the references are not incident, thermal or material evidence.",
+    "blockingIssues": [
+      {
+        "view": "right",
+        "size": "1000 (also 256)",
+        "location": "Lower hull Hull30/22 band, about x50-330, y575-640 (256: about x12-85, y143-162)",
+        "visibleFact": "A long, continuous horizontal dark band with a stepped lower edge still runs most of the hull length. It is only modestly shortened compared with r6.",
+        "attributionConfidence": "High that this is texture/mask coverage, not geometry. Normals and geometry are proven unchanged.",
+        "impact": "It is the strongest single 'painted stripe' or camouflage cue on the side views at game sizes."
+      },
+      {
+        "view": "top; rear-three-quarter",
+        "size": "1000",
+        "location": "Top: right turret/hull boundary about x605-650, y230-470, and left about x335-390, y280-420. Rear-quarter: turret/hull side boundary about x460-600, y560-800.",
+        "visibleFact": "Texel-aligned staircase edges stay hard and the sawtooth is still present. The new fringe does not visibly soften them.",
+        "attributionConfidence": "High that these are mask-edge artifacts. They follow the texel grid, not the geometry.",
+        "impact": "They keep the stencil-cut read at close review distance."
+      },
+      {
+        "view": "right; front-three-quarter",
+        "size": "1000/256",
+        "location": "Right turret side tan island about x255-300, y530-565 (right view); about x200-260, y480-530 (front-quarter)",
+        "visibleFact": "Hard-edged pale tan blobs sit inside a uniform dark field, with no scorch halo or gradation.",
+        "attributionConfidence": "High that this is mask design, not shadow.",
+        "impact": "It reads as a camouflage pattern rather than retained coating."
+      }
+    ],
+    "boundedRecommendations": [
+      {
+        "tiedTo": "The stair-step edges on the top and rear-quarter boundaries",
+        "recommendation": "Widen the dark-to-tan transition on just those boundary segments into an irregular feathered soot gradient. It needs to be several texels wide in atlas space so it is still visible at 1000. Keep the palette and coverage the same."
+      },
+      {
+        "tiedTo": "The persistent lower-right Hull30/22 band",
+        "recommendation": "Break the band's continuity along its length, not only at the tip: add one or two irregular vertical terminations or tan intrusions between about x150 and x330 in the right view, so it no longer reads as one horizontal stripe."
+      },
+      {
+        "tiedTo": "Flat dark fill and the hard tan islands on the turret side",
+        "recommendation": "Add low-frequency value mottling inside the existing dark regions, scaled large enough to survive 256. Also give the existing tan islands a scorched or darkened ragged rim so they read as retained coating rather than camouflage blobs. Do not add new islands."
+      }
+    ],
+    "limitations": "I inspected PNGs visually with Read only. I did not compute any hashes, pixel statistics or difference images, and I did not open the GLB, masks or atlases. All pixel coordinates are approximate estimates from my viewing. I compared r6 only for the six supplied images, so r6 front, front-three-quarter and 128-px views were not compared. Whether the dashed light line in the right view is a physical join or mask leakage needs a component-mask or UV overlay to settle. Cupola solid-char status was confirmed only as far as the rendered views show. This review is not artwork approval, human signoff or source promotion.",
+    "humanApproval": false
+  },
+  "controllerQualification": "Opus did not recognize new residue bands and described top as practically identical/no regression. Paired actual UV/PBR samples prove new visible value changes on Hull45, RightStowage5 and BustleArmor5. Preserve that perceptual miss instead of treating no-regression as fact.",
+  "pairedBandEvidence": {
+    "status": "Paired actual r6/r7 material attribution; new top-band value change confirmed",
+    "r6GlbSha256": "e0a7e4deada972bb060eefa9455230424e64353aa75d5665f0114ce8f0968eb6",
+    "r7GlbSha256": "b5e91e9a06d74b9881a46d0ed61c1153ed4a1baea1b5ade8c56aa64555887a6c",
+    "rows": [
+      {
+        "pixel": [
+          400,
+          180
+        ],
+        "owner": "Hull",
+        "nativeFaces": [
+          45
+        ],
+        "worldPoint": [
+          -6.496633085233017,
+          -1.0855706695868503,
+          1.4272000789642334
+        ],
+        "r6NearestTextureRgba": [
+          57,
+          48,
+          43,
+          255
+        ],
+        "r7NearestTextureRgba": [
+          98,
+          86,
+          76,
+          255
+        ],
+        "r6ActualPbrRgba": [
+          23,
+          19,
+          19,
+          255
+        ],
+        "r7ActualPbrRgba": [
+          60,
+          53,
+          50,
+          255
+        ]
+      },
+      {
+        "pixel": [
+          450,
+          165
+        ],
+        "owner": "Hull",
+        "nativeFaces": [
+          45
+        ],
+        "worldPoint": [
+          -6.660286957512571,
+          -0.5400577702969761,
+          1.4272000789642334
+        ],
+        "r6NearestTextureRgba": [
+          57,
+          48,
+          43,
+          255
+        ],
+        "r7NearestTextureRgba": [
+          99,
+          87,
+          77,
+          255
+        ],
+        "r6ActualPbrRgba": [
+          32,
+          32,
+          32,
+          255
+        ],
+        "r7ActualPbrRgba": [
+          61,
+          58,
+          56,
+          255
+        ]
+      },
+      {
+        "pixel": [
+          450,
+          180
+        ],
+        "owner": "Hull",
+        "nativeFaces": [
+          45
+        ],
+        "worldPoint": [
+          -6.496633085233017,
+          -0.5400577702969761,
+          1.4272000789642334
+        ],
+        "r6NearestTextureRgba": [
+          57,
+          48,
+          43,
+          255
+        ],
+        "r7NearestTextureRgba": [
+          100,
+          88,
+          77,
+          255
+        ],
+        "r6ActualPbrRgba": [
+          23,
+          19,
+          19,
+          255
+        ],
+        "r7ActualPbrRgba": [
+          62,
+          55,
+          51,
+          255
+        ]
+      },
+      {
+        "pixel": [
+          500,
+          165
+        ],
+        "owner": "Hull",
+        "nativeFaces": [
+          45
+        ],
+        "worldPoint": [
+          -6.66028695751257,
+          0.005455128992898397,
+          1.4272000789642334
+        ],
+        "r6NearestTextureRgba": [
+          57,
+          48,
+          43,
+          255
+        ],
+        "r7NearestTextureRgba": [
+          101,
+          88,
+          78,
+          255
+        ],
+        "r6ActualPbrRgba": [
+          32,
+          32,
+          32,
+          255
+        ],
+        "r7ActualPbrRgba": [
+          62,
+          59,
+          57,
+          255
+        ]
+      },
+      {
+        "pixel": [
+          550,
+          165
+        ],
+        "owner": "Hull",
+        "nativeFaces": [
+          45
+        ],
+        "worldPoint": [
+          -6.660286957512571,
+          0.5509680282827728,
+          1.4272000789642334
+        ],
+        "r6NearestTextureRgba": [
+          57,
+          48,
+          43,
+          255
+        ],
+        "r7NearestTextureRgba": [
+          97,
+          86,
+          76,
+          255
+        ],
+        "r6ActualPbrRgba": [
+          32,
+          32,
+          32,
+          255
+        ],
+        "r7ActualPbrRgba": [
+          59,
+          57,
+          55,
+          255
+        ]
+      },
+      {
+        "pixel": [
+          600,
+          225
+        ],
+        "owner": "BustleArmor",
+        "nativeFaces": [
+          5
+        ],
+        "worldPoint": [
+          -6.0055738707461375,
+          1.0964809275726468,
+          1.9863934066198627
+        ],
+        "r6NearestTextureRgba": [
+          57,
+          48,
+          43,
+          255
+        ],
+        "r7NearestTextureRgba": [
+          100,
+          88,
+          77,
+          255
+        ],
+        "r6ActualPbrRgba": [
+          51,
+          44,
+          41,
+          255
+        ],
+        "r7ActualPbrRgba": [
+          107,
+          95,
+          86,
+          255
+        ]
+      },
+      {
+        "pixel": [
+          350,
+          365
+        ],
+        "owner": "RightStowage",
+        "nativeFaces": [
+          5
+        ],
+        "worldPoint": [
+          -4.478135354682141,
+          -1.6310835688767251,
+          1.9999999403953552
+        ],
+        "r6NearestTextureRgba": [
+          57,
+          48,
+          43,
+          255
+        ],
+        "r7NearestTextureRgba": [
+          98,
+          86,
+          76,
+          255
+        ],
+        "r6ActualPbrRgba": [
+          51,
+          43,
+          41,
+          255
+        ],
+        "r7ActualPbrRgba": [
+          103,
+          92,
+          84,
+          255
+        ]
+      },
+      {
+        "pixel": [
+          365,
+          355
+        ],
+        "owner": "RightStowage",
+        "nativeFaces": [
+          5
+        ],
+        "worldPoint": [
+          -4.587237936201843,
+          -1.4674296990897626,
+          1.9999999403953552
+        ],
+        "r6NearestTextureRgba": [
+          57,
+          48,
+          43,
+          255
+        ],
+        "r7NearestTextureRgba": [
+          98,
+          86,
+          76,
+          255
+        ],
+        "r6ActualPbrRgba": [
+          51,
+          43,
+          41,
+          255
+        ],
+        "r7ActualPbrRgba": [
+          103,
+          92,
+          83,
+          255
+        ]
+      },
+      {
+        "pixel": [
+          380,
+          355
+        ],
+        "owner": "RightStowage",
+        "nativeFaces": [
+          5
+        ],
+        "worldPoint": [
+          -4.587237936201843,
+          -1.3037758293028003,
+          1.9999999403953552
+        ],
+        "r6NearestTextureRgba": [
+          57,
+          48,
+          43,
+          255
+        ],
+        "r7NearestTextureRgba": [
+          98,
+          86,
+          76,
+          255
+        ],
+        "r6ActualPbrRgba": [
+          51,
+          43,
+          41,
+          255
+        ],
+        "r7ActualPbrRgba": [
+          104,
+          92,
+          84,
+          255
+        ]
+      }
+    ],
+    "limits": [
+      "Same geometry/camera/normal/renderer executable checks are separately pinned.",
+      "Nearest source-texture samples establish a material contribution; GPU filtering and lighting still influence exact output pixels.",
+      "The Opus no-visible-residue/no-regression statement is a perceptual observation, not an authoritative denial of this measured change.",
+      "No source/image/asset mutation."
+    ]
+  },
+  "referenceScope": "Appearance morphology only; no calibrated historical colors, temperature, weapon or incident claims.",
+  "humanApproval": false,
+  "sourcePromotion": false,
+  "formalReadiness": false,
+  "sourceReviewManifestSha256": "d45c009e3105cf6d0ce342d8e0a7980347ee4b61a216d18b8d6c5d600ba28feb"
+}

@@ -1,0 +1,31 @@
+{
+  "reviewer": {
+    "identity": "Claude Opus 5.5 (claude-opus-5-5), independent read-only visual reviewer",
+    "mode": "Read only. Nothing was changed, written, approved or mutated. I made no producer, MCP-mutation or lock calls.",
+    "subject": "Final standalone FormSeed3D GLB renders for WP27Ar5, WP23Ar5, WP29Ar5 and WP82Ar6 at the preserved source checkpoints, as described by the requester. I did not see any checkpoint, GLB or render-evidence hash myself."
+  },
+  "part": "WP29Ar5_RightStowage",
+  "finding": {
+    "geometry": "KEEP-FOR-FINISHING (physical interior-wall notch respected)",
+    "finish": "KEEP-FOR-FINISHING (with documented limitations)",
+    "evidence": {
+      "1000": "In right, the zigzag notch (about x 50\u2013525, y 357\u2013490) is the dark interior wall seen through the torn rim. A small lit inner-corner facet (about x 100\u2013135) is the only local depth cue. Consistent with the prior attribution, I treat the notch as physical geometry, not a painted mark. In front-three-quarter, the floor patch near the tear (about x 240\u2013350, y 350\u2013410) is distinguishably lighter than the walls. In top, the floor is a dark-gray slab with a faint lighter perimeter and a corner highlight (about x 455\u2013490, y 80\u2013180). In rear-three-quarter, the tan exterior steps sharply to a near-black interior at the torn rim, and the mounting blocks (about x 150\u2013215, y 325\u2013380 and x 420\u2013478, y 490\u2013540) are near-black with soft cast shadows. Left shows a clean exterior with the two blocks.",
+      "256": "In right, the notch still reads as a dark cutout with no visible wall thickness. Top is a uniform dark slab. Front-three-quarter and rear-three-quarter keep the open-box reading.",
+      "128": "In right, the notch reads as a dark zigzag band. In front-three-quarter and rear-three-quarter, it still reads as an open, torn box."
+    },
+    "nonBlockingObservations": [
+      "The floor-to-wall separation is visible at 1000 only. At 256 and 128 the interior reads as one dark mass. The prior optional W03R4BoxWall albedo trial (\u22640.09 linear) stays optional. I do not prescribe it."
+    ],
+    "objections": [
+      {
+        "id": "WP29-front-hairline",
+        "severity": "minor; geometry check, not a finish change",
+        "evidence": "In 1000-front there is a continuous thin vertical line on the end face (about x 724, y 50\u2013928), and nearly edge-on dark slivers along the right edge (about x 745\u2013772, y 180\u2013590). A faint trace of the line is visible near x 188 in 256-front. It is not legible at 128.",
+        "note": "This may be torn-rim faces seen edge-on, which would be benign, or a seam or sliver face. I did not open prior isolation 1000-front, so I cannot say whether it is unchanged.",
+        "action": "Run a read-only mesh visibility or face-attribution check on the 1000-front pixels around x 724 before finishing. Make no change unless an open seam or degenerate face is confirmed."
+      }
+    ]
+  },
+  "scope": "Actual independent Opus opened all72 current final part images; no human approval. Prior whole-isolation comparison was partial.",
+  "humanApproval": false
+}

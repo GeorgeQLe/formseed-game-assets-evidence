@@ -1,0 +1,477 @@
+{
+  "implementation": "supplementary-exact-glb-part-pbr-v1",
+  "assetName": "W01 eighth finish source r7",
+  "jobId": "c75df1dd-1d16-4420-9199-81fa9018c131",
+  "revision": 1,
+  "checkpoint": {
+    "checkpointId": "14376d0c-fd51-4751-a6f8-1d1e5ba38e7a",
+    "checkpointHash": "1b243093be56f4a377f659713031732abd2cacebb66210780e08ae0ee84b0eed"
+  },
+  "glbSha256": "b5e91e9a06d74b9881a46d0ed61c1153ed4a1baea1b5ade8c56aa64555887a6c",
+  "sourceReceipt": "local-only/w01-f2d-surface-r7-export.json",
+  "sourceReceiptSha256": "50e3da208abe2402e367f3a7d07f0a59611729c57bb9a10a715f22975567426f",
+  "cameraReceipt": "local-only/w01-r7-public-cameras-v1.json",
+  "cameraReceiptSha256": "a8ba839abbe639e9c0236790c67ef5d297928a303b556b7d13052574ce8707ee",
+  "rendererSourceSha256": "4832afe6f5a00fa784c61991ca6e9512d397d5555a7ce757abfc19a3d6ef50fd",
+  "rendererBundleSha256": "26e1bdf000551b3956f3e19e448498519f1705a0c51e7fc95c8b3f2fa0866bbd",
+  "browser": {
+    "executablePath": "local-only/Brave Browser",
+    "version": "153.0.8010.37",
+    "playwrightVersion": "1.62.1"
+  },
+  "storage": {
+    "volumeId": "vol_47c979fb1804b7e9",
+    "checkedAt": "2026-11-01T01:06:50Z",
+    "scratch": "local-only/Scratch"
+  },
+  "framing": {
+    "mode": "explicit",
+    "explicitBounds": {
+      "min": [
+        -1.8288,
+        0,
+        -1.903476
+      ],
+      "max": [
+        1.8288,
+        4.5,
+        7.9248
+      ],
+      "basis": "Locked clean source v1 subject bounds in glTF world axes; unchanged prior fixed PBR frame."
+    },
+    "explicitBoundsFileSha256": "5557bd1b75faf83cea69793c7fdd9357bbfc9c1a6f87c81f9ebebe679cdcf54b",
+    "selectedBounds": {
+      "min": [
+        -1.8288,
+        0,
+        -1.903476
+      ],
+      "max": [
+        1.8288,
+        4.5,
+        7.9248
+      ],
+      "basis": "explicit"
+    },
+    "actualGlbBounds": {
+      "min": [
+        -1.8287999629974365,
+        0,
+        -1.9034759998321533
+      ],
+      "max": [
+        1.8287999629974365,
+        4.199999988079071,
+        7.924799919128418
+      ]
+    },
+    "coordinateSystem": "glTF world axes; metres",
+    "floor": "floor"
+  },
+  "reviewViews": [
+    {
+      "name": "front-three-quarter",
+      "azimuthDegrees": 35,
+      "elevationDegrees": 25,
+      "rollDegrees": 0
+    },
+    {
+      "name": "rear-three-quarter",
+      "azimuthDegrees": 215,
+      "elevationDegrees": 25,
+      "rollDegrees": 0
+    },
+    {
+      "name": "front",
+      "azimuthDegrees": 0,
+      "elevationDegrees": 0,
+      "rollDegrees": 0
+    },
+    {
+      "name": "left",
+      "azimuthDegrees": 270,
+      "elevationDegrees": 0,
+      "rollDegrees": 0
+    },
+    {
+      "name": "right",
+      "azimuthDegrees": 90,
+      "elevationDegrees": 0,
+      "rollDegrees": 0
+    },
+    {
+      "name": "top",
+      "azimuthDegrees": 0,
+      "elevationDegrees": 89.99,
+      "rollDegrees": 0
+    }
+  ],
+  "sets": [
+    {
+      "size": 1000,
+      "views": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "renders/whole/1000-front-three-quarter.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "509bef9304b8f02c625a1ac386b21a12f7da9414ae5605ac35b2092f17a8f7a4",
+          "bytes": 233676,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "renders/whole/1000-rear-three-quarter.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1c17a5bd4d2962ca7b8aef1e140eb9111723caa8e80eb770bc83b0399880ef6c",
+          "bytes": 299080,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "renders/whole/1000-front.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "37a766540ba78e0334acaf41baeb585d6d19d3375108cdb4d9eca973d82a3dd3",
+          "bytes": 129387,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "renders/whole/1000-left.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1fef08952dedfa4956fed7b0b30f68ea6294ad7963869d7b1dc132e334b6a68c",
+          "bytes": 145056,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "renders/whole/1000-right.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a169740b40e7baa509359f840aef2f2abc40a2d7bff9d0f1bba3e694e2d97c40",
+          "bytes": 83156,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "renders/whole/1000-top.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "47dd46c1aa3d464462965b012fc02d50611d814173b6a3268013e6ab2a451057",
+          "bytes": 175475,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "repeatViews": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "renders/whole/1000-front-three-quarter-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "509bef9304b8f02c625a1ac386b21a12f7da9414ae5605ac35b2092f17a8f7a4",
+          "bytes": 233676,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "renders/whole/1000-rear-three-quarter-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1c17a5bd4d2962ca7b8aef1e140eb9111723caa8e80eb770bc83b0399880ef6c",
+          "bytes": 299080,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "renders/whole/1000-front-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "37a766540ba78e0334acaf41baeb585d6d19d3375108cdb4d9eca973d82a3dd3",
+          "bytes": 129387,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "renders/whole/1000-left-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1fef08952dedfa4956fed7b0b30f68ea6294ad7963869d7b1dc132e334b6a68c",
+          "bytes": 145056,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "renders/whole/1000-right-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a169740b40e7baa509359f840aef2f2abc40a2d7bff9d0f1bba3e694e2d97c40",
+          "bytes": 83156,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "renders/whole/1000-top-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "47dd46c1aa3d464462965b012fc02d50611d814173b6a3268013e6ab2a451057",
+          "bytes": 175475,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "deterministic": true
+    },
+    {
+      "size": 256,
+      "views": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "renders/whole/256-front-three-quarter.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "4bdea62ac6be22083bc509ca166154a57e43f9798727183ec15abcc98ea5c21a",
+          "bytes": 32669,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "renders/whole/256-rear-three-quarter.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "ada59ec985f04941a7ac25e7c5ed53822beacdf9c344464c0a88ada05d4f18b0",
+          "bytes": 37482,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "renders/whole/256-front.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "467e5b81134479c715461425b8d0160fd23fdb6988a06f78d699b325af254495",
+          "bytes": 20944,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "renders/whole/256-left.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "e23fe26fda0ff75a3cd9914bbd162a99a59c96c894d8261e8775b5873cd1c139",
+          "bytes": 18073,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "renders/whole/256-right.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "ff239ff49e43d7dc187148e6ff9dad479e1ebe12a65a21aea95c1fe23a596b1c",
+          "bytes": 15731,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "renders/whole/256-top.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "6a2da1f2400cc372e2043468b9e68db3f20093678f3db1d44f65047f99ce8779",
+          "bytes": 25927,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "repeatViews": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "renders/whole/256-front-three-quarter-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "4bdea62ac6be22083bc509ca166154a57e43f9798727183ec15abcc98ea5c21a",
+          "bytes": 32669,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "renders/whole/256-rear-three-quarter-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "ada59ec985f04941a7ac25e7c5ed53822beacdf9c344464c0a88ada05d4f18b0",
+          "bytes": 37482,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "renders/whole/256-front-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "467e5b81134479c715461425b8d0160fd23fdb6988a06f78d699b325af254495",
+          "bytes": 20944,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "renders/whole/256-left-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "e23fe26fda0ff75a3cd9914bbd162a99a59c96c894d8261e8775b5873cd1c139",
+          "bytes": 18073,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "renders/whole/256-right-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "ff239ff49e43d7dc187148e6ff9dad479e1ebe12a65a21aea95c1fe23a596b1c",
+          "bytes": 15731,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "renders/whole/256-top-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "6a2da1f2400cc372e2043468b9e68db3f20093678f3db1d44f65047f99ce8779",
+          "bytes": 25927,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "deterministic": true
+    },
+    {
+      "size": 128,
+      "views": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "renders/whole/128-front-three-quarter.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "1734af01c113a58202b82859d8387e568dc7ab7c1538711b3da88a7b12141460",
+          "bytes": 12130,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "renders/whole/128-rear-three-quarter.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "68e72a584e60b995dfd76f15de7c979a091de52585473505fe8b843f9c5177df",
+          "bytes": 13427,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "renders/whole/128-front.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "866855926e59ac3ad7b2b631d5c5e0bc823a820574f54ad3536f604efccaf670",
+          "bytes": 9319,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "renders/whole/128-left.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "10b26c40037c8a52be6bbacfbe21b5e6a140540a7561a6c2facb507307c986b4",
+          "bytes": 7523,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "renders/whole/128-right.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "a24a9a08d1ee02882ae07b098876769d75b159d300dc716c35700a6f7c5956b5",
+          "bytes": 6792,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "renders/whole/128-top.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "a8ff6f1b4d546dee406427bc6bc017256d106ecc3f21e43b870bbb12ea659b0a",
+          "bytes": 10441,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "repeatViews": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "renders/whole/128-front-three-quarter-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "1734af01c113a58202b82859d8387e568dc7ab7c1538711b3da88a7b12141460",
+          "bytes": 12130,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802624
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "renders/whole/128-rear-three-quarter-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "68e72a584e60b995dfd76f15de7c979a091de52585473505fe8b843f9c5177df",
+          "bytes": 13427,
+          "minimumConservativeFrameMarginMetres": 0.47483692264802535
+        },
+        {
+          "viewId": "front",
+          "path": "renders/whole/128-front-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "866855926e59ac3ad7b2b631d5c5e0bc823a820574f54ad3536f604efccaf670",
+          "bytes": 9319,
+          "minimumConservativeFrameMarginMetres": 0.24750000000000005
+        },
+        {
+          "viewId": "left",
+          "path": "renders/whole/128-left-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "10b26c40037c8a52be6bbacfbe21b5e6a140540a7561a6c2facb507307c986b4",
+          "bytes": 7523,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678472
+        },
+        {
+          "viewId": "right",
+          "path": "renders/whole/128-right-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "a24a9a08d1ee02882ae07b098876769d75b159d300dc716c35700a6f7c5956b5",
+          "bytes": 6792,
+          "minimumConservativeFrameMarginMetres": 0.5405551801678437
+        },
+        {
+          "viewId": "top",
+          "path": "renders/whole/128-top-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "a8ff6f1b4d546dee406427bc6bc017256d106ecc3f21e43b870bbb12ea659b0a",
+          "bytes": 10441,
+          "minimumConservativeFrameMarginMetres": 0.5405983688334821
+        }
+      ],
+      "deterministic": true
+    }
+  ],
+  "deterministic": true,
+  "sourceMutated": false,
+  "reviewGateAdvanced": false,
+  "humanApproved": false,
+  "limitations": [
+    "Supplementary PBR evidence, not producer technical validation or approval.",
+    "Each PNG is the direct native-resolution canvas (1000, 256 or 128); no crop or resampling.",
+    "A conservative projected GLB AABB controls the frame guard; no inference of support or motion."
+  ],
+  "cleanup": {
+    "browserContextClosed": true,
+    "taskProfileRemoved": true,
+    "profileNamedBrowserProcessAbsent": true,
+    "serverClosed": true
+  },
+  "producerCompleted": true,
+  "originalSha256": "80ef0fa5e2e4af1bb0de71690033a9ff39669d79e955bf832aedf78176a5887f",
+  "publicationNote": "Only actual model-only renders; paths sanitized; no producer source, atlas or third-party reference pixels."
+}

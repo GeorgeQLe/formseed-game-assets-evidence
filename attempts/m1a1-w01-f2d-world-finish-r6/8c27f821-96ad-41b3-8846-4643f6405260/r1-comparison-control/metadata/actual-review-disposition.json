@@ -1,0 +1,175 @@
+{
+  "candidate": {
+    "label": "W01-f2d-surface-r6",
+    "assetId": "m1a1-w01-f2d-world-finish-r6",
+    "jobId": "8c27f821-96ad-41b3-8846-4643f6405260",
+    "revision": 1,
+    "checkpointHash": "f14272688f3cac5a8113fb6fb54a8841a55cc55b397c895f923108466059f03d",
+    "glbSha256": "e0a7e4deada972bb060eefa9455230424e64353aa75d5665f0114ce8f0968eb6",
+    "logicalRevision": 6,
+    "actualW01FinishOrdinal": 7,
+    "priorActualW01FinishCharges": 6,
+    "historyReset": false
+  },
+  "technicalValidation": "PASS",
+  "visualRecommendation": "CORRECT",
+  "humanApproval": false,
+  "formalGameQualification": false,
+  "partExtractionAllowedByThisRecord": false,
+  "workingRetention": "Root explicitly did not retain or extract this finish; current geometry has no new blocking physical defect, but finish remains held.",
+  "rootDisposition": "Root agrees current r6 is improved coverage but still paint-like; no retention or part extraction yet.",
+  "reviewer": {
+    "name": "Actual Claude Opus5.5 CLI",
+    "actualModel": "claude-opus-5-5",
+    "cliVersion": "2.1.311",
+    "exitCode": 0,
+    "isError": false,
+    "rawOutputSha256": "a7cd022511391b8bc6a88036475e966473c5a1aa0ff137e7a7003122e2325647",
+    "parsedFindingsSha256": "d19d034f3c76de21e69ba0c6d31fa04bdc3ae63b8d77c807573f4a104c918bd6",
+    "localManifestSha256": "59694f02ce57de5de54644c21fe7cce60705bbd8b8dc153accc5da333aa6be60",
+    "openedCurrentViews": 18,
+    "openedPriorComparisonViews": 5,
+    "openedReferencePhotos": 2
+  },
+  "findings": {
+    "modelIdentityAsKnown": {
+      "declared": "W01 low-poly M1A1 Abrams, static burned-wreck finish. Logical r6, the seventh actual W01 finish. Job 8c27f821-96ad-41b3-8846-4643f6405260 revision 1, checkpoint f14272688f3cac5a8113fb6fb54a8841a55cc55b397c895f923108466059f03d, GLB e0a7e4deada972bb060eefa9455230424e64353aa75d5665f0114ce8f0968eb6.",
+      "visualRecognition": "The renders read as an M1-series Abrams. Visible cues: a flat angular turret with a slab front, a rear bustle rack, the CWS cupola and loader's hatch, smoke-grenade launchers, seven road wheels, a rear drive sprocket and a rear louvered grille deck.",
+      "attributedTechnicalClaimsNotIndependentlyVerified": "These claims come from review-evidence-summary-v1.json and the request: 127 meshes / 31,188 triangles, preserved corner normals on 127 meshes, 185 preserved node transforms and parents, 176 mapped native faces / 505 export triangles, 8 exact new PNGs, 14 protected original material graphs, solid char on Cupola faces 9-12 (8 triangles), and a maximum UV projection error of 7.48e-8. Read cannot certify hashes, topology or UV bindings. I treat all of these as attributed, not observed."
+    },
+    "openedFiles": {
+      "summary": [
+        "local-only/review-evidence-summary-v1.json"
+      ],
+      "currentR6Pbr": [
+        "1000-front-three-quarter.png",
+        "1000-rear-three-quarter.png",
+        "1000-front.png",
+        "1000-left.png",
+        "1000-right.png",
+        "1000-top.png",
+        "256-front-three-quarter.png",
+        "256-rear-three-quarter.png",
+        "256-front.png",
+        "256-left.png",
+        "256-right.png",
+        "256-top.png",
+        "128-front-three-quarter.png",
+        "128-rear-three-quarter.png",
+        "128-front.png",
+        "128-left.png",
+        "128-right.png",
+        "128-top.png"
+      ],
+      "currentR6Directory": "renders/whole/w01-f2d-surface-r6-pbr-20261031",
+      "previousR5Comparisons": [
+        "local-only/1000-right.png",
+        "local-only/1000-left.png",
+        "local-only/1000-top.png",
+        "local-only/1000-rear-three-quarter.png",
+        "local-only/256-right.png"
+      ],
+      "referencePhotos": [
+        "local-only/usmc-hansen.jpg",
+        "local-only/doha-i14.png"
+      ],
+      "observedShapes": "Each current and r5 PBR render appeared as a square, opaque, shaded, ground-lit image whose displayed size matched its filename prefix: about 1000x1000, 256x256 or 128x128. usmc-hansen.jpg appeared as a wide landscape photo of roughly 1720x1160. doha-i14.png appeared as a landscape photo of roughly 720x550. These sizes are from the displayed images; Read did not report dimensions or header data.",
+      "notOpened": "None of the 26 requested files was skipped. The proof-pin JSONs listed in the summary were not opened, as permitted."
+    },
+    "verdict": "CORRECT",
+    "verdictRationale": "Six of the seven targets are resolved or clearly improved compared with r5. The roof cross-band, the hatch-lid triangle and the left stripe end are effectively closed. The whole-vehicle read has not yet crossed into fire aftermath. At 256 and 128 the rear half reads mainly as a flat, uniform warm-dark brown livery or partial camouflage on an otherwise pristine tank, not as burned coating. The causes are visible: no tonal or scorch transition between charcoal and retained paint, a still-continuous tapered stripe on the right lower hull, and stair-stepped mask edges at 1000. These are bounded finishing problems, not a reason to redesign the direction or palette. The candidate should be corrected rather than kept as-is for final finishing.",
+    "targetFindings": [
+      {
+        "target": "1 RightStowage outer face 2 / front return face 3",
+        "status": "improved-but-still-wrong (minor)",
+        "observation": "In r5 1000-right, black fill ran across the lower bustle side under a jagged 'skyline' top. In r6 1000-right, char starts at the upper edge and wraps down. Irregular tan retained paint remains along the lower-left and middle, and the dark front return face now joins top and side as one dark mass. The skyline reading is gone. The boundary is still stepped, with blocky stair-step contours, and the tan islands keep sharp blotch shapes. At 1000 front-three-quarter, the left bustle face shows a similar tan-blotch-in-dark pattern that reads as desert camouflage. This is not just an inverted stencil, because the coverage proportion and the join to the return face changed. But the edge is the same hard binary contour, so it still reads as a mask edge rather than heat-softened paint loss."
+      },
+      {
+        "target": "2 Long lower Hull-side stripe / rear right skirt P14",
+        "status": "improved-but-still-wrong",
+        "observation": "In r6 1000-right the lower boundary varies more than r5's near-horizontal hard edge, and the rear skirt section is darker. The dark area is still one continuous wedge from the rear deck tapering forward to a point near mid-hull, following the upper hull slope. At 256-right and 128-right it still reads as one long dark sweep or racing stripe. I accept that the sloped side surface is physical. The issue is the continuous taper of the char mask over that surface, not the silhouette."
+      },
+      {
+        "target": "3 Roof beige cross-band",
+        "status": "resolved",
+        "observation": "In r5 1000-top, a beige horizontal band crossed the bustle and turret roof between dark regions. In r6 1000-top, the roof from the grille deck to the turret-roof front edge is continuous dark. The bright rectangular panel rims remain as thin light outlines. I read them as physical highlight rims, not paint. They do read somewhat like clean trim lines, which is a mild cue conflict, but they are outside this target."
+      },
+      {
+        "target": "4 CommanderHatchLid exterior 33 triangle",
+        "status": "resolved",
+        "observation": "r5 1000-rear-three-quarter showed a beige triangle or wedge on the dark lid. In r6 the lid exterior is uniform dark with only a small light vertical mark, consistent with the retained small source detail 163 (latch or handle). The lid interior seen in 1000-front is dark grey, consistent with interior 32."
+      },
+      {
+        "target": "5 Rear clean plate",
+        "status": "improved",
+        "observation": "In r6 1000-rear-three-quarter, the rear plate around the three louver banks is now dark. In r5 that face was clean tan. A narrow tan lower apron band and a tan right end cap remain, with rectilinear borders that match part boundaries. Per the brief, I do not call these a missing map. They do read as a clean band under the char at 1000 and faintly at 256."
+      },
+      {
+        "target": "6 Left rectangular stripe ends",
+        "status": "resolved visually at the observed scales",
+        "observation": "In r5 1000-left, the rear-deck dark band ended in a hard vertical cut near mid-rear. In r6 1000-left, it starts with a slanted, irregular transition, and a small irregular char patch appears on the rear bustle corner. I did not verify the 75-height field proof. The vertical-cut artifact is no longer visible."
+      },
+      {
+        "target": "7 Cupola faces 9-12 solid char",
+        "status": "resolved as far as visible",
+        "observation": "In 1000-front-three-quarter, 1000-top and the rear-three-quarter view, the cupola ring reads as consistent dark. I see no light atlas-background bleed. At these angles the four faces are small, so absence of bleed is observed only within that limit."
+      }
+    ],
+    "perViewScaleFindings": {
+      "1000": "Target fixes are legible. The main remaining cues are: (a) flat, uniform charcoal with no internal variation, (b) a hard binary edge between char and tan with no scorched, browned or blistered fringe, (c) visible stair-step aliasing on mask contours, clearest on the right bustle edge in top view, the right hull-side wedge, and the left-bustle blotches in front-three-quarter. The front hull, glacis, turret front and left hull side are fully pristine. In front-three-quarter that creates a 'rear half dipped in brown' read.",
+      "256": "In rear-three-quarter, the rear deck and bustle read as a dark-brown painted section. In right view, the hull-side wedge reads as a stripe and the bustle as camouflage-like dark with tan patches. Front and left views read almost undamaged, with only the rear deck dark. Front occlusion legitimately limits cues there, so I do not require equal coverage.",
+      "128": "Damage is legible only as a dark rear mass in right, rear-three-quarter and top views. Front, left and front-three-quarter read essentially as an intact tan tank with a dark engine deck. The silhouette stays recognisable as an Abrams. The condition reads as 'darkened rear' more than 'burned-out wreck'."
+    },
+    "sourceComparison": {
+      "referencesShowQualitatively": "Hansen 2003 shows char and soot spread over most of the turret and hull side, with mottled lighter retained coating, pale ash-white heat-bleached patches, soft and fragmented boundaries, and a lot of tonal variation inside dark areas. Doha I14 shows large dark areas whose upper hull and skirt edges are ragged. Retained lighter paint has irregular, blistered boundaries, and the dark regions vary from grey to black-brown.",
+      "candidateRelativeToReferences": "r6 matches the qualitative idea of connected dark areas with irregular retained coating better than r5. It does not match the references' tonal range or edge softness. Its char is one flat warm brown-black value, and every boundary is a hard binary step. Both photos show irregular, multi-tone transitions. I make no claim about incident, heat direction, substrate or radiometry. This comparison is about visual morphology only.",
+      "protectedOriginals": "The pristine-looking steel louvers, dark rubber road wheels, grey weapons, antennas, glass blocks and tan trim (e.g., periscope housings, smoke launchers, the clean barrel) add to the 'intact vehicle' read, especially the clean tan barrel and front components. I note this as an effect on the overall condition, not as a binding defect."
+    },
+    "remainingPhysicalVsMaskVsLightingUncertainty": [
+      "The dark rectangle on the right lower hull side, mid-length, appears in both r5 and r6. It matches the attributed existing Hull24 missing-skirt-backing placeholder. It reads as a flat dark hole. I treat it as physical/placeholder, not as the new field.",
+      "The front view's dark olive lower hull plate and black wheel area appear unchanged and look physical or material, not part of the new field. I am uncertain whether they are shading or base material.",
+      "The diagonal dark band across the front hull and glacis in 1000-front and 1000-front-three-quarter matches the gun barrel's cast shadow. It is lighting, not texture.",
+      "The thin dark lines across the top-view roof and the bustle shadows match antenna and rack cast shadows.",
+      "The thin light dashed line across the dark right hull wedge at about deck-edge height may be a physical seam or fender edge highlight, or a mask gap. Images alone cannot tell.",
+      "The tan lower rear apron and end-cap borders follow part edges. Whether they are unselected frame faces 60/61/128 or deliberate retained paint cannot be established from the images. I accept the attributed explanation.",
+      "No visibly blocking physical problem was observed. The silhouette, wheels, tracks and turret placement read coherently."
+    ],
+    "prioritizedBoundedRecommendations": [
+      {
+        "priority": 1,
+        "change": "Add a narrow, irregular scorch transition fringe along existing char/retained-paint contours on the already-mapped faces. Use a darkened blend of each role's source paint toward the existing charcoal, plus a little low-amplitude value break-up inside large char areas.",
+        "why": "This is the main remaining cause of the 'applied dark paint' read at 256 and 128. Both references show multi-tone, soft boundaries rather than binary ones.",
+        "bounds": "Same mapped faces, UVs, geometry and protected graphs. No new hue family and no change to coverage extent. The blend is derived from existing role colours. If a derived intermediate counts as a palette change under the project's rules, it needs explicit requester sign-off first."
+      },
+      {
+        "priority": 2,
+        "change": "Break the continuity of the right lower hull-side wedge. End its forward tip in fragmented, separated retained-paint islands instead of a smooth taper, and let the boundary vary vertically across the existing selected hull-side and P14 faces.",
+        "why": "It is the one target still reading as a stripe at 256 and 128 in right view.",
+        "bounds": "Existing lower-guide field on already-selected faces only. No new faces, no geometry, no belly or wheel targets, and no attempt to equalise coverage with the left side."
+      },
+      {
+        "priority": 3,
+        "change": "Reduce stair-step aliasing on char contours by sampling the metric edge silhouette at a finer resolution or with contour antialiasing in the FormSeed2D-authored atlases. The problem is clearest on the right bustle top edge, the bustle blotches and the hull-side wedge.",
+        "why": "At 1000 the blocky steps read as a pixel mask rather than physical paint loss. This matters less at 256 and 128.",
+        "bounds": "Same 8 atlases' contours. Atlas dimensions or edge filtering only, through the tracked FormSeed2D workflow. No layout redesign."
+      }
+    ],
+    "limitations": [
+      "This is an independent agent visual review only. It grants no human approval, version confirmation, game qualification or formal readiness, and waives no rubric requirement. A separate deterministic evaluator and adversarial review are still required before any visual go.",
+      "Technical claims are attributed to the summary JSON and the request. I did not open the proof pins and cannot verify hashes, UV bindings, topology or face IDs with Read.",
+      "Only five r5 comparison images were provided, so r5-to-r6 comparisons for the front, front-three-quarter and the other 256/128 views are inferred from the r6 images and the target descriptions.",
+      "Face indices (Hull59/60/61/128, Hull24, lid 32/33/163, Cupola 9-12, P14/P22/P23) are mapped to image regions by inference from the descriptions, not by direct identification.",
+      "The reference photos are qualitative. They do not establish this incident, heat direction, substrate or radiometry, and I make no such claims.",
+      "Image sizes are judged from the displayed images, not from file headers.",
+      "No files or assets were modified."
+    ]
+  },
+  "qualifications": [
+    "Source photo descriptions are qualitative visual observations; heat-bleached or blistered wording is interpretation, not established material mechanism.",
+    "Reviewer conditional palette-signoff advice is not a discovered project requirement. Existing user authorization and bounded root-selected plan govern any later candidate.",
+    "No numerical lifetime finish ceiling is invented; all seven actual W01 finishes remain charged.",
+    "A later bounded refinement may be planned separately, but this archive confers no approval or new mutation authority.",
+    "Photo pixels, source GLB/BLEND, texture bitmaps, local absolute paths and credentials are not included.",
+    "Prior comparison images and technical proof binaries remain local; only their identities/hashes are recorded here."
+  ]
+}

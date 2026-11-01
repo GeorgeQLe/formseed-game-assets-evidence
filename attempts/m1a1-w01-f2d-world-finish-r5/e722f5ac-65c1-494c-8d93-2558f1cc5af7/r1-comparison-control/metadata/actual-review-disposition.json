@@ -1,0 +1,57 @@
+{
+  "candidate": {
+    "label": "W01-f2d-world-r5",
+    "jobId": "e722f5ac-65c1-494c-8d93-2558f1cc5af7",
+    "revision": 1,
+    "checkpointHash": "1e21bdd23e4dc7b07d3684c3af5fefc671016b176be1108daced6697aafa1346",
+    "glbSha256": "62823100204b3a0dfcd1a9eb1842e812c05ff2da06e4c81c097e9f6ea1a0e333",
+    "logicalRevision": 5,
+    "actualW01FinishOrdinal": 6,
+    "priorActualW01FinishCharges": 5,
+    "priorActualW03FinishCharges": 5,
+    "historyReset": false
+  },
+  "reviewer": "Actual Claude Opus 5.5 CLI",
+  "exitCode": 0,
+  "isError": false,
+  "rawReviewSha256": "bb3766bfbb43c83f178f3d5c40d3dddebc8d483486eb7432cce76bf361616356",
+  "findingsSha256": "47da2264b8ea4ac85fd3df4c9fbed5d73b66f027e85da435d68e393e8fceed59",
+  "disposition": {
+    "actualOpusVerdict": "CORRECT",
+    "technicalAudit": "PASS",
+    "improvementObserved": "Connected top/rear charcoal footprint is legible around modeled engine deck and crew openings; actual PBR confirms intended textures.",
+    "remainingObservedArtIssues": [
+      "Right-side skyline/stencil contour and stair-step edge character.",
+      "Long dark side stripe, straight seam/cap terminations and tan roof band.",
+      "Rear plate/grille surround stays clean beside the dark engine deck; source-causal continuity remains questioned."
+    ],
+    "physicalDirection": "No new physical blocker observed by reviewer; existing provisional physical direction retained, not newly approved.",
+    "workingRetentionDecisionOwner": "Root; this manifest records the reviewer assessment without substituting final root disposition.",
+    "humanApproved": false,
+    "reviewGateAdvanced": false,
+    "formalGameQualification": false,
+    "newMutationOrRetryAuthorizedByReview": false
+  },
+  "rootDisposition": "CORRECT. Preserve as sixth actual finish evidence; do not promote or replace retained part candidates. Root confirms the clean roof cross-band, rear cap and triangular hatch coverage need correction.",
+  "limits": [
+    "Reviewer opened all18 primary PBR views and both reference images; 18 byte-identical repeats were independently rehashed, not reopened by reviewer.",
+    "Reviewer read only lines1-1302 of4155 in the GLB audit; its technical statements are attributed. A and M separately verified the full actual data.",
+    "Owner labels for visual regions and physical fire mechanisms are reviewer hypotheses, not native face identification or forensic findings. Any correction needs exact current pixel/face ownership verification.",
+    "Photo terms such as blistering, burn-through and fire-start location are qualitative reviewer interpretations, not established material-layer or incident facts.",
+    "The black hull-side stripe may include protected unchanged owner roles or shadows; do not implement inferred owner edits without proof.",
+    "The reviewer forecast that three fixes should suffice is not a guarantee, approved next attempt or additional budget.",
+    "Workbench source-color rendering was a renderer limitation, not a demonstrated texture failure; no technical retry or extra finish charge occurred.",
+    "The r5 label is zero-based; this is the sixth actual W01 finish. All previous results remain preserved.",
+    "Current binary palette is original source coating plus tested charcoal; the earlier brown pilot was only a contour diagnostic. No pixel or palette changes were made for this review."
+  ],
+  "cleanup": {
+    "capture": {
+      "browserContextClosed": true,
+      "taskProfileRemoved": true,
+      "profileNamedBrowserProcessAbsent": true,
+      "serverClosed": true
+    },
+    "reviewCliCompleted": true,
+    "agentOpenedBrowserResources": false
+  }
+}

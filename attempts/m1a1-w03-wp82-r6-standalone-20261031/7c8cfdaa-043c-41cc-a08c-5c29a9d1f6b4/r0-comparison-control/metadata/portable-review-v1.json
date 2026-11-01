@@ -1,0 +1,28 @@
+{
+  "reviewer": {
+    "identity": "Claude Opus 5.5 (claude-opus-5-5), independent read-only visual reviewer",
+    "mode": "Read only. Nothing was changed, written, approved or mutated. I made no producer, MCP-mutation or lock calls.",
+    "subject": "Final standalone FormSeed3D GLB renders for WP27Ar5, WP23Ar5, WP29Ar5 and WP82Ar6 at the preserved source checkpoints, as described by the requester. I did not see any checkpoint, GLB or render-evidence hash myself."
+  },
+  "part": "WP82Ar6_Surface",
+  "finding": {
+    "geometry": "KEEP-FOR-FINISHING (retained fold; not reopened)",
+    "finish": "KEEP-FOR-FINISHING (unified exposed edge, with lighting and a separate underface)",
+    "evidence": {
+      "1000": "In front, the left flat edge segment (about x 50\u2013262) is darker than the middle and sloped band (about x 262\u2013750), and the char underface triangle (about x 440\u2013920, y 395\u2013622) is near-black. In left, the right flat segment (about x 710\u2013950) is darker than the middle segment (about x 530\u2013710). In right, the end stub (about x 820\u2013950) is lighter than the long run. The step pattern matches the earlier attribution: one exposed-edge material shaded by facet normals plus a separate darker char underface. I treat it as the respected unified-edge result, not an authored per-face switch. In top, the folded underface (about x 455\u2013775, y 470\u2013925) has a soft terminator and reads as a fold. In front-three-quarter and rear-three-quarter, the perimeter reads as one continuous mid-gray thickness band.",
+      "256": "In front, left and right, the edge segment steps are still visible but low in contrast. Front-three-quarter and top read as a bent plate fragment.",
+      "128": "In all six views it reads as a dark plate fragment with a raised fold. Edge segmentation is not legible."
+    },
+    "nonBlockingObservations": [],
+    "objections": [
+      {
+        "id": "WP82-capture-background-banding",
+        "severity": "presentation only; not attributed to the part",
+        "evidence": "In final 1000-top, banded light streaks appear in the background along the left margin (about x 150\u2013200, y 60\u2013780), the top margin (about x 200\u2013600, y 0\u201350) and the upper-right chamfer (about x 600\u2013800, y 50\u2013250). In 1000-rear-three-quarter they appear below the bottom edge (about x 680\u2013960, y 640\u2013740), and faintly in 1000-front-three-quarter (about x 20\u201350, y 480\u2013500). WP82's three-quarter and top captures also have a bluer, darker background than the other parts' captures. The same banding is visibly present in prior isolation 1000-top.",
+        "action": "Before any named human presentation that uses these WP82 frames, check the capture rig's shadow and ground handling. This is not a reason to change the part."
+      }
+    ]
+  },
+  "scope": "Actual independent Opus opened all72 current final part images; no human approval. Prior whole-isolation comparison was partial.",
+  "humanApproval": false
+}
