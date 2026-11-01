@@ -1,0 +1,250 @@
+{
+  "part": "WP36Ar2",
+  "actual": {
+    "jobId": "4e83369c-c34f-40bb-9c4a-b87f362f1e36",
+    "revision": 0,
+    "checkpointSha256": "a4da8f67905c9eadfedb57f6b68cb991f9fed0c9d3b66dcdd73e805c67b87574",
+    "glbSha256": "a4f93124eda00d9d783b8c3b96a08bb362d4a8d8fc1110ac4375d51a9888f493",
+    "status": {
+      "path": "local-only/w01-wp36a-r11-final-final-status.json",
+      "sha256": "bbaa96b04125724cc4e911e27fd6d6c616f2950d8d949c16d91c1434e033b03c"
+    },
+    "export": {
+      "path": "local-only/w01-wp36a-r11-final-export.json",
+      "sha256": "07429bb4beafce6d6573f6aa4bc511e6b4890dee22d1bdb8edcf2bf6042a1386"
+    },
+    "native": {
+      "path": "local-only/w01-wp36a-r11-final-native.json",
+      "sha256": "80b274148824f7f402bfdc86aed13f57abc07bd1910b5e74fe2416c02da5a02a"
+    }
+  },
+  "rootFinalDisposition": {
+    "disposition": "RETAIN both exact working parts for grouped human art review",
+    "basis": {
+      "path": "local-only/root-isolated-part-observations-v1.json",
+      "sha256": "8f362b112e38b538711ab8f6864add553a913a41a2bb4c75a4eff795ced09c0a"
+    },
+    "finalRootMessage": "Root FINAL consensus RETAIN both working parts, based on its six inspected views and actual Opus with no blockers; known limits are optional in whole context, no further polish requested.",
+    "actualOpus": {
+      "path": "local-only/opus-two-parts-r11-findings-v1.json",
+      "sha256": "7458681e0a37c0f971263e27d637da09ce954c95d8844105729c4c2842533f73"
+    },
+    "scope": [
+      "WP17Ar1",
+      "WP36Ar2"
+    ],
+    "humanApproval": false,
+    "formalAssessment": false,
+    "newWholeFinishAttempt": false,
+    "history": "Twelfth whole W01 finish r11 retained; eleven prior attempts preserved; these two isolation copies are not extra whole finish attempts."
+  },
+  "actualReviewer": {
+    "cli": "local-only/claude",
+    "version": "2.1.311",
+    "requestedModel": "claude-opus-5-5",
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "outsideSandbox": true,
+    "authorizedReadOnly": true,
+    "tools": [
+      "Read"
+    ],
+    "sessionId": 92624,
+    "exitCode": 0,
+    "isError": false,
+    "numTurns": 42,
+    "durationMs": 104019,
+    "prompt": {
+      "path": "local-only/opus-two-parts-r11-prompt-v1.txt",
+      "sha256": "f19b242e2e4029d7b488017b43462706b3642935d27cba2073b2f014ed9c9c8d"
+    },
+    "output": {
+      "path": "local-only/opus-two-parts-r11-output-v1.json",
+      "sha256": "0ab62267f52c5c1556cff4d4a6db021a2defbca04b9c15ced6e860061d012214"
+    },
+    "stderr": {
+      "path": "local-only/opus-two-parts-r11-stderr-v1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "listedActualImageCount": 40,
+    "listedPartImages": 36,
+    "listedWholeContextImages": 4,
+    "imageOpeningEvidence": "Reviewer explicitly names all40 PNGs and context JSON; output JSON has no per-tool execution trace. Controller independently hashes all images and inspects eight parts.",
+    "modelMutation": false,
+    "newModelAttempt": false
+  },
+  "actualPartFindings": {
+    "readyForGroupedHumanArtReview": true,
+    "disposition": "READY_FOR_GROUPED_HUMAN_ART_REVIEW",
+    "reason": "The lid is in its open pose with the hinge block and steel hinge pin, and it matches the raised commander lid in whole 1000-rear-three-quarter: black charred exterior with a tan handle, tan rim edge. Inside and outside are easy to tell apart. The inside is a warm dark-gray face with a distinct darker seal ring and a thin outer rim lip. The outside is near-black, with a faint sheen streak and the raised handle. Rim thickness and the seal step read as physical geometry in the edge-on side views. I found no UV tear, inverted normals or missing faces.",
+    "sizeFindings1000_256_128": {
+      "1000": "Front view: the seal ring is a clean, even annulus, separate from the gray inner face and the outer lip. The tan rim edge shows on the upper perimeter. Rear-three-quarter/top: the exterior is near-black with diagonal light streaks (specular or texture) and a tan raised handle. Left/right views: the rim edge shades in flat per-facet steps from tan (far end) to dark brown (hinge end), and the inner and outer plates show as separate thicknesses. The hinge block and the 12-sided pin are clean.",
+      "256": "Inside versus outside reads at a glance: gray disc with a dark ring versus black disc with a handle. The seal ring stays visible. In 256-left and 256-right the thin rim edge shows sawtooth aliasing along its length. This is an edge-on rendering artifact of a very thin part, not a geometry fault.",
+      "128": "Reads as a round hatch lid on a hinge bar. The inner seal ring is still faintly visible in 128-front and 128-front-three-quarter. The handle shows as a small tan tick. The edge-on views are a thin stick with the pin dot. Their legibility is limited, which is expected for a lid seen edge-on."
+    },
+    "blockingIssues": [],
+    "optionalPolish": [
+      "The tan exterior handle and hinge block stay clean while the whole exterior face is charred (1000-rear-three-quarter, 1000-top). The whole tank shows the same, so the source kept it this way. A human may want the handle sooted for consistency, but it is not required.",
+      "The exterior's diagonal light streaks at 1000 read slightly glossy for burned steel. At 256 and 128 they are barely noticeable.",
+      "The tone stepping per facet along the rim edge in the side views is visible only at 1000 and is acceptable flat-shaded low-poly behavior."
+    ],
+    "wholeContextAssessment": "Matches whole 1000-rear-three-quarter and 256-rear-three-quarter. The raised commander lid shows a black exterior, a tan handle tick and a tan rim, upright on its hinge, at the char boundary. Whole 1000-top shows the lid edge-on over the cupola with the same black and tan rim reading. The cupola ring, vision blocks and mount are separate owners and were not treated as missing. The standalone view enlarges the lid far beyond its small on-screen size in the whole tank."
+  },
+  "reviewerLimitations": [
+    "This assessment comes from visually inspecting the rendered PNGs only. I did not open the referenced correspondence JSONs, the whole-r11 manifest, the .blend/GLB sources or face/material IDs, and I did not compute or verify any hashes. Statements about source preservation rely on the context file plus visual agreement with the four whole-tank views.",
+    "Without native face IDs I cannot tell whether a dark zone (the WP17Ar1 right-side rectangle, the lower front plates, the WP36Ar2 rim-edge darkening) is retained inner/backing material, real recess geometry or lighting. My attributions are qualified accordingly.",
+    "Standalone captures use measured-part framing with no ground plane or cast shadow. The 256/128 sizes enlarge each part well beyond its on-screen area in the whole tank, so those findings are about how the part reads alone, not in-game size.",
+    "The formseed-game-assets MCP server failed to connect in this session; it was not needed for this read-only review."
+  ],
+  "controllerSubset": {
+    "status": "Completed direct eight-image controller subset inspection",
+    "images": {
+      "WP17Ar1": [
+        {
+          "path": "local-only/1000-rear-three-quarter.png",
+          "sha256": "48bc55bd4c4a9c35ff3e80052b040e80a2cafceff270854eb3e1334bbdcfd520"
+        },
+        {
+          "path": "local-only/256-right.png",
+          "sha256": "b04f69cbaa64d070673d0eb49cf086a414a8b7403bca5b27f225afb0576b5c6a"
+        },
+        {
+          "path": "local-only/256-rear-three-quarter.png",
+          "sha256": "654d4694a14317913bbe0e6679084431c3e206e786ebb89bc026ab88aa3a1741"
+        },
+        {
+          "path": "local-only/128-top.png",
+          "sha256": "03ff5780bc8a4dfdfcc93b8ccf181c86de2f880a6f552a65944a7e997b409411"
+        }
+      ],
+      "WP36Ar2": [
+        {
+          "path": "local-only/1000-front-three-quarter.png",
+          "sha256": "1adf202841a0012190a670f2ff0fceb4a3a570a9b78fd5fe7946ec2a6047b35f"
+        },
+        {
+          "path": "local-only/256-front-three-quarter.png",
+          "sha256": "06deb8a90d552823c2d3e535d7fc3d2683d5d698813451c03c38043140c92fdf"
+        },
+        {
+          "path": "local-only/1000-rear-three-quarter.png",
+          "sha256": "31cdc5ba15c7ea0353fd7283e4f99366eb0f5f9316514981031019d2da2a9aca"
+        },
+        {
+          "path": "local-only/256-left.png",
+          "sha256": "2f9e273e6d6d40e2ab0e79900759176c6a152b890e002a7b490951057d17557d"
+        }
+      ]
+    },
+    "observations": {
+      "WP17Ar1": [
+        "Rear char/albedo stays connected with a curved transition on the exposed Hull top; larger standalone framing exposes source mottling more than whole-tank views.",
+        "The central dark side rectangle is present exactly in the preserved source Hull, not introduced by extraction; source face24 physical-review backing is intentionally retained.",
+        "Missing turret/tracks/exhaust grille inserts are other modular owners. No unexpected geometry or visible UV discontinuity was identified in these four views."
+      ],
+      "WP36Ar2": [
+        "Inner face is uniformly dark with readable seal/rim; exterior face is near-black with restrained source grain.",
+        "Open pose, central tan handle/bracket and steel pivot bar remain visible; no detached seal or incorrect source placement appears in inspected views.",
+        "Thin side view and enlarged texture/remaining clean hardware should be judged as the hatch-lid component, not a missing full cupola."
+      ]
+    },
+    "provisionalReadiness": "READY_FOR_GROUPED_HUMAN_ART_REVIEW for both, independently concordant with actual Opus batch",
+    "limitations": [
+      "Eight part images directly inspected by controller; Opus explicitly lists36 part views plus4whole context.",
+      "Source preservation is separately verified. No-floor means no ground receiver; self-shadowing has not been disabled or independently isolated.",
+      "Retained clean hardware, source backing rectangle and diagnostic1000 mottling are optional polish rather than identified blocking extraction errors."
+    ],
+    "producerOrBitmapWrites": false,
+    "humanApproval": false,
+    "inspectionCompletionQualification": "The first four displayed images were re-opened after an earlier context-truncated tool response; all eight listed images have now been directly inspected. This final addendum supersedes the earlier in-progress inspection status."
+  },
+  "rootObservations": {
+    "format": "abrams-root-isolated-part-observations-v1",
+    "disposition": "retain-working-revisions pending separate actual Opus result",
+    "subjects": [
+      {
+        "part": "WP17Ar1",
+        "job": "ca9bba52-f0ad-4f3c-b0c8-7330c99969e1",
+        "revision": 0,
+        "checkpoint": "adc38314d4947f04b985d261d89aa74b9502939c1676a5e715eb83ff37f1eaeb",
+        "observations": [
+          "Rear-fire transition remains connected and asymmetric across the exposed roof.",
+          "Native left view retains a coherent hull silhouette and clean lower body.",
+          "Diagonal close-range mottling remains visible; assessed together with its whole-assembly context and not a new extraction defect."
+        ],
+        "views": [
+          {
+            "path": "local-only/1000-rear-three-quarter.png",
+            "sha256": "48bc55bd4c4a9c35ff3e80052b040e80a2cafceff270854eb3e1334bbdcfd520"
+          },
+          {
+            "path": "local-only/256-left.png",
+            "sha256": "1698ba36747c34fec2b276a94783234e86144436759ecc89c595c0a33c133860"
+          },
+          {
+            "path": "local-only/256-top.png",
+            "sha256": "7935edee35bc1aa932397743bddca009d99f69c81f48761649f121d2c62b51b1"
+          }
+        ]
+      },
+      {
+        "part": "WP36Ar2",
+        "job": "4e83369c-c34f-40bb-9c4a-b87f362f1e36",
+        "revision": 0,
+        "checkpoint": "a4da8f67905c9eadfedb57f6b68cb991f9fed0c9d3b66dcdd73e805c67b87574",
+        "observations": [
+          "The charred outward lid face retains its circular edge and raised handle cue.",
+          "The protected opposite face and mounting bar remain distinct at256 and128.",
+          "No visible new halo, texture seam or pose change in inspected views."
+        ],
+        "views": [
+          {
+            "path": "local-only/1000-rear-three-quarter.png",
+            "sha256": "31cdc5ba15c7ea0353fd7283e4f99366eb0f5f9316514981031019d2da2a9aca"
+          },
+          {
+            "path": "local-only/256-front-three-quarter.png",
+            "sha256": "06deb8a90d552823c2d3e535d7fc3d2683d5d698813451c03c38043140c92fdf"
+          },
+          {
+            "path": "local-only/128-front-three-quarter.png",
+            "sha256": "e167e35db8237179ffc1fcfaa6718e79a7d5a06fb7c9e941b2ddab5b3ffa2042"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "These are individual assembly-dependent surface parts, not complete wreck assemblies or full mechanical interiors.",
+      "Technical checks, root retention and Opus opinion are separate from formal structured rubric evaluation and named human approval."
+    ],
+    "humanApproval": false
+  },
+  "contextReviewManifest": {
+    "path": "local-only/actual-whole-r11-review-manifest-v1.json",
+    "sha256": "c1a10addbb082e386373083bb4cfb428931dc885cd8e58a8fdf82cf162dfaafe"
+  },
+  "partReviewManifest": {
+    "path": "local-only/actual-two-parts-r11-review-manifest-v1.json",
+    "sha256": "f3bdd637d94f96553e562392473abb27b82a09193993ce2d81967a1926984b79"
+  },
+  "qualifications": [
+    "Technical validation, actual reviewer opinion, root retention, formal structured assessment and named human approval are separate.",
+    "Original source ownership and mounted registration preserved; excluded full-tank parts are not missing component geometry.",
+    "Measured-part framing at256/128 is larger than the component footprint in whole-tank views.",
+    "Opus did not verify technical hashes/native IDs; controller performed those independently.",
+    "Opus no-cast-shadow wording only establishes no floor receiver. Ordinary self-shadows remain; no shadow-off diagnostic was made here.",
+    "Opus MCP connection failure did not block the Read-only local image review.",
+    "Optional material questions are retained; no further autonomous polish requested."
+  ],
+  "history": {
+    "wholeActualFinishOrdinal": 12,
+    "logicalWholeRevision": "r11",
+    "priorActualWholeFinishesPreserved": 11,
+    "newWholeAttemptForExtraction": false,
+    "conceptGenerationsUsed": 1,
+    "conceptMaximumGenerations": 2
+  },
+  "humanApproval": false,
+  "formalAssessment": false,
+  "promotion": false
+}

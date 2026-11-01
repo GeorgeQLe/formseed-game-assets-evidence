@@ -1,0 +1,196 @@
+{
+  "part": "WP17Ar1",
+  "actual": {
+    "jobId": "ca9bba52-f0ad-4f3c-b0c8-7330c99969e1",
+    "revision": 0,
+    "checkpointSha256": "adc38314d4947f04b985d261d89aa74b9502939c1676a5e715eb83ff37f1eaeb",
+    "glbSha256": "60c2d3aae4799c48a7c00cc8c4feb92195789233fdafaf6fda59ecfda3757894",
+    "status": {
+      "path": "local-only/w01-wp17a-r11-final-final-status.json",
+      "sha256": "e671b874e50a07ac79805febbbad0659f6f99c4a29b0dc1ffa47517c3dca8dae"
+    },
+    "export": {
+      "path": "local-only/w01-wp17a-r11-final-export.json",
+      "sha256": "f253a387f71e3c8eaacb10dfd7769dfb5c4f9563e54de19df722d8833c2e554e"
+    },
+    "native": {
+      "path": "local-only/w01-wp17a-r11-final-native.json",
+      "sha256": "661db3fd23a6bb048838459c0571692b58111329185e0e22b4cf7c32a9d75a10"
+    }
+  },
+  "sourceCorrespondence": {
+    "status": "PASS actual full-visible standalone source correspondence",
+    "part": "wp17a",
+    "final": {
+      "jobId": "ca9bba52-f0ad-4f3c-b0c8-7330c99969e1",
+      "revision": 0,
+      "checkpointSha256": "adc38314d4947f04b985d261d89aa74b9502939c1676a5e715eb83ff37f1eaeb",
+      "glbSha256": "60c2d3aae4799c48a7c00cc8c4feb92195789233fdafaf6fda59ecfda3757894",
+      "status": {
+        "path": "local-only/w01-wp17a-r11-final-final-status.json",
+        "sha256": "e671b874e50a07ac79805febbbad0659f6f99c4a29b0dc1ffa47517c3dca8dae"
+      },
+      "export": {
+        "path": "local-only/w01-wp17a-r11-final-export.json",
+        "sha256": "f253a387f71e3c8eaacb10dfd7769dfb5c4f9563e54de19df722d8833c2e554e"
+      },
+      "native": {
+        "path": "local-only/w01-wp17a-r11-final-native.json",
+        "sha256": "661db3fd23a6bb048838459c0571692b58111329185e0e22b4cf7c32a9d75a10"
+      }
+    },
+    "wholeSource": {
+      "jobId": "cf7c9250-fb5e-4381-9a9e-36f26ad3b87d",
+      "revision": 2,
+      "checkpointSha256": "aa2d409fc8b3edbcbc0345a2fd4292662244972c61973e33809f668e2f1438e5",
+      "glbSha256": "5fa49ca104d7c4a3f20b4312d40df1a8f2a10b11f912e46c22350758d2c629eb"
+    },
+    "keptMeshes": [
+      "Hull"
+    ],
+    "excluded": [],
+    "onlyExpectedMeshOwnersNativeAndExport": true,
+    "rawToFinalCheckpointAndGLBBytesExact": true,
+    "meshProofs": [
+      {
+        "owner": "Hull",
+        "triangleCount": 438,
+        "meshHash": "e627186208a260d29d5b9433e069a82383880e5744c952cac669ed2e021993de",
+        "usedMaterialGraphsExact": 6,
+        "allGLBCornerAttributesAndMaterialImageSamplerSemanticsExact": true,
+        "sourceParentLocalWorldMatrixExact": true
+      }
+    ],
+    "embeddedUsedImageHashes": [
+      "604207bed4e5d740b7b510980332f3021131df435dd5c86630bfa2201c586aac",
+      "610f629614c7e5514716f7411149b277d1ebfd7b7700df953641a2d840c187d3",
+      "fb3d9bec779d87a4a01dc9f3a25d7fbcb8ca84147baf3faf1dbfd5cc67743a05",
+      "82e21afb6347c999f34bb6acc61848b366dca56f75c12524d7d85d2e753dc4fb"
+    ],
+    "retainedNonMeshNodeCount": 2,
+    "limits": [
+      "Remaining non-MESH identity/control ancestors are registration frames, not hidden tank geometry.",
+      "Unused fullscene material/image definitions may be omitted; all used kept-part graph semantics and actualGLB images/UV are exact.",
+      "Mounted parts retain vehicle registration and are not grounded props.",
+      "Whole readiness does not transfer standalone approval; actual part PBR/Opus review remains required."
+    ],
+    "producerOrBitmapWrites": false,
+    "humanApproval": false
+  },
+  "technicalValidation": {
+    "triangleCount": 438,
+    "materialCount": 6,
+    "textureCount": 4,
+    "objectCount": 63,
+    "deterministic": true,
+    "issues": [],
+    "renderPaths": [
+      "local-only/front-three-quarter.png",
+      "local-only/rear-three-quarter.png",
+      "local-only/front.png",
+      "local-only/left.png",
+      "local-only/right.png",
+      "local-only/top.png"
+    ],
+    "validationRevision": 0,
+    "checkpointHash": "adc38314d4947f04b985d261d89aa74b9502939c1676a5e715eb83ff37f1eaeb",
+    "passed": true,
+    "id": "456e6325-e646-4a38-a2ee-e04b6361ce40",
+    "revision": 0,
+    "renderRevision": 0,
+    "renderHash": "8b9cd8fb6666655b095522e8d5105a0d269a1db9bcfc643bffd8f5e263a67f23",
+    "contactSheetHash": "285b05db29feee58fab461c5fdac7f4cfd8e018b6456905ed91ee9bab1d49475",
+    "createdAt": "2026-11-01T04:14:22.366Z"
+  },
+  "dimensionResult": {
+    "jobId": "ca9bba52-f0ad-4f3c-b0c8-7330c99969e1",
+    "revision": 0,
+    "checkpointHash": "adc38314d4947f04b985d261d89aa74b9502939c1676a5e715eb83ff37f1eaeb",
+    "specificationHash": "581635612cdd1a16d355dcf2740cecd0e3d780227fc8a4d0e1c9eea0ab1c3d64",
+    "resultHash": "35fbe86f0b85996990a97b62cf0f15fa1e8f958206cb4336555782068a4175e4",
+    "validationScope": {
+      "policy": "configuration-and-pose",
+      "canonical": true,
+      "declaredCriterionIds": [
+        "datum:selected-owner-min-x:X",
+        "datum:selected-owner-min-y:Y",
+        "datum:selected-owner-min-z:Z",
+        "datum:selected-owner-origin:X",
+        "datum:selected-owner-origin:Y",
+        "datum:selected-owner-origin:Z",
+        "datum:subject-registration-origin:X",
+        "datum:subject-registration-origin:Y",
+        "datum:subject-registration-origin:Z",
+        "origin:X",
+        "origin:Y",
+        "origin:Z",
+        "overall-height",
+        "overall-length",
+        "overall-width",
+        "pivot:X",
+        "pivot:Y",
+        "pivot:Z"
+      ],
+      "applicableCriterionIds": [
+        "datum:selected-owner-min-x:X",
+        "datum:selected-owner-min-y:Y",
+        "datum:selected-owner-min-z:Z",
+        "datum:selected-owner-origin:X",
+        "datum:selected-owner-origin:Y",
+        "datum:selected-owner-origin:Z",
+        "datum:subject-registration-origin:X",
+        "datum:subject-registration-origin:Y",
+        "datum:subject-registration-origin:Z",
+        "origin:X",
+        "origin:Y",
+        "origin:Z",
+        "overall-height",
+        "overall-length",
+        "overall-width",
+        "pivot:X",
+        "pivot:Y",
+        "pivot:Z"
+      ],
+      "excludedCriterionIds": []
+    },
+    "aggregate": {
+      "passed": true,
+      "complete": true,
+      "reproducible": true,
+      "internallyConsistent": true,
+      "expectedBlockingCriterionCount": 18,
+      "reportedBlockingCriterionCount": 18,
+      "passedBlockingCriterionCount": 18,
+      "blockingFailureCriterionIds": []
+    }
+  },
+  "rawToFinalCopy": "Byte-identical checkpoint and GLB; fresh full-visible dimension scope, no excluded MESH",
+  "sourceWholeManifest": {
+    "path": "local-only/actual-whole-r11-review-manifest-v1.json",
+    "sha256": "c1a10addbb082e386373083bb4cfb428931dc885cd8e58a8fdf82cf162dfaafe"
+  },
+  "sourceTextureLineage": {
+    "path": "local-only/actual-atlas-source-lineage.json",
+    "sha256": "190a2ff7fd7ee0d69b12253edf0e008d9f8923843cb9895df4cb83cbdc3803a7"
+  },
+  "extractionInputGate": {
+    "path": "local-only/wp17a-full-visible-independent-gate-v1.json",
+    "sha256": "f3896d70edaa6d8c53f6fff986bbfef961ef385b8dcef1d956288835788a1177"
+  },
+  "captureIntegrity": {
+    "path": "local-only/wp17ar1-capture-integrity-v1.json",
+    "sha256": "e4ffa15dfabd4549b7432bd64d9901c73419d7f6ddb80fae498bdd526f7f878c"
+  },
+  "independentCaptureIntegrity": {
+    "path": "local-only/capture-integrity-v1.json",
+    "sha256": "1a29fe7234968317b86c01326563e1ec4f7442dc96bf2ec54be5d9e1319cb4ab"
+  },
+  "cleanup": {
+    "capturesProducerCompleted": true,
+    "captureTaskResourcesReleased": true,
+    "reviewCliExitCode": 0,
+    "reviewBrowserResourcesOpened": false
+  },
+  "noNewWholeModelOrImageGeneration": true,
+  "technicalSuccessDoesNotApproveArtwork": true
+}

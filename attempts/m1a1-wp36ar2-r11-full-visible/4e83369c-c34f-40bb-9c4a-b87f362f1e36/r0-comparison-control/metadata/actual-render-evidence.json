@@ -1,0 +1,463 @@
+{
+  "implementation": "supplementary-exact-glb-part-pbr-v1",
+  "assetName": "WP36Ar2 W01 hatch",
+  "jobId": "4e83369c-c34f-40bb-9c4a-b87f362f1e36",
+  "revision": 0,
+  "checkpoint": {
+    "checkpointId": "de46be00-7707-4839-abff-bebfe3912252",
+    "checkpointHash": "a4da8f67905c9eadfedb57f6b68cb991f9fed0c9d3b66dcdd73e805c67b87574"
+  },
+  "glbSha256": "a4f93124eda00d9d783b8c3b96a08bb362d4a8d8fc1110ac4375d51a9888f493",
+  "sourceReceipt": "local-only/w01-wp36a-r11-final-export.json",
+  "sourceReceiptSha256": "07429bb4beafce6d6573f6aa4bc511e6b4890dee22d1bdb8edcf2bf6042a1386",
+  "cameraReceipt": "local-only/wp36ar2-cameras-v1.json",
+  "cameraReceiptSha256": "ee91f98ed3e525581e2de85ae1724bf58a6df04010605e086e8a6be87fbc1247",
+  "rendererSourceSha256": "4832afe6f5a00fa784c61991ca6e9512d397d5555a7ce757abfc19a3d6ef50fd",
+  "rendererBundleSha256": "26e1bdf000551b3956f3e19e448498519f1705a0c51e7fc95c8b3f2fa0866bbd",
+  "browser": {
+    "executablePath": "local-only/Brave Browser",
+    "version": "153.0.8010.37",
+    "playwrightVersion": "1.62.1"
+  },
+  "storage": {
+    "volumeId": "vol_47c979fb1804b7e9",
+    "checkedAt": "2026-11-01T04:16:31Z",
+    "scratch": "local-only/Scratch"
+  },
+  "framing": {
+    "mode": "measured-part",
+    "explicitBounds": null,
+    "explicitBoundsFileSha256": null,
+    "selectedBounds": {
+      "min": [
+        0.17150470614433289,
+        2.166387651115656,
+        4.421115875244141
+      ],
+      "max": [
+        0.9775047302246094,
+        2.985946297645569,
+        4.755626816302538
+      ],
+      "basis": "measured-part"
+    },
+    "actualGlbBounds": {
+      "min": [
+        0.17150470614433289,
+        2.166387651115656,
+        4.421115875244141
+      ],
+      "max": [
+        0.9775047302246094,
+        2.985946297645569,
+        4.755626816302538
+      ]
+    },
+    "coordinateSystem": "glTF world axes; metres",
+    "floor": "no-floor"
+  },
+  "reviewViews": [
+    {
+      "name": "front-three-quarter",
+      "azimuthDegrees": 35,
+      "elevationDegrees": 25,
+      "rollDegrees": 0
+    },
+    {
+      "name": "rear-three-quarter",
+      "azimuthDegrees": 215,
+      "elevationDegrees": 25,
+      "rollDegrees": 0
+    },
+    {
+      "name": "front",
+      "azimuthDegrees": 0,
+      "elevationDegrees": 0,
+      "rollDegrees": 0
+    },
+    {
+      "name": "left",
+      "azimuthDegrees": 270,
+      "elevationDegrees": 0,
+      "rollDegrees": 0
+    },
+    {
+      "name": "right",
+      "azimuthDegrees": 90,
+      "elevationDegrees": 0,
+      "rollDegrees": 0
+    },
+    {
+      "name": "top",
+      "azimuthDegrees": 0,
+      "elevationDegrees": 89.99,
+      "rollDegrees": 0
+    }
+  ],
+  "sets": [
+    {
+      "size": 1000,
+      "views": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/1000-front-three-quarter.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1adf202841a0012190a670f2ff0fceb4a3a570a9b78fd5fe7946ec2a6047b35f",
+          "bytes": 73052,
+          "minimumConservativeFrameMarginMetres": 0.057967458577728004
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/1000-rear-three-quarter.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "31cdc5ba15c7ea0353fd7283e4f99366eb0f5f9316514981031019d2da2a9aca",
+          "bytes": 174214,
+          "minimumConservativeFrameMarginMetres": 0.057967458577726116
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/1000-front.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0c77e082871d207815dc1c396daaf97c8c6348c9cac7683209f866b3daec2a89",
+          "bytes": 80408,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/1000-left.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1cf4da194fcb108c2429a02eacc082f15d866978e58816e15089d7abb7a3b6d0",
+          "bytes": 57977,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/1000-right.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "86ded86840e042c69313f01106cffb8050500332c9eee3c3e78154406726dc7b",
+          "bytes": 49302,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/1000-top.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "03d88d6fba5d5358421ef4faf143ae659ccae9f55188c4aa6767849040492156",
+          "bytes": 146397,
+          "minimumConservativeFrameMarginMetres": 0.044330001324415225
+        }
+      ],
+      "repeatViews": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/1000-front-three-quarter-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1adf202841a0012190a670f2ff0fceb4a3a570a9b78fd5fe7946ec2a6047b35f",
+          "bytes": 73052,
+          "minimumConservativeFrameMarginMetres": 0.057967458577728004
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/1000-rear-three-quarter-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "31cdc5ba15c7ea0353fd7283e4f99366eb0f5f9316514981031019d2da2a9aca",
+          "bytes": 174214,
+          "minimumConservativeFrameMarginMetres": 0.057967458577726116
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/1000-front-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0c77e082871d207815dc1c396daaf97c8c6348c9cac7683209f866b3daec2a89",
+          "bytes": 80408,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/1000-left-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1cf4da194fcb108c2429a02eacc082f15d866978e58816e15089d7abb7a3b6d0",
+          "bytes": 57977,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/1000-right-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "86ded86840e042c69313f01106cffb8050500332c9eee3c3e78154406726dc7b",
+          "bytes": 49302,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/1000-top-repeat.png",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "03d88d6fba5d5358421ef4faf143ae659ccae9f55188c4aa6767849040492156",
+          "bytes": 146397,
+          "minimumConservativeFrameMarginMetres": 0.044330001324415225
+        }
+      ],
+      "deterministic": true
+    },
+    {
+      "size": 256,
+      "views": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/256-front-three-quarter.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "06deb8a90d552823c2d3e535d7fc3d2683d5d698813451c03c38043140c92fdf",
+          "bytes": 13570,
+          "minimumConservativeFrameMarginMetres": 0.057967458577728004
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/256-rear-three-quarter.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "08c08339af592f6cd67009a7a2fe398bd4ec6c336380ceeb04272614c57a7370",
+          "bytes": 28336,
+          "minimumConservativeFrameMarginMetres": 0.057967458577726116
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/256-front.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "b9f8a78d2482a33afa698365228c476e95ae2a1d325723441c060f7713ac3e05",
+          "bytes": 15155,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/256-left.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "2f9e273e6d6d40e2ab0e79900759176c6a152b890e002a7b490951057d17557d",
+          "bytes": 10097,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/256-right.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "2ff0f04136e826e2f46903df83877e33a9da7fa310a0102ec86d314cd7f63d24",
+          "bytes": 9338,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/256-top.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "7b6c6f2063a4274074f0108621ca411b62f5bca333ffcef7dde5d44d56fdf951",
+          "bytes": 24387,
+          "minimumConservativeFrameMarginMetres": 0.044330001324415225
+        }
+      ],
+      "repeatViews": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/256-front-three-quarter-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "06deb8a90d552823c2d3e535d7fc3d2683d5d698813451c03c38043140c92fdf",
+          "bytes": 13570,
+          "minimumConservativeFrameMarginMetres": 0.057967458577728004
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/256-rear-three-quarter-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "08c08339af592f6cd67009a7a2fe398bd4ec6c336380ceeb04272614c57a7370",
+          "bytes": 28336,
+          "minimumConservativeFrameMarginMetres": 0.057967458577726116
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/256-front-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "b9f8a78d2482a33afa698365228c476e95ae2a1d325723441c060f7713ac3e05",
+          "bytes": 15155,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/256-left-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "2f9e273e6d6d40e2ab0e79900759176c6a152b890e002a7b490951057d17557d",
+          "bytes": 10097,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/256-right-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "2ff0f04136e826e2f46903df83877e33a9da7fa310a0102ec86d314cd7f63d24",
+          "bytes": 9338,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/256-top-repeat.png",
+          "width": 256,
+          "height": 256,
+          "sha256": "7b6c6f2063a4274074f0108621ca411b62f5bca333ffcef7dde5d44d56fdf951",
+          "bytes": 24387,
+          "minimumConservativeFrameMarginMetres": 0.044330001324415225
+        }
+      ],
+      "deterministic": true
+    },
+    {
+      "size": 128,
+      "views": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/128-front-three-quarter.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "e167e35db8237179ffc1fcfaa6718e79a7d5a06fb7c9e941b2ddab5b3ffa2042",
+          "bytes": 6678,
+          "minimumConservativeFrameMarginMetres": 0.057967458577728004
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/128-rear-three-quarter.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "c05fe81306756ac9cdad3e4b864c968a9db5d5a345c0908d9868ba0ff513565e",
+          "bytes": 11359,
+          "minimumConservativeFrameMarginMetres": 0.057967458577726116
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/128-front.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "1082e2f5ad88053579d310ed041ed42bc1f63a17394c3e1fd886c841f7516316",
+          "bytes": 7460,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/128-left.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "442015a9024b771d81e3baf7d8397dbd7fe4e071088d7f86b3f0df67763ee818",
+          "bytes": 4879,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/128-right.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "e8c7bec9fbf185ab3fabc209160bcaff36836c42bdb7c99d8f8c4dea3fad80ed",
+          "bytes": 4789,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/128-top.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "ac435f5e4a4b29b728c77d872412495154bd8f5f35976af73c9437f816da8928",
+          "bytes": 10117,
+          "minimumConservativeFrameMarginMetres": 0.044330001324415225
+        }
+      ],
+      "repeatViews": [
+        {
+          "viewId": "front-three-quarter",
+          "path": "local-only/128-front-three-quarter-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "e167e35db8237179ffc1fcfaa6718e79a7d5a06fb7c9e941b2ddab5b3ffa2042",
+          "bytes": 6678,
+          "minimumConservativeFrameMarginMetres": 0.057967458577728004
+        },
+        {
+          "viewId": "rear-three-quarter",
+          "path": "local-only/128-rear-three-quarter-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "c05fe81306756ac9cdad3e4b864c968a9db5d5a345c0908d9868ba0ff513565e",
+          "bytes": 11359,
+          "minimumConservativeFrameMarginMetres": 0.057967458577726116
+        },
+        {
+          "viewId": "front",
+          "path": "local-only/128-front-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "1082e2f5ad88053579d310ed041ed42bc1f63a17394c3e1fd886c841f7516316",
+          "bytes": 7460,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "left",
+          "path": "local-only/128-left-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "442015a9024b771d81e3baf7d8397dbd7fe4e071088d7f86b3f0df67763ee818",
+          "bytes": 4879,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "right",
+          "path": "local-only/128-right-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "e8c7bec9fbf185ab3fabc209160bcaff36836c42bdb7c99d8f8c4dea3fad80ed",
+          "bytes": 4789,
+          "minimumConservativeFrameMarginMetres": 0.04507572555914524
+        },
+        {
+          "viewId": "top",
+          "path": "local-only/128-top-repeat.png",
+          "width": 128,
+          "height": 128,
+          "sha256": "ac435f5e4a4b29b728c77d872412495154bd8f5f35976af73c9437f816da8928",
+          "bytes": 10117,
+          "minimumConservativeFrameMarginMetres": 0.044330001324415225
+        }
+      ],
+      "deterministic": true
+    }
+  ],
+  "deterministic": true,
+  "sourceMutated": false,
+  "reviewGateAdvanced": false,
+  "humanApproved": false,
+  "limitations": [
+    "Supplementary PBR evidence, not producer technical validation or approval.",
+    "Each PNG is the direct native-resolution canvas (1000, 256 or 128); no crop or resampling.",
+    "A conservative projected GLB AABB controls the frame guard; no inference of support or motion."
+  ],
+  "cleanup": {
+    "browserContextClosed": true,
+    "taskProfileRemoved": true,
+    "profileNamedBrowserProcessAbsent": true,
+    "serverClosed": true
+  },
+  "producerCompleted": true
+}

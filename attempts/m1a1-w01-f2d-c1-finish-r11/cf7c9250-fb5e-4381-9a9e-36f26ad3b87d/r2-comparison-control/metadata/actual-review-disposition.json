@@ -1,0 +1,250 @@
+{
+  "candidate": {
+    "jobId": "cf7c9250-fb5e-4381-9a9e-36f26ad3b87d",
+    "revision": 2,
+    "checkpointSha256": "aa2d409fc8b3edbcbc0345a2fd4292662244972c61973e33809f668e2f1438e5",
+    "glbSha256": "5fa49ca104d7c4a3f20b4312d40df1a8f2a10b11f912e46c22350758d2c629eb",
+    "receipts": {
+      "final-status": {
+        "path": "local-only/w01-f2d-c1-r11-final-status.json",
+        "sha256": "b66063b39219b69658a1ab35dad7b78c0fb01019e81153e17f8c1dd205752e4d"
+      },
+      "native": {
+        "path": "local-only/w01-f2d-c1-r11-native.json",
+        "sha256": "9b02ebf91e0be5b080787001effd4ca4c15ae171be6dd1da006eb26c942eaf06"
+      },
+      "export": {
+        "path": "local-only/w01-f2d-c1-r11-export.json",
+        "sha256": "2432169ab33cea3cd83170f7b73e23a8b5bd2827dc211995249e06953cea5ed8"
+      }
+    },
+    "source": "Root completed two typed stages, final technical/current16 dimensions/baselines pass and lease released; actual bytes independently rehashed here."
+  },
+  "history": {
+    "priorWholeFinishAttempts": 11,
+    "thisActualOrdinal": 12,
+    "logicalRevision": "r11",
+    "reset": false,
+    "sourceConceptGenerationsUsed": 1,
+    "sourceConceptMaximum": 2
+  },
+  "technicalValidation": "PASS",
+  "rootDecision": {
+    "source": "Explicit parent/root actual image disposition during this review",
+    "actual": {
+      "jobId": "cf7c9250-fb5e-4381-9a9e-36f26ad3b87d",
+      "revision": 2,
+      "checkpointSha256": "aa2d409fc8b3edbcbc0345a2fd4292662244972c61973e33809f668e2f1438e5",
+      "glbSha256": "5fa49ca104d7c4a3f20b4312d40df1a8f2a10b11f912e46c22350758d2c629eb",
+      "receipts": {
+        "final-status": {
+          "path": "local-only/w01-f2d-c1-r11-final-status.json",
+          "sha256": "b66063b39219b69658a1ab35dad7b78c0fb01019e81153e17f8c1dd205752e4d"
+        },
+        "native": {
+          "path": "local-only/w01-f2d-c1-r11-native.json",
+          "sha256": "9b02ebf91e0be5b080787001effd4ca4c15ae171be6dd1da006eb26c942eaf06"
+        },
+        "export": {
+          "path": "local-only/w01-f2d-c1-r11-export.json",
+          "sha256": "2432169ab33cea3cd83170f7b73e23a8b5bd2827dc211995249e06953cea5ed8"
+        }
+      },
+      "source": "Root completed two typed stages, final technical/current16 dimensions/baselines pass and lease released; actual bytes independently rehashed here."
+    },
+    "decision": "RETAIN r11 working finish for grouped human art review; no further whole-finish correction selected",
+    "readyForGroupedHumanArtReview": true,
+    "rootDirectlyInspected": [
+      "1000 rear-three-quarter",
+      "256 left",
+      "256 right",
+      "256 top",
+      "256 rear-three-quarter",
+      "128 left",
+      "128 right"
+    ],
+    "reason": "Materially better asymmetric connected transition; neutral char and gray trim preserved; no blocking regression identified.",
+    "blockingIssues": [],
+    "humanApproval": false,
+    "formalWorkflowApproval": false,
+    "history": "12th actual finish; all11 earlier attempts preserved, no reset.",
+    "allowedNextWork": "Archive dry-run and independent preauthor check for conditional two-part extraction. Actual extraction remains root sole producer action after technical gate."
+  },
+  "actualReviewer": {
+    "cliVersion": "2.1.311",
+    "executable": "local-only/claude",
+    "requestedModel": "claude-opus-5-5",
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "mode": "Read-only Read tool, authorized outside-sandbox review",
+    "session": 90170,
+    "observedProcessExitCode": 0,
+    "isError": false,
+    "subtype": "success",
+    "durationMs": 98389,
+    "turns": 29,
+    "rawOutput": {
+      "path": "local-only/opus-whole-r11-output-v1.json",
+      "sha256": "9c759d58bb34cf8027f8c036b2393429b5c0b583de465f4f40fa5599d9b06f30"
+    },
+    "stderr": {
+      "path": "local-only/opus-whole-r11-stderr-v1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "prompt": {
+      "path": "local-only/opus-whole-r11-prompt-v1.txt",
+      "sha256": "ab57dd6dc5f4aa463d46afcb86d0d51330f1326b5398a55ccb0fefa70c4500f5"
+    },
+    "imageOpeningEvidence": "All27 supplied images named by reviewer, plus contextJSON. No individual tool event trace is exposed; image-opening claim is reviewer self-report. Controller independently rehashed27 and directly inspected9current+2prior.",
+    "cleanup": "CLI completedexit0; reviewer opened no browser. F task-owned capture cleanup independently verified."
+  },
+  "actualFindings": {
+    "disposition": "READY_FOR_GROUPED_HUMAN_ART_REVIEW",
+    "readyForGroupedHumanArtReview": true,
+    "overallReason": "I opened all 27 listed images and the JSON context. The defect that blocked r10 was a broad, straight, even soot divider. In r11 it is replaced by a front that is clearly asymmetric and still connected. On the top view it is a smooth lobe that reaches further forward on one hull side than the other. On the left side it is a slanted wedge across the turret side and skirt. On the right side it runs diagonally across the turret bustle. It reads as one soot field that grows out of the burned rear deck. It does not read as a wavy band, camouflage, a collage or scattered islands. The soot stays neutral black-grey, the rear deck grille and hatch outlines stay readable, and at 128 and 256 the tank still reads clearly as a rear-burned wreck. What remains is minor: a crisp vertical soot edge where it meets a skirt-panel join on the right side, a clean tan lower rear hull that carries over from r10, and a few lighter mottled patches on the rear face at 1000px. None of these blocks a grouped human art review under the low-poly strategy-game direction. This is a visual readiness judgment only, not approval.",
+    "inspectedImages": [
+      "review-evidence-summary-v1.json (context, not an image)",
+      "w01-f2d-causal-r11-pbr-20261101/1000-front-three-quarter.png",
+      "w01-f2d-causal-r11-pbr-20261101/1000-rear-three-quarter.png",
+      "w01-f2d-causal-r11-pbr-20261101/1000-front.png",
+      "w01-f2d-causal-r11-pbr-20261101/1000-left.png",
+      "w01-f2d-causal-r11-pbr-20261101/1000-right.png",
+      "w01-f2d-causal-r11-pbr-20261101/1000-top.png",
+      "w01-f2d-causal-r11-pbr-20261101/256-front-three-quarter.png",
+      "w01-f2d-causal-r11-pbr-20261101/256-rear-three-quarter.png",
+      "w01-f2d-causal-r11-pbr-20261101/256-front.png",
+      "w01-f2d-causal-r11-pbr-20261101/256-left.png",
+      "w01-f2d-causal-r11-pbr-20261101/256-right.png",
+      "w01-f2d-causal-r11-pbr-20261101/256-top.png",
+      "w01-f2d-causal-r11-pbr-20261101/128-front-three-quarter.png",
+      "w01-f2d-causal-r11-pbr-20261101/128-rear-three-quarter.png",
+      "w01-f2d-causal-r11-pbr-20261101/128-front.png",
+      "w01-f2d-causal-r11-pbr-20261101/128-left.png",
+      "w01-f2d-causal-r11-pbr-20261101/128-right.png",
+      "w01-f2d-causal-r11-pbr-20261101/128-top.png",
+      "w01-f2d-causal-r10-pbr-20261101/1000-top.png",
+      "w01-f2d-causal-r10-pbr-20261101/1000-right.png",
+      "w01-f2d-causal-r10-pbr-20261101/1000-rear-three-quarter.png",
+      "w01-f2d-causal-r10-pbr-20261101/256-top.png",
+      "w01-f2d-causal-r10-pbr-20261101/256-right.png",
+      "w01-f2d-causal-r10-pbr-20261101/128-rear-three-quarter.png",
+      "abrams-condition-evidence-20261029/usmc-hansen.jpg",
+      "abrams-condition-evidence-20261029/doha-i14.png",
+      "formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/bundles/1/canonical.png"
+    ],
+    "sizeFindings": {
+      "1000": "Diagnostic only. The top view shows one smooth, asymmetric convex front: it reaches further forward along one hull edge (to about y\u2248410) than the other (about y\u2248340) and curves around the commander's hatch area. The left side shows a slanted soot wedge on the turret side and a diagonal over the rear two skirt panels. On the right side, the turret bustle transition is diagonal. On the skirt, the soot ends at a crisp vertical edge on a visible panel join (x\u2248295), then a diagonal wedge continues to about x\u2248350. The rear face and deck carry the mottled grain from the synthesized source. The front and front-three-quarter views are clean tan except the turret rear, which is consistent. The bright tan lower rear hull plate under the black grille band is unchanged from r10.",
+      "256": "Primary review size. The burned rear against the clean front reads immediately in every view. The left and right side transitions read as slanted, uneven soot fronts rather than an even vertical gradient. The top shows a curved front, not a straight bar. There is no visible wavy decorative band, camouflage pattern or detached patches. The skirt-join edge on the right side is visible but reads as a panel boundary, not a stripe. The grille lines and hatch rings on the rear deck stay legible.",
+      "128": "Recognition holds. The silhouette reads as an Abrams with a clearly burned rear half from the left, right, top and both three-quarter views. The transition reads as a single irregular front. The tan lower rear corner near the sprocket is a small light wedge on both side views. It is noticeable but does not break recognition. Trim detail falls to grille texture and hatch dots, which is acceptable at this size."
+    },
+    "targetFindings": {
+      "transitionRegularity": "Improved enough. The front is now visibly asymmetric between the left and right hull sides and slanted on the side views. On the top it is a smooth curve rather than r10's near-straight horizontal band. The curve is broad and smooth, not wavy. It reads slightly graphic at 1000px but natural at 256 and 128.",
+      "sideContinuity": "Continuous across the turret side, sponson and skirts on both sides. The one hard step is the right skirt, where the soot edge sits on a panel join (geometry seam). It reads as a join, not as an island. The dark-grey rectangular skirt section on the right side (about x 350\u2013435 at 1000px) is also present in r10. It appears to be geometry or inner backing, not new soot, though attribution is uncertain.",
+      "connectedRearCoverage": "Connected. The rear deck, grille band, bustle and rear skirts form one field without gaps. Exception: the lower rear hull plate and the lower hull ends near the sprockets stay tan beneath black coverage. This is retained from r10. It is visible at 256 and plausible as less-burned lower plating, but slightly disconnected.",
+      "neutralColor": "Neutral black and charcoal grey with lighter grey mottling, matching the synthesized albedo. No warm, orange or purple cast. The tan paint outside the field is unchanged.",
+      "trimReadability": "The rear grille slats, deck hatch outlines, bustle rack and commander/loader hatch rings are readable at 1000 and 256. They are reduced to texture at 128. The deliberate whole Loader seam neutral32 reads as a thin neutral ring on the top and rear-three-quarter views. It is subtle but neither lost nor garish. I cannot attribute it to specific faces.",
+      "sourceFiltering": "The rear-face and deck grain reads as source mottling, not stretched streaks. At 1000px a few lighter grey patches on the rear plate and deck look slightly blotchy and camouflage-like. At 256 and 128 they read as ash variation. Optional.",
+      "regressions": "None that block review. Coverage, trim, geometry and front paint look the same as in r10, apart from the redrawn transition."
+    },
+    "comparisonWithR10": "In r10 the 1000 and 256 top views show a nearly straight horizontal soot boundary across the hull at hatch level, and the 1000 right view shows a soft but even vertical gradient on the turret and skirt. r11 replaces these with an asymmetric curved front on the top and a diagonal on the right turret bustle and skirt. The rear three-quarter view now shows a curved, uneven front across the bustle side instead of r10's straight slanted edge. Rear deck coverage, neutral color, grille and trim readability and the tan lower rear plate look the same as in r10. In the 128 rear-three-quarter view the difference is small but r11 is no worse. Net result: the r10 blocking defect is corrected and I see no new decorative-band or collage artifact.",
+    "blockingIssues": [],
+    "optionalPolish": [
+      {
+        "visiblefact": "Right side, 1000 and 256: the soot field ends at a crisp vertical edge on a skirt panel join (about x\u2248295 at 1000px) before the diagonal wedge.",
+        "impact": "Low to moderate. It reads as a panel boundary. Letting the soot cross the join slightly would soften it."
+      },
+      {
+        "visiblefact": "Left and right sides and the rear face: the lower rear hull plate and the hull ends near the sprockets stay clean tan below fully black upper coverage. Same as in r10.",
+        "impact": "Low. Visible as a light corner wedge at 256 and 128. A light soot or ash tint would integrate it."
+      },
+      {
+        "visiblefact": "Rear plate and deck at 1000px: a few large lighter-grey mottled patches look slightly camouflage-like.",
+        "impact": "Low. Not visible as a pattern at 256 or 128."
+      }
+    ],
+    "boundedRecommendations": [
+      "Send this exact r11 candidate to the grouped human art review as it stands.",
+      "If the reviewers ask for polish, carry the soot slightly across the right skirt panel join and tint the lower rear hull plate. Both fit within the existing coverage and source mapping.",
+      "Keep r10 and the earlier attempts retained for comparison. Do not reopen source generation for the 1000px mottling."
+    ],
+    "sourceReferenceAssessment": "The Hansen 2003 and Doha I-14 photographs support the morphology only: heavy, uneven blackening concentrated on the upper and rear structure, with patchy, irregular boundaries and lighter or bare areas on the skirts and lower hull. r11's asymmetric, irregular front and its clean lower areas fit that morphology at the level of game abstraction. The photographs do not establish colors, burn mechanism or wheel loss, and I have not used them for that. The synthesized albedo is a neutral dark mottled stone/ash texture, and the rendered soot matches its tone and grain.",
+    "limitations": "Visual inspection of rendered PNGs only. I computed no hashes, did not verify the GLB or receipts, and did not attribute faces. I cannot be certain which skirt and hull areas are protected inner backing, holes or shadows versus mask edges. Visible shadows from the cast-shadow plane affect the left side of the top view. The 1000px views are treated as diagnostic.",
+    "humanApproval": false
+  },
+  "controllerObservations": {
+    "status": "Independent controller actual pixel observations; actual Opus still running",
+    "currentImages": [
+      {
+        "path": "local-only/1000-right.png",
+        "sha256": "f73e842a6c2187b19c3c1bd32d4455d5ee1ad9834cde7fe4d108a91ed915ecb6"
+      },
+      {
+        "path": "local-only/1000-left.png",
+        "sha256": "64880c8f6a193a8d43685488a2a042b4b75f9a59d12cc72d69e12cbfa8025b7f"
+      },
+      {
+        "path": "local-only/1000-top.png",
+        "sha256": "26353029ae3c7d2f1c41e2b71b2f888daa202782fa92e6c9d1759471229d0120"
+      },
+      {
+        "path": "local-only/256-rear-three-quarter.png",
+        "sha256": "ce993a887b6d18d9d0d57e9917e2e5c060255aaceece0424cbcd748d07ba5cfb"
+      },
+      {
+        "path": "local-only/256-right.png",
+        "sha256": "b0015ca5f9ab312336b610bf27eb4afdf8f6f0ea48079636c7e0c2a1342d20dd"
+      },
+      {
+        "path": "local-only/256-left.png",
+        "sha256": "40cf1ceca98ec8e0b7bb27d2360dc923db0f1a64a8ca45e55d9a2df23ba038c1"
+      },
+      {
+        "path": "local-only/128-top.png",
+        "sha256": "623d6ba2f3d7a3bc60e4d3662966f7cb431d947edd6d3487e0a4914f343fe223"
+      },
+      {
+        "path": "local-only/128-rear-three-quarter.png",
+        "sha256": "a3eb43502a832e5d6762d33ca7e7201fff92273019cbcff03f6cf283d1392a09"
+      },
+      {
+        "path": "local-only/1000-rear-three-quarter.png",
+        "sha256": "a2d83a889be106c5aaa35c6181c73a0f1635e298e67c010553ff28ec7d9e9ac7"
+      }
+    ],
+    "comparisons": [
+      {
+        "path": "local-only/256-right.png",
+        "sha256": "3e182ed815a7472655ab1d62970f06129fc1cc755d6adfb90a1ba25abd71cdb0"
+      },
+      {
+        "path": "local-only/1000-top.png",
+        "sha256": "af078cf4b46ef6b2d1f0d51b79766b48d00ee68118994fa9128e93faf24c2958"
+      }
+    ],
+    "observations": [
+      "Top view now has an asymmetric curved transition around the hatches rather than prior nearly horizontal cross-band; the source rear texture/physical shape is retained.",
+      "Both side views show a wavy/lobed front boundary on the rear skirts, visually different from old straight divider. The right lower point remains conspicuous in1000 but at256 reads within the connected dark rear region.",
+      "256 and128 rear-three-quarter still identify a neutral burned rear with readable turret/rack/deck detail. I do not see a new disconnected camouflage island or obvious bright UV seam in these inspected frames.",
+      "1000 top/rear retains directional coarse/marbled texture details. This was already an optional prior source-scale refinement; no demonstrated game-scale regression is identified here.",
+      "The newly whole-solid Loader seam does not visibly erase hatch structure in the inspected top/rear views. Protected steel/glass and geometry remain unchanged."
+    ],
+    "provisionalReadiness": "These inspected views support putting the current candidate before grouped human art review, with source-scale/edge refinement as optional notes; this is not a formal workflow or human approval. Await independent actual Opus full18-view assessment.",
+    "blockingIssuesIdentifiedInInspectedSubset": [],
+    "limits": [
+      "Controller inspected9current+2prior images, not all18 current views; actual Opus was tasked with all18.",
+      "No pixel ownership/shadow-off experiment was needed for a newly asserted defect; uncertain attribution is not promoted into a factual defect.",
+      "Visual inspection is not evidence of historical radiometry or a specific burn mechanism."
+    ],
+    "modelMutation": false
+  },
+  "qualifications": [
+    "Reviewer qualitative soot/wreck terms are visual judgments, not exact historical mechanism or radiometry.",
+    "Reviewer does not compute hashes, inspect GLB or identify native face IDs; independent technical proof supplies those facts.",
+    "Optional lower-hull tint or skirt crossing is not a selected mutation or new scope authorization.",
+    "Readiness for grouped human review is not itself named human approval, structured formal completion or promotion.",
+    "No filter issue observed at these resolutions is not universal GPU/mip safety.",
+    "Current Loader seam216 is an intentional readability exception; preserved Hull24/innerhatch32 placeholders and ordinary shadows must not be misattributed to new coating masks."
+  ],
+  "humanApproval": false,
+  "sourcePromotion": false
+}
