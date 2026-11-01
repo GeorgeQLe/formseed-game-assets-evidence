@@ -1,0 +1,62 @@
+{
+  "status": "PASS official single-saturation derivation, shape/alpha preservation and independent HSL-color numeric check",
+  "source": {
+    "path": "local-only/canonical.png",
+    "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06"
+  },
+  "canonical": {
+    "path": "local-only/canonical.png",
+    "sha256": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f"
+  },
+  "job": {
+    "path": "local-only/job.json",
+    "sha256": "94a09f863798cab9c07b61077ae5f6918e15d132a2648d4c70dd6743591998be"
+  },
+  "revision": 1,
+  "operations": [
+    {
+      "type": "saturation",
+      "percent": 25
+    }
+  ],
+  "png": {
+    "width": 512,
+    "height": 512,
+    "bitDepth": 8,
+    "colorType": 6,
+    "opaquePixels": 262144
+  },
+  "independentNumericCheck": {
+    "method": "At each original pixel, HSL lightness L=(maxRGB+minRGB)/2; expected color L+0.25*(RGB-L). Compared without writing transformed pixels.",
+    "maxChannelErrorBefore8bitRounding": 0.5,
+    "maxHslLightnessDifference": 0.5,
+    "nonmatchingBeyondHalfCode": 0
+  },
+  "receipts": {
+    "create.json": {
+      "path": "local-only/create.json",
+      "sha256": "4d751bab6ccccdc9c1bfb441aac2f1ba88761cb7a5da3318581369556e9c0462"
+    },
+    "saturation-25.json": {
+      "path": "local-only/saturation-25.json",
+      "sha256": "be4cc41222fa8a254580334daf50314fe952f444207a26288d47612eef48360b"
+    },
+    "validate.json": {
+      "path": "local-only/validate.json",
+      "sha256": "78599a3ce921e55c8b1b2b6195a0a4dcea95f366fb9d1439e62e84e16bb133ca"
+    },
+    "bundle.json": {
+      "path": "local-only/bundle.json",
+      "sha256": "9d795556cf871927f7f90a779ccf3506a59e6c7dbba970404015ea6b789eeaa6"
+    }
+  },
+  "appearanceAssessment": "KEEP-FOR-APPLICATION consistent with root. Direct image inspection shows same irregular residue pattern with substantially reduced warm brown cast; dark-gray clustered texture remains. It does not establish adequate world sampling, edge transitions, visibility or final burn readability.",
+  "history": {
+    "sourceGenerationsUsed": 1,
+    "maximum": 2,
+    "newGeneration": false,
+    "modelAttemptsStill": 10
+  },
+  "producerOrBitmapWritesByAuditor": false,
+  "humanApproval": false
+}

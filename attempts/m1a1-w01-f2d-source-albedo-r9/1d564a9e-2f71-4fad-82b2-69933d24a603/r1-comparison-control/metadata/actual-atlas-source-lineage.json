@@ -1,0 +1,1258 @@
+{
+  "status": "Exact completed FormSeed2D typed outputs; no inferred approval",
+  "sourceConcept": {
+    "conceptId": "5a6938b9d6e8717fe79959e3d0d3b7dc76cac805e02c4f8a38d7288e2334f722",
+    "generationAttempt": "13d0a6f0-5d9f-4599-b2d0-28ea68e3d2b2",
+    "generationsUsed": 1,
+    "maximumGenerations": 2,
+    "officialHostStageSha256": "f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514",
+    "importerR0Sha256": "ed553f530ecd8e97d8c55280a54b30239016567e36ed1e59dc8846fe53c59051",
+    "canonical512Sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+    "sourceJobId": "2673a19b-2924-462d-a61e-f50ee2328422",
+    "sourceRevision": 1,
+    "rootReportedPriorEvidenceCommit": "21049631a15143a74a64e073e59aefe7e795a106",
+    "sourceStatus": "KEEP-FOR-APPLICATION of synthesized source, not finished-model approval"
+  },
+  "atlasProduction": {
+    "status": "PASS actual ten PNG canonical/bundle/source/command equality at all14 revisions",
+    "actualIndex": {
+      "path": "local-only/actual-ten-atlases-v1.json",
+      "sha256": "18f91f484cf225f35e6336536689590ddb6c26836e474b12030fd9f9aa333303"
+    },
+    "commandPlan": {
+      "path": "local-only/albedo-area-v2-2d-command-plan-v2.json",
+      "sha256": "7dcc84992c8cfc525d8b22e2b175cea2c36d46e0137e57020f6a40937d125156"
+    },
+    "predictions": {
+      "path": "local-only/split-command-rgba-predictions-v1.json",
+      "sha256": "73348b015fd459510d997702c992c6f2ae9b9a7b0807d5efd370ab2efc391230"
+    },
+    "createLedger": {
+      "path": "local-only/create-idempotency.json",
+      "sha256": "ed66527b456bc5f90193826f85b4f822718d9ad3d46a9da4663901dfbd7d5800"
+    },
+    "images": [
+      {
+        "index": 1,
+        "sourceRole": "paint",
+        "clone": "W01AlbedoAtlas01",
+        "uvMap": "W01AlbedoUV01",
+        "ownerFaceSubset": [
+          {
+            "owner": "Hull",
+            "nativeFaces": [
+              21,
+              28,
+              37,
+              44,
+              53,
+              59
+            ]
+          },
+          {
+            "owner": "LeftFender",
+            "nativeFaces": [
+              293
+            ]
+          },
+          {
+            "owner": "LoaderHatch",
+            "nativeFaces": [
+              1,
+              3,
+              4,
+              6,
+              8,
+              11,
+              13,
+              15,
+              16,
+              17,
+              19,
+              21,
+              25,
+              28,
+              31
+            ]
+          },
+          {
+            "owner": "P06_LeftSkirtPanel06",
+            "nativeFaces": [
+              2
+            ]
+          },
+          {
+            "owner": "P07_LeftSkirtPanel07",
+            "nativeFaces": [
+              2
+            ]
+          },
+          {
+            "owner": "P13_RightSkirtPanel06",
+            "nativeFaces": [
+              2
+            ]
+          },
+          {
+            "owner": "P14_RightSkirtPanel07",
+            "nativeFaces": [
+              2
+            ]
+          },
+          {
+            "owner": "RightFender",
+            "nativeFaces": [
+              289,
+              293
+            ]
+          }
+        ],
+        "jobId": "13578905-d2ab-499d-b91d-075d9a3c617c",
+        "revision": 2,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "36309f6f3c0adadedbe3cb15745867b21011d5bb0c57721643c6a17b127c3206"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "18c5e96a17a544fc743d3f272f21b5451b210322a23d937dd779a88eb16624b3"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "a70c635bc39b9f0e454b5b2a4eccd265b53670bc587f6a244a1ad6c3bbded7f2"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "8039597a46ffc4f20cad7a7b52cf20dc03f567a0440ff1da6aafebbdcbf631a2"
+            },
+            "decodedRGBAsha256": "1a8f38d6e851a931c2a3cb1e35f753b2e64e5253af3adf80b72cef1284a3bb4f",
+            "expectedPixelsExact": true
+          },
+          {
+            "revision": 2,
+            "image": {
+              "path": "local-only/2.png",
+              "sha256": "36309f6f3c0adadedbe3cb15745867b21011d5bb0c57721643c6a17b127c3206"
+            },
+            "decodedRGBAsha256": "1a1e1b034dafcc320fe20f15b8ae773acbb9be15738b8750f8339bf091b18b76",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-01-create.json",
+            "sha256": "8bbf66aa544f398211ab3b01ac2947fef2c4ba5f5f6c7fad61327b8e04afe834"
+          },
+          {
+            "path": "local-only/atlas-01-pixels-01.json",
+            "sha256": "053365cd06ef20c168509f9d8e0e4cabec6ce87232a18930e5466f6b51c2a37a"
+          },
+          {
+            "path": "local-only/atlas-01-pixels-02.json",
+            "sha256": "18f2d8f05d0fcf1d4bd1e15d3743a9ca34dbc92faf6406c4b04cf883c24fab09"
+          },
+          {
+            "path": "local-only/atlas-01-validate.json",
+            "sha256": "16eb45474c17bb54b4929e9aeaa5e621de2e23a23613327d127abeb1a4510f68"
+          },
+          {
+            "path": "local-only/atlas-01-bundle.json",
+            "sha256": "7da4f8b4a8e07bfacc1c12552db89efb55a18f1f4924c7fb879295d137cba143"
+          }
+        ],
+        "decodedRGBAsha256": "1a1e1b034dafcc320fe20f15b8ae773acbb9be15738b8750f8339bf091b18b76",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 31522,
+        "base64Bytes": 42032,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "c262aad60af6d31d57233f807b83f73176623a311a8347919b0ecfe62c541650"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-01-r2.png"
+      },
+      {
+        "index": 2,
+        "sourceRole": "paint",
+        "clone": "W01AlbedoAtlas02",
+        "uvMap": "W01AlbedoUV02",
+        "ownerFaceSubset": [
+          {
+            "owner": "CommanderCupola",
+            "nativeFaces": [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+              13,
+              15,
+              17,
+              19,
+              21,
+              23,
+              25,
+              27,
+              28,
+              30,
+              32,
+              35,
+              38,
+              41,
+              44,
+              51,
+              55,
+              58,
+              61
+            ]
+          },
+          {
+            "owner": "Hull",
+            "nativeFaces": [
+              29,
+              36,
+              45,
+              46,
+              52
+            ]
+          },
+          {
+            "owner": "LoaderHatch",
+            "nativeFaces": [
+              0,
+              2,
+              12,
+              14,
+              18,
+              29,
+              30,
+              32,
+              35,
+              36,
+              39,
+              42,
+              45,
+              49,
+              52,
+              55,
+              57,
+              58,
+              61
+            ]
+          },
+          {
+            "owner": "P07_LeftSkirtPanel07",
+            "nativeFaces": [
+              5
+            ]
+          },
+          {
+            "owner": "P12_RightSkirtPanel05",
+            "nativeFaces": [
+              2,
+              5
+            ]
+          }
+        ],
+        "jobId": "6871cacc-7c33-4e14-86f7-ad046b8849d6",
+        "revision": 1,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "cca3f4b36ba7202a8076aa68b3f58ad0f3cf303d7a5e755a33c8ccb47ba61eb8"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "f763dcfc0b4f913000bdfa2b644b664e44e6ac6b749bdf2d95054645551edff5"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "d316c3d7ab87ec52df89e1bffe323ca7361c201e99f44855d333507a4562dc5b"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "cca3f4b36ba7202a8076aa68b3f58ad0f3cf303d7a5e755a33c8ccb47ba61eb8"
+            },
+            "decodedRGBAsha256": "c340e80827c2612eed6db8b7bc9c68ba0a9d63abaf7590ff26df225773c802a9",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-02-create.json",
+            "sha256": "d1884944f0133932375213d41fae95ff2b3a386b9f0b628dfbde6224f1658078"
+          },
+          {
+            "path": "local-only/atlas-02-pixels-01.json",
+            "sha256": "99f0f1f2871ae93c5afb8d34bb8cbca6d4a1321b211f7fe4c274fffd7abe2e67"
+          },
+          {
+            "path": "local-only/atlas-02-validate.json",
+            "sha256": "72919b8edaf1121a94dacf06c9a9a044ed796e17c7253f59328a6e70ad600591"
+          },
+          {
+            "path": "local-only/atlas-02-bundle.json",
+            "sha256": "856d829732d0d09d5fab8b9be1fef59b32b311533d09909f27a6a4ae157e75e8"
+          }
+        ],
+        "decodedRGBAsha256": "c340e80827c2612eed6db8b7bc9c68ba0a9d63abaf7590ff26df225773c802a9",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 30558,
+        "base64Bytes": 40744,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "49e598e7b2dfe5f09f54e65b020c086f201c55eea59b10e3fd3f9b40741b0593"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-02-r1.png"
+      },
+      {
+        "index": 3,
+        "sourceRole": "paint",
+        "clone": "W01AlbedoAtlas03",
+        "uvMap": "W01AlbedoUV03",
+        "ownerFaceSubset": [
+          {
+            "owner": "CommanderCupola",
+            "nativeFaces": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              12,
+              14,
+              16,
+              18,
+              24,
+              29,
+              31,
+              34,
+              37,
+              39,
+              42,
+              46,
+              49,
+              52,
+              53,
+              57,
+              60,
+              63
+            ]
+          },
+          {
+            "owner": "Hull",
+            "nativeFaces": [
+              30,
+              54
+            ]
+          },
+          {
+            "owner": "LeftFender",
+            "nativeFaces": [
+              289,
+              290
+            ]
+          },
+          {
+            "owner": "LoaderHatch",
+            "nativeFaces": [
+              20,
+              22,
+              27,
+              33,
+              37,
+              40,
+              44,
+              47,
+              50,
+              53,
+              56,
+              59,
+              62
+            ]
+          },
+          {
+            "owner": "P06_LeftSkirtPanel06",
+            "nativeFaces": [
+              5
+            ]
+          },
+          {
+            "owner": "P13_RightSkirtPanel06",
+            "nativeFaces": [
+              5
+            ]
+          },
+          {
+            "owner": "RightFender",
+            "nativeFaces": [
+              290
+            ]
+          }
+        ],
+        "jobId": "2a31561d-235f-459b-a102-38aefbb04b7f",
+        "revision": 1,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "2e5bc945e33861aeaf21f7d2b8b0c6520bc99a22be72a02571ff069468267bb0"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "598a4998ba663a227a8d77a437870f72d83d8b2f1c2404924bece6109b940701"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "d5aec1dff397a3ff6c7a4189960b599ab36a8d98f28188c7cdb5f759f43e69bf"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "2e5bc945e33861aeaf21f7d2b8b0c6520bc99a22be72a02571ff069468267bb0"
+            },
+            "decodedRGBAsha256": "59097b2f875c8e765565acd139d2b67f619771b839735a804c575dbeb68e74de",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-03-create.json",
+            "sha256": "eda9d94e8b79db085b7c0fa44eef3abb09bad600105f025ffb98792d2362c36d"
+          },
+          {
+            "path": "local-only/atlas-03-pixels-01.json",
+            "sha256": "178e619fa6bcea5e9c749db8f80d1b14ad1369be6f8b45b18a287ba36944b70f"
+          },
+          {
+            "path": "local-only/atlas-03-validate.json",
+            "sha256": "8397b060bbbc47e082840c6ab2aaf7f21688ba0e49cbc07de8b738726428b292"
+          },
+          {
+            "path": "local-only/atlas-03-bundle.json",
+            "sha256": "0b424afdfca626429a02ab5fda3d5fba1a496d8073b667e561b5d67ab5d199e5"
+          }
+        ],
+        "decodedRGBAsha256": "59097b2f875c8e765565acd139d2b67f619771b839735a804c575dbeb68e74de",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 17437,
+        "base64Bytes": 23252,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "7dab1caa42288888ec489a7b8204537768b2ccd090927f1f33afcc7d85560ccc"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-03-r1.png"
+      },
+      {
+        "index": 4,
+        "sourceRole": "paint",
+        "clone": "W01AlbedoAtlas04",
+        "uvMap": "W01AlbedoUV04",
+        "ownerFaceSubset": [
+          {
+            "owner": "CommanderCupola",
+            "nativeFaces": [
+              20,
+              33,
+              36,
+              40,
+              43,
+              45,
+              48,
+              54,
+              56,
+              59,
+              62
+            ]
+          },
+          {
+            "owner": "Hull",
+            "nativeFaces": [
+              22,
+              38
+            ]
+          },
+          {
+            "owner": "LoaderHatch",
+            "nativeFaces": [
+              5,
+              7,
+              9,
+              10,
+              23,
+              24,
+              26,
+              34,
+              38,
+              41,
+              43,
+              46,
+              48,
+              51,
+              54,
+              60,
+              63
+            ]
+          },
+          {
+            "owner": "P14_RightSkirtPanel07",
+            "nativeFaces": [
+              5
+            ]
+          }
+        ],
+        "jobId": "4426d79f-93ff-4326-993e-2775d86e771d",
+        "revision": 1,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "e753c8f2c3388f4fb239eb308bb80223b122e9603de1bbd330b921491d5fba4a"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "647140bb90e3c627a38b12e0e32e9adf0a0db90088d94e747f4be3e34b8ca732"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "b4b939d4ef8a2473785749d7a323dc87a14fc830e635a00b8799250c93aff361"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "e753c8f2c3388f4fb239eb308bb80223b122e9603de1bbd330b921491d5fba4a"
+            },
+            "decodedRGBAsha256": "63c4944defde752a0e7ff6a3e2e96e2a280139b1b8457fb4f0997f572b2d79b4",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-04-create.json",
+            "sha256": "c239d8e6ec9d6cad10a96cd07a56e27ddef86a902d7b28bdd6cefd9d679372b8"
+          },
+          {
+            "path": "local-only/atlas-04-pixels-01.json",
+            "sha256": "0341ed1e2e7aedcb6220ca2c2b7347443365e2f6a4fe933f4680689991c89b8d"
+          },
+          {
+            "path": "local-only/atlas-04-validate.json",
+            "sha256": "8b3a05a1bddd58f60d53e7f445edc7eab97d18335c87c79174d088277f10eb18"
+          },
+          {
+            "path": "local-only/atlas-04-bundle.json",
+            "sha256": "089cf16d8fd0f2809d69f9f49558c982087a9c003a69bc4252a4b71d1525a0d7"
+          }
+        ],
+        "decodedRGBAsha256": "63c4944defde752a0e7ff6a3e2e96e2a280139b1b8457fb4f0997f572b2d79b4",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 8935,
+        "base64Bytes": 11916,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "e63af416c3d53eeb2b857b9479a0907f3799146091b3a761e96780fb74191b81"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-04-r1.png"
+      },
+      {
+        "index": 5,
+        "sourceRole": "paint",
+        "clone": "W01AlbedoAtlas05",
+        "uvMap": "W01AlbedoUV05",
+        "ownerFaceSubset": [
+          {
+            "owner": "CommanderCupola",
+            "nativeFaces": [
+              22,
+              26,
+              47,
+              50
+            ]
+          },
+          {
+            "owner": "RightFender",
+            "nativeFaces": [
+              285
+            ]
+          }
+        ],
+        "jobId": "9ff10552-9f54-49de-8035-cce1115861e4",
+        "revision": 1,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "db3738dd5719578b7ff5f29c78b8db33842475a75d1ac56f7047a8ef98f5df9a"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "39a6546549c7049a5c90d2cb60ffe48570003ce48b2022ce20a3aa0aa5e2acb7"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "302c690d764d21b36c74c57d71fd2829c8ca451e5e7e5ee2cebb88373f280183"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "b828981f3ea6a69b3c4c2e32e7027bf96ae95d940eba09301caea8bc019556a2"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "db3738dd5719578b7ff5f29c78b8db33842475a75d1ac56f7047a8ef98f5df9a"
+            },
+            "decodedRGBAsha256": "a098d7a45e7eff27055a543b3bdb034b4283a99a1ca42ea4ceb928f03bf0b96d",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-05-create.json",
+            "sha256": "fdaeff5eb8e54d12a17dd2f7fc61e0fa5584af89e2b2fb94391e276f57ea797a"
+          },
+          {
+            "path": "local-only/atlas-05-pixels-01.json",
+            "sha256": "9859758a10a975a3177ffb8e9410ceca0db119e6b0156b6351d08cbe5584f474"
+          },
+          {
+            "path": "local-only/atlas-05-validate.json",
+            "sha256": "fbe31aa0b9d8a0310b93b74a44668522f974179dbafbb789fb26092cd49d4d48"
+          },
+          {
+            "path": "local-only/atlas-05-bundle.json",
+            "sha256": "5ce57c576bdac2af493c23d5f8ba590910611d97595fa609ca8a9450b86b71c5"
+          }
+        ],
+        "decodedRGBAsha256": "a098d7a45e7eff27055a543b3bdb034b4283a99a1ca42ea4ceb928f03bf0b96d",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 2820,
+        "base64Bytes": 3760,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "a97d601bd21bdcf203a0e1399c90984bf7e9687f62a0f26ec4d6254b189c6329"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-05-r1.png"
+      },
+      {
+        "index": 6,
+        "sourceRole": "distance-roof-sand",
+        "clone": "W01AlbedoAtlas06",
+        "uvMap": "W01AlbedoUV06",
+        "ownerFaceSubset": [
+          {
+            "owner": "BustleArmor",
+            "nativeFaces": [
+              1,
+              2,
+              3,
+              5
+            ]
+          },
+          {
+            "owner": "CentralTurret",
+            "nativeFaces": [
+              2,
+              4
+            ]
+          }
+        ],
+        "jobId": "533ba372-60ba-4699-9833-e73855f544f6",
+        "revision": 3,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "0ccb453a2548060b366416870ba08fb8b39850f26f7cdc8fd6275ae802989ea8"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "59d5107a088a8dc48dd0f56204ddc4371f38054a95ba1921421e919f244eedab"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "fdb95944175179241d16a1e0eba4ee73de97ff78ec61c5acfce446a7877c8beb"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "e165b3b41ce3355ff7392285fae35e4177f477b7ea90035678f8d7a93f8026c5"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "c666b864fcd861718ed2ecebf4a3ec28f8206dce8da3ba632a5831fe1923f9dd"
+            },
+            "decodedRGBAsha256": "4d2c3581bd81f81a25ee74c6129009fd991e25cecacc6876eb33d722e0f8ac35",
+            "expectedPixelsExact": true
+          },
+          {
+            "revision": 2,
+            "image": {
+              "path": "local-only/2.png",
+              "sha256": "e6cbdd713736642dcbd6e144b551cd749c13907989e4aa2089458652affb9a81"
+            },
+            "decodedRGBAsha256": "cbe450b83365eb9198307e83cb24e776b09e3ab47e99df25e10de1a5872349c1",
+            "expectedPixelsExact": true
+          },
+          {
+            "revision": 3,
+            "image": {
+              "path": "local-only/3.png",
+              "sha256": "0ccb453a2548060b366416870ba08fb8b39850f26f7cdc8fd6275ae802989ea8"
+            },
+            "decodedRGBAsha256": "fea06b7e47db2a2500b38bc6f8b3a70f74e6e9965d9e00e10aff91e2c7d73296",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-06-create.json",
+            "sha256": "38c464534110c15ebe5e0bb86e5243d0a2decd7365aae02b73dd5d7931ecc1f7"
+          },
+          {
+            "path": "local-only/atlas-06-pixels-01.json",
+            "sha256": "bf470d17aa53b907c7c338c77dd18a601573959b3d074b63a240f812c4e49f58"
+          },
+          {
+            "path": "local-only/atlas-06-pixels-02.json",
+            "sha256": "e042ce81780cce2d76e301e77560b481597cfbce3e3c0eb4bd91ba6a2623ec92"
+          },
+          {
+            "path": "local-only/atlas-06-pixels-03.json",
+            "sha256": "3d74994cb8fc7954dcd99d4ea05bb15e1b84db9e117fcdfdc57e75da462cd35e"
+          },
+          {
+            "path": "local-only/atlas-06-validate.json",
+            "sha256": "c94a5396546be883d5abd7430b3e8d55f7ccf4672a1ff0d0be4f30e3162e454b"
+          },
+          {
+            "path": "local-only/atlas-06-bundle.json",
+            "sha256": "6d63448ac99f6b92c5105c837b154eb6e7193770e764187953928d8a4d6b3f0c"
+          }
+        ],
+        "decodedRGBAsha256": "fea06b7e47db2a2500b38bc6f8b3a70f74e6e9965d9e00e10aff91e2c7d73296",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 61099,
+        "base64Bytes": 81468,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "8e2bb5d0087fd44371617e8183687b51281f65150f4542a824d5e8397c5128cb"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-06-r3.png"
+      },
+      {
+        "index": 7,
+        "sourceRole": "distance-roof-sand",
+        "clone": "W01AlbedoAtlas07",
+        "uvMap": "W01AlbedoUV07",
+        "ownerFaceSubset": [
+          {
+            "owner": "BustleArmor",
+            "nativeFaces": [
+              6,
+              7
+            ]
+          },
+          {
+            "owner": "CentralTurret",
+            "nativeFaces": [
+              3
+            ]
+          },
+          {
+            "owner": "P22_BlowoffLeft",
+            "nativeFaces": [
+              1
+            ]
+          },
+          {
+            "owner": "P23_BlowoffRight",
+            "nativeFaces": [
+              1
+            ]
+          }
+        ],
+        "jobId": "44282214-8fdc-496c-85ee-fe368e39c171",
+        "revision": 2,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "6cb9c5cfd43beb3b254e3fb8741eba9378d66832a1b57f9caf11eac7ef20815d"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "54a3f6f7dc5c61aa766825dad1a933cd7bcae12d951b3f615f92cf8e24f31e17"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "8618008611ee2cea4234c6be42a67559b6892102207e5c47f47ac7fdbf969e63"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "e165b3b41ce3355ff7392285fae35e4177f477b7ea90035678f8d7a93f8026c5"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "3ab1212803dae91fe3fb93f843b99d9d497d330b13caba3e8ee85aa4cc53f25d"
+            },
+            "decodedRGBAsha256": "812fd399431c2b4956167c957ec251513264264f9588d67a7a382a7533430d3b",
+            "expectedPixelsExact": true
+          },
+          {
+            "revision": 2,
+            "image": {
+              "path": "local-only/2.png",
+              "sha256": "6cb9c5cfd43beb3b254e3fb8741eba9378d66832a1b57f9caf11eac7ef20815d"
+            },
+            "decodedRGBAsha256": "a253fb1b947ace087c882485df7cba9db34639c4dfc5fa3c16b6430e2da2fef1",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-07-create.json",
+            "sha256": "623bdfd8267e3f31370b6588d6bac46fa1461f19f6c7daf68a0b002bc32638a8"
+          },
+          {
+            "path": "local-only/atlas-07-pixels-01.json",
+            "sha256": "2067b974d9ee47fd62f3c9744e4882e66bc8e2250289828a647c25b9bbfe8f0d"
+          },
+          {
+            "path": "local-only/atlas-07-pixels-02.json",
+            "sha256": "1540b4a7623e89e760a830ea029c39c6610361abfaae1b72203d5fe01a692088"
+          },
+          {
+            "path": "local-only/atlas-07-validate.json",
+            "sha256": "e2e12253ebeab78700ff70c2ed31f1e4d56f0210788a6b105e6c9db2cfd7ae21"
+          },
+          {
+            "path": "local-only/atlas-07-bundle.json",
+            "sha256": "0263ec8f9c58740e138c3e0f9cc3a9151813a5cdfff233e526d4ad5ea8675319"
+          }
+        ],
+        "decodedRGBAsha256": "a253fb1b947ace087c882485df7cba9db34639c4dfc5fa3c16b6430e2da2fef1",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 27141,
+        "base64Bytes": 36188,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "bda5779091e292b27b2052129948a048c1ba145db1c150eb12599d63ecfcbaf6"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-07-r2.png"
+      },
+      {
+        "index": 8,
+        "sourceRole": "distance-roof-sand",
+        "clone": "W01AlbedoAtlas08",
+        "uvMap": "W01AlbedoUV08",
+        "ownerFaceSubset": [
+          {
+            "owner": "CentralTurret",
+            "nativeFaces": [
+              6
+            ]
+          }
+        ],
+        "jobId": "7f63fb7b-bf3e-4e96-8870-454e13c335e3",
+        "revision": 1,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "92d9a05fec112515dfe4f5fe009048b59ede147ba90b265be21039ccccbf782d"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "4324b7db8eb75922ad516271d061b02e3124612ae5d4f6f88cf2b3f258756422"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "f555e294247c8790f17bc21b66e7592e6125644a1c9e766005a9c935fcb06176"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "e165b3b41ce3355ff7392285fae35e4177f477b7ea90035678f8d7a93f8026c5"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "92d9a05fec112515dfe4f5fe009048b59ede147ba90b265be21039ccccbf782d"
+            },
+            "decodedRGBAsha256": "4b9681878128f3c476631db8a8fc63f9fd4f3cc997a732a06b9870d0d60af265",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-08-create.json",
+            "sha256": "c6276eb0cc59b6d58ce67cc29217e6b5615c32e3f1c5f9531646f06ed4c458f9"
+          },
+          {
+            "path": "local-only/atlas-08-pixels-01.json",
+            "sha256": "7cfe3346595cea11ee873830e835ba6eae86d338620fe64da2091fdd5e169b4d"
+          },
+          {
+            "path": "local-only/atlas-08-validate.json",
+            "sha256": "c45f152a17e667c7f109451b912675721e27812ee46b31ff7adf1c46cfee651c"
+          },
+          {
+            "path": "local-only/atlas-08-bundle.json",
+            "sha256": "717470bd6ed7d609e05b6826ced45474e46199bce1463fd396cd7f73b095647f"
+          }
+        ],
+        "decodedRGBAsha256": "4b9681878128f3c476631db8a8fc63f9fd4f3cc997a732a06b9870d0d60af265",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 4935,
+        "base64Bytes": 6580,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "eaf02665eacf7c6a8c25ca754b47da8224896e428c3c60adb19c7b242bf6654b"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-08-r1.png"
+      },
+      {
+        "index": 9,
+        "sourceRole": "review-light-paint",
+        "clone": "W01AlbedoAtlas09",
+        "uvMap": "W01AlbedoUV09",
+        "ownerFaceSubset": [
+          {
+            "owner": "LeftStowage",
+            "nativeFaces": [
+              0,
+              5
+            ]
+          },
+          {
+            "owner": "LeftTurretCheek",
+            "nativeFaces": [
+              2,
+              7
+            ]
+          },
+          {
+            "owner": "RightStowage",
+            "nativeFaces": [
+              2,
+              3,
+              5
+            ]
+          },
+          {
+            "owner": "RightTurretCheek",
+            "nativeFaces": [
+              2,
+              7
+            ]
+          }
+        ],
+        "jobId": "98c7b36c-0edc-4dd1-9dac-6fbb236dd638",
+        "revision": 1,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "df699a0ead9e5215f35b0515760da747862c1c72ec4ea90110c8ccc5e2d292a0"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "3e40a60ae78ed444c6ce48b63ca2694039e1ef09345f76cc601999592aa67e7c"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "0894d6368f04a83345d8f61b2e59966e0a04b0675746566edc82ec38bc9d1ea1"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "2deb673ac5b20462c56fc0ce02e1c4f9f7de8a39fc8da6d7b4536bf4eee8e933"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "df699a0ead9e5215f35b0515760da747862c1c72ec4ea90110c8ccc5e2d292a0"
+            },
+            "decodedRGBAsha256": "eaaa6ae7093464a688e68f7d9d46d919fd9f072cbdc27d000d33e53b9535d0d2",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-09-create.json",
+            "sha256": "f2b15b506266f1252e475ddca8f2c62ed5820f55553a25f49879013796ba89f2"
+          },
+          {
+            "path": "local-only/atlas-09-pixels-01.json",
+            "sha256": "4d0c9b506367d90c756bb5265bacfa79cb74fd730a2e4cc53bfdeb0314012b54"
+          },
+          {
+            "path": "local-only/atlas-09-validate.json",
+            "sha256": "9629b6cd17200e957acbb660421280a2fa96a90a71ea4644dd227809287d28df"
+          },
+          {
+            "path": "local-only/atlas-09-bundle.json",
+            "sha256": "e8e7a8843eb7af1fb7e3a0f403817e597480214fbf5ace7f3dc3b46089062ffb"
+          }
+        ],
+        "decodedRGBAsha256": "eaaa6ae7093464a688e68f7d9d46d919fd9f072cbdc27d000d33e53b9535d0d2",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 21591,
+        "base64Bytes": 28788,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "bb839f9ff6cc0995462231845898de86fa6c36ed7e30017215fad9eab0ae98c6"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-09-r1.png"
+      },
+      {
+        "index": 10,
+        "sourceRole": "distance-hatch-sand",
+        "clone": "W01AlbedoAtlas10",
+        "uvMap": "W01AlbedoUV10",
+        "ownerFaceSubset": [
+          {
+            "owner": "CommanderHatchLid",
+            "nativeFaces": [
+              33
+            ]
+          },
+          {
+            "owner": "LoaderHatchLid",
+            "nativeFaces": [
+              33
+            ]
+          }
+        ],
+        "jobId": "171a8e12-936e-4ac7-ba0c-59587661bf26",
+        "revision": 1,
+        "canonical": {
+          "path": "local-only/canonical.png",
+          "sha256": "b9ad92c766f62872763186411b285fdab804987340832dd4215b2ad71f32f0eb"
+        },
+        "bundle": {
+          "path": "local-only/manifest.json",
+          "sha256": "cbde6924323dc34fd9efa632c097e3a66362b20f7642666ff984ada75aa7d49d"
+        },
+        "job": {
+          "path": "local-only/job.json",
+          "sha256": "ade3e67fb00c7690955d66022365d24accac4a5fdf5e3e1d0cbce0b81a8b45db"
+        },
+        "source": {
+          "path": "local-only/canonical.png",
+          "sha256": "28cf4a659f60ab143fad257a939af2eba067df5821f16944350749b8876afad9"
+        },
+        "revisions": [
+          {
+            "revision": 1,
+            "image": {
+              "path": "local-only/1.png",
+              "sha256": "b9ad92c766f62872763186411b285fdab804987340832dd4215b2ad71f32f0eb"
+            },
+            "decodedRGBAsha256": "776f522d59f713597f7bd337ed19c9d38e856ab27d59bb2cb37d310b49e85ff9",
+            "expectedPixelsExact": true
+          }
+        ],
+        "receipts": [
+          {
+            "path": "local-only/atlas-10-create.json",
+            "sha256": "18e7e6a18b4f489884e7fe629543cc96c65998ab3efe5fac3cb90313a0034f01"
+          },
+          {
+            "path": "local-only/atlas-10-pixels-01.json",
+            "sha256": "b7190ba2d52472fe034ad222fa8281b472e1c500cff09cc48f88237219d908a8"
+          },
+          {
+            "path": "local-only/atlas-10-validate.json",
+            "sha256": "b8c8e102b999a4b21bb58b27d1c1a30d2ed4aad1af1a6ec0cfcac2ac2ee377be"
+          },
+          {
+            "path": "local-only/atlas-10-bundle.json",
+            "sha256": "9a6d1086fce706f18153fafb7821daff60fbc71b8d2cf284475fafb5e65f13e0"
+          }
+        ],
+        "decodedRGBAsha256": "776f522d59f713597f7bd337ed19c9d38e856ab27d59bb2cb37d310b49e85ff9",
+        "IHDR": [
+          1020,
+          256,
+          8,
+          6,
+          0,
+          0,
+          0
+        ],
+        "allOpaque": true,
+        "sRGB": true,
+        "encodedBytes": 18642,
+        "base64Bytes": 24856,
+        "audit": {
+          "path": "local-only/audit.ndjson",
+          "sha256": "ac72f6d86338d1e9ecde0993244fc02990eb14328f6feea0194cf3bc4344948a"
+        },
+        "freshRevision0ReceiptAndGlobalKeyMappingExact": true,
+        "archivedCanonical": "atlases/atlas-10-r1.png"
+      }
+    ],
+    "producerReceiptsVerified": 44,
+    "pixelRevisionsVerified": 14,
+    "finalRevisions": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      3,
+      2,
+      1,
+      1,
+      1
+    ],
+    "totalEncodedPNGBytes": 224680,
+    "totalBase64Bytes": 299584,
+    "limits": [
+      "Actual images are verified complete and candidate-awaiting-approval, not approved.",
+      "Audit-chain links/head checked; hash algorithm not independently reimplemented.",
+      "Filtering/scale and original source naturalness remain for actual assembled PBR.",
+      "No PNG/producer/model writes. Prior nine whole attempts remain charged; no tenth model created by this audit."
+    ]
+  },
+  "operationPayload": {
+    "path": "local-only/albedo-final-operations-v1.json",
+    "sha256": "045988c80b029364f14a2a96ed7db3e12b1fdb7bf4ed7b7ce0e000e3b09d0e74"
+  },
+  "independentGate": {
+    "path": "local-only/actual-ten-final90-gate-closure-v1.json",
+    "sha256": "292c64ec4fb52157401ef74148dcaf541a0ac704367f1a76aeb6cd1ca5527588"
+  },
+  "selectedSourceRecipe": {
+    "path": "local-only/albedo-selected-index-v2.json",
+    "sha256": "e1f18650510c05e98b2f0a50fdcc0e2c4895eb5f7b68d48bebcc0fde70d0f89a"
+  },
+  "method": "One world-source albedo field;4x4 tangent-plane area samples; ten charts separated by distinct-face color conflicts. Public typed FormSeed2D batches produced exact PNGs. CPU filtering limits retained; actual model evaluation CORRECT.",
+  "limits": [
+    "Staged/import-normalized/resized PNG hashes differ intentionally and are not interchangeable.",
+    "No third-party photo pixels incorporated or redistributed.",
+    "No new generation for atlas authoring; all ten are public typed FormSeed2D raster outputs.",
+    "Canonical atlas bytes are original producer outputs, not post-edited images."
+  ]
+}

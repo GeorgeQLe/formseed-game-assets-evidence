@@ -1,0 +1,236 @@
+{
+  "candidate": {
+    "jobId": "1d564a9e-2f71-4fad-82b2-69933d24a603",
+    "revision": 1,
+    "checkpointHash": "07fa0181cb90d95099d272384a01d28251a9ae29a57e4a92e085ff7688ac258f",
+    "glbSha256": "4d661e5283a0d14609db53b188ce60a5b43c2c43eb2f61ef3dfce06b8416be8f"
+  },
+  "history": {
+    "priorWholeFinishAttempts": 9,
+    "thisActualOrdinal": 10,
+    "logicalRevision": "r9",
+    "reset": false,
+    "sourceConceptGenerationsUsed": 1,
+    "sourceConceptMaximum": 2
+  },
+  "technicalValidation": "PASS",
+  "visualRecommendation": "CORRECT",
+  "rootDecision": {
+    "decision": "CORRECT",
+    "retainAs": "Working fallback/reference, not finished art",
+    "authority": "Root actual-image review; not human approval",
+    "reasons": [
+      "Coverage improvement and natural interior source irregularity are retained.",
+      "Residual hard borders and warm/brown vertical surfaces remain."
+    ],
+    "nextAction": "One correction plan requested for independent challenge; no new source recipe/PNG/model/generation authored by reviewer.",
+    "priorActualReview": {
+      "path": "local-only/actual-whole-r9-review-manifest-v1.json",
+      "sha256": "91d3e6ed6f5918d1d320f659b06a9d9ec1ad44944682f396bb5d0ea52e62eeb4"
+    },
+    "history": {
+      "actualWholeFinishCount": 10,
+      "logicalRevision": "r9",
+      "sourceGenerationUsed": 1,
+      "sourceGenerationMaximum": 2,
+      "reset": false
+    },
+    "humanApproval": false
+  },
+  "actualReviewer": {
+    "cliVersion": "2.1.311",
+    "executable": "local-only/claude",
+    "requestedModel": "claude-opus-5-5",
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "mode": "read-only Read tool, outside sandbox, authorized existing review workflow",
+    "session": 17292,
+    "observedProcessExitCode": 0,
+    "isError": false,
+    "subtype": "success",
+    "durationMs": 93094,
+    "turns": 29,
+    "rawOutput": {
+      "path": "local-only/opus-whole-r9-output-v1.json",
+      "sha256": "4ab949df8b0e38987e5b3713ae734c6176c808488ca2be839fd2962f377ffe8f"
+    },
+    "stderr": {
+      "path": "local-only/opus-whole-r9-stderr-v1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "prompt": {
+      "path": "local-only/opus-whole-r9-prompt-v1.txt",
+      "sha256": "04ffb6227671b7456289f131e85fcaa923a93a15f71aa11bfad6a584159416fb"
+    },
+    "reviewerPreludePreserved": "I've opened all 27 images and am writing up the review now.\n\n",
+    "imageOpeningEvidence": "Reviewer self-reports all27 image paths; output format does not expose per-tool event trace. Independent controller hashed all27 and inspected8 current views plus prior r8right.",
+    "cleanup": "CLI exited0; no task browser opened by reviewer. F capture all task-owned browser/profile/server cleanup verified."
+  },
+  "actualFindings": {
+    "disposition": "KEEP_WORKING",
+    "finishedArtReady": false,
+    "overallReason": "r9 is a real improvement on r8 and should replace r8 as the working base. The formula-made gray oval halos are gone. Inside the burned areas, the old flat dark fill is now irregular soot with gray ash speckle, and at 1000 on the top and rear-three-quarter views it reads as burned coating rather than a stamped pattern. The main problem is not fixed, though. Where the burn meets intact paint, the edge is still a hard two-tone line. The tan islands have large, rounded, lobed shapes, especially on the turret side and bustle in the front-three-quarter, rear-three-quarter and right views. There is no band of heat-dulled, blistered, bleached or flaking paint at the edge. The burned area also stops along physical panel lines. As a result, the whole model still reads as dark-brown-on-tan camouflage, close to a cow-hide pattern, more than as fire damage. At 256 and 128 the soot detail is mostly lost and the two-tone camouflage read takes over. A stair-stepped, blocky mask edge is also clearly visible on the top view. The work has moved forward but is not finished art.",
+    "inspectedImages": [
+      "review-evidence-summary-v1.json",
+      "w01-f2d-source-albedo-r9-pbr-20261101/1000-front-three-quarter.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/1000-rear-three-quarter.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/1000-front.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/1000-left.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/1000-right.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/1000-top.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/256-front-three-quarter.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/256-rear-three-quarter.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/256-front.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/256-left.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/256-right.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/256-top.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/128-front-three-quarter.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/128-rear-three-quarter.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/128-front.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/128-left.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/128-right.png",
+      "w01-f2d-source-albedo-r9-pbr-20261101/128-top.png",
+      "w01-f2d-surface-r8-pbr-20261031/1000-top.png",
+      "w01-f2d-surface-r8-pbr-20261031/1000-right.png",
+      "w01-f2d-surface-r8-pbr-20261031/1000-rear-three-quarter.png",
+      "w01-f2d-surface-r8-pbr-20261031/256-top.png",
+      "w01-f2d-surface-r8-pbr-20261031/256-right.png",
+      "w01-f2d-surface-r8-pbr-20261031/128-rear-three-quarter.png",
+      "abrams-condition-evidence-20261029/usmc-hansen.jpg",
+      "abrams-condition-evidence-20261029/doha-i14.png",
+      "formseed/.formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/bundles/1/canonical.png"
+    ],
+    "sizeFindings": {
+      "1000": "Best views: top and rear-three-quarter. The rear deck, grille area and turret roof show mottled brown-black soot with gray-taupe residue. There are no oval halos, and the result reads as burned surface. Weakest views: front-three-quarter and right. On the front-three-quarter turret side and bustle (about x180-340, y470-590) there are large, rounded tan islands with crisp edges inside the dark area, which reads as cow-hide camouflage. On the right view, the burned rear skirt is a dark rectangle ending in a straight vertical edge at about x350. The top view shows stair-stepped, pixel-block edges where dark meets tan on the right side of the roof and fender (about x605-655, y215-420), and at the left fender notch (about x370-385, y280-300). The front view is almost entirely clean tan. The left view is clean except for the rear deck and bustle, where the bustle's dark area also has lobed tan edges (about x690-780, y525-570).",
+      "256": "The soot speckle mostly averages out into flat dark brown. The rear-three-quarter and top still read as a burned rear half. On the right view, the rear skirt and turret side read as a two-tone dark/tan block pattern. Tan blotches on the turret side are visible on the front-three-quarter. The halos from r8 are no longer visible at this size. The top-view stair-steps soften into an uneven edge.",
+      "128": "Reads as a tank with a dark rear and tan front. It is identifiable as damaged, but the damage is mainly a value split. On the front-three-quarter and right views at 128, the turret-side blotches read as camouflage or mud. Front and left read as almost pristine. No new artifacts at this size, but the burned-coating read is weak."
+    },
+    "targetFindings": {
+      "naturalAlbedo": "Inside the burn mask: improved. The fine soot mottling and gray residue are believable at 1000 on horizontal surfaces. The color leans warm brown rather than neutral carbon black. At the burn edge: not natural. Value jumps from intact tan to near-black with no heat-dulled, bleached or blistered paint between them.",
+      "priorGrayHalos": "Resolved. Comparing the 1000/256 top and 1000 rear-three-quarter views against r8, the circular and oval gray halos on the roof hatches, deck and bustle are gone. In their place is speckled residue spread across the area.",
+      "lowerRightStripeAndWedge": "Partly resolved, and mostly by recoloring. In r8, a long dark band ran along the upper rear skirt with tan below it, forming a wedge. In r9, the rear skirt faces are filled solid dark with soot texture, so the stripe and wedge are gone. However, the dark area now ends at a straight vertical edge at about x350 (1000-right) and about x95 (256-right). The dark gray block from about x350-435 is the same in r8 and is probably a physical part or opening, not part of the mask. A faint light dashed horizontal line remains at about y607 across the burned skirt (1000-right). I can't tell from pixels whether this is physical trim or an atlas edge. The skirt boundary is now a different abrupt edge, not a natural one.",
+      "coverageContinuity": "The roof and rear deck now have continuous, coherent coverage, which is better than r8. The front half of the turret roof and the hull front stay clean, with hard edges (top view, about y455; front-three-quarter, turret roof x440-560). Coverage still changes at face and panel boundaries rather than flowing across them. The left and right sides are strongly asymmetric. That may be intended, but it makes the right side look painted on.",
+      "brownMudOrCoarseMass": "At 1000, the source's lichen-like gray clusters have been scaled down into fine speckle and do not read as coarse masses. The base hue is warm brown, and where it fills large flat side faces (right-view skirt, front-three-quarter bustle side) it reads partly as brown mud or leather rather than carbon soot. At 128/256 it reads as flat dark brown.",
+      "filterAndChartSeams": "I saw no clear chart-tile seams inside the soot areas at 1000. The stair-stepped, blocky boundary on the top view (right roof edge and fender) is a visible sampling or mask-resolution artifact. I can't identify the face IDs or confirm the exact cause from pixels. I didn't see texture stretching on vertical faces at 1000. The dashed light line on the right-view skirt is uncertain.",
+      "regressions": "No change to geometry or silhouette was visible. The top-view stair-step boundary is new or more noticeable than in r8, where the boundary was softer and lobed. The burned area is overall darker and browner than r8, which makes the burned-versus-clean contrast stronger. I found no other regressions."
+    },
+    "comparisonWithR8": "r9 is better than r8. The gray halos are gone, the burned area has texture where r8 had flat fill, the skirt stripe and wedge are replaced by full-face coverage, and the roof reads as burned at 1000. Both versions keep the same lobed, cow-hide-like tan islands on the turret side and bustle, with hard edges. Both lack any transition zone. r9 adds stair-step mask edges on the top view. At 128 the two are hard to tell apart.",
+    "sourceReferenceAssessment": "Hansen 2003 shows heat-darkened areas spread across the whole vehicle, mixed with pale bleached panels, light-gray ash, ragged flaking edges, and residual paint broken into small irregular patches. Doha I-14 shows near-black skirts with irregular, scalloped, peeling edges and pale scorched bands between burned and intact areas. r9 matches neither reference's boundary character. Its tan islands are large, smooth and rounded, and it has no pale or bleached transition. Inside the burned areas, r9 is closer to the references than r8 was. The synthesized canonical source is acceptable as interior fill. Its warm-brown base and lichen clusters are the source of the mud read on large vertical faces.",
+    "blockingIssues": [
+      {
+        "view": "front-three-quarter",
+        "size": "1000/256/128",
+        "location": "turret left side and bustle side, about x180-340 y470-590 at 1000",
+        "visibleFact": "Large, rounded tan islands with crisp edges inside near-black areas",
+        "confidence": "high",
+        "impact": "The main reason the model reads as camouflage or cow-hide rather than burn damage"
+      },
+      {
+        "view": "right",
+        "size": "1000/256",
+        "location": "rear skirt dark area ending at a vertical edge at about x350 (1000), about x95 (256); turret side lobes at about x210-415 y520-585",
+        "visibleFact": "The burned area is a rectangular block bounded by a panel line. The turret side shows a lobed tan/dark pattern.",
+        "confidence": "high",
+        "impact": "The wedge has been swapped for a different abrupt edge. The side still reads as two-tone paint."
+      },
+      {
+        "view": "top",
+        "size": "1000",
+        "location": "right roof/bustle edge and fender, about x605-655 y215-420; left fender notch at about x370-385 y280-300",
+        "visibleFact": "Stair-stepped, pixel-block edges where dark meets tan",
+        "confidence": "high for being visible, low for the cause",
+        "impact": "A visible artificial edge on the best-performing view"
+      },
+      {
+        "view": "rear-three-quarter",
+        "size": "1000",
+        "location": "turret right side, about x450-560 y560-700; lower rear plate, about x660-880 y800-860",
+        "visibleFact": "Lobed tan intrusions into the soot. The lower rear plate is clean tan directly below fully burned grilles.",
+        "confidence": "medium-high",
+        "impact": "Coverage changes at part boundaries rather than following the logic of the fire"
+      }
+    ],
+    "boundedRecommendations": [
+      "Rework the burn-boundary mask, not the interior fill. Break up the large rounded tan islands on the turret side and bustle (front-three-quarter, right and rear-three-quarter views) into smaller, ragged retained-paint fragments. Add a narrow band of paler, heat-dulled or blistered tan between burned and intact paint, following the transition zones in Doha I-14 and Hansen.",
+      "Fix the stair-stepped boundary on the top view (right roof edge and fender, left fender notch) by sampling or filtering the coverage mask at higher resolution. Then recheck the same view at 1000.",
+      "Make the skirt and turret-side burned areas less of a solid rectangle. Let the burn feather or break up across the vertical edge at about x350 on the 1000-right view and onto the adjacent skirt panel. Shift the soot base on large vertical faces toward a more neutral dark so it reads less like brown mud. Confirm separately whether the dashed light line on the skirt is physical trim."
+    ],
+    "limitations": "Review is based only on pixels from the listed captures. I didn't check face IDs, UVs, atlas layout or hashes, and I can't attribute the stair-steps or the dashed skirt line to a specific face or sampling cause. I didn't open the r8 front-three-quarter, left or front views, so comparisons for those views are inferred from r9 alone. The references are used for appearance only. This review grants no human approval and no finished-art sign-off.",
+    "humanApproval": false
+  },
+  "controllerObservations": {
+    "scope": "Independent controller direct-image observations before receiving Opus findings",
+    "inspected": [
+      {
+        "path": "local-only/1000-right.png",
+        "sha256": "5381c3e4e8ca1e62861afa36d4a912885a7f3828d17faad3e073d2bb3111527b"
+      },
+      {
+        "path": "local-only/1000-top.png",
+        "sha256": "721b37f31bc784cfc42ddfa1fae065ad8e201aac2ce92612fbb959e6a73ce2c4"
+      },
+      {
+        "path": "local-only/1000-left.png",
+        "sha256": "785e3c0b28fc960749225f365aa77727928620608d2ec21e915d62318be762e5"
+      },
+      {
+        "path": "local-only/1000-front-three-quarter.png",
+        "sha256": "11994c00bc3e245c1e9b09e311eaf9827ed5af56d039ed3a52d41458fdd46fdf"
+      },
+      {
+        "path": "local-only/1000-rear-three-quarter.png",
+        "sha256": "855417abec58fee57024ab28125e2e346ae574b1251a5da1c60d780545f21d50"
+      },
+      {
+        "path": "local-only/256-right.png",
+        "sha256": "c7025ae81955c799d162eb6372787c91165b78524dab6e6c2ce4bb04876908d2"
+      },
+      {
+        "path": "local-only/256-top.png",
+        "sha256": "6eabbf097b23b1d5f6c8b496d12b27e4a2b3eb86691569833d8f9d8c22bf0967"
+      },
+      {
+        "path": "local-only/128-rear-three-quarter.png",
+        "sha256": "9c1234802688a709f7dd1063cb61804b7bf1ca4478be4f4afddb75fb8c359140"
+      }
+    ],
+    "priorCompared": {
+      "path": "local-only/1000-right.png"
+    },
+    "observations": [
+      {
+        "view": "1000-right",
+        "fact": "Previously narrow sloped black side stripe now joins broad dark rear skirt coverage; it no longer reads as an isolated thin wedge. The front boundary is panel-aligned and abrupt, so a separate raw-pixel seam claim is not supported.",
+        "qualification": "Exact P12/right-fender scope known from actual native/GLB audit; no new geometry."
+      },
+      {
+        "view": "1000-top/rear-three-quarter",
+        "fact": "Dark brown/gray mottling replaces the former soft oval gray halos. The deck has a less uniform appearance and is connected across substantial rear coverage. It still reads quite dark with some coarse gray source masses."
+      },
+      {
+        "view": "1000-left/front-three-quarter",
+        "fact": "Jagged near-vertical/stencil-like burn/paint transitions remain. On left stowage a thin lower black region remains beneath a large clean tan region; no heat-direction inference."
+      },
+      {
+        "view": "1000-top/rear-three-quarter",
+        "fact": "Bright clean panel perimeter/hatch/trim lines remain conspicuous over the dark roof. Those are physical source components/material roles, not proven texture bleed."
+      },
+      {
+        "view": "256-right/256-top/128-rear-three-quarter",
+        "fact": "Rear-vs-front condition difference and substantial dark coverage survive; fine albedo detail is largely lost. This is not proof of final burn readability."
+      }
+    ],
+    "provisionalAssessment": "Substantive improvement over r8 in source texture irregularity and side coverage; finished-art readiness remains for actual reviewer/root assessment. No mutation recommended by this observation record.",
+    "attemptOrdinal": 10,
+    "humanApproval": false
+  },
+  "qualifications": [
+    "Opus relative working retention is not final finish/human approval.",
+    "Reviewer labels a turret side left in front-quarter; exact handedness/face IDs not independently established from that prose. Use identified view/region instead.",
+    "Burn-boundary recommendations are art direction informed by photographic appearance, not measured heat/chemical mechanisms or a requirement to recreate all reference damage.",
+    "Some bright source trim/edges are preserved physical components; no texture defect inferred from their light value alone.",
+    "No fresh 2D/3D source studies or mutations performed after candidate review."
+  ],
+  "humanApproval": false,
+  "sourcePromotion": false
+}

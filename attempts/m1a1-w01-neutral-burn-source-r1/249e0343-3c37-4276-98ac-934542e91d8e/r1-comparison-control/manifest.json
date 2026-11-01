@@ -1,0 +1,67 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-w01-neutral-burn-source-r1",
+  "project": "formseed-game-assets",
+  "producer": {
+    "kind": "formseed2d",
+    "buildVersion": "1.6.0"
+  },
+  "job": {
+    "jobId": "249e0343-3c37-4276-98ac-934542e91d8e",
+    "revision": 1
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f",
+    "files": [
+      {
+        "path": "source/neutral-canonical-r1-512.png",
+        "sha256": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f",
+        "bytes": 380738
+      },
+      {
+        "path": "metadata/neutral-source-lineage.json",
+        "sha256": "dfd03aa73580ab4b8939f6f7ccb71d8c1661e82547b3329d1ef4f260da837f35",
+        "bytes": 13812
+      },
+      {
+        "path": "metadata/neutral-source-technical.json",
+        "sha256": "53f5f1c5558bea25320669ca84b44557049b3d9303f38ca1a28f3952ea60a5a9",
+        "bytes": 2224
+      },
+      {
+        "path": "metadata/neutral-source-decision.json",
+        "sha256": "3c57ac52936e9ed2ad9339d929d3bac723d4ffd2d1a633c63c2aa651937e9d6b",
+        "bytes": 1159
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://github.com/GeorgeQLe/formseed-game-assets-evidence/blob/21049631a15143a74a64e073e59aefe7e795a106/attempts/m1a1-w01-concept-burn-albedo-source-r1/2673a19b-2924-462d-a61e-f50ee2328422/r1-comparison-control/source/canonical-r1-512.png",
+        "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+        "author": "FormSeed2D-managed synthesized source, already archived",
+        "license": "CC0-1.0 archive record; no third-party source pixels",
+        "role": "Exact original source for typed saturation25% edit; not a new host generation."
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Actual public FormSeed2D clone of archived512 original followed by one saturation25% typed operation; no generation/brightness/resampling.",
+    "Original source stays archived under evidence commit21049631a15143a74a64e073e59aefe7e795a106, exact6e3b…bytes. This archive includes only the neutral derivative and sanitized lineage/evaluation metadata.",
+    "Root and independent reviewer KEEP-FOR-APPLICATION only; no human/source/model approval or promotion.",
+    "Source concept remains one of maximum two generations. Ten actual whole-model attempts are preserved; this2D edit is not another whole-model attempt.",
+    "512RGBA8 opaque; independent per-pixel HSL quarter-saturation formula matches within half8-bit code rounding.",
+    "No new Opus source review claimed. Final model application still requires exact technical and actual PBR/Opus/root gates."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "candidate": {
+    "jobId": "1d564a9e-2f71-4fad-82b2-69933d24a603",
+    "revision": 1,
+    "checkpointHash": "07fa0181cb90d95099d272384a01d28251a9ae29a57e4a92e085ff7688ac258f",
+    "glbSha256": "4d661e5283a0d14609db53b188ce60a5b43c2c43eb2f61ef3dfce06b8416be8f"
+  },
+  "technicalValidation": {
+    "triangleCount": 31188,
+    "materialCount": 24,
+    "textureCount": 10,
+    "objectCount": 189,
+    "deterministic": true,
+    "issues": [],
+    "renderPaths": [
+      "local-only/front-three-quarter.png",
+      "local-only/rear-three-quarter.png",
+      "local-only/front.png",
+      "local-only/left.png",
+      "local-only/right.png",
+      "local-only/top.png"
+    ],
+    "validationRevision": 1,
+    "checkpointHash": "07fa0181cb90d95099d272384a01d28251a9ae29a57e4a92e085ff7688ac258f",
+    "passed": true,
+    "id": "fcf8b52f-8850-41d1-9d95-b54829787967",
+    "revision": 1,
+    "renderRevision": 1,
+    "renderHash": "67325903136d258212572e1d42950a7a3edff38dd1f74de3b514abfc26c90d03",
+    "contactSheetHash": "768ba26890827f9ff5bc17a791f7a0219ae3d158cea55c4d2b2326c7be361e2b",
+    "createdAt": "2026-11-01T02:35:39.968Z"
+  },
+  "dimensionResult": {
+    "jobId": "1d564a9e-2f71-4fad-82b2-69933d24a603",
+    "revision": 1,
+    "checkpointHash": "07fa0181cb90d95099d272384a01d28251a9ae29a57e4a92e085ff7688ac258f",
+    "specificationHash": "7cde7fe18e5431aae49348e9db0aa5a1393d403eff0a1c253bc9a578bba403db",
+    "resultHash": "8fad8614c8a4fcd99a4d09276d0932c95b0ce7cac010b6f54769a24ea1283ec1",
+    "validationScope": {
+      "policy": "configuration-and-pose",
+      "canonical": true,
+      "declaredCriterionIds": [
+        "datum:hull-rear:X",
+        "datum:hull-source-origin:X",
+        "datum:hull-source-origin:Y",
+        "datum:hull-source-origin:Z",
+        "datum:muzzle:X",
+        "datum:track-ground:Z",
+        "grounding:track-ground",
+        "origin:X",
+        "origin:Y",
+        "origin:Z",
+        "overall-height",
+        "overall-length",
+        "overall-width",
+        "pivot:X",
+        "pivot:Y",
+        "pivot:Z"
+      ],
+      "applicableCriterionIds": [
+        "datum:hull-rear:X",
+        "datum:hull-source-origin:X",
+        "datum:hull-source-origin:Y",
+        "datum:hull-source-origin:Z",
+        "datum:muzzle:X",
+        "datum:track-ground:Z",
+        "grounding:track-ground",
+        "origin:X",
+        "origin:Y",
+        "origin:Z",
+        "overall-height",
+        "overall-length",
+        "overall-width",
+        "pivot:X",
+        "pivot:Y",
+        "pivot:Z"
+      ],
+      "excludedCriterionIds": []
+    },
+    "aggregate": {
+      "passed": true,
+      "complete": true,
+      "reproducible": true,
+      "internallyConsistent": true,
+      "expectedBlockingCriterionCount": 16,
+      "reportedBlockingCriterionCount": 16,
+      "passedBlockingCriterionCount": 16,
+      "blockingFailureCriterionIds": []
+    }
+  },
+  "glbSummary": {
+    "preservedMeshCount": 127,
+    "preservedAllMappedNodeTransforms": 185,
+    "exactPositionCornerNormalOrientedTriangleMultiplicity": true,
+    "exactSourceParentsLocalAndWorldMatrices": true,
+    "sourceTriangleCount": 31188,
+    "originalExportMaterialDefinitionsExact": 14,
+    "embeddedImagesExact": {
+      "0": "36309f6f3c0adadedbe3cb15745867b21011d5bb0c57721643c6a17b127c3206",
+      "1": "2e5bc945e33861aeaf21f7d2b8b0c6520bc99a22be72a02571ff069468267bb0",
+      "2": "cca3f4b36ba7202a8076aa68b3f58ad0f3cf303d7a5e755a33c8ccb47ba61eb8",
+      "3": "e753c8f2c3388f4fb239eb308bb80223b122e9603de1bbd330b921491d5fba4a",
+      "4": "db3738dd5719578b7ff5f29c78b8db33842475a75d1ac56f7047a8ef98f5df9a",
+      "5": "6cb9c5cfd43beb3b254e3fb8741eba9378d66832a1b57f9caf11eac7ef20815d",
+      "6": "0ccb453a2548060b366416870ba08fb8b39850f26f7cdc8fd6275ae802989ea8",
+      "7": "92d9a05fec112515dfe4f5fe009048b59ede147ba90b265be21039ccccbf782d",
+      "8": "df699a0ead9e5215f35b0515760da747862c1c72ec4ea90110c8ccc5e2d292a0",
+      "9": "b9ad92c766f62872763186411b285fdab804987340832dd4215b2ad71f32f0eb"
+    },
+    "mappedNativeFaces": 183,
+    "mappedExportTriangles": 519,
+    "maximumUvProjectionError": 7.480852382002467e-08,
+    "channels": {
+      "W01AlbedoAtlas06": [
+        0
+      ],
+      "W01AlbedoAtlas07": [
+        0,
+        1
+      ],
+      "W01AlbedoAtlas08": [
+        2
+      ],
+      "W01AlbedoAtlas02": [
+        0,
+        1
+      ],
+      "W01AlbedoAtlas03": [
+        1,
+        2
+      ],
+      "W01AlbedoAtlas04": [
+        1,
+        2,
+        3
+      ],
+      "W01AlbedoAtlas05": [
+        2,
+        3
+      ],
+      "W01AlbedoAtlas10": [
+        0
+      ],
+      "W01AlbedoAtlas01": [
+        0
+      ],
+      "W01AlbedoAtlas09": [
+        0
+      ]
+    },
+    "perOwnerFinalMaterialTriangleCountsMatch": true,
+    "actualChannelsEqualIndependentPredictedPermutations": true,
+    "limits": [
+      "Nearest raw texture sample counts are technical witnesses, not rendered visible pixel counts or an art verdict.",
+      "Original material shader graphs/face role/UV native parse is independently reported by M; this proof covers actualGLB geometry, PBR links, image hashes and selectedchannel projection.",
+      "Workbench native receipt uses material-color studio inspection; shader-aware PBR views are the appearance evidence.",
+      "Nine prior W01 finish attempts remain charged; this is tenth actual candidate r9. No producer mutation or appearance change."
+    ]
+  },
+  "proofs": {
+    "independentGLB": {
+      "path": "local-only/actual-r9-glb-binding-audit-v1.json",
+      "sha256": "28af49fe5354487e47e5d2a32e7f252eca1698758a72a83cc56588ba94b7194b"
+    },
+    "independentNativeByM": {
+      "path": "local-only/world-r9-actual-native-diagnosis-v1.json",
+      "sha256": "399b28a8a166c631bb96ede983788d86f5dfea433e1c6c28ac2bbf33af759072"
+    },
+    "capture": {
+      "path": "local-only/capture-integrity-v1.json",
+      "sha256": "9d3501327d18935407611b8f816529a2a2b8a1535f8fedcabe132af674e009cb"
+    },
+    "captureManifest": {
+      "path": "local-only/render-evidence.json",
+      "sha256": "f3a090c8b8c63605ef24888ebcd97c030d8ada4a789c732c8970039663cef99b"
+    },
+    "inputImagePins": {
+      "path": "local-only/review-image-input-pins-v1.json",
+      "sha256": "ec47f92b8836e071f4847782c5096f1c3dbc3d0962933bf5f39e5fc76ed9a031"
+    },
+    "controllerObservations": {
+      "path": "local-only/controller-visual-observations-v1.json",
+      "sha256": "a6c0eae9c54d15373e9cc25b6dacb6b7dc36f5d48aa1b4f9e4893196e836d2b9"
+    },
+    "actualOpus": {
+      "path": "local-only/opus-whole-r9-findings-v1.json",
+      "sha256": "78573dff7138c81395d641bf34e0d84fa1b1283a2490fe33eb6ab61d81c72653"
+    },
+    "reviewerProvenance": {
+      "path": "local-only/claude-readiness-and-completion-v1.json",
+      "sha256": "90c2b9a5d8f8abe8bccc46d3f5dc290cb3edb1b6dc2f94f8a3a73701bf1dbbe7"
+    },
+    "sourceContext": {
+      "path": "local-only/review-evidence-summary-v1.json",
+      "sha256": "6cd9637d33ecf6741b7f1138e800886a1dc210397c301a51a862de98252f1fbb"
+    }
+  },
+  "cleanup": {
+    "captureResourcesVerified": true,
+    "reviewCliCompletedExit0": true,
+    "newProducerLeaseByReviewer": false,
+    "sourcePixelsModifiedByReviewer": false
+  },
+  "technicalSuccessDoesNotApproveArt": true
+}

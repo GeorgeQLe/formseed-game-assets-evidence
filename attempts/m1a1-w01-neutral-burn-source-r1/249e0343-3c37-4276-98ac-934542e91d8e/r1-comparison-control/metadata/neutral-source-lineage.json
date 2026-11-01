@@ -1,0 +1,372 @@
+{
+  "sourceArchive": {
+    "repository": "GeorgeQLe/formseed-game-assets-evidence",
+    "commit": "21049631a15143a74a64e073e59aefe7e795a106",
+    "attemptPath": "attempts/m1a1-w01-concept-burn-albedo-source-r1/2673a19b-2924-462d-a61e-f50ee2328422/r1-comparison-control",
+    "manifestSha256": "dec36b56f86b0ca2d792b44a87fad4dd142a61abf590cb78af6a7535e9d4bc8e",
+    "canonicalRelativePath": "source/canonical-r1-512.png",
+    "canonicalSha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+    "committedManifestVerifiedLocally": true
+  },
+  "concept": {
+    "conceptId": "5a6938b9d6e8717fe79959e3d0d3b7dc76cac805e02c4f8a38d7288e2334f722",
+    "generationAttemptId": "13d0a6f0-5d9f-4599-b2d0-28ea68e3d2b2",
+    "generationsUsed": 1,
+    "maximumGenerations": 2,
+    "newGenerationForThisEdit": false
+  },
+  "actualEdit": {
+    "jobId": "249e0343-3c37-4276-98ac-934542e91d8e",
+    "revision": 1,
+    "source": {
+      "kind": "file",
+      "path": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/bundles/1/canonical.png",
+      "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06"
+    },
+    "operations": [
+      {
+        "type": "saturation",
+        "percent": 25
+      }
+    ],
+    "meaning": "25% of original saturation, not a25% reduction; no brightness change requested",
+    "canonicalSha256": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f",
+    "canonicalBytes": 380738
+  },
+  "publicReceipts": {
+    "create.json": {
+      "receipt": {
+        "path": "local-only/create.json",
+        "sha256": "4d751bab6ccccdc9c1bfb441aac2f1ba88761cb7a5da3318581369556e9c0462"
+      },
+      "data": {
+        "job": {
+          "schemaVersion": "1.0.0",
+          "id": "249e0343-3c37-4276-98ac-934542e91d8e",
+          "name": "M1A1-W01-neutral-burn-albedo-r0",
+          "createdAt": "2026-11-01T02:45:24.092Z",
+          "updatedAt": "2026-11-01T02:45:24.093Z",
+          "revision": 0,
+          "phase": "editing",
+          "source": {
+            "kind": "file",
+            "path": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/bundles/1/canonical.png",
+            "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06"
+          },
+          "revisions": [
+            {
+              "revision": 0,
+              "createdAt": "2026-11-01T02:45:24.092Z",
+              "imagePath": ".formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/revisions/0.png",
+              "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+              "operations": [],
+              "info": {
+                "width": 512,
+                "height": 512,
+                "format": "PNG",
+                "colorspace": "sRGB",
+                "hasAlpha": true,
+                "bytes": 441245,
+                "decodedBytes": 1048576
+              }
+            }
+          ],
+          "idempotency": {},
+          "auditHead": "df9c4316cf761bd9594ec82f619d2383217062e52cc6b9a1d4c6017624d460ae"
+        }
+      }
+    },
+    "saturation-25.json": {
+      "receipt": {
+        "path": "local-only/saturation-25.json",
+        "sha256": "be4cc41222fa8a254580334daf50314fe952f444207a26288d47612eef48360b"
+      },
+      "data": {
+        "job": {
+          "schemaVersion": "1.0.0",
+          "id": "249e0343-3c37-4276-98ac-934542e91d8e",
+          "name": "M1A1-W01-neutral-burn-albedo-r0",
+          "createdAt": "2026-11-01T02:45:24.092Z",
+          "updatedAt": "2026-11-01T02:45:25.178Z",
+          "revision": 1,
+          "phase": "editing",
+          "source": {
+            "kind": "file",
+            "path": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/bundles/1/canonical.png",
+            "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06"
+          },
+          "revisions": [
+            {
+              "revision": 0,
+              "createdAt": "2026-11-01T02:45:24.092Z",
+              "imagePath": ".formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/revisions/0.png",
+              "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+              "operations": [],
+              "info": {
+                "width": 512,
+                "height": 512,
+                "format": "PNG",
+                "colorspace": "sRGB",
+                "hasAlpha": true,
+                "bytes": 441245,
+                "decodedBytes": 1048576
+              }
+            },
+            {
+              "revision": 1,
+              "createdAt": "2026-11-01T02:45:25.178Z",
+              "imagePath": ".formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/revisions/1.png",
+              "sha256": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f",
+              "operations": [
+                {
+                  "type": "saturation",
+                  "percent": 25
+                }
+              ],
+              "info": {
+                "width": 512,
+                "height": 512,
+                "format": "PNG",
+                "colorspace": "sRGB",
+                "hasAlpha": true,
+                "bytes": 380738,
+                "decodedBytes": 1048576
+              },
+              "pixelChanges": {
+                "changedPixels": 262144,
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 512,
+                  "height": 512
+                }
+              }
+            }
+          ],
+          "idempotency": {
+            "abrams-w01-f2d-burn-neutral-saturation25-v1": {
+              "intentHash": "41ece53471d8eae280aee8b8798105fdeb9986f6ef033f554e8d957ea4a12739",
+              "result": {
+                "jobResult": true
+              }
+            }
+          },
+          "auditHead": "61a4f6a6a8ea00890b4343c8770b97021019f0d3b0ac70471192f7601ec4fe6f"
+        }
+      }
+    },
+    "validate.json": {
+      "receipt": {
+        "path": "local-only/validate.json",
+        "sha256": "78599a3ce921e55c8b1b2b6195a0a4dcea95f366fb9d1439e62e84e16bb133ca"
+      },
+      "data": {
+        "job": {
+          "schemaVersion": "1.0.0",
+          "id": "249e0343-3c37-4276-98ac-934542e91d8e",
+          "name": "M1A1-W01-neutral-burn-albedo-r0",
+          "createdAt": "2026-11-01T02:45:24.092Z",
+          "updatedAt": "2026-11-01T02:45:25.703Z",
+          "revision": 1,
+          "phase": "validated",
+          "source": {
+            "kind": "file",
+            "path": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/bundles/1/canonical.png",
+            "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06"
+          },
+          "revisions": [
+            {
+              "revision": 0,
+              "createdAt": "2026-11-01T02:45:24.092Z",
+              "imagePath": ".formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/revisions/0.png",
+              "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+              "operations": [],
+              "info": {
+                "width": 512,
+                "height": 512,
+                "format": "PNG",
+                "colorspace": "sRGB",
+                "hasAlpha": true,
+                "bytes": 441245,
+                "decodedBytes": 1048576
+              }
+            },
+            {
+              "revision": 1,
+              "createdAt": "2026-11-01T02:45:25.178Z",
+              "imagePath": ".formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/revisions/1.png",
+              "sha256": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f",
+              "operations": [
+                {
+                  "type": "saturation",
+                  "percent": 25
+                }
+              ],
+              "info": {
+                "width": 512,
+                "height": 512,
+                "format": "PNG",
+                "colorspace": "sRGB",
+                "hasAlpha": true,
+                "bytes": 380738,
+                "decodedBytes": 1048576
+              },
+              "pixelChanges": {
+                "changedPixels": 262144,
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 512,
+                  "height": 512
+                }
+              }
+            }
+          ],
+          "idempotency": {
+            "abrams-w01-f2d-burn-neutral-saturation25-v1": {
+              "intentHash": "41ece53471d8eae280aee8b8798105fdeb9986f6ef033f554e8d957ea4a12739",
+              "result": {
+                "jobResult": true
+              }
+            },
+            "abrams-w01-f2d-burn-neutral-validate-v1": {
+              "intentHash": "39e846b7c7296f771f807cae8f04e945633feebcd803b19d08ed10d5fc909d22",
+              "result": {
+                "jobResult": true
+              }
+            }
+          },
+          "auditHead": "c4753916e0f06d2ab181e62d48183f713a0ed3d7c388e785a94bfdbe95d3d9e2",
+          "validation": {
+            "revision": 1,
+            "revisionSha256": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f",
+            "validatedAt": "2026-11-01T02:45:25.703Z",
+            "backend": "Version: ImageMagick 7.1.2-22 Q16-HDRI aarch64 bbfc7cba0:20260511 https://imagemagick.org",
+            "checks": [
+              "revision-hash",
+              "png-canonical",
+              "dimensions",
+              "encoded-bytes",
+              "decoded-memory"
+            ]
+          }
+        }
+      }
+    },
+    "bundle.json": {
+      "receipt": {
+        "path": "local-only/bundle.json",
+        "sha256": "9d795556cf871927f7f90a779ccf3506a59e6c7dbba970404015ea6b789eeaa6"
+      },
+      "data": {
+        "job": {
+          "schemaVersion": "1.0.0",
+          "id": "249e0343-3c37-4276-98ac-934542e91d8e",
+          "name": "M1A1-W01-neutral-burn-albedo-r0",
+          "createdAt": "2026-11-01T02:45:24.092Z",
+          "updatedAt": "2026-11-01T02:45:26.165Z",
+          "revision": 1,
+          "phase": "awaiting-approval",
+          "source": {
+            "kind": "file",
+            "path": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/bundles/1/canonical.png",
+            "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06"
+          },
+          "revisions": [
+            {
+              "revision": 0,
+              "createdAt": "2026-11-01T02:45:24.092Z",
+              "imagePath": ".formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/revisions/0.png",
+              "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+              "operations": [],
+              "info": {
+                "width": 512,
+                "height": 512,
+                "format": "PNG",
+                "colorspace": "sRGB",
+                "hasAlpha": true,
+                "bytes": 441245,
+                "decodedBytes": 1048576
+              }
+            },
+            {
+              "revision": 1,
+              "createdAt": "2026-11-01T02:45:25.178Z",
+              "imagePath": ".formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/revisions/1.png",
+              "sha256": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f",
+              "operations": [
+                {
+                  "type": "saturation",
+                  "percent": 25
+                }
+              ],
+              "info": {
+                "width": 512,
+                "height": 512,
+                "format": "PNG",
+                "colorspace": "sRGB",
+                "hasAlpha": true,
+                "bytes": 380738,
+                "decodedBytes": 1048576
+              },
+              "pixelChanges": {
+                "changedPixels": 262144,
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 512,
+                  "height": 512
+                }
+              }
+            }
+          ],
+          "idempotency": {
+            "abrams-w01-f2d-burn-neutral-saturation25-v1": {
+              "intentHash": "41ece53471d8eae280aee8b8798105fdeb9986f6ef033f554e8d957ea4a12739",
+              "result": {
+                "jobResult": true
+              }
+            },
+            "abrams-w01-f2d-burn-neutral-validate-v1": {
+              "intentHash": "39e846b7c7296f771f807cae8f04e945633feebcd803b19d08ed10d5fc909d22",
+              "result": {
+                "jobResult": true
+              }
+            },
+            "abrams-w01-f2d-burn-neutral-bundle-v1": {
+              "intentHash": "1453379b80cce06a87fb8c76f6d64c78b4516399536679897d9ab78b2ae24f15",
+              "result": {
+                "jobResult": true
+              }
+            }
+          },
+          "auditHead": "c20c855e1d1eb3a4564187c99a847ce8f07beb1b8e7600309db3e0d933d9ee0d",
+          "validation": {
+            "revision": 1,
+            "revisionSha256": "88b2afc192aacb801350dcbcc528563ba71bc96ca3685a4b828823ab857c4d7f",
+            "validatedAt": "2026-11-01T02:45:25.703Z",
+            "backend": "Version: ImageMagick 7.1.2-22 Q16-HDRI aarch64 bbfc7cba0:20260511 https://imagemagick.org",
+            "checks": [
+              "revision-hash",
+              "png-canonical",
+              "dimensions",
+              "encoded-bytes",
+              "decoded-memory"
+            ]
+          },
+          "bundle": {
+            "revision": 1,
+            "path": ".formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/bundles/1",
+            "manifestPath": ".formseed2d/jobs/249e0343-3c37-4276-98ac-934542e91d8e/bundles/1/manifest.json",
+            "manifestSha256": "67184e3ba857dadb3ed92a4783d52c613e4a68cbb8f6144100436b38d3fbc699",
+            "builtAt": "2026-11-01T02:45:26.164Z",
+            "derivatives": []
+          }
+        }
+      }
+    }
+  },
+  "newModelAttempt": false,
+  "wholeModelAttemptsRetained": 10,
+  "humanApproval": false
+}
