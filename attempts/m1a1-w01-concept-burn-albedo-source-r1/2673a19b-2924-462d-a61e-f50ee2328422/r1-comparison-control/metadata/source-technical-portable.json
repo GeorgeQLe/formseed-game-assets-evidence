@@ -1,0 +1,172 @@
+{
+  "status": "PASS actual source lineage and decoded bitmap",
+  "conceptId": "5a6938b9d6e8717fe79959e3d0d3b7dc76cac805e02c4f8a38d7288e2334f722",
+  "attemptId": "13d0a6f0-5d9f-4599-b2d0-28ea68e3d2b2",
+  "sourceGenerationBudget": {
+    "used": 1,
+    "max": 2
+  },
+  "wholeModelAttemptsHeld": 9,
+  "canonical": {
+    "path": "local-only/canonical.png",
+    "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06"
+  },
+  "bytes": 441245,
+  "decodedRGBAsha256": "9ffb41a980a8b4ea8ec8fc29e0ecf5a917510d957216b667fab9e678955f9ca3",
+  "width": 512,
+  "height": 512,
+  "bitDepth": 8,
+  "colorType": 6,
+  "allOpaque": true,
+  "pngChunks": [
+    "IHDR",
+    "sRGB",
+    "gAMA",
+    "orNT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IDAT",
+    "IEND"
+  ],
+  "channelPercentiles": {
+    "percentiles": [
+      0,
+      5,
+      50,
+      95,
+      100
+    ],
+    "RGB": [
+      [
+        24.0,
+        21.0,
+        18.0
+      ],
+      [
+        41.0,
+        36.0,
+        31.0
+      ],
+      [
+        57.0,
+        47.0,
+        39.0
+      ],
+      [
+        97.0,
+        89.0,
+        79.0
+      ],
+      [
+        139.0,
+        127.0,
+        116.0
+      ]
+    ]
+  },
+  "stage": {
+    "path": "local-only/f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514.png",
+    "sha256": "f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514"
+  },
+  "importedRevisions": [
+    {
+      "revision": 0,
+      "path": "local-only/0.png",
+      "sha256": "ed553f530ecd8e97d8c55280a54b30239016567e36ed1e59dc8846fe53c59051",
+      "operations": []
+    },
+    {
+      "revision": 1,
+      "path": "local-only/1.png",
+      "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+      "operations": [
+        {
+          "type": "resize",
+          "width": 512,
+          "height": 512,
+          "fit": "contain"
+        }
+      ]
+    }
+  ],
+  "bundleManifest": {
+    "path": "local-only/manifest.json",
+    "sha256": "259fc3107b4bfdac7c3e3773547f943a2f516e2c18da4857568a474b4ad18542"
+  },
+  "receiptPins": {
+    "prepare-v2": {
+      "path": "local-only/prepare-v2.json",
+      "sha256": "3e704a3b2ae944484b4e06eed96d91ff5eb441decfc2458f968121f4ea49c542"
+    },
+    "claim-1": {
+      "path": "local-only/claim-1.json",
+      "sha256": "8fdd9847549b4339e5f0eb172f1c3b5bed4e0ab755c9d142f37aef6e8e0e499e"
+    },
+    "host-response-1": {
+      "path": "local-only/host-response-1.json",
+      "sha256": "f15ba9ad9bd2af8dfddeb8adb59d346033b5e79d933c1e623bc09fb20314e24f"
+    },
+    "complete-1": {
+      "path": "local-only/complete-1.json",
+      "sha256": "5484d392e80441cc4e4b0982ee73591349f7b1dd743776f131180c136c30d41a"
+    },
+    "output-stage-1": {
+      "path": "local-only/output-stage-1.json",
+      "sha256": "a6f22eb46e836f36d6d3d64f5fb644217714fe733c79809bc05b991097f7541e"
+    },
+    "resize-512": {
+      "path": "local-only/resize-512.json",
+      "sha256": "12690876ec00871396ef69aaf4d052e870022c2baa74ed2cf595bf9a7db9fa8f"
+    },
+    "validate-512": {
+      "path": "local-only/validate-512.json",
+      "sha256": "21b0f67052559accd4b965d6157511bd2b6a60c3b7fde2e941da9ef1dfbc952e"
+    },
+    "bundle-512": {
+      "path": "local-only/bundle-512.json",
+      "sha256": "577ff13d11c5c0c7b2a0a320afd236351871410352ddf489c7c28945b175ee27"
+    }
+  },
+  "claims": [
+    "Stage, normalized revision0 and resized revision1 are three distinct encodings/hashes; not conflated.",
+    "RGB percentiles are image code values, not measurements of physical materials or heat.",
+    "No exact two-thirds soot segmentation or absence-of-lighting proof is asserted."
+  ],
+  "controllerVisual": "KEEP-FOR-APPLICATION with limits: natural interlocking gray/dark patches and varied scale are useful; mottled grain and some edge relief-like shading remain. Keep causal coverage independently controlled; no tiling or full-body camouflage reuse.",
+  "samplingPlan": {
+    "sourceFootprintMeters": [
+      1.5,
+      2.0
+    ],
+    "sourceFeaturePixels": [
+      32,
+      64
+    ],
+    "physicalFeatureMeters": [
+      0.09375,
+      0.25
+    ],
+    "approxScreenPixels256": [
+      2.2,
+      5.87
+    ],
+    "approxScreenPixels128": [
+      1.1,
+      2.93
+    ],
+    "limits": "One bounded non-tiled footprint; medium features survive only potentially. Fine grain likely filters out; perspective, occlusion and actual material lighting untested. This corrects the prompt rough estimate3\u20138px/1.5\u20134px."
+  },
+  "noMutation": true,
+  "humanApproval": false
+}

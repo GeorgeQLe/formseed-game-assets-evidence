@@ -1,0 +1,207 @@
+{
+  "candidate": {
+    "jobId": "d673379e-1f16-4c80-aa5f-a7b9a390406a",
+    "revision": 1,
+    "checkpointSha256": "5fb5f1cf2293e0b71d69cf7fb71dcc4821ec300c96a83709c64303cf84239142",
+    "glbSha256": "6b5cddf69264bd00574617900aee4939948c930d8cdc2463930b5e4522e3a53e"
+  },
+  "technicalValidation": {
+    "triangleCount": 31188,
+    "materialCount": 26,
+    "textureCount": 11,
+    "objectCount": 189,
+    "deterministic": true,
+    "issues": [],
+    "renderPaths": [
+      "local-only/front-three-quarter.png",
+      "local-only/rear-three-quarter.png",
+      "local-only/front.png",
+      "local-only/left.png",
+      "local-only/right.png",
+      "local-only/top.png"
+    ],
+    "validationRevision": 1,
+    "checkpointHash": "5fb5f1cf2293e0b71d69cf7fb71dcc4821ec300c96a83709c64303cf84239142",
+    "passed": true,
+    "id": "e0b85b1c-898b-4146-b1da-6f3ea1dfc05e",
+    "revision": 1,
+    "renderRevision": 1,
+    "renderHash": "49f5c2124752617969564d4237e0775a4f1fd7f6dbb7350329f602349ff2c147",
+    "contactSheetHash": "60e486b721c50d7f506c604191ea346f410540820cbf34b0b9a994e439d5d4a1",
+    "createdAt": "2026-11-01T01:40:33.826Z"
+  },
+  "dimensionResult": {
+    "jobId": "d673379e-1f16-4c80-aa5f-a7b9a390406a",
+    "revision": 1,
+    "checkpointHash": "5fb5f1cf2293e0b71d69cf7fb71dcc4821ec300c96a83709c64303cf84239142",
+    "specificationHash": "116e992501394dddc9ae01f7ca0d30e05b0f4a89e680066a81924b20f9dd9d41",
+    "resultHash": "e1f71749297f7cf8157443dd2e9c47fb410cd765c8f3d0689aa798de46a8fec2",
+    "validationScope": {
+      "policy": "configuration-and-pose",
+      "canonical": true,
+      "declaredCriterionIds": [
+        "datum:hull-rear:X",
+        "datum:hull-source-origin:X",
+        "datum:hull-source-origin:Y",
+        "datum:hull-source-origin:Z",
+        "datum:muzzle:X",
+        "datum:track-ground:Z",
+        "grounding:track-ground",
+        "origin:X",
+        "origin:Y",
+        "origin:Z",
+        "overall-height",
+        "overall-length",
+        "overall-width",
+        "pivot:X",
+        "pivot:Y",
+        "pivot:Z"
+      ],
+      "applicableCriterionIds": [
+        "datum:hull-rear:X",
+        "datum:hull-source-origin:X",
+        "datum:hull-source-origin:Y",
+        "datum:hull-source-origin:Z",
+        "datum:muzzle:X",
+        "datum:track-ground:Z",
+        "grounding:track-ground",
+        "origin:X",
+        "origin:Y",
+        "origin:Z",
+        "overall-height",
+        "overall-length",
+        "overall-width",
+        "pivot:X",
+        "pivot:Y",
+        "pivot:Z"
+      ],
+      "excludedCriterionIds": []
+    },
+    "aggregate": {
+      "passed": true,
+      "complete": true,
+      "reproducible": true,
+      "internallyConsistent": true,
+      "expectedBlockingCriterionCount": 16,
+      "reportedBlockingCriterionCount": 16,
+      "passedBlockingCriterionCount": 16,
+      "blockingFailureCriterionIds": []
+    }
+  },
+  "glbSummary": {
+    "preservedMeshCount": 127,
+    "preservedAllMappedNodeTransforms": 185,
+    "exactPositionCornerNormalOrientedTriangleMultiplicity": true,
+    "exactSourceParentsLocalAndWorldMatrices": true,
+    "sourceTriangleCount": 31188,
+    "originalExportMaterialDefinitionsExact": 14,
+    "embeddedImagesExact": {
+      "0": "f4ead085b101de74fbe9d0b996d24b422182a44392f2053d1295b48ff154770b",
+      "1": "7eb2ac50f407fc07838fc3b9ca0e978475b57eb700b0f1e6cae4dc90309f2ccb",
+      "2": "4b974d04ac60dbaf2e23bf9f8449f4a04567a0f7e7c3176506eb824449ad74d9",
+      "3": "f6f13a89a18388cb7ca6e3172635ce647e3e2cf6e39337e37a23b417805f8506",
+      "4": "d7199f3de9073df3ae7a254feb1ef59258db25585877351d853aae0350a7af3d",
+      "5": "46a867f3c28bbbb11dcef04a25185ca3f43c73b8393e73450567cd0b23f5de05",
+      "6": "e67bc689a7fb573cfe899bdd2a83298922b1faf7fefbaac2c926d807cfa5b81f",
+      "7": "3ed129dc2cf5b20940cdd2d1b65aa7cc67cdc0b3721cd7bde268e6cb6d619a11",
+      "8": "bb34b2f7aa37c03934ec6197c3e668be94ca237dbdb34114db65d7ec46abc106",
+      "9": "59e1acc498f54f382c7ae4e75e5961d1ff57ddcc24466cbe17d6fe16dd7325bc",
+      "10": "c8709922ced277c09687156e2850f4d6766944e4886ab70d887b0d7eeb3b0768"
+    },
+    "mappedNativeFaces": 175,
+    "mappedExportTriangles": 503,
+    "maximumUvProjectionError": 7.480852382002467e-08,
+    "channels": {
+      "W01NinthAtlas06": [
+        0
+      ],
+      "W01NinthAtlas08": [
+        1,
+        2
+      ],
+      "W01NinthAtlas07": [
+        0,
+        1
+      ],
+      "W01NinthAtlas09": [
+        3
+      ],
+      "W01NinthAtlas01": [
+        0
+      ],
+      "W01NinthAtlas02": [
+        1
+      ],
+      "W01NinthAtlas04": [
+        1,
+        2
+      ],
+      "W01NinthAtlas05": [
+        1,
+        2,
+        3
+      ],
+      "W01NinthAtlas11": [
+        0
+      ],
+      "W01NinthAtlas10": [
+        0
+      ],
+      "W01NinthAtlas03": [
+        1
+      ]
+    },
+    "solidCupolaFaces": [
+      9,
+      10,
+      11,
+      12,
+      43
+    ],
+    "perOwnerFinalMaterialTriangleCountsMatch": true,
+    "actualChannelsEqualIndependentPredictedPermutations": true,
+    "limits": [
+      "Nearest raw texture sample counts are technical witnesses, not rendered visible pixel counts or an art verdict.",
+      "Original material shader graphs/face role/UV native parse is independently reported by M; this proof covers actualGLB geometry, PBR links, image hashes and selectedchannel projection.",
+      "Workbench native receipt uses material-color studio inspection; shader-aware PBR views are the appearance evidence.",
+      "Eight prior W01 finish attempts remain charged; this is ninth actual candidate r8. No producer mutation or appearance change."
+    ]
+  },
+  "proofs": {
+    "glb": {
+      "path": "local-only/actual-r8-glb-binding-audit-v1.json",
+      "sha256": "9d080d5f1e8b2945588c0564240c7733fc011f23576ef4c11554a03b3db2838c"
+    },
+    "native": {
+      "path": "local-only/world-r8-actual-native-diagnosis-v1.json",
+      "sha256": "8ac48a92f3cdd952c7449c8815c84b58d5f1e52902510c209588d56ae8bbf6d1"
+    },
+    "capture": {
+      "path": "local-only/capture-integrity-v1.json",
+      "sha256": "cc1eca50468cfd25a579dc15185bd76e11eb6f2e6791770361da5949f04d61bd"
+    },
+    "captureManifest": {
+      "path": "local-only/render-evidence.json",
+      "sha256": "10e1abc9dd11b1c27901a751226326504b73282398d0ed0dd6e7d16d242f2fdc"
+    },
+    "sourceContext": {
+      "path": "local-only/review-evidence-summary-v1.json",
+      "sha256": "daf52ff52aa760b3407413efebecd744395907120af8c206b3921e0a1692a4ba"
+    },
+    "controllerDirectVisual": {
+      "path": "local-only/controller-visual-observations-v1.json",
+      "sha256": "2a7065de7ede131392df83e8933e73fc596c3111eb574fa2ed9e792f53c0c229"
+    },
+    "reviewImageInputs": {
+      "path": "local-only/review-image-input-pins-v1.json",
+      "sha256": "a14c9075c1f9933e395790f140ac3fc7d9a3e1176cdddf3472b0a7454cb02e59"
+    }
+  },
+  "cleanup": {
+    "reviewCliExited0": true,
+    "stderrEmpty": true,
+    "captureTaskBrowserProfileServerCleanupVerified": true,
+    "reviewerOpenedNoBrowserOrSimulator": true
+  },
+  "technicalSuccessDoesNotApproveArt": true
+}

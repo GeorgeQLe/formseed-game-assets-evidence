@@ -1,0 +1,436 @@
+{
+  "receipts": {
+    "prepare-v2": {
+      "state": {
+        "contract": "host-concept-handoff@1.0.0",
+        "conceptId": "5a6938b9d6e8717fe79959e3d0d3b7dc76cac805e02c4f8a38d7288e2334f722",
+        "revision": 0,
+        "name": "m1a1-w01-burn-albedo-r0",
+        "brief": "Edit the supplied flat charcoal base-color swatch into the following complete material texture. Keep its square opaque canvas, replace its uniform fill with natural surface variation, and preserve the intended restrained palette. Use case: stylized-concept. Create one square, full-bleed, flat diffuse-color texture for fire-damaged metal on a stylized M1A1 wreck in a 3D strategy game. Show only the surface color, straight on with uniform flat illumination. A connected warm charcoal soot field with irregular ragged patches of heat-dulled neutral-gray substrate, varied smaller flakes and scuffs, and restrained crumbly tonal variation. The damage should feel naturally irregular and layered, with broad and medium detail that survives downsampling. Keep it suitable for a restrained low-poly game material. This is synthesized artwork, not historical evidence or a measured burn map.",
+        "constraints": [
+          "Only a flat albedo source: no perspective, directional light, reflections, cast shadows, ambient-occlusion crevices, bevels, raised or curled flakes, or simulated surface depth.",
+          "Use warm charcoal around #39302b, deeper charcoal around #211f1d, muted gray around #4b4943 and restrained ash gray no brighter than approximately #76746c. No white, luminous centers or bright highlights.",
+          "Roughly two-thirds connected dark soot and one-third irregular gray material variation; distribute varied-scale features across the full image. Avoid a central composition or a few isolated stickers.",
+          "No circular or oval patches, soft radial halos, cloudy airbrush spots, parallel stripes, tiled repetition, neat boundaries or symmetrical motifs.",
+          "No intact beige paint islands: the tank's original desert paint will be preserved separately outside the burn zone.",
+          "No tank, objects, panel seams, fasteners, frames, borders, symbols, lettering or labels. Opaque background; square texture only.",
+          "Natural ragged color boundaries with a little fine breakup; avoid heavy photographic grain or decorative noise. The image will be sampled and verified through FormSeed2D before any model binding."
+        ],
+        "references": [
+          {
+            "sha256": "a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a",
+            "role": "edit-target",
+            "attribution": "Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.",
+            "evidenceKind": "fixture"
+          }
+        ],
+        "maxGenerations": 2,
+        "attempts": [
+          {
+            "id": "13d0a6f0-5d9f-4599-b2d0-28ea68e3d2b2",
+            "status": "prepared",
+            "references": [
+              {
+                "sha256": "a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a",
+                "role": "edit-target",
+                "attribution": "Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.",
+                "evidenceKind": "fixture"
+              }
+            ],
+            "prompt": "Edit the supplied flat charcoal base-color swatch into the following complete material texture. Keep its square opaque canvas, replace its uniform fill with natural surface variation, and preserve the intended restrained palette. Use case: stylized-concept. Create one square, full-bleed, flat diffuse-color texture for fire-damaged metal on a stylized M1A1 wreck in a 3D strategy game. Show only the surface color, straight on with uniform flat illumination. A connected warm charcoal soot field with irregular ragged patches of heat-dulled neutral-gray substrate, varied smaller flakes and scuffs, and restrained crumbly tonal variation. The damage should feel naturally irregular and layered, with broad and medium detail that survives downsampling. Keep it suitable for a restrained low-poly game material. This is synthesized artwork, not historical evidence or a measured burn map.\nConstraints:\nOnly a flat albedo source: no perspective, directional light, reflections, cast shadows, ambient-occlusion crevices, bevels, raised or curled flakes, or simulated surface depth.\nUse warm charcoal around #39302b, deeper charcoal around #211f1d, muted gray around #4b4943 and restrained ash gray no brighter than approximately #76746c. No white, luminous centers or bright highlights.\nRoughly two-thirds connected dark soot and one-third irregular gray material variation; distribute varied-scale features across the full image. Avoid a central composition or a few isolated stickers.\nNo circular or oval patches, soft radial halos, cloudy airbrush spots, parallel stripes, tiled repetition, neat boundaries or symmetrical motifs.\nNo intact beige paint islands: the tank's original desert paint will be preserved separately outside the burn zone.\nNo tank, objects, panel seams, fasteners, frames, borders, symbols, lettering or labels. Opaque background; square texture only.\nNatural ragged color boundaries with a little fine breakup; avoid heavy photographic grain or decorative noise. The image will be sampled and verified through FormSeed2D before any model binding.\nReference roles (in attachment order):\n1. edit-target; fixture; Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.; SHA-256 a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a\nThis is a synthesized concept for review, not historical/source evidence, verified mechanical fit, or human approval."
+          }
+        ],
+        "synthesized": true,
+        "approved": false
+      }
+    },
+    "claim-1": {
+      "state": {
+        "approved": false,
+        "attempts": [
+          {
+            "id": "13d0a6f0-5d9f-4599-b2d0-28ea68e3d2b2",
+            "prompt": "Edit the supplied flat charcoal base-color swatch into the following complete material texture. Keep its square opaque canvas, replace its uniform fill with natural surface variation, and preserve the intended restrained palette. Use case: stylized-concept. Create one square, full-bleed, flat diffuse-color texture for fire-damaged metal on a stylized M1A1 wreck in a 3D strategy game. Show only the surface color, straight on with uniform flat illumination. A connected warm charcoal soot field with irregular ragged patches of heat-dulled neutral-gray substrate, varied smaller flakes and scuffs, and restrained crumbly tonal variation. The damage should feel naturally irregular and layered, with broad and medium detail that survives downsampling. Keep it suitable for a restrained low-poly game material. This is synthesized artwork, not historical evidence or a measured burn map.\nConstraints:\nOnly a flat albedo source: no perspective, directional light, reflections, cast shadows, ambient-occlusion crevices, bevels, raised or curled flakes, or simulated surface depth.\nUse warm charcoal around #39302b, deeper charcoal around #211f1d, muted gray around #4b4943 and restrained ash gray no brighter than approximately #76746c. No white, luminous centers or bright highlights.\nRoughly two-thirds connected dark soot and one-third irregular gray material variation; distribute varied-scale features across the full image. Avoid a central composition or a few isolated stickers.\nNo circular or oval patches, soft radial halos, cloudy airbrush spots, parallel stripes, tiled repetition, neat boundaries or symmetrical motifs.\nNo intact beige paint islands: the tank's original desert paint will be preserved separately outside the burn zone.\nNo tank, objects, panel seams, fasteners, frames, borders, symbols, lettering or labels. Opaque background; square texture only.\nNatural ragged color boundaries with a little fine breakup; avoid heavy photographic grain or decorative noise. The image will be sampled and verified through FormSeed2D before any model binding.\nReference roles (in attachment order):\n1. edit-target; fixture; Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.; SHA-256 a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a\nThis is a synthesized concept for review, not historical/source evidence, verified mechanical fit, or human approval.",
+            "references": [
+              {
+                "attribution": "Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.",
+                "evidenceKind": "fixture",
+                "role": "edit-target",
+                "sha256": "a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a"
+              }
+            ],
+            "status": "dispatched"
+          }
+        ],
+        "brief": "Edit the supplied flat charcoal base-color swatch into the following complete material texture. Keep its square opaque canvas, replace its uniform fill with natural surface variation, and preserve the intended restrained palette. Use case: stylized-concept. Create one square, full-bleed, flat diffuse-color texture for fire-damaged metal on a stylized M1A1 wreck in a 3D strategy game. Show only the surface color, straight on with uniform flat illumination. A connected warm charcoal soot field with irregular ragged patches of heat-dulled neutral-gray substrate, varied smaller flakes and scuffs, and restrained crumbly tonal variation. The damage should feel naturally irregular and layered, with broad and medium detail that survives downsampling. Keep it suitable for a restrained low-poly game material. This is synthesized artwork, not historical evidence or a measured burn map.",
+        "conceptId": "5a6938b9d6e8717fe79959e3d0d3b7dc76cac805e02c4f8a38d7288e2334f722",
+        "constraints": [
+          "Only a flat albedo source: no perspective, directional light, reflections, cast shadows, ambient-occlusion crevices, bevels, raised or curled flakes, or simulated surface depth.",
+          "Use warm charcoal around #39302b, deeper charcoal around #211f1d, muted gray around #4b4943 and restrained ash gray no brighter than approximately #76746c. No white, luminous centers or bright highlights.",
+          "Roughly two-thirds connected dark soot and one-third irregular gray material variation; distribute varied-scale features across the full image. Avoid a central composition or a few isolated stickers.",
+          "No circular or oval patches, soft radial halos, cloudy airbrush spots, parallel stripes, tiled repetition, neat boundaries or symmetrical motifs.",
+          "No intact beige paint islands: the tank's original desert paint will be preserved separately outside the burn zone.",
+          "No tank, objects, panel seams, fasteners, frames, borders, symbols, lettering or labels. Opaque background; square texture only.",
+          "Natural ragged color boundaries with a little fine breakup; avoid heavy photographic grain or decorative noise. The image will be sampled and verified through FormSeed2D before any model binding."
+        ],
+        "contract": "host-concept-handoff@1.0.0",
+        "maxGenerations": 2,
+        "name": "m1a1-w01-burn-albedo-r0",
+        "references": [
+          {
+            "attribution": "Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.",
+            "evidenceKind": "fixture",
+            "role": "edit-target",
+            "sha256": "a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a"
+          }
+        ],
+        "revision": 1,
+        "synthesized": true
+      },
+      "dispatchAllowed": true,
+      "handoff": {
+        "attemptId": "13d0a6f0-5d9f-4599-b2d0-28ea68e3d2b2",
+        "prompt": "Edit the supplied flat charcoal base-color swatch into the following complete material texture. Keep its square opaque canvas, replace its uniform fill with natural surface variation, and preserve the intended restrained palette. Use case: stylized-concept. Create one square, full-bleed, flat diffuse-color texture for fire-damaged metal on a stylized M1A1 wreck in a 3D strategy game. Show only the surface color, straight on with uniform flat illumination. A connected warm charcoal soot field with irregular ragged patches of heat-dulled neutral-gray substrate, varied smaller flakes and scuffs, and restrained crumbly tonal variation. The damage should feel naturally irregular and layered, with broad and medium detail that survives downsampling. Keep it suitable for a restrained low-poly game material. This is synthesized artwork, not historical evidence or a measured burn map.\nConstraints:\nOnly a flat albedo source: no perspective, directional light, reflections, cast shadows, ambient-occlusion crevices, bevels, raised or curled flakes, or simulated surface depth.\nUse warm charcoal around #39302b, deeper charcoal around #211f1d, muted gray around #4b4943 and restrained ash gray no brighter than approximately #76746c. No white, luminous centers or bright highlights.\nRoughly two-thirds connected dark soot and one-third irregular gray material variation; distribute varied-scale features across the full image. Avoid a central composition or a few isolated stickers.\nNo circular or oval patches, soft radial halos, cloudy airbrush spots, parallel stripes, tiled repetition, neat boundaries or symmetrical motifs.\nNo intact beige paint islands: the tank's original desert paint will be preserved separately outside the burn zone.\nNo tank, objects, panel seams, fasteners, frames, borders, symbols, lettering or labels. Opaque background; square texture only.\nNatural ragged color boundaries with a little fine breakup; avoid heavy photographic grain or decorative noise. The image will be sampled and verified through FormSeed2D before any model binding.\nReference roles (in attachment order):\n1. edit-target; fixture; Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.; SHA-256 a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a\nThis is a synthesized concept for review, not historical/source evidence, verified mechanical fit, or human approval.",
+        "referencePaths": [
+          "local-only/a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a.png"
+        ],
+        "provider": "codex-imagegen",
+        "maximumOutputs": 1,
+        "retryPolicy": "never-regenerate-ambiguous-attempt"
+      }
+    },
+    "host-response-1": {
+      "tool": "image_gen.imagegen",
+      "completed": true,
+      "actualPrompt": "Edit the supplied flat charcoal base-color swatch into the following complete material texture. Keep its square opaque canvas, replace its uniform fill with natural surface variation, and preserve the intended restrained palette. Use case: stylized-concept. Create one square, full-bleed, flat diffuse-color texture for fire-damaged metal on a stylized M1A1 wreck in a 3D strategy game. Show only the surface color, straight on with uniform flat illumination. A connected warm charcoal soot field with irregular ragged patches of heat-dulled neutral-gray substrate, varied smaller flakes and scuffs, and restrained crumbly tonal variation. The damage should feel naturally irregular and layered, with broad and medium detail that survives downsampling. Keep it suitable for a restrained low-poly game material. This is synthesized artwork, not historical evidence or a measured burn map.\nConstraints:\nOnly a flat albedo source: no perspective, directional light, reflections, cast shadows, ambient-occlusion crevices, bevels, raised or curled flakes, or simulated surface depth.\nUse warm charcoal around #39302b, deeper charcoal around #211f1d, muted gray around #4b4943 and restrained ash gray no brighter than approximately #76746c. No white, luminous centers or bright highlights.\nRoughly two-thirds connected dark soot and one-third irregular gray material variation; distribute varied-scale features across the full image. Avoid a central composition or a few isolated stickers.\nNo circular or oval patches, soft radial halos, cloudy airbrush spots, parallel stripes, tiled repetition, neat boundaries or symmetrical motifs.\nNo intact beige paint islands: the tank's original desert paint will be preserved separately outside the burn zone.\nNo tank, objects, panel seams, fasteners, frames, borders, symbols, lettering or labels. Opaque background; square texture only.\nNatural ragged color boundaries with a little fine breakup; avoid heavy photographic grain or decorative noise. The image will be sampled and verified through FormSeed2D before any model binding.\nReference roles (in attachment order):\n1. edit-target; fixture; Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.; SHA-256 a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a\nThis is a synthesized concept for review, not historical/source evidence, verified mechanical fit, or human approval.",
+      "referencePaths": [
+        "local-only/a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a.png"
+      ],
+      "transparentBackground": false,
+      "hostOutputPath": "local-only/exec-0cf5d702-23e5-4ee1-9a7a-6d937c96d889.png",
+      "outputHint": "Generated images are saved to local-only/01a17a5f-26c6-72a3-b5df-3d7e8e7d2cb7 as local-only/exec-0cf5d702-23e5-4ee1-9a7a-6d937c96d889.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generationId": null,
+      "model": null,
+      "dispatchCount": 1,
+      "paidRetry": false,
+      "note": "Actual host tool returned this generated PNG; it was uploaded by the supported FormSeed2D host client. Nine earlier whole-model finishing attempts remain preserved."
+    },
+    "output-stage-1": {
+      "observedFrom": "Supported concept-handoff.js host client's stage response",
+      "path": ".formseed2d/concept-inputs/f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514.png",
+      "sha256": "f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514",
+      "bytes": 2703741,
+      "width": 1254,
+      "height": 1254
+    },
+    "complete-1": {
+      "state": {
+        "approved": false,
+        "attempts": [
+          {
+            "id": "13d0a6f0-5d9f-4599-b2d0-28ea68e3d2b2",
+            "prompt": "Edit the supplied flat charcoal base-color swatch into the following complete material texture. Keep its square opaque canvas, replace its uniform fill with natural surface variation, and preserve the intended restrained palette. Use case: stylized-concept. Create one square, full-bleed, flat diffuse-color texture for fire-damaged metal on a stylized M1A1 wreck in a 3D strategy game. Show only the surface color, straight on with uniform flat illumination. A connected warm charcoal soot field with irregular ragged patches of heat-dulled neutral-gray substrate, varied smaller flakes and scuffs, and restrained crumbly tonal variation. The damage should feel naturally irregular and layered, with broad and medium detail that survives downsampling. Keep it suitable for a restrained low-poly game material. This is synthesized artwork, not historical evidence or a measured burn map.\nConstraints:\nOnly a flat albedo source: no perspective, directional light, reflections, cast shadows, ambient-occlusion crevices, bevels, raised or curled flakes, or simulated surface depth.\nUse warm charcoal around #39302b, deeper charcoal around #211f1d, muted gray around #4b4943 and restrained ash gray no brighter than approximately #76746c. No white, luminous centers or bright highlights.\nRoughly two-thirds connected dark soot and one-third irregular gray material variation; distribute varied-scale features across the full image. Avoid a central composition or a few isolated stickers.\nNo circular or oval patches, soft radial halos, cloudy airbrush spots, parallel stripes, tiled repetition, neat boundaries or symmetrical motifs.\nNo intact beige paint islands: the tank's original desert paint will be preserved separately outside the burn zone.\nNo tank, objects, panel seams, fasteners, frames, borders, symbols, lettering or labels. Opaque background; square texture only.\nNatural ragged color boundaries with a little fine breakup; avoid heavy photographic grain or decorative noise. The image will be sampled and verified through FormSeed2D before any model binding.\nReference roles (in attachment order):\n1. edit-target; fixture; Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.; SHA-256 a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a\nThis is a synthesized concept for review, not historical/source evidence, verified mechanical fit, or human approval.",
+            "references": [
+              {
+                "attribution": "Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.",
+                "evidenceKind": "fixture",
+                "role": "edit-target",
+                "sha256": "a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a"
+              }
+            ],
+            "status": "imported",
+            "candidate": {
+              "jobId": "2673a19b-2924-462d-a61e-f50ee2328422",
+              "revision": 0,
+              "sha256": "ed553f530ecd8e97d8c55280a54b30239016567e36ed1e59dc8846fe53c59051",
+              "imagePath": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/revisions/0.png",
+              "outputSha256": "f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514",
+              "generator": {
+                "provider": "codex-imagegen",
+                "model": null,
+                "generationId": null,
+                "actualPrompt": "Edit the supplied flat charcoal base-color swatch into the following complete material texture. Keep its square opaque canvas, replace its uniform fill with natural surface variation, and preserve the intended restrained palette. Use case: stylized-concept. Create one square, full-bleed, flat diffuse-color texture for fire-damaged metal on a stylized M1A1 wreck in a 3D strategy game. Show only the surface color, straight on with uniform flat illumination. A connected warm charcoal soot field with irregular ragged patches of heat-dulled neutral-gray substrate, varied smaller flakes and scuffs, and restrained crumbly tonal variation. The damage should feel naturally irregular and layered, with broad and medium detail that survives downsampling. Keep it suitable for a restrained low-poly game material. This is synthesized artwork, not historical evidence or a measured burn map.\nConstraints:\nOnly a flat albedo source: no perspective, directional light, reflections, cast shadows, ambient-occlusion crevices, bevels, raised or curled flakes, or simulated surface depth.\nUse warm charcoal around #39302b, deeper charcoal around #211f1d, muted gray around #4b4943 and restrained ash gray no brighter than approximately #76746c. No white, luminous centers or bright highlights.\nRoughly two-thirds connected dark soot and one-third irregular gray material variation; distribute varied-scale features across the full image. Avoid a central composition or a few isolated stickers.\nNo circular or oval patches, soft radial halos, cloudy airbrush spots, parallel stripes, tiled repetition, neat boundaries or symmetrical motifs.\nNo intact beige paint islands: the tank's original desert paint will be preserved separately outside the burn zone.\nNo tank, objects, panel seams, fasteners, frames, borders, symbols, lettering or labels. Opaque background; square texture only.\nNatural ragged color boundaries with a little fine breakup; avoid heavy photographic grain or decorative noise. The image will be sampled and verified through FormSeed2D before any model binding.\nReference roles (in attachment order):\n1. edit-target; fixture; Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.; SHA-256 a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a\nThis is a synthesized concept for review, not historical/source evidence, verified mechanical fit, or human approval."
+              }
+            }
+          }
+        ],
+        "brief": "Edit the supplied flat charcoal base-color swatch into the following complete material texture. Keep its square opaque canvas, replace its uniform fill with natural surface variation, and preserve the intended restrained palette. Use case: stylized-concept. Create one square, full-bleed, flat diffuse-color texture for fire-damaged metal on a stylized M1A1 wreck in a 3D strategy game. Show only the surface color, straight on with uniform flat illumination. A connected warm charcoal soot field with irregular ragged patches of heat-dulled neutral-gray substrate, varied smaller flakes and scuffs, and restrained crumbly tonal variation. The damage should feel naturally irregular and layered, with broad and medium detail that survives downsampling. Keep it suitable for a restrained low-poly game material. This is synthesized artwork, not historical evidence or a measured burn map.",
+        "conceptId": "5a6938b9d6e8717fe79959e3d0d3b7dc76cac805e02c4f8a38d7288e2334f722",
+        "constraints": [
+          "Only a flat albedo source: no perspective, directional light, reflections, cast shadows, ambient-occlusion crevices, bevels, raised or curled flakes, or simulated surface depth.",
+          "Use warm charcoal around #39302b, deeper charcoal around #211f1d, muted gray around #4b4943 and restrained ash gray no brighter than approximately #76746c. No white, luminous centers or bright highlights.",
+          "Roughly two-thirds connected dark soot and one-third irregular gray material variation; distribute varied-scale features across the full image. Avoid a central composition or a few isolated stickers.",
+          "No circular or oval patches, soft radial halos, cloudy airbrush spots, parallel stripes, tiled repetition, neat boundaries or symmetrical motifs.",
+          "No intact beige paint islands: the tank's original desert paint will be preserved separately outside the burn zone.",
+          "No tank, objects, panel seams, fasteners, frames, borders, symbols, lettering or labels. Opaque background; square texture only.",
+          "Natural ragged color boundaries with a little fine breakup; avoid heavy photographic grain or decorative noise. The image will be sampled and verified through FormSeed2D before any model binding."
+        ],
+        "contract": "host-concept-handoff@1.0.0",
+        "maxGenerations": 2,
+        "name": "m1a1-w01-burn-albedo-r0",
+        "references": [
+          {
+            "attribution": "Deterministic flat #39302b base-color swatch authored through FormSeed2D job 9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 revision 0. A color/workflow fixture, not historical material evidence.",
+            "evidenceKind": "fixture",
+            "role": "edit-target",
+            "sha256": "a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a"
+          }
+        ],
+        "revision": 2,
+        "synthesized": true
+      },
+      "dispatchAllowed": false
+    },
+    "resize-512": {
+      "job": {
+        "schemaVersion": "1.0.0",
+        "id": "2673a19b-2924-462d-a61e-f50ee2328422",
+        "name": "m1a1-w01-burn-albedo-r0",
+        "createdAt": "2026-11-01T01:59:54.800Z",
+        "updatedAt": "2026-11-01T02:02:50.822Z",
+        "revision": 1,
+        "phase": "editing",
+        "source": {
+          "kind": "file",
+          "path": ".formseed2d/concept-inputs/f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514.png",
+          "sha256": "f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514"
+        },
+        "revisions": [
+          {
+            "revision": 0,
+            "createdAt": "2026-11-01T01:59:54.800Z",
+            "imagePath": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/revisions/0.png",
+            "sha256": "ed553f530ecd8e97d8c55280a54b30239016567e36ed1e59dc8846fe53c59051",
+            "operations": [],
+            "info": {
+              "width": 1254,
+              "height": 1254,
+              "format": "PNG",
+              "colorspace": "sRGB",
+              "hasAlpha": true,
+              "bytes": 2715060,
+              "decodedBytes": 6290064
+            }
+          },
+          {
+            "revision": 1,
+            "createdAt": "2026-11-01T02:02:50.821Z",
+            "imagePath": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/revisions/1.png",
+            "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+            "operations": [
+              {
+                "type": "resize",
+                "width": 512,
+                "height": 512,
+                "fit": "contain"
+              }
+            ],
+            "info": {
+              "width": 512,
+              "height": 512,
+              "format": "PNG",
+              "colorspace": "sRGB",
+              "hasAlpha": true,
+              "bytes": 441245,
+              "decodedBytes": 1048576
+            }
+          }
+        ],
+        "idempotency": {
+          "abrams-w01-f2d-burn-albedo-512-v1": {
+            "intentHash": "64af01605bb7cf162ddd430f1cde89325fba8bddbb633c6b6a9cc62469d946f8",
+            "result": {
+              "jobResult": true
+            }
+          }
+        },
+        "auditHead": "54dbaf6b6a6ffb561eef04574c418dcf15cc6360d0adffab99d8b185a85683c9"
+      }
+    },
+    "validate-512": {
+      "job": {
+        "schemaVersion": "1.0.0",
+        "id": "2673a19b-2924-462d-a61e-f50ee2328422",
+        "name": "m1a1-w01-burn-albedo-r0",
+        "createdAt": "2026-11-01T01:59:54.800Z",
+        "updatedAt": "2026-11-01T02:02:51.554Z",
+        "revision": 1,
+        "phase": "validated",
+        "source": {
+          "kind": "file",
+          "path": ".formseed2d/concept-inputs/f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514.png",
+          "sha256": "f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514"
+        },
+        "revisions": [
+          {
+            "revision": 0,
+            "createdAt": "2026-11-01T01:59:54.800Z",
+            "imagePath": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/revisions/0.png",
+            "sha256": "ed553f530ecd8e97d8c55280a54b30239016567e36ed1e59dc8846fe53c59051",
+            "operations": [],
+            "info": {
+              "width": 1254,
+              "height": 1254,
+              "format": "PNG",
+              "colorspace": "sRGB",
+              "hasAlpha": true,
+              "bytes": 2715060,
+              "decodedBytes": 6290064
+            }
+          },
+          {
+            "revision": 1,
+            "createdAt": "2026-11-01T02:02:50.821Z",
+            "imagePath": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/revisions/1.png",
+            "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+            "operations": [
+              {
+                "type": "resize",
+                "width": 512,
+                "height": 512,
+                "fit": "contain"
+              }
+            ],
+            "info": {
+              "width": 512,
+              "height": 512,
+              "format": "PNG",
+              "colorspace": "sRGB",
+              "hasAlpha": true,
+              "bytes": 441245,
+              "decodedBytes": 1048576
+            }
+          }
+        ],
+        "idempotency": {
+          "abrams-w01-f2d-burn-albedo-512-v1": {
+            "intentHash": "64af01605bb7cf162ddd430f1cde89325fba8bddbb633c6b6a9cc62469d946f8",
+            "result": {
+              "jobResult": true
+            }
+          },
+          "abrams-w01-f2d-burn-albedo-512-validate-v1": {
+            "intentHash": "39e846b7c7296f771f807cae8f04e945633feebcd803b19d08ed10d5fc909d22",
+            "result": {
+              "jobResult": true
+            }
+          }
+        },
+        "auditHead": "ed85d1b1505804ad2dc101723393645c7a0bffdc0d5d52315a2d384e9a95ec85",
+        "validation": {
+          "revision": 1,
+          "revisionSha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+          "validatedAt": "2026-11-01T02:02:51.554Z",
+          "backend": "Version: ImageMagick 7.1.2-22 Q16-HDRI aarch64 bbfc7cba0:20260511 https://imagemagick.org",
+          "checks": [
+            "revision-hash",
+            "png-canonical",
+            "dimensions",
+            "encoded-bytes",
+            "decoded-memory"
+          ]
+        }
+      }
+    },
+    "bundle-512": {
+      "job": {
+        "schemaVersion": "1.0.0",
+        "id": "2673a19b-2924-462d-a61e-f50ee2328422",
+        "name": "m1a1-w01-burn-albedo-r0",
+        "createdAt": "2026-11-01T01:59:54.800Z",
+        "updatedAt": "2026-11-01T02:02:52.575Z",
+        "revision": 1,
+        "phase": "awaiting-approval",
+        "source": {
+          "kind": "file",
+          "path": ".formseed2d/concept-inputs/f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514.png",
+          "sha256": "f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514"
+        },
+        "revisions": [
+          {
+            "revision": 0,
+            "createdAt": "2026-11-01T01:59:54.800Z",
+            "imagePath": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/revisions/0.png",
+            "sha256": "ed553f530ecd8e97d8c55280a54b30239016567e36ed1e59dc8846fe53c59051",
+            "operations": [],
+            "info": {
+              "width": 1254,
+              "height": 1254,
+              "format": "PNG",
+              "colorspace": "sRGB",
+              "hasAlpha": true,
+              "bytes": 2715060,
+              "decodedBytes": 6290064
+            }
+          },
+          {
+            "revision": 1,
+            "createdAt": "2026-11-01T02:02:50.821Z",
+            "imagePath": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/revisions/1.png",
+            "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+            "operations": [
+              {
+                "type": "resize",
+                "width": 512,
+                "height": 512,
+                "fit": "contain"
+              }
+            ],
+            "info": {
+              "width": 512,
+              "height": 512,
+              "format": "PNG",
+              "colorspace": "sRGB",
+              "hasAlpha": true,
+              "bytes": 441245,
+              "decodedBytes": 1048576
+            }
+          }
+        ],
+        "idempotency": {
+          "abrams-w01-f2d-burn-albedo-512-v1": {
+            "intentHash": "64af01605bb7cf162ddd430f1cde89325fba8bddbb633c6b6a9cc62469d946f8",
+            "result": {
+              "jobResult": true
+            }
+          },
+          "abrams-w01-f2d-burn-albedo-512-validate-v1": {
+            "intentHash": "39e846b7c7296f771f807cae8f04e945633feebcd803b19d08ed10d5fc909d22",
+            "result": {
+              "jobResult": true
+            }
+          },
+          "abrams-w01-f2d-burn-albedo-512-bundle-v1": {
+            "intentHash": "1453379b80cce06a87fb8c76f6d64c78b4516399536679897d9ab78b2ae24f15",
+            "result": {
+              "jobResult": true
+            }
+          }
+        },
+        "auditHead": "63dd3dc0993bf609caad351f471d88c877ff3855a7e7c726ddb299b049477758",
+        "validation": {
+          "revision": 1,
+          "revisionSha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+          "validatedAt": "2026-11-01T02:02:51.554Z",
+          "backend": "Version: ImageMagick 7.1.2-22 Q16-HDRI aarch64 bbfc7cba0:20260511 https://imagemagick.org",
+          "checks": [
+            "revision-hash",
+            "png-canonical",
+            "dimensions",
+            "encoded-bytes",
+            "decoded-memory"
+          ]
+        },
+        "bundle": {
+          "revision": 1,
+          "path": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/bundles/1",
+          "manifestPath": ".formseed2d/jobs/2673a19b-2924-462d-a61e-f50ee2328422/bundles/1/manifest.json",
+          "manifestSha256": "259fc3107b4bfdac7c3e3773547f943a2f516e2c18da4857568a474b4ad18542",
+          "builtAt": "2026-11-01T02:02:52.572Z",
+          "derivatives": []
+        }
+      }
+    }
+  },
+  "meaning": "Staged host generation bytes, importer-normalized revision0 and resized revision1 retain separate identities. No third-party pixels included."
+}

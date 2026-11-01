@@ -1,0 +1,149 @@
+{
+  "review": {
+    "disposition": "KEEP-FOR-APPLICATION",
+    "scope": "One synthesized flat albedo source for a later bounded causal application. No producer/model mutation.",
+    "source": {
+      "path": "local-only/canonical.png",
+      "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06"
+    },
+    "jobId": "2673a19b-2924-462d-a61e-f50ee2328422",
+    "revision": 1,
+    "conceptId": "5a6938b9d6e8717fe79959e3d0d3b7dc76cac805e02c4f8a38d7288e2334f722",
+    "attemptId": "13d0a6f0-5d9f-4599-b2d0-28ea68e3d2b2",
+    "generationBudget": {
+      "used": 1,
+      "maximum": 2
+    },
+    "wholeModelFinishesHeld": 9,
+    "technicalAudit": {
+      "path": "local-only/source-technical-visual-audit-v1.json",
+      "sha256": "532ad795e600a5c36ea49a0769a2e8cae31367a55f55eef3a677ef95951d5e8e"
+    },
+    "reviewer": {
+      "tool": "Claude Code CLI",
+      "cliVersion": "2.1.311",
+      "requestedModel": "claude-opus-5-5",
+      "observedCanonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "session": 86335,
+      "exitCode": 0,
+      "isError": false,
+      "durationMs": 73607,
+      "turns": 6,
+      "stderrBytes": 0,
+      "prompt": {
+        "path": "local-only/opus-source-prompt-v1.txt",
+        "sha256": "d4971ed25c84f5e23bdea3e1f2396fc261134b98c390371381ae824cf88366b6"
+      },
+      "rawOutput": {
+        "path": "local-only/opus-source-output-v1.json",
+        "sha256": "bf2e65957ad52f7a77cc91d966cb26a719eb2db5b65e59160701ac08ed4adfb4"
+      },
+      "parsedFindings": {
+        "path": "local-only/opus-source-findings-v1.json",
+        "sha256": "fbaf4c67200b656ae385a4fb22e8c55a51b2a079e8f1f5a6972e1bc9a3e5c18d"
+      }
+    },
+    "images": [
+      {
+        "path": "local-only/canonical.png",
+        "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06"
+      },
+      {
+        "path": "local-only/1000-top.png",
+        "sha256": "c2cdc7d589443d7fd59112f2b49e141ddef923e48cacdc2179006ee010c30ea2"
+      },
+      {
+        "path": "local-only/256-right.png",
+        "sha256": "46d21485f4f75e04bd6eeb0d85bbf3a6c2bd6fc3777a29befba2b557e62d4b15"
+      },
+      {
+        "path": "local-only/usmc-hansen.jpg",
+        "sha256": "56864c8798ba400b939e88d29a137919241fadfcf47502e12c9f3b1be0395421"
+      },
+      {
+        "path": "local-only/doha-i14.png",
+        "sha256": "691b7239a3b319bd0bbeefaff903dd92317c9cd7284d8d1157f4727b463689b8"
+      }
+    ],
+    "imageInspectionEvidence": "Reviewer self-reports all five opened. Final output omits intermediate tool events; no separate Read-event audit claimed. Controller directly viewed canonical PNG.",
+    "controllerConcurs": true,
+    "applicability": [
+      "Use one non-tiled bounded footprint, causal panel-connected masks and independent original paint outside.",
+      "Medium-scale irregularity is useful; preserve shape variety without mapping a dominant gray mass into the side stripe.",
+      "Control coverage separately: a material source swap cannot repair the long lower-right stripe.",
+      "Fine grain/edge relief-like cues, brown/rust/mud/lichen readings and actual mip/PBR appearance remain open."
+    ],
+    "qualifications": [
+      "Reviewer repeats prompt coarse3\u20138px estimate. Correct arithmetic for32\u201364source pixels over1.5\u20132m is2.20\u20135.87screenpixels at256 and1.10\u20132.93at128 for the prior orthographic right camera. No visibility guarantee.",
+      "Reviewer mentions AgX as untested. The current independent model capture uses its pinned ACES/sRGB setup; this source review makes no renderer-setting claim.",
+      "Stage f9f11d5f\u2026, normalized r0 ed553f53\u2026 and resized/bundled r1 6e3b2032\u2026 are distinct verified hashes.",
+      "No proof of absent baked lighting, historical substrate/chemistry or forensic heat mechanism is asserted."
+    ],
+    "humanApproval": false,
+    "sourcePromotion": false,
+    "finishedModelReady": false,
+    "cleanup": {
+      "cliCompleted": true,
+      "noNewBrowserOrSimulator": true,
+      "noBitmapOrModelWrites": true
+    },
+    "nextRecipeSelectedByThisReview": false
+  },
+  "rootDecision": {
+    "decision": "KEEP-FOR-APPLICATION",
+    "authority": "Root controller confirmation, not human artwork approval",
+    "sourceSha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+    "sourceJobId": "2673a19b-2924-462d-a61e-f50ee2328422",
+    "revision": 1,
+    "reviewManifestSha256": "e8df6c4f9f06d402bbcec364183bfb1ee724ce611d5edb5371885d3bd9076f34",
+    "wholeFinishesHeld": 9,
+    "sourceGenerationUsed": 1,
+    "sourceGenerationMaximum": 2,
+    "nextStep": "M prepares one bounded full typed application recipe; no actual model application exists.",
+    "approval": false
+  },
+  "opusFindings": {
+    "disposition": "KEEP-FOR-APPLICATION",
+    "actualImagesInspected": [
+      "local-only/canonical.png (new source; I did not recompute the SHA-256 because this was a read-only review)",
+      "local-only/1000-top.png (prior r8 model, context only)",
+      "local-only/256-right.png (prior r8 model, context only)",
+      "local-only/usmc-hansen.jpg (appearance analogue only)",
+      "local-only/doha-i14.png (appearance analogue only)"
+    ],
+    "sourceStrengths": [
+      "Less geometric and less circular than earlier artwork: the gray areas have irregular, ragged edges and uneven, merging shapes. Nothing resembles the round soft gray halos visible on the hatch and turret-top areas in r8's 1000-top render.",
+      "Shapes work at three scales. Broad: dark and gray masses roughly 100\u2013250 px across. Medium: clumps and inlets roughly 20\u201360 px. Fine: a 1\u20133 px stipple over the whole image. This fits the proposed footprint, where medium features become roughly 3\u20138 px at 256.",
+      "Values sit in a restrained band. The darkest areas look close to the deep #211f1d / warm-charcoal #39302b intent, and the lightest gray areas look close to muted gray #4b4943 through ash ~#76746c. There are no near-white or saturated colors, so it should not overpower the desert paint outside the masked area.",
+      "The gray reads as dull ash or exposed gray substrate, not green moss. There are no hue shifts toward green or olive and no camouflage-style hard-edged color blocks.",
+      "Broadly, it is consistent with the analogues' dark sooted areas broken by lighter ash-gray areas. These are morphology analogues only, not a color or incident match.",
+      "No obvious repeated stamp, clone seam or grid repetition is visible inside the frame.",
+      "No strong directional highlight-and-shadow pairs are visible on the gray patch edges, and there are no consistent rims that would clearly suggest baked bumps. This is an observation, not proof that no lighting is baked in."
+    ],
+    "concreteRisks": [
+      "The dark base leans warm reddish-brown in places rather than neutral charcoal. Next to tan desert paint under scene lighting it could read as rust, mud or brown camouflage instead of soot. Only an actual PBR render can settle this.",
+      "The gray coverage is uneven: the largest light mass is in the upper right, with secondary masses at left-middle, right-middle and lower-left. A careless crop or placement could create a new dominant light band or patch on one panel, the same kind of problem as the lower-right stripe.",
+      "The texture is not seamless; gray masses run into the top and right edges. If the image boundary or any repeat lands inside a visible panel, it will show as a hard rectangle or sticker edge.",
+      "The fine 1\u20133 px stipple falls below one screen pixel at 256 and 128. Without mipmapping or filtering it may shimmer or alias. It is not needed for the read.",
+      "The lumpy, crusty interiors and fractal edges of the gray patches could read as lichen or dried mud rather than ash in close-ups or at larger screen sizes. The risk is low at the intended footprint.",
+      "This source cannot fix where the coating loss is or how it connects across panels. The dominant lower-right stripe in r8 is a masking and placement problem, and swapping in this albedo alone will not remove it.",
+      "Perspective, occlusion, filtering, the separate roughness/metallic response and AgX tonemapping are all untested."
+    ],
+    "boundedApplicationAdvice": [
+      "Use the image once, without tiling, and only as base-color inside the causal, panel-connected coating-loss mask. Keep the original desert paint outside the mask unchanged, and keep roughness/metallic separate rather than derived from this albedo.",
+      "Use the single sampling footprint suggested in the brief: one image across about 1.5\u20132 m. That should keep medium features at about 3\u20138 px at 256 or 1.5\u20134 px at 128 with the prior right camera. Do not scale it up to cover the whole hull, because that would bring back the broad blotch and camouflage read.",
+      "Pick the crop or offset so the upper-right gray mass does not sit on, or line up with, the area of the previous lower-right stripe, and so no image edge falls inside a visible panel. Shape the edges with the causal mask, not with the image border.",
+      "Enable mipmapping or equivalent filtering so the fine stipple averages out instead of shimmering.",
+      "Judge the result in an actual PBR render at 256 and 128 from the right and top cameras. Specifically check: rust or brown camouflage read, any new dominant band, sticker edges, and whether the gray reads as ash rather than lichen. If the warm base reads as rust there, treat that as a finding on the applied model; a new palette or another generation is not required up front."
+    ],
+    "approvalLimits": [
+      "This only says the source is suitable for one later causal application. It does not approve the source, the finished model, the asset or anything requiring human approval.",
+      "No material, chemistry, heat, historical-incident or sampled-color claims are made. The palette notes describe visual intent, not radiometric measurement.",
+      "Normal, roughness and metallic properties were not judged; an albedo image alone cannot show them.",
+      "Nothing here confirms that baked lighting is absent. The note above covers only what is visible.",
+      "Nothing has been applied or rendered yet. Application, PBR validation, coverage and connectivity across panels, and the r8 stripe problem all remain open.",
+      "No scores are given, and the reference images were treated only as appearance analogues, not as instructions."
+    ]
+  }
+}

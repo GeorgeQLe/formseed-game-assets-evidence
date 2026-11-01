@@ -1,0 +1,159 @@
+{
+  "candidate": {
+    "jobId": "d673379e-1f16-4c80-aa5f-a7b9a390406a",
+    "revision": 1,
+    "checkpointSha256": "5fb5f1cf2293e0b71d69cf7fb71dcc4821ec300c96a83709c64303cf84239142",
+    "glbSha256": "6b5cddf69264bd00574617900aee4939948c930d8cdc2463930b5e4522e3a53e"
+  },
+  "attemptHistory": {
+    "logicalLabel": "r8",
+    "thisActualFinishOrdinal": 9,
+    "priorActualFinishesCharged": 8,
+    "reset": false,
+    "metadataCreateCollisionAddedNoWholeAttempt": true
+  },
+  "technicalValidation": "PASS",
+  "visualRecommendation": "CORRECT",
+  "rootDecision": {
+    "decision": "CORRECT",
+    "authority": "Root controller actual visual review; not human approval",
+    "reason": "Soft circular gray halos, paint/camouflage-like finish and dominant side stripe remain. Prior planar top bands resolved.",
+    "nextAction": "Formula and planning studies paused; no new recipe selected.",
+    "immutableReviewManifestSha256": "066dda69fcfbdb8fcc615cd490812cc06a79bfe4a33844edfa101ee8594b3cc4"
+  },
+  "actualReviewer": {
+    "tool": "Claude Code CLI",
+    "version": "2.1.311",
+    "requestedModel": "claude-opus-5-5",
+    "observedCanonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "execSessionId": 75802,
+    "exitCode": 0,
+    "isError": false,
+    "durationMs": 104488,
+    "turns": 31,
+    "prompt": {
+      "path": "local-only/opus-whole-r8-prompt-v1.txt",
+      "sha256": "00cb8f9e07711ff4b9741199e06b56be28761965306c73e9dd8d5a079dbf7493"
+    },
+    "rawOutput": {
+      "path": "local-only/opus-whole-r8-output-v1.json",
+      "sha256": "00bcb72fe67787bc4c5dc7cb1c69c33defa6aab24b3ca850d86931455a16dd52"
+    },
+    "verbatimFindingsAsParsedJson": {
+      "path": "local-only/opus-whole-r8-findings-v1.json",
+      "sha256": "f32b8077f57eaaf44906ed6b600aada0e02c689eba47e1ae7bb5935b2affd0dc"
+    },
+    "stderrBytes": 0
+  },
+  "rawFindings": {
+    "disposition": "KEEP_WORKING",
+    "finishedArtReady": false,
+    "overallReason": "Actual r8 improves on r7 in one specific way: the broad diagonal light bands on the turret roof and left turret cheek in TOP are gone. Smaller, localized gray patches replace them. That change is real, and the physical direction is worth keeping. The new gray patches, though, read as soft round airbrushed halos with ragged centers, not ash crust following the panels. The char-to-sand boundary on the turret flank and lower-right hull is almost unchanged from r7 and r6: large two-tone lobes with hard, sometimes stair-stepped edges. At 256 and especially 128 the whole vehicle still reads as a desert tank in brown/tan/gray disruptive camouflage, not a burned-out hull. The lower-right wedge is not visibly shorter at any size and remains the dominant dark shape in RIGHT. This is better working retention, not finished art.",
+    "inspectedImages": [
+      "review-evidence-summary-v1.json",
+      "w01-f2d-surface-r8-pbr-20261031/1000-front-three-quarter.png",
+      "w01-f2d-surface-r8-pbr-20261031/1000-rear-three-quarter.png",
+      "w01-f2d-surface-r8-pbr-20261031/1000-front.png",
+      "w01-f2d-surface-r8-pbr-20261031/1000-left.png",
+      "w01-f2d-surface-r8-pbr-20261031/1000-right.png",
+      "w01-f2d-surface-r8-pbr-20261031/1000-top.png",
+      "w01-f2d-surface-r8-pbr-20261031/256-front-three-quarter.png",
+      "w01-f2d-surface-r8-pbr-20261031/256-rear-three-quarter.png",
+      "w01-f2d-surface-r8-pbr-20261031/256-front.png",
+      "w01-f2d-surface-r8-pbr-20261031/256-left.png",
+      "w01-f2d-surface-r8-pbr-20261031/256-right.png",
+      "w01-f2d-surface-r8-pbr-20261031/256-top.png",
+      "w01-f2d-surface-r8-pbr-20261031/128-front-three-quarter.png",
+      "w01-f2d-surface-r8-pbr-20261031/128-rear-three-quarter.png",
+      "w01-f2d-surface-r8-pbr-20261031/128-front.png",
+      "w01-f2d-surface-r8-pbr-20261031/128-left.png",
+      "w01-f2d-surface-r8-pbr-20261031/128-right.png",
+      "w01-f2d-surface-r8-pbr-20261031/128-top.png",
+      "w01-f2d-surface-r7-pbr-20261031/1000-top.png",
+      "w01-f2d-surface-r7-pbr-20261031/1000-right.png",
+      "w01-f2d-surface-r7-pbr-20261031/1000-rear-three-quarter.png",
+      "w01-f2d-surface-r7-pbr-20261031/1000-left.png",
+      "w01-f2d-surface-r7-pbr-20261031/256-right.png",
+      "w01-f2d-surface-r7-pbr-20261031/256-top.png",
+      "w01-f2d-surface-r6-pbr-20261031/1000-top.png",
+      "w01-f2d-surface-r6-pbr-20261031/1000-right.png",
+      "w01-f2d-surface-r6-pbr-20261031/256-rear-three-quarter.png",
+      "abrams-condition-evidence-20261029/usmc-hansen.jpg",
+      "abrams-condition-evidence-20261029/doha-i14.png"
+    ],
+    "sizeFindings": {
+      "1000": "TOP: three separate gray zones are visible: right roof panel (about x505-590, y215-320), left turret cheek (about x345-395, y235-410) and the rear deck left of the grille (about x370-450, y120-200). Each has a soft circular falloff with a darker ragged center. They read as spotlit or airbrushed discs more than ash residue. The right fender/turret-side boundary (about x605-650, y220-410) is still stepped and blocky. RIGHT: the turret-flank char has some light-gray mottling inside the dark lobes, but the lobe outlines match r7. The dark hull wedge runs from the rear to about x315-320, y590-635. REAR-3/4: the roof panel splotches and the turret-side boundary look irregular and fairly convincing in perspective. The boundary from the turret side onto the hull still reads as a clean camouflage edge. FRONT-3/4: gray halos on the turret bustle side and rear deck read as soft spray. FRONT and LEFT: mostly clean sand, char limited to the rear, consistent with prior versions.",
+      "256": "The gray patches merge into mid-value blotches. RIGHT 256 reads clearly as tri-tone disruptive camouflage on the rear half, with dark lobes, tan gaps and gray mottle. The wedge reads as a dark horizontal stripe along the rear hull. TOP 256 shows dark roof and deck with light flecks. REAR-3/4 256 is the best view: dark rear deck and turret with a lighter roof patch. Nothing at this size tells the viewer 'burned' rather than 'painted dark'.",
+      "128": "Only a few value masses remain: dark rear half, tan front. RIGHT and FRONT-3/4 read as a two-tone painted tank. The gray patches contribute nothing distinct and add slight noise. TOP 128 reads as a dark rear block. No ash or burn morphology survives at this size, so the condition is carried only by the dark/light split."
+    },
+    "targetFindings": {
+      "grayAsh": "Localized: yes. The broad straight or diagonal planar stripes are gone from TOP. Irregular: only partly. The interiors have ragged edges, but each patch is wrapped in a soft round halo with no relation to panel edges, recesses or raised features. The patches read as spray or spotlight discs, not deposited ash or bare metal. The references show gray, white and rust patches with hard, flaking edges that follow plates (Doha flank, Hansen side skirts).",
+      "transition": "Not materially improved over r7 at the char/paint boundary. The turret flank (RIGHT about x215-415, y520-585) and hull rear (RIGHT about x50-330) keep the same hard lobe shapes as r7, which look stencil-like. TOP right fender boundary still shows stair-step aliasing (about x605-650). There is no intermediate scorched-brown, blistered or rust fringe. The references show a broad brown/rust/blistered transition band between intact paint and char.",
+      "priorPlanarBands": "Resolved in TOP. The r7 diagonal light streak across the left turret roof (about x345-400, y330-380) and the stepped diagonal light band are no longer present as continuous bands. Some straight-edged stepping remains along the right turret-side/fender boundary, which is an edge-shape problem, not a band.",
+      "lowerRightWedge": "Not meaningfully shortened visually. In RIGHT 1000 the tip sits at about x315-320 in r8 versus about x325-335 in r7 and about x355 in r6. That is roughly 10-20 px at 1000, consistent with the planned ~0.20 m, but below perceptual significance. At 256 and 128 it is still the dominant horizontal dark stripe on the lower right flank.",
+      "preservedCoverage": "Preserved as far as is visible. Roof and turret top stay dark. The rear deck and rear grille face stay fully dark in REAR-3/4 and TOP. The open commander hatch lid exterior is dark on its whole visible face in REAR-3/4 and FRONT. The dark turret bustle/stowage upper surfaces wrap to the turret top in FRONT and REAR-3/4. I saw no newly exposed sand on those surfaces versus r7.",
+      "seamsAndShadows": "Cast shadows, not paint: the thin diagonal dark line across the rear deck in TOP (about x485-525, y50-110), identical in r6/r7/r8 and consistent with an antenna; the diagonal gun-barrel shadow across the glacis in FRONT-3/4 and FRONT; the large dark shapes cast by the open hatch on the left roof in TOP. Real body joins or seams: the horizontal break on the right fender in TOP at about y340, and the dashed light line along the wedge's upper edge in RIGHT (about x90-200, y605). Both are present in r6/r7/r8. Face IDs Hull30/38, Hull21/22 and RightFender289/290 cannot be identified from the renders. Within the visible lower-right flank near the wedge tip (RIGHT about x250-340, y590-635) and the right fender strip in TOP, I saw no bright filter seam, line break or texel-bleed artifact attributable to the masked paint. That is low-moderate confidence at this resolution."
+    },
+    "comparisons": {
+      "r7": "TOP: the planar diagonal light bands are replaced by localized round gray patches, a real improvement in band artifacts. The patches bring a new 'soft spotlight' look. The stepped right fender edge is largely unchanged. RIGHT 1000/256: nearly identical silhouette of char lobes and wedge. r8 adds faint gray mottling inside the lobes; the wedge tip moves back by an imperceptible amount. REAR-3/4: r8 roof panels show white-gray irregular splotches where r7 showed a soft light streak; slight improvement. LEFT: unchanged.",
+      "r6": "r6 had pure two-tone char with hard stepped edges and no gray. r8 keeps the same macro mask and adds gray residue, so it is visibly richer at 1000 in TOP and REAR-3/4. At 256 the r6 and r8 rear-3/4 views are close to indistinguishable. Across r6\u2192r7\u2192r8 the macro char shape and lower-right wedge have barely changed; the iterations have mostly changed interior residue."
+    },
+    "sourceReferenceAssessment": "Both references show burned Abrams hulls where the dominant cue is not a clean dark/light split. Paint is blistered and flaking into many small and medium islands of rust-brown, olive, gray and chalky white, with hard, plate-following edges and charred plates set beside bleached bare-metal panels (Doha side skirts, Hansen skirt segments). The model's restrained approach (char on the rear and top, sand forward) is acceptable for low-poly readability and does not need photo-exact coverage. Its boundary vocabulary \u2014 large smooth lobes, soft round gray halos, no rust/blister intermediate \u2014 does not match that morphology and keeps the camouflage reading.",
+    "blockingIssues": [
+      {
+        "view": "right",
+        "size": "1000/256/128",
+        "location": "turret flank about x215-415, y520-585, and hull rear about x50-330, y575-640 at 1000",
+        "visibleFact": "Large dark lobes with hard, smooth outlines and tan gaps produce a tri-tone disruptive-camouflage pattern; unchanged in outline from r7/r6",
+        "confidence": "high",
+        "impact": "Primary reason the vehicle reads as painted, not burned, at game sizes"
+      },
+      {
+        "view": "right",
+        "size": "1000/256/128",
+        "location": "lower-right wedge, tip about x315-320, y590-635 at 1000",
+        "visibleFact": "Wedge length is essentially unchanged versus r7 (shift about 10-20 px at 1000) and remains the dominant horizontal dark stripe",
+        "confidence": "high",
+        "impact": "Planned shortening is not perceptible; the wedge still dominates the flank read"
+      },
+      {
+        "view": "top",
+        "size": "1000/256",
+        "location": "right roof panel about x505-590, y215-320; left turret cheek about x345-395, y235-410; rear deck about x370-450, y120-200",
+        "visibleFact": "Gray residue appears as soft circular halos with ragged centers, unrelated to panel geometry",
+        "confidence": "medium-high",
+        "impact": "Reads as airbrush or spotlight rather than ash; weakens the condition read and adds noise at 256/128"
+      },
+      {
+        "view": "top",
+        "size": "1000",
+        "location": "right turret-side/fender char boundary about x605-650, y220-410",
+        "visibleFact": "Stair-stepped, blocky boundary remains, as in r7/r6",
+        "confidence": "medium",
+        "impact": "Stencil or aliasing look at close range; minor at 256, invisible at 128"
+      }
+    ],
+    "boundedRecommendations": [
+      "Replace the smooth char lobes on the turret flank and hull rear with an eroded boundary: break each lobe into flaking islands and add a narrow scorched-brown/rust intermediate tone between char and sand, following the plate edges seen in the references. This targets the camouflage reading in RIGHT at all sizes.",
+      "If the wedge is meant to be subordinate, shorten or fragment it by a visible amount (on the order of 60+ px at 1000 in RIGHT), or interrupt it with intact-paint or bare-metal islands. The ~0.20 m change is not perceptible.",
+      "Turn the round gray halos into harder-edged, panel-bounded patches (whole or partial bare plates, chalky ash in recesses), remove the circular soft falloff, and use the same pass to clean up the stepped right fender boundary in TOP."
+    ],
+    "limitations": "Visual inspection of the listed PNGs with the Read tool only. I did not compute or verify hashes, sample pixel values, or open the GLB, native or capture audit files referenced in the summary. Pixel coordinates are approximate eyeball estimates. Face IDs Hull30/38, Hull21/22 and RightFender289/290 cannot be mapped to render pixels without a face-ID overlay, so those checks rely on the visible part and view. Only the listed subset of r7/r6 views was compared. References inform morphology only, not calibrated color or burn mechanics. This review grants no technical, visual or human approval.",
+    "humanApproval": false
+  },
+  "qualifications": [
+    "Reviewer says the wedge is not visibly shorter but also estimates10\u201320px retreat at1000. Interpret as insufficient perceptual improvement, not proof of zero material/coverage change.",
+    "Reviewer did not map named native faceIDs to pixels. Its no-clear-filter-artifact observation is low/moderate confidence, not a numerical seam certification.",
+    "Rust/blister/bare-plate vocabulary in reference interpretation is visual/design guidance, not independently established composition, heat physics or exact incident evidence.",
+    "Raw recommendations including larger wedge interruption are not a selected next recipe, implicit geometry authorization or a mandatory palette gate."
+  ],
+  "humanApproval": false,
+  "sourcePromotion": false,
+  "extractionAuthorized": false,
+  "reviewLimits": [
+    "No source/model/pixel mutations by reviewer. F owned one completed actual capture.",
+    "Physical direction provisionally retained for finishing; no unrequested turret loss/all-wheel-loss/incident reconstruction imposed.",
+    "No artwork, formal readiness, human approval, promotion, integration or attempt reset from this review."
+  ]
+}

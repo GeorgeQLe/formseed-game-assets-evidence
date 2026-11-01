@@ -1,0 +1,89 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m1a1-w01-concept-burn-albedo-source-r1",
+  "project": "formseed-game-assets",
+  "producer": {
+    "kind": "formseed2d",
+    "buildVersion": "1.6.0"
+  },
+  "job": {
+    "jobId": "2673a19b-2924-462d-a61e-f50ee2328422",
+    "revision": 1
+  },
+  "gate": "comparison-control",
+  "evidence": {
+    "renderHash": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+    "files": [
+      {
+        "path": "source/input-charcoal-fixture.png",
+        "sha256": "a8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a",
+        "bytes": 1845
+      },
+      {
+        "path": "source/host-output-staged.png",
+        "sha256": "f9f11d5fa0cb32f56d4b4c13af331bbfa9241451d78a2fbb0899a9975c16f514",
+        "bytes": 2703741
+      },
+      {
+        "path": "source/imported-r0.png",
+        "sha256": "ed553f530ecd8e97d8c55280a54b30239016567e36ed1e59dc8846fe53c59051",
+        "bytes": 2715060
+      },
+      {
+        "path": "source/canonical-r1-512.png",
+        "sha256": "6e3b20326dcf0a55f9b8484c1141aba94b04055d7fac224a3c1ec2ea4b021c06",
+        "bytes": 441245
+      },
+      {
+        "path": "metadata/source-review-portable.json",
+        "sha256": "a7a1e9b083b03abe088c028d671604a84ca572126b48c339fb58b945f4cbbc42",
+        "bytes": 10517
+      },
+      {
+        "path": "metadata/source-lineage-portable.json",
+        "sha256": "98781a7de1fc75daa6c69044cd5c543c90bb496281bdba475e278880c5c00184",
+        "bytes": 37821
+      },
+      {
+        "path": "metadata/source-technical-portable.json",
+        "sha256": "a547dddb24002a647abc313c58f373a84ef40f0d71d86724b249a35e02765656",
+        "bytes": 4626
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "3e704a3b2ae944484b4e06eed96d91ff5eb441decfc2458f968121f4ea49c542",
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:DM-SD-04-07075.jpg",
+        "sha256": "56864c8798ba400b939e88d29a137919241fadfcf47502e12c9f3b1be0395421",
+        "author": "USMC GySgt Erik S. Hansen, 2003",
+        "license": "Attributed US government source; rights not re-audited for this archive and reference pixels not redistributed.",
+        "role": "Local visual morphology analogue only; not exact incident or sampled color source."
+      },
+      {
+        "uri": "https://gulflink.osd.mil/du_ii/images/figi14.gif",
+        "sha256": "691b7239a3b319bd0bbeefaff903dd92317c9cd7284d8d1157f4727b463689b8",
+        "author": "United States Department of Defense, GulfLINK, 1991",
+        "license": "Attributed US government source; rights not re-audited for this archive and reference pixels not redistributed.",
+        "role": "Local visual morphology analogue only; not exact incident or sampled color source."
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "Root and actual Opus5.5 KEEP-FOR-APPLICATION is source suitability only, not human/source/model approval.",
+    "Official FormSeed2D prepare, claim dispatchAllowed true, one host generation, stage and complete, importer normalization then typed resize512; exactly1of2 concept generations used.",
+    "All three original authored image encodings and our FormSeed2D-authored flat charcoal input fixture are retained without conflating hashes. Third-party reference pixels are excluded; provenance only. The fixture is job9e82c1bb-ebee-4a64-bad9-8cb83ff94a24 r0 SHAa8a28d925cb2c32a8e120913b120b014be0fc63aec2eb3314bfda7e787d3345a, not historical evidence.",
+    "Nine whole-model finish attempts remain held; this source review is not a new model attempt or an approved finish.",
+    "Source is synthesized irregular albedo, not historical material or forensic heat evidence. Application must preserve causal coverage, original paint outside, and independent roughness/metallic."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

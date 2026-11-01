@@ -1,0 +1,34 @@
+{
+  "purpose": "Supplementary neutral-background floorless presentation for actual selected WP82Ar6; old floor evidence preserved.",
+  "newCapture": {
+    "path": "local-only/render-evidence.json",
+    "sha256": "92e2bc5ae8b3d971dc40209a4559666f636569cc3cafdade8bad706a564d0405"
+  },
+  "priorFloorCapture": {
+    "path": "local-only/render-evidence.json",
+    "sha256": "26db770c5ed304e5b84794ebf488d456dc01c757d2c5128da16a554bb8f0cbf9"
+  },
+  "asset": {
+    "jobId": "7c8cfdaa-043c-41cc-a08c-5c29a9d1f6b4",
+    "checkpoint": {
+      "checkpointId": "a31568b4-fc0e-4e6f-ad6a-4ec3b536aaf8",
+      "checkpointHash": "deeb4c2316826d71ba45c0721b83611c0246bca925c4ce024ae8a1cd0e42a796"
+    },
+    "glbSha256": "31cbce73b24554b7fef42004cfe1c7730ab585dc8d96040d81c17d38fa5589b5"
+  },
+  "comparison": "Same exact GLB, six cameras, explicit bounds, renderer source and bundle; only floor visibility and informational asset label changed. Existing renderer light and material settings unchanged; removing floor necessarily changes shadows on the background.",
+  "cameraReceiptSha256": "034db44249c9ea50ab1e4a0892dc1aba76d2c8a9744d844ae78a0fed3b17fe1b",
+  "rendererSourceSha256": "4832afe6f5a00fa784c61991ca6e9512d397d5555a7ce757abfc19a3d6ef50fd",
+  "rendererBundleSha256": "26e1bdf000551b3956f3e19e448498519f1705a0c51e7fc95c8b3f2fa0866bbd",
+  "verifiedImages": 36,
+  "verifiedRepeatPairs": 18,
+  "topViewInspection": "1000-top opened: neutral uniform background without the prior floor banding; folded corner remains visible. No new art approval inferred.",
+  "cleanup": {
+    "browserContextClosed": true,
+    "taskProfileRemoved": true,
+    "profileNamedBrowserProcessAbsent": true,
+    "serverClosed": true
+  },
+  "humanApproval": false,
+  "modelMutation": false
+}
