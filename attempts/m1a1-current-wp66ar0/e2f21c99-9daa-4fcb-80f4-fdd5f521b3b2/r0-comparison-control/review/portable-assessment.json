@@ -1,0 +1,77 @@
+{
+  "id": "WP66Ar0",
+  "jobId": "e2f21c99-9daa-4fcb-80f4-fdd5f521b3b2",
+  "revision": 0,
+  "checkpointSha256": "f4177b5f17e35dadfa0aefb67c081e25c1f1a420e741561c2a64c43cfe55f5a9",
+  "resultSha256": "42b55e75b598a34363135036385f6a72674fea36894d4642a9d5dd69c4468b2f",
+  "formalStatus": {
+    "technicalValidation": "pass",
+    "visualRecommendation": "go",
+    "projectConsistency": "not-evaluated",
+    "humanApproval": "absent"
+  },
+  "assessments": [
+    {
+      "rubricId": "model-quality",
+      "version": "1.0.0",
+      "effectiveDecision": "go",
+      "weightedTotal": 76.25,
+      "overrideApplied": false
+    },
+    {
+      "rubricId": "art-style-consistency",
+      "version": "1.1.0",
+      "effectiveDecision": "go",
+      "weightedTotal": 80,
+      "overrideApplied": false
+    }
+  ],
+  "sourcePresentation": {
+    "receiptSha256": "db406221cd388871944de0ba91f1660797222aebc785dad101a3f2e1de22939c",
+    "sourceRequestSha256": "abd0276f93f7789a564261ce530061a9481c81366a05b3de032b5444c71eefd8",
+    "sourceSpecificationSha256": "ce533c72c63e4b5cc5470dfba4ec1f2c73d89ab9ff415e775181f1f3d9af7065",
+    "dimensionBindingSha256": "0ebb641c316dc4cd0ecc4cc2eaa53cd11b221b9c1e73220bc457ce9b9937a14e",
+    "dimensionReportHash": "e555ab0b3bf01ffee856d54f423c571df260b663403050b0e0be382d366f4ca7",
+    "sourceSceneInventorySha256": "8ea60615deaf68d734f2aabfb8b8f1d3bf4e4a036b2ab5fecb1aa60589e67e95",
+    "nativeIsolationSha256": "5dc1b783e28e99fb764b11f704ac139b5c44bbda936cbe5330cf77a4605bfcee",
+    "checkpointSha256": "f4177b5f17e35dadfa0aefb67c081e25c1f1a420e741561c2a64c43cfe55f5a9",
+    "renderHash": "1ae4c3c28a7ca843684eee1548324d97198c58beb00ef76f9812aa11a2dda805",
+    "views": [
+      {
+        "name": "front-three-quarter",
+        "sha256": "4a32a6b8705224c684fde2e4f1188dd2fd3cd0b8d3adf093c62b57206944f966"
+      },
+      {
+        "name": "rear-three-quarter",
+        "sha256": "59c77797571f8de93b731913633aaa12bfc940f3dcd062055c3593d888c57354"
+      },
+      {
+        "name": "front",
+        "sha256": "407b037185b880665762da9921d3361ccab004028edd29b3e9e5a0619d148543"
+      },
+      {
+        "name": "left",
+        "sha256": "774f71fb6027590f7252c774a8e28bf0159ced54ffed124b36c4d2bee8c5c0bb"
+      },
+      {
+        "name": "right",
+        "sha256": "f7bf47672457d73a5c0a3663f0397944b680c253c84209baf8ca72bf05f6a7bf"
+      },
+      {
+        "name": "top",
+        "sha256": "3771a9486431fc80989e1b7d9d15cf347e1ac7a5f5fd2e52a7240eb239ced423"
+      }
+    ],
+    "repeatedPixelSha256s": [],
+    "registration": "mounted-source-pose",
+    "terrainGrounding": "not-assessed"
+  },
+  "actualOpusEvidence": {
+    "model": "claude-opus-5-5",
+    "manifestSha256": "231c179a8275eb7ebf8f81ea6a519a1c6ae31780f5ad3ec615b2acc19c85a593",
+    "six256ManifestSha256": "931a72a6d42b9ff36726e6d2e80a8d8f8f064729e8fcfda10a345b9f14609028"
+  },
+  "humanApproval": false,
+  "projectConsistency": "not-evaluated",
+  "runtimeQualified": false
+}

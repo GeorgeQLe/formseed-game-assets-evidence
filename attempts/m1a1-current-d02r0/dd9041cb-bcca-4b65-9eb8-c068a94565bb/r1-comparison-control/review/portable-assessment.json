@@ -1,0 +1,37 @@
+{
+  "id": "D02r0",
+  "jobId": "dd9041cb-bcca-4b65-9eb8-c068a94565bb",
+  "revision": 1,
+  "checkpointSha256": "fba35ec90ca9860fead856ca35f46b4c49d687dff83b0bccf6a957ab38366ae1",
+  "resultSha256": "314210f0d032b009a14233dd2ae550bd8e4d0aa91912d8535ef51457af37cbdc",
+  "formalStatus": {
+    "technicalValidation": "pass",
+    "visualRecommendation": "go",
+    "projectConsistency": "not-evaluated",
+    "humanApproval": "absent"
+  },
+  "assessments": [
+    {
+      "rubricId": "model-quality",
+      "version": "1.0.0",
+      "effectiveDecision": "go",
+      "weightedTotal": 76.25,
+      "overrideApplied": false
+    },
+    {
+      "rubricId": "art-style-consistency",
+      "version": "1.0.0",
+      "effectiveDecision": "go",
+      "weightedTotal": 80,
+      "overrideApplied": false
+    }
+  ],
+  "sourcePresentation": null,
+  "actualOpusEvidence": {
+    "model": "claude-opus-5-5",
+    "manifestSha256": "0932d5a4239c6570e6cb287b0f53565a644008f490c10e71ec3a6209b8156a61"
+  },
+  "humanApproval": false,
+  "projectConsistency": "not-evaluated",
+  "runtimeQualified": false
+}
