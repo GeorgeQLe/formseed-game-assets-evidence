@@ -1,0 +1,56 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "t72m1-finished-clean-20261102",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "fc11d6dc-9215-4f69-bc27-06a2bd10636b",
+    "revision": 7,
+    "checkpointSha256": "03a4c264e317a8b9d400adedaeb522dc104345063b428b0fc3ced59a18d04ef5"
+  },
+  "gate": "primary-secondary-review",
+  "evidence": {
+    "labeledSheet": {
+      "path": "review-comparison.png",
+      "sha256": "3ff64e2004539add9928a2bf256161e47bd355caf22471f59ca0ddd9461f9380",
+      "bytes": 664006
+    },
+    "files": [
+      {
+        "path": "independent-review.json",
+        "sha256": "a88bfd37b96c986ff119d269c50c70731e54be5a232fab252b31ff8bf100e78a",
+        "bytes": 17842
+      },
+      {
+        "path": "deterministic-assessments.json",
+        "sha256": "f515fb0ec8defffd6756e642832a70e191ce39e3c78aeae25a8a985559c5e60a",
+        "bytes": 139524
+      },
+      {
+        "path": "review-comparison.png",
+        "sha256": "3ff64e2004539add9928a2bf256161e47bd355caf22471f59ca0ddd9461f9380",
+        "bytes": 664006
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Internal independent review not a human rejection: superseded for a focused material-readability correction; no final artwork/source approval granted.",
+    "decidedAt": "2026-11-02T19:36:28.790429Z"
+  },
+  "notes": [
+    "Agent review history preserved; no user rejection or artwork approval inferred.",
+    "Unapproved Blend/GLB bytes deliberately not published."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "reviewer": "claude-opus-5-5",
+  "review": {
+    "candidate": {
+      "jobId": "fc11d6dc-9215-4f69-bc27-06a2bd10636b",
+      "revision": "r4",
+      "checkpoint": "fee11b24a6ac995ea472df6022f1dbf21512f6d2bf68f43da896513bcbbc323c",
+      "run": "run-O38CIp/pass-2"
+    },
+    "initialObservations": [
+      "Reads clearly as the T-72 family: a low cast dome turret, a long 125mm gun with three band rings, six large road wheels, a rear toothed sprocket with a front idler, a V splash ridge on the upper glacis, the NSVT on the right-hand (commander) hatch, a stowed tube along the turret's left rear, and smoke tubes on both turret cheeks.",
+      "Measured from left.png at about 82.6 px/m: about 9.3 m overall, about 6.66 m hull, about 2.2 m to the turret roof and about 2.7 m to the top of the MG. Width in top.png is about 3.58 m. This matches the stated 9.32x3.59x2.78. The hull may be slightly short (about 3-4%), which is within tolerance for an approved base.",
+      "The turret centre sits about 5% of hull length behind the hull midpoint. In source-15 it is roughly centred, but that photo is wide-angle and distorted.",
+      "The side skirts are four flat, near-black rectangles over the top of the wheels. They stop short of the idler and sprocket, and in both three-quarter views they read as dark voids.",
+      "The road wheels are flat discs with a rim ring, a ring of bolt dots and a small hub. They show no radial ribs or dished depth.",
+      "The engine deck has a louvered grill block with a centre bar near the rear, plus a dark rail along the rear edge. The rear plate looks nearly vertical, with two tow eyes and a slightly darker lower band.",
+      "The front mudguards are thin, angled wing-like flaps. The rear flaps are tall vertical plates; in front-three-quarter the rear one stands up like a fin.",
+      "Long, flat, light pads sit on the fender tops (three per side in top.png).",
+      "Two hatches are on the turret roof. A rectangular sight box sits forward of the left-hand hatch, and boxy stowage sits at the turret's rear corners.",
+      "The mantlet is a square grey-green block, a different colour from the sand turret.",
+      "In front.png the large IR-searchlight lens right of the gun is a solid black disc, while the main-gun muzzle is light. The searchlight reads more like a bore than the gun does.",
+      "Smoke tubes: at native resolution I can pick out only about 4 per side in front.png and top.png. Overlap may hide the rest.",
+      "The NSVT is a thin dark barrel and receiver on a slender post, with a small light cuboid offset beside it. In front.png the parts read as separate pieces, not one cradle. I can't see a distinct gas tube.",
+      "In front-three-quarter, the right-hand front lamp guard and lens appear as a dark '7'/'Z'-like glyph on the glacis corner. In front.png it resolves as a square guard frame with a round lens.",
+      "The finish is uniform pinkish-tan solid paint with dark running gear. Down-facing planes (lower glacis, lower rear plate) shade to brown. There are no markings except the glyph above."
+    ],
+    "sourceComparison": {
+      "rearSlantLip": "source-16 shows a clearly sloped rear plate under an overhanging deck lip, with dense hardware: cables, brackets and tow fittings. The model's rear is close to a plain vertical box with only a faint lower band. This is the weakest major relationship.",
+      "grills": "The deck louver area and its position match source-16 well enough for a representative model.",
+      "lowFenderUnits": "The fender-top units are present and low, but very flat. Source-15 and source-16 show more boxy volume and visible straps and lids. This is polish.",
+      "wheelRelief": "source-15 and source-18 show dished wheels with about 8 radial ribs, a deep hub and a thick rubber tyre band. The model's wheels are coin-flat. This is the most visible secondary-form gap in the three-quarter views.",
+      "lampHousingsGuards": "Housings and square guards are present and symmetric, and they read correctly front-on. At an oblique angle the thin guard reads as a glyph. Exact M1 lamp layout is not asserted.",
+      "snorkelSupports": "The side and position match source-19 (along the turret's left rear). The model's tube looks short and fat (about 1.1 m visible against a longer tube in source-19). The supports are just two dark bands, without the stand-off clamp brackets in source-19.",
+      "nsvt": "source-19 and source-15 show a solid box receiver, a prominent rectangular ammo box beside it, a gas tube under the barrel, and a robust cradle and pintle on the hatch ring. The model has a slim post, an under-sized receiver, a separate offset feed box and no readable gas tube. It reads as a floating assembly, not one mount.",
+      "skirts": "Full-length rubber skirts fit the M1/A type. source-03's skirt is a mid-dark blue-grey band, noticeably lighter than the model's near-black."
+    },
+    "blockingIssues": [
+      "Process blocker, not a form blocker: I couldn't inspect the eight 256px map-recognition frames. Directory listing is unavailable to my read-only tool, and guessed filenames don't exist. So small-size recognition is unverified, and under the fail-closed rule this review cannot support a visual go."
+    ],
+    "strongestObjectionByCoreCategory": {
+      "identity": {
+        "status": "nonblocking",
+        "objection": "The square grey-green mantlet block and the black searchlight disc are the least T-72-like cues; in front view the searchlight competes with the bore. Overall identity (dome turret, 6 wheels, rear sprocket, V glacis, NSVT on the commander's hatch, rubber skirts) is strong."
+      },
+      "silhouette": {
+        "status": "nonblocking",
+        "objection": "The rear end reads as a blunt vertical box instead of source-16's slanted rear plate with an overhanging lip. The rear fender flap stands up like a fin in front-three-quarter. Both are minor at game scale, and the base shape is already approved."
+      },
+      "proportions": {
+        "status": "nonblocking",
+        "objection": "The turret centre is about 5% aft of the hull midpoint, the hull is about 3-4% short of nominal, and the snorkel looks short. All are within representative tolerance, and the source distortion makes stronger claims unreliable."
+      },
+      "formHierarchy": {
+        "status": "nonblocking",
+        "objection": "The flat road wheels have no rib or dish relief (compare source-15 and source-18), and the flat black skirt slabs dominate the side mass. The secondary hierarchy is weaker than the primary hierarchy."
+      },
+      "mechanicalCoherence": {
+        "status": "nonblocking",
+        "objection": "The NSVT receiver, feed box and post read as separate pieces without a cradle or gas tube, and the snorkel supports are bands rather than brackets. I can't confirm from renders that the turret-rear stowage boxes are parented to the turret, though the left and rear-three-quarter views suggest they are. If they were hull-parented they would block turret traverse."
+      },
+      "materialsValues": {
+        "status": "nonblocking",
+        "objection": "The near-black skirts (much darker than source-03's rubber) read as voids. The muzzle is light while the searchlight lens is black, which reverses the expected read. The mantlet hue differs from the solid-paint finish."
+      },
+      "viewConsistency": {
+        "status": "nonblocking",
+        "objection": "In front-three-quarter the lamp guard and lens read as a marking-like '7'/'Z' glyph on a candidate meant to be clean and unmarked. My visible smoke-tube count (about 4 per side) doesn't obviously show the claimed 6+6; please verify it isn't just overlap."
+      },
+      "smallSizeRecognition": {
+        "status": "unresolved",
+        "objection": "The 256px recognition frames were not inspected. Shrinking the native renders in my head suggests a strong read (long gun, dome turret, dark skirt band, six wheels), but that is not evidence."
+      }
+    },
+    "reviewRecommendation": "From what I could inspect, no primary form blocker. Do not treat this as a visual go yet: the recognition frames must be inspected and the deterministic evaluator run on a complete hash-bound assessment first. If the frames read well, the finishing candidate looks suitable for George's named human review, with the polish below listed as optional. This review grants no approval, and the base-shape approval does not cover this finishing.",
+    "usefulPolish": [
+      "Darken the muzzle bore and lift the searchlight lens to a dark glass or grey value so the main gun reads as the bore head-on.",
+      "Lighten the skirts towards source-03's dark blue-grey rubber, or add an edge highlight, so they stop reading as voids.",
+      "Add a shallow dish or radial-rib relief to the road wheels (normal map or a few chamfers), within the tri budget.",
+      "Consolidate the NSVT into one cradle: receiver, attached ammo box, gas tube under the barrel, and a sturdier pintle.",
+      "Give the rear plate a visible slant and an overhanging deck lip, with one or two hardware masses; only if George reopens base shape.",
+      "Make the lamp guard read cleanly at an oblique angle so it isn't mistaken for a marking.",
+      "Match the mantlet cover to the sand paint, or a slightly darker canvas tone of the same hue.",
+      "Lengthen the snorkel slightly and give the supports small stand-off brackets."
+    ],
+    "limitations": [
+      "Map-recognition frames not inspected: the directory couldn't be listed, and guessed filenames (heading-000.png, 000.png, n.png, north.png) don't exist.",
+      "I only saw the stated render set: no right side, rear orthographic or close-ups. Exhaust, return rollers and the underside are unverified.",
+      "Source photos mix periods, owners and paint schemes (restored repaints, museum, camouflaged). Exact T-72M1 fittings (smoke tube count, lamps, stowage, crew hatch hinges) are not asserted beyond what is visible.",
+      "Measurements are pixel estimates from orthographic renders, and the source proportions are affected by wide-angle distortion.",
+      "Geometry parenting and part separation (77 parts, 30,896 tris, 8 materials) were not checked; renders only.",
+      "Read-only review: no files changed, no approval or version claimed."
+    ]
+  }
+}

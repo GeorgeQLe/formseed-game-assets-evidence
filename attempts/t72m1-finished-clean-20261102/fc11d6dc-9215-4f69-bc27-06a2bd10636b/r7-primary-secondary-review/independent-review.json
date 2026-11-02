@@ -1,0 +1,217 @@
+{
+  "reviewer": "claude-opus-5-5",
+  "review": {
+    "candidate": {
+      "asset": "T-72M1 finishing source",
+      "jobId": "fc11d6dc-9215-4f69-bc27-06a2bd10636b",
+      "revision": "r7",
+      "checkpoint": "03a4c264e317a8b9d400adedaeb522dc104345063b428b0fc3ced59a18d04ef5",
+      "run": "run-XZy8W3/pass-2",
+      "gate": "clean source FINISHING REVIEW (not game, animation or performance qualification)",
+      "supersedes": "r4 fee11b24\u2026 (no longer current)"
+    },
+    "initialObservations": [
+      "The overall form is unchanged from r4 and still reads strongly as a T-72-family tank. Cues: low cast dome turret, long banded 125mm-class gun, six large road wheels, toothed rear sprocket, front idler, V splash board on the glacis, full-length rubber side skirts, smoke tubes on both cheeks, NSVT on the commander's side, snorkel tube on the turret, louvered rear deck.",
+      "Road wheels: the radial ribs are clearly visible in left.png and right.png and still read in front-three-quarter and rear-three-quarter. This closes r4's flat-coin wheel objection.",
+      "Rear rubber flaps: rear-three-quarter shows separate dark flap blocks at both rear hull corners. front-three-quarter shows the left-rear flap as its own slab, no longer a fin-like extension of the plate.",
+      "Lamp guards: front-three-quarter now shows a small sand-coloured guard at the glacis corner. The dark '7'/'Z' glyph that r4 read as a marking is gone. front.png still shows guard plus lens.",
+      "Skirt rubber: in left.png and right.png the skirts are a dark warm grey, visibly lighter than r4's near-black. Under the quarter-view lighting (front-three-quarter, rear-three-quarter) they still render almost black, so the lighter rubber mostly reads only in the orthographic views.",
+      "Muzzle: front.png shows a dark centre at the muzzle, but it sits inside a pale ring on a grey square mantlet face, which reads a little like a target. The IR searchlight is still a larger, darker, flat teal disc and is still the strongest dark accent on the front.",
+      "NSVT: the receiver, barrel and feed box are now on a slender post over the cupola and read as one plausible pintle mount in left.png, right.png and rear-three-quarter. It is still thin, with no gas tube I can read.",
+      "Smoke tubes: I can count about 4 per side in front.png and top.png. Overlap may hide the rest. Representative 6+6 is acceptable and the exact count is not asserted.",
+      "Gun-boot clearance at the -6/+14 endpoints can't be seen in static neutral-pose renders. I rely on the reported finite endpoint probes.",
+      "The rear plate is still a near-vertical box with tow eyes and a darker lower band. This is a base-shape matter, not reopened at this gate."
+    ],
+    "recognitionByView": {
+      "map-0": "View from high front, gun toward the camera. Reads as a tank: rectangular hull, long gun, round turret, cheek smoke tubes as dark clusters, rear grille. The turret disc separates from the hull only through faint shading. This is the weakest frame (with map-4), but it is still recognizable as a Soviet-lineage MBT.",
+      "map-1": "Front quarter at 50\u00b0. Strong read: dome turret, long gun, dark skirt band over the wheels, louvered deck. T-72 identity is clear.",
+      "map-2": "Elevated side. Gun, dome turret and six large wheels under a dark skirt band are clear. Distinct from T-55/T-62 (5 wheels) and T-64/T-80 (small wheels).",
+      "map-3": "Rear quarter. Deck grille, dome turret and gun over the far side all read. The dark launcher accent separates the turret front.",
+      "map-4": "View from high rear. Hull rectangle, rear deck block, turret, gun pointing away. Least distinctive frame: the turret and hull share one value band. Recognizable as an MBT; T-72-specific cues rely on the dome outline and launchers.",
+      "map-5": "Rear quarter, opposite side. Strong read: dome, gun, grille, skirt band.",
+      "map-6": "Elevated opposite side. Mirrors map-2. Six wheels, skirts, dome and gun are clear.",
+      "map-7": "Front quarter, opposite side. Strong read. Searchlight and launchers give the turret-front accent."
+    },
+    "blockingIssues": [
+      "No form-level or core-category blocker.",
+      "Aggregate rubric shortfall from my scores (see perCategoryScores). model-quality computes to 72.5 against goThreshold 75. art-style-consistency computes to 75.0 against goThreshold 80. No core category is below 3, so the shortfall comes from the weighting and non-core categories, not from a core failure. I have not raised scores to clear the thresholds.",
+      "The deterministic evaluator has not been run on a complete hash-bound structured assessment for r7. Under fail-closed rules there is no visual go until it returns its exact result."
+    ],
+    "strongestObjectionByCoreCategory": {
+      "model:identity-recognition": {
+        "status": "nonblocking",
+        "objection": "In the near-top map frames (map-0, map-4) the turret and hull sit in one sand value band, so the T-72 read depends on the dome outline and the dark cheek launchers. The other six frames read strongly. In front.png the searchlight disc still competes with the bore."
+      },
+      "model:silhouette": {
+        "status": "nonblocking",
+        "objection": "The rear still reads as a blunt vertical box rather than a sloped plate under an overhanging deck lip (left.png, rear-three-quarter). The four skirt slabs form one flat rectangle that merges the upper wheel line in the quarter views. Base shape is out of scope at this gate."
+      },
+      "model:mechanical-coherence": {
+        "status": "nonblocking",
+        "objection": "The NSVT post and cradle are slender and have no readable gas tube. The snorkel supports are bands rather than stand-off brackets. Gun-boot clearance is evidenced only at three finite endpoint probes, not continuous travel; continuous proof belongs to animation qualification, not this source gate."
+      },
+      "model:production-integrity": {
+        "status": "nonblocking",
+        "objection": "I could not independently re-hash the renders or verify the 77-part/34,360-tri/8-material counts read-only. I accept the reported current validation (31/31 dimensions, 77/77 export and select/hide) and the source SHA-256 pins in project-consistency-composition-r7.json as stated, not as re-verified."
+      },
+      "style:abstraction-detail": {
+        "status": "nonblocking",
+        "objection": "The fender pads and skirt slabs are untextured flat planes, so the secondary detail on the hull sides is thinner than on the turret. The detail density is otherwise in line with Abrams v1.0."
+      },
+      "style:shape-edge": {
+        "status": "nonblocking",
+        "objection": "No bevel is visible on the skirts, fender pads or hull edges, and the transition from cast turret to planar hull relies on shading alone. This matches the baseline's hard-edge treatment, but it is at the low end of the profile's 'restrained bevels'."
+      },
+      "style:value-hierarchy": {
+        "status": "nonblocking",
+        "objection": "In the quarter views the skirts still render almost black, so the dark band is broader and heavier than on the Abrams baseline, whose skirts are painted sand. The searchlight disc is the dominant front accent rather than the gun. Turret and hull share one value band in map-0 and map-4. The three-band structure (dark running gear, sand body, scarce dark accents) still holds."
+      },
+      "style:presentation-behavior": {
+        "status": "nonblocking",
+        "objection": "The baseline composition uses 25\u00b0 quarter views at 128 px. The candidate's 8\u00d7256 map frames use a 50\u00b0 camera and have no matching Abrams set, so the map-scale comparison is candidate-only. All views are unclipped, grounded and consistently lit."
+      }
+    },
+    "perCategoryScores": {
+      "model-quality@1.0.0": {
+        "identity-recognition": {
+          "score": 3,
+          "core": true,
+          "reasoning": "Production-ready: identity holds in all 8 map frames and all 6 source views without labels. Not 4: map-0 and map-4 are only weakly T-72-specific, and front.png's searchlight competes with the bore."
+        },
+        "proportion-mass": {
+          "score": 3,
+          "core": false,
+          "reasoning": "31/31 dimension criteria pass. left.png and right.png show a credible low stance, turret mass and wheel spacing. The turret sits slightly aft and the snorkel looks short (both carried from r4), within representative tolerance."
+        },
+        "silhouette": {
+          "score": 3,
+          "core": true,
+          "reasoning": "The gun, dome, low hull and road-wheel negative spaces stay distinct in left.png, right.png, map-2 and map-6. Docked from 4 by the boxy rear and the merged skirt rectangle in the quarter views."
+        },
+        "form-hierarchy": {
+          "score": 3,
+          "core": false,
+          "reasoning": "Primary forms carry identity. The ribbed wheels, launchers, grille, snorkel and NSVT explain function, and tertiary detail (tow eyes, hatch rings) is sparse. Marginal 3: the flat skirt and pad slabs dominate the hull sides in front-three-quarter and rear-three-quarter."
+        },
+        "mechanical-coherence": {
+          "score": 3,
+          "core": true,
+          "reasoning": "Nothing visibly floats or interpenetrates in any view. The rear flaps are now separate and the NSVT reads as mounted. The thin pintle, band-type supports and endpoint-only clearance evidence keep it at 3."
+        },
+        "surface-material": {
+          "score": 2,
+          "core": false,
+          "reasoning": "Serviceable, with visible limitations. Paint, rubber and dark metal follow construction, but the lighter-rubber correction is mostly lost under quarter-view lighting. The searchlight 'glass' is a flat disc no different from painted dark metal. The muzzle face reads as a pale ring rather than a clean dark bore (front.png). I didn't award 3 because two of the three material corrections only partly read in the primary review views."
+        },
+        "viewpoint-robustness": {
+          "score": 3,
+          "core": false,
+          "reasoning": "The weakest views (map-0, map-4, front.png) are still intentional, grounded and unclipped. No hero view hides a failure exposed elsewhere."
+        },
+        "production-integrity": {
+          "score": 3,
+          "core": true,
+          "reasoning": "Per the reported current validation, select/hide and export, plus the hash-pinned composition sources. Not independently re-verified; see limitations."
+        },
+        "weightedTotal": 72.5,
+        "goThreshold": 75,
+        "floorsMet": true,
+        "result": "below threshold (agent computation; the deterministic evaluator is authoritative)"
+      },
+      "art-style-consistency@1.0.0 (profile grounded-tactical-miniature-visual@1.0.0)": {
+        "abstraction-detail": {
+          "score": 3,
+          "core": true,
+          "reasoning": "Clear primary and secondary forms at 256 px (map-1, map-2, map-5, map-6) and sparse functional tertiary detail. Density matches Abrams v1.0 in the composition."
+        },
+        "shape-edge": {
+          "score": 3,
+          "core": true,
+          "reasoning": "Consistent planar, cast-dome and cylinder grammar across views, with the same hard-edge treatment as the baseline. Bevels are barely visible."
+        },
+        "proportional-stylization": {
+          "score": 3,
+          "core": false,
+          "reasoning": "Grounded and faithful, with no caricature. At uniform scale it sits correctly lower and shorter than the Abrams in the composition."
+        },
+        "value-hierarchy": {
+          "score": 3,
+          "core": true,
+          "reasoning": "The three-band structure is present. Skirt darkness in the quarter views and the searchlight's dominance are noted but don't collapse separation."
+        },
+        "palette-behavior": {
+          "score": 3,
+          "core": false,
+          "reasoning": "Same low-saturation sand as the baseline. Identity survives reduced colour because it rests on form."
+        },
+        "material-vocabulary": {
+          "score": 3,
+          "core": false,
+          "reasoning": "Matte painted metal, dark rubber and controlled dark glass, in line with the profile and the Abrams baseline. No photoreal noise."
+        },
+        "markings-wear": {
+          "score": 3,
+          "core": false,
+          "reasoning": "Clean and unmarked, consistent with the baseline. The r4 glyph that read as a marking is resolved. Not 4: absence of markings isn't exceptional execution."
+        },
+        "presentation-behavior": {
+          "score": 3,
+          "core": true,
+          "reasoning": "Unclipped, grounded and consistently lit at uniform physical scale across 6 matched views. Only the candidate has map-camera evidence."
+        },
+        "weightedTotal": 75.0,
+        "goThreshold": 80,
+        "floorsMet": true,
+        "result": "below threshold (agent computation). Note: a uniformly production-ready asset (all 3s) scores 75 on this rubric, so a go here needs 4-level execution somewhere. I found no category that earns 4 on evidence."
+      }
+    },
+    "baselineComparison": {
+      "baseline": "Abrams v1.0 (m1a1-abrams 1.0.0, job 2ee3ab25\u2026, r2, CP 60005058\u2026), designated by George as the roster materials/detail baseline. No approval is transferred.",
+      "evidence": "t72m1-r7-abrams-v1-0-review.png plus project-consistency-composition-r7.json: 6 matched views (F3Q, R3Q, front, left, right, top) at a uniform 12.1 m frame (T72 scale 1.0, Abrams 0.9256) with 128 px strips.",
+      "consistent": [
+        "Same sand paint hue and saturation, matte flat-shaded finish, dark tracks and wheels.",
+        "Comparable detail bandwidth: Abrams has rails, antennas and grilles; T72 has launchers, snorkel, grille and NSVT.",
+        "Same hard planar edge language, and the same clean, unmarked narrative density.",
+        "At 128 px both read as distinct MBTs at matching visual weight."
+      ],
+      "differences": [
+        "T72's dark rubber skirt band is a much larger dark mass than the Abrams' painted-sand skirts. This is subject-correct, not a style break, but it makes T72 the heavier-valued vehicle on the roster.",
+        "T72's front-accent dark disc (searchlight) has no Abrams counterpart and is its strongest single accent.",
+        "Abrams shows more turret-side value separation (darker turret-side bands in left and right). T72's turret and hull are closer in value."
+      ],
+      "cameraCaveat": "The candidate's 50\u00b0 256 px map frames have no Abrams equivalent, so map-scale consistency is candidate-only."
+    },
+    "r4ObjectionReconciliation": {
+      "flatRoadWheels": "resolved (8 radial ribs visible)",
+      "rearFlapFin": "resolved (separate rubber flaps)",
+      "lampGuardGlyph": "resolved (painted guard; no marking read)",
+      "muzzleVsSearchlight": "partially resolved: dark bore centre now exists, but the searchlight disc still dominates and the muzzle face reads as a ring",
+      "nearBlackSkirts": "partially resolved: lighter in orthographic views, still near-black in quarter views",
+      "nsvtFloating": "improved, nonblocking: reads as a mount, still slender",
+      "rearPlateSlant": "unchanged; base-shape scope",
+      "mapFramesUninspected": "resolved: all 8 inspected this pass"
+    },
+    "recommendation": {
+      "technicalValidation": "pass as reported (31/31 dimensions, 77 parts / 34,360 tris / 8 mats, exact 77 export and select/hide, endpoint probes deterministic). Not re-verified by this read-only review.",
+      "visualRecommendation": "no-go on my scores (model-quality 72.5 < 75; style 75.0 < 80). No unresolved core objection and no form blocker. The shortfall is material read in the quarter views plus the style rubric's need for some 4-level category. Run the deterministic evaluator on a complete hash-bound assessment; its exact result governs. George may still choose to hold a named finishing review, with the caveats above listed.",
+      "humanApproval": "none. Abrams v1.0's designation as baseline transfers no approval; this review grants none.",
+      "scopeSeparation": "Source finishing only. Endpoint probes are not animation clip approval or continuous clearance proof. Nothing here bears on game performance or integration qualification."
+    },
+    "optionalPolish": [
+      "Raise the skirt rubber value or add a top-edge highlight so the lighter rubber survives quarter-view lighting. This is the most direct lift for surface-material and value-hierarchy.",
+      "Give the searchlight a glass treatment (rim plus a slightly lighter or reflective lens) and darken the muzzle face's pale ring so the bore is the primary front accent.",
+      "Add a narrow bevel or edge highlight to the skirt slabs and fender pads.",
+      "Thicken the NSVT pintle and add a gas tube; add stand-off brackets to the snorkel.",
+      "Slight turret/hull value separation (e.g. a mildly darker turret lower band) for the near-top map frames.",
+      "Rear plate slant and deck lip, only if George reopens base shape."
+    ],
+    "limitations": [
+      "Read-only image inspection. No hashes recomputed and no geometry, parenting or material counts checked directly.",
+      "Gun-boot clearance and the -6/+14 endpoints can't be judged from neutral-pose stills.",
+      "Smoke-tube count and exact T-72M1 fittings are not asserted. Representative only, and no historical precision is claimed.",
+      "Pixel values are judged visually, not sampled.",
+      "Scores are my structured assessment, not evaluator output. No adversarial evaluator was run separately in this pass.",
+      "No files mutated; no approval, version or promotion implied."
+    ]
+  }
+}
