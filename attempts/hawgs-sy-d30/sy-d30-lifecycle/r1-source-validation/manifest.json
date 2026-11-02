@@ -1,0 +1,74 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sy-d30",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sy-d30-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "sy-d30-r1-base.png",
+      "sha256": "124a7f26690f87ced6184f4ac1a8c048054e1be27f2f9d16f8fc6323327037f3",
+      "bytes": 81891
+    },
+    "files": [
+      {
+        "path": "review/sy-d30-r1-lifecycle.png",
+        "sha256": "1107d3b1262db7053ac657470841f5c73a2e0d088987bb6d027622faefc94500",
+        "bytes": 94490
+      },
+      {
+        "path": "review/sy-d30-r1-review.png",
+        "sha256": "b3b0c727c18cc93861f673e6f3cca34919c82e244706c88ab049bf6f1482a384",
+        "bytes": 96292
+      },
+      {
+        "path": "sy-d30-r1-base.png",
+        "sha256": "124a7f26690f87ced6184f4ac1a8c048054e1be27f2f9d16f8fc6323327037f3",
+        "bytes": 81891
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.tstu.ru/book/elib/pdf/2004/gorovoy.pdf",
+        "sha256": "c5577572377a83cff446f246193a53dce2921f977fc113af37411a38a3fe7603",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "d30-tstu"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-final-six-r1-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:57:24.613Z",
+    "quote": "D30-R1-D3-LEGIBILITY: damaged-3 (right tyre burnt to the rim plus carriage scorch) is still dark-on-dark at game scale: 13/13 px delta>=24 but only 2/2 px delta>=48 at 68 px. It is hard to tell from intact on either ground."
+  },
+  "notes": [
+    "syD30 r1 (sy-d30-r1); assemblies {\"intact\": \"9d338810-6926-582f-ac28-04fcbe38ca78\", \"damaged-1\": \"af3f1797-db57-576d-bf2b-c1ab9e473f84\", \"damaged-2\": \"9b9eef58-db5a-5bed-9728-3c823f9a8363\", \"damaged-3\": \"d6fbae13-d65d-502f-8d9a-65a8ea065034\", \"destroyed-1\": \"84f2f7e7-2842-532f-83fd-7060029edf50\", \"destroyed-2\": \"4c818803-fd08-5ece-bf67-3e13d816d1bb\", \"destroyed-3\": \"8af0e492-5f22-589f-9bfb-956facbd7417\"}.",
+    "Review: independent-final-six-r1-review CHANGES_REQUESTED (review.json sha256 ebc5d5002c32a2ca28f6d7eb7e73563ac9514b4aa3944ead703ddb639a144558).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-qa-milan",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "qa-milan-lifecycle",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "qa-milan-v1-base.png",
+      "sha256": "6bde6a46f11769dfae14f626afaebb966695603ceae576191283c353a8408955",
+      "bytes": 42262
+    },
+    "files": [
+      {
+        "path": "review/qa-milan-v1-lifecycle.png",
+        "sha256": "f42618476c434146a0a9efc994b84db376105b57c817df97fe7018cb8efeb8d7",
+        "bytes": 103900
+      },
+      {
+        "path": "review/qa-milan-v1-review.png",
+        "sha256": "e38ab90be0397537b8c6ffd10ef05428d28d9cb142024affe62daf9f66509888",
+        "bytes": 103369
+      },
+      {
+        "path": "qa-milan-v1-base.png",
+        "sha256": "6bde6a46f11769dfae14f626afaebb966695603ceae576191283c353a8408955",
+        "bytes": 42262
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-final-six-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:42:54.544Z",
+    "quote": "MILAN-D3-COLLISION: In destroyed-3 the fallen gunner (hips 300,196) touches the still-standing tripod leg end: one merged alpha blob with the post (blob_gaps: component 1, 7131 px), so the casualty is not separated from the team weapon."
+  },
+  "notes": [
+    "qaMILAN r0 (qa-milan-v1); assemblies {\"intact\": \"eaf6c4ee-1cf9-5471-90ce-4289b28dd8c6\", \"damaged-1\": \"2d877079-f61c-5ad6-9cab-68f9746b4b5f\", \"damaged-2\": \"70b2a7b6-8034-5985-83a5-6a570d6eb5c9\", \"damaged-3\": \"8fb90ded-df99-5302-b85e-d8a61df8811f\", \"destroyed-1\": \"7744e215-d5d3-5f40-ad0c-45c3b3449eef\", \"destroyed-2\": \"10692275-f520-5ce0-addd-58b72fd395e9\", \"destroyed-3\": \"508594ff-a1dd-5eec-81ea-3791462ea05f\"}.",
+    "Review: independent-final-six-review CHANGES_REQUESTED (review.json sha256 4546082ad3b006b6a4a6b452e09f36feb3af59ac0c54207f5e7e2f54dbf3487a).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

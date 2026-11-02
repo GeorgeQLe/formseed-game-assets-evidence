@@ -1,0 +1,74 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sy-d30",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sy-d30-lifecycle",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "sy-d30-v1-base.png",
+      "sha256": "7ce04e8b40c70310ce9f9eed6bf001364f87be3568aee276ee7381fca7a06fa7",
+      "bytes": 79223
+    },
+    "files": [
+      {
+        "path": "review/sy-d30-v1-lifecycle.png",
+        "sha256": "994af9858020b17257cb50cd7cf7ebd635d7ff6c4d348f8677a3723f4dc2335b",
+        "bytes": 91145
+      },
+      {
+        "path": "review/sy-d30-v1-review.png",
+        "sha256": "3a8b599b85a207303e920aeb5520253e3b647d2f6280f9a22eae4a5aa86e0e82",
+        "bytes": 92115
+      },
+      {
+        "path": "sy-d30-v1-base.png",
+        "sha256": "7ce04e8b40c70310ce9f9eed6bf001364f87be3568aee276ee7381fca7a06fa7",
+        "bytes": 79223
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.tstu.ru/book/elib/pdf/2004/gorovoy.pdf",
+        "sha256": "c5577572377a83cff446f246193a53dce2921f977fc113af37411a38a3fe7603",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "d30-tstu"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-final-six-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:42:54.544Z",
+    "quote": "D30-RECOIL-OCCLUSION: The gun layer is ordered above the turret layer that carries the recoil/recuperator housing, and the tube is not drawn under the housing. In the recoil pose (gun +14 px) the tube front slides over the housing and a 14 px gap opens between the housing end and the breech ring, so the breech appears detached. Retained Ivanov/Gorovoy Fig. 2.1.1 (PDF page 18) shows the cradle/recoil system above the barrel, with the tube recoiling beneath it."
+  },
+  "notes": [
+    "syD30 r0 (sy-d30-v1); assemblies {\"intact\": \"f12d3fa0-6646-5d2e-83f3-64fd9efa1f6d\", \"damaged-1\": \"7871e573-8984-59a4-8b97-73a886150c49\", \"damaged-2\": \"729cc27d-bf5f-5cbe-98d1-f5654b316376\", \"damaged-3\": \"7dfeb7b7-c195-574e-99be-5bcd5194df47\", \"destroyed-1\": \"5fdd2ab3-9655-525a-8b73-2e3f07268506\", \"destroyed-2\": \"fbd90113-5291-526a-9b8d-3225a0dfc736\", \"destroyed-3\": \"ecb5f79f-8f70-5e34-8922-9db7ca0853ef\"}.",
+    "Review: independent-final-six-review CHANGES_REQUESTED (review.json sha256 4546082ad3b006b6a4a6b452e09f36feb3af59ac0c54207f5e7e2f54dbf3487a).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

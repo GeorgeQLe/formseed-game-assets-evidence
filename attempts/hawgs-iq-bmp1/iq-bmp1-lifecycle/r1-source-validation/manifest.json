@@ -1,0 +1,88 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-iq-bmp1",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "iq-bmp1-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "iq-bmp1-r1-base.png",
+      "sha256": "0d75466f7804af75fda69a4e5e004c19b1568cd6a76b1e630bdf52ad8ac4a904",
+      "bytes": 102779
+    },
+    "files": [
+      {
+        "path": "review/iq-bmp1-r1-lifecycle.png",
+        "sha256": "f1d0e90a867911bdb32ae1779dda7c97b7c8cd0a9e2328404f8277abcfb12df6",
+        "bytes": 102776
+      },
+      {
+        "path": "review/iq-bmp1-r1-review.png",
+        "sha256": "d48f130d2e6777de52176b836b62cabdcea66a71d072f852c1526e5ab1d094e6",
+        "bytes": 103559
+      },
+      {
+        "path": "iq-bmp1-r1-base.png",
+        "sha256": "0d75466f7804af75fda69a4e5e004c19b1568cd6a76b1e630bdf52ad8ac4a904",
+        "bytes": 102779
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/ifv/ussr/bmp-1/БМП-1_ТО_и_ИЭ_1979.pdf",
+        "sha256": "53ce5264bc2ab7d6967134bba58787407dd1683fa81b1ecf0847754219223bfc",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "Боевая машина пехоты БМП-1. Техническое описание и инструкция по эксплуатации (1979)"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_BMP-2.JPEG",
+        "sha256": "987ecb8a5f18925ee3a93db8f86cc349b203f4a25647fef9aa1cf1b2b10e633a",
+        "author": "PH2 Savage USN",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DN-ST-91-10927"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_soldiers_and_a_Kuwaiti_BMP-2.JPEG",
+        "sha256": "172e850f35d1b4d1bc296b182ab40933f5e194e32a72ce94581180ac5831d3d4",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DM-ST-91-11672"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-first-six-r1-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:58:56.000Z",
+    "quote": "CHANGES_REQUESTED"
+  },
+  "notes": [
+    "iqBMP1 r1 (iq-bmp1-r1); assemblies {\"intact\": \"291734ab-5f27-5c1c-b16f-cd330f1757b8\", \"damaged-1\": \"ee6d9af0-8d1e-5d4e-ba9d-34be7723d33b\", \"damaged-2\": \"1f7bd044-fb89-5ebf-a6b5-70f844564af2\", \"damaged-3\": \"adbee56c-30a0-553e-bebd-fc0945732440\", \"destroyed-1\": \"303495d6-e7a5-50dc-af70-a7bbcc56310e\", \"destroyed-2\": \"317d7be6-5bc0-59b8-b321-ef7ab0a6f7ea\", \"destroyed-3\": \"f41b2bb5-22a9-5111-a4fc-634af3c1a737\"}.",
+    "Review: independent-first-six-r1-review CHANGES_REQUESTED (review.json sha256 6c78b4beb86f2ef9f1def5a58914b628b8ea5084ec17c45bc7df9e4fb66e77b8).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-qa-vab",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "qa-vab-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "qa-vab-r1-base.png",
+      "sha256": "dcdedf8c2ce32019deffeb4b183415addc154ce3837d8206d9a00643948d7be4",
+      "bytes": 46289
+    },
+    "files": [
+      {
+        "path": "review/qa-vab-r1-lifecycle.png",
+        "sha256": "9aa1ac9236fa70275e44330a25f19eb9b31533a54a387c868758031ea4e277fe",
+        "bytes": 81604
+      },
+      {
+        "path": "review/qa-vab-r1-review.png",
+        "sha256": "af291c6111ccfcaee3f7c345d7c3ff3b9d04830f45539840676607ea113ee4fb",
+        "bytes": 105656
+      },
+      {
+        "path": "qa-vab-r1-base.png",
+        "sha256": "dcdedf8c2ce32019deffeb4b183415addc154ce3837d8206d9a00643948d7be4",
+        "bytes": 46289
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.arquus-defense.com/fr/newsroom/actualites/focus-sur-les-flottes-arquus-au-qatar",
+        "sha256": "c8bb591ec25c1c6f071a9129390cf57e6ea5a7f62dbf104d542f3c7687810093",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "arquus-qatar"
+      },
+      {
+        "uri": "https://www.ecoi.net/en/file/local/1393753/1226_1487252296_n1601824.pdf",
+        "sha256": "32001e8a47553f6493f801db1451c6103a05b79edb57f88a0ca27ecb84d66f8d",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "un-s-2016-209"
+      },
+      {
+        "uri": "https://salw-guide.bicc.de/pdf/countries/187/qatar.std.en.pdf",
+        "sha256": "8146a3f9b28c222990359abd3125cc1d8c9e2b9d87d4319f0ea2aa12aa1de893",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "bicc-salw-qatar"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "qaVAB r1 (qa-vab-r1); assemblies {\"intact\": \"5f268f8e-c333-51cc-90a9-ceaa44a5e3fe\", \"damaged-1\": \"65a27e57-7f23-547e-8919-89af145b1797\", \"damaged-2\": \"98e56df7-6569-5372-b459-c64ddb948c88\", \"damaged-3\": \"15b46c10-9f81-5491-b926-a921e07e99fe\", \"destroyed-1\": \"7a4d892b-5d24-5702-bffa-35439c429017\", \"destroyed-2\": \"1b9d0d59-761e-5008-86d0-1af94daacee0\", \"destroyed-3\": \"ac4b1975-af30-59f8-9492-e316ae8bfaf6\"}.",
+    "Review: independent-first-six-r1-review PASS_WITH_NOTES (review.json sha256 6c78b4beb86f2ef9f1def5a58914b628b8ea5084ec17c45bc7df9e4fb66e77b8).",
+    "Evidence: producer boards.",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

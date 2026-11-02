@@ -1,0 +1,106 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sy-bmp1",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sy-bmp1-lifecycle",
+    "revision": 2
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "game-dpr1-x4.png",
+      "sha256": "700acc01f120b6ec675c56283b1c9c8df0ce03918837ee17a5d393474f2011af",
+      "bytes": 17210
+    },
+    "files": [
+      {
+        "path": "review/game.png",
+        "sha256": "66dc6d3d99124029bcf55b0d08212b1de45a1980780a4cd8d080cae15cf1c66f",
+        "bytes": 21757
+      },
+      {
+        "path": "review/samples-005.png",
+        "sha256": "ac6f87fc983994a709a53a601390dbd620afe4e63eb75b528dd7ff0531d2fb01",
+        "bytes": 70065
+      },
+      {
+        "path": "review/samples-004.png",
+        "sha256": "58a19f1712592c0aeb18efc46e11c9bf5393db951852ee720806db1db1ae4c52",
+        "bytes": 73910
+      },
+      {
+        "path": "review/samples-003.png",
+        "sha256": "3876047c893c0aa8bafd66e551b15306b25b7b217d87f96e4d703754a10ae0a7",
+        "bytes": 68614
+      },
+      {
+        "path": "review/samples-002.png",
+        "sha256": "0b2d1d9d1248bafa6eec73818e610a7f450370d3d55ca97f6cff68887728afed",
+        "bytes": 71391
+      },
+      {
+        "path": "review/samples-000.png",
+        "sha256": "f6148018572ddd6e81d414e032855f88e3dd30b63b3b12db8e09521e9d3a1eba",
+        "bytes": 63808
+      },
+      {
+        "path": "review/samples-001.png",
+        "sha256": "2dbaa1a3f71e440901fdaf647e231390640f0f8a6becb7cc230cb83f12e574a3",
+        "bytes": 72061
+      },
+      {
+        "path": "review/full.png",
+        "sha256": "6c99313b1b1321ca9ad5e157586f81e7d2180a507c161e5c9145bb5d2cbcda16",
+        "bytes": 88621
+      },
+      {
+        "path": "review/focus-final.png",
+        "sha256": "c689fe32caea80ede0eed594303511ea1946e9efcdf9503483d9a9198566b754",
+        "bytes": 22066
+      },
+      {
+        "path": "game-dpr1-x4.png",
+        "sha256": "700acc01f120b6ec675c56283b1c9c8df0ce03918837ee17a5d393474f2011af",
+        "bytes": 17210
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/ifv/ussr/bmp-1/БМП-1_ТО_и_ИЭ_1979.pdf",
+        "sha256": "53ce5264bc2ab7d6967134bba58787407dd1683fa81b1ecf0847754219223bfc",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "Боевая машина пехоты БМП-1. Техническое описание и инструкция по эксплуатации (1979)"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "syBMP1 r2 (sy-bmp1-r2); assemblies {\"intact\": \"444f0d3c-d36b-5311-87d3-f3aeb8a2ee3b\", \"damaged-1\": \"a8e56953-9249-5d60-bf54-08065a338535\", \"damaged-2\": \"be32be4c-3e4b-5810-a4f3-af4f0c73406a\", \"damaged-3\": \"57a95dd5-9259-539d-b79d-0a60384e5893\", \"destroyed-1\": \"f54bec8f-b8f3-5d83-8647-bcf7272deb5c\", \"destroyed-2\": \"69a56e50-6d61-585e-98d5-4cd0191c7478\", \"destroyed-3\": \"75a1b096-1a39-59f7-a805-72a9418dc03f\"}.",
+    "Review: independent-astra-r2-review PASS_WITH_NOTES (review.json sha256 14e248d9bffd59731af17875ae4d9937c5793d6499903e800fc78fc654ee0b73).",
+    "Evidence: producer boards.",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

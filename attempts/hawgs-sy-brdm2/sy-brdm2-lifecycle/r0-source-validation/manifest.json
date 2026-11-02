@@ -1,0 +1,74 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sy-brdm2",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sy-brdm2-lifecycle",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "sy-brdm2-v1-base.png",
+      "sha256": "ee58230973e1c7059001518d19cb449a6064c66cc093ec31d455792543ecfc6e",
+      "bytes": 79651
+    },
+    "files": [
+      {
+        "path": "review/sy-brdm2-v1-lifecycle.png",
+        "sha256": "5ff7589fd320316703bff8db44ee8d63eee22c1b53c0d25b2e44947ccf5f048b",
+        "bytes": 96711
+      },
+      {
+        "path": "review/sy-brdm2-v1-review.png",
+        "sha256": "e42f8133954879068b19ec351209b5d2d7435618a9eb08fc9ed45a185ada8219",
+        "bytes": 87476
+      },
+      {
+        "path": "sy-brdm2-v1-base.png",
+        "sha256": "ee58230973e1c7059001518d19cb449a6064c66cc093ec31d455792543ecfc6e",
+        "bytes": 79651
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/apc/ussr/brdm-2/БРДМ-2_Техническое_описание_и_инструкция_по_эксплуатации_Книга_1_1987.pdf",
+        "sha256": "133e29e73fae2f0d622fb1a3742383cfa4b6c129583f0238e77e4476f2bfdc00",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "brdm2-to-ie-1-1987"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-final-six-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:42:54.544Z",
+    "quote": "BRDM-DMG-LEGIBILITY: Damaged-2 changes 6 game px and damaged-3 1 game px (delta>=24, 59 px logical tile) versus intact; the left-rear tyre burn is hidden under the hull side and the engine-grille hole is dark-on-dark. They are not distinct from intact at game scale."
+  },
+  "notes": [
+    "syBRDM2 r0 (sy-brdm2-v1); assemblies {\"intact\": \"0879a7f2-6297-5e08-b5cc-1ae722a81a04\", \"damaged-1\": \"e2690689-05ae-5707-9ea7-560a2baaeccc\", \"damaged-2\": \"1cb1568e-5107-5a21-a1b2-81d7d8059814\", \"damaged-3\": \"8027f546-c1cf-58aa-964c-8f7041423bae\", \"destroyed-1\": \"5c2ff4d4-1cf1-51c0-a49e-67caad39efd7\", \"destroyed-2\": \"f0b0d076-1e7f-5b03-9025-19e458d3ffc0\", \"destroyed-3\": \"2c96cdf8-9783-5899-832f-886a188b5f31\"}.",
+    "Review: independent-final-six-review CHANGES_REQUESTED (review.json sha256 4546082ad3b006b6a4a6b452e09f36feb3af59ac0c54207f5e7e2f54dbf3487a).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

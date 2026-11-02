@@ -1,0 +1,91 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sy-d30",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sy-d30-lifecycle",
+    "revision": 2
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "game-dpr1-x4.png",
+      "sha256": "7be746d09ff71df84c199c5f46701522b31b27bfc28c2f167195a595d685e80e",
+      "bytes": 14317
+    },
+    "files": [
+      {
+        "path": "review/game.png",
+        "sha256": "19ef47c5f7681a9a9e259c5cdcea2d6693ebe7f15b6ba0634b3afd7d86541283",
+        "bytes": 19952
+      },
+      {
+        "path": "review/samples-002.png",
+        "sha256": "d4e7eee1acc8424b9b14681b1d314d962e8f2b2a59b40640e0a4dce132af86ee",
+        "bytes": 68920
+      },
+      {
+        "path": "review/samples-000.png",
+        "sha256": "076c0a3cde6bbf0cf3d7d60b921d2c32a75af93f0b1c9364c983240fc9573f95",
+        "bytes": 73972
+      },
+      {
+        "path": "review/samples-001.png",
+        "sha256": "ce32bf4a60e86bc34e37ecf327927cc2cbb19365a7119caf9f34fb7e8c1cacee",
+        "bytes": 71423
+      },
+      {
+        "path": "review/full.png",
+        "sha256": "acf1d5febc2d3d685c644de36609d728add1ef514b34a7eed669cc05883ab968",
+        "bytes": 64342
+      },
+      {
+        "path": "review/focus-final.png",
+        "sha256": "ecd0b8c2fcb64d445fb9d0145f946957513883f00d3c80ba74a94536b0cfeeb8",
+        "bytes": 6879
+      },
+      {
+        "path": "game-dpr1-x4.png",
+        "sha256": "7be746d09ff71df84c199c5f46701522b31b27bfc28c2f167195a595d685e80e",
+        "bytes": 14317
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.tstu.ru/book/elib/pdf/2004/gorovoy.pdf",
+        "sha256": "c5577572377a83cff446f246193a53dce2921f977fc113af37411a38a3fe7603",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "d30-tstu"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "syD30 r2 (sy-d30-r2); assemblies {\"intact\": \"9d338810-6926-582f-ac28-04fcbe38ca78\", \"damaged-1\": \"af3f1797-db57-576d-bf2b-c1ab9e473f84\", \"damaged-2\": \"9b9eef58-db5a-5bed-9728-3c823f9a8363\", \"damaged-3\": \"fbc94541-d53c-572b-82d0-f5b1be28138e\", \"destroyed-1\": \"84f2f7e7-2842-532f-83fd-7060029edf50\", \"destroyed-2\": \"4c818803-fd08-5ece-bf67-3e13d816d1bb\", \"destroyed-3\": \"9e55bdc5-b78f-5885-b663-736fb33ef0c4\"}.",
+    "Review: independent-astra-r2-review PASS_WITH_NOTES (review.json sha256 14e248d9bffd59731af17875ae4d9937c5793d6499903e800fc78fc654ee0b73).",
+    "Evidence: producer boards.",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-iq-zsu234",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "iq-zsu234-lifecycle",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "iq-zsu234-v1-base.png",
+      "sha256": "533779b67bca8167aaa13a11aa6276368daf4c7c54eed1f955f299649a6242d3",
+      "bytes": 73796
+    },
+    "files": [
+      {
+        "path": "review/iq-zsu234-v1-lifecycle.png",
+        "sha256": "e4e718f1abd1da415ec04773a16961380e4ad1eae7cde8060967abf5a07f0680",
+        "bytes": 89097
+      },
+      {
+        "path": "review/iq-zsu234-v1-review.png",
+        "sha256": "8a9f314570fa193ecb42e4b68e3ae80b75eddbc7eb6ff9b01ba7ffa0868798a7",
+        "bytes": 115358
+      },
+      {
+        "path": "iq-zsu234-v1-base.png",
+        "sha256": "533779b67bca8167aaa13a11aa6276368daf4c7c54eed1f955f299649a6242d3",
+        "bytes": 73796
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-final-six-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:42:54.544Z",
+    "quote": "ZSU-DMG-LEGIBILITY: Damaged-1 changes 3 and damaged-2 6 game px at 91 px; damaged-3 (26) reads."
+  },
+  "notes": [
+    "iqZSU234 r0 (iq-zsu234-v1); assemblies {\"intact\": \"833283f3-8946-5f50-89fb-bcf6e772e3dd\", \"damaged-1\": \"3e5e4633-66c7-56ca-abba-04adcf049cb3\", \"damaged-2\": \"cb27ca76-de4c-5386-974f-9a0e9c857762\", \"damaged-3\": \"0527e265-7a61-56c1-8d1c-592fa32688b7\", \"destroyed-1\": \"9dd626ba-dc97-5fca-a034-83cb744be715\", \"destroyed-2\": \"01043a14-0369-511d-9786-c1ef83c312ae\", \"destroyed-3\": \"0ae80298-d565-533f-922b-841739d89e35\"}.",
+    "Review: independent-final-six-review CHANGES_REQUESTED (review.json sha256 4546082ad3b006b6a4a6b452e09f36feb3af59ac0c54207f5e7e2f54dbf3487a).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

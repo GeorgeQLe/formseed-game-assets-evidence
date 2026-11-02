@@ -1,0 +1,103 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sa-m109",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sa-m109-lifecycle",
+    "revision": 2
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "game-dpr1-x4.png",
+      "sha256": "b5d7b7e75e1fd49eefb6edc65bdce55a36489950037cc16cd927c12b37c68dd0",
+      "bytes": 29127
+    },
+    "files": [
+      {
+        "path": "review/game.png",
+        "sha256": "52530133797a5aaf239620bc95a5ff8dfe0f3843106a96c433ff6841d037e9f0",
+        "bytes": 35193
+      },
+      {
+        "path": "review/samples-003.png",
+        "sha256": "c6f91bad083ec7ef1790c8caad7651fed917ee994ebe1d1cb51adfbd223bcee7",
+        "bytes": 80548
+      },
+      {
+        "path": "review/samples-002.png",
+        "sha256": "2e618e4201c895c4a2d049588f8367c1c049912f874b74c5bf042f6611a06a36",
+        "bytes": 91347
+      },
+      {
+        "path": "review/samples-000.png",
+        "sha256": "55a4ab1a1ed13096595ca054d932c9d90438fbe160e8e76ad7a29d7b101379d5",
+        "bytes": 88194
+      },
+      {
+        "path": "review/samples-001.png",
+        "sha256": "0fb5ad8b43746c6ecdaa29fd54b2eae1e448ff7ad920aea4103a5274f9123531",
+        "bytes": 92809
+      },
+      {
+        "path": "review/full.png",
+        "sha256": "26be5edd45b0f4def5ca5f78737ada71b5ccf634c613aadcea8e9fb0cd249c1b",
+        "bytes": 96887
+      },
+      {
+        "path": "review/focus-final.png",
+        "sha256": "1741f5e5152d3e17f9f94d4e52c4b5da810d171a86124979bb3aa35fd1483d8f",
+        "bytes": 13605
+      },
+      {
+        "path": "game-dpr1-x4.png",
+        "sha256": "b5d7b7e75e1fd49eefb6edc65bdce55a36489950037cc16cd927c12b37c68dd0",
+        "bytes": 29127
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/spg/usa/m109/M109A2-A3_Operators_Manual_for_Howitzer_Medium_TM_9-2350-311-10_1980.pdf",
+        "sha256": "5e3885266170cc85b4548cc7433b5b1f9d248c84ecf14a5530476b20bb2471d9",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "tm9-2350-311-10"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Two_Egyptian_M-109_howitzers.JPEG",
+        "sha256": "dd5b83dd9db6c69672e5dbc79acba7a61ce076fbdeccb87df9cd29f09056c8af",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DF-ST-92-07484-web"
+      },
+      {
+        "uri": "https://library.qu.edu.iq/wp-content/uploads/2020/09/3.pdf",
+        "sha256": "b54dc87142b553cc7619b234d1e4441cf393e879eab46c73e27e462e5ad041cb",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "Laur & Llanso, Encyclopedia of Modern U.S. Military Weapons (1995)"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "saM109 r2 (sa-m109-r2); assemblies {\"intact\": \"0a9cbe53-0fe5-5d11-bc7e-0231df36b065\", \"damaged-1\": \"b690b195-b1d2-56f3-ac2d-8f32f31d5ab9\", \"damaged-2\": \"750bf24c-c7d4-5362-94f9-90ad4499e420\", \"damaged-3\": \"f8b00655-4684-5339-9857-238f6c89b0a6\", \"destroyed-1\": \"e69e5731-e5c5-500f-a2f6-caf3da7ba39f\", \"destroyed-2\": \"76db4d4a-e943-5a4f-8237-28dd160b84dd\", \"destroyed-3\": \"081c9fea-97b2-54cf-923e-ecce822a8336\"}.",
+    "Review: independent-astra-r2-review PASS_WITH_NOTES (review.json sha256 14e248d9bffd59731af17875ae4d9937c5793d6499903e800fc78fc654ee0b73).",
+    "Evidence: producer boards.",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sy-brdm2",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sy-brdm2-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "sy-brdm2-r1-lifecycle.png",
+      "sha256": "f64c2be1dd37dd9d757cc3603eb359c712c83bc997be9a6d0470b99f2c228abe",
+      "bytes": 99066
+    },
+    "files": [
+      {
+        "path": "review/sy-brdm2-r1-review.png",
+        "sha256": "3f270e1e1aa12efd040229695bf82c4e0cedfd60b684821b297566f1977b422e",
+        "bytes": 89664
+      },
+      {
+        "path": "sy-brdm2-r1-lifecycle.png",
+        "sha256": "f64c2be1dd37dd9d757cc3603eb359c712c83bc997be9a6d0470b99f2c228abe",
+        "bytes": 99066
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/apc/ussr/brdm-2/БРДМ-2_Техническое_описание_и_инструкция_по_эксплуатации_Книга_1_1987.pdf",
+        "sha256": "133e29e73fae2f0d622fb1a3742383cfa4b6c129583f0238e77e4476f2bfdc00",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "brdm2-to-ie-1-1987"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-final-six-r1-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:57:24.613Z",
+    "quote": "BRDM-R1-D2-FLOATING-TREAD: The four shredded-tread strands in damaged-2 are separate opaque islands 2-5 px clear of the hull/wheel-well edge (blob_gaps components 2-3, x 161-178, y 375-397). At native/full-size preview they read as dashes floating beside the moving vehicle, not tread hanging from the wheel well. On dark ground they are dark-on-dark (13 px delta>=24, 4 px delta>=48)."
+  },
+  "notes": [
+    "syBRDM2 r1 (sy-brdm2-r1); assemblies {\"intact\": \"0879a7f2-6297-5e08-b5cc-1ae722a81a04\", \"damaged-1\": \"74a984f0-a236-54ed-a86d-ff482ad38a43\", \"damaged-2\": \"72f36b8b-bad2-5bc9-8ef8-b733b1f633c1\", \"damaged-3\": \"50b1fd58-1a37-5739-92ed-4cf8c4b2caf4\", \"destroyed-1\": \"a11ac65b-5f3a-5daf-89d9-332f741f17e1\", \"destroyed-2\": \"8b9bbfb3-6e9e-58cb-8bb1-6479ef4cb6ba\", \"destroyed-3\": \"ec2aa8ff-8aae-5282-9305-a84fc07cb47b\"}.",
+    "Review: independent-final-six-r1-review CHANGES_REQUESTED (review.json sha256 ebc5d5002c32a2ca28f6d7eb7e73563ac9514b4aa3944ead703ddb639a144558).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

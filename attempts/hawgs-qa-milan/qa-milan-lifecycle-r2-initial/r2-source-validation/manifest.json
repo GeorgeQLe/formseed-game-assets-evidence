@@ -1,0 +1,63 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-qa-milan",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "qa-milan-lifecycle-r2-initial",
+    "revision": 2
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "neutral-73eb52a8-65d4-52fa-aa34-88beb0c46dfd.png",
+      "sha256": "e49ed00c9136b967968029f3e8f7095fb99f587b2e8699076356e234a2e43dbb",
+      "bytes": 5280
+    },
+    "files": [
+      {
+        "path": "review/neutral-73cdf48c-65fa-554e-a4fa-e74677766a3c.png",
+        "sha256": "2a4e6d6da20f5c1a3d31ae38630196a24aa65f2c7ed806dbe984602fd310bde0",
+        "bytes": 6438
+      },
+      {
+        "path": "review/neutral-c2278519-aa61-5e8f-a43a-86cadfb52f38.png",
+        "sha256": "70b5367227a875ac3a2977c0a40b7d9cd74ba54ca328dd49eba8f1f818ffbbd4",
+        "bytes": 5833
+      },
+      {
+        "path": "review/neutral-231d0706-40bb-5545-b071-25e3aa43c627.png",
+        "sha256": "a68c2ce65efe60592eef4ae05abcf5d66340093bd2f359d459b34343076724c8",
+        "bytes": 5772
+      },
+      {
+        "path": "neutral-73eb52a8-65d4-52fa-aa34-88beb0c46dfd.png",
+        "sha256": "e49ed00c9136b967968029f3e8f7095fb99f587b2e8699076356e234a2e43dbb",
+        "bytes": 5280
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Producer technical self-check superseded the initial r2 candidate before independent review: Technical connected-component check found one residual inherited arm pixel at (220,309), removed. Initial r2 candidate remains immutable.",
+    "decidedAt": "2026-11-02T02:08:21.020Z"
+  },
+  "notes": [
+    "qaMILAN r2-initial (qa-milan-r2 (initial, pre-refinement)); assemblies {\"intact\": \"73eb52a8-65d4-52fa-aa34-88beb0c46dfd\", \"damaged-1\": \"73cdf48c-65fa-554e-a4fa-e74677766a3c\", \"damaged-2\": \"c2278519-aa61-5e8f-a43a-86cadfb52f38\", \"damaged-3\": \"231d0706-40bb-5545-b071-25e3aa43c627\"}.",
+    "No independent review of this attempt.",
+    "Evidence: native neutral exports (no producer board exists).",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

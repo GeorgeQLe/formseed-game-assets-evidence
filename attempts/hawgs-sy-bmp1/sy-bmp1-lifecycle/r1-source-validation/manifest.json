@@ -1,0 +1,74 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sy-bmp1",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sy-bmp1-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "sy-bmp1-r1-base.png",
+      "sha256": "baebcdabeca43fd3954d42d03092ec249c7e3aaffb9688094b34138c36f8dbbb",
+      "bytes": 101373
+    },
+    "files": [
+      {
+        "path": "review/sy-bmp1-r1-lifecycle.png",
+        "sha256": "2065e53a65593d194b5ddf29441d4cde16724030964f09b19521ccfaecbea2a4",
+        "bytes": 102870
+      },
+      {
+        "path": "review/sy-bmp1-r1-review.png",
+        "sha256": "5580795c2978d9e7308a145cf0ad51e80f493e9687043d4f981b1d2332e2b76f",
+        "bytes": 104281
+      },
+      {
+        "path": "sy-bmp1-r1-base.png",
+        "sha256": "baebcdabeca43fd3954d42d03092ec249c7e3aaffb9688094b34138c36f8dbbb",
+        "bytes": 101373
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/ifv/ussr/bmp-1/БМП-1_ТО_и_ИЭ_1979.pdf",
+        "sha256": "53ce5264bc2ab7d6967134bba58787407dd1683fa81b1ecf0847754219223bfc",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "Боевая машина пехоты БМП-1. Техническое описание и инструкция по эксплуатации (1979)"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-first-six-r1-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:58:56.000Z",
+    "quote": "CHANGES_REQUESTED"
+  },
+  "notes": [
+    "syBMP1 r1 (sy-bmp1-r1); assemblies {\"intact\": \"81c54138-c21e-52c1-ba85-cf9da1442a8c\", \"damaged-1\": \"ed41209e-f3af-57fb-8901-00663ae59b9d\", \"damaged-2\": \"4ed51d99-06ea-560e-8712-d830a2e3c4b0\", \"damaged-3\": \"ee980ba6-d934-54d2-a3fe-adc784bc0b81\", \"destroyed-1\": \"4763b9d9-0601-5906-b88d-9eebedae546c\", \"destroyed-2\": \"dc65c28a-e43c-5f43-ae10-4bf4e7d0eab4\", \"destroyed-3\": \"dffa5a41-c47c-59e6-9bd9-30b295df689e\"}.",
+    "Review: independent-first-six-r1-review CHANGES_REQUESTED (review.json sha256 6c78b4beb86f2ef9f1def5a58914b628b8ea5084ec17c45bc7df9e4fb66e77b8).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

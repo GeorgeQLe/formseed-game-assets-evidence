@@ -1,0 +1,56 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-iq-zsu234",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "iq-zsu234-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "iq-zsu234-r1-base.png",
+      "sha256": "01a4997e95d581abfb519c324628508f468909beda98ede36240d40541f947cb",
+      "bytes": 73622
+    },
+    "files": [
+      {
+        "path": "review/iq-zsu234-r1-lifecycle.png",
+        "sha256": "dca0383f8bc19803a482586564932ad45faec4f9ffab6c03d0b402f7e3f0ddac",
+        "bytes": 88134
+      },
+      {
+        "path": "review/iq-zsu234-r1-review.png",
+        "sha256": "287f81f5b840ec554caf62c688a56bd95a89142e79a7f3b1e52fe773dfd78126",
+        "bytes": 113658
+      },
+      {
+        "path": "iq-zsu234-r1-base.png",
+        "sha256": "01a4997e95d581abfb519c324628508f468909beda98ede36240d40541f947cb",
+        "bytes": 73622
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "iqZSU234 r1 (iq-zsu234-r1); assemblies {\"intact\": \"424e5638-3e33-53df-a942-b3b7d3f8e5cd\", \"damaged-1\": \"7ccb6596-d73d-5aed-92da-9f817fb28cc9\", \"damaged-2\": \"9df20df7-8c1f-51ab-8f7d-8fb2289803b4\", \"damaged-3\": \"b8e7528d-0e1d-5630-9bb7-6ecf2591f834\", \"destroyed-1\": \"a7123d51-2133-59c4-b4d7-913eaea49412\", \"destroyed-2\": \"c5a5a561-742a-5bd4-96f3-325a56f172c7\", \"destroyed-3\": \"3a4c8361-bcae-5468-a98f-974b90af00fb\"}.",
+    "Review: independent-final-six-r1-review PASS_WITH_NOTES (review.json sha256 ebc5d5002c32a2ca28f6d7eb7e73563ac9514b4aa3944ead703ddb639a144558).",
+    "Evidence: producer boards.",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

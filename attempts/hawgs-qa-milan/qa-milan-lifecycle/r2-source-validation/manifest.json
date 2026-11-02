@@ -1,0 +1,91 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-qa-milan",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "qa-milan-lifecycle",
+    "revision": 2
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "game-dpr1-x4.png",
+      "sha256": "76b59244dccb9de9330e09b5ec5e921cc6c7cad4c5c70ed873d0afb0c7da34d7",
+      "bytes": 14454
+    },
+    "files": [
+      {
+        "path": "review/game.png",
+        "sha256": "c727df065f5f19d458a8cf00a6046c565ad67809137f40b9a443055504adb44a",
+        "bytes": 21847
+      },
+      {
+        "path": "review/samples-005.png",
+        "sha256": "c42c0bbe67e224e2127bbddc38205f3017453291a433f40c4c39f3613e1c380d",
+        "bytes": 32269
+      },
+      {
+        "path": "review/samples-004.png",
+        "sha256": "891c564055f870819c25de941b359a21a1e1959384e22be5f656a9d320165809",
+        "bytes": 68235
+      },
+      {
+        "path": "review/samples-003.png",
+        "sha256": "39bed719acaaaa94e86dc9e3859ae55f7acfbfa93b098232fa5f19121e605061",
+        "bytes": 61117
+      },
+      {
+        "path": "review/samples-002.png",
+        "sha256": "bea07750c6c101ce99e0e1c7ff3b3c1c650dea3e1da7ecaecaaef1ce4823ff0b",
+        "bytes": 69344
+      },
+      {
+        "path": "review/samples-000.png",
+        "sha256": "40e669ed7cc2e0814ce759ddcb2844ddd1f0f6d7c949cc13b2575961d1286c37",
+        "bytes": 63448
+      },
+      {
+        "path": "review/samples-001.png",
+        "sha256": "228d98723f2798aaffc4942c38d4c898c232b3199a94156c17488ae616fb0747",
+        "bytes": 70590
+      },
+      {
+        "path": "review/full.png",
+        "sha256": "c2d6dab01aa3d2cbae8b912783f0f91c3450cee242794d22728c189a36f65df2",
+        "bytes": 75231
+      },
+      {
+        "path": "review/focus-final.png",
+        "sha256": "4a3f4a79bdc97006a0f0ee962d89ba8a3af56d101b9163911e4f63cc2e20105f",
+        "bytes": 14291
+      },
+      {
+        "path": "game-dpr1-x4.png",
+        "sha256": "76b59244dccb9de9330e09b5ec5e921cc6c7cad4c5c70ed873d0afb0c7da34d7",
+        "bytes": 14454
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "qaMILAN r2 (qa-milan-r2); assemblies {\"intact\": \"793f7a22-53c6-5e54-822c-e117193b622c\", \"damaged-1\": \"186663be-e404-551d-afcb-bab64b62836a\", \"damaged-2\": \"494f1e6c-43c6-52b4-9d64-0545a34893cf\", \"damaged-3\": \"57448250-10a2-5343-ab12-e1800f45b6b6\", \"destroyed-1\": \"61204ad2-4a7b-5f98-8ac9-babae08d6f6a\", \"destroyed-2\": \"dc4bb162-457d-59a7-a956-8655ffaeaa12\", \"destroyed-3\": \"64709ae5-3de9-5c08-8fe4-e0aa803a62ce\"}.",
+    "Review: independent-astra-r2-review PASS_WITH_NOTES (review.json sha256 14e248d9bffd59731af17875ae4d9937c5793d6499903e800fc78fc654ee0b73).",
+    "Evidence: producer boards.",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

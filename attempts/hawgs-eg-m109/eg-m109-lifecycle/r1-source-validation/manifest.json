@@ -1,0 +1,68 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-eg-m109",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "eg-m109-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "neutral-53e898b0-3d85-58bf-9794-ab33ca1b57cc.png",
+      "sha256": "320a93336940be9a371f247371ba513e5d561c4a2ff3198dcf36974d6e7f8265",
+      "bytes": 5942
+    },
+    "files": [
+      {
+        "path": "neutral-53e898b0-3d85-58bf-9794-ab33ca1b57cc.png",
+        "sha256": "320a93336940be9a371f247371ba513e5d561c4a2ff3198dcf36974d6e7f8265",
+        "bytes": 5942
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/spg/usa/m109/M109A2-A3_Operators_Manual_for_Howitzer_Medium_TM_9-2350-311-10_1980.pdf",
+        "sha256": "5e3885266170cc85b4548cc7433b5b1f9d248c84ecf14a5530476b20bb2471d9",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "tm9-2350-311-10"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Two_Egyptian_M-109_howitzers.JPEG",
+        "sha256": "dd5b83dd9db6c69672e5dbc79acba7a61ce076fbdeccb87df9cd29f09056c8af",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DF-ST-92-07484-web"
+      },
+      {
+        "uri": "https://library.qu.edu.iq/wp-content/uploads/2020/09/3.pdf",
+        "sha256": "b54dc87142b553cc7619b234d1e4441cf393e879eab46c73e27e462e5ad041cb",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "Laur & Llanso, Encyclopedia of Modern U.S. Military Weapons (1995)"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "egM109 r1 (eg-m109-r1); assemblies {\"damaged-2\": \"53e898b0-3d85-58bf-9794-ab33ca1b57cc\"}.",
+    "Review: independent-first-six-r1-review PASS_WITH_NOTES (review.json sha256 6c78b4beb86f2ef9f1def5a58914b628b8ea5084ec17c45bc7df9e4fb66e77b8).",
+    "Evidence: native neutral exports (no producer board exists).",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-iq-bmp1",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "iq-bmp1-lifecycle",
+    "revision": 2
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "game-dpr1-x4.png",
+      "sha256": "25c03a373287a0f563b698dc0a07401c592bad02db4a0ef81fb3b576118cac76",
+      "bytes": 17095
+    },
+    "files": [
+      {
+        "path": "review/game.png",
+        "sha256": "111825ed4ceb27c79c3175ec9a4c5158ef1570984f616fac134cc47b7dc06bc4",
+        "bytes": 21385
+      },
+      {
+        "path": "review/samples-005.png",
+        "sha256": "1b73511c4668f0747d9d18bf52ca000ffa863bc530355aacbaf1a6d60c3c4628",
+        "bytes": 70461
+      },
+      {
+        "path": "review/samples-004.png",
+        "sha256": "f8817748179953ab193c608c3be14d1cb388c754ad18ccd8a5d5bc02635788e8",
+        "bytes": 74262
+      },
+      {
+        "path": "review/samples-003.png",
+        "sha256": "c2aec1eb5ebde500301336f07227e6efcd5d7d8dfc67a90d8c5c360af1879582",
+        "bytes": 69000
+      },
+      {
+        "path": "review/samples-002.png",
+        "sha256": "600469a9fe175656f7b2ee72d2895a2235fc14618d0b0013427123f8d1039441",
+        "bytes": 71976
+      },
+      {
+        "path": "review/samples-000.png",
+        "sha256": "dd84f2ed8cce654bad9e46ee8d306b6cb218c3135c356b9130b2581b61c8ed19",
+        "bytes": 64164
+      },
+      {
+        "path": "review/samples-001.png",
+        "sha256": "eefb418b8234dc189dd0a48b3c9d263831782242c29193411cb85a4c97d38da8",
+        "bytes": 72513
+      },
+      {
+        "path": "review/full.png",
+        "sha256": "2b65025ed2373cf058566465759148d5a23fb725d692667109075f94abbcf116",
+        "bytes": 87717
+      },
+      {
+        "path": "review/focus-final.png",
+        "sha256": "9f15c0cc89c854db974f2c193d47c5e583b1d7cf7e9d5c0fcef7c3519474e713",
+        "bytes": 22260
+      },
+      {
+        "path": "game-dpr1-x4.png",
+        "sha256": "25c03a373287a0f563b698dc0a07401c592bad02db4a0ef81fb3b576118cac76",
+        "bytes": 17095
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/ifv/ussr/bmp-1/БМП-1_ТО_и_ИЭ_1979.pdf",
+        "sha256": "53ce5264bc2ab7d6967134bba58787407dd1683fa81b1ecf0847754219223bfc",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "Боевая машина пехоты БМП-1. Техническое описание и инструкция по эксплуатации (1979)"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_BMP-2.JPEG",
+        "sha256": "987ecb8a5f18925ee3a93db8f86cc349b203f4a25647fef9aa1cf1b2b10e633a",
+        "author": "PH2 Savage USN",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DN-ST-91-10927"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_soldiers_and_a_Kuwaiti_BMP-2.JPEG",
+        "sha256": "172e850f35d1b4d1bc296b182ab40933f5e194e32a72ce94581180ac5831d3d4",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DM-ST-91-11672"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "iqBMP1 r2 (iq-bmp1-r2); assemblies {\"intact\": \"0449f7c2-61e8-5202-add7-9eac329b8ef1\", \"damaged-1\": \"165ae23d-c0af-52dd-a59d-74f751cd1ce0\", \"damaged-2\": \"9e962aaf-d73f-5728-9776-bebd9ff69dc5\", \"damaged-3\": \"0ee12786-7155-571f-a78f-ed3d5a55e0ad\", \"destroyed-1\": \"a5da46e8-4339-536b-b956-2fa536537ae2\", \"destroyed-2\": \"7c06e5b8-d0fe-50cd-89ca-9ccd68e1f647\", \"destroyed-3\": \"4323412c-cd65-510a-8816-6023e2b1eed9\"}.",
+    "Review: independent-astra-r2-review PASS_WITH_NOTES (review.json sha256 14e248d9bffd59731af17875ae4d9937c5793d6499903e800fc78fc654ee0b73).",
+    "Evidence: producer boards.",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

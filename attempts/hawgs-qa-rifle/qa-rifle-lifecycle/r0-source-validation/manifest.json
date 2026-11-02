@@ -1,0 +1,68 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-qa-rifle",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "qa-rifle-lifecycle",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "qa-rifle-v1-lifecycle.png",
+      "sha256": "01e95877f374551f8b8146132108309c5f52680c70c78764cbc8d233f0e85906",
+      "bytes": 142738
+    },
+    "files": [
+      {
+        "path": "qa-rifle-v1-lifecycle.png",
+        "sha256": "01e95877f374551f8b8146132108309c5f52680c70c78764cbc8d233f0e85906",
+        "bytes": 142738
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.arquus-defense.com/fr/newsroom/actualites/focus-sur-les-flottes-arquus-au-qatar",
+        "sha256": "c8bb591ec25c1c6f071a9129390cf57e6ea5a7f62dbf104d542f3c7687810093",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "arquus-qatar"
+      },
+      {
+        "uri": "https://www.ecoi.net/en/file/local/1393753/1226_1487252296_n1601824.pdf",
+        "sha256": "32001e8a47553f6493f801db1451c6103a05b79edb57f88a0ca27ecb84d66f8d",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "un-s-2016-209"
+      },
+      {
+        "uri": "https://salw-guide.bicc.de/pdf/countries/187/qatar.std.en.pdf",
+        "sha256": "8146a3f9b28c222990359abd3125cc1d8c9e2b9d87d4319f0ea2aa12aa1de893",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "bicc-salw-qatar"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "qaRifle r0 (qa-rifle-v1); assemblies {}.",
+    "Review: independent-final-six-r1-review PASS_WITH_NOTES (review.json sha256 ebc5d5002c32a2ca28f6d7eb7e73563ac9514b4aa3944ead703ddb639a144558).",
+    "Evidence: producer boards.",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

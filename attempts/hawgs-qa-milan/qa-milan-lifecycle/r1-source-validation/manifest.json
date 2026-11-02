@@ -1,0 +1,59 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-qa-milan",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "qa-milan-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "qa-milan-r1-base.png",
+      "sha256": "79228adb2299704d192767ec73a310bd15167de0d69ea41e14c56c76e106fa13",
+      "bytes": 65038
+    },
+    "files": [
+      {
+        "path": "review/qa-milan-r1-lifecycle.png",
+        "sha256": "a81910b36bdc3e348d49589395bcf224d40d14aa3d36801cd5511704cf545988",
+        "bytes": 105645
+      },
+      {
+        "path": "review/qa-milan-r1-review.png",
+        "sha256": "30bfb5c9442306b6f62e86d303332bd371660a6a4d84478d402968a5e47ffeeb",
+        "bytes": 105499
+      },
+      {
+        "path": "qa-milan-r1-base.png",
+        "sha256": "79228adb2299704d192767ec73a310bd15167de0d69ea41e14c56c76e106fa13",
+        "bytes": 65038
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-final-six-r1-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:57:24.613Z",
+    "quote": "MILAN-R1-GUNNER-DETACHED: Moving the gunner left broke hand-to-weapon support: in intact and damaged states his hands end about 17 px short of the sight unit/post (blob_gaps: gunner component 3 vs post component 1 gap 17.03 px; r0 was 1 px). He no longer operates the launcher. The plan note says his hands reach the sight unit, but the pixels do not."
+  },
+  "notes": [
+    "qaMILAN r1 (qa-milan-r1); assemblies {\"intact\": \"dd134d51-2f7f-56ab-a62b-7f9929e24ff5\", \"damaged-1\": \"e7b7172d-1918-5769-9742-6306dc7c09a1\", \"damaged-2\": \"8cff05f4-36ce-5955-b609-24a859e7f9d4\", \"damaged-3\": \"9acbbab4-7692-5a8a-9e5a-50828e20aa51\", \"destroyed-1\": \"61204ad2-4a7b-5f98-8ac9-babae08d6f6a\", \"destroyed-2\": \"dc4bb162-457d-59a7-a956-8655ffaeaa12\", \"destroyed-3\": \"64709ae5-3de9-5c08-8fe4-e0aa803a62ce\"}.",
+    "Review: independent-final-six-r1-review CHANGES_REQUESTED (review.json sha256 ebc5d5002c32a2ca28f6d7eb7e73563ac9514b4aa3944ead703ddb639a144558).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-kw-bmp2",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "kw-bmp2-lifecycle",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "kw-bmp2-v1-base.png",
+      "sha256": "47d8424c285522c3f13f80425e676592d469582a8208bf39b6e84a6d776f989e",
+      "bytes": 93748
+    },
+    "files": [
+      {
+        "path": "review/kw-bmp2-v1-lifecycle.png",
+        "sha256": "9f3d3e75f3078a6fa987c5d14b49e1df85735f5134f290ae2fbdb1fca5e07855",
+        "bytes": 113150
+      },
+      {
+        "path": "review/kw-bmp2-v1-review.png",
+        "sha256": "d8bc555779b9c0d0670b8d8a048e47b324860cd15132eeecbaf7b8775ef19ea5",
+        "bytes": 116254
+      },
+      {
+        "path": "kw-bmp2-v1-base.png",
+        "sha256": "47d8424c285522c3f13f80425e676592d469582a8208bf39b6e84a6d776f989e",
+        "bytes": 93748
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/ifv/ussr/bmp-2/Боевая_машина_пехоты_БМП-2_Техническое_описание_и_инструкция_по_эксплуатации_Часть_1_1987.pdf",
+        "sha256": "6db4c5ec4e0dea6ec8b3b1fd27ca1cbe5f6596ed6cd8cde334f42e67e1e35ad5",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "Боевая машина пехоты БМП-2. Техническое описание и инструкция по эксплуатации. Часть 1 (1987)"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_BMP-2_2.JPEG",
+        "sha256": "7d29564ec990ef72e6f15cfd782b3e0aa0d15f695a60e98dfc9a88c6491368a6",
+        "author": "Lt Culler USN",
+        "license": "US federal government work (PD-USGov on Commons page); finish/902V reference",
+        "role": "DN-ST-91-10926"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_BMP-2.JPEG",
+        "sha256": "987ecb8a5f18925ee3a93db8f86cc349b203f4a25647fef9aa1cf1b2b10e633a",
+        "author": "PH2 Savage USN",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DN-ST-91-10927"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:File-Kuwaiti_BMP-2_3.JPEG",
+        "sha256": "d32e7a1aa968d8a0d141a22d40628e825385a5d74ad5ee393d7d2d83646ace11",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DN-ST-91-10924"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Kuwaiti_soldiers_and_a_Kuwaiti_BMP-2.JPEG",
+        "sha256": "172e850f35d1b4d1bc296b182ab40933f5e194e32a72ce94581180ac5831d3d4",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DM-ST-91-11672"
+      },
+      {
+        "uri": "https://library.qu.edu.iq/wp-content/uploads/2020/09/3.pdf",
+        "sha256": "b54dc87142b553cc7619b234d1e4441cf393e879eab46c73e27e462e5ad041cb",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "Laur & Llanso, Encyclopedia of Modern U.S. Military Weapons (1995)"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-bmp-vab-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:29:20.000Z",
+    "quote": "CHANGES_REQUESTED"
+  },
+  "notes": [
+    "kwBMP2 r0 (kw-bmp2-v1); assemblies {\"intact\": \"7d619e65-082d-5d86-9837-227aae653c03\", \"damaged-1\": \"34a58705-1504-5c2e-baad-93b33f3f5e1c\", \"damaged-2\": \"5739cb5f-dd98-5049-bf8e-357c1d5b2a98\", \"damaged-3\": \"98220e3c-6834-5944-9f5b-28262bc40637\", \"destroyed-1\": \"0810ac5a-ab91-5218-9e27-380a1ee28aa0\", \"destroyed-2\": \"68eaca6b-3c3d-5c1c-bf6e-2b71aaf1f4c0\", \"destroyed-3\": \"b9ddbf31-c2ae-5535-8314-d53bd4365ff6\"}.",
+    "Review: independent-bmp-vab-review CHANGES_REQUESTED (review.json sha256 483846df7f4b9b2455d33555085579639b0ae2f33d36cd542024de13275864b4).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

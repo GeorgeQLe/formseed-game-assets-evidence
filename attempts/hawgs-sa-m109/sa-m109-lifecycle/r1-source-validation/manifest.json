@@ -1,0 +1,76 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sa-m109",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sa-m109-lifecycle",
+    "revision": 1
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "neutral-750bf24c-c7d4-5362-94f9-90ad4499e420.png",
+      "sha256": "cb924b6b51091a784e549e69ba6accdeee5478cb41f1f3c5377aff656c30914d",
+      "bytes": 6279
+    },
+    "files": [
+      {
+        "path": "review/neutral-d8189fc6-b03d-5e02-bb90-97ba661fc143.png",
+        "sha256": "419ae38573bc02f1007c42e8608881daaaf1dd1fcf731ec4ff5462a171aee44a",
+        "bytes": 5965
+      },
+      {
+        "path": "neutral-750bf24c-c7d4-5362-94f9-90ad4499e420.png",
+        "sha256": "cb924b6b51091a784e549e69ba6accdeee5478cb41f1f3c5377aff656c30914d",
+        "bytes": 6279
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/spg/usa/m109/M109A2-A3_Operators_Manual_for_Howitzer_Medium_TM_9-2350-311-10_1980.pdf",
+        "sha256": "5e3885266170cc85b4548cc7433b5b1f9d248c84ecf14a5530476b20bb2471d9",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "tm9-2350-311-10"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Two_Egyptian_M-109_howitzers.JPEG",
+        "sha256": "dd5b83dd9db6c69672e5dbc79acba7a61ce076fbdeccb87df9cd29f09056c8af",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "DF-ST-92-07484-web"
+      },
+      {
+        "uri": "https://library.qu.edu.iq/wp-content/uploads/2020/09/3.pdf",
+        "sha256": "b54dc87142b553cc7619b234d1e4441cf393e879eab46c73e27e462e5ad041cb",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "Laur & Llanso, Encyclopedia of Modern U.S. Military Weapons (1995)"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-first-six-r1-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:58:56.000Z",
+    "quote": "CHANGES_REQUESTED"
+  },
+  "notes": [
+    "saM109 r1 (sa-m109-r1); assemblies {\"damaged-2\": \"750bf24c-c7d4-5362-94f9-90ad4499e420\", \"damaged-3\": \"d8189fc6-b03d-5e02-bb90-97ba661fc143\"}.",
+    "Review: independent-first-six-r1-review CHANGES_REQUESTED (review.json sha256 6c78b4beb86f2ef9f1def5a58914b628b8ea5084ec17c45bc7df9e4fb66e77b8).",
+    "Evidence: native neutral exports (no producer board exists).",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

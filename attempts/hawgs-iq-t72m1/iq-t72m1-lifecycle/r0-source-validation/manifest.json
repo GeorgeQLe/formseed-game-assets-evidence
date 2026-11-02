@@ -1,0 +1,59 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-iq-t72m1",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "iq-t72m1-lifecycle",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "iq-t72m1-v1-base.png",
+      "sha256": "faa290fc58741722c202496e2b339f93db7036006a085b9a8803a821978b1ee6",
+      "bytes": 112854
+    },
+    "files": [
+      {
+        "path": "review/iq-t72m1-v1-lifecycle.png",
+        "sha256": "07fe2014e480c8cf4e23f5b0ec0235489e4d45d385ea80df20fc9ead825cee0c",
+        "bytes": 113896
+      },
+      {
+        "path": "review/iq-t72m1-v1-review.png",
+        "sha256": "66ebe0ff7ca7fa1317e88bed525fafad77f5406cf1a8a19228ecc72a1229be35",
+        "bytes": 149005
+      },
+      {
+        "path": "iq-t72m1-v1-base.png",
+        "sha256": "faa290fc58741722c202496e2b339f93db7036006a085b9a8803a821978b1ee6",
+        "bytes": 112854
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "Independent Opus 5.5 reviewer (AI; independent-final-six-review; disposition in review-dispositions.json; not a human decision)",
+    "decidedAt": "2026-11-02T01:42:54.544Z",
+    "quote": "T72-D1-LEGIBILITY: Damaged-1 (engine-grille hole) changes 4 game px at 91 px (dark hole on dark grille); damaged-2/3 change 20 px each and read."
+  },
+  "notes": [
+    "iqT72M1 r0 (iq-t72m1-v1); assemblies {\"intact\": \"198cb6df-192f-5e6d-955e-6bb8d86da8a1\", \"damaged-1\": \"6d7ea4e7-d3b6-540e-937b-2534380c7b43\", \"damaged-2\": \"f393bccb-3881-5d5a-a959-5fcb2d877790\", \"damaged-3\": \"a4b6495d-0db7-5d60-9bf0-c110abfc457e\", \"destroyed-1\": \"e5b3bbf9-acfb-55af-9efe-76866ed7386b\", \"destroyed-2\": \"24860e06-9b69-5cc7-8d8b-51b4a84d2df9\", \"destroyed-3\": \"fc71c81b-7a3c-5988-9b6c-50e91a406c33\"}.",
+    "Review: independent-final-six-review CHANGES_REQUESTED (review.json sha256 4546082ad3b006b6a4a6b452e09f36feb3af59ac0c54207f5e7e2f54dbf3487a).",
+    "Evidence: producer boards.",
+    "AI review gate only; no individual human visual inspection.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "hawgs-sy-brdm2",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "sy-brdm2-lifecycle",
+    "revision": 2
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "labeledSheet": {
+      "path": "game-dpr1-x4.png",
+      "sha256": "c2f2c6dd2456465c14c5571df90c58576b88623446e556b8f597892a00bf1e0d",
+      "bytes": 14416
+    },
+    "files": [
+      {
+        "path": "review/game.png",
+        "sha256": "86cb36b0bc38f90499b989e92bd22c5d4a25600c4eb228b5aa583c05bc73276e",
+        "bytes": 18761
+      },
+      {
+        "path": "review/samples-004.png",
+        "sha256": "aaf332f72585d3d682f75fba037b4f602a1ea75eb3f18eacf2edd4005bb31e4e",
+        "bytes": 27167
+      },
+      {
+        "path": "review/samples-003.png",
+        "sha256": "abb8ef98b813df6352cd3ab01caa04e796a060729da23ae3ab456035a3c3b0ee",
+        "bytes": 66939
+      },
+      {
+        "path": "review/samples-002.png",
+        "sha256": "95d51e6e46119f3751766681675ac57a67a79aa8f2abceb6bac43ac87250fb4c",
+        "bytes": 65583
+      },
+      {
+        "path": "review/samples-000.png",
+        "sha256": "b09088adc39230fdc0b6258fdebc95d03dba7251e7abccc98918dad2e715494e",
+        "bytes": 57595
+      },
+      {
+        "path": "review/samples-001.png",
+        "sha256": "9d8b9e359f0576679e56488b2c0e1ade26f48f33fa2d0e9ff2d834ba0935ee51",
+        "bytes": 62737
+      },
+      {
+        "path": "review/full.png",
+        "sha256": "d34c693dd1ff6aa5f9bc4a33ec189ebd632e2ac01718d6ac0dd5ddc620daabc3",
+        "bytes": 82494
+      },
+      {
+        "path": "review/focus-final.png",
+        "sha256": "cf78a7ab5222d4d88c2c37eadf6cb4189f06480308487748f71320b38ece9251",
+        "bytes": 5447
+      },
+      {
+        "path": "game-dpr1-x4.png",
+        "sha256": "c2f2c6dd2456465c14c5571df90c58576b88623446e556b8f597892a00bf1e0d",
+        "bytes": 14416
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://www.military-references.com/wp-content/uploads/books/apc/ussr/brdm-2/БРДМ-2_Техническое_описание_и_инструкция_по_эксплуатации_Книга_1_1987.pdf",
+        "sha256": "133e29e73fae2f0d622fb1a3742383cfa4b6c129583f0238e77e4476f2bfdc00",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "brdm2-to-ie-1-1987"
+      },
+      {
+        "uri": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/sy/syriacountrystud00coll_0/syriacountrystud00coll_0.pdf",
+        "sha256": "6f07026b0c8180efb66ac0484a60d19ab8c52c0fd64147026629768cb2a1eb2f",
+        "author": "Not recorded in source ledger",
+        "license": "Not recorded in source ledger (reference use only; not archived)",
+        "role": "loc-syria-1987"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "pending"
+  },
+  "notes": [
+    "syBRDM2 r2 (sy-brdm2-r2); assemblies {\"intact\": \"0879a7f2-6297-5e08-b5cc-1ae722a81a04\", \"damaged-1\": \"74a984f0-a236-54ed-a86d-ff482ad38a43\", \"damaged-2\": \"44e1b3bc-a113-5778-8c33-9015932956cc\", \"damaged-3\": \"50b1fd58-1a37-5739-92ed-4cf8c4b2caf4\", \"destroyed-1\": \"a11ac65b-5f3a-5daf-89d9-332f741f17e1\", \"destroyed-2\": \"8b9bbfb3-6e9e-58cb-8bb1-6479ef4cb6ba\", \"destroyed-3\": \"ec2aa8ff-8aae-5282-9305-a84fc07cb47b\"}.",
+    "Review: independent-astra-r2-review PASS_WITH_NOTES (review.json sha256 14e248d9bffd59731af17875ae4d9937c5793d6499903e800fc78fc654ee0b73).",
+    "Evidence: producer boards.",
+    "AI review recommendation; not a human approval or confirmed semantic release.",
+    "Prepared under standing ADR 0008 policy for newly authored Hawgs evidence (see roster-completion-20261101/catalog-publication/archive-policy-applicability.json); authored files only; third-party sources by identity only."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
