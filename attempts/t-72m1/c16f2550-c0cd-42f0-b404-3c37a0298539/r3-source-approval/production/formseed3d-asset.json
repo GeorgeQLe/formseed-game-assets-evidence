@@ -1,0 +1,464 @@
+{
+  "schemaVersion": "2.0.0",
+  "assetId": "t72m1-runtime-canonical-r0-20261102",
+  "revisionId": "t72m1-runtime-canonical-r0-20261102-r3",
+  "createdAt": "2026-11-02T23:48:39.148Z",
+  "source": {
+    "blend": "revision-3/source/t72m1-runtime-canonical-r0-20261102.blend",
+    "glb": "revision-3/source/t72m1-runtime-canonical-r0-20261102.glb"
+  },
+  "dimensions": {
+    "x": 3.5900001525878906,
+    "y": 9.319999694824219,
+    "z": 2.7799999713897705
+  },
+  "pivot": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "counts": {
+    "triangles": 53317,
+    "materials": 6,
+    "objects": 15,
+    "textures": 0
+  },
+  "provenance": [
+    {
+      "uri": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/traces/t72m1/reference-reconciliation-20261102-r0/sources/weg-ch4-tanks.pdf",
+      "attribution": "US Army Worldwide Equipment Guide, printed4-17, local sha256 480fbf716eccf14c05f646ada276ffe39e8a6887ca8bdc6e62ba6521663af68e",
+      "license": "US federal reference; no source artwork incorporated"
+    },
+    {
+      "uri": "https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_33966.pdf",
+      "attribution": "US Army ARMOR Nov-Dec1990, Fig2/printed20-22; sha256 37be0028277f80d86b63ffeaf85deb937e16845d527c6b8f99faf663c2d1fa65",
+      "license": "US federal reference; photograph rights retained by original owners"
+    },
+    {
+      "uri": "https://commons.wikimedia.org/wiki/File:T72_M1_owned_by_Spltworld_pic4.JPG",
+      "attribution": "AlfvanBeem,2010, T72M1 side photo, source15",
+      "license": "CC0 reference"
+    },
+    {
+      "uri": "https://commons.wikimedia.org/wiki/File:T72_M1_owned_by_Spltworld_pic5.JPG",
+      "attribution": "AlfvanBeem,2010,T72M1 rear quarter,source16",
+      "license": "CC0 reference"
+    },
+    {
+      "uri": "https://commons.wikimedia.org/wiki/File:Fort_Bliss_Museum_Gulf_War_T72.jpg",
+      "attribution": "Pi3.124,2016, captured Iraqi tank exterior reference03",
+      "license": "CC BY-SA4.0 reference only; no photo pixels copied"
+    },
+    {
+      "uri": "https://commons.wikimedia.org/wiki/File:Parola_Tank_Museum_191_-_T-72_M1_(38513907506).jpg",
+      "attribution": "Richard Allen,2017,road-wheel form reference18",
+      "license": "CC BY2.0 reference"
+    }
+  ],
+  "validation": {
+    "reportId": "b4544e03-1952-4bdd-ac34-b6b6ee53986e",
+    "passed": true,
+    "reproducible": true,
+    "blockingIssueCodes": [],
+    "advisoryIssueCodes": [
+      "COMFORT_MARGIN",
+      "COMFORT_MARGIN"
+    ]
+  },
+  "renderSets": [
+    {
+      "name": "blockout",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 1000,
+        "height": 1000
+      },
+      "transparentBackground": true,
+      "lightingIntent": "Neutral studio geometric source review; matching approved Abrams source camera convention; clay desert colors are blockout materials, not final finish.",
+      "renderSetHash": "6c11c31020c748b9a8abb9023724308ddb60fb6d9a5d4ccbf7042be232264af7",
+      "views": [
+        {
+          "name": "front-three-quarter",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/front-three-quarter.png",
+          "sha256": "4f87b6ae908298482c28b3b9adb113c41669ab9c5ce8ba2fed61157eed9b6b25",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-three-quarter",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/rear-three-quarter.png",
+          "sha256": "e09a4e2c34aba86936715c900f62950eaaaff19ff3852e301facb4be9f64c56d",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "front",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/front.png",
+          "sha256": "ae28b14f9cc749c0a6937bde6fc084ba50e8ce000d10d6aa7471d7cf04348bbc",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "left",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/left.png",
+          "sha256": "6f3c681319871a1581c7eb95df5b85ef44f89761b23175f609cc781a8c1f01d0",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "right",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/right.png",
+          "sha256": "65b48859ec301a3ee1d89795cb070d7472f17187de870a59dabb160db1b8da4e",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "top",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/top.png",
+          "sha256": "7d570fa9d0e01ca3569efe0bf79f18e869824df6470b75ac4ee29c053e9231de",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/rear.png",
+          "sha256": "f0b49b5f07d6234704eb3dc64faadebfc5c70e13cb7ce16495ccdf66a7365ca1",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "front-left",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/front-left.png",
+          "sha256": "2e24ee3ee2a00f48f955af20a6fe352f4d7276202fae2e5306121d341d85e583",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-right",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/rear-right.png",
+          "sha256": "202db21e3ba3f7eba9ffb9a3cef8ecfef6ae15cc86d234b9d492129311d93d26",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    },
+    {
+      "name": "map-recognition",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 256,
+        "height": 256
+      },
+      "transparentBackground": true,
+      "lightingIntent": "Same neutral source geometry review; 50 degree recognition views, display also at128px; game lighting qualification separate",
+      "renderSetHash": "c8a18e7f1950322b00c7c9ef226ed7968caee9ea8c42f68e6223eb408ecd25c9",
+      "views": [
+        {
+          "name": "map-0",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-0.png",
+          "sha256": "d9f8e77a7290bf885391bbba909c735928c9f59c504ef78978dedca603bdf31d",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-1",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-1.png",
+          "sha256": "2697e7cc1ed82550d14a730ec3599b493ce95b0cdd7e135c02e2edef2136dc72",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-2",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-2.png",
+          "sha256": "031a22105c5c035b2113e1ad28e03eefaff5915dba8539f4073527e697ab2102",
+          "frameBoundaryClipped": false,
+          "advisories": [
+            {
+              "code": "COMFORT_MARGIN",
+              "message": "The subject is within eight pixels of the frame edge."
+            }
+          ]
+        },
+        {
+          "name": "map-3",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-3.png",
+          "sha256": "deb4dda5b74762769a328910ec380bd5844d91a96491a4028f6ab1a097292cbb",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-4",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-4.png",
+          "sha256": "2a9839030aa0d062b673d800ec0af73cb674f764a72c3ae6d07d2d00fc901cad",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-5",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-5.png",
+          "sha256": "df86c4efed1893b928dc5ad79ea2a17a59ff17ae5374e84dc95888ed51593767",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-6",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-6.png",
+          "sha256": "9098d750ff5460e571d1864b51b8b996e0559917af5ba1de4dd2723e029cf103",
+          "frameBoundaryClipped": false,
+          "advisories": [
+            {
+              "code": "COMFORT_MARGIN",
+              "message": "The subject is within eight pixels of the frame edge."
+            }
+          ]
+        },
+        {
+          "name": "map-7",
+          "path": "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-7.png",
+          "sha256": "232be1b77f3cd8554736c61f9e64395645bb037e35fca29744eb0b880c385edc",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/front-three-quarter.png": "4f87b6ae908298482c28b3b9adb113c41669ab9c5ce8ba2fed61157eed9b6b25",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/rear-three-quarter.png": "e09a4e2c34aba86936715c900f62950eaaaff19ff3852e301facb4be9f64c56d",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/front.png": "ae28b14f9cc749c0a6937bde6fc084ba50e8ce000d10d6aa7471d7cf04348bbc",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/left.png": "6f3c681319871a1581c7eb95df5b85ef44f89761b23175f609cc781a8c1f01d0",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/right.png": "65b48859ec301a3ee1d89795cb070d7472f17187de870a59dabb160db1b8da4e",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/top.png": "7d570fa9d0e01ca3569efe0bf79f18e869824df6470b75ac4ee29c053e9231de",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/rear.png": "f0b49b5f07d6234704eb3dc64faadebfc5c70e13cb7ce16495ccdf66a7365ca1",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/front-left.png": "2e24ee3ee2a00f48f955af20a6fe352f4d7276202fae2e5306121d341d85e583",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/blockout/rear-right.png": "202db21e3ba3f7eba9ffb9a3cef8ecfef6ae15cc86d234b9d492129311d93d26",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-0.png": "d9f8e77a7290bf885391bbba909c735928c9f59c504ef78978dedca603bdf31d",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-1.png": "2697e7cc1ed82550d14a730ec3599b493ce95b0cdd7e135c02e2edef2136dc72",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-2.png": "031a22105c5c035b2113e1ad28e03eefaff5915dba8539f4073527e697ab2102",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-3.png": "deb4dda5b74762769a328910ec380bd5844d91a96491a4028f6ab1a097292cbb",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-4.png": "2a9839030aa0d062b673d800ec0af73cb674f764a72c3ae6d07d2d00fc901cad",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-5.png": "df86c4efed1893b928dc5ad79ea2a17a59ff17ae5374e84dc95888ed51593767",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-6.png": "9098d750ff5460e571d1864b51b8b996e0559917af5ba1de4dd2723e029cf103",
+    "renders/revision-3/lod0/run-pQxIYl/pass-2/map-recognition/map-7.png": "232be1b77f3cd8554736c61f9e64395645bb037e35fca29744eb0b880c385edc",
+    "revision-3/source/t72m1-runtime-canonical-r0-20261102.blend": "7840166ef8eb98d4ce36e85203c17dc87360566e7a48d1113b3abf26a22cf7bb",
+    "revision-3/source/t72m1-runtime-canonical-r0-20261102.glb": "8313bbf54074551b6b5a462896aecee5942ef3ddf4fcf0c94a357f3da0e82e65"
+  },
+  "extensions": {
+    "com.formseed3d.runtime-lods.v1": {
+      "configuration": {
+        "components": [
+          {
+            "component": "hull",
+            "node": "T72_Hull",
+            "parentComponent": null,
+            "pivot": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "component": "turret",
+            "node": "T72_TurretYaw",
+            "parentComponent": "hull",
+            "pivot": [
+              0,
+              -0.48,
+              1.57
+            ]
+          },
+          {
+            "component": "gun",
+            "node": "T72_GunPitch",
+            "parentComponent": "turret",
+            "pivot": [
+              0,
+              0.5,
+              1.84
+            ]
+          },
+          {
+            "component": "barrel",
+            "node": "T72_GunRecoil",
+            "parentComponent": "gun",
+            "pivot": [
+              0,
+              0.5,
+              1.84
+            ]
+          },
+          {
+            "component": "commander",
+            "node": "T72_CommanderYaw",
+            "parentComponent": "turret",
+            "pivot": [
+              0.55,
+              -0.6,
+              2.2
+            ]
+          }
+        ],
+        "exportExtras": true,
+        "exportSelectedOnly": true,
+        "exportSelection": [
+          "T72_RuntimeRoot",
+          "T72_LOD0",
+          "T72_LOD1",
+          "T72_LOD2",
+          "T72_GunRecoil",
+          "T72_CommanderYaw",
+          "T72_GunPitch",
+          "T72_Hull",
+          "T72_TurretYaw",
+          "t72-rt-hull-lod0",
+          "t72-rt-turret-lod0",
+          "t72-rt-gun-lod0",
+          "t72-rt-barrel-lod0",
+          "t72-rt-commander-lod0",
+          "t72-rt-hull-lod1",
+          "t72-rt-turret-lod1",
+          "t72-rt-gun-lod1",
+          "t72-rt-barrel-lod1",
+          "t72-rt-commander-lod1",
+          "t72-rt-hull-lod2",
+          "t72-rt-turret-lod2",
+          "t72-rt-gun-lod2",
+          "t72-rt-barrel-lod2",
+          "t72-rt-commander-lod2"
+        ],
+        "lodCeilings": {
+          "lod0": 50000,
+          "lod1": 12000,
+          "lod2": 5000,
+          "total": 55000
+        },
+        "mode": "tagged-meshes",
+        "retainedSourceObjects": [
+          "P01_HullShell",
+          "P02_GlacisPlate",
+          "P03_EngineDeck",
+          "P04_TurretCast",
+          "P05_GunBoot",
+          "P06_MainGun",
+          "P07_TrackLeft",
+          "P08_TrackRight",
+          "P09_SkirtLeft1",
+          "P10_SkirtLeft2",
+          "P11_SkirtLeft3",
+          "P12_SkirtLeft4",
+          "P13_SkirtRight1",
+          "P14_SkirtRight2",
+          "P15_SkirtRight3",
+          "P16_SkirtRight4",
+          "P17_FenderFrontLeft",
+          "P18_FenderFrontRight",
+          "P19_FenderRearLeft",
+          "P20_FenderRearRight",
+          "P21_RoadWheelLeft1",
+          "P22_RoadWheelLeft2",
+          "P23_RoadWheelLeft3",
+          "P24_RoadWheelLeft4",
+          "P25_RoadWheelLeft5",
+          "P26_RoadWheelLeft6",
+          "P27_RoadWheelRight1",
+          "P28_RoadWheelRight2",
+          "P29_RoadWheelRight3",
+          "P30_RoadWheelRight4",
+          "P31_RoadWheelRight5",
+          "P32_RoadWheelRight6",
+          "P33_IdlerLeft",
+          "P34_IdlerRight",
+          "P35_SprocketLeft",
+          "P36_SprocketRight",
+          "P37_HatchDriver",
+          "P38_HatchCommander",
+          "P39_HatchGunner",
+          "P40_IRMain",
+          "P41_IRCommander",
+          "P42_NSVTMount",
+          "P43_NSVTGun",
+          "P44_SmokeBankLeft",
+          "P45_SmokeBankRight",
+          "P46_TurretStowLeft",
+          "P47_TurretStowRight",
+          "P48_VSplashBoard",
+          "P49_ExhaustLeft",
+          "P50_HeadlightLeft",
+          "P51_HeadlightRight",
+          "P52_TurretCollar",
+          "P53_ReturnRollerLeft1",
+          "P54_ReturnRollerLeft2",
+          "P55_ReturnRollerLeft3",
+          "P56_ReturnRollerRight1",
+          "P57_ReturnRollerRight2",
+          "P58_ReturnRollerRight3",
+          "P59_SnorkelStow",
+          "P60_CupolaCommanderCollar",
+          "P61_GunnerHatchCollar",
+          "P62_FenderShelfLeft",
+          "P63_FenderShelfRight",
+          "P64_GunnerSightTPD",
+          "P65_DriverPeriscope",
+          "P66_EngineGrilles",
+          "P67_FenderBoxesLeft",
+          "P68_FenderBoxesRight",
+          "P69_RearTowFittings",
+          "P70_RearTowCable",
+          "P71_TurretHandrails",
+          "P72_DriverHatchHardware",
+          "P73_CommanderHatchHardware",
+          "P74_GunnerHatchHardware",
+          "P75_HeadlightGuards",
+          "P76_MainIRBracket",
+          "P77_CommanderLampBracket"
+        ],
+        "runtimeConfigurationHash": "35cf94db5981938ebcd54ecd5be556c58f503879be68f8d38f5a146b0b3816b2",
+        "runtimeMeshes": [
+          "t72-rt-hull-lod0",
+          "t72-rt-turret-lod0",
+          "t72-rt-gun-lod0",
+          "t72-rt-barrel-lod0",
+          "t72-rt-commander-lod0",
+          "t72-rt-hull-lod1",
+          "t72-rt-turret-lod1",
+          "t72-rt-gun-lod1",
+          "t72-rt-barrel-lod1",
+          "t72-rt-commander-lod1",
+          "t72-rt-hull-lod2",
+          "t72-rt-turret-lod2",
+          "t72-rt-gun-lod2",
+          "t72-rt-barrel-lod2",
+          "t72-rt-commander-lod2"
+        ],
+        "runtimeRoot": "T72_RuntimeRoot",
+        "selectors": {
+          "lod0": "T72_LOD0",
+          "lod1": "T72_LOD1",
+          "lod2": "T72_LOD2"
+        },
+        "version": 1
+      },
+      "runtimeConfigurationHash": "35cf94db5981938ebcd54ecd5be556c58f503879be68f8d38f5a146b0b3816b2",
+      "lodTriangles": {
+        "lod0": 36652,
+        "lod1": 11996,
+        "lod2": 4669
+      },
+      "totalRuntimeTriangles": 53317,
+      "exportedObjectCount": 24,
+      "exportedMeshObjectCount": 15,
+      "exportedMaterialCount": 6,
+      "retainedSourceCount": 77,
+      "protectedSourceExcluded": true,
+      "countBasis": "canonical-glb",
+      "sceneLodTriangles": {
+        "lod0": 36652,
+        "lod1": 11996,
+        "lod2": 4998
+      },
+      "sceneTotalRuntimeTriangles": 53646,
+      "sceneMaterialCount": 6,
+      "exportSha256": "8313bbf54074551b6b5a462896aecee5942ef3ddf4fcf0c94a357f3da0e82e65"
+    }
+  }
+}

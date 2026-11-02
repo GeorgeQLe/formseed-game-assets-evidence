@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "2.0.0",
+  "assetId": "t72m1-w03-textured-finishing-r1",
+  "revisionId": "t72m1-w03-textured-finishing-r1-r4",
+  "createdAt": "2026-11-02T23:45:57.289Z",
+  "source": {
+    "blend": "revision-4/source/t72m1-w03-textured-finishing-r1.blend",
+    "glb": "revision-4/source/t72m1-w03-textured-finishing-r1.glb"
+  },
+  "dimensions": {
+    "x": 8.729841232299805,
+    "y": 7.740382671356201,
+    "z": 1.6920000314712524
+  },
+  "pivot": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "counts": {
+    "triangles": 37170,
+    "materials": 14,
+    "objects": 79,
+    "textures": 2
+  },
+  "provenance": [
+    {
+      "uri": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/research/army-manual-model-program-20261028/traces/t72m1/reference-reconciliation-20261102-r0/sources/weg-ch4-tanks.pdf",
+      "attribution": "US Army Worldwide Equipment Guide, printed4-17, local sha256 480fbf716eccf14c05f646ada276ffe39e8a6887ca8bdc6e62ba6521663af68e",
+      "license": "US federal reference; no source artwork incorporated"
+    },
+    {
+      "uri": "https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_33966.pdf",
+      "attribution": "US Army ARMOR Nov-Dec1990, Fig2/printed20-22; sha256 37be0028277f80d86b63ffeaf85deb937e16845d527c6b8f99faf663c2d1fa65",
+      "license": "US federal reference; photograph rights retained by original owners"
+    },
+    {
+      "uri": "https://commons.wikimedia.org/wiki/File:T72_M1_owned_by_Spltworld_pic4.JPG",
+      "attribution": "AlfvanBeem,2010, T72M1 side photo, source15",
+      "license": "CC0 reference"
+    },
+    {
+      "uri": "https://commons.wikimedia.org/wiki/File:T72_M1_owned_by_Spltworld_pic5.JPG",
+      "attribution": "AlfvanBeem,2010,T72M1 rear quarter,source16",
+      "license": "CC0 reference"
+    },
+    {
+      "uri": "https://commons.wikimedia.org/wiki/File:Fort_Bliss_Museum_Gulf_War_T72.jpg",
+      "attribution": "Pi3.124,2016, captured Iraqi tank exterior reference03",
+      "license": "CC BY-SA4.0 reference only; no photo pixels copied"
+    },
+    {
+      "uri": "https://commons.wikimedia.org/wiki/File:Parola_Tank_Museum_191_-_T-72_M1_(38513907506).jpg",
+      "attribution": "Richard Allen,2017,road-wheel form reference18",
+      "license": "CC BY2.0 reference"
+    }
+  ],
+  "validation": {
+    "reportId": "b5111ae9-38a6-495b-b6f6-f80386e1e534",
+    "passed": true,
+    "reproducible": true,
+    "blockingIssueCodes": [],
+    "advisoryIssueCodes": []
+  },
+  "renderSets": [
+    {
+      "name": "blockout",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 1000,
+        "height": 1000
+      },
+      "transparentBackground": true,
+      "lightingIntent": "Neutral studio geometric source review; matching approved Abrams source camera convention; clay desert colors are blockout materials, not final finish.",
+      "renderSetHash": "2708ac3233a5ce5edeef1fbca26f2b972dc163d59329167105eb78967325e8fb",
+      "views": [
+        {
+          "name": "front-three-quarter",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/blockout/front-three-quarter.png",
+          "sha256": "684327ea257047daa5cadf4b5cb8d94ab780aeaeebc82a4cbf4a50e7da83c165",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-three-quarter",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/blockout/rear-three-quarter.png",
+          "sha256": "9cbec4e292b2fe1e9660a95772d2278c501e54323577729922a53bb9acc90f4f",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "front",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/blockout/front.png",
+          "sha256": "dd43c45aa8f7223d0a07ef29031ef493480c062c4735228433fb30def7802cf5",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "left",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/blockout/left.png",
+          "sha256": "b6e6088499f3ce844298d0f8cfa41d696892441f9502bed774e8482d92fce032",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "right",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/blockout/right.png",
+          "sha256": "257676c8fa24188d36cc1d4416d41511fc951591cecb131864dcd14647c7004a",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "top",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/blockout/top.png",
+          "sha256": "352069d754dc1ffff79349c599b2b47332ed1df09f398997446effe6aad98138",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/blockout/rear.png",
+          "sha256": "9356ea655b2a5d78db8b2c274e01c273d18c5bf6d0e3cfa7b3ff18a89ce402c7",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "front-left",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/blockout/front-left.png",
+          "sha256": "dc823e8f06c5d90acfaaf85a58f143b30213a60c4a87a88ab8bdbdf75d009850",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-right",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/blockout/rear-right.png",
+          "sha256": "63af8edadb5026199d82176dc053c48b3a6b44637c950cdec3beca3c02c03253",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    },
+    {
+      "name": "map-recognition",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 256,
+        "height": 256
+      },
+      "transparentBackground": true,
+      "lightingIntent": "Same neutral source geometry review; 50 degree recognition views, display also at128px; game lighting qualification separate",
+      "renderSetHash": "041a339dbef3cd01809bb2d23353ac6f75dfd7dd307f5d62e3835077c95a1ab1",
+      "views": [
+        {
+          "name": "map-0",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-0.png",
+          "sha256": "b8baf9df18f20c38b111c7a95bd12dee5ac7e52f82809e5d601b5955ab11d034",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-1",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-1.png",
+          "sha256": "3674c4335c1140d23e61d9bf732eed262ffd2226c8cff5bde5723751f83cf8ff",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-2",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-2.png",
+          "sha256": "6e49c6d78dbaa87eba364b192b3de61a3bf47f53067d0dbe5bfcb48cf8089815",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-3",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-3.png",
+          "sha256": "7d0f916a764dfdac55abf1e6e2d14f766aa844d4ac612fc601c1351729640dcb",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-4",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-4.png",
+          "sha256": "6cc2cf6fc08b5929c95224fc8a418887b23084355d12c586864100f90620293b",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-5",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-5.png",
+          "sha256": "b322d49fc3b70c3ee7ecb6cc0320d0f23be0f15656366c4c57099c4eba82cf94",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-6",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-6.png",
+          "sha256": "bc06955dbd4fba30d67c6e850bcfc2c6aba301279d763cf8527ffdfc8ebfd9fb",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "map-7",
+          "path": "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-7.png",
+          "sha256": "1d0ca04e3d98d6f51e6929eaa8c180705b51d13df0ce790cb7254de47c42aae9",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "renders/revision-4/production/run-zCK2mn/pass-2/blockout/front-three-quarter.png": "684327ea257047daa5cadf4b5cb8d94ab780aeaeebc82a4cbf4a50e7da83c165",
+    "renders/revision-4/production/run-zCK2mn/pass-2/blockout/rear-three-quarter.png": "9cbec4e292b2fe1e9660a95772d2278c501e54323577729922a53bb9acc90f4f",
+    "renders/revision-4/production/run-zCK2mn/pass-2/blockout/front.png": "dd43c45aa8f7223d0a07ef29031ef493480c062c4735228433fb30def7802cf5",
+    "renders/revision-4/production/run-zCK2mn/pass-2/blockout/left.png": "b6e6088499f3ce844298d0f8cfa41d696892441f9502bed774e8482d92fce032",
+    "renders/revision-4/production/run-zCK2mn/pass-2/blockout/right.png": "257676c8fa24188d36cc1d4416d41511fc951591cecb131864dcd14647c7004a",
+    "renders/revision-4/production/run-zCK2mn/pass-2/blockout/top.png": "352069d754dc1ffff79349c599b2b47332ed1df09f398997446effe6aad98138",
+    "renders/revision-4/production/run-zCK2mn/pass-2/blockout/rear.png": "9356ea655b2a5d78db8b2c274e01c273d18c5bf6d0e3cfa7b3ff18a89ce402c7",
+    "renders/revision-4/production/run-zCK2mn/pass-2/blockout/front-left.png": "dc823e8f06c5d90acfaaf85a58f143b30213a60c4a87a88ab8bdbdf75d009850",
+    "renders/revision-4/production/run-zCK2mn/pass-2/blockout/rear-right.png": "63af8edadb5026199d82176dc053c48b3a6b44637c950cdec3beca3c02c03253",
+    "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-0.png": "b8baf9df18f20c38b111c7a95bd12dee5ac7e52f82809e5d601b5955ab11d034",
+    "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-1.png": "3674c4335c1140d23e61d9bf732eed262ffd2226c8cff5bde5723751f83cf8ff",
+    "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-2.png": "6e49c6d78dbaa87eba364b192b3de61a3bf47f53067d0dbe5bfcb48cf8089815",
+    "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-3.png": "7d0f916a764dfdac55abf1e6e2d14f766aa844d4ac612fc601c1351729640dcb",
+    "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-4.png": "6cc2cf6fc08b5929c95224fc8a418887b23084355d12c586864100f90620293b",
+    "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-5.png": "b322d49fc3b70c3ee7ecb6cc0320d0f23be0f15656366c4c57099c4eba82cf94",
+    "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-6.png": "bc06955dbd4fba30d67c6e850bcfc2c6aba301279d763cf8527ffdfc8ebfd9fb",
+    "renders/revision-4/production/run-zCK2mn/pass-2/map-recognition/map-7.png": "1d0ca04e3d98d6f51e6929eaa8c180705b51d13df0ce790cb7254de47c42aae9",
+    "revision-4/source/t72m1-w03-textured-finishing-r1.blend": "b47d01dfc86a5612bbef30e5529e268ab869bdb42457017de7cd53af99985e87",
+    "revision-4/source/t72m1-w03-textured-finishing-r1.glb": "876c53dd33c29c456a7c15d0ec5f362a0578013cc1e92aee9b7edfb079f42b20"
+  }
+}
