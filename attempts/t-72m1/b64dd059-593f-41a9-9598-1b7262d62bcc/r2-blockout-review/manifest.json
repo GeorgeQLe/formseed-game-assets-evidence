@@ -1,0 +1,62 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "t-72m1",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "b64dd059-593f-41a9-9598-1b7262d62bcc",
+    "revision": 2,
+    "checkpointSha256": "f2472e6b05ca2424c20d5abc4a80d197d52a54ebcdfd5281ca135854c90cf715"
+  },
+  "gate": "blockout-review",
+  "evidence": {
+    "labeledSheet": {
+      "path": "presented-nine-view.png",
+      "sha256": "1a388bf40d95d2c4e4708bf58526deba50afacb9688d8a42e5bd497da05e049a",
+      "bytes": 635658
+    },
+    "files": [
+      {
+        "path": "human-blockout-decision.json",
+        "sha256": "add6988439caa85bfa53a3969551972654a50a7387ce16d3756222b3513ba207",
+        "bytes": 487
+      },
+      {
+        "path": "presented-hero.png",
+        "sha256": "1b085ae59f6ace9789fe8f9fafefbce778170b58248e96eb092a42f7269ad7e2",
+        "bytes": 122375
+      },
+      {
+        "path": "approved-blockout.blend",
+        "sha256": "f2472e6b05ca2424c20d5abc4a80d197d52a54ebcdfd5281ca135854c90cf715",
+        "bytes": 192074
+      },
+      {
+        "path": "presented-nine-view.png",
+        "sha256": "1a388bf40d95d2c4e4708bf58526deba50afacb9688d8a42e5bd497da05e049a",
+        "bytes": 635658
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-02T18:51:22.438Z"
+  },
+  "notes": [
+    "Exact user words: Ok approved, proceed",
+    "Approval scope: base shape/blockout only. Final source, artwork, animation and integration not approved.",
+    "Retain approved blockout v1.0 as immutable fallback; finishing is a separate unapproved successor."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
