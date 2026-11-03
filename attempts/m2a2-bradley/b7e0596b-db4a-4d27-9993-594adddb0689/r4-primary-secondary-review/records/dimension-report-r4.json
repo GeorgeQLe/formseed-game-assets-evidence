@@ -1,0 +1,2064 @@
+{
+  "capabilityVersion": "dimension-validation@1.2.0",
+  "kind": "asset-dimension-validation",
+  "jobId": "b7e0596b-db4a-4d27-9993-594adddb0689",
+  "branchId": "main",
+  "revision": 4,
+  "checkpointId": "7e170cf1-3939-44cc-be0c-6f3bf99678d8",
+  "checkpointHash": "07c674a5379db75073842ec9bfe0dcfe41797a533290f2f306bf43a00ff9170e",
+  "specificationHash": "e9e4a7a02a203b6f9bfe08d12c929a367cfc43677aa3f820c75c827f41c72174",
+  "assetSpecificationHash": "ceb314f5a20bb0e4147a4106fd1feb27819ee753a0dea60778cf5cfa7b09c039",
+  "configuration": "rest",
+  "pose": "rest",
+  "validationScope": {
+    "policy": "configuration-and-pose",
+    "canonical": true,
+    "declaredCriterionIds": [
+      "datum:ground-center:X",
+      "datum:ground-center:Y",
+      "datum:ground-center:Z",
+      "datum:track-ground:Z",
+      "grounding:track-ground",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "applicableCriterionIds": [
+      "datum:ground-center:X",
+      "datum:ground-center:Y",
+      "datum:ground-center:Z",
+      "datum:track-ground:Z",
+      "grounding:track-ground",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "excludedCriterionIds": []
+  },
+  "resourceClosure": {
+    "policy": "self-contained",
+    "externalDependencies": []
+  },
+  "request": {
+    "jobId": "b7e0596b-db4a-4d27-9993-594adddb0689",
+    "branchId": "main",
+    "expectedRevision": 4,
+    "checkpoint": {
+      "checkpointId": "7e170cf1-3939-44cc-be0c-6f3bf99678d8",
+      "checkpointHash": "07c674a5379db75073842ec9bfe0dcfe41797a533290f2f306bf43a00ff9170e"
+    },
+    "configuration": "rest",
+    "pose": "rest"
+  },
+  "requestHash": "d22cf5898b4a886e4a5d685845aa9ff8798523e5f3e803358b33215b00a65e11",
+  "criterionSetHash": "fd8c15f496483ef869c7d99dd4ce3d4e082ae1b12e37cb85f87fb1dced070ed2",
+  "evidenceHash": "b9a709df56b3f59718d2fb87c2847b74d1a36b02cfe7b3244fbde4c8d10ffb73",
+  "evidenceManifestHash": "e8fd5a79820bc3b3eb455c07e73f7b23dcc6b2820c9b1b44180dfe7d15484921",
+  "criteria": [
+    {
+      "criterionId": "overall-length",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 6.5532,
+        "unit": "m",
+        "source": "production-target"
+      },
+      "observed": 6.601599931716919,
+      "unit": "m",
+      "absoluteDeviation": 0.04839993171691859,
+      "relativeDeviation": 0.007385694274082675,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-width",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.3274,
+        "unit": "m",
+        "source": "production-target"
+      },
+      "observed": 3.327399969100952,
+      "unit": "m",
+      "absoluteDeviation": 3.0899047764876286e-8,
+      "relativeDeviation": 9.286243843504323e-9,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-height",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.02768,
+        "unit": "m",
+        "source": "production-target"
+      },
+      "observed": 3.027679920196533,
+      "unit": "m",
+      "absoluteDeviation": 7.980346694580476e-8,
+      "relativeDeviation": 2.6357959541895033e-8,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.02,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": []
+    },
+    {
+      "criterionId": "datum:ground-center:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "ground-center"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "Hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:ground-center:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "ground-center"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "Hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:ground-center:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "ground-center"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "Hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:track-ground:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.01,
+        "unit": "m",
+        "sourceTarget": "track-ground"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "LeftTrack",
+          "axis": "Z",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:X",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "ground-center"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "Hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Y",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "ground-center"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "Hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Z",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "ground-center"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "Hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:X",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Grounded source axes; motion not approved"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "DriverHatch"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Y",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Grounded source axes; motion not approved"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "DriverHatch"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Z",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Grounded source axes; motion not approved"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "DriverHatch"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:track-ground",
+      "kind": "grounding",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.01,
+        "unit": "m",
+        "sourceTarget": "track-ground"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "LeftTrack",
+          "axis": "Z",
+          "side": "minimum"
+        }
+      ]
+    }
+  ],
+  "measurements": {
+    "overallBounds": {
+      "minimum": {
+        "x": -3.325000047683716,
+        "y": -1.663699984550476,
+        "z": 0
+      },
+      "maximum": {
+        "x": 3.276599884033203,
+        "y": 1.663699984550476,
+        "z": 3.027679920196533
+      },
+      "center": {
+        "x": -0.024200081825256348,
+        "y": 0,
+        "z": 1.5138399600982666
+      }
+    },
+    "dimensions": {
+      "width": 3.327399969100952,
+      "height": 3.027679920196533,
+      "length": 6.601599931716919,
+      "unit": "m"
+    },
+    "components": [
+      {
+        "object": "DriverHatch",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1,
+            "y": 0.5400000214576721,
+            "z": 1.6167106628417969
+          },
+          "maximum": {
+            "x": 1.5,
+            "y": 1.0399999618530273,
+            "z": 1.828885555267334
+          },
+          "center": {
+            "x": 1.25,
+            "y": 0.7899999618530273,
+            "z": 1.7227981090545654
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "75b4660edde63eab4f41019d324b8e540355ab14bea25d3fd0d589ff19179d89"
+      },
+      {
+        "object": "FrontGrille",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.350000023841858,
+            "y": -0.699999988079071,
+            "z": 1.4299999475479126
+          },
+          "maximum": {
+            "x": 2,
+            "y": 0.5,
+            "z": 1.6877691745758057
+          },
+          "center": {
+            "x": 1.6749999523162842,
+            "y": -0.09999999403953552,
+            "z": 1.558884620666504
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "69869540b3575c602dd23e415c042fc2176cd49acccf68138c604d85da2df024"
+      },
+      {
+        "object": "GunBarrel",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.47999998927116394,
+            "y": -0.1599999964237213,
+            "z": 2.3299999237060547
+          },
+          "maximum": {
+            "x": 2.4200000762939453,
+            "y": -0.05999999865889549,
+            "z": 2.430000066757202
+          },
+          "center": {
+            "x": 1.4500000476837158,
+            "y": -0.10999999940395355,
+            "z": 2.380000114440918
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "13cc1750e11bdc8d9627a582d71fc2276f1e130f4aa2bc089f9cc78013c87cd3"
+      },
+      {
+        "object": "Hull",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.276599884033203,
+            "y": -1.309999942779541,
+            "z": 0.45719999074935913
+          },
+          "maximum": {
+            "x": 3.276599884033203,
+            "y": 1.309999942779541,
+            "z": 1.850000023841858
+          },
+          "center": {
+            "x": 0,
+            "y": 0,
+            "z": 1.1535999774932861
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "19582a2816dd8b1b581b0f9dc620a34579573a649fef9ad0ea3fafa4abacffe3"
+      },
+      {
+        "object": "LeftArmor",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.276599884033203,
+            "y": 1.309999942779541,
+            "z": 0.6499999761581421
+          },
+          "maximum": {
+            "x": 3.0799999237060547,
+            "y": 1.663699984550476,
+            "z": 1.850000023841858
+          },
+          "center": {
+            "x": -0.09829998016357422,
+            "y": 1.4868500232696533,
+            "z": 1.25
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "336c82be1f3f5eb08afbdad963a416900a6c832a5fff7c967aa617474aacb6c4"
+      },
+      {
+        "object": "LeftDriveSprocket",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.680000066757202,
+            "y": 0.9925000071525574,
+            "z": 0.47999998927116394
+          },
+          "maximum": {
+            "x": 3.119999885559082,
+            "y": 1.4458999633789062,
+            "z": 0.9200000166893005
+          },
+          "center": {
+            "x": 2.9000000953674316,
+            "y": 1.2192000150680542,
+            "z": 0.699999988079071
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "99e793a3b10b3d1ec241062091f58213218b4b14679b9efe7f7aabdbf82cfed6"
+      },
+      {
+        "object": "LeftRearIdler",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.9800000190734863,
+            "y": 0.9925000071525574,
+            "z": 0.4000000059604645
+          },
+          "maximum": {
+            "x": -2.5199999809265137,
+            "y": 1.4458999633789062,
+            "z": 0.8600000143051147
+          },
+          "center": {
+            "x": -2.75,
+            "y": 1.2192000150680542,
+            "z": 0.6299999952316284
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "671030cf98b8b92d5e34d59b843cb2fb71bb1a6c090e780753c26b1b73327337"
+      },
+      {
+        "object": "LeftTrack",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.0207836627960205,
+            "y": 0.9524999856948853,
+            "z": 0
+          },
+          "maximum": {
+            "x": 3.160783529281616,
+            "y": 1.4859000444412231,
+            "z": 0.960041880607605
+          },
+          "center": {
+            "x": 0.06999993324279785,
+            "y": 1.2192000150680542,
+            "z": 0.4800209403038025
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "6bb4e684ae1ea8660735c187d52044fbd00b35d4bb2b5e524096ce5f18a2e90a"
+      },
+      {
+        "object": "LeftWheel1",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.8479000329971313,
+            "y": 0.9925000071525574,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": 2.4321000576019287,
+            "y": 1.4458999633789062,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": 2.140000104904175,
+            "y": 1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "b8a343326ec8df9208fa6b4fc4502e18470addb5bea1e7e65bb6b5c05d9d5d05"
+      },
+      {
+        "object": "LeftWheel2",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.1478999853134155,
+            "y": 0.9925000071525574,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": 1.732100009918213,
+            "y": 1.4458999633789062,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": 1.440000057220459,
+            "y": 1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "26a4d65cc7542ff4d6954fb4365c2ed78ff3cc2fad3a65403292ba50f4efce7a"
+      },
+      {
+        "object": "LeftWheel3",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.3578999936580658,
+            "y": 0.9925000071525574,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": 0.9420999884605408,
+            "y": 1.4458999633789062,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": 0.6499999761581421,
+            "y": 1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "c6773eba0bb381f0aa4efa3f5f4072cc9bacabd643bba9c7e6c5951c0e50bd3f"
+      },
+      {
+        "object": "LeftWheel4",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.6021000146865845,
+            "y": 0.9925000071525574,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": -0.017899999395012856,
+            "y": 1.4458999633789062,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": -0.3100000023841858,
+            "y": 1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "d6ff61a01e47ad1ea16b5ac600c9f9d9161ec437f742d79b686dcd7bd01cbc73"
+      },
+      {
+        "object": "LeftWheel5",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.3521000146865845,
+            "y": 0.9925000071525574,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": -0.7678999900817871,
+            "y": 1.4458999633789062,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": -1.059999942779541,
+            "y": 1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "63fe391ea340ee13958bb32e12de2ba9aa5b1ab23f1dcb8ca01f9dadd681814d"
+      },
+      {
+        "object": "LeftWheel6",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.102099895477295,
+            "y": 0.9925000071525574,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": -1.517899990081787,
+            "y": 1.4458999633789062,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": -1.809999942779541,
+            "y": 1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "b01dd7b0715bdac22c29219a21d2316d3cd385e896ad43726d49c8b79962a752"
+      },
+      {
+        "object": "RearDoor",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.315000057220459,
+            "y": 0.10000000149011612,
+            "z": 0.6499999761581421
+          },
+          "maximum": {
+            "x": -3.299999952316284,
+            "y": 0.6499999761581421,
+            "z": 1.3200000524520874
+          },
+          "center": {
+            "x": -3.307499885559082,
+            "y": 0.375,
+            "z": 0.9850000143051147
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "f37bb2ba3c031cc62f99844c3b041931414e510d0217c25ea67a314e6030d7cb"
+      },
+      {
+        "object": "RearPortLeft",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.325000047683716,
+            "y": -0.5400000214576721,
+            "z": 0.9200000166893005
+          },
+          "maximum": {
+            "x": -3.299999952316284,
+            "y": -0.36000001430511475,
+            "z": 1.1200000047683716
+          },
+          "center": {
+            "x": -3.3125,
+            "y": -0.45000001788139343,
+            "z": 1.0199999809265137
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "adb0c05f0c8f18e7c982e7d3927c6914fe9dc87edd70c753469a58d4f1c94060"
+      },
+      {
+        "object": "RearPortRight",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.325000047683716,
+            "y": 0.699999988079071,
+            "z": 0.9200000166893005
+          },
+          "maximum": {
+            "x": -3.299999952316284,
+            "y": 0.8799999952316284,
+            "z": 1.1200000047683716
+          },
+          "center": {
+            "x": -3.3125,
+            "y": 0.7899999618530273,
+            "z": 1.0199999809265137
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "378b994eee8abc9bbe1965ccf02e5332e06029c5ba4aca1dfbe93bf82319f8d5"
+      },
+      {
+        "object": "RearRamp",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.299999952316284,
+            "y": -0.8799999952316284,
+            "z": 0.5
+          },
+          "maximum": {
+            "x": -3.192819356918335,
+            "y": 0.8799999952316284,
+            "z": 1.5199999809265137
+          },
+          "center": {
+            "x": -3.2464096546173096,
+            "y": 0,
+            "z": 1.0099999904632568
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "5bf789aba7c7cf2827e874f8cfdb6ee45e9cf7a2b7d05f83a64046462aac61f5"
+      },
+      {
+        "object": "RightArmor",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.276599884033203,
+            "y": -1.663699984550476,
+            "z": 0.6499999761581421
+          },
+          "maximum": {
+            "x": 3.0799999237060547,
+            "y": -1.309999942779541,
+            "z": 1.850000023841858
+          },
+          "center": {
+            "x": -0.09829998016357422,
+            "y": -1.4868500232696533,
+            "z": 1.25
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "911b3a01776367d3ba6928d2f81ce473fd39a29a7f2e2729298e78855ae080ce"
+      },
+      {
+        "object": "RightDriveSprocket",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.680000066757202,
+            "y": -1.4458999633789062,
+            "z": 0.47999998927116394
+          },
+          "maximum": {
+            "x": 3.119999885559082,
+            "y": -0.9925000071525574,
+            "z": 0.9200000166893005
+          },
+          "center": {
+            "x": 2.9000000953674316,
+            "y": -1.2192000150680542,
+            "z": 0.699999988079071
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "d014ca6f805e9f29e799a2e19b674aaa21006a0e5c245d4bc9830e2c6a5b599c"
+      },
+      {
+        "object": "RightRearIdler",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.9800000190734863,
+            "y": -1.4458999633789062,
+            "z": 0.4000000059604645
+          },
+          "maximum": {
+            "x": -2.5199999809265137,
+            "y": -0.9925000071525574,
+            "z": 0.8600000143051147
+          },
+          "center": {
+            "x": -2.75,
+            "y": -1.2192000150680542,
+            "z": 0.6299999952316284
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "93d106e4d1f65a3e5fa77f663b851cbde799216375fc22e43bbfabd2c90b1bfc"
+      },
+      {
+        "object": "RightTrack",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.0207836627960205,
+            "y": -1.4859000444412231,
+            "z": 0
+          },
+          "maximum": {
+            "x": 3.160783529281616,
+            "y": -0.9524999856948853,
+            "z": 0.960041880607605
+          },
+          "center": {
+            "x": 0.06999993324279785,
+            "y": -1.2192000150680542,
+            "z": 0.4800209403038025
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "de97d0238e7f556b15929ecd841e0125fd6c328c9b05ea8d73f405fe7610a8d4"
+      },
+      {
+        "object": "RightWheel1",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.8479000329971313,
+            "y": -1.4458999633789062,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": 2.4321000576019287,
+            "y": -0.9925000071525574,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": 2.140000104904175,
+            "y": -1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "86c4dc78b9bce1ff99637e3583b4a197da089453ba61e05fb471ecd314bbf7ca"
+      },
+      {
+        "object": "RightWheel2",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.1478999853134155,
+            "y": -1.4458999633789062,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": 1.732100009918213,
+            "y": -0.9925000071525574,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": 1.440000057220459,
+            "y": -1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "eca4caf5e01ab5d911897f53bdea29670bbb324c407b421c5bcf588dab819fc8"
+      },
+      {
+        "object": "RightWheel3",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.3578999936580658,
+            "y": -1.4458999633789062,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": 0.9420999884605408,
+            "y": -0.9925000071525574,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": 0.6499999761581421,
+            "y": -1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "007edfd7ce96355a346727c100f0356c763d6fda3d7f874f1d70e1c5dea71e20"
+      },
+      {
+        "object": "RightWheel4",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.6021000146865845,
+            "y": -1.4458999633789062,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": -0.017899999395012856,
+            "y": -0.9925000071525574,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": -0.3100000023841858,
+            "y": -1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "9d1979f1b685965d31ca93591ac17e32fb0184d5d2c520b240fde6843c418dad"
+      },
+      {
+        "object": "RightWheel5",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.3521000146865845,
+            "y": -1.4458999633789062,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": -0.7678999900817871,
+            "y": -0.9925000071525574,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": -1.059999942779541,
+            "y": -1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "b567d7185e602faab21ef1eb467b3c53759abd9d9c1aeeda65597189e47b8999"
+      },
+      {
+        "object": "RightWheel6",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.102099895477295,
+            "y": -1.4458999633789062,
+            "z": 0.03999999910593033
+          },
+          "maximum": {
+            "x": -1.517899990081787,
+            "y": -0.9925000071525574,
+            "z": 0.6241999864578247
+          },
+          "center": {
+            "x": -1.809999942779541,
+            "y": -1.2192000150680542,
+            "z": 0.3321000039577484
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "1dc24175429fad304921167fc26d84b243d35ad33219682b69ada6555303ed84"
+      },
+      {
+        "object": "RoofHatch",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.7300000190734863,
+            "y": -0.6000000238418579,
+            "z": 1.8350000381469727
+          },
+          "maximum": {
+            "x": -2.119999885559082,
+            "y": 0.6000000238418579,
+            "z": 1.899999976158142
+          },
+          "center": {
+            "x": -2.424999952316284,
+            "y": 0,
+            "z": 1.8675000667572021
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "b51c07055adcd0ff81716bec0155398410fc26dedd209f4db06cdc44b7216759"
+      },
+      {
+        "object": "TowLauncher",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.649999976158142,
+            "y": 0.6499999761581421,
+            "z": 2.049999952316284
+          },
+          "maximum": {
+            "x": 0.25,
+            "y": 1.3899999856948853,
+            "z": 2.5999999046325684
+          },
+          "center": {
+            "x": -0.699999988079071,
+            "y": 1.0199999809265137,
+            "z": 2.3249998092651367
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "40db64bc2ba439bd454cbb6ed4f9696009a4fe19e06d6bc979e8f0038ec23f59"
+      },
+      {
+        "object": "Turret",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.7999999523162842,
+            "y": -1.1200000047683716,
+            "z": 1.8200000524520874
+          },
+          "maximum": {
+            "x": 0.8500000238418579,
+            "y": 0.9200000166893005,
+            "z": 2.6500000953674316
+          },
+          "center": {
+            "x": -0.47499996423721313,
+            "y": -0.09999999403953552,
+            "z": 2.2350001335144043
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "de84d0ac9c45746ae526603057af61dbb8013bb0ecb5ccb9e3a576d027f1ed61"
+      },
+      {
+        "object": "TurretTop",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.190000057220459,
+            "y": -0.7900000214576721,
+            "z": 2.619999885559082
+          },
+          "maximum": {
+            "x": -0.048500001430511475,
+            "y": 0.6399999856948853,
+            "z": 3.027679920196533
+          },
+          "center": {
+            "x": -0.6192500591278076,
+            "y": -0.07500001788139343,
+            "z": 2.8238399028778076
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "111e1f146ad357aef2013d4b5cc70e555c3416351f5ed29f3ff8258b3f53df1a"
+      }
+    ],
+    "datums": [
+      {
+        "id": "ground-center",
+        "selector": {
+          "type": "object-origin",
+          "object": "Hull"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "track-ground",
+        "selector": {
+          "type": "object-bound",
+          "object": "LeftTrack",
+          "axis": "Z",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": 0.06999993324279785,
+          "y": 1.2192000150680542,
+          "z": 0
+        }
+      }
+    ],
+    "ratios": [],
+    "clearances": [],
+    "articulationSamples": [],
+    "includedObjects": [
+      "DriverHatch",
+      "FrontGrille",
+      "GunBarrel",
+      "Hull",
+      "LeftArmor",
+      "LeftDriveSprocket",
+      "LeftRearIdler",
+      "LeftTrack",
+      "LeftWheel1",
+      "LeftWheel2",
+      "LeftWheel3",
+      "LeftWheel4",
+      "LeftWheel5",
+      "LeftWheel6",
+      "RearDoor",
+      "RearPortLeft",
+      "RearPortRight",
+      "RearRamp",
+      "RightArmor",
+      "RightDriveSprocket",
+      "RightRearIdler",
+      "RightTrack",
+      "RightWheel1",
+      "RightWheel2",
+      "RightWheel3",
+      "RightWheel4",
+      "RightWheel5",
+      "RightWheel6",
+      "RoofHatch",
+      "TowLauncher",
+      "Turret",
+      "TurretTop"
+    ],
+    "excludedObjects": [],
+    "visibleGeometryObjects": [
+      "DriverHatch",
+      "FrontGrille",
+      "GunBarrel",
+      "Hull",
+      "LeftArmor",
+      "LeftDriveSprocket",
+      "LeftRearIdler",
+      "LeftTrack",
+      "LeftWheel1",
+      "LeftWheel2",
+      "LeftWheel3",
+      "LeftWheel4",
+      "LeftWheel5",
+      "LeftWheel6",
+      "RearDoor",
+      "RearPortLeft",
+      "RearPortRight",
+      "RearRamp",
+      "RightArmor",
+      "RightDriveSprocket",
+      "RightRearIdler",
+      "RightTrack",
+      "RightWheel1",
+      "RightWheel2",
+      "RightWheel3",
+      "RightWheel4",
+      "RightWheel5",
+      "RightWheel6",
+      "RoofHatch",
+      "TowLauncher",
+      "Turret",
+      "TurretTop"
+    ],
+    "configuration": "rest",
+    "pose": "rest"
+  },
+  "aggregate": {
+    "passed": true,
+    "complete": true,
+    "reproducible": true,
+    "internallyConsistent": true,
+    "expectedBlockingCriterionCount": 14,
+    "reportedBlockingCriterionCount": 14,
+    "passedBlockingCriterionCount": 14,
+    "blockingFailureCriterionIds": []
+  },
+  "createdAt": "2026-11-03T18:38:30.690Z",
+  "resultHash": "96ae780e73e80220b109d31543ab1b1d14a1845411c93ef164062606794a9208",
+  "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/b7e0596b-db4a-4d27-9993-594adddb0689/main/inspection/revision-4/asset-dimension-validation-96ae780e73e80220b109d31543ab1b1d14a1845411c93ef164062606794a9208.json"
+}

@@ -1,0 +1,470 @@
+{
+  "schemaVersion": "independent-form-review@1",
+  "reviewer": "/root/bradley_review",
+  "stage": "primary-secondary-review",
+  "revision": 4,
+  "approval": false,
+  "disposition": {
+    "staticGeometry": "No unresolved stage-blocking primary-form or static assembled-fit regression observed.",
+    "modelQuality": "go recommendation for declared primary-secondary review use only",
+    "artStyleConsistency": "no-go: score75 is below required80",
+    "combined": "no-go under unchanged canonical rubric thresholds",
+    "exception": "The r3 blockout-only human style exception does not apply to r4."
+  },
+  "pins": {
+    "checkpoint": {
+      "checkpointId": "7e170cf1-3939-44cc-be0c-6f3bf99678d8",
+      "checkpointHash": "07c674a5379db75073842ec9bfe0dcfe41797a533290f2f306bf43a00ff9170e"
+    },
+    "glbPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b7e0596b-db4a-4d27-9993-594adddb0689/review-glb-diagnostics/review-glb-subject-axes-v2/65757361156b5dc4610831b44329cbf9fc7628bfe950f16205e8d75304057c0a/review.glb",
+    "glbSha256": "2e03ef1fd1e987d055fea12b9bca2d05fd9cae1a832f3e5c05720b29a27a1ee4",
+    "evidencePath": "evidence-r4.json",
+    "evidenceSha256": "e41293094a62dfae35df5973b83da5127fec99ce64683d675a951a19aed3c0dc",
+    "diagnosticManifest": "diagnostic-r4-lit/manifest.json",
+    "diagnosticManifestSha256": "a90fcf8e449073caf7593c8d52c0c1c73dd4a44c291d00c81ec651a363af648e",
+    "canonicalContactSheetSha256": "b8943e0fa3e1a37065589c16cbba0062fe40d8786b01c59772cfb46f190c4f08",
+    "comparisonSheetSha256": "adae87b91a4c0d4f52377ac88f32df7ad61a49718f55dd240fc7cac724e46d4c",
+    "reviewedOperationsSha256": "1a7cbe99ed8e165deec79847b62b6d5f8e5697aa0e23a50415ce4675e0546644"
+  },
+  "evidenceInspection": {
+    "wholeFormFirst": "Inspected the current nine-view canonical sheet and common-scale comparison before numerical export verification.",
+    "visual": [
+      "Nine-view canonical contact sheet",
+      "Canonical left and front-left at1024px",
+      "All nine Bradley lit native256 views",
+      "All eight Bradley map256 directions on project-comparison sheet",
+      "Bradley front-left and left lit512 views",
+      "Direct r3/r4 top256 and map-1-256 comparison",
+      "Approved Abrams common-scale comparison sheet"
+    ],
+    "hashVerification": {
+      "glb": true,
+      "canonicalNine": true,
+      "all68DiagnosticFrames": true
+    },
+    "referenceBasis": "The Army side/front and front-left/right-rear isometric references and attributable period source03 underpin the prior whole-form and current recipe audit. Source09 supports only the vertical stowed launcher opening arrangement, excluding its later sensors. Reference exact pins and uncertainty are retained in preconstruction-review-r4.json and independent-review-r3.json."
+  },
+  "independentExportAudit": {
+    "subjectFrame": "+X forward,+Y physical left,+Z up; converted GLB coordinates to source frame as[-Z,-X,Y]",
+    "modifiedGeometry": [
+      {
+        "name": "GunBarrel",
+        "maxRecipeToExportDistance": 1.4529394771158682e-7,
+        "maxExportToRecipeDistance": 1.4529394771158682e-7,
+        "triangles": 316,
+        "minArea": 0.00005639583105221391,
+        "minNormalDot": 0.9999999494492728,
+        "negativeNormals": 0,
+        "seamTriangles": 0
+      },
+      {
+        "name": "TowLauncher",
+        "maxRecipeToExportDistance": 1.1872857868267769e-7,
+        "maxExportToRecipeDistance": 1.1872857868267769e-7,
+        "triangles": 400,
+        "minArea": 0.00001492433775813803,
+        "minNormalDot": 0.9999999496174828,
+        "negativeNormals": 0,
+        "seamTriangles": 0
+      },
+      {
+        "name": "TurretTop",
+        "maxRecipeToExportDistance": 1.280875942454653e-7,
+        "maxExportToRecipeDistance": 1.280875942454653e-7,
+        "triangles": 528,
+        "minArea": 0.000029999823567550266,
+        "minNormalDot": 0.9999999496219784,
+        "negativeNormals": 0,
+        "seamTriangles": 0
+      },
+      {
+        "name": "FrontGrille",
+        "maxRecipeToExportDistance": 6.211979529791733e-8,
+        "maxExportToRecipeDistance": 6.211979529791733e-8,
+        "triangles": 120,
+        "minArea": 0.0005749998420476743,
+        "minNormalDot": 1,
+        "negativeNormals": 0,
+        "seamTriangles": 0
+      },
+      {
+        "name": "DriverHatch",
+        "maxRecipeToExportDistance": 7.084422921475854e-8,
+        "maxExportToRecipeDistance": 7.084422921475854e-8,
+        "triangles": 96,
+        "minArea": 0.00008999994754788077,
+        "minNormalDot": 1,
+        "negativeNormals": 0,
+        "seamTriangles": 0
+      },
+      {
+        "name": "RoofHatch",
+        "maxRecipeToExportDistance": 1.229648301147071e-7,
+        "maxExportToRecipeDistance": 1.229648301147071e-7,
+        "triangles": 48,
+        "minArea": 0.0009999980926522767,
+        "minNormalDot": 1,
+        "negativeNormals": 0,
+        "seamTriangles": 0
+      },
+      {
+        "name": "LeftArmor",
+        "maxRecipeToExportDistance": 1.3149491676802903e-7,
+        "maxExportToRecipeDistance": 1.3149491676802903e-7,
+        "triangles": 1184,
+        "minArea": 9.417533419764368e-10,
+        "minNormalDot": 0.622310221195221,
+        "negativeNormals": 0,
+        "seamTriangles": 54
+      },
+      {
+        "name": "RightArmor",
+        "maxRecipeToExportDistance": 1.3149491676802903e-7,
+        "maxExportToRecipeDistance": 1.3149491676802903e-7,
+        "triangles": 1184,
+        "minArea": 9.417533419764368e-10,
+        "minNormalDot": 0.622310221195221,
+        "negativeNormals": 0,
+        "seamTriangles": 54
+      }
+    ],
+    "retainedMeshes": [
+      {
+        "name": "Hull",
+        "identical": true
+      },
+      {
+        "name": "LeftDriveSprocket",
+        "identical": true
+      },
+      {
+        "name": "LeftRearIdler",
+        "identical": true
+      },
+      {
+        "name": "LeftTrack",
+        "identical": true
+      },
+      {
+        "name": "LeftWheel1",
+        "identical": true
+      },
+      {
+        "name": "LeftWheel2",
+        "identical": true
+      },
+      {
+        "name": "LeftWheel3",
+        "identical": true
+      },
+      {
+        "name": "LeftWheel4",
+        "identical": true
+      },
+      {
+        "name": "LeftWheel5",
+        "identical": true
+      },
+      {
+        "name": "LeftWheel6",
+        "identical": true
+      },
+      {
+        "name": "RearDoor",
+        "identical": true
+      },
+      {
+        "name": "RearPortLeft",
+        "identical": true
+      },
+      {
+        "name": "RearPortRight",
+        "identical": true
+      },
+      {
+        "name": "RearRamp",
+        "identical": true
+      },
+      {
+        "name": "RightDriveSprocket",
+        "identical": true
+      },
+      {
+        "name": "RightRearIdler",
+        "identical": true
+      },
+      {
+        "name": "RightTrack",
+        "identical": true
+      },
+      {
+        "name": "RightWheel1",
+        "identical": true
+      },
+      {
+        "name": "RightWheel2",
+        "identical": true
+      },
+      {
+        "name": "RightWheel3",
+        "identical": true
+      },
+      {
+        "name": "RightWheel4",
+        "identical": true
+      },
+      {
+        "name": "RightWheel5",
+        "identical": true
+      },
+      {
+        "name": "RightWheel6",
+        "identical": true
+      },
+      {
+        "name": "Turret",
+        "identical": true
+      }
+    ],
+    "all24RetainedMeshPositionsNormalsIndicesIdentical": true,
+    "totalTriangles": 5420,
+    "previousTriangles": 1860,
+    "addedTriangles": 3560,
+    "materials": 4,
+    "logicalObjects": 32,
+    "staticRelationships": [
+      "Exact r3 hull and running gear remain unchanged.",
+      "Armor inner profile retains previous114.1mm belt clearance;9mm outer recess retains minimum54.7mm wall.",
+      "Driver hatch base follows actual glacis with1mm inset.",
+      "Roof periscope footprints lie within hatch supports; lens rear faces overlap housings0.5mm.",
+      "Sight housing seats into turret; ring/mantlet support is unchanged.",
+      "Grille ribs overlap fitted base; hinges overlap cargo hatch.",
+      "Round barrel retains axis and muzzle endpoint and overlaps mantlet."
+    ]
+  },
+  "seamAssessment": {
+    "nonplanarRecipeQuadsPerSkirt": 12,
+    "maxRecipePlaneDeviationMeters": 0.002800475429704,
+    "exportedTrianglesPerSkirt": 1184,
+    "minExportedTriangleAreaSquareMeters": 9.417533419764368e-10,
+    "minTriangleNormalDotVertexNormal": 0.622310221195221,
+    "negativeNormalDots": 0,
+    "zeroAreaTriangles": 0,
+    "observation": "Export triangulates the closed shell without an opening or reversed face. The tiny warped junctions retain polygon normals differing up to approximately51.5degrees from individual triangle normals. At canonical1024 front-left the seam produces fine dotted highlight aliasing; no broad shading, silhouette or fit defect is visible at256/512.",
+    "priority": "Finishing cleanup, not a blocking primary-secondary form regression.",
+    "acceptance": "Before final source delivery, explicitly triangulate the seam junctions and recalculate appropriate normals, remove numerical slivers, then recheck close lighting and map-size readability."
+  },
+  "visualBenefitAndCost": {
+    "gains": "Fore-aft grille slots clearly replace the former dark slab at256px. Hatch rims/periscope silhouettes and front-facing sight/launcher openings explain function. Barrel reads as cylindrical in close views while retaining the approved small-scale silhouette.",
+    "cost": "Triangle count grows1860→5420 (+3560; about2.91× total). Both skirts account for2368 triangles, about43.7% of the new model, for subtle map-scale seam benefit.",
+    "recommendation": "Retain readable functional forms; simplify or bake the skirt seam topology in later LOD/runtime deliveries. Do not infer performance from this static review.",
+    "regressions": "No new primary silhouette, overall proportion, wheel/track fit or support regression observed."
+  },
+  "scores": {
+    "modelQuality": {
+      "rubric": "model-quality@1.0.0",
+      "anchorScale": "0broken,1major-revision,2serviceable,3production-ready for declared use,4reference-quality benchmark",
+      "categories": [
+        {
+          "id": "identity-recognition",
+          "score": 3,
+          "reason": "The six road wheels, tall armored infantry hull, steep glacis, short cannon turret and physical-left stowed twin launcher read as the intended Bradley at 256 px across front/side/map views. Exact variant recognition still relies partly on reference attribution; this is not a blind nearest-neighbor recognition test.",
+          "evidenceObservation": "The six road wheels, tall armored infantry hull, steep glacis, short cannon turret and physical-left stowed twin launcher read as the intended Bradley at 256 px across front/side/map views. Exact variant recognition still relies partly on reference attribution; this is not a blind nearest-neighbor recognition test."
+        },
+        {
+          "id": "proportion-mass",
+          "score": 3,
+          "reason": "Approved r3 stance and primary masses are preserved exactly in the retained mesh exports. The new barrel and optics remain subordinate. Contact length retains the disclosed +1.18% approximation, and small fixture dimensions are reconstructed.",
+          "evidenceObservation": "Approved r3 stance and primary masses are preserved exactly in the retained mesh exports. The new barrel and optics remain subordinate. Contact length retains the disclosed +1.18% approximation, and small fixture dimensions are reconstructed."
+        },
+        {
+          "id": "silhouette",
+          "score": 3,
+          "reason": "The short gun, raised turret roof group, stowed launcher and hull/track contours remain distinct across nine canonical views and eight map directions. No primary contour regression is visible.",
+          "evidenceObservation": "The short gun, raised turret roof group, stowed launcher and hull/track contours remain distinct across nine canonical views and eight map directions. No primary contour regression is visible."
+        },
+        {
+          "id": "form-hierarchy",
+          "score": 3,
+          "reason": "Grille, hatch rims and twin launcher openings explain function without competing with the primary hull and turret. Lower skirt seams are restrained. Upper applique divisions, running-gear face details and additional functional fittings remain finishing opportunities.",
+          "evidenceObservation": "Grille, hatch rims and twin launcher openings explain function without competing with the primary hull and turret. Lower skirt seams are restrained. Upper applique divisions, running-gear face details and additional functional fittings remain finishing opportunities."
+        },
+        {
+          "id": "mechanical-coherence",
+          "score": 3,
+          "reason": "Exported replacements match the audited recipe; driver hatch, optics, hinges, grille and gun are supported. The armor inner surface and unchanged running gear preserve the repaired static clearance. This assessment covers the static pose; pivots, deployment and motion sweeps remain unqualified.",
+          "evidenceObservation": "Exported replacements match the audited recipe; driver hatch, optics, hinges, grille and gun are supported. The armor inner surface and unchanged running gear preserve the repaired static clearance. This assessment covers the static pose; pivots, deployment and motion sweeps remain unqualified."
+        },
+        {
+          "id": "surface-material",
+          "score": 3,
+          "reason": "Paint, dark running gear, shallow grille gaps and sight/periscope lenses are legible under alternate light. Materials remain deliberately simple. Tiny skirt seam junctions show limited fine highlight aliasing and need final triangulation/normal cleanup; no broad shading failure is visible.",
+          "evidenceObservation": "Paint, dark running gear, shallow grille gaps and sight/periscope lenses are legible under alternate light. Materials remain deliberately simple. Tiny skirt seam junctions show limited fine highlight aliasing and need final triangulation/normal cleanup; no broad shading failure is visible."
+        },
+        {
+          "id": "viewpoint-robustness",
+          "score": 3,
+          "reason": "Front, rear, both sides, both rear/front obliques, top and eight map headings retain complete readable forms. Rear and side are less informative than forward obliques, but not broken or dependent on hidden intersections.",
+          "evidenceObservation": "Front, rear, both sides, both rear/front obliques, top and eight map headings retain complete readable forms. Rear and side are less informative than forward obliques, but not broken or dependent on hidden intersections."
+        },
+        {
+          "id": "production-integrity",
+          "score": 3,
+          "reason": "Current exact checkpoint, GLB, canonical renders, diagnostic hashes, dimensions and isolation evidence are available. Independent geometry comparison confirms all eight replacements and 24 retained meshes. This is ready for further static source finishing, not source promotion, motion or game delivery.",
+          "evidenceObservation": "Current exact checkpoint, GLB, canonical renders, diagnostic hashes, dimensions and isolation evidence are available. Independent geometry comparison confirms all eight replacements and 24 retained meshes. This is ready for further static source finishing, not source promotion, motion or game delivery."
+        }
+      ],
+      "weightedScore": 75,
+      "threshold": 75,
+      "minimumCoreScore": 3,
+      "recommendation": "go for declared stage"
+    },
+    "artStyleConsistency": {
+      "rubric": "art-style-consistency@1.0.0",
+      "profile": "grounded-tactical-miniature-visual@1.0.0",
+      "categories": [
+        {
+          "id": "abstraction-detail",
+          "score": 3,
+          "reason": "Functional additions remain sparse and read at native 256 px. The grille and launcher gain more visual benefit than the dense skirt topology. The style is coherent at this declared stage, but still too coarse and unevenly resolved to become a future benchmark.",
+          "evidenceObservation": "Functional additions remain sparse and read at native 256 px. The grille and launcher gain more visual benefit than the dense skirt topology. The style is coherent at this declared stage, but still too coarse and unevenly resolved to become a future benchmark."
+        },
+        {
+          "id": "shape-edge",
+          "score": 3,
+          "reason": "Round barrel and hatch rims now contrast deliberately with planar armor and turret. Edge treatment is mostly sharp and coarse; the skirt seam junction normal deviation and simple sight/launcher blocks prevent reference-quality scoring.",
+          "evidenceObservation": "Round barrel and hatch rims now contrast deliberately with planar armor and turret. Edge treatment is mostly sharp and coarse; the skirt seam junction normal deviation and simple sight/launcher blocks prevent reference-quality scoring."
+        },
+        {
+          "id": "proportional-stylization",
+          "score": 3,
+          "reason": "Small optics and openings use modest readable exaggeration within the approved primary proportions; no new caricature or major scale conflict is visible.",
+          "evidenceObservation": "Small optics and openings use modest readable exaggeration within the approved primary proportions; no new caricature or major scale conflict is visible."
+        },
+        {
+          "id": "value-hierarchy",
+          "score": 3,
+          "reason": "Dark undercarriage, sand body and sparse dark apertures organize the asset clearly. The grille is stronger at 256 px than in r3, while broad turret/upper hull remain dependent on light and shadow for separation.",
+          "evidenceObservation": "Dark undercarriage, sand body and sparse dark apertures organize the asset clearly. The grille is stronger at 256 px than in r3, while broad turret/upper hull remain dependent on light and shadow for separation."
+        },
+        {
+          "id": "palette-behavior",
+          "score": 3,
+          "reason": "Restrained sand service paint and dark functional recesses fit the profile and the unmarked request. Comparison with Abrams supports compatibility, but is not alone proof of the style.",
+          "evidenceObservation": "Restrained sand service paint and dark functional recesses fit the profile and the unmarked request. Comparison with Abrams supports compatibility, but is not alone proof of the style."
+        },
+        {
+          "id": "material-vocabulary",
+          "score": 3,
+          "reason": "Predominantly matte paint, dark running gear and controlled dark optics fit the profile. Glass/metal differentiation is coarse; no noisy textures or uncontrolled gloss appear.",
+          "evidenceObservation": "Predominantly matte paint, dark running gear and controlled dark optics fit the profile. Glass/metal differentiation is coarse; no noisy textures or uncontrolled gloss appear."
+        },
+        {
+          "id": "markings-wear",
+          "score": 3,
+          "reason": "Unmarked clean configuration is consistent with the brief. No fictional insignia or excessive wear was introduced. Appropriate restraint is a score of3, not evidence of exceptional benchmark execution.",
+          "evidenceObservation": "Unmarked clean configuration is consistent with the brief. No fictional insignia or excessive wear was introduced. Appropriate restraint is a score of3, not evidence of exceptional benchmark execution."
+        },
+        {
+          "id": "presentation-behavior",
+          "score": 3,
+          "reason": "Required canonical views are complete and current; common-world-scale diagnostic views provide neutral comparison and alternate light. The bound visual-only profile excludes camera/runtime requirements; the evidence presentation does not itself justify a4.",
+          "evidenceObservation": "Required canonical views are complete and current; common-world-scale diagnostic views provide neutral comparison and alternate light. The bound visual-only profile excludes camera/runtime requirements; the evidence presentation does not itself justify a4."
+        }
+      ],
+      "weightedScore": 75,
+      "threshold": 80,
+      "minimumCoreScore": 3,
+      "recommendation": "no-go",
+      "noScoreInflation": "Useful detail improvement and technical validity do not establish exceptional execution. No category has sufficient evidence for4; absence of marks is not a benchmark-quality category by itself."
+    }
+  },
+  "adversarialCoreChallenges": [
+    {
+      "rubric": "model-quality@1.0.0",
+      "category": "identity-recognition",
+      "strongestChallenge": "Does the tank-like simplified hull/turret become a generic light tank when labels and era information are removed?",
+      "stageDisposition": "Broad Bradley identity persists through short gun, six wheels, tall troop hull and asymmetric twin launcher; exact M2A2-era specificity is supported by references rather than a blind recognition trial. Score3."
+    },
+    {
+      "rubric": "model-quality@1.0.0",
+      "category": "silhouette",
+      "strongestChallenge": "Do optics, launcher or barrel merge or alter approved primary contours?",
+      "stageDisposition": "Across the required directions the major appendages remain distinct; new detail is subordinate. Score3."
+    },
+    {
+      "rubric": "model-quality@1.0.0",
+      "category": "mechanical-coherence",
+      "strongestChallenge": "Do roof fixtures float, wheel bands collide, or recessed skirts remove their supporting thickness?",
+      "stageDisposition": "Actual export matches the audited seated recipe, preserves r3 track/hull and inner skirt geometry, and retains wall thickness. Motion remains untested. Score3 for static stage."
+    },
+    {
+      "rubric": "model-quality@1.0.0",
+      "category": "production-integrity",
+      "strongestChallenge": "Could stale imagery, changed siblings or unbound geometry hide a regression?",
+      "stageDisposition": "Exact GLB and77 image hashes verified; eight replacements match recipe within1.46e-7m and24 sibling exported geometries are identical. Current producer dimensions/isolation supplement these independent checks. Score3."
+    },
+    {
+      "rubric": "art-style-consistency@1.0.0",
+      "category": "abstraction-detail",
+      "strongestChallenge": "Do thousands of extra skirt triangles create useful map-scale function or merely invisible density?",
+      "stageDisposition": "Grille/optics/openings have clear benefit; skirt seams are subtle and require LOD reduction. No visual noise explosion, but no benchmark-quality4. Score3."
+    },
+    {
+      "rubric": "art-style-consistency@1.0.0",
+      "category": "shape-edge",
+      "strongestChallenge": "Does the mixture of round fittings and coarse boxes establish consistent finished edge grammar?",
+      "stageDisposition": "Coherent for primary-secondary stage but still coarse, with seam-normal cleanup and restrained bevel finishing pending. Score3."
+    },
+    {
+      "rubric": "art-style-consistency@1.0.0",
+      "category": "value-hierarchy",
+      "strongestChallenge": "Does the added grille become a dominant striped decoration while the turret remains unreadable?",
+      "stageDisposition": "At256 the grille is contained and functional; three-band body/gear/recess organization survives. Turret separation still benefits from directional light. Score3."
+    },
+    {
+      "rubric": "art-style-consistency@1.0.0",
+      "category": "presentation-behavior",
+      "strongestChallenge": "Can one favorable lighting arrangement conceal weak views or mismatched scale?",
+      "stageDisposition": "Nine canonical views and the lit eight-direction map set reveal the complete asset; common-scale Abrams comparison shows compatibility and lower current detail density. No clipped view or hero-angle-only failure found. Score3."
+    }
+  ],
+  "prioritizedRemainingWork": [
+    {
+      "priority": 1,
+      "type": "rubric disposition",
+      "item": "Style75 is below80. Preserve no-go and do not inherit r3's exception. Further finishing must be assessed on new evidence; no promised category4."
+    },
+    {
+      "priority": 2,
+      "type": "source finishing",
+      "item": "Clean up tiny skirt junction triangulation/normals and numerical slivers. Keep exact inner clearance and outer envelope."
+    },
+    {
+      "priority": 3,
+      "type": "secondary finishing",
+      "item": "Consider reference-supported upper applique separations, restrained edge treatment and selected running-gear or front/rear functional fixtures according to actual map-scale benefit; do not add uniform microdetail."
+    },
+    {
+      "priority": 4,
+      "type": "later qualification",
+      "item": "Motion pivots/sweeps, damage treatments, source approval, asset budgets/LODs/batching and game integration remain separate unfinished tasks."
+    }
+  ],
+  "uncertainty": [
+    "Small fixture dimensions and seam placement are reconstructed, not measured.",
+    "Manual contact length mismatch of+1.18% is preserved and disclosed.",
+    "No blind identity trial or nearest-variant lineup was performed.",
+    "Static geometry review cannot establish damage, shooting, movement or runtime behavior.",
+    "Human approval of r4 is absent."
+  ],
+  "checkpoint": {
+    "checkpointId": "7e170cf1-3939-44cc-be0c-6f3bf99678d8",
+    "checkpointHash": "07c674a5379db75073842ec9bfe0dcfe41797a533290f2f306bf43a00ff9170e"
+  },
+  "primarySecondaryConsolidationRecommendation": {
+    "technicalAndForm": "The complete r4 primary-secondary candidate is coherent and suitable for consolidated human review at this stage. No unresolved stage-blocking static geometry objection remains.",
+    "formalDisposition": "Preserve canonical style75/80 no-go; do not call the stage approved or bypass the evaluator. The model-quality recommendation is75/75 for declared stage only.",
+    "scope": "This is not finished-source readiness. Exact r4 human approval is absent, and r3 style exception does not transfer."
+  }
+}
