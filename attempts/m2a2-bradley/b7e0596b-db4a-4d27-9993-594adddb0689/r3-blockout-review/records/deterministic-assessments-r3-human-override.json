@@ -1,0 +1,1769 @@
+{
+  "schemaVersion": "1.0.0",
+  "jobId": "b7e0596b-db4a-4d27-9993-594adddb0689",
+  "revision": 3,
+  "checkpoint": {
+    "checkpointId": "55636a35-b747-4ad2-9398-c02cbdd21757",
+    "checkpointHash": "2b5e44464b162172f92ad5b7550009e8d3fdde0651205517689820f4a93da138"
+  },
+  "scope": "Primary-form and static-fit blockout only. Scores describe readiness of the declared primary-form use, not finished-source production. No category has reference-quality evidence. No human approval, motion qualification or integration.",
+  "verifiedArtifactCount": 82,
+  "results": [
+    {
+      "assessment": {
+        "schemaVersion": "2.0.0",
+        "assessmentId": "m2a2-bradley-model-quality-r3-blockout",
+        "rubric": {
+          "rubricId": "model-quality",
+          "version": "1.0.0"
+        },
+        "subject": {
+          "assetId": "m2a2-bradley-modular-blockout",
+          "revisionId": "r3-blockout",
+          "revision": 3
+        },
+        "evidenceSet": {
+          "revision": 3,
+          "checkpointSha256": "2b5e44464b162172f92ad5b7550009e8d3fdde0651205517689820f4a93da138",
+          "renderSetSha256": "49604c04915187401e46b5bfcc958422688e2ff2bea026c2597c9dceedd50547",
+          "requiredViews": [
+            {
+              "viewId": "front",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+            },
+            {
+              "viewId": "front-right",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+            },
+            {
+              "viewId": "right",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+            },
+            {
+              "viewId": "rear-right",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+            },
+            {
+              "viewId": "rear",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+            },
+            {
+              "viewId": "rear-left",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+            },
+            {
+              "viewId": "left",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+            },
+            {
+              "viewId": "front-left",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+            },
+            {
+              "viewId": "top",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+            }
+          ],
+          "validation": {
+            "reportId": "e47aedfa-322e-4f3f-bf51-7bf68a76da35",
+            "revision": 3,
+            "checkpointSha256": "2b5e44464b162172f92ad5b7550009e8d3fdde0651205517689820f4a93da138",
+            "passed": true,
+            "current": true,
+            "deterministic": true
+          }
+        },
+        "scores": [
+          {
+            "categoryId": "identity-recognition",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "The tall troop hull, six-wheel stance, short central gun and physical-left launcher establish the declared Bradley primary-form allocation. Lit 256px complementary views preserve these cues versus the long-gun lower Abrams baseline. Exact M2A2-versus-M2A1 finishing discrimination is not certified.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ],
+            "recognition": {
+              "thumbnailPixels": 256,
+              "nearestNeighbors": [
+                "M1A1 Abrams",
+                "M113",
+                "BMP family",
+                "earlier M2 Bradley variants"
+              ],
+              "distinguishers": [
+                "Short gun and compact turret over tall troop hull versus long-gun Abrams",
+                "Turret and physical-left launcher versus turretless M113",
+                "Tall slab-sided troop hull versus low wedge BMP",
+                "Coarse A2 armor envelope retained; fine variant distinction deferred and not certified"
+              ]
+            }
+          },
+          {
+            "categoryId": "proportion-mass",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Tall troop body and compact turret retain the reference mass hierarchy. Overall envelope criteria pass. Reconstructed end-wheel stations give 3.957879m ground contact versus the manual 3.9116m (+1.18%); this is disclosed uncertainty, not an exact dimension match.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "silhouette",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Front obliques show a continuous full-width nose after r3; side and top views separate the short gun, polygonal turret and launcher. No identified primary contour discontinuity remains.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "form-hierarchy",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Glacis and troop compartment dominate; turret, launcher, crew-roof masses, rear cargo hatch and access ramp explain the coarse functional allocation without competing small details.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "mechanical-coherence",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Side views show road and terminal wheels within the belt cavity; ramp, hatch and launcher have supports. Actual GLB checks confirm zero listed hull/armor/belt crossings and 114.1mm skirt clearance at rest. Motion clearance remains untested.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "surface-material",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Painted body and darker wheels, belts and equipment remain separable in lit views. Four simple materials support primary-form assessment; this does not certify final metal, glass or rubber finishing.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "viewpoint-robustness",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "All nine canonical views are complete and unclipped. Flat canonical top has weak roof separation; unchanged-geometry lit top and eight map views recover crew-roof, sight and launcher allocation. Front/rear are least variant-specific.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "production-integrity",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Current r3 source, deterministic render, generic and 14-criterion dimension validation, 32 source-isolation probes and 32-node diagnostic GLB are bound by hashes. Delivered part packages, rig and runtime exports remain outside this blockout.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          }
+        ],
+        "gates": [
+          {
+            "gateId": "identity-authority",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Original typed geometry for the requested clean M2A2 Bradley blockout, based on the documented Army and period reference packet; no copied third-party mesh.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Original typed geometry for the requested clean M2A2 Bradley blockout, based on the documented Army and period reference packet; no copied third-party mesh.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "required-views",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "All nine canonical views and 68 supplemental frames rehashed; all are complete and current.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "All nine canonical views and 68 supplemental frames rehashed; all are complete and current.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "structural-plausibility",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Independent actual GLB checks close the identified static wheel/belt, skirt/belt, hull/belt and attachment defects. No motion claim.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Independent actual GLB checks close the identified static wheel/belt, skirt/belt, hull/belt and attachment defects. No motion claim.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "transform-grounding",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Current dimension report passes all 14 bound envelope, origin, pivot, axes and grounding criteria; it does not assess every internal relationship.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Current dimension report passes all 14 bound envelope, origin, pivot, axes and grounding criteria; it does not assess every internal relationship.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "deterministic-output",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Current producer production render and validation explicitly report deterministic output.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Current producer production render and validation explicitly report deterministic output.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "current-validation",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Passing validation e47aedfa-322e-4f3f-bf51-7bf68a76da35 binds r3 and the exact checkpoint.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Passing validation e47aedfa-322e-4f3f-bf51-7bf68a76da35 binds r3 and the exact checkpoint.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "budgets",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Current validation reports 1860 triangles, four materials, zero textures, 32 objects and no budget issue. Runtime delivery budgets require later qualification.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Current validation reports 1860 triangles, four materials, zero textures, 32 objects and no budget issue. Runtime delivery budgets require later qualification.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "explained-content",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Component plan and source isolation account for all 32 authored mesh objects; original typed recipes contain no external texture dependencies.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Component plan and source isolation account for all 32 authored mesh objects; original typed recipes contain no external texture dependencies.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "artifact-integrity",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Canonical and supplemental images, both comparison GLBs and exact labeled derivative were independently rehashed during this evaluation.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Canonical and supplemental images, both comparison GLBs and exact labeled derivative were independently rehashed during this evaluation.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "copying-rights",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Original geometry and simple authored materials use attributable Army/period references as observation. No reference image is used as an asset texture.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Original geometry and simple authored materials use attributable Army/period references as observation. No reference image is used as an asset texture.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          }
+        ],
+        "assessedBy": "/root primary blockout assessor",
+        "assessedAt": "2026-11-03T18:23:27.850Z",
+        "adversarialReview": {
+          "reviewedBy": "/root/bradley_review",
+          "reviewedAt": "2026-11-03T18:23:27.850Z",
+          "coreCategoryObjections": [
+            {
+              "categoryId": "identity-recognition",
+              "strongestReasonBelowThree": "Generic IFV confusion and insufficient fine A2 cues at tiny front/rear presentation.",
+              "resolved": true,
+              "resolutionEvidence": [
+                {
+                  "kind": "technical-record",
+                  "recordId": "independent-r3",
+                  "observation": "No unresolved blockout-core objection after complementary256px views show tall troop hull, six-wheel stance, short gun and left launcher; exact variant/finished recognition remains a later requirement.",
+                  "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+                }
+              ]
+            },
+            {
+              "categoryId": "silhouette",
+              "strongestReasonBelowThree": "Nose shoulder cuts or merged turret/launcher masses could undermine identity.",
+              "resolved": true,
+              "resolutionEvidence": [
+                {
+                  "kind": "technical-record",
+                  "recordId": "independent-r3",
+                  "observation": "R3 closes nose cuts; lit plan/oblique evidence distinguishes turret and launcher. No new primary silhouette regression found.",
+                  "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+                }
+              ]
+            },
+            {
+              "categoryId": "mechanical-coherence",
+              "strongestReasonBelowThree": "Hidden skirts could intersect moving bands even if rendered silhouette looks correct.",
+              "resolved": true,
+              "resolutionEvidence": [
+                {
+                  "kind": "technical-record",
+                  "recordId": "independent-r3",
+                  "observation": "Actual GLB clearance and surface-crossing checks close the identified static clashes. Motion qualification explicitly excluded.",
+                  "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+                }
+              ]
+            },
+            {
+              "categoryId": "production-integrity",
+              "strongestReasonBelowThree": "Passing producer checks might conceal stale diagnostics or unsupported source equivalence.",
+              "resolved": true,
+              "resolutionEvidence": [
+                {
+                  "kind": "technical-record",
+                  "recordId": "independent-r3",
+                  "observation": "Current checkpoint/GLB/view hashes and all diagnostic source pins verified. Listed structural checks are current. Remaining formal evaluator/human gates are not represented as completed.",
+                  "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "result": {
+        "schemaVersion": "2.0.0",
+        "weightedTotal": 75,
+        "recommendation": "go",
+        "effectiveDecision": "go",
+        "checks": {
+          "threshold": true,
+          "categoryFloors": true,
+          "coreFloors": true,
+          "hardGates": true,
+          "structuredEvidence": true,
+          "adversarialReview": true
+        },
+        "failures": [],
+        "status": {
+          "technicalValidation": "pass",
+          "visualRecommendation": "go",
+          "humanApproval": "absent"
+        },
+        "overrideApplied": false,
+        "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+      }
+    },
+    {
+      "assessment": {
+        "schemaVersion": "2.0.0",
+        "assessmentId": "m2a2-bradley-art-style-consistency-r3-blockout",
+        "rubric": {
+          "rubricId": "art-style-consistency",
+          "version": "1.0.0"
+        },
+        "subject": {
+          "assetId": "m2a2-bradley-modular-blockout",
+          "revisionId": "r3-blockout",
+          "revision": 3
+        },
+        "styleProfile": {
+          "profileId": "grounded-tactical-miniature-visual",
+          "version": "1.0.0"
+        },
+        "evidenceSet": {
+          "revision": 3,
+          "checkpointSha256": "2b5e44464b162172f92ad5b7550009e8d3fdde0651205517689820f4a93da138",
+          "renderSetSha256": "49604c04915187401e46b5bfcc958422688e2ff2bea026c2597c9dceedd50547",
+          "requiredViews": [
+            {
+              "viewId": "front",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+            },
+            {
+              "viewId": "front-right",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+            },
+            {
+              "viewId": "right",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+            },
+            {
+              "viewId": "rear-right",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+            },
+            {
+              "viewId": "rear",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+            },
+            {
+              "viewId": "rear-left",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+            },
+            {
+              "viewId": "left",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+            },
+            {
+              "viewId": "front-left",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+            },
+            {
+              "viewId": "top",
+              "width": 1024,
+              "height": 1024,
+              "sha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+            }
+          ],
+          "validation": {
+            "reportId": "e47aedfa-322e-4f3f-bf51-7bf68a76da35",
+            "revision": 3,
+            "checkpointSha256": "2b5e44464b162172f92ad5b7550009e8d3fdde0651205517689820f4a93da138",
+            "passed": true,
+            "current": true,
+            "deterministic": true
+          }
+        },
+        "scores": [
+          {
+            "categoryId": "abstraction-detail",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Primary hull, turret, launcher and running-gear forms are legible at 256px. Secondary equipment is represented as coarse functional masses. No micro-detail noise; final detail density has not been evaluated.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "shape-edge",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Tapered polygonal turret, planar glacis and side armor, round wheel and roof masses establish a coherent primary shape grammar. Nose discontinuities are closed. Restrained finishing bevels remain future work.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "proportional-stylization",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Shared-scale Abrams comparison preserves Bradley IFV proportions and shorter gun rather than copying the tank silhouette. No exaggerated caricature is introduced.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "value-hierarchy",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Dark undercarriage anchors lighter desert body and sparse dark equipment. Lit top/oblique views separate the roof masses; canonical flat top alone is insufficient.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "palette-behavior",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Restrained desert service palette remains subordinate to mass and silhouette. Comparison views distinguish Bradley from Abrams through shape rather than a different faction color.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "material-vocabulary",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Simple matte body and dark undercarriage agree with the profile at the primary-form stage. No noisy photographic textures or glossy ornamental materials appear; final material vocabulary is not certified.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "markings-wear",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Clean unmarked blockout carries no invented insignia or distracting wear. This deliberate absence is coherent with the current stage, not reference-quality narrative detailing.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "categoryId": "presentation-behavior",
+            "score": 3,
+            "evidence": [
+              {
+                "kind": "view-observation",
+                "viewId": "front",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "a4b8392f60210ce0a66a0158a92b678a11f9ba16d5a406be113f50b996a81ce7"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-right",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "bc8808995684018aa5c1887b5296b08101b6b94833a86fd199370f6ebeba840b"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "right",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "f6c69d545cf7ced60af47779a313f0344c3afc08804fa9466ceda87619fc8ae0"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-right",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "7f84b7c505fc4371ae00abebcf2ab181fc8d74ec726d604d79375d26924db396"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "6782dac2027c7447d5f8dce0d0a505befcbbba23342fdce2a8645801d1133b61"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "rear-left",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "8681eff65e38865e625a027b4d09d6975d9747dad440291e75dc8443a46d9137"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "left",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "006654958c3c58180ae006371bea1e68fd838a4418112987ef54d44fe218f599"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "front-left",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "c060e26bd295292c948675ac56ef74b93da6aab28827ec4babf2fab35e53be40"
+              },
+              {
+                "kind": "view-observation",
+                "viewId": "top",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "22b7becd554909ffb3e40e5d02db00d2d5cba0046cac86b2d072968ad3441cb9"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Complete canonical views plus common-world-scale lit comparison expose all major faces; no hero-only framing or source mutation is used. The visual-only profile excludes runtime camera and lighting contracts.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          }
+        ],
+        "gates": [
+          {
+            "gateId": "immutable-profile",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Exact grounded-tactical-miniature-visual@1.0.0 YAML loaded; no threshold or profile amendment.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Exact grounded-tactical-miniature-visual@1.0.0 YAML loaded; no threshold or profile amendment.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "required-views",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "All nine canonical views and 68 supplemental frames rehashed; all are complete and current.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "All nine canonical views and 68 supplemental frames rehashed; all are complete and current.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "presentation-contract",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Visual-only profile expressly excludes camera, pivot, scale, lighting, runtime-format, performance and fallback; current complete multiview evidence is retained.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Visual-only profile expressly excludes camera, pivot, scale, lighting, runtime-format, performance and fallback; current complete multiview evidence is retained.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "cross-view-consistency",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "All native/map azimuths retain the restrained paint/dark-running-gear hierarchy, planar body language and recognizable primary allocation.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "All native/map azimuths retain the restrained paint/dark-running-gear hierarchy, planar body language and recognizable primary allocation.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "independent-principles",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Assessment follows profile abstraction, shape and palette principles; common-scale Abrams is context, not a source mesh or literal tracing target.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Assessment follows profile abstraction, shape and palette principles; common-scale Abrams is context, not a source mesh or literal tracing target.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          },
+          {
+            "gateId": "attributable-content",
+            "passed": true,
+            "evidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "current-blockout-r3",
+                "observation": "Original typed geometry and simple materials; clean unmarked condition adds no insignia or unlicensed textures.",
+                "evidenceSha256": "ddb8fc06a4a58c375186b6b900714c60c8e568945e407ac670cb467c3b5254c6"
+              },
+              {
+                "kind": "technical-record",
+                "recordId": "independent-r3",
+                "observation": "Original typed geometry and simple materials; clean unmarked condition adds no insignia or unlicensed textures.",
+                "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+              }
+            ]
+          }
+        ],
+        "assessedBy": "/root primary blockout assessor",
+        "assessedAt": "2026-11-03T18:23:27.855Z",
+        "adversarialReview": {
+          "reviewedBy": "/root/bradley_review",
+          "reviewedAt": "2026-11-03T18:23:27.855Z",
+          "coreCategoryObjections": [
+            {
+              "categoryId": "abstraction-detail",
+              "strongestReasonBelowThree": "Simplification might remove functional primary masses rather than merely omit detail.",
+              "resolved": true,
+              "resolutionEvidence": [
+                {
+                  "kind": "technical-record",
+                  "recordId": "independent-r3",
+                  "observation": "Required coarse turret/launcher/crew-roof/running-gear masses are present; deferred detail is appropriate to blockout.",
+                  "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+                }
+              ]
+            },
+            {
+              "categoryId": "shape-edge",
+              "strongestReasonBelowThree": "Uniform extrusion or accidental discontinuities could conflict with grounded miniature form language.",
+              "resolved": true,
+              "resolutionEvidence": [
+                {
+                  "kind": "technical-record",
+                  "recordId": "independent-r3",
+                  "observation": "Tapered polygonal turret and continuous nose resolve identified defects; refined edge treatment remains deferred.",
+                  "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+                }
+              ]
+            },
+            {
+              "categoryId": "value-hierarchy",
+              "strongestReasonBelowThree": "Painted top faces could merge and lose functional hierarchy.",
+              "resolved": true,
+              "resolutionEvidence": [
+                {
+                  "kind": "technical-record",
+                  "recordId": "independent-r3",
+                  "observation": "Supplemental lit packet reveals required masses without source mutation; canonical flat-view limitation remains disclosed.",
+                  "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+                }
+              ]
+            },
+            {
+              "categoryId": "presentation-behavior",
+              "strongestReasonBelowThree": "Hero framing or different scales could hide weaknesses relative to baseline.",
+              "resolved": true,
+              "resolutionEvidence": [
+                {
+                  "kind": "technical-record",
+                  "recordId": "independent-r3",
+                  "observation": "All native/map azimuths use same worldscale alongside Abrams and remain unclipped. Presentation-neutral profile does not impose an unrelated atlas contract.",
+                  "evidenceSha256": "ac33cadac75ca6595c87defe24a23d1843afaf2b339d5d758f75fc4e8dece293"
+                }
+              ]
+            }
+          ]
+        },
+        "override": {
+          "decision": "go",
+          "requester": "George Le",
+          "rationale": "Explicit acceptance of exact r3 blockout with its disclosed75/80 style-threshold exception, allowing detailing. Canonical no-go and global threshold preserved.",
+          "timestamp": "2026-11-03T18:27:32.715Z"
+        }
+      },
+      "result": {
+        "schemaVersion": "2.0.0",
+        "weightedTotal": 75,
+        "recommendation": "no-go",
+        "effectiveDecision": "go",
+        "checks": {
+          "threshold": false,
+          "categoryFloors": true,
+          "coreFloors": true,
+          "hardGates": true,
+          "structuredEvidence": true,
+          "adversarialReview": true
+        },
+        "failures": [
+          {
+            "kind": "threshold",
+            "id": "weighted-total",
+            "message": "75 is below the 80-point threshold."
+          }
+        ],
+        "status": {
+          "technicalValidation": "pass",
+          "visualRecommendation": "no-go",
+          "humanApproval": "absent"
+        },
+        "overrideApplied": true,
+        "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+      }
+    }
+  ],
+  "combinedVisualRecommendation": "no-go",
+  "humanApproval": "approved-blockout-only",
+  "reviewerThresholdCheck": "Separate reviewer confirms no style category warrants 4; preserve 75/no-go. A human override must name this exact blockout and cannot waive finished-source, motion or integration requirements.",
+  "approval": {
+    "schemaVersion": "1.0.0",
+    "assetId": "m2a2-bradley",
+    "jobId": "b7e0596b-db4a-4d27-9993-594adddb0689",
+    "revision": 3,
+    "checkpointSha256": "2b5e44464b162172f92ad5b7550009e8d3fdde0651205517689820f4a93da138",
+    "gate": "blockout-review",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-03T18:27:32.715Z",
+    "exactUserWords": "Approved",
+    "respondingTo": "Would you like to accept this exact r3 blockout with a blockout-only style-threshold override, allowing detailing to proceed?",
+    "scope": "Primary shape and static fit only",
+    "styleOverride": {
+      "decision": "go",
+      "requester": "George Le",
+      "rationale": "Explicit acceptance of exact r3 blockout with its disclosed75/80 style-threshold exception, allowing detailing. Canonical no-go and global threshold preserved.",
+      "timestamp": "2026-11-03T18:27:32.715Z"
+    },
+    "review": {
+      "path": "bradley-blockout-r3-review.png",
+      "sha256": "224f3b7620637ac17441b6191dc7f935f9ed9623a346bc34a0736d0a9e4aea0a"
+    },
+    "exclusions": [
+      "finished-source approval",
+      "primary-secondary-form approval",
+      "damage/wreck appearance",
+      "animation qualification",
+      "runtime qualification",
+      "integration"
+    ],
+    "version": {
+      "display": "v1.0 blockout only",
+      "version": "1.0.0",
+      "scope": "Approved primary shape and static fit; not a source asset release"
+    }
+  },
+  "canonicalRecommendation": "no-go",
+  "effectiveBlockoutDecision": "go"
+}
