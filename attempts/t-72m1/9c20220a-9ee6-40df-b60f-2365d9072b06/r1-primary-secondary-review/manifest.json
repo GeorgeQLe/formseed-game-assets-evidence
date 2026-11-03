@@ -1,0 +1,61 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "t-72m1",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "9c20220a-9ee6-40df-b60f-2365d9072b06",
+    "revision": 1,
+    "checkpointSha256": "ea60495de6116fbbb3d5ad5a4da66fff74c2e63609c6b9fc908c2b25f7d3529b"
+  },
+  "gate": "primary-secondary-review",
+  "evidence": {
+    "labeledSheet": {
+      "path": "review/approved-starting-pose.png",
+      "sha256": "2592dbf72b080b8ce82a7f902cfda9c82dd6f23b7cfc93313689514fe294e4c1",
+      "bytes": 71545
+    },
+    "files": [
+      {
+        "path": "approval/starting-pose.json",
+        "sha256": "3fabf8085645cecad3a6122a5c417929dfc0291b57ee1addc099d742304b6224",
+        "bytes": 2345
+      },
+      {
+        "path": "rig/input.json",
+        "sha256": "70ece53aa7e6734820a8007a4346e2cc74518aa0dea9aa6f0607db5eecad69df",
+        "bytes": 16938
+      },
+      {
+        "path": "rig/proof-chain.json",
+        "sha256": "a5aa5497439f380b18f455d6ea2b58c962f312735f87efa0f7d40cbe5cbc2b12",
+        "bytes": 406672
+      },
+      {
+        "path": "review/approved-starting-pose.png",
+        "sha256": "2592dbf72b080b8ce82a7f902cfda9c82dd6f23b7cfc93313689514fe294e4c1",
+        "bytes": 71545
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-03T00:49:41.263Z"
+  },
+  "notes": [
+    "Exact user words: Approve this successor starting pose",
+    "Scope is named cookoff-ready pose only. Generic archive category primary-secondary-review records this pose-form decision; no final clip/source-animation approval is conferred."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
