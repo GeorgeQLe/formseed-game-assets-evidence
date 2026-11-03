@@ -1,0 +1,54 @@
+{
+  "format": "t72-cookoff-proof-chain@1",
+  "jobId": "a5cc814f-75c1-49a2-84a9-0a8c6977a417",
+  "checkpoint": {
+    "id": "d1de344f-85c0-4982-a265-04c2d998daf3",
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5cc814f-75c1-49a2-84a9-0a8c6977a417/main/checkpoints/9283f705-f9cd-46b6-b463-5b1db3fc51d1.blend",
+    "contentHash": "2d54b7716e2a4086c125bc1b65905c0df808a52bea01c6fdc0d9c448fefeb5e8",
+    "revision": 1
+  },
+  "pins": {
+    "catastrophic-cookoff-input-r0.json": "c46fd460a9ab88c673feee3a2ddcd393a2d5d21ce283138c147ac97ea77ea292",
+    "catastrophic-cookoff-clip-operations-r0.json": "4f95a1b8fef0b4f159e2992964c159d7e18f62bb7b7c11bf67615ff41c855b6e",
+    "catastrophic-cookoff-motion-preflight-r0.json": "509643077a898dc9951ce1dfb2d44ae6089a640b255fc8dbef05ec469be989d4",
+    "catastrophic-cookoff-pose-evidence-r1.json": "7f67506ad0f6ad0a4f0d66aab9b4eaacb79d74051ceb6b4cf1628cc6902993cd",
+    "catastrophic-cookoff-ready-r1-labeled.png": "33074ca032d2ffa12ce00f497dfe4b8ff62c920c0c24cf0929174d39161c054c",
+    "prepare_cookoff_motion_r0.py": "777833acb84406135f3969861207725fa4e63bed727f06c923193bf0e1874998"
+  },
+  "poseComparison": [
+    {
+      "pose": "wreck-rest",
+      "allChannelsIdentical": true,
+      "controls": 3
+    },
+    {
+      "pose": "cookoff-ready",
+      "allChannelsIdentical": true,
+      "controls": 3
+    }
+  ],
+  "meshCoverage": {
+    "moving": 22,
+    "fixed": 55,
+    "sourceMeshes": 77,
+    "unbound": 0,
+    "multiplyBound": 0,
+    "sourceNonMeshObjects": [
+      "ASSEMBLY_T72M1",
+      "ReviewCamera"
+    ],
+    "preflightVertexCountScope": "10089 POSITION entries across the 22 moving meshes only; fixed 55 meshes independently bound in hull AABB. Triangles37170 is whole source, not moving-vertex count."
+  },
+  "WP52A": "Hull-mounted annular flange; remains in fixed set",
+  "reviewResponse": {
+    "hashLink": "Closed by exact stored-pose channel equality and pins in this record.",
+    "floatiness": "Reviewer inferred2.45m from a changing rotated AABB; authored pivot obeys z=startZ+9.0325t-4.905t^2, about4.158m apex rise; gravity9.81m/s^2. Horizontal easing and roll remain authored readability choices.",
+    "terrain": "Flat stage only; scene placement/terrain contacts must be qualified during integration. No arbitrary mirrored landing assumed.",
+    "stillPending": [
+      "Named cookoff-ready pose approval",
+      "Producer clip application and playback/export checks",
+      "Turret underside/flight visual review",
+      "Game effects implementation and terrain handling"
+    ]
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "beginArgs": {
+    "specification": {
+      "schemaVersion": "2.0.0",
+      "assetId": "t72m1-catastrophic-cookoff-r0",
+      "kind": "rigid-animation",
+      "source": {
+        "assetId": "t72m1-w03-textured-finishing-r1",
+        "revisionId": "t72m1-w03-textured-finishing-r1-r4",
+        "manifestPath": "/Users/georgele/FormSeed3D/exports/t72m1-w03-textured-finishing-r1/formseed3d-asset.json",
+        "manifestHash": "c5dd7db20276b1d23c20af80411cf8ad9bfe43f9fd71c5c518a458609f23db1c",
+        "approvedBy": "George Le",
+        "approvedAt": "2026-11-02T23:46:17.993Z"
+      },
+      "expectedCounts": {
+        "triangles": 37170,
+        "materials": 14,
+        "objects": 79
+      },
+      "controlNames": [
+        "T72_DestructionRoot",
+        "T72_DestructionHull",
+        "T72_TurretToss"
+      ],
+      "rootControlName": "T72_DestructionRoot",
+      "exportSampleStepMs": 10,
+      "restPoseName": "wreck-rest",
+      "approvalPoseName": "cookoff-ready",
+      "poses": [
+        {
+          "name": "wreck-rest",
+          "reviewRenderSets": [
+            "wreck-rest-review"
+          ]
+        },
+        {
+          "name": "cookoff-ready",
+          "reviewRenderSets": [
+            "cookoff-ready-review"
+          ]
+        }
+      ],
+      "clips": [
+        {
+          "name": "catastrophic-cookoff",
+          "actionName": "T72_CatastrophicCookoff",
+          "durationMs": 4800,
+          "fromPose": "cookoff-ready",
+          "toPose": "wreck-rest",
+          "events": [
+            {
+              "name": "cookoff-start",
+              "timeMs": 0
+            },
+            {
+              "name": "turret-release",
+              "timeMs": 1500
+            },
+            {
+              "name": "ground-impact",
+              "timeMs": 3500
+            },
+            {
+              "name": "wreck-settled",
+              "timeMs": 4300
+            }
+          ],
+          "sampleTimesMs": [
+            0,
+            1500,
+            1800,
+            2200,
+            2600,
+            3000,
+            3500,
+            4000,
+            4800
+          ],
+          "reviewRenderSets": [
+            "cookoff-flight-review"
+          ]
+        }
+      ],
+      "reviewRenderSets": [
+        {
+          "name": "wreck-rest-review",
+          "target": {
+            "type": "pose",
+            "poseName": "wreck-rest"
+          },
+          "projection": "orthographic",
+          "resolution": {
+            "width": 512,
+            "height": 512
+          },
+          "transparentBackground": true,
+          "views": [
+            {
+              "name": "front-quarter",
+              "orientation": {
+                "azimuthDegrees": 35,
+                "elevationDegrees": 25
+              }
+            },
+            {
+              "name": "rear-quarter",
+              "orientation": {
+                "azimuthDegrees": 215,
+                "elevationDegrees": 25
+              }
+            },
+            {
+              "name": "side",
+              "orientation": {
+                "azimuthDegrees": 0,
+                "elevationDegrees": 15
+              }
+            }
+          ],
+          "lightingIntent": "Neutral readable studio view of exact complete tank and moving turret; all geometry framed."
+        },
+        {
+          "name": "cookoff-ready-review",
+          "target": {
+            "type": "pose",
+            "poseName": "cookoff-ready"
+          },
+          "projection": "orthographic",
+          "resolution": {
+            "width": 512,
+            "height": 512
+          },
+          "transparentBackground": true,
+          "views": [
+            {
+              "name": "front-quarter",
+              "orientation": {
+                "azimuthDegrees": 35,
+                "elevationDegrees": 25
+              }
+            },
+            {
+              "name": "rear-quarter",
+              "orientation": {
+                "azimuthDegrees": 215,
+                "elevationDegrees": 25
+              }
+            },
+            {
+              "name": "side",
+              "orientation": {
+                "azimuthDegrees": 0,
+                "elevationDegrees": 15
+              }
+            }
+          ],
+          "lightingIntent": "Neutral readable studio view of exact complete tank and moving turret; all geometry framed."
+        },
+        {
+          "name": "cookoff-flight-review",
+          "target": {
+            "type": "clip",
+            "clipName": "catastrophic-cookoff"
+          },
+          "projection": "orthographic",
+          "resolution": {
+            "width": 512,
+            "height": 512
+          },
+          "transparentBackground": true,
+          "views": [
+            {
+              "name": "front-quarter",
+              "orientation": {
+                "azimuthDegrees": 35,
+                "elevationDegrees": 25
+              }
+            },
+            {
+              "name": "rear-quarter",
+              "orientation": {
+                "azimuthDegrees": 215,
+                "elevationDegrees": 25
+              }
+            }
+          ],
+          "lightingIntent": "Fixed framing for complete turret flight and hull; rigid motion evidence; effects separate."
+        }
+      ]
+    }
+  },
+  "poseStageOperations": [
+    {
+      "type": "create_control",
+      "name": "T72_DestructionRoot",
+      "pivot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "create_control",
+      "name": "T72_DestructionHull",
+      "parent": "T72_DestructionRoot",
+      "pivot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "create_control",
+      "name": "T72_TurretToss",
+      "parent": "T72_DestructionRoot",
+      "pivot": [
+        -0.72,
+        4.254388496251281,
+        0.015000052452087909
+      ]
+    },
+    {
+      "type": "bind_rigid_assembly",
+      "control": "T72_DestructionHull",
+      "objects": [
+        "P02_GlacisPlate",
+        "P03_EngineDeck",
+        "P07_TrackLeft",
+        "P08_TrackRight",
+        "P09_SkirtLeft1",
+        "P10_SkirtLeft2",
+        "P11_SkirtLeft3",
+        "P12_SkirtLeft4",
+        "P13_SkirtRight1",
+        "P14_SkirtRight2",
+        "P15_SkirtRight3",
+        "P16_SkirtRight4",
+        "P17_FenderFrontLeft",
+        "P18_FenderFrontRight",
+        "P19_FenderRearLeft",
+        "P20_FenderRearRight",
+        "P21_RoadWheelLeft1",
+        "P22_RoadWheelLeft2",
+        "P23_RoadWheelLeft3",
+        "P24_RoadWheelLeft4",
+        "P25_RoadWheelLeft5",
+        "P26_RoadWheelLeft6",
+        "P27_RoadWheelRight1",
+        "P28_RoadWheelRight2",
+        "P29_RoadWheelRight3",
+        "P30_RoadWheelRight4",
+        "P31_RoadWheelRight5",
+        "P32_RoadWheelRight6",
+        "P33_IdlerLeft",
+        "P34_IdlerRight",
+        "P35_SprocketLeft",
+        "P36_SprocketRight",
+        "P37_HatchDriver",
+        "P48_VSplashBoard",
+        "P49_ExhaustLeft",
+        "P50_HeadlightLeft",
+        "P51_HeadlightRight",
+        "P53_ReturnRollerLeft1",
+        "P54_ReturnRollerLeft2",
+        "P55_ReturnRollerLeft3",
+        "P56_ReturnRollerRight1",
+        "P57_ReturnRollerRight2",
+        "P58_ReturnRollerRight3",
+        "P62_FenderShelfLeft",
+        "P63_FenderShelfRight",
+        "P65_DriverPeriscope",
+        "P66_EngineGrilles",
+        "P67_FenderBoxesLeft",
+        "P68_FenderBoxesRight",
+        "P69_RearTowFittings",
+        "P70_RearTowCable",
+        "P72_DriverHatchHardware",
+        "P75_HeadlightGuards",
+        "WP01A",
+        "WP52A"
+      ],
+      "preserveWorldTransform": true
+    },
+    {
+      "type": "bind_rigid_assembly",
+      "control": "T72_TurretToss",
+      "objects": [
+        "WP04A",
+        "P39_HatchGunner",
+        "P44_SmokeBankLeft",
+        "P45_SmokeBankRight",
+        "P46_TurretStowLeft",
+        "P47_TurretStowRight",
+        "P59_SnorkelStow",
+        "P61_GunnerHatchCollar",
+        "P64_GunnerSightTPD",
+        "P71_TurretHandrails",
+        "P74_GunnerHatchHardware",
+        "P05_GunBoot",
+        "P40_IRMain",
+        "P76_MainIRBracket",
+        "P06_MainGun",
+        "P38_HatchCommander",
+        "P41_IRCommander",
+        "P42_NSVTMount",
+        "P43_NSVTGun",
+        "P60_CupolaCommanderCollar",
+        "P73_CommanderHatchHardware",
+        "P77_CommanderLampBracket"
+      ],
+      "preserveWorldTransform": true
+    },
+    {
+      "type": "define_pose",
+      "poseId": "wreck-rest",
+      "controls": [
+        {
+          "control": "T72_DestructionRoot",
+          "transform": {
+            "location": {
+              "mode": "control-delta",
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            "rotationDegrees": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "control": "T72_DestructionHull",
+          "transform": {
+            "location": {
+              "mode": "control-delta",
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            "rotationDegrees": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "control": "T72_TurretToss",
+          "transform": {
+            "location": {
+              "mode": "control-delta",
+              "value": [
+                -0.72,
+                4.254388496251281,
+                0.015000052452087909
+              ]
+            },
+            "rotationDegrees": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "define_pose",
+      "poseId": "cookoff-ready",
+      "controls": [
+        {
+          "control": "T72_DestructionRoot",
+          "transform": {
+            "location": {
+              "mode": "control-delta",
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            "rotationDegrees": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "control": "T72_DestructionHull",
+          "transform": {
+            "location": {
+              "mode": "control-delta",
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            "rotationDegrees": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "control": "T72_TurretToss",
+          "transform": {
+            "location": {
+              "mode": "control-delta",
+              "value": [
+                -0.48,
+                0,
+                1.57
+              ]
+            },
+            "rotationDegrees": [
+              0,
+              0,
+              20
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "groundPivot": [
+    -0.72,
+    4.254388496251281,
+    0.015000052452087909
+  ],
+  "moving": [
+    "WP04A",
+    "P39_HatchGunner",
+    "P44_SmokeBankLeft",
+    "P45_SmokeBankRight",
+    "P46_TurretStowLeft",
+    "P47_TurretStowRight",
+    "P59_SnorkelStow",
+    "P61_GunnerHatchCollar",
+    "P64_GunnerSightTPD",
+    "P71_TurretHandrails",
+    "P74_GunnerHatchHardware",
+    "P05_GunBoot",
+    "P40_IRMain",
+    "P76_MainIRBracket",
+    "P06_MainGun",
+    "P38_HatchCommander",
+    "P41_IRCommander",
+    "P42_NSVTMount",
+    "P43_NSVTGun",
+    "P60_CupolaCommanderCollar",
+    "P73_CommanderHatchHardware",
+    "P77_CommanderLampBracket"
+  ],
+  "fixed": [
+    "P02_GlacisPlate",
+    "P03_EngineDeck",
+    "P07_TrackLeft",
+    "P08_TrackRight",
+    "P09_SkirtLeft1",
+    "P10_SkirtLeft2",
+    "P11_SkirtLeft3",
+    "P12_SkirtLeft4",
+    "P13_SkirtRight1",
+    "P14_SkirtRight2",
+    "P15_SkirtRight3",
+    "P16_SkirtRight4",
+    "P17_FenderFrontLeft",
+    "P18_FenderFrontRight",
+    "P19_FenderRearLeft",
+    "P20_FenderRearRight",
+    "P21_RoadWheelLeft1",
+    "P22_RoadWheelLeft2",
+    "P23_RoadWheelLeft3",
+    "P24_RoadWheelLeft4",
+    "P25_RoadWheelLeft5",
+    "P26_RoadWheelLeft6",
+    "P27_RoadWheelRight1",
+    "P28_RoadWheelRight2",
+    "P29_RoadWheelRight3",
+    "P30_RoadWheelRight4",
+    "P31_RoadWheelRight5",
+    "P32_RoadWheelRight6",
+    "P33_IdlerLeft",
+    "P34_IdlerRight",
+    "P35_SprocketLeft",
+    "P36_SprocketRight",
+    "P37_HatchDriver",
+    "P48_VSplashBoard",
+    "P49_ExhaustLeft",
+    "P50_HeadlightLeft",
+    "P51_HeadlightRight",
+    "P53_ReturnRollerLeft1",
+    "P54_ReturnRollerLeft2",
+    "P55_ReturnRollerLeft3",
+    "P56_ReturnRollerRight1",
+    "P57_ReturnRollerRight2",
+    "P58_ReturnRollerRight3",
+    "P62_FenderShelfLeft",
+    "P63_FenderShelfRight",
+    "P65_DriverPeriscope",
+    "P66_EngineGrilles",
+    "P67_FenderBoxesLeft",
+    "P68_FenderBoxesRight",
+    "P69_RearTowFittings",
+    "P70_RearTowCable",
+    "P72_DriverHatchHardware",
+    "P75_HeadlightGuards",
+    "WP01A",
+    "WP52A"
+  ],
+  "sourcePin": {
+    "id": "58c6661c-828e-40ef-86eb-209706991a31",
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/c8e059a0-8036-486e-a775-f547391110f8/main/checkpoints/9727d23f-853b-4a40-be48-542813996741.blend",
+    "contentHash": "bd01a54c0b8391c275345ef71fae97a48d37c46fae226e819e8acc8e4c3b25c8",
+    "revision": 4
+  },
+  "status": "Prepared pose stage; no animation or new pose approval inferred.",
+  "design": "Rare catastrophic variant. Whole turret flight, zero hull/root motion, planned 1.5s cook-off and 2s ejection arc followed by settle. Flight/timing designed, not measured."
+}
