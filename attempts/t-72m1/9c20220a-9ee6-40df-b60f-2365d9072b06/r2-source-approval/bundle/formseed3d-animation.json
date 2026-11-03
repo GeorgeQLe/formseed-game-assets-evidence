@@ -1,0 +1,316 @@
+{
+  "schemaVersion": "2.0.0",
+  "assetId": "t72m1-catastrophic-distant-cookoff-r0",
+  "revisionId": "t72m1-catastrophic-distant-cookoff-r0-animation-r2",
+  "createdAt": "2026-11-03T02:39:17.470Z",
+  "sourceAsset": {
+    "assetId": "t72m1-w03-textured-finishing-r1",
+    "revisionId": "t72m1-w03-textured-finishing-r1-r4",
+    "manifestHash": "c5dd7db20276b1d23c20af80411cf8ad9bfe43f9fd71c5c518a458609f23db1c"
+  },
+  "controls": [
+    {
+      "name": "T72_DestructionHull",
+      "parent": "T72_DestructionRoot",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "bindings": [
+        "P02_GlacisPlate",
+        "P03_EngineDeck",
+        "P07_TrackLeft",
+        "P08_TrackRight",
+        "P09_SkirtLeft1",
+        "P10_SkirtLeft2",
+        "P11_SkirtLeft3",
+        "P12_SkirtLeft4",
+        "P13_SkirtRight1",
+        "P14_SkirtRight2",
+        "P15_SkirtRight3",
+        "P16_SkirtRight4",
+        "P17_FenderFrontLeft",
+        "P18_FenderFrontRight",
+        "P19_FenderRearLeft",
+        "P20_FenderRearRight",
+        "P21_RoadWheelLeft1",
+        "P22_RoadWheelLeft2",
+        "P23_RoadWheelLeft3",
+        "P24_RoadWheelLeft4",
+        "P25_RoadWheelLeft5",
+        "P26_RoadWheelLeft6",
+        "P27_RoadWheelRight1",
+        "P28_RoadWheelRight2",
+        "P29_RoadWheelRight3",
+        "P30_RoadWheelRight4",
+        "P31_RoadWheelRight5",
+        "P32_RoadWheelRight6",
+        "P33_IdlerLeft",
+        "P34_IdlerRight",
+        "P35_SprocketLeft",
+        "P36_SprocketRight",
+        "P37_HatchDriver",
+        "P48_VSplashBoard",
+        "P49_ExhaustLeft",
+        "P50_HeadlightLeft",
+        "P51_HeadlightRight",
+        "P53_ReturnRollerLeft1",
+        "P54_ReturnRollerLeft2",
+        "P55_ReturnRollerLeft3",
+        "P56_ReturnRollerRight1",
+        "P57_ReturnRollerRight2",
+        "P58_ReturnRollerRight3",
+        "P62_FenderShelfLeft",
+        "P63_FenderShelfRight",
+        "P65_DriverPeriscope",
+        "P66_EngineGrilles",
+        "P67_FenderBoxesLeft",
+        "P68_FenderBoxesRight",
+        "P69_RearTowFittings",
+        "P70_RearTowCable",
+        "P72_DriverHatchHardware",
+        "P75_HeadlightGuards",
+        "WP01A",
+        "WP52A"
+      ]
+    },
+    {
+      "name": "T72_DestructionRoot",
+      "parent": null,
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "bindings": []
+    },
+    {
+      "name": "T72_TurretToss",
+      "parent": "T72_DestructionRoot",
+      "pivot": [
+        -0.72,
+        4.254388496251281,
+        0.015000052452087909
+      ],
+      "bindings": [
+        "P05_GunBoot",
+        "P06_MainGun",
+        "P38_HatchCommander",
+        "P39_HatchGunner",
+        "P40_IRMain",
+        "P41_IRCommander",
+        "P42_NSVTMount",
+        "P43_NSVTGun",
+        "P44_SmokeBankLeft",
+        "P45_SmokeBankRight",
+        "P46_TurretStowLeft",
+        "P47_TurretStowRight",
+        "P59_SnorkelStow",
+        "P60_CupolaCommanderCollar",
+        "P61_GunnerHatchCollar",
+        "P64_GunnerSightTPD",
+        "P71_TurretHandrails",
+        "P73_CommanderHatchHardware",
+        "P74_GunnerHatchHardware",
+        "P76_MainIRBracket",
+        "P77_CommanderLampBracket",
+        "WP04A"
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "name": "wreck-rest",
+      "reviewRenderSets": [
+        "wreck-rest-review"
+      ]
+    },
+    {
+      "name": "cookoff-ready",
+      "reviewRenderSets": [
+        "cookoff-ready-review"
+      ]
+    },
+    {
+      "name": "distant-wreck",
+      "reviewRenderSets": [
+        "distant-wreck-review"
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "name": "catastrophic-cookoff",
+      "actionName": "T72_CatastrophicCookoff",
+      "durationMs": 4800,
+      "fromPose": "cookoff-ready",
+      "toPose": "distant-wreck",
+      "events": [
+        {
+          "name": "cookoff-start",
+          "timeMs": 0
+        },
+        {
+          "name": "turret-release",
+          "timeMs": 1500
+        },
+        {
+          "name": "ground-impact",
+          "timeMs": 3500
+        },
+        {
+          "name": "wreck-settled",
+          "timeMs": 4300
+        }
+      ],
+      "sampleTimesMs": [
+        0,
+        1500,
+        1800,
+        2200,
+        2600,
+        3000,
+        3500,
+        4000,
+        4800
+      ],
+      "reviewRenderSets": [
+        "cookoff-flight-review"
+      ]
+    }
+  ],
+  "reviewRenderSets": [
+    {
+      "name": "wreck-rest-review",
+      "views": [
+        {
+          "name": "front-quarter",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/wreck-rest-review/front-quarter.png",
+          "sha256": "a6ecb6d989eaeca9daa3d134d8ef9cdcd23c96f928886000267fa176690fc700",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-quarter",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/wreck-rest-review/rear-quarter.png",
+          "sha256": "e4894f9e6620d5fde4e0eacea5a5fc27223c2db48a6606cf93bd5384a00ff1ae",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "side",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/wreck-rest-review/side.png",
+          "sha256": "22504a42b7cc2aa535149aea8439cc6045b17bc793d107c985fd6f3c98c2d0c6",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ],
+      "renderSetHash": "b4e9f240d97f3a0c5a0def4e5a019784de248d51d2580f4f11064a826cbabf6e"
+    },
+    {
+      "name": "cookoff-ready-review",
+      "views": [
+        {
+          "name": "front-quarter",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-ready-review/front-quarter.png",
+          "sha256": "9ddb8555e9dbc0ca3983223d9385c2e9898419976c7b9817888d7bda779bf7c6",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-quarter",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-ready-review/rear-quarter.png",
+          "sha256": "7a95fa8667eeef4e97ac952be33625ca54f1ea978d0ade16a96d803d436496a7",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "side",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-ready-review/side.png",
+          "sha256": "80e3114bf47462f0bd118247f04d690a3dc8318cd96a8a945da733ccc50602d4",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ],
+      "renderSetHash": "92dcf4c0f916d668998e0bad9b91e191b05eb6f3a185680a3e42841af1eac65a"
+    },
+    {
+      "name": "cookoff-flight-review",
+      "views": [
+        {
+          "name": "front-quarter",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-flight-review/front-quarter.png",
+          "sha256": "03bb9a6b2c717058735e7f3b486a0e10370b80921ef994a166a741b666ee6c17",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-quarter",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-flight-review/rear-quarter.png",
+          "sha256": "3a020593c98c3021db67c6564757492a23c934fa565af920b26f91a3fa81e0a5",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ],
+      "renderSetHash": "9a5e333e51e2541ff8f63ddb18430ecb1f810202737f839a32448ef9ab87b821"
+    },
+    {
+      "name": "distant-wreck-review",
+      "views": [
+        {
+          "name": "front-quarter",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/distant-wreck-review/front-quarter.png",
+          "sha256": "c324f05a7eff0e7c95e56454e66fc0e8db94ff1d115b6f0b8709457894184760",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-quarter",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/distant-wreck-review/rear-quarter.png",
+          "sha256": "f189f984cac1502b4499449729616962b50d5573b4b784ddcd0628a87be084c7",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "side",
+          "path": "renders/revision-2/production/run-3y6s2c/pass-2/distant-wreck-review/side.png",
+          "sha256": "9a5d40095c892558372bc68a01db7d5b4bd914db8764d340fd3c94e00c949081",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ],
+      "renderSetHash": "9807887b4bd4536ff1f33953344bb34267d50dfb5cad356c05ce2949a50bd838"
+    }
+  ],
+  "source": {
+    "blend": "revision-2/source/t72m1-catastrophic-distant-cookoff-r0-animation.blend",
+    "glb": "revision-2/source/t72m1-catastrophic-distant-cookoff-r0-animation.glb"
+  },
+  "counts": {
+    "triangles": 37170,
+    "materials": 14,
+    "sourceObjects": 79,
+    "controlEmpties": 3
+  },
+  "validation": {
+    "reportId": "8a8499b8-3f88-48d1-98ee-938a6f25086c",
+    "passed": true,
+    "reproducible": true
+  },
+  "hashes": {
+    "renders/revision-2/production/run-3y6s2c/pass-2/wreck-rest-review/front-quarter.png": "a6ecb6d989eaeca9daa3d134d8ef9cdcd23c96f928886000267fa176690fc700",
+    "renders/revision-2/production/run-3y6s2c/pass-2/wreck-rest-review/rear-quarter.png": "e4894f9e6620d5fde4e0eacea5a5fc27223c2db48a6606cf93bd5384a00ff1ae",
+    "renders/revision-2/production/run-3y6s2c/pass-2/wreck-rest-review/side.png": "22504a42b7cc2aa535149aea8439cc6045b17bc793d107c985fd6f3c98c2d0c6",
+    "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-ready-review/front-quarter.png": "9ddb8555e9dbc0ca3983223d9385c2e9898419976c7b9817888d7bda779bf7c6",
+    "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-ready-review/rear-quarter.png": "7a95fa8667eeef4e97ac952be33625ca54f1ea978d0ade16a96d803d436496a7",
+    "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-ready-review/side.png": "80e3114bf47462f0bd118247f04d690a3dc8318cd96a8a945da733ccc50602d4",
+    "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-flight-review/front-quarter.png": "03bb9a6b2c717058735e7f3b486a0e10370b80921ef994a166a741b666ee6c17",
+    "renders/revision-2/production/run-3y6s2c/pass-2/cookoff-flight-review/rear-quarter.png": "3a020593c98c3021db67c6564757492a23c934fa565af920b26f91a3fa81e0a5",
+    "renders/revision-2/production/run-3y6s2c/pass-2/distant-wreck-review/front-quarter.png": "c324f05a7eff0e7c95e56454e66fc0e8db94ff1d115b6f0b8709457894184760",
+    "renders/revision-2/production/run-3y6s2c/pass-2/distant-wreck-review/rear-quarter.png": "f189f984cac1502b4499449729616962b50d5573b4b784ddcd0628a87be084c7",
+    "renders/revision-2/production/run-3y6s2c/pass-2/distant-wreck-review/side.png": "9a5d40095c892558372bc68a01db7d5b4bd914db8764d340fd3c94e00c949081",
+    "revision-2/source/t72m1-catastrophic-distant-cookoff-r0-animation.blend": "b40669de65a3b9dd1424d821fab2f6a3e5f0ad5814b7f06dcd60e38040a9a7b9",
+    "revision-2/source/t72m1-catastrophic-distant-cookoff-r0-animation.glb": "196549d9cdc6c9b7601ff3bffa02c5b69a5bcac7fb99f3268542ff42122cf4ba"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "inspectedPaths": [
+    ".../distant-cookoff-preview-final-r2/sample-900ms.png",
+    ".../distant-cookoff-preview-final-r2/sample-1350ms.png",
+    ".../distant-cookoff-preview-final-r2/sample-1500ms.png",
+    ".../distant-cookoff-preview-final-r2/sample-1800ms.png",
+    ".../distant-cookoff-preview-final-r2/sample-2200ms.png",
+    ".../distant-cookoff-preview-final-r2/sample-3000ms.png",
+    ".../distant-cookoff-preview-final-r2/sample-3600ms.png",
+    ".../distant-cookoff-preview-final-r2/sample-4800ms.png",
+    ".../distant-cookoff-preview-final-r2/playback-verification.json",
+    ".../condition-runtime-v1/t72-cookoff-ukraine-footage-research-r0.json"
+  ],
+  "observationLimits": [
+    "I reviewed 8 still frames, not continuous playback. Nothing between 0 and 900 ms was sampled. Large gaps (1500-1800, 2200-3000 and 3000-3600 ms) mean I could not see the moment the turret leaves the hull, the arc's continuity, the one full roll, or the landing frame itself.",
+    "There is one fixed camera at one resolution, with Effects turned on throughout. I did not see the effects-off state, particle flicker or temporal noise, or any other viewing angle.",
+    "For the motion numbers (481 keys, zero hull drift, turret ends about 28 m away and resting on the ground), I relied on playback-verification.json. I did not re-measure them myself.",
+    "The pixelated pattern on the turret underside, visible at 2200 ms, is the approved baked texture. As instructed, I did not assess it."
+  ],
+  "criterionFindings": {
+    "1_ringOriginIgnition": {
+      "result": "readable-adequate",
+      "evidence": "At 900 ms there are orange glows and fine spark specks around the turret base and the hull/turret seam, with the phase label 'RING IGNITION'. By 1350 ms the glow is concentrated at the seam and a dark smoke puff appears ('PRESSURE FLARE'). This clearly reads as fire starting at the turret base before the eruption.",
+      "caveat": "Some glow patches sit on the turret roof and side stowage rather than in a continuous band around the ring. From this camera distance the turret also partly hides the seam, so it reads as 'fire around the turret base' rather than a crisp ring. This is acceptable for a preview."
+    },
+    "2_geyserFireAndSmoke": {
+      "result": "readable-strong",
+      "evidence": "At 1500 ms a yellow fireball appears above the turret and there is orange glow on the ground. At 1800 ms a vertical flame column rises under the lifting turret. At 2200-3600 ms there is a tall yellow-to-orange column, with dark smoke on its side and upper portion. At 4800 ms the flame has dropped to a vent fire at the open ring and a dark smoke plume rises above it. The order (localized fire, then column, then continuing wreck fire with smoke) is clear.",
+      "caveat": "The column appears at the same moment the turret lifts rather than as a long sustained geyser before it. That matches 'then a geyser of fire and turret flying'."
+    },
+    "3_distantFlightAndStationaryHull": {
+      "result": "satisfied",
+      "evidence": "At 2200 ms the turret is high and tumbling with the barrel attached. At 3000 ms it is small near the horizon, upper left. At 3600-4800 ms it is resting far away on the ground, visibly separate from the hull and outside the smoke. In all frames the hull stays in the same place, with the turret ring exposed, which matches maximumHullBoundsDriftMetres = 0.",
+      "caveat": "The landing moment and the full roll were not captured in any sample."
+    },
+    "4_misleadingClaims": {
+      "result": "no material misleading claims",
+      "notes": [
+        "The overlay says 'r2 \u00b7 motion preview' and claims no approval. The playback JSON's 'limits' field correctly excludes bundle validation, collision checks and game/terrain qualification.",
+        "The research file correctly labels the ring sparks, the pre-ejection geyser and the long distant throw as authored exaggerations, not observed footage. It does not claim any measured footage values.",
+        "Minor: the phase label 'ERUPTION / TURRET FLIGHT' is already showing at 1500 ms while the turret is still seated.",
+        "Minor: 'DISTANT GROUND IMPACT' at 3600 ms has no visible impact cue such as dust, so the label claims more than the frame shows. Neither is a material misrepresentation in a preview HUD.",
+        "Reporting note: 'actual exported playback check passed' must stay separate from the blocked producer packaging and from any approval."
+      ]
+    },
+    "5_materialVisualFailure": {
+      "result": "none found",
+      "notes": "No visible floating parts, hull movement, turret passing through the hull, clipped framing, missing fire or smoke, or turret disappearing in the sampled frames."
+    }
+  },
+  "blockingVisualIssues": [],
+  "optionalLaterPolish": [
+    "Tighten the 900 ms ignition glow into a more continuous band at the hull/turret seam, and reduce the glow patches on the turret roof.",
+    "Add a small dust or debris puff when the turret lands far away, so the 'DISTANT GROUND IMPACT' phase reads without the label.",
+    "Shift the 'ERUPTION / TURRET FLIGHT' label so it changes when the turret actually lifts."
+  ],
+  "recommendation": {
+    "technicalValidation": "The exported-GLB Three.js playback check passed, according to the provided JSON. Full producer packaging is still blocked by the separate review-renderer determinism/framing issue. That issue is not a failure of this gameplay preview.",
+    "visualRecommendation": "Sufficient as a preview for the user's request. All requested beats can be read: sparks and fire at the turret base, a fire column and smoke, the turret flying into the distance, and a stationary burning hull. No correction is needed now. This is an advisory independent review, not a deterministic evaluator 'go'.",
+    "humanApproval": "Not granted. The final clip, the artwork, production, promotion and game integration all remain unapproved until the named requester explicitly approves this exact revision (GLB sha256 196549d9\u2026, checkpoint 0fe6a548\u2026)."
+  }
+}

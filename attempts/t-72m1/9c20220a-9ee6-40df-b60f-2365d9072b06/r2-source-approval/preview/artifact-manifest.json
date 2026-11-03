@@ -1,0 +1,82 @@
+{
+  "format": "t72-distant-cookoff-preview@1",
+  "status": "rendered-local-preview",
+  "producerBundleComplete": false,
+  "finalHumanApproval": null,
+  "jobId": "9c20220a-9ee6-40df-b60f-2365d9072b06",
+  "revision": 2,
+  "checkpointSha256": "0fe6a548ee60bf290ed4b75db1bcb55f59c08b56e7870e3102efcb4ef1bd2b1e",
+  "files": [
+    {
+      "path": "T72M1-distant-cookoff-r2.mp4",
+      "bytes": 247622,
+      "sha256": "f6fc7cd54c79db9ea4fe9f4b444a69c5a97aa566dbbe60439670913fd8dbc1ce"
+    },
+    {
+      "path": "T72M1-distant-cookoff-r2.html",
+      "bytes": 2465915,
+      "sha256": "76da3646f6ac19b32a13d708f03d4fcc06040566d1fa787d6af4065a450c09c2"
+    },
+    {
+      "path": "T72M1-distant-cookoff-r2.glb",
+      "bytes": 1407760,
+      "sha256": "196549d9cdc6c9b7601ff3bffa02c5b69a5bcac7fb99f3268542ff42122cf4ba"
+    },
+    {
+      "path": "preview.js",
+      "bytes": 8462,
+      "sha256": "dedf4bdb1eff2a80e2d502030a221e0994db93d793de20a5a66569d82b66695c"
+    },
+    {
+      "path": "build.mjs",
+      "bytes": 2846,
+      "sha256": "b6ab2f9f5525827613bc87a08eccc2fdda25325fea084d5d34bceb75fa1d9ceb"
+    },
+    {
+      "path": "capture-report.json",
+      "bytes": 2412162,
+      "sha256": "cce2dd436733faa3bb006db34befd8e78a05011d757dc738b4b69421db5d2e3f"
+    },
+    {
+      "path": "playback-verification.json",
+      "bytes": 1637,
+      "sha256": "14d7540a8da27555d41a0d467b3353eb9ac5bb68475bec21b534f5f8205ce4a8"
+    },
+    {
+      "path": "opus-review-result.json",
+      "bytes": 8171,
+      "sha256": "f974792678e1cc37bb984dc8d16e0ae0f124f890dcfd0d5a37902ee451dd94d3"
+    },
+    {
+      "path": "opus-review-assessment.json",
+      "bytes": 6065,
+      "sha256": "bc07d73ec2ad29bbb24446de15129aebf5149f12adff4c392b6b496560808965"
+    },
+    {
+      "path": "distant-flight-r2-labeled.png",
+      "bytes": 140509,
+      "sha256": "963828354e1ef50d1e59d2e38ffdd30e9acf7800dcce7e674a9ecbfd350a7102"
+    }
+  ],
+  "video": {
+    "frames": 174,
+    "fps": 30,
+    "durationSeconds": 5.8,
+    "width": 1280,
+    "height": 864,
+    "fullDecodePassed": true
+  },
+  "cleanup": {
+    "ownedBrowsersExited": true,
+    "ownedProfilesRemoved": true,
+    "serversClosed": true,
+    "scratchRemoved": true,
+    "userBrowsersAndSimulatorsUntouched": true
+  },
+  "independentReview": {
+    "model": "claude-opus-5-5",
+    "status": "completed",
+    "blockingVisualIssues": [],
+    "kind": "sequential screenshots, not continuous video playback"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "format": "t72-actual-export-playback-check@1",
+  "checkpointSha256": "0fe6a548ee60bf290ed4b75db1bcb55f59c08b56e7870e3102efcb4ef1bd2b1e",
+  "glbSha256": "196549d9cdc6c9b7601ff3bffa02c5b69a5bcac7fb99f3268542ff42122cf4ba",
+  "metadata": {
+    "sourceSha256": "196549d9cdc6c9b7601ff3bffa02c5b69a5bcac7fb99f3268542ff42122cf4ba",
+    "checkpointSha256": "0fe6a548ee60bf290ed4b75db1bcb55f59c08b56e7870e3102efcb4ef1bd2b1e",
+    "revision": 2,
+    "clip": "T72_CatastrophicCookoff",
+    "duration": 4.800000190734863,
+    "meshCount": 141,
+    "animationTracks": [
+      {
+        "name": "T72_TurretToss.position",
+        "keys": 481
+      },
+      {
+        "name": "T72_TurretToss.quaternion",
+        "keys": 481
+      }
+    ]
+  },
+  "sampledTransforms": 49,
+  "framingSamples": 481,
+  "clippedSamples": 0,
+  "maximumControlPositionErrorMetres": 1.752223069750869e-06,
+  "maximumRotationMatrixEntryError": 7.016390041192366e-07,
+  "maximumHullBoundsDriftMetres": 0,
+  "minimumTurretGroundHeightMetres": -4.365283059370637e-07,
+  "endpointBoundsErrorMetres": 4.3652830582777613e-07,
+  "endpointNativeBounds": {
+    "min": [
+      -13.704726368188858,
+      -28.259388270498683,
+      -4.365283059370637e-07
+    ],
+    "max": [
+      -6.0051590502262115,
+      -24.30900579591724,
+      1.2249996759455568
+    ]
+  },
+  "sourceCounts": {
+    "movingMeshes": 22,
+    "fixedMeshes": 55,
+    "glbMeshes": 77,
+    "threePrimitiveMeshes": 141
+  },
+  "passed": true,
+  "limits": "Actual Three.js GLB playback verification and fixed camera checks. Not FormSeed complete bundle validation, swept-volume collision or game/terrain qualification."
+}
