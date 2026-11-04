@@ -1,0 +1,108 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2a2-bradley-destroyed-w02",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "21a3d61d-8119-455f-b8ec-5187b0709520",
+    "revision": 2,
+    "checkpointSha256": "f30445a7d1ff57cd51a41607e2acfb34182c07e143ba5070ce5a6f54c9647871"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "labeledSheet": {
+      "path": "review/labeled-source-review.png",
+      "sha256": "39f085f2f2b6c46f2d623c5dfb6c99fc26940ddd9d8e88fd3760d56d4ff3519b",
+      "bytes": 5273930
+    },
+    "files": [
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/bradley-blockout/front.png",
+        "sha256": "e56ce88dec2a3250ab70bb2c1c060c7ecd8d7216c80b932353c711af6abc5368",
+        "bytes": 598361
+      },
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/bradley-blockout/front-right.png",
+        "sha256": "7d6fc3fc148a3f3d0903d5087b1e007cf5b1e5e1e83b79fc1a71918bb0bf4739",
+        "bytes": 645751
+      },
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/bradley-blockout/right.png",
+        "sha256": "86d08e3586a8ed00fb8509dd38a6a4c7cd03e040d8e4708b1c10b4101e778eaf",
+        "bytes": 576946
+      },
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/bradley-blockout/rear-right.png",
+        "sha256": "bacd789fc63b9bb6d8fb37f4c7aeaa9276a3bbcd395f882ec4bb9963f09a7386",
+        "bytes": 639696
+      },
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/bradley-blockout/rear.png",
+        "sha256": "40f927937c883e59af0b4794216935ee51c301ba02d736bb33267189d022f517",
+        "bytes": 591722
+      },
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/bradley-blockout/rear-left.png",
+        "sha256": "84ec751ae6d6c795185b2ced1f94ebaf1fe64233ee02283a50540255c90d18bd",
+        "bytes": 637803
+      },
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/bradley-blockout/left.png",
+        "sha256": "4b0365bae4f00eb629f9ef05cd92547c613bc9881c8f91ab42741d6b5356368b",
+        "bytes": 575471
+      },
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/bradley-blockout/front-left.png",
+        "sha256": "b67621c9c0d76fb09ca099bffbe42c549adae13edca1647fd7b79f9c15b43bb7",
+        "bytes": 650242
+      },
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/bradley-blockout/top.png",
+        "sha256": "b0a9f53851d6fa95d3c60cca0c6ccb26846c8657be127eae86733b1c1cbc5c94",
+        "bytes": 705930
+      },
+      {
+        "path": "production/renders/revision-2/baseline/pass-1/run-YQQv87/pass-2/contact-sheet.png",
+        "sha256": "3fd4bf753ef3a123aa314a92bd1d5dee331ee54362b081cb5d585d1f81314721",
+        "bytes": 5331509
+      },
+      {
+        "path": "evidence/replacement-payload-W02.json",
+        "sha256": "06ad0ad5dbeff828b4d49c2f81d88525535e6c3225797be9253f5632dbab1399",
+        "bytes": 203632
+      },
+      {
+        "path": "evidence/gen.py",
+        "sha256": "212ec63e11ae428246af8cbc2c14ad9fd28c3986bd90d84d78d88b3559582ba0",
+        "bytes": 22409
+      },
+      {
+        "path": "review/labeled-source-review.png",
+        "sha256": "39f085f2f2b6c46f2d623c5dfb6c99fc26940ddd9d8e88fd3760d56d4ff3519b",
+        "bytes": 5273930
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Superseded before review: exterior panels outside the replaced parts kept clean paint on a burned hull; rebuilt with every visible panel burned as job c0f7b50c-0b94-4da2-9774-2f3a820d84f4.",
+    "decidedAt": "2026-11-04T20:16:00.000Z"
+  },
+  "notes": [
+    "Agent disposition before human review; George authorized archiving this attempt as abandoned on 2026-11-04. No human rejection or approval is claimed.",
+    "Baseline renders only; no production render, bundle or completion was made for this revision.",
+    "Condition references are recorded in the job brief (Bradley TMs and a DVIDS condition reference); their bytes are not archived.",
+    "Source .blend/GLB not archived (abandoned attempt)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
