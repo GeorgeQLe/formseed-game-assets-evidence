@@ -1,0 +1,108 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2a2-bradley-destroyed-w03",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "65b1d0ec-f64c-45e9-93d6-dba1ca1250ba",
+    "revision": 1,
+    "checkpointSha256": "3c2cde505ed78b1e9f59f60bced02fb5ac8550e2cbde9487409b52c542a99cc9"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "labeledSheet": {
+      "path": "review/labeled-source-review.png",
+      "sha256": "94d0e9451da2f0b216425381bcbea204252462099db69156bd892adab8b25198",
+      "bytes": 288618
+    },
+    "files": [
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/bradley-blockout/front-left.png",
+        "sha256": "49f1a146430caa1b45d048cc63a5a5835fdda2c7ee43daad9a74dcb88ae5b80a",
+        "bytes": 655483
+      },
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/bradley-blockout/front-right.png",
+        "sha256": "4d3791e046d03f09df30e5320ccf568666316fbe2ac8093ee814f8dc297a312f",
+        "bytes": 656791
+      },
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/bradley-blockout/front.png",
+        "sha256": "f4df357d05271b7fe9a63a28e83d227c33026bc855054999952cc0e2f8744777",
+        "bytes": 558158
+      },
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/bradley-blockout/left.png",
+        "sha256": "4c8f0d3ac0e1988323068ce805589bd9b7dba68831c2db62fdd8c3d237223eb1",
+        "bytes": 585119
+      },
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/bradley-blockout/rear-left.png",
+        "sha256": "d0b54b9621e424a31a6174735bd79f7c412f3da619911d7d7db1372c077ee5ea",
+        "bytes": 634094
+      },
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/bradley-blockout/rear-right.png",
+        "sha256": "d4978df399b5dc35b9097cc73813fe9605da02f3cceaa08d227b1b2dc9a22371",
+        "bytes": 645403
+      },
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/bradley-blockout/rear.png",
+        "sha256": "e47f57d93f19df970f6ee6fc5060f1cbdb7f78809c821b0d8954a17cb2bdf637",
+        "bytes": 548922
+      },
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/bradley-blockout/right.png",
+        "sha256": "727b5e032d155e79ca6dfc5ab015cbb220204b7f2b67fc0304b8722a4ea540fa",
+        "bytes": 574511
+      },
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/bradley-blockout/top.png",
+        "sha256": "1b8eb79e8daea263dd50437d2f501e08e1b94bf78ec28cd07cfd0c129d5a6c1e",
+        "bytes": 677990
+      },
+      {
+        "path": "production/renders/revision-1/production/run-znEedV/pass-2/contact-sheet.png",
+        "sha256": "ad172adefc674a54d210cdfde76c846c74ab5fdca9fc3fec0c3e78caef9102f8",
+        "bytes": 5317287
+      },
+      {
+        "path": "evidence/replacement-payload-W03.json",
+        "sha256": "e80202eb15d18cc1eb08a5795f385dcae579731204b376a1578a92187a9f1fce",
+        "bytes": 431654
+      },
+      {
+        "path": "evidence/parts-W03.json",
+        "sha256": "9d85d83975976066f2c496c6b0ecb27191f591233e49e89c41b55e5d098cbf7f",
+        "bytes": 1715
+      },
+      {
+        "path": "review/labeled-source-review.png",
+        "sha256": "94d0e9451da2f0b216425381bcbea204252462099db69156bd892adab8b25198",
+        "bytes": 288618
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George",
+    "decidedAt": "2026-11-05T05:05:00.000Z",
+    "quote": "we should have varying levels of burning (char/scorching) on the road wheels"
+  },
+  "notes": [
+    "Condition-appearance review of the polish r2 candidate (the attempt-record gate enum has no condition-appearance gate, so source-approval is used as the nearest gate). George asked for varied road-wheel burning (changes requested).",
+    "Superseded by the polish r3 candidate recorded in wreck recipe-set revision 4.",
+    "Condition references are recorded in the job brief; their bytes are not archived. Source .blend/GLB not archived (not approved)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
