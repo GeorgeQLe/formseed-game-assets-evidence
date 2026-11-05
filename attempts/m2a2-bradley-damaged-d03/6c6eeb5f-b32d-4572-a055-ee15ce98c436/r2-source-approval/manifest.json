@@ -1,0 +1,109 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2a2-bradley-damaged-d03",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "6c6eeb5f-b32d-4572-a055-ee15ce98c436",
+    "revision": 2,
+    "checkpointSha256": "e07b3f09b74ac94df3bad45cb145b9537013f1d7930a13b8a47d07133afea2b5"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "labeledSheet": {
+      "path": "review/labeled-source-review.png",
+      "sha256": "2e395ba42a99b671f0b75ee3aaec7025d5f9192e6845a5f735b62b1da4ceff9d",
+      "bytes": 5223120
+    },
+    "files": [
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/bradley-blockout/front-left.png",
+        "sha256": "48d0ca3fbd10e004742d1ee4d151b286bc9b74fa134095eca4594084be4276af",
+        "bytes": 631886
+      },
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/bradley-blockout/front-right.png",
+        "sha256": "623b4e18857e744e35b62a230686cb9742abe8d4017f7dc663a45e95a5707f19",
+        "bytes": 635035
+      },
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/bradley-blockout/front.png",
+        "sha256": "2930643f46dcc4c7fdf0918c8bbf605c742260cc6e9b308f64fb923d3ba5250b",
+        "bytes": 592752
+      },
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/bradley-blockout/left.png",
+        "sha256": "14f463f1779953648fed5b4d8c9800ee8dd203a64924d44df7523b8d9302423a",
+        "bytes": 563221
+      },
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/bradley-blockout/rear-left.png",
+        "sha256": "fbd2cf972692ba2a7b3a497f5000625d7abb7d443e73cc0169c283050d448fe2",
+        "bytes": 626036
+      },
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/bradley-blockout/rear-right.png",
+        "sha256": "8347c9358154afd59047194405dfe3f2fa699cb895c609591bbba5e21c0b32ee",
+        "bytes": 629035
+      },
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/bradley-blockout/rear.png",
+        "sha256": "f8976bd71c0433e9b84f0d928c7d6aab066bd4d257c4d3b5ef108f52235e69b7",
+        "bytes": 594967
+      },
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/bradley-blockout/right.png",
+        "sha256": "f40b8be893cb172ba5ad5c7e0ad735ce03d564c3b48cb1058c6359c43ab88b34",
+        "bytes": 564617
+      },
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/bradley-blockout/top.png",
+        "sha256": "3c4532a259fa839f2f8e871611173a29108ea84bab6f1bd29c3e0365a20ea016",
+        "bytes": 665259
+      },
+      {
+        "path": "production/renders/revision-2/production/run-gyEKyP/pass-2/contact-sheet.png",
+        "sha256": "7cea597c415564a8eba0193e57b824041c74971fc10798d7158536927feadef5",
+        "bytes": 5138114
+      },
+      {
+        "path": "evidence/replacement-payload-D03.json",
+        "sha256": "22a97e685e8ac943f8cb96305563b76a9f82e2c45712d5fd64b27f197a604f52",
+        "bytes": 79236
+      },
+      {
+        "path": "evidence/parts-D03.json",
+        "sha256": "eeb7661a6c5489e149e9c7cbf8ee89b0454b0162ce78f5ebcf402c9cc1a88d2a",
+        "bytes": 335
+      },
+      {
+        "path": "review/labeled-source-review.png",
+        "sha256": "2e395ba42a99b671f0b75ee3aaec7025d5f9192e6845a5f735b62b1da4ceff9d",
+        "bytes": 5223120
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George",
+    "decidedAt": "2026-11-05T03:47:00.000Z",
+    "quote": "D02,03, W02, 03 need additional polish, I thought I said that"
+  },
+  "notes": [
+    "Condition-appearance review of recipe candidate r1 (the attempt-record gate enum has no condition-appearance gate, so source-approval is used as the nearest gate). George asked for further polish (changes requested), recorded in recipe-set revision 2 with per-recipe blockers.",
+    "Superseded by the polish r2 candidate recorded in recipe-set revision 3.",
+    "Rendered with the legacy flat review renderer (no dimension record bound); the polish r2 candidates bind per-recipe dimension records and use static-neutral-studio-v1.",
+    "Condition references are recorded in the job brief; their bytes are not archived. Source .blend/GLB not archived (not approved)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

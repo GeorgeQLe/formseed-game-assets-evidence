@@ -1,0 +1,42 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2a2-bradley-destroyed-w02",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "e5bdcd6e-9a78-4bf3-822d-79c9306d0d21",
+    "revision": 2,
+    "checkpointSha256": "cdb4d5e8c4b73ca6a91136bafad58bd013cf1c4ade1b175b35de70c699f2be98"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "files": [
+      {
+        "path": "evidence/replacement-launcher-W02.json",
+        "sha256": "daeb65d3cb04b45dab1ca0458725e10215ab76428bae829dc930e18f5f25bccf",
+        "bytes": 35352
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Superseded before review: its dimension measurements showed the source rear door left upright where the dropped ramp had been, and the derived stage cannot remove a retained source mesh; rebuilt with the door dropping with the ramp as job 98555a54-fd68-4387-9a15-a89b13d920f2.",
+    "decidedAt": "2026-11-05T04:34:00.000Z"
+  },
+  "notes": [
+    "Agent disposition before human review; George approved proceeding with the archive on 2026-11-05. No human rejection or approval is claimed.",
+    "No review render was made for this revision; dimension validation only. First replacement payload sha256 0392fbb7289787cc13ed822e67287715672a335a50b8fbc41987e74c37873ac5 (bytes superseded in the working tree; the launcher replacement file is archived).",
+    "Source .blend/GLB not archived (abandoned attempt)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
