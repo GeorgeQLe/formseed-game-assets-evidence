@@ -1,0 +1,101 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2a2-bradley-destroyed-w02",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "be5015a1-7e7e-4ff6-a388-45a8e07332e0",
+    "revision": 1,
+    "checkpointSha256": "4b09f8d3d3ca2ff3d7384bb249ff845d3f1d222738d0a88340891f8ab7fb8afc"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "files": [
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/bradley-blockout/front-left.png",
+        "sha256": "d5d7d62ee9450ee081c6f541e247c7f7844be61251511e308dc8ed703a88643a",
+        "bytes": 658406
+      },
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/bradley-blockout/front-right.png",
+        "sha256": "c6b824da23d85bcb6a3e72dc8693b7eda21678741269fd70b3eb94a38ba1adc8",
+        "bytes": 659072
+      },
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/bradley-blockout/front.png",
+        "sha256": "93efa70bc83dc101ae060d97f30a334963951275f0971fb015202518ec0ed074",
+        "bytes": 561635
+      },
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/bradley-blockout/left.png",
+        "sha256": "df8c5e48cb42d27134a129c3af300e931f8cb8ec49875bbc8b84abc8ed966571",
+        "bytes": 582089
+      },
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/bradley-blockout/rear-left.png",
+        "sha256": "716c5474df61aaa669e139fc2899e355b8435a4ca2ad0486fbaf1ecc7e602b01",
+        "bytes": 635843
+      },
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/bradley-blockout/rear-right.png",
+        "sha256": "c2bcb531d71ab072bf26f9e7e6ebdbfe33487144d97655f99a8cf681aab3f248",
+        "bytes": 640272
+      },
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/bradley-blockout/rear.png",
+        "sha256": "8d2771a142927b0ec41de3da5662f0eb6ea5b5b1da75f8be1e4634e8b3e750e5",
+        "bytes": 550186
+      },
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/bradley-blockout/right.png",
+        "sha256": "ac3026eeb3b209a998ac58331bd1c392d9aee8fe82a41a564bd6a694469f9768",
+        "bytes": 583884
+      },
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/bradley-blockout/top.png",
+        "sha256": "f7f74f8dfac5ffaf1767674b9f80c38c1819f0397ce9f2ff1482dd4653099cf1",
+        "bytes": 685601
+      },
+      {
+        "path": "production/renders/revision-1/production/run-LLcitg/pass-2/contact-sheet.png",
+        "sha256": "d9638692f5af4c47d8961c4212f0a322cba9b95c4b226a6c061ba2c38d8f5376",
+        "bytes": 5391899
+      },
+      {
+        "path": "evidence/spike-W02.json",
+        "sha256": "f059a4fb1dcc3f8b6c183a8eaa98f4afcafc02a858e52f34634f2fa057d7df96",
+        "bytes": 63404
+      },
+      {
+        "path": "evidence/atlas-spike-orient.png",
+        "sha256": "324a5de46c1e42b3966a87591d95ace2dec857d38dfe7afd15de681247cd7207",
+        "bytes": 1699
+      },
+      {
+        "path": "evidence/atlas-spike-orient-r2.png",
+        "sha256": "0e626365deddd0495eeaae4f689861e2d225e26f920d565c7b7a64973e7eb543",
+        "bytes": 7015
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Texture-binding spike, not a candidate: proved bind_base_color_texture (subject-box-atlas-v1) works and found that review renders ignored bound textures (fixed by FormSeed3D PR #93). FormSeed2D atlas job fa179344-a298-44cb-b675-8def8f458e6f.",
+    "decidedAt": "2026-11-05T15:00:00.000Z"
+  },
+  "notes": [
+    "Agent disposition before human review; George approved archiving these superseded attempts on 2026-11-05. No human rejection or approval is claimed.",
+    "Source .blend/GLB not archived (abandoned attempt)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
