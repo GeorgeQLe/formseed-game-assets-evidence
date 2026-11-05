@@ -1,0 +1,113 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2a2-bradley-damaged-d02",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "3e4de06c-0bf1-47bf-b154-63c54e159ad9",
+    "revision": 3,
+    "checkpointSha256": "01b8758e07f4818ed8cd694b281988ab332941389ef6d156fb579d1f10fe2187"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "labeledSheet": {
+      "path": "review/labeled-source-review.png",
+      "sha256": "1e932354bbc36ee981b65ce2d6c1c3b6bd6ff5548ce4b062983b3ff8c12650ef",
+      "bytes": 5310453
+    },
+    "files": [
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/bradley-blockout/front-left.png",
+        "sha256": "bbeb5f17eb1eb5140b7f6d84eebd686e5b290787e0c6a6649d13ac549aa50506",
+        "bytes": 658117
+      },
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/bradley-blockout/front-right.png",
+        "sha256": "89695991aee4f43185324bf6c6ca4c614fffb910842525fb1ce55c97edb9647b",
+        "bytes": 653034
+      },
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/bradley-blockout/front.png",
+        "sha256": "e049a0e60719ccc1cea2ac6846032bd69442e9e46e4ccf8be7eb8b3f27e2a688",
+        "bytes": 558871
+      },
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/bradley-blockout/left.png",
+        "sha256": "3a7a02406275044fe9d82293b8347d6d24579c7dd5623daf96f6278daa1e0cae",
+        "bytes": 587751
+      },
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/bradley-blockout/rear-left.png",
+        "sha256": "96cf276dff5e02ca3bcec792feaca2808feef0d575ddb4d23915766d441a9e76",
+        "bytes": 646839
+      },
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/bradley-blockout/rear-right.png",
+        "sha256": "d9c55b885061f98c3305d451069ce30f18c658497c28640377fa0cb691067937",
+        "bytes": 642511
+      },
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/bradley-blockout/rear.png",
+        "sha256": "930201d11d8eb2aad7d6cf5f0922ca88a0efe4e9530c3d0ea4db1c63b44028c8",
+        "bytes": 552902
+      },
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/bradley-blockout/right.png",
+        "sha256": "4a025bdb1157e4b1c90f58ee48d8171a70594f89c955e27ae1fd79dca2f6440b",
+        "bytes": 581179
+      },
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/bradley-blockout/top.png",
+        "sha256": "5024104c2eee242d32acf4322b0abbdbc3d133f44b987ee0fa6ff53af1c0ce0b",
+        "bytes": 677672
+      },
+      {
+        "path": "production/renders/revision-3/production/run-i08ccq/pass-2/contact-sheet.png",
+        "sha256": "e935879530b99bc1333eb0a6fc048450dbef3acbda342b8c018b85f87c61ea97",
+        "bytes": 5379932
+      },
+      {
+        "path": "evidence/payload-D02.json",
+        "sha256": "e2af5789a4724528093f8919d163648e10e0527e521ef2083fb0be245888025d",
+        "bytes": 375598
+      },
+      {
+        "path": "evidence/replace-D02-r2.json",
+        "sha256": "f4bad4c65d8c6b213dd56d01a38d59d432e80f6dd28bcf8073d5ba4ca08233ff",
+        "bytes": 375589
+      },
+      {
+        "path": "evidence/parts-D02.json",
+        "sha256": "e7bc3eae2ced844d23864d81df7e2bbdc8bda5398ed420db08e3cb8a42ac3885",
+        "bytes": 141
+      },
+      {
+        "path": "review/labeled-source-review.png",
+        "sha256": "1e932354bbc36ee981b65ce2d6c1c3b6bd6ff5548ce4b062983b3ff8c12650ef",
+        "bytes": 5310453
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George",
+    "decidedAt": "2026-11-05T07:00:00.000Z",
+    "quote": "I think they need deeper polish"
+  },
+  "notes": [
+    "Condition-appearance review of the polish r2 candidate (the attempt-record gate enum has no condition-appearance gate, so source-approval is used as the nearest gate). George asked for deeper polish and chose the textures + geometry route (changes requested).",
+    "Blockers recorded in damaged recipe-set revision 4.",
+    "Condition references are recorded in the job brief; their bytes are not archived. Source .blend/GLB not archived (not approved)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

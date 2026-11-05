@@ -1,0 +1,108 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2a2-bradley-damaged-d03",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "b21100a1-36c6-48f9-b07c-defa483f7370",
+    "revision": 1,
+    "checkpointSha256": "b2faaa06225cb4f569f7a1b626f7e96587ed339b4fd3c61d53e4241b55e0aee6"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "labeledSheet": {
+      "path": "review/labeled-source-review.png",
+      "sha256": "db2f27287ae7cb5db341deaf6c9028237b6822ba969f9ece3a1527aa5c744d4c",
+      "bytes": 5332852
+    },
+    "files": [
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/bradley-blockout/front-left.png",
+        "sha256": "16a0f5291de8f32b024adc9808ffb0a911b510ea6386c231b3d1e1922276694d",
+        "bytes": 657056
+      },
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/bradley-blockout/front-right.png",
+        "sha256": "1762bdc6593c6de3df99227a6c483dc10abdebea1e942ed7706c4bd404980ba3",
+        "bytes": 663633
+      },
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/bradley-blockout/front.png",
+        "sha256": "ae5d3f3461597051cbdb361dca4f945f6c211e5a884c1d0bc307cb9ff85b9e15",
+        "bytes": 563329
+      },
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/bradley-blockout/left.png",
+        "sha256": "dd58795dca236da1b2e082e3fceedc30427d1e8d3e8bf572459b32ba37e038f6",
+        "bytes": 581528
+      },
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/bradley-blockout/rear-left.png",
+        "sha256": "ade48d4e31107d598bd1ca3f5ade0c1fe0c542f50cde98d74e12c3e31de00aa0",
+        "bytes": 640485
+      },
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/bradley-blockout/rear-right.png",
+        "sha256": "3d2bc2b620bd570c3f8dbba014433bea97da961982633c6efc3fd4e6e5f78917",
+        "bytes": 648905
+      },
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/bradley-blockout/rear.png",
+        "sha256": "59690d5d8ebf69807ffa7aa0234d8501d9efee543f652dc40d197570acd70df4",
+        "bytes": 551764
+      },
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/bradley-blockout/right.png",
+        "sha256": "45805fe1d8428d8d80c1e6b1f8412ccfb7b3e75fac750088f4aa1cb35016c3dd",
+        "bytes": 582999
+      },
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/bradley-blockout/top.png",
+        "sha256": "582cd43403437aa940fca69af29a9140cd4216cfef235dec830261dec8429edc",
+        "bytes": 685605
+      },
+      {
+        "path": "production/renders/revision-1/production/run-fDnyxb/pass-2/contact-sheet.png",
+        "sha256": "d4610f90d13e45a15d72ef823a3eadaba95622bf2a63c9cd2e5f239014d3791d",
+        "bytes": 5400554
+      },
+      {
+        "path": "evidence/payload-D03.json",
+        "sha256": "934a6371a7d7962872e570ccf5e8cef57442fca8fd3a7336956ed2ee5b1e4eee",
+        "bytes": 541484
+      },
+      {
+        "path": "evidence/parts-D03.json",
+        "sha256": "6f3d61919a4d2108120d36cf31db26a7c7495f5a2f825e42099e7fa20ea13fd7",
+        "bytes": 341
+      },
+      {
+        "path": "review/labeled-source-review.png",
+        "sha256": "db2f27287ae7cb5db341deaf6c9028237b6822ba969f9ece3a1527aa5c744d4c",
+        "bytes": 5332852
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George",
+    "decidedAt": "2026-11-05T07:00:00.000Z",
+    "quote": "I think they need deeper polish"
+  },
+  "notes": [
+    "Condition-appearance review of the polish r2 candidate (the attempt-record gate enum has no condition-appearance gate, so source-approval is used as the nearest gate). George asked for deeper polish and chose the textures + geometry route (changes requested).",
+    "Blockers recorded in damaged recipe-set revision 4.",
+    "Condition references are recorded in the job brief; their bytes are not archived. Source .blend/GLB not archived (not approved)."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
