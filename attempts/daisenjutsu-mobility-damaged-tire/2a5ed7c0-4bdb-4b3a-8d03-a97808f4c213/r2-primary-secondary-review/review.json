@@ -1,0 +1,285 @@
+{
+  "candidate": "N127",
+  "assetId": "daisenjutsu.condition-icon.mobility-damaged-tire.v1",
+  "canonicalSha256": "a469c3e7bb6998c7a50c8085172db9d9b790f4d6e01c83954240be80c882231d",
+  "primary": {
+    "key": "mobility-damaged-tire",
+    "representative": "N129",
+    "qualifying": [],
+    "finding": "N129 circular rim/hub with a flattened lower edge is the clearest wheel construction. Thick lower rubber mass still looks like a pedestal/dial base, and side tear weak at24. N127 tallring reads dial/plaque; N128 tread channels read an hourglass/lattice rather than rubber. Native diversity is ring/plinth versus treadblock; N127/N129 partially collapse.",
+    "status": "unqualified-diagnostic",
+    "improvement": "Q-tail removed; flat tire semantics unresolved."
+  },
+  "independentAssessmentSha256": "9e181e0f25ab67ba44d9c6427c13fba709ade251f839a18c0e63fdf24053b6a3",
+  "independentAssessment": {
+    "schema": "daisenjutsu-r4-independent-assessment/1",
+    "reviewer": "/root",
+    "independence": {
+      "primaryAssessmentRead": false,
+      "planReadAfterNeutralObservations": true,
+      "neutralObservationFile": "neutral-observations.json",
+      "priorAwareness": "Requested families and brief author design-feature summary known; not a fully blind recognition study."
+    },
+    "technicalValidation": {
+      "status": "310 supplied pins verified; zero mismatches",
+      "evidence": "independent-mask-check.json",
+      "scope": "Hashes and actual native24 mask comparisons only; producer handles full export-budget verification."
+    },
+    "visualRecommendation": {
+      "formal": "no-go",
+      "reason": "Two meanings remain unresolved; smooth antialiasing conflicts with the bound historical pixel-discipline rubric. No formal score or deterministic go invented.",
+      "direction": "Six of eight new family candidates are provisionally stronger; two remain diagnostic.",
+      "humanApproval": "absent"
+    },
+    "selected": [
+      {
+        "id": "N123",
+        "family": "Tired",
+        "disposition": "provisional-working-candidate-unapproved",
+        "finding": "Static bent-over body, lowered head and forearm across thighs read exertion/rest at24 and32. Removes walking stride and establishes shared bodily vocabulary with N124.",
+        "strongestObjection": "Can mean injury or catching breath; campaign fatigue is contextual, not a universal pictogram."
+      },
+      {
+        "id": "N124",
+        "family": "Exhausted",
+        "disposition": "provisional-working-candidate-unapproved",
+        "finding": "Seated/slumped torso and extended bent legs clearly lower the body compared with N123. Head/torso/legs remain distinguishable at24; more clearly human than N125/N126.",
+        "strongestObjection": "Could mean injured or resting; strongest when learned alongside the standing tired pose."
+      },
+      {
+        "id": "N127",
+        "family": "Damaged tire",
+        "disposition": "unqualified-diagnostic",
+        "finding": "Flattened lower bulge is visible, but tall ring and hub also resemble bell/bottle/marker. Tire identity insufficiently secure at24.",
+        "strongestObjection": "Deflation is plausible only after label disclosure. Do not mark family resolved."
+      },
+      {
+        "id": "N132",
+        "family": "Rudder damaged",
+        "disposition": "unqualified-diagnostic",
+        "finding": "Ship/water context removes the prior pistol collision. Detached canted underwater appendage is visible, but exact rudder versus other appendage/propulsion remains uncertain.",
+        "strongestObjection": "Core steering identity remains ambiguous; naval context alone does not close it."
+      },
+      {
+        "id": "N133",
+        "family": "Sonar offline",
+        "disposition": "provisional-working-candidate-unapproved",
+        "finding": "Ship over downward widening signal fronts with cancellation slash communicates disabled underwater sensing. More coherent than the prior anchor/cross.",
+        "strongestObjection": "Arcs are symbolic and require naval context; must remain distinct from radar dish and generic communications."
+      },
+      {
+        "id": "N138",
+        "family": "Flooding",
+        "disposition": "provisional-working-candidate-unapproved",
+        "finding": "Wave occupies the visible hull interior and crosses the vessel; conveys water inside a ship, clearer than arrow/transfer N136.",
+        "strongestObjection": "Ordinary vessel-in-water remains a secondary reading; tiny down-arrow is not reliably identified at24 and cannot carry the meaning."
+      },
+      {
+        "id": "N139",
+        "family": "Shaken",
+        "disposition": "provisional-working-candidate-unapproved",
+        "finding": "Helmet plus one downward chevron remains clean at24/32 and distinct from two-chevron N140. Appropriate shared minor-pressure vocabulary.",
+        "strongestObjection": "Severity convention is learned. Keep explicit Daisenjutsu state mapping; do not imply Omega semantics are identical."
+      },
+      {
+        "id": "N140",
+        "family": "Suppressed",
+        "disposition": "provisional-working-candidate-unapproved",
+        "finding": "Two downward chevrons remain separate above the helmet at24 and give a clear next pressure tier.",
+        "strongestObjection": "Helmet occupies less optical area than the human poses; spacing/weight must be checked as a complete set. Do not reuse this ladder for Panicked without a separate decision."
+      }
+    ],
+    "notSelected": [
+      {
+        "id": "N121",
+        "reason": "Resting/leaning interpretation but inferior to N123; support/cane or stride ambiguity remains."
+      },
+      {
+        "id": "N122",
+        "reason": "Frontal shoulder arch reads clothing rather than bodily fatigue."
+      },
+      {
+        "id": "N125",
+        "reason": "Seated body and base merge into chair/boot competitor; weaker than N124."
+      },
+      {
+        "id": "N126",
+        "reason": "Horizontal base and merged upper silhouette can read seat/kettle; weaker human anatomy than N124."
+      },
+      {
+        "id": "N128",
+        "reason": "Tread-like pattern without convincing wheel or damage state."
+      },
+      {
+        "id": "N129",
+        "reason": "Ring/flat base retains camera/dial competitor; localized rupture not clear enough."
+      },
+      {
+        "id": "N130",
+        "reason": "Hanging bracket/anchor competitor; steering blade not clear."
+      },
+      {
+        "id": "N131",
+        "reason": "Central shaft/foot competitor; faulty underwater part without reliable rudder identity."
+      },
+      {
+        "id": "N134",
+        "reason": "Oblique strokes read motion/speed, not uniquely acoustic cancellation."
+      },
+      {
+        "id": "N135",
+        "reason": "Underwater oval plus signals plausible but weaker ship context than N133."
+      },
+      {
+        "id": "N136",
+        "reason": "Entry/transfer/docking arrow competes with ingress, and water meaning is weak."
+      },
+      {
+        "id": "N137",
+        "reason": "Swamping plausible but wave/ship relationships less clean than N138."
+      }
+    ],
+    "actualMaskDiversity": {
+      "evidence": "independent-mask-check.json",
+      "finding": "All pairs have different actual native24 masks. Visual construction differences are visible: side versus frontal support poses, alternate seated leg/base configurations, sidewall versus tread views, stern/underhung/detached blade layouts, downward/lateral/submerged signal fields, and breach/side-profile/submerged hull treatments. Fatigue variants are the narrowest conceptual exploration; especially N124/N125 share the seated concept despite different legs. No claim that different hashes alone establish diversity.",
+      "quantitativeLimit": "IoU and differing pixels are diagnostics, not a scoring threshold."
+    },
+    "setChecks": {
+      "contour": "No new clipping or halo visible in inspected images; holes and large separations survive24. Ivory-on-light is low contrast and must not be used unbacked in gameplay.",
+      "consistency": "New pressure icons are relatively small; body/boat symbols denser. Reinspect final19 sheet; no optical-weight parity claim yet.",
+      "scope": "All20 inspected on native24/32 sheets over dark/light/checker, plus all20 native24 dark8x. No actual battlefield/distance testing.",
+      "retained11": "Existing canonical hashes independently verified unchanged before this review; current full-set review still required."
+    },
+    "evidencePins": {
+      "neutral-manifest.json": "d31cc23491eba9b9a1848fa360c6d63811680f2c8cfffa802581a6928f7bd913",
+      "neutral-observations.json": "0d18873788ae794ecc97345f11653c69661b5a93d28e6cc33ea80034ffae9e42",
+      "construction-plan.json": "19687ccf942a68772669f019ab6c393ddac7f1103541ff747b6b1251d5856b43",
+      "production-ledger-current.json": "f57f8d786182b3f9ddf5ed790cdfff047a7a375c1f6654a6c92a3df4e1508cf8",
+      "independent-mask-check.json": "bdc725ee6cd081e735d2e492c2ecabf48e5cb0cb6e1554470d076faef8373638"
+    },
+    "candidatePins": [
+      {
+        "id": "N121",
+        "canonicalSha256": "3dd6999bc7690802f3e8bc16f4da96fdd81cbf2fc1824b5756d140045e58aa30",
+        "native24Sha256": "a61206f0eab1604e5e6b55f4a6d451ff20fa8b36cafe0c50d59ea989b9b544ea",
+        "native32Sha256": "4636ce86395530ce88f139a8b4832076771b44c690fe0c5a1bfe4b93fe979265"
+      },
+      {
+        "id": "N122",
+        "canonicalSha256": "4813a171709730649d064c791346f07735a689cc25a2eac665f5edd8a8058695",
+        "native24Sha256": "fcf7e558c79568437b152e13b4c4699ed9ee7850db1cf76aae7992c3d01b2f3e",
+        "native32Sha256": "feb9fadbe14a5e090c202df9e32790de5ee564a555ada44e3eb0d59afa60e049"
+      },
+      {
+        "id": "N123",
+        "canonicalSha256": "9c950f436e382d3fafbdcb8c7322e3f23d9b8319a5efe5c5e9507a08851607c6",
+        "native24Sha256": "d7b026a6a5b210ca13c96fc1f752af49518a2ac26fde554652727e9fd2a1580b",
+        "native32Sha256": "781f79631ae6d0c44e8979c0de91554ee3c675b3a5aa454466c1c5e873e849d0"
+      },
+      {
+        "id": "N124",
+        "canonicalSha256": "2076a438fe798d4267ee70bb81d3db05e4e34be226e5e6b482a22a1e11b49816",
+        "native24Sha256": "6bf599b706b4d3dcbcf4354045fd08b1dfa04ae5862854970f73bfecd10ca37f",
+        "native32Sha256": "a086a7648afcd9cca8ea0f0b504e80cf2de7ce0f06fff6436a8a92f44138f913"
+      },
+      {
+        "id": "N125",
+        "canonicalSha256": "210a1cc18f9e0c937f75ecf6d34a663b6c5cbce30b3e59fc26dc212a178d9ca3",
+        "native24Sha256": "91f7062179402ce29ec03ce7165d858eeae35b22383e9c9d2258cefeb464d5b3",
+        "native32Sha256": "f96b06799efd79cac337f7503f345386310e19368f9fb85677d6b362a6072b52"
+      },
+      {
+        "id": "N126",
+        "canonicalSha256": "cef7851b95968003d5c6e1455dbf83663d989df8252c3e161a1a3d69ed334b8c",
+        "native24Sha256": "f5b4bd66ef75ef203c94c438ebcbd69850506367a5a988970b3f888f8ee2b352",
+        "native32Sha256": "58e41438161b3fad272fbfb788f42c50629a9155ad4784dbfd1c2b746fa71a46"
+      },
+      {
+        "id": "N127",
+        "canonicalSha256": "a469c3e7bb6998c7a50c8085172db9d9b790f4d6e01c83954240be80c882231d",
+        "native24Sha256": "f6458f3697c06d729b1fecff7517a035bcc75087c2d7fb0cf334b4141d02f149",
+        "native32Sha256": "87cc5082d7ff89b018f53eeadb518ce797c1295e101ee51c99d6493baa92bb06"
+      },
+      {
+        "id": "N128",
+        "canonicalSha256": "cb9c3c297d01af61a2a17527fdfaf65a6833e70fddf16d5b6a3319ee572c4c09",
+        "native24Sha256": "ec0a1f9f5ea7c2f5a7329db785cdc0d32610639e9aca8ad4357d357d3a1aac82",
+        "native32Sha256": "164b099ec2c28ec055567c7b18d1a0f6d2b7134fd4f565b19eca4b3efa5083e4"
+      },
+      {
+        "id": "N129",
+        "canonicalSha256": "8993fbfc8c597f2c465da4cc063965d31ee145b979b454902df0bc63ce6fe90e",
+        "native24Sha256": "41e87c163caf7631f64d44d80100cf52a7216aacdd4003b0de5a14fb91468071",
+        "native32Sha256": "f9e5b2c1539849d81d9c60efc3635811beda86c84d46e30d3bb7b8e3f2d56e3f"
+      },
+      {
+        "id": "N130",
+        "canonicalSha256": "cba71b71f2a7601691819e13377537f0bbfe0436adb1b1ad068019887b918931",
+        "native24Sha256": "b143517a1453b7812cbf49fc3563b91140b3089fae6e23749fea235214ceab71",
+        "native32Sha256": "74a33e19a425bad4e062d366988e72df724f01d44a084e6a213e380efaff35e5"
+      },
+      {
+        "id": "N131",
+        "canonicalSha256": "1087d1fcbbfd5cf8d73ace67335c116368e0407518a67a62e356f4fcb03274eb",
+        "native24Sha256": "1650341efb08d77ba7a8655c5ef7bdf51d9198fd18267ac3fb8b22df291cc317",
+        "native32Sha256": "893a26aa73aaff9d7e528ec5fc0abf0c349401eafaddf60cb301075db06461cd"
+      },
+      {
+        "id": "N132",
+        "canonicalSha256": "c16bc8bebaf5b5d29ffee029f7d5b26fb79fb3111c9555ff1b31234864ecc406",
+        "native24Sha256": "32e98c0e6cf3b8a50c8a0ee469a25da9ebd746f848219ef38e0186c6857ba3f8",
+        "native32Sha256": "7f70ad1720498cbe50cfbec7e12c9f46bac279d98322fd63512683db2354a196"
+      },
+      {
+        "id": "N133",
+        "canonicalSha256": "c6dd6148f11960d95f3208984e9009da325ed411677316732b6eb94a3dedff16",
+        "native24Sha256": "31c0428e54d5e79cc26fb8221dcf41bf6be2a0baf6a26e01df5c83d77cb890dd",
+        "native32Sha256": "b64ca433c9e3b46a8d0d1d5cfd6b581036deeea2dbc642561af443aa477b9f97"
+      },
+      {
+        "id": "N134",
+        "canonicalSha256": "cbe98b1da389b1aeb3159b1469396c8f085ac2d68782a5edaf8fac5a0f383fb7",
+        "native24Sha256": "e04e701f9be48053cad93594b8a3e719c4836943579301b715ad646b0df80f2d",
+        "native32Sha256": "02d4c17636564551957927487f5d3760487d5beb50aea07508275f4734777262"
+      },
+      {
+        "id": "N135",
+        "canonicalSha256": "359b9bdc2dcaee159132c8be738ac497c56965d09498e74361259ab973391ca2",
+        "native24Sha256": "c27ce81a966a5500839140af6939b26af654eeb3bf3bd9b2be5a6b8a510e8348",
+        "native32Sha256": "5681bdc39d34dca3d6770b3b0620853c9782c1e2f8156715d515136b0fab6d9b"
+      },
+      {
+        "id": "N136",
+        "canonicalSha256": "82ade13054dde41e64254f8ac622f191d52dd470f6ac2d98e9f996e5ac54defa",
+        "native24Sha256": "d5ec30c8b7c2bcfe67243aea617b98c26512cc75bdc7fbfd851464259c562df7",
+        "native32Sha256": "50a91aaf48ca791dd9c2484b718093723d325e10e8df7ffd7014fed26bdb06a3"
+      },
+      {
+        "id": "N137",
+        "canonicalSha256": "b8705b753b8219354bd22c981d52be63f5b075201264bca044d6099a2ddaa8b0",
+        "native24Sha256": "0ad554c85cc39129beb09dd9d623bb474e15080a1bf26fe0e6413b4a442c919b",
+        "native32Sha256": "8931827f77cfdd70ea8c0c67eec85395a157155a58bcae7e7505b133b74aef97"
+      },
+      {
+        "id": "N138",
+        "canonicalSha256": "6b4a800331cc11b304bc5556401d31518b2abfa8434a9560bb892382cd139949",
+        "native24Sha256": "855ba4cae3c3e568257028da572752958585814ed0bc0b1638b8e5c29f41562c",
+        "native32Sha256": "d355ed8fc63189b364cf5256888bff8c362484e29d15169646372272a9635e4f"
+      },
+      {
+        "id": "N139",
+        "canonicalSha256": "74a95373928b9062d81a8a42f5f4c2a9da58e9f29605f6a7b9399506918079cc",
+        "native24Sha256": "612be899966944401f987fcad475c5e903dd57a168a325fb5744f6510dc9f1c1",
+        "native32Sha256": "788be4743f1edd24740085ed6db665568c87fb7c5bea18c9529fc1878411f928"
+      },
+      {
+        "id": "N140",
+        "canonicalSha256": "29ac63e3d390ff0e1d5730daec2e8cd110d9d867257a7a5a075b8058c0317519",
+        "native24Sha256": "95b37fa1cddee5b77c974525eab08f7a6c5b3c471e7d059ff2d3d9d9400ab3a5",
+        "native32Sha256": "15a5e7c97e0c39121532f45f86d8b94c3a02a4d8da99c0b95d649a838ce3c1b0"
+      }
+    ]
+  },
+  "decision": "Not retained as a qualified working candidate after independent review. A representative may remain in unqualified diagnostic package. No artwork approval or human rejection.",
+  "humanApproval": "absent"
+}
