@@ -1,0 +1,59 @@
+{
+  "candidate": "N23",
+  "assetId": "daisenjutsu.condition-icon.mobility-propulsion-impaired.v1",
+  "batch": 1,
+  "sourceSha256": "b69948bf4d6dc9ff83890cb6e90d429678f59b42a4734a3ef0354f99f598f5e1",
+  "reviewer": "independent-neutral-reviewer",
+  "assessmentSha256": "639034462eee887360f9107b06483852bb693d132cab3c0d9bbb49b625c88a49",
+  "familyFindings": {
+    "key": "mobility-propulsion-impaired",
+    "definingFeatures": [
+      "engine/drive subject",
+      "fault/speed-loss cue",
+      "distinct from track/tire/sensor"
+    ],
+    "candidates": [
+      {
+        "id": "N22",
+        "features": {
+          "engine/drive subject": "sufficient",
+          "fault/speed-loss cue": "uncertain",
+          "distinct from track/tire/sensor": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "observation": "Engine/camera-like housing; central slot and disconnected attachments can be normal details."
+      },
+      {
+        "id": "N23",
+        "features": {
+          "engine/drive subject": "uncertain",
+          "fault/speed-loss cue": "sufficient",
+          "distinct from track/tire/sensor": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "observation": "Crack is obvious but lightning-shaped cut makes battery/electric power a strong competing subject."
+      },
+      {
+        "id": "N24",
+        "features": {
+          "engine/drive subject": "sufficient",
+          "fault/speed-loss cue": "sufficient",
+          "distinct from track/tire/sensor": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Cracked engine housing is the primary first reading; diagonal split remains clear at both sizes."
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N24"
+    ],
+    "constructionDiversity": "Output interruption, jagged central split and diagonal fracture are materially different fault constructions.",
+    "correction": "N24 is a viable working candidate. Preserve its recognizable capped engine outline and clean diagonal fracture; N22 would need an unequivocal failure cue, N23 a less lightning-like fracture."
+  },
+  "decision": "Alternative not retained after independent family review; selected sibling remains unapproved.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "N90",
+  "assetId": "daisenjutsu.condition-icon.sensor-radar-offline.v1",
+  "batch": 2,
+  "sourceSha256": "7d582ff206a51879127ee052edab11a05c312a037163cd6f88dc62d9651be78e",
+  "reviewer": "/root/icon_b2_neutral",
+  "assessmentSha256": "c7c213247f986d21f43f087a37342ba686a5f2bb3a827d7d9b1d20f49e1fc266",
+  "familyFindings": {
+    "key": "sensor-radar-offline",
+    "definingFeatures": [
+      "radar dish subject",
+      "offline/failure cue",
+      "distinct from active sensing"
+    ],
+    "candidates": [
+      {
+        "id": "N88",
+        "features": {
+          "radar dish subject": "sufficient",
+          "offline/failure cue": "sufficient",
+          "distinct from active sensing": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Dish/feed-arm/stand recognition and separated x are strong. No normal emitted waves remain. Offline read immediate.",
+        "evidenceReference": "neutral-batch2-observations.json#N88"
+      },
+      {
+        "id": "N89",
+        "features": {
+          "radar dish subject": "sufficient",
+          "offline/failure cue": "sufficient",
+          "distinct from active sensing": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Dish remains readable after stand disconnect; clear gap and x reinforce failure. No active-signal ambiguity.",
+        "evidenceReference": "neutral-batch2-observations.json#N89"
+      },
+      {
+        "id": "N90",
+        "features": {
+          "radar dish subject": "sufficient",
+          "offline/failure cue": "sufficient",
+          "distinct from active sensing": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Dish and x remain clear; local dark notch is visible but adds little beyond N88. Viable semantic candidate, weakly independent exploration.",
+        "evidenceReference": "neutral-batch2-observations.json#N90"
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N88",
+      "N89",
+      "N90"
+    ],
+    "constructionDiversity": "N89 changes mount topology meaningfully; N90 is N88 with a small notch, near-duplicate masks. Do not claim three substantially different constructions.",
+    "correction": "Retain N88 or N89 provisionally for full-set comparison; N90 adds redundant detail with no semantic benefit. No need to obscure recognizable dish further."
+  },
+  "decision": "Alternative not retained after independent family review; selected sibling remains unapproved.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

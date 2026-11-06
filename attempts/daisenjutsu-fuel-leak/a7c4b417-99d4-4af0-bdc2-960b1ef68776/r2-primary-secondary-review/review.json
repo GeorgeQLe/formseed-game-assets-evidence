@@ -1,0 +1,59 @@
+{
+  "candidate": "N52",
+  "assetId": "daisenjutsu.condition-icon.fuel-leak.v1",
+  "batch": 1,
+  "sourceSha256": "d0fdbdb95f5a179ca2595d52aa99e655291372122a0035bc0cbd0b68debc2ef1",
+  "reviewer": "independent-neutral-reviewer",
+  "assessmentSha256": "639034462eee887360f9107b06483852bb693d132cab3c0d9bbb49b625c88a49",
+  "familyFindings": {
+    "key": "fuel-leak",
+    "definingFeatures": [
+      "fuel subject",
+      "uncontrolled escaping fuel",
+      "distinct from normal refueling/fire"
+    ],
+    "candidates": [
+      {
+        "id": "N52",
+        "features": {
+          "fuel subject": "sufficient",
+          "uncontrolled escaping fuel": "uncertain",
+          "distinct from normal refueling/fire": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "observation": "Pump plus drop is a normal fuel/dispensing convention; leak not established."
+      },
+      {
+        "id": "N53",
+        "features": {
+          "fuel subject": "sufficient",
+          "uncontrolled escaping fuel": "sufficient",
+          "distinct from normal refueling/fire": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Broken/disconnected hose and escaped drop establish adverse fuel loss; first reading supports leak."
+      },
+      {
+        "id": "N54",
+        "features": {
+          "fuel subject": "sufficient",
+          "uncontrolled escaping fuel": "uncertain",
+          "distinct from normal refueling/fire": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "observation": "Horizontal pump body split can read gauge stripe; drop still resembles ordinary fueling."
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N53"
+    ],
+    "constructionDiversity": "Hose rupture, separated hose end and cracked reservoir are different mechanisms, although N52 and N54 do not make uncontrolled escape clear.",
+    "correction": "N53 is viable as a working fuel-leak symbol. Keep the hose interruption obvious and drop displaced below it; do not turn it into a clean nozzle dispensing normally."
+  },
+  "decision": "Alternative not retained after independent family review; selected sibling remains unapproved.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

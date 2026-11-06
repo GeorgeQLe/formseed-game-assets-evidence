@@ -1,0 +1,59 @@
+{
+  "candidate": "N36",
+  "assetId": "daisenjutsu.condition-icon.control-flight-damaged.v1",
+  "batch": 1,
+  "sourceSha256": "4a6c7ea7d5b20d70ff6ccb1cd145b855239ac1202cc46ac4b8158a8d39e16aa9",
+  "reviewer": "independent-neutral-reviewer",
+  "assessmentSha256": "639034462eee887360f9107b06483852bb693d132cab3c0d9bbb49b625c88a49",
+  "familyFindings": {
+    "key": "control-flight-damaged",
+    "definingFeatures": [
+      "aircraft subject",
+      "damaged control surface",
+      "distinct from weapon/drop/motion"
+    ],
+    "candidates": [
+      {
+        "id": "N34",
+        "features": {
+          "aircraft subject": "sufficient",
+          "damaged control surface": "sufficient",
+          "distinct from weapon/drop/motion": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Primary first reading is airplane with broken tail: missing right tail matches the nearby displaced piece. Dropping an object is secondary."
+      },
+      {
+        "id": "N35",
+        "features": {
+          "aircraft subject": "sufficient",
+          "damaged control surface": "uncertain",
+          "distinct from weapon/drop/motion": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "observation": "Aircraft appears complete; loose rear piece looks dropped rather than a missing control surface."
+      },
+      {
+        "id": "N36",
+        "features": {
+          "aircraft subject": "sufficient",
+          "damaged control surface": "uncertain",
+          "distinct from weapon/drop/motion": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "observation": "Detached whole V-shaped tail reads an upward chevron/motion marker."
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N34"
+    ],
+    "constructionDiversity": "Unilateral tail loss, side fragment and detached full tail are different layouts; N35's supposedly damaged edge is not legible and N36 changes to arrow semantics.",
+    "correction": "N34 is viable as a working control-damage symbol; keep the matching missing tail section explicit. Improve others with a near-matching hinge/edge gap, not a distant arrow-shaped fragment."
+  },
+  "decision": "Alternative not retained after independent family review; selected sibling remains unapproved.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

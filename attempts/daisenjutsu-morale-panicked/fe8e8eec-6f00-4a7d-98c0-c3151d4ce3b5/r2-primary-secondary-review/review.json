@@ -1,0 +1,62 @@
+{
+  "candidate": "N77",
+  "assetId": "daisenjutsu.condition-icon.morale-panicked.v1",
+  "batch": 2,
+  "sourceSha256": "18964a37913efb257033ccf07cb5f51fa2b32e03db8e894ee2e8386c4a33e4d7",
+  "reviewer": "/root/icon_b2_neutral",
+  "assessmentSha256": "c7c213247f986d21f43f087a37342ba686a5f2bb3a827d7d9b1d20f49e1fc266",
+  "familyFindings": {
+    "key": "morale-panicked",
+    "definingFeatures": [
+      "human identifiable",
+      "panic/loss of initiative",
+      "distinct from ordinary gestures/stun"
+    ],
+    "candidates": [
+      {
+        "id": "N76",
+        "features": {
+          "human identifiable": "sufficient",
+          "panic/loss of initiative": "sufficient",
+          "distinct from ordinary gestures/stun": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Wide eyes, O-mouth and cheek/head-bracketing arms jointly establish alarm/fear. Unlike prior raised-arm figures, this is not a neutral celebration gesture; no orbit/rank cues.",
+        "evidenceReference": "neutral-batch2-observations.json#N76"
+      },
+      {
+        "id": "N77",
+        "features": {
+          "human identifiable": "uncertain",
+          "panic/loss of initiative": "uncertain",
+          "distinct from ordinary gestures/stun": "failed"
+        },
+        "native24": "failed",
+        "native32": "failed",
+        "observation": "Joined overhead arm loops produce trophy/tree and raised-arm readings. Head is not isolated; celebration/surrender objection persists.",
+        "evidenceReference": "neutral-batch2-observations.json#N77"
+      },
+      {
+        "id": "N78",
+        "features": {
+          "human identifiable": "sufficient",
+          "panic/loss of initiative": "uncertain",
+          "distinct from ordinary gestures/stun": "failed"
+        },
+        "native24": "failed",
+        "native32": "failed",
+        "observation": "Dynamic running/falling silhouette reads action but not definite fear/loss of initiative. Head/arm merge preserves dancing/fleeing ambiguity.",
+        "evidenceReference": "neutral-batch2-observations.json#N78"
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N76"
+    ],
+    "constructionDiversity": "Face, symmetric overhead-body and recoiling asymmetric-body are different constructions. Only face removes the gesture ambiguity.",
+    "correction": "Retain N76 as provisional working candidate; full-set HUD comparison still needed. Further alternatives must keep frightened facial/closed-head gesture cues rather than free raised arms."
+  },
+  "decision": "Alternative not retained after independent family review; selected sibling remains unapproved.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

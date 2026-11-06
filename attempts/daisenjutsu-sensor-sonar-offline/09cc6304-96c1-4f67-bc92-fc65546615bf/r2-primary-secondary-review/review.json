@@ -1,0 +1,144 @@
+{
+  "candidate": "N99",
+  "assetId": "daisenjutsu.condition-icon.sensor-sonar-offline.v1",
+  "batch": 3,
+  "sourceSha256": "abbd8fae9b3c398e1f4ca3fee27b1ff42aa23ef9d044bd8c3c90fc0c5a5c316b",
+  "reviewer": "/root/icon_finish/neutral_final",
+  "assessmentSha256": "a54a78850756e621ad73886e62494ebd5648b0f9eb36dfa97d1e4d7ff70c00df",
+  "familyFindings": {
+    "key": "sensor-sonar-offline",
+    "criteria": [
+      "Underwater acoustic sensor loss; distinguish from radar antenna shape.",
+      "Recognizable at the proposed 24 logical px display size; identifiable by shape without color or text."
+    ],
+    "definingFeatures": [
+      "underwater acoustic subject",
+      "offline cue",
+      "distinct from generic arrow/anchor"
+    ],
+    "attemptsConsumed": 9,
+    "overallCeiling": 9,
+    "candidates": [
+      {
+        "id": "N97",
+        "candidate": "G",
+        "features": {
+          "underwater acoustic subject": "uncertain",
+          "offline cue": "sufficient",
+          "distinct from generic arrow/anchor": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "viableWorkingCandidate": false,
+        "observation": "X is clear; top boat profile reads arrow/aircraft, and lower single arc reads bowl/anchor rather than acoustic field.",
+        "neutralEvidence": "neutral-batch3-observations.json#N97",
+        "pins": {
+          "canonical": {
+            "jobId": "ae93fc9e-ca2d-4768-8486-893e84c0d771",
+            "revision": 2,
+            "auditHead": "faf6be68a68eb0b3aaf5cb34fdc002c6934325960ee72ad58bd1d2f5b17c0c1a",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/ae93fc9e-ca2d-4768-8486-893e84c0d771/revisions/2.png",
+            "sha256": "ff3b47d2279c85bf6c8e53135fb84a0dce23ccb6f66e1f699e3c62e52c2be9d0"
+          },
+          "native24": {
+            "jobId": "e2971194-1742-451d-8dbf-7033490793e5",
+            "revision": 2,
+            "auditHead": "a396057cd6ddbeac090169828b61d6f7671f1c2831093a27e9e5cd3785440223",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/e2971194-1742-451d-8dbf-7033490793e5/revisions/2.png",
+            "sha256": "7b7dcde041e7a17aac246dc63d53e3863924b2d63ec5494f1e1dbb39b7e513cf"
+          },
+          "native32": {
+            "jobId": "9402beae-372e-4b31-a4df-c89a46d76fcd",
+            "revision": 2,
+            "auditHead": "507aa86c8541ea85164d7ee9272af1b6bf91f0ef7f940bfd15f4e6754df8f1a2",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/9402beae-372e-4b31-a4df-c89a46d76fcd/revisions/2.png",
+            "sha256": "0998ae5fd4c77f70476786ebc9dc18d198b53c416e6bce120a74136e19269d8b"
+          }
+        }
+      },
+      {
+        "id": "N98",
+        "candidate": "H",
+        "features": {
+          "underwater acoustic subject": "uncertain",
+          "offline cue": "sufficient",
+          "distinct from generic arrow/anchor": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "viableWorkingCandidate": false,
+        "observation": "Asymmetric lower arc changes layout but does not establish sonar. Ship/transducer interpretation needs label.",
+        "neutralEvidence": "neutral-batch3-observations.json#N98",
+        "pins": {
+          "canonical": {
+            "jobId": "4143e70d-d548-41ef-814f-5957610348e8",
+            "revision": 2,
+            "auditHead": "c59630d92c7fdee51959b1590c02132630f9b5ce50447a0b9054a1d3f505b075",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/4143e70d-d548-41ef-814f-5957610348e8/revisions/2.png",
+            "sha256": "0d3651a74e3bf7d6f5e8de99c37b88c344e42a2f91353aa2fd9a5f21050e3f49"
+          },
+          "native24": {
+            "jobId": "4cb541bf-2374-4327-b91c-bb8fcd0aa364",
+            "revision": 2,
+            "auditHead": "2084dc2abd06470e6840472bccfbc0126bc7c2660a9cd6ddf065782da4bc2f80",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/4cb541bf-2374-4327-b91c-bb8fcd0aa364/revisions/2.png",
+            "sha256": "d5c122235a8a092adc974ceab380fb90187ec59748bcae645126b6ae185f5196"
+          },
+          "native32": {
+            "jobId": "0bd5a89c-91cd-48ae-ab8b-78dcc497b2f5",
+            "revision": 2,
+            "auditHead": "21bee40ba506751092d05754f99dd36b762fa55d01638834c00fd34c9ff41bf2",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/0bd5a89c-91cd-48ae-ab8b-78dcc497b2f5/revisions/2.png",
+            "sha256": "8f84cc20c4fa6178935fb8b4690d1446bee28263c4fb8c23b216017d4c6126b7"
+          }
+        }
+      },
+      {
+        "id": "N99",
+        "candidate": "I",
+        "features": {
+          "underwater acoustic subject": "uncertain",
+          "offline cue": "sufficient",
+          "distinct from generic arrow/anchor": "failed"
+        },
+        "native24": "failed",
+        "native32": "failed",
+        "viableWorkingCandidate": false,
+        "observation": "Down arrow into boundary is dominant. Cancellation is visible but cancelled underwater sensing is not.",
+        "neutralEvidence": "neutral-batch3-observations.json#N99",
+        "pins": {
+          "canonical": {
+            "jobId": "09cc6304-96c1-4f67-bc92-fc65546615bf",
+            "revision": 2,
+            "auditHead": "3b0c3bec315fb0b77f342a196a4d52d9f8f4085eac96e6040141f3a3797abe52",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/09cc6304-96c1-4f67-bc92-fc65546615bf/revisions/2.png",
+            "sha256": "abbd8fae9b3c398e1f4ca3fee27b1ff42aa23ef9d044bd8c3c90fc0c5a5c316b"
+          },
+          "native24": {
+            "jobId": "c279c222-ebd4-4bc0-b249-55efb236373b",
+            "revision": 2,
+            "auditHead": "cae32bfaedd0b418ab02d1d5ba9f35a5164ba27d2ec58aac478072d820e336b2",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/c279c222-ebd4-4bc0-b249-55efb236373b/revisions/2.png",
+            "sha256": "9a400248750760dd7c951a05bcf3968089f3eb4fe7d3c7791703af95ba385413"
+          },
+          "native32": {
+            "jobId": "58afb3dd-3df6-4573-8197-f59b382930ad",
+            "revision": 2,
+            "auditHead": "665d382e4751a773f8d9f2eb6029c484de1e44e54615b4d299d4f747dbb7060d",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/58afb3dd-3df6-4573-8197-f59b382930ad/revisions/2.png",
+            "sha256": "bb3d12306c4eecdee117e5c097a72a0f396a36b3383ddf4de9d24850286bea85"
+          }
+        }
+      }
+    ],
+    "viableWorkingCandidates": [],
+    "strongestUnresolvedObjection": "Ship/water/transducer/acoustic relationship remains unrecognizable in blind views.",
+    "inheritedObjectionDisposition": "X makes failure explicit in all three; prior underwater-specificity and smile/anchor organization objections remain.",
+    "actualMaskConstructionDiversity": "N97/N99 share centered upper glyph/bar/lower cup; upper shape changes are local. N98 offsets transducer and replaces cup with quarter arc. Two layouts with limited subject-construction independence.",
+    "disposition": "no-go-core-semantic-uncertainty",
+    "next": "Stop autonomous refinement at9/9; retain evidence and unresolved objection for user direction."
+  },
+  "decision": "No viable working candidate retained for this construction at autonomous ceiling. Any displayed representative remains an unqualified diagnostic draft.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

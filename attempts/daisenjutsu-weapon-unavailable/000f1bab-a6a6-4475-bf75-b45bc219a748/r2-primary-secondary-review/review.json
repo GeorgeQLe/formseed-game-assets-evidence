@@ -1,0 +1,146 @@
+{
+  "candidate": "N113",
+  "assetId": "daisenjutsu.condition-icon.weapon-unavailable.v1",
+  "batch": 3,
+  "sourceSha256": "65b6a670c8ad514a4e69fca0b58e9a327667cc385d34858a60fa6e6cb48a6ffe",
+  "reviewer": "/root/icon_finish/neutral_final",
+  "assessmentSha256": "a54a78850756e621ad73886e62494ebd5648b0f9eb36dfa97d1e4d7ff70c00df",
+  "familyFindings": {
+    "key": "weapon-unavailable",
+    "criteria": [
+      "Affected weapon disabled; one icon for jams and mount/system breakage, not extra mechanics.",
+      "Recognizable at the proposed 24 logical px display size; identifiable by shape without color or text."
+    ],
+    "definingFeatures": [
+      "recognizable weapon",
+      "unavailable cue",
+      "distinct from active firing or generic tools"
+    ],
+    "attemptsConsumed": 9,
+    "overallCeiling": 9,
+    "candidates": [
+      {
+        "id": "N112",
+        "candidate": "G",
+        "features": {
+          "recognizable weapon": "uncertain",
+          "unavailable cue": "uncertain",
+          "distinct from active firing or generic tools": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "viableWorkingCandidate": false,
+        "observation": "Squat gun may read equipment. Detached square at muzzle strongly permits active shot; disabled meaning not secure.",
+        "neutralEvidence": "neutral-batch3-observations.json#N112",
+        "pins": {
+          "canonical": {
+            "jobId": "44796336-cbec-4c81-8bee-1321d3a35f7d",
+            "revision": 2,
+            "auditHead": "b56a06db38f4bb8605372fac17f14370d1179ebd3179ca86d0a4d4b27560b24b",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/44796336-cbec-4c81-8bee-1321d3a35f7d/revisions/2.png",
+            "sha256": "2ab65b104375efc24c0a4a0918676cb7f14450ea0a6aaf9c88a72658c47b3f37"
+          },
+          "native24": {
+            "jobId": "019b27c7-d654-4d78-806d-6159a181f2b1",
+            "revision": 2,
+            "auditHead": "d363144ff551859e5c22f8774d5d09f33c9562efa90a736c6878b71fae34828b",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/019b27c7-d654-4d78-806d-6159a181f2b1/revisions/2.png",
+            "sha256": "7aea88b948a815ea2f7f691116ed2ad5827e572ec1361f5668059b1206c5d25f"
+          },
+          "native32": {
+            "jobId": "f6d5dd5c-3157-4b3a-b1ff-50df2b35985a",
+            "revision": 2,
+            "auditHead": "c5cbacf919eba0efba5de42eb923577dfb952bca10f7a52cdb68287d04a48fe5",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/f6d5dd5c-3157-4b3a-b1ff-50df2b35985a/revisions/2.png",
+            "sha256": "45a304db8a6ba178c6e443be659af21c26aa73b7bfc3b0d2eca52966155a0a5c"
+          }
+        }
+      },
+      {
+        "id": "N113",
+        "candidate": "H",
+        "features": {
+          "recognizable weapon": "sufficient",
+          "unavailable cue": "uncertain",
+          "distinct from active firing or generic tools": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "viableWorkingCandidate": false,
+        "observation": "Short turret profile is plausible; diagonal loose piece could be fired shot/casing rather than disabled barrel.",
+        "neutralEvidence": "neutral-batch3-observations.json#N113",
+        "pins": {
+          "canonical": {
+            "jobId": "000f1bab-a6a6-4475-bf75-b45bc219a748",
+            "revision": 2,
+            "auditHead": "72b251b13348e4b62ac76b1a7bb865398eb3ab4378367cd6c5e010bd481c3b1a",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/000f1bab-a6a6-4475-bf75-b45bc219a748/revisions/2.png",
+            "sha256": "65b6a670c8ad514a4e69fca0b58e9a327667cc385d34858a60fa6e6cb48a6ffe"
+          },
+          "native24": {
+            "jobId": "0f5f4478-ddc6-4f47-bb74-464c5c00f6fe",
+            "revision": 2,
+            "auditHead": "0ccc372b707560765ff7350d28bc905e210bbaff4711bcf2bde0e1b921ba8467",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/0f5f4478-ddc6-4f47-bb74-464c5c00f6fe/revisions/2.png",
+            "sha256": "b201b71e7b5a7c660b89c4d638eefa39cdc68a6e19ff4995d5dd7b4236ea3f2a"
+          },
+          "native32": {
+            "jobId": "7690dec2-abf1-42b3-9afd-63c8c11ee580",
+            "revision": 2,
+            "auditHead": "7382c9d7e680a28c365874f48850fac36f91e79c3a0c82ad71ed79183d055b3b",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/7690dec2-abf1-42b3-9afd-63c8c11ee580/revisions/2.png",
+            "sha256": "02fd25caf6e3af438b42bfc584c0808447b799c4e70e5f4458988c4d756db294"
+          }
+        }
+      },
+      {
+        "id": "N114",
+        "candidate": "I",
+        "features": {
+          "recognizable weapon": "sufficient",
+          "unavailable cue": "sufficient",
+          "distinct from active firing or generic tools": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "viableWorkingCandidate": true,
+        "observation": "Long horizontal cannon barrel on low turret platform plus isolated X reads weapon unavailable at both24 and32. Broad base removes tripod-camera ambiguity.",
+        "neutralEvidence": "neutral-batch3-observations.json#N114",
+        "pins": {
+          "canonical": {
+            "jobId": "f8e3567e-0c26-4f60-b8a9-a711efa6d5fc",
+            "revision": 2,
+            "auditHead": "980758c4579e755e3a26c2cd535b37ffb707d02188a2e9d0d3bd3010d7ad4135",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/f8e3567e-0c26-4f60-b8a9-a711efa6d5fc/revisions/2.png",
+            "sha256": "9d6fe8759355fd316f88444835e3a0b4a7eef73040510ac6f59eeacd816ed405"
+          },
+          "native24": {
+            "jobId": "c888c92a-aa3d-4710-a9b4-f28b44ecc212",
+            "revision": 2,
+            "auditHead": "4ac14c2040997663cd456b04b10ada62fe7f8f2eaf43513f9ba86c4206853a65",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/c888c92a-aa3d-4710-a9b4-f28b44ecc212/revisions/2.png",
+            "sha256": "1cf1f6227e0d2d0f00b3f6f279b9f2de392dc6fb0ae7d7ad9081b5b24e415164"
+          },
+          "native32": {
+            "jobId": "1d56e486-fee3-40aa-8db4-dfcd9b333876",
+            "revision": 2,
+            "auditHead": "3b9ab51d9f9639cfdb15894ea140d5b7c22471b1fe8b7a5f6eba3bee48f3fa5a",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/1d56e486-fee3-40aa-8db4-dfcd9b333876/revisions/2.png",
+            "sha256": "2bcd71c9b4b32bac942bdeb4ea811fbfda49394cc945c68b9b57255dd8b6e0d4"
+          }
+        }
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N114"
+    ],
+    "strongestUnresolvedObjection": "N114 has no core unresolved subject/fault objection at24/32; N112/N113 still risk active firing. Full-set/HUD and human review remain.",
+    "inheritedObjectionDisposition": "N114 closes primary tripod-camera and independent ambiguous fired-fragment objections through long barrel/low platform and X. Those objections remain for detached-fragment alternatives.",
+    "actualMaskConstructionDiversity": "All share low turret base. N112 straight loose square and N113 angled loose fragment are local damage variants; N114 has longer intact barrel and separate cancellation glyph, a meaningful fault-mechanism change.",
+    "disposition": "provisional-working-candidate-only",
+    "next": "Retain N114 for review package; no artwork approval implied."
+  },
+  "decision": "No viable working candidate retained for this construction at autonomous ceiling. Any displayed representative remains an unqualified diagnostic draft.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

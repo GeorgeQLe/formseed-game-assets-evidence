@@ -1,0 +1,61 @@
+{
+  "candidate": "N45",
+  "assetId": "daisenjutsu.condition-icon.sensor-optics-offline.v1",
+  "batch": 1,
+  "sourceSha256": "122fead471103468644145236fa9702714d56ed13e5dd0afba59545541890e0f",
+  "reviewer": "independent-neutral-reviewer",
+  "assessmentSha256": "639034462eee887360f9107b06483852bb693d132cab3c0d9bbb49b625c88a49",
+  "familyFindings": {
+    "key": "sensor-optics-offline",
+    "definingFeatures": [
+      "binocular optical subject",
+      "damage/unavailability",
+      "distinct from weapon/other sensors"
+    ],
+    "candidates": [
+      {
+        "id": "N43",
+        "features": {
+          "binocular optical subject": "sufficient",
+          "damage/unavailability": "sufficient",
+          "distinct from weapon/other sensors": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Binocular bridge and twin barrels remain clear; open right lens indicates damage."
+      },
+      {
+        "id": "N44",
+        "features": {
+          "binocular optical subject": "sufficient",
+          "damage/unavailability": "sufficient",
+          "distinct from weapon/other sensors": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Detached right lens/barrel clearly breaks the optical assembly."
+      },
+      {
+        "id": "N45",
+        "features": {
+          "binocular optical subject": "sufficient",
+          "damage/unavailability": "sufficient",
+          "distinct from weapon/other sensors": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Diagonal split across right objective is an obvious optical fault; left tube preserves identity."
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N43",
+      "N44",
+      "N45"
+    ],
+    "constructionDiversity": "Missing objective segment, detached barrel and diagonal fracture are meaningfully different break constructions.",
+    "correction": "All three are viable working candidates; N43 has the simplest fault silhouette, N45 the strongest explicit fracture. Preserve both optical barrels and the bridge."
+  },
+  "decision": "Alternative not retained after independent family review; selected sibling remains unapproved.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

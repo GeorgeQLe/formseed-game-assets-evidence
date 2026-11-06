@@ -1,0 +1,63 @@
+{
+  "candidate": "N80",
+  "assetId": "daisenjutsu.condition-icon.crew-stunned.v1",
+  "batch": 2,
+  "sourceSha256": "080b098dec8b1e01062b41cbba59b533d32ca59f46c2bde790d994f1c167cf04",
+  "reviewer": "/root/icon_b2_neutral",
+  "assessmentSha256": "c7c213247f986d21f43f087a37342ba686a5f2bb3a827d7d9b1d20f49e1fc266",
+  "familyFindings": {
+    "key": "crew-stunned",
+    "definingFeatures": [
+      "helmeted crew subject",
+      "dazed/interrupted state",
+      "distinct from rank/highlight/panic"
+    ],
+    "candidates": [
+      {
+        "id": "N79",
+        "features": {
+          "helmeted crew subject": "sufficient",
+          "dazed/interrupted state": "sufficient",
+          "distinct from rank/highlight/panic": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Domed banded bust supports crew helmet, though masked/band-eyed was the neutral description. Large overhead arc plus star establishes daze, not isolated rank pip; distinct from N76 panic.",
+        "evidenceReference": "neutral-batch2-observations.json#N79"
+      },
+      {
+        "id": "N80",
+        "features": {
+          "helmeted crew subject": "uncertain",
+          "dazed/interrupted state": "uncertain",
+          "distinct from rank/highlight/panic": "failed"
+        },
+        "native24": "failed",
+        "native32": "failed",
+        "observation": "Crossed eyes become holes at 24 and clear X eyes at 32. Knockout/death remains competing adverse meaning; no helmet identity.",
+        "evidenceReference": "neutral-batch2-observations.json#N80"
+      },
+      {
+        "id": "N81",
+        "features": {
+          "helmeted crew subject": "sufficient",
+          "dazed/interrupted state": "sufficient",
+          "distinct from rank/highlight/panic": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Domed brimmed bust plus continuous overhead sweep and separated left star reads dizziness. Star/arc survives native24 and differs from panic hands.",
+        "evidenceReference": "neutral-batch2-observations.json#N81"
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N79",
+      "N81"
+    ],
+    "constructionDiversity": "Face with crossed eyes differs from helmeted busts; N79/N81 mainly vary orbital side and bust proportions, not a new semantic mechanism. Both succeed through the same orbit convention.",
+    "correction": "Retain N79/N81 provisionally, preferring final choice by full-set visual mass and HUD check. Avoid X-eye face for temporary stun. Do not claim literal duration encoded."
+  },
+  "decision": "Alternative not retained after independent family review; selected sibling remains unapproved.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

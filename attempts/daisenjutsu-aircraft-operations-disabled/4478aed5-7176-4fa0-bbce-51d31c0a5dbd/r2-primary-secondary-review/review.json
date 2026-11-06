@@ -1,0 +1,59 @@
+{
+  "candidate": "N57",
+  "assetId": "daisenjutsu.condition-icon.aircraft-operations-disabled.v1",
+  "batch": 1,
+  "sourceSha256": "be7c6ded6dddb11b3dce5c5ed1a70fdf3dd50a892ef4520d9d791948806144a6",
+  "reviewer": "independent-neutral-reviewer",
+  "assessmentSha256": "639034462eee887360f9107b06483852bb693d132cab3c0d9bbb49b625c88a49",
+  "familyFindings": {
+    "key": "aircraft-operations-disabled",
+    "definingFeatures": [
+      "plane with ship/deck",
+      "launch/recovery unavailable",
+      "distinct from aircraft damage/airfield"
+    ],
+    "candidates": [
+      {
+        "id": "N55",
+        "features": {
+          "plane with ship/deck": "sufficient",
+          "launch/recovery unavailable": "sufficient",
+          "distinct from aircraft damage/airfield": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Plane above long ship/deck with separate X reads shipboard aircraft operations unavailable."
+      },
+      {
+        "id": "N56",
+        "features": {
+          "plane with ship/deck": "sufficient",
+          "launch/recovery unavailable": "uncertain",
+          "distinct from aircraft damage/airfield": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "observation": "Plane and platform clear; central X can merge conceptually with landing gear/support."
+      },
+      {
+        "id": "N57",
+        "features": {
+          "plane with ship/deck": "uncertain",
+          "launch/recovery unavailable": "sufficient",
+          "distinct from aircraft damage/airfield": "failed"
+        },
+        "native24": "failed",
+        "native32": "failed",
+        "observation": "X gives unavailability, but tall enclosure reads airfield/fuel facility rather than ship."
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N55"
+    ],
+    "constructionDiversity": "Plan-view plane above hull, side plane on platform and negative-space top deck are distinct constructions.",
+    "correction": "N55 is viable as a working shipboard-operations symbol. Preserve long low hull and separated X. N56 needs clear cross separation; N57 needs an unmistakable carrier deck outline rather than a tall building/pump."
+  },
+  "decision": "Alternative not retained after independent family review; selected sibling remains unapproved.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

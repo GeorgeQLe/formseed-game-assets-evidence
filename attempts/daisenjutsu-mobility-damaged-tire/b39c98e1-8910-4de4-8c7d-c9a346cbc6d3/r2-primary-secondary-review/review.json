@@ -1,0 +1,144 @@
+{
+  "candidate": "N95",
+  "assetId": "daisenjutsu.condition-icon.mobility-damaged-tire.v1",
+  "batch": 3,
+  "sourceSha256": "f3e4802be8aa10b03215bf73dd7cbfeff529758251ab1c02872e951d053e5bef",
+  "reviewer": "/root/icon_finish/neutral_final",
+  "assessmentSha256": "a54a78850756e621ad73886e62494ebd5648b0f9eb36dfa97d1e4d7ff70c00df",
+  "familyFindings": {
+    "key": "mobility-damaged-tire",
+    "criteria": [
+      "Damaged/deflated tire silhouette; wheeled vehicles only, no continuous tread.",
+      "Recognizable at the proposed 24 logical px display size; identifiable by shape without color or text."
+    ],
+    "definingFeatures": [
+      "tire subject",
+      "damage or deflation",
+      "distinct from generic target or lens"
+    ],
+    "attemptsConsumed": 9,
+    "overallCeiling": 9,
+    "candidates": [
+      {
+        "id": "N94",
+        "candidate": "G",
+        "features": {
+          "tire subject": "uncertain",
+          "damage or deflation": "uncertain",
+          "distinct from generic target or lens": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "viableWorkingCandidate": false,
+        "observation": "Flattened base plus ring retains pedestal/target alternative. Tear is visible but does not make damaged tire the dominant read.",
+        "neutralEvidence": "neutral-batch3-observations.json#N94",
+        "pins": {
+          "canonical": {
+            "jobId": "666610e0-6a6d-4058-bc9b-7a5e389317f4",
+            "revision": 2,
+            "auditHead": "50d956a9332f2cf7e10aebb83f044eb2deaee8eab161f22fa55e5dbe6f7f1796",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/666610e0-6a6d-4058-bc9b-7a5e389317f4/revisions/2.png",
+            "sha256": "d85b2f5b75b5c16d34933bbb27ab4f40f2aae0384505bbae5bc964ecb99dc8e8"
+          },
+          "native24": {
+            "jobId": "06a4a14b-3909-440d-9ada-a54dbb7eccd0",
+            "revision": 2,
+            "auditHead": "e39007a92421686d16744fd7b53ad064886475401b9db409bff10332250065bf",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/06a4a14b-3909-440d-9ada-a54dbb7eccd0/revisions/2.png",
+            "sha256": "944f7d60a34c4599d279a0b51abb4ab141dff68a4f40749f621ad45d747e8d2a"
+          },
+          "native32": {
+            "jobId": "141ee95c-3533-4268-a29b-250320ed3340",
+            "revision": 2,
+            "auditHead": "3f649068100a927a650507ccb006dddf80e73f5b39c87ab86893664a5f5249b2",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/141ee95c-3533-4268-a29b-250320ed3340/revisions/2.png",
+            "sha256": "45b2689bdca60ec79602c21214e3333a92107663c5c25359de87337a49fc3482"
+          }
+        }
+      },
+      {
+        "id": "N95",
+        "candidate": "H",
+        "features": {
+          "tire subject": "uncertain",
+          "damage or deflation": "uncertain",
+          "distinct from generic target or lens": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "viableWorkingCandidate": false,
+        "observation": "Flattened lower contour is symmetric and reads as normal pedestal. Damage is not self-evident.",
+        "neutralEvidence": "neutral-batch3-observations.json#N95",
+        "pins": {
+          "canonical": {
+            "jobId": "b39c98e1-8910-4de4-8c7d-c9a346cbc6d3",
+            "revision": 2,
+            "auditHead": "57f1543d63e3e4e6ef1d176c2e5a736cb0af2979679566a5e11b8d51e0bfeafa",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/b39c98e1-8910-4de4-8c7d-c9a346cbc6d3/revisions/2.png",
+            "sha256": "f3e4802be8aa10b03215bf73dd7cbfeff529758251ab1c02872e951d053e5bef"
+          },
+          "native24": {
+            "jobId": "b136dde2-b94b-4baf-86ed-a389c1e3efba",
+            "revision": 2,
+            "auditHead": "31030d7435be38a2d61fcbdc1ebaae6466836adb881c3e0870e404fb036050b1",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/b136dde2-b94b-4baf-86ed-a389c1e3efba/revisions/2.png",
+            "sha256": "7ad5d1eda1bc411f0c667269227e693111b13acf0b8ba95bcd6ed44b4ba1b3b6"
+          },
+          "native32": {
+            "jobId": "616a950a-1fff-4a10-9228-d5cea6e50021",
+            "revision": 2,
+            "auditHead": "7087f839ec3e8f2dc0af50a4abf85da352f8ee3875c564ad6dec50aa253a1544",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/616a950a-1fff-4a10-9228-d5cea6e50021/revisions/2.png",
+            "sha256": "65e26c1756ca46ff9dec52fdb19efe192df2a70502ddb61338c224e1f971a648"
+          }
+        }
+      },
+      {
+        "id": "N96",
+        "candidate": "I",
+        "features": {
+          "tire subject": "uncertain",
+          "damage or deflation": "uncertain",
+          "distinct from generic target or lens": "failed"
+        },
+        "native24": "failed",
+        "native32": "failed",
+        "viableWorkingCandidate": false,
+        "observation": "Ring gap and flap survive both sizes, but diagonal extension strongly reads magnifying-glass handle.",
+        "neutralEvidence": "neutral-batch3-observations.json#N96",
+        "pins": {
+          "canonical": {
+            "jobId": "df2c13d3-e57f-443f-a5de-f8845b41903c",
+            "revision": 2,
+            "auditHead": "37332ba220ea880824df9386520c3008f115c7906d5ac1bb4732b398ecf48a20",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/df2c13d3-e57f-443f-a5de-f8845b41903c/revisions/2.png",
+            "sha256": "14614a1d375b0ef683dd180d127a5b1c901a83089d94697e55c0452aaec66c07"
+          },
+          "native24": {
+            "jobId": "be56f54e-137f-4527-940d-ecdd3298869f",
+            "revision": 2,
+            "auditHead": "91c5b675696cd31824826090e8918d4b16144c59d4eaf24a5a70cb60b9ab6934",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/be56f54e-137f-4527-940d-ecdd3298869f/revisions/2.png",
+            "sha256": "8736ed0d09ae61a39b2e7c383ad1112dbf2a1c605c1af945d63994a6c47ae729"
+          },
+          "native32": {
+            "jobId": "5be461df-454a-497c-9efa-619b6d86f178",
+            "revision": 2,
+            "auditHead": "0d2552ec2873c483507011aa2afb4986d4a617ea92634d10af3307f2033c7167",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/5be461df-454a-497c-9efa-619b6d86f178/revisions/2.png",
+            "sha256": "b6bf56a7a5c85ff3d7d0023ef4ca379c29e89753803bbc3575bf8e06d06f66dd"
+          }
+        }
+      }
+    ],
+    "viableWorkingCandidates": [],
+    "strongestUnresolvedObjection": "Tire-specific deflation is not established without label; N94/N95 retain pedestal read and N96 introduces magnifier read.",
+    "inheritedObjectionDisposition": "Spoke/grille confusion reduced by plain ring and hub; pedestal objection persists. Flap variant trades old problem for magnifier ambiguity.",
+    "actualMaskConstructionDiversity": "N94 and N95 share ring/hub/flattened base organization, differing mostly by notch and width. N96 changes topology with diagonal flap but remains same ring grammar. Three distinct masks, not three substantially independent constructions.",
+    "disposition": "no-go-core-semantic-uncertainty",
+    "next": "Stop autonomous refinement at9/9; retain evidence and unresolved objection for user direction."
+  },
+  "decision": "No viable working candidate retained for this construction at autonomous ceiling. Any displayed representative remains an unqualified diagnostic draft.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

@@ -1,0 +1,61 @@
+{
+  "candidate": "N26",
+  "assetId": "daisenjutsu.condition-icon.mobility-thrown-track.v1",
+  "batch": 1,
+  "sourceSha256": "cab8c6c0ac32306bd3136f1ccbe8f5cfb256d7768eeb57dcb630b87e0ceaddb2",
+  "reviewer": "independent-neutral-reviewer",
+  "assessmentSha256": "639034462eee887360f9107b06483852bb693d132cab3c0d9bbb49b625c88a49",
+  "familyFindings": {
+    "key": "mobility-thrown-track",
+    "definingFeatures": [
+      "continuous tread around roadwheels",
+      "broken/displaced belt",
+      "distinct from single tire"
+    ],
+    "candidates": [
+      {
+        "id": "N25",
+        "features": {
+          "continuous tread around roadwheels": "sufficient",
+          "broken/displaced belt": "sufficient",
+          "distinct from single tire": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Broken tank track: three rollers inside open belt and detached lower-right tail."
+      },
+      {
+        "id": "N26",
+        "features": {
+          "continuous tread around roadwheels": "sufficient",
+          "broken/displaced belt": "sufficient",
+          "distinct from single tire": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Upper belt displaced above three rollers; wavy strip reads loose tread in the complete assembly."
+      },
+      {
+        "id": "N27",
+        "features": {
+          "continuous tread around roadwheels": "sufficient",
+          "broken/displaced belt": "sufficient",
+          "distinct from single tire": "sufficient"
+        },
+        "native24": "sufficient",
+        "native32": "sufficient",
+        "observation": "Split tread with two rollers and detached forward wrap; canister is a secondary reading."
+      }
+    ],
+    "viableWorkingCandidates": [
+      "N25",
+      "N26",
+      "N27"
+    ],
+    "constructionDiversity": "Open lower tail, displaced whole upper run and detached curved end are distinct belt-failure constructions.",
+    "correction": "All three are viable working candidates; N25 gives the clearest immediate tracked-vehicle reading. Preserve visible rollers and enough continuous belt to establish the object."
+  },
+  "decision": "Alternative not retained after independent family review; selected sibling remains unapproved.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}

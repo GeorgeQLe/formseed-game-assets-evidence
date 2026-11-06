@@ -1,0 +1,144 @@
+{
+  "candidate": "N103",
+  "assetId": "daisenjutsu.condition-icon.fatigue-exhausted.v1",
+  "batch": 3,
+  "sourceSha256": "062a0727e097d828eb5bb772d508f1e80e70da5411fc1bdc021e37eb51aff5d2",
+  "reviewer": "/root/icon_finish/neutral_final",
+  "assessmentSha256": "a54a78850756e621ad73886e62494ebd5648b0f9eb36dfa97d1e4d7ff70c00df",
+  "familyFindings": {
+    "key": "fatigue-exhausted",
+    "criteria": [
+      "Stronger march-fatigue state; not a hull-health or fuel gauge.",
+      "Recognizable at the proposed 24 logical px display size; identifiable by shape without color or text."
+    ],
+    "definingFeatures": [
+      "human resting posture",
+      "strong exhaustion",
+      "distinct from panic/casualty"
+    ],
+    "attemptsConsumed": 9,
+    "overallCeiling": 9,
+    "candidates": [
+      {
+        "id": "N103",
+        "candidate": "G",
+        "features": {
+          "human resting posture": "uncertain",
+          "strong exhaustion": "failed",
+          "distinct from panic/casualty": "uncertain"
+        },
+        "native24": "failed",
+        "native32": "failed",
+        "viableWorkingCandidate": false,
+        "observation": "Long extended leg and over-head arm read lunge/run/duck more readily than seated depleted rest.",
+        "neutralEvidence": "neutral-batch3-observations.json#N103",
+        "pins": {
+          "canonical": {
+            "jobId": "9f95da75-134a-4da0-a47f-41250b8e3961",
+            "revision": 2,
+            "auditHead": "78a8c5d51ac62a0e4d21d3a08c79b1ccb7cdc34ebe57a00dfda48096742538c4",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/9f95da75-134a-4da0-a47f-41250b8e3961/revisions/2.png",
+            "sha256": "062a0727e097d828eb5bb772d508f1e80e70da5411fc1bdc021e37eb51aff5d2"
+          },
+          "native24": {
+            "jobId": "398bc35d-e16e-4d71-807c-8b03cd60af71",
+            "revision": 2,
+            "auditHead": "688519eeb981f4ffc0ef32d157f8ada1ec4589d4e23822113764a451646a2c02",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/398bc35d-e16e-4d71-807c-8b03cd60af71/revisions/2.png",
+            "sha256": "6cefb87a3894d182eb5b3a419f3d1afc0447444c7876981e87ec7bd7a8cb9dde"
+          },
+          "native32": {
+            "jobId": "6ddd1363-7c98-4d82-bd16-3f6aef4e98a5",
+            "revision": 2,
+            "auditHead": "1ab9107dcca5bb3dd7d961a80a522f19758bb906055142b27905e938a59904bb",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/6ddd1363-7c98-4d82-bd16-3f6aef4e98a5/revisions/2.png",
+            "sha256": "5e6d9ce57572629a242975facd230ec226a07bff854a2cc4b13465f5d872470f"
+          }
+        }
+      },
+      {
+        "id": "N104",
+        "candidate": "H",
+        "features": {
+          "human resting posture": "sufficient",
+          "strong exhaustion": "uncertain",
+          "distinct from panic/casualty": "uncertain"
+        },
+        "native24": "uncertain",
+        "native32": "uncertain",
+        "viableWorkingCandidate": false,
+        "observation": "Seat/support and human are clear, but figure could be ordinary seated rest or equipment user; no decisive stronger exhaustion.",
+        "neutralEvidence": "neutral-batch3-observations.json#N104",
+        "pins": {
+          "canonical": {
+            "jobId": "81be655f-9e9e-4cd7-8a18-a22210bde894",
+            "revision": 2,
+            "auditHead": "a80da9c7f12ac52a208d3d9cb525e66eba3ebf0b355f4f624aeb43c795f7613d",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/81be655f-9e9e-4cd7-8a18-a22210bde894/revisions/2.png",
+            "sha256": "737c88ae0a082984ba5dbbe8b67a866e19ed4a649db9ff61117a670fbc81c403"
+          },
+          "native24": {
+            "jobId": "3f388481-9199-4195-8820-629ec3d13375",
+            "revision": 2,
+            "auditHead": "68a2c325507ddfc76fb25be8c3fa0465eada061218816abdcbc28f59c76dee47",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/3f388481-9199-4195-8820-629ec3d13375/revisions/2.png",
+            "sha256": "82d04d08097b8ab768c703cfa173b1760e51c3d019e4f8f2ff26608c3bf58c95"
+          },
+          "native32": {
+            "jobId": "4e08f168-9abd-4afa-bfca-b5088b2f597d",
+            "revision": 2,
+            "auditHead": "98097d1301f7670892ca68e47423e22da91b1c18c484386b416d2b4d73e46170",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/4e08f168-9abd-4afa-bfca-b5088b2f597d/revisions/2.png",
+            "sha256": "e3d1c1508f610fde0752c6495f6f7d1036bd38a88bef393957087142a108d4f2"
+          }
+        }
+      },
+      {
+        "id": "N105",
+        "candidate": "I",
+        "features": {
+          "human resting posture": "uncertain",
+          "strong exhaustion": "failed",
+          "distinct from panic/casualty": "failed"
+        },
+        "native24": "failed",
+        "native32": "failed",
+        "viableWorkingCandidate": false,
+        "observation": "Face with side arms and open-looking mouth reads fear/distress. Continues panic overlap instead of a calm exhausted face.",
+        "neutralEvidence": "neutral-batch3-observations.json#N105",
+        "pins": {
+          "canonical": {
+            "jobId": "740beb92-8296-4798-a96c-ec03cfb74820",
+            "revision": 2,
+            "auditHead": "d32602f8587eefd49ba63c6d5ae1013fa13121a9369c6ba17164c3afee7cf3e1",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/740beb92-8296-4798-a96c-ec03cfb74820/revisions/2.png",
+            "sha256": "2e8347cd9432baa092230cae644e562b9a2d1c3631ba0fb4ee946ae69707b8e8"
+          },
+          "native24": {
+            "jobId": "f0dd1608-16d0-4386-b8a4-142c21ea4e8f",
+            "revision": 2,
+            "auditHead": "f1d97c43c275bed03d1bd1c885e37d6393d4300e2cdef45d6c949f59e34a73ee",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/f0dd1608-16d0-4386-b8a4-142c21ea4e8f/revisions/2.png",
+            "sha256": "9865ae0b9edd2c6e8d9dc17a832fd889e6581412df4d5480f7af17389223c166"
+          },
+          "native32": {
+            "jobId": "ad3b1bd8-33a7-4d82-91f1-3cec94a5ad62",
+            "revision": 2,
+            "auditHead": "8780d51f4d7284ced52fccbc7f3588ca6535e52cff2d02bfbe2593170b0dd07c",
+            "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed2d/jobs/ad3b1bd8-33a7-4d82-91f1-3cec94a5ad62/revisions/2.png",
+            "sha256": "17b2ca71e701ce3d99200de08260cee26dcbfa6c05f370df28eb2fe3e01eac90"
+          }
+        }
+      }
+    ],
+    "viableWorkingCandidates": [],
+    "strongestUnresolvedObjection": "Strong exhaustion is not the dominant read; N105 still overlaps panic and N103 appears active.",
+    "inheritedObjectionDisposition": "N104 separates seat/support and limbs better; stronger fatigue versus generic rest remains unresolved. N105 distress objection persists; N103 regresses toward motion.",
+    "actualMaskConstructionDiversity": "N103 bent/lunging profile, N104 seated bracket/support and N105 face with side arms are materially distinct organizations.",
+    "disposition": "no-go-core-semantic-uncertainty",
+    "next": "Stop autonomous refinement at9/9; retain evidence and unresolved objection for user direction."
+  },
+  "decision": "No viable working candidate retained for this construction at autonomous ceiling. Any displayed representative remains an unqualified diagnostic draft.",
+  "humanDecision": "absent",
+  "scope": "Agent review disposition only; no artwork approval or human rejection."
+}
