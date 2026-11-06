@@ -1,0 +1,135 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "daisenjutsu-sensor-sonar-offline",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed2d",
+    "buildVersion": "1.8.0"
+  },
+  "job": {
+    "jobId": "e5888623-e620-4878-8472-c933d98172a7",
+    "revision": 2,
+    "checkpointSha256": "076452c82df82fca702d591ef068f3a726b5ca407af8cd7a27cea4f4b0fd5fa6"
+  },
+  "gate": "primary-secondary-review",
+  "evidence": {
+    "renderHash": "076452c82df82fca702d591ef068f3a726b5ca407af8cd7a27cea4f4b0fd5fa6",
+    "files": [
+      {
+        "path": "canonical-96.png",
+        "sha256": "076452c82df82fca702d591ef068f3a726b5ca407af8cd7a27cea4f4b0fd5fa6",
+        "bytes": 1195
+      },
+      {
+        "path": "native-24.png",
+        "sha256": "4c279ea1c993af472c2a4cfec75f35d097dcbec5b112cd7ddc586c7a405ed8d6",
+        "bytes": 432
+      },
+      {
+        "path": "native-32.png",
+        "sha256": "5b2e38b2a6b5263a2214e911d78c828d4a09e36fa594b3fc79c575793f899953",
+        "bytes": 590
+      },
+      {
+        "path": "review.json",
+        "sha256": "5d00f4ac161437ba2d72b5b2432db15b85b4f4a58d1f960475fd1df9f9aede48",
+        "bytes": 1203
+      },
+      {
+        "path": "24px/after-light-1x.png",
+        "sha256": "ddb912c625d51e8157ba8e1cb3b096dae5eaf4365505b60afdf238b09d4abe90",
+        "bytes": 470
+      },
+      {
+        "path": "24px/after-light-8x.png",
+        "sha256": "5deb765690ce9448219a990be7727e90270d8651f2bbb3510f544d0928c5b276",
+        "bytes": 1012
+      },
+      {
+        "path": "24px/after-dark-1x.png",
+        "sha256": "0af9ae33245c551ca7b92981def18b2d6355b55c27e13ab3d1ca4fc8f0940eaf",
+        "bytes": 602
+      },
+      {
+        "path": "24px/after-dark-8x.png",
+        "sha256": "774dd5e9b7f26405d2b5c4714c95c5bfdb7c613b0b948cab7b7eb9fd7856a745",
+        "bytes": 1145
+      },
+      {
+        "path": "24px/after-checker-1x.png",
+        "sha256": "11d52f7e2bc0719b92b43521d13d76330ef80f45b98c3923aeebc40c9df94843",
+        "bytes": 668
+      },
+      {
+        "path": "24px/after-checker-8x.png",
+        "sha256": "a843ad674e46d0d752f2e06e9fd67bca5f497c07b4aa12ecb0cc02ad126be966",
+        "bytes": 1312
+      },
+      {
+        "path": "32px/after-light-1x.png",
+        "sha256": "1bfae49b7b4286cac85c923fc9e5d1b3497f95c21ade247e1ba26b23d8f15242",
+        "bytes": 646
+      },
+      {
+        "path": "32px/after-light-8x.png",
+        "sha256": "d2b1ed02d3a3be6eff283a476d7a041a12eae52bd96a41bea776812c6303b1dc",
+        "bytes": 1493
+      },
+      {
+        "path": "32px/after-dark-1x.png",
+        "sha256": "e8f29b344b3ec22d4e254759e0ebfb198450db70f6739bc59eba9693c9615012",
+        "bytes": 845
+      },
+      {
+        "path": "32px/after-dark-8x.png",
+        "sha256": "fd21eede11404602cb1fea97a01e8b8a03ceec37c78d3b62cb980c03718d6c49",
+        "bytes": 1669
+      },
+      {
+        "path": "32px/after-checker-1x.png",
+        "sha256": "a4dae7112569a6e623b3b9216b86560a51728b1431b3d62d76a1201e68336219",
+        "bytes": 798
+      },
+      {
+        "path": "32px/after-checker-8x.png",
+        "sha256": "c3dd7c475afe86ed3c5f4093a651eeb273c2bf5d85be93ca769a8b54d3b8a06a",
+        "bytes": 1799
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "931c193787bf269e817df8076a74362248973b509ad5801fe3bc4a00a342628e",
+    "references": [
+      {
+        "uri": "https://oceanservice.noaa.gov/education/tutorial_nautical_charts/nautical_charts06_tools_6b.html",
+        "sha256": "6f11b657dbfadadedb61dbe75cc584c3565f6ec6af00c4b96b889c9f4f94243b",
+        "author": "NOAA National Ocean Service",
+        "license": "NOAA-authored public educational figure; page identifies NOAA. No separate third-party attribution visible; private reference use, no redistribution claim.",
+        "role": "subject-reference-only; no reference bytes archived"
+      },
+      {
+        "uri": "https://lucide.dev/icons/radar",
+        "sha256": "b948d2b46e2605b0c0adf35b266a1b3cb4afa47ef3247e710f05e654b2c0a1cf",
+        "author": "Lucide contributors; Feather-derived items separately credited in LICENSE",
+        "license": "ISC with applicable Feather MIT attribution; retained lucide-license.txt. Reference study only; no path reuse.",
+        "role": "subject-reference-only; no reference bytes archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Superseded after independent native-size review found unresolved semantic cues. Agent working-candidate disposition only; no human rejection or approval.",
+    "decidedAt": "2026-11-06T17:38:13.154Z"
+  },
+  "notes": [
+    "Original authored smooth flat ivory symbol; no third-party imagery or paths copied.",
+    "All views are diagnostic; no named human review occurred.",
+    "Each batch1 construction consumed one autonomous attempt. New batch does not reset the nine-attempt ceiling."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

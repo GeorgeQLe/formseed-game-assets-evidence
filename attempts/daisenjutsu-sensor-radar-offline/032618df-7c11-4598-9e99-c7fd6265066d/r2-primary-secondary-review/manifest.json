@@ -1,0 +1,128 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "daisenjutsu-sensor-radar-offline",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed2d",
+    "buildVersion": "1.8.0"
+  },
+  "job": {
+    "jobId": "032618df-7c11-4598-9e99-c7fd6265066d",
+    "revision": 2,
+    "checkpointSha256": "aabd3703b154ddf82c221a7267441e1a4b77c8ceb87854af91e6c5fea01b3cb7"
+  },
+  "gate": "primary-secondary-review",
+  "evidence": {
+    "renderHash": "aabd3703b154ddf82c221a7267441e1a4b77c8ceb87854af91e6c5fea01b3cb7",
+    "files": [
+      {
+        "path": "canonical-96.png",
+        "sha256": "aabd3703b154ddf82c221a7267441e1a4b77c8ceb87854af91e6c5fea01b3cb7",
+        "bytes": 1123
+      },
+      {
+        "path": "native-24.png",
+        "sha256": "46a6c157cd69b4e1dd246d79afa18adadd8799d3449d6b17e9498d52d7acc025",
+        "bytes": 440
+      },
+      {
+        "path": "native-32.png",
+        "sha256": "7b0e3a481f50b4330caf1aeff259a01e27212bd073ac549986e8361347ced9e2",
+        "bytes": 602
+      },
+      {
+        "path": "review.json",
+        "sha256": "bb0bb072a1624534e880c75006dc4df61dc48fa1284b02bd6309f5a0031557fe",
+        "bytes": 1117
+      },
+      {
+        "path": "24px/after-light-1x.png",
+        "sha256": "ff7336144f824592845702ae6367890cfe409e1643612c31375f0f820f67be8c",
+        "bytes": 456
+      },
+      {
+        "path": "24px/after-light-8x.png",
+        "sha256": "7b05061847ff317bab6a26c97daf5cac1a7e278ddd7a9cfcdf8f96e8594012a7",
+        "bytes": 984
+      },
+      {
+        "path": "24px/after-dark-1x.png",
+        "sha256": "0ee2b2cfa214f0d65575a3bfed5bfaff60496dcb2d68b6318403ac2088e27aea",
+        "bytes": 600
+      },
+      {
+        "path": "24px/after-dark-8x.png",
+        "sha256": "85f27f0b57879c16ee53d3b1f40a79b9905eb2bb03d14e76521e104f226291c5",
+        "bytes": 1104
+      },
+      {
+        "path": "24px/after-checker-1x.png",
+        "sha256": "26f5ca980879ba7a5d51f67f0af53f3cd6f9fd02c02d4045f7e456b2493bd44a",
+        "bytes": 520
+      },
+      {
+        "path": "24px/after-checker-8x.png",
+        "sha256": "fd53daca34d5650b328f714c78769784c7274d3a9307f1794be929a4928cb7fb",
+        "bytes": 1137
+      },
+      {
+        "path": "32px/after-light-1x.png",
+        "sha256": "17e9621e45c597e3caadc175832147d4aa3bdadaa9ecd335ce9ebe78dbd2049c",
+        "bytes": 600
+      },
+      {
+        "path": "32px/after-light-8x.png",
+        "sha256": "3e9aa61cf76241bcc59c69c103c0cb7feb999caecc86fca27f81d2501e1543d1",
+        "bytes": 1450
+      },
+      {
+        "path": "32px/after-dark-1x.png",
+        "sha256": "0e2dc43781682ef532b5b49122753855d66b577c186bf3960fa02d303f77d5bf",
+        "bytes": 820
+      },
+      {
+        "path": "32px/after-dark-8x.png",
+        "sha256": "1704422388e012e7588c5ae77eec15363566ac80d76c95acbf485a8f5e94e2dd",
+        "bytes": 1638
+      },
+      {
+        "path": "32px/after-checker-1x.png",
+        "sha256": "8a7149fa53948a069fa6a20eebc6b80bf2933ef3e3bc95fe6d95f0d85936a3d5",
+        "bytes": 740
+      },
+      {
+        "path": "32px/after-checker-8x.png",
+        "sha256": "dce09797f01da1bc1953ff28c27841cad15b33ee089d684dd1de0c5c3b7dcf62",
+        "bytes": 1755
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "931c193787bf269e817df8076a74362248973b509ad5801fe3bc4a00a342628e",
+    "references": [
+      {
+        "uri": "https://lucide.dev/icons/radar",
+        "sha256": "b948d2b46e2605b0c0adf35b266a1b3cb4afa47ef3247e710f05e654b2c0a1cf",
+        "author": "Lucide contributors; Feather-derived items separately credited in LICENSE",
+        "license": "ISC with applicable Feather MIT attribution; retained lucide-license.txt. Reference study only; no path reuse.",
+        "role": "subject-reference-only; no reference bytes archived"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Superseded after independent native-size review found unresolved semantic cues. Agent working-candidate disposition only; no human rejection or approval.",
+    "decidedAt": "2026-11-06T17:38:13.154Z"
+  },
+  "notes": [
+    "Original authored smooth flat ivory symbol; no third-party imagery or paths copied.",
+    "All views are diagnostic; no named human review occurred.",
+    "Each batch1 construction consumed one autonomous attempt. New batch does not reset the nine-attempt ceiling."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
