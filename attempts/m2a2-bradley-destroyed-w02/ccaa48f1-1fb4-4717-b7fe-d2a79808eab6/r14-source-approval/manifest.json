@@ -1,0 +1,139 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2a2-bradley-destroyed-w02",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "ccaa48f1-1fb4-4717-b7fe-d2a79808eab6",
+    "revision": 14,
+    "checkpointSha256": "8180c371236e7977d2850177c52dd16c5598cb90e4d5e73ab5dbbc02a8016b75"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "99457a18097f73c19e9a72901bf9cf57043220ff6c2785ebf5886ba42eaa0332",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "dc79c31442b1bcb5ef83b33b5c724a643bae73ba9dec0c720cff7d2fcad95b61",
+      "bytes": 1621895
+    },
+    "files": [
+      {
+        "path": "views/front.png",
+        "sha256": "344977b7402c794e1af11281d0a99b382541499a08041db913198b8479e832a8",
+        "bytes": 564209
+      },
+      {
+        "path": "views/front-right.png",
+        "sha256": "9d832ec3bdf250c1f075c7342a1d486eff35627c1de353c14af43b4d2f5fa3cf",
+        "bytes": 687367
+      },
+      {
+        "path": "views/right.png",
+        "sha256": "3fc235addf7c560af21b0892a8febf73434a09724aa26d027583098ac08a7d92",
+        "bytes": 593259
+      },
+      {
+        "path": "views/rear-right.png",
+        "sha256": "851a71ac460efb50ed74bf5a8f4ef45affc812c0edc2fbaba5e100f35da9ce63",
+        "bytes": 681591
+      },
+      {
+        "path": "views/rear.png",
+        "sha256": "265f6cb77574518aa6b25600e976a2ed8047fe21e4a979c4973393db8b11aea9",
+        "bytes": 561401
+      },
+      {
+        "path": "views/rear-left.png",
+        "sha256": "fa04b0cc4e55087a9b3bf0fdb293181470dacc748de5126f953659de1e037d6c",
+        "bytes": 677669
+      },
+      {
+        "path": "views/left.png",
+        "sha256": "a0649c9efd6facbf8cf7e4f4641c71b379004fa3a85ac474f8ba62f637ce69e3",
+        "bytes": 592174
+      },
+      {
+        "path": "views/front-left.png",
+        "sha256": "d6e608127f4f07075422fd5074ecafc54f1756cb022a530e6b1dd18c0245aeab",
+        "bytes": 690185
+      },
+      {
+        "path": "views/top.png",
+        "sha256": "e76d422a26af34cde2b3cdee9d3d7002424014da67432914c129f670ff4a0165",
+        "bytes": 704998
+      },
+      {
+        "path": "views/native-256.png",
+        "sha256": "97fa1018f6b7773706bcab5093ea1331ca59e74af3d6f875fe2dbcc836ab95c9",
+        "bytes": 154277
+      },
+      {
+        "path": "source/source.blend",
+        "sha256": "8180c371236e7977d2850177c52dd16c5598cb90e4d5e73ab5dbbc02a8016b75",
+        "bytes": 974326
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "6016678a3dacc5962d0f2a848310dbf9fd4eae3eb34b58388c82eb6121f75acc",
+        "bytes": 1839368
+      },
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "a5d33baf2736926399e63fef8ddebecf7dd8ef75338ae2821e2b31e837938609",
+        "bytes": 6430
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "1ff5169252cc46a2988b3d57a415bdbfe2700a75832dd857d268ca1479a22f55",
+        "bytes": 976
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "fcecd1f9c68c09be5851fdc49e52c474080778bde7380038a32cac3b5fe237e7",
+        "bytes": 426
+      },
+      {
+        "path": "approval/opus-review.json",
+        "sha256": "2e1ce9c6cd93932bdba0938980d3dc59185d71e09b26aedf10b562360d26cf92",
+        "bytes": 11256
+      },
+      {
+        "path": "approval/conditional-confirmation.json",
+        "sha256": "426b3750706b2bd6eee0afc6f5233db23f1b7d61172770be0d5c180d1ba3639c",
+        "bytes": 3399
+      },
+      {
+        "path": "review/deterministic-evaluation.json",
+        "sha256": "f280d625e454f3bfb8ab5d43f694a7c688a21c14b0d4cbca28755aaaca727b21",
+        "bytes": 8938
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "dc79c31442b1bcb5ef83b33b5c724a643bae73ba9dec0c720cff7d2fcad95b61",
+        "bytes": 1621895
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "97e06463d147e8be07a6bdf54095a86414d3135e1d88d19e4b218537bcefbe6e",
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-06T05:50:26.765Z"
+  },
+  "notes": [
+    "George conditionally authorized confirmation after Opus 5.5 approval; the exact independent review and fulfilled condition are retained.",
+    "Deterministic model75/75 go and style75/80 no-go remain unchanged. Acceptance of the style threshold shortfall is separately attributed to the conditional requester decision.",
+    "Source-artwork scope only: no automatic runtime, animation, performance or integration qualification. Exact displayed image retained."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

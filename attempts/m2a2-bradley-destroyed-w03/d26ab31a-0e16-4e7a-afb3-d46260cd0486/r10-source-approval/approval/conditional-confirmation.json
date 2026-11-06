@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordedAt": "2026-11-06T05:49:32.209391Z",
+  "approvedBy": "George Le",
+  "quote": "Ok good have opus 5.5 review them and if approved then confirm those models",
+  "conditionSatisfied": true,
+  "condition": "Opus 5.5 approved D02/D03/W02/W03 exact source appearances",
+  "review": {
+    "path": "opus-review-r10.json",
+    "sha256": "2e1ce9c6cd93932bdba0938980d3dc59185d71e09b26aedf10b562360d26cf92",
+    "model": "claude-opus-5-5",
+    "sessionId": "e88b9d15-7f73-45e2-aa90-507c6d80605f",
+    "producerCompleted": true,
+    "exitCode": 0
+  },
+  "scope": "Confirm four exact source-part appearances and matching standalone parts; existing clean/D01/W01 retained",
+  "pins": {
+    "D03": {
+      "jobId": "8fc83e67-63ec-427b-b803-f31c3ce159e2",
+      "assetId": "m2a2-bradley-damaged-d03-fine-lines",
+      "revision": 3,
+      "checkpoint": {
+        "id": "916666ab-e19c-4348-b497-0600f934f519",
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/8fc83e67-63ec-427b-b803-f31c3ce159e2/main/checkpoints/7603be6d-2716-4471-b07d-782dd9b1aa1d.blend",
+        "contentHash": "5c0d45d85f3157735caff2f97ea07b6b73e83b73f515c4ad139494ab7e88819f",
+        "revision": 3
+      },
+      "validationId": "7e0f0a62-0d64-44bc-91d9-6a1544783a34"
+    },
+    "D02": {
+      "jobId": "4fad9673-d263-4116-b0c1-d93e2850a9b6",
+      "assetId": "m2a2-bradley-damaged-d02-fine-lines",
+      "revision": 3,
+      "checkpoint": {
+        "id": "5d6624a5-f31c-41cb-9c4f-80431310dfbd",
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/4fad9673-d263-4116-b0c1-d93e2850a9b6/main/checkpoints/739275b4-c5ee-4c39-98ab-6985f0253000.blend",
+        "contentHash": "34b3332c1b09a1f1d08e79d0f290f346b0138ffa8cd0433a593de14e318a526d",
+        "revision": 3
+      },
+      "validationId": "071bc167-5a2a-42a5-9164-195c1b1df48d"
+    },
+    "W02": {
+      "jobId": "ccaa48f1-1fb4-4717-b7fe-d2a79808eab6",
+      "assetId": "m2a2-bradley-destroyed-w02",
+      "revision": 14,
+      "checkpoint": {
+        "id": "96ed30bd-e86f-4492-a01c-08e6a2b406a2",
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/ccaa48f1-1fb4-4717-b7fe-d2a79808eab6/main/checkpoints/a2872d34-7b19-4796-ae35-3d40871761a0.blend",
+        "contentHash": "8180c371236e7977d2850177c52dd16c5598cb90e4d5e73ab5dbbc02a8016b75",
+        "revision": 14
+      },
+      "validationId": "fba8e617-003e-4705-9266-1f29b4215332"
+    },
+    "W03": {
+      "jobId": "d26ab31a-0e16-4e7a-afb3-d46260cd0486",
+      "assetId": "m2a2-bradley-destroyed-w03",
+      "revision": 10,
+      "checkpoint": {
+        "id": "0e11a59a-ba13-43ff-afce-8152f9c796df",
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/d26ab31a-0e16-4e7a-afb3-d46260cd0486/main/checkpoints/e32ff6b4-c812-4d96-bf96-ba9364892b02.blend",
+        "contentHash": "8231780846e44d60f17090cc850e6d92eb8736d86a1ff7518b7637e5c39f9443",
+        "revision": 10
+      },
+      "validationId": "5b0cc990-4dcc-434e-83d6-03b482d6d6bd"
+    }
+  },
+  "rubricException": {
+    "model": "75/75 go",
+    "style": "75/80 no-go weighted threshold only",
+    "scoreModified": false,
+    "acceptedUnder": "George conditional authorization after the disclosed shortfall and Opus acceptance recommendation"
+  },
+  "runtimeQualificationGranted": false
+}

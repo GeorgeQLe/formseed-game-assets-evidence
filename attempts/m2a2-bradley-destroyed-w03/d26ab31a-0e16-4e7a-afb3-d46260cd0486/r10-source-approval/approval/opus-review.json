@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewType": "independent-final-source-appearance-review",
+  "createdAt": "2026-11-06",
+  "reviewer": {
+    "requestedModelIdentity": "Opus 5.5 (requested by George via parent agent)",
+    "actualModelIdentity": "claude-opus-5-5, as stated by this session's runtime environment/system context (not inferred from the task prompt); not independently attestable from inside the session",
+    "human": false,
+    "independence": "Formed from direct inspection of hash-verified renders before reading primary/adversarial conclusions in detail; prior reviews read afterwards for comparison only. No subagents, no MCP, no Blender, no approval tools."
+  },
+  "gate": "Source-part appearance of four new condition recipes (D02, D03, W02, W03) over the preserved approved clean/D01/W01 Bradley",
+  "authorizationContext": {
+    "userStatement": "Ok good have opus 5.5 review them and if approved then confirm those models",
+    "interpretation": "Conditional authorization for the parent to confirm only the models this review approves. This review is not human approval and executes no confirmation.",
+    "conditionSatisfied": true,
+    "conditionSatisfiedFor": ["D02", "D03", "W02", "W03"]
+  },
+  "verdicts": {
+    "D02": {
+      "verdict": "APPROVE",
+      "jobId": "4fad9673-d263-4116-b0c1-d93e2850a9b6",
+      "assetId": "m2a2-bradley-damaged-d02-fine-lines",
+      "revision": 3,
+      "checkpointId": "5d6624a5-f31c-41cb-9c4f-80431310dfbd",
+      "checkpointSha256": "34b3332c1b09a1f1d08e79d0f290f346b0138ffa8cd0433a593de14e318a526d",
+      "validationId": "071bc167-5a2a-42a5-9164-195c1b1df48d",
+      "observations": "Left-flank damage reading: skirt loss, multiple scorched penetrations, raised driver and rear roof lids with dark apertures; right flank comparatively clean. Barrel carries continuous thin near-black longitudinal strokes; launcher perimeter is a single clean thin outline, no dash trains or doubled borders. Native-256 silhouette remains clearly a Bradley.",
+      "unresolvedDefects": [],
+      "minorNonBlockingNotes": [
+        "Raised rear roof lid reads as a flat, near-uniform brown plate with little surface treatment; existing geometry/material unchanged in r10 and acceptable for grounded-miniature style."
+      ]
+    },
+    "D03": {
+      "verdict": "APPROVE",
+      "jobId": "8fc83e67-63ec-427b-b803-f31c3ce159e2",
+      "assetId": "m2a2-bradley-damaged-d03-fine-lines",
+      "revision": 3,
+      "checkpointId": "916666ab-e19c-4348-b497-0600f934f519",
+      "checkpointSha256": "5c0d45d85f3157735caff2f97ea07b6b73e83b73f515c4ad139494ab7e88819f",
+      "validationId": "7e0f0a62-0d64-44bc-91d9-6a1544783a34",
+      "observations": "Frontal/engine-deck damage reading: displaced/blasted grille, scorched glacis, turret-roof scorch near commander station; flanks largely intact. Clearly distinct from D02 (front vs left-flank damage). Barrel and launcher lines thin, continuous and near-black; launcher end tubes and perimeter crisp.",
+      "unresolvedDefects": [],
+      "minorNonBlockingNotes": []
+    },
+    "W02": {
+      "verdict": "APPROVE",
+      "jobId": "ccaa48f1-1fb4-4717-b7fe-d2a79808eab6",
+      "assetId": "m2a2-bradley-destroyed-w02",
+      "revision": 14,
+      "checkpointId": "96ed30bd-e86f-4492-a01c-08e6a2b406a2",
+      "checkpointSha256": "8180c371236e7977d2850177c52dd16c5598cb90e4d5e73ab5dbbc02a8016b75",
+      "validationId": "fba8e617-003e-4705-9266-1f29b4215332",
+      "observations": "Burned wreck: dropped rear ramp exposing dark interior, thrown/lying track strip, splayed side panels, raised roof lid, charred surface with rust highlights. Turret and launcher retained. Line work present and continuous; contrast against charred surfaces is intentionally low but perimeter and barrel strokes remain legible at 1024.",
+      "unresolvedDefects": [],
+      "minorNonBlockingNotes": [
+        "At native 256 the near-black lines on the charred launcher/barrel are barely perceptible; consistent with the 'very thin' request and with wreck value grouping."
+      ]
+    },
+    "W03": {
+      "verdict": "APPROVE",
+      "jobId": "d26ab31a-0e16-4e7a-afb3-d46260cd0486",
+      "assetId": "m2a2-bradley-destroyed-w03",
+      "revision": 10,
+      "checkpointId": "0e11a59a-ba13-43ff-afce-8152f9c796df",
+      "checkpointSha256": "8231780846e44d60f17090cc850e6d92eb8736d86a1ff7518b7637e5c39f9443",
+      "validationId": "5b0cc990-4dcc-434e-83d6-03b482d6d6bd",
+      "observations": "Burned wreck with launcher torn askew off its mount, removed hatch aperture, lost road wheel/debris on ground, rear intact. Clearly distinct from W02 (rear ramp/track loss) at native 256 and in all nine views. Barrel strokes continuous; tilted launcher perimeter clean.",
+      "unresolvedDefects": [],
+      "minorNonBlockingNotes": [
+        "Faint short dark marks at launcher internal panel seams are pre-existing texture detail, not the added line geometry; not read as r9-style dotted aliasing."
+      ]
+    }
+  },
+  "conditionDistinction": "All four are mutually distinguishable and distinct from preserved D01/W01 in kind: D02 left-flank penetrations/skirt loss; D03 frontal/engine-deck blast; W02 rear ramp drop, thrown track, open interior; W03 launcher torn off mount, missing hatch/wheel. Damaged recipes keep tan finish; wreck recipes read burned.",
+  "lineRequestAssessment": "Requested very thin black lines on barrel and launcher are present in all four, continuous at 1024 (r9 dotted aliasing not apparent), subordinate at 256, without added mass or modelwide outlining. Preservation record shows existing mesh triangles preserved (0 missing), transforms unchanged, no existing shader changes; condition-interior material user list extended to barrel/launcher (consistent with near-black line material).",
+  "styleShortfall": {
+    "deterministicResults": {
+      "modelQuality": "75/75 threshold, go (all four)",
+      "artStyleConsistency": "75 vs 80 threshold, no-go (all four), sole failure weighted-total; category floors, core floors, hard gates, structured evidence and adversarial checks all pass"
+    },
+    "evaluatorGo": false,
+    "scoreModified": false,
+    "independentFinding": "All eight style categories score a uniform 3 for each candidate; the shortfall reflects absence of any category reaching the top band, not an identified style defect. Direct inspection found no style inconsistency with the approved clean/D01/W01 family.",
+    "recommendAcceptance": true,
+    "recommendationNote": "Recommend accepting the numeric style shortfall for these exact appearances. This does not convert the evaluator result to go and is not human approval."
+  },
+  "inspectedFiles": {
+    "displayedReviewImage": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/bradley-condition-parts-20261105/Bradley-four-new-recipes-r10-review.png",
+      "sha256": "dc79c31442b1bcb5ef83b33b5c724a643bae73ba9dec0c720cff7d2fcad95b61",
+      "verified": true
+    },
+    "recognitionSheets": {
+      "D02": {"path": "projects/bradley-condition-parts-20261105/D02-r10-recognition.png", "sha256": "52d103ac262163845624c33dd5318bb57846ffefab036c1544204acbbaf344f9", "verified": true},
+      "D03": {"path": "projects/bradley-condition-parts-20261105/D03-r10-recognition.png", "sha256": "796a48add5484728292624288961da3cafea759cf203e738c57c60fba942612c", "verified": true},
+      "W02": {"path": "projects/bradley-condition-parts-20261105/W02-r10-recognition.png", "sha256": "97fa1018f6b7773706bcab5093ea1331ca59e74af3d6f875fe2dbcc836ab95c9", "verified": true},
+      "W03": {"path": "projects/bradley-condition-parts-20261105/W03-r10-recognition.png", "sha256": "6f6de454a2b4f4607247c9d43c8d8b187fcbf45531ef7dde25055dde03718502", "verified": true}
+    },
+    "fullViews": "All 36 native 1024px views (9 per candidate: front, front-right, right, rear-right, rear, rear-left, left, front-left, top) as listed in evidence-r10.json candidates.*.render.views; all 36 sha256 verified matching. Inspected via temporary montages and 2x crops of left, front-left and front-right barrel/launcher regions written only under /tmp/opus-r10.",
+    "checkpoints": "All four .blend checkpoint files hashed; all match the pinned contentHash.",
+    "records": {
+      "opus-input-r10.json": "read",
+      "delivery-r10.json": "read",
+      "evidence-r10.json": "9b25326c1637c3357ade2e5443d188db38966e832edd1e18ced7b49533056ad8 verified; fields extracted programmatically",
+      "export-evidence-r10.json": "9fd94913d077a627afeec95346e96defe64abfdccaf9d6b7f148f3dff863be0c verified",
+      "preservation-r10.json": "read",
+      "evaluation-r10.json": "f280d625e454f3bfb8ab5d43f694a7c688a21c14b0d4cbca28755aaaca727b21 verified",
+      "primary-review-r10.json": "45478893df6bf5643fe6c075dead166204c4ef0714034ee25fba5f428a5d6b45 verified",
+      "adversarial-review-r10.json": "8ba8ee830a7d7dabbfa1313c1e23939cd24531ee57714ddc72c1646e464dd9d7 verified",
+      "parts-r10/consumer-patch-engine-check.json": "177bfd132256e55b7ae8e947efe034367c5b2723707e7ad22b225cb81aa3634f verified",
+      "parts-r10/ASSEMBLY.md": "e12a1554e7cd770a5766cfc53aad32dbc5df9ccec2a34a581e8cb777bc16ce9e verified (hash only)",
+      "delivery-receipts-r10.json": "b65291086c43a289b2ea85f23122abee96bae4470898f3a54c72e8f4b65c6cec verified (hash only)",
+      "review-presentation-r10.json": "6a1ca9b462cfccedc0dea353053db2c6c06b9d84fc8b8879a1f03cd2aaf4a66a verified (hash only)",
+      "parts-r10/assembly.json": "d8c729cd2d2c6d53511e268db013e8b9de1095108f453fa905803fbac8cc7f81 verified",
+      "bundleManifests": "D02/D03/W02/W03 bundles-r10 manifests all sha256 verified",
+      "assessments-r10/*-art-style-consistency.json": "category scores read"
+    },
+    "hashMismatches": 0
+  },
+  "status": {
+    "technicalValidation": "pass-source-scope (from records; hashes independently re-verified)",
+    "visualRecommendation": "Deterministic evaluator: model-quality go, art-style-consistency no-go (weighted total 75<80). This reviewer: APPROVE all four exact appearances and recommends accepting the style shortfall.",
+    "humanApproval": "absent; this reviewer is not human. Parent may confirm under George's conditional authorization."
+  },
+  "scopeAndLimitations": [
+    "Scope: visual appearance of the four exact source checkpoints above only. Clean, D01 and W01 not re-reviewed (preserved/previously approved).",
+    "No Blender launched, no GLB re-export, no new renders; review relies on existing hash-verified renders.",
+    "Consumer patch-engine check (234 assertions, 9 transition paths, passed) is source-level with stubbed image decoding; it is not rendered gameplay, LOD, performance or runtime qualification, and this review grants none.",
+    "This review does not grant game-readiness, integration, promotion or version confirmation; it satisfies only the reviewer condition in George's instruction.",
+    "Wreck line contrast and 256px line visibility judged from offline renders under the review lighting; in-game lighting not evaluated."
+  ],
+  "rubberStampCheck": "Prior primary and adversarial reviews reached similar conclusions; this review independently verified hashes and inspected all 36 views plus close crops before agreeing, and records its own minor notes."
+}
