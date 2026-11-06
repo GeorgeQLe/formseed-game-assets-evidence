@@ -1,0 +1,99 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2a2-bradley-damaged-d03-fine-lines",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "8fc83e67-63ec-427b-b803-f31c3ce159e2",
+    "revision": 1,
+    "checkpointSha256": "fe8260abf4c4dc1ec6bd8372b7ae01706b2485fd20a17e0a341b577436cecaf1"
+  },
+  "gate": "primary-secondary-review",
+  "evidence": {
+    "renderHash": "2abc2ab37814f868d007cfa023e80759d7e21bb487f46d19a4c3ed83aee80eb8",
+    "labeledSheet": {
+      "path": "review/exact-four-recipe-review.png",
+      "sha256": "30b375954bd0d51a1e0cab703487c7d75e44ef370a18404ed3e388f5bb620ef5",
+      "bytes": 1620166
+    },
+    "files": [
+      {
+        "path": "views/front.png",
+        "sha256": "636bfb7924704e7b0bc621c1f5d4b9cca805fe5d3948262b8bbc849ff9ea77ea",
+        "bytes": 592330
+      },
+      {
+        "path": "views/front-right.png",
+        "sha256": "cef610b22f95b1f6f0145581c3ea1d491dc0ec45f8762122e62be181ddf5b3cd",
+        "bytes": 757572
+      },
+      {
+        "path": "views/right.png",
+        "sha256": "c09cdef164510746ce01c21cc49dfa281cb3db2bdc8191e9cdc7cf9f6de18ab3",
+        "bytes": 628738
+      },
+      {
+        "path": "views/rear-right.png",
+        "sha256": "5c35fcef07d717e36f96430c212910a4a87f106f8018c4c248d1e012062eed19",
+        "bytes": 738642
+      },
+      {
+        "path": "views/rear.png",
+        "sha256": "b9a7beba514dee372c361b7adb19864192e8996aa46803d9da4490921bc12399",
+        "bytes": 570881
+      },
+      {
+        "path": "views/rear-left.png",
+        "sha256": "bea484d4d2e8be2cec2eacd0975d88a731422765dc67bab2d448488c3e85391b",
+        "bytes": 714852
+      },
+      {
+        "path": "views/left.png",
+        "sha256": "b1401fec407f1556f0880ba7f8f37c3d642f83e192105793aa77311a74ac724f",
+        "bytes": 619524
+      },
+      {
+        "path": "views/front-left.png",
+        "sha256": "9e1fa096b5c02e79ffdba309089cf7306e2da06e696fa67b0eb91cb60c2f0ba8",
+        "bytes": 750058
+      },
+      {
+        "path": "views/top.png",
+        "sha256": "230d39bdf3fe419d102244251a7ad60fd56051575e411b80f4d6b68656c5043a",
+        "bytes": 752622
+      },
+      {
+        "path": "views/native-256.png",
+        "sha256": "09465fd10b0ce3dcbfb44d34e23b5538ad35acc463fd86efd41544acc720f11c",
+        "bytes": 199290
+      },
+      {
+        "path": "review/exact-four-recipe-review.png",
+        "sha256": "30b375954bd0d51a1e0cab703487c7d75e44ef370a18404ed3e388f5bb620ef5",
+        "bytes": 1620166
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "31c31fe3e861587a0d73c9a3bc340901f52500be6d5e550e2b790b90d70a0982",
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Retain r9 as an abandoned internal review attempt: dashed subpixel barrel strokes and paired launcher borders require one bounded correction.",
+    "decidedAt": "2026-11-06T05:26:55.616Z"
+  },
+  "notes": [
+    "Internal review attempt abandoned by the production coordinator after independent review; never presented to George and no human decision inferred.",
+    "R9 implemented George’s requested thin lines. Independent review found dashed subpixel strokes and paired launcher edges. Superseded by one bounded r10 technical refinement.",
+    "Exact labeled internal review sheet retained for provenance; not shown in Preview or sent as a human review request. Only authored imagery; no third-party reference images."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
