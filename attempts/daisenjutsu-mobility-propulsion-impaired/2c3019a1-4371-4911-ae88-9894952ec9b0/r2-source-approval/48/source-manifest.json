@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "producer": {
+    "name": "FormSeed2D",
+    "packageVersion": "1.8.0",
+    "backend": "Version: ImageMagick 7.1.2-22 Q16-HDRI aarch64 bbfc7cba0:20260511 https://imagemagick.org"
+  },
+  "jobId": "f22f2776-6b96-4074-8f11-3658e0a50e8b",
+  "revision": 1,
+  "source": {
+    "kind": "file",
+    "path": ".formseed2d/jobs/2c3019a1-4371-4911-ae88-9894952ec9b0/revisions/2.png",
+    "sha256": "0256f5d62c0f03c1e00ece0edbf42382cb5da93631f4b6c9ffde0b90e272f78c"
+  },
+  "operationHistory": [
+    {
+      "revision": 0,
+      "createdAt": "2026-11-06T17:57:29.493Z",
+      "imagePath": ".formseed2d/jobs/f22f2776-6b96-4074-8f11-3658e0a50e8b/revisions/0.png",
+      "sha256": "6bdfbfbcbab95c14f01de74da4b0860c078e98e789b1dba1e3216851a893f0d5",
+      "operations": [],
+      "info": {
+        "width": 96,
+        "height": 96,
+        "format": "PNG",
+        "colorspace": "sRGB",
+        "hasAlpha": true,
+        "bytes": 622,
+        "decodedBytes": 36864
+      }
+    },
+    {
+      "revision": 1,
+      "createdAt": "2026-11-06T17:57:29.653Z",
+      "imagePath": ".formseed2d/jobs/f22f2776-6b96-4074-8f11-3658e0a50e8b/revisions/1.png",
+      "sha256": "d3dd3a09b2625f46392dcc38f7e4134d26f74e9341f16c7d7c879942b701026c",
+      "operations": [
+        {
+          "type": "atlas_resize",
+          "width": 48,
+          "height": 48,
+          "filter": "box"
+        }
+      ],
+      "info": {
+        "width": 48,
+        "height": 48,
+        "format": "PNG",
+        "colorspace": "sRGB",
+        "hasAlpha": true,
+        "bytes": 414,
+        "decodedBytes": 9216
+      },
+      "pixelChanges": {
+        "changedPixels": 8221,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      }
+    }
+  ],
+  "canonical": {
+    "path": "canonical.png",
+    "sha256": "d3dd3a09b2625f46392dcc38f7e4134d26f74e9341f16c7d7c879942b701026c",
+    "mediaType": "image/png",
+    "info": {
+      "width": 48,
+      "height": 48,
+      "format": "PNG",
+      "colorspace": "sRGB",
+      "hasAlpha": true,
+      "bytes": 414,
+      "decodedBytes": 9216
+    }
+  },
+  "derivatives": [],
+  "validation": {
+    "revision": 1,
+    "revisionSha256": "d3dd3a09b2625f46392dcc38f7e4134d26f74e9341f16c7d7c879942b701026c",
+    "validatedAt": "2026-11-07T05:38:22.335Z",
+    "backend": "Version: ImageMagick 7.1.2-22 Q16-HDRI aarch64 bbfc7cba0:20260511 https://imagemagick.org",
+    "checks": [
+      "revision-hash",
+      "png-canonical",
+      "dimensions",
+      "encoded-bytes",
+      "decoded-memory"
+    ]
+  },
+  "createdAt": "2026-11-07T05:38:22.400Z"
+}
