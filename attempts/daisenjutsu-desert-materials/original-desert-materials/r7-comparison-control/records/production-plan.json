@@ -1,0 +1,90 @@
+{
+  "revision": "desert-material-r7",
+  "authorization": "George: Ok please make revisions",
+  "mode": "sequential-component-refinement",
+  "scope": "B/cantonment/pan topology and scale corrections only. Full original nine-family verification; preserve other sources. No normal artwork activation or release.",
+  "predecessor": "desert-original-review-r6/checkpoint.json",
+  "ledger": {
+    "classification": "autonomous",
+    "reason": "Generic revision authorization; conservative charge one per changed material",
+    "ceilingPerMaterial": 9,
+    "consumedBefore": {
+      "open-sand-b": 4,
+      "cantonment": 4,
+      "pan": 3
+    },
+    "reserved": {
+      "open-sand-b": 1,
+      "cantonment": 1,
+      "pan": 1
+    }
+  },
+  "references": {
+    "path": "/Users/georgele/Developer/Projects/games/daisenjutsu-research/terrain/desert-pilot-20261107/research-before-desert-six-20261107.json",
+    "sha256": "438c138aac3d4a567eed9da9dadd7defac34fea74307ccaa14e01ce8c9fd3cbe",
+    "inspected": [
+      "wadi-al-batin-fig4.jpg",
+      "al-batin-park.jpg",
+      "cmsf2-official-01.jpg"
+    ],
+    "resolution": "Per-material subject translation below resolves prior deferred targeted-reference gap. Contemporary regional images are material context only; exact 1991 microterrain and camp layout explicitly unclaimed."
+  },
+  "materials": [
+    {
+      "id": "open-sand-b",
+      "rgb": [
+        190,
+        175,
+        145
+      ],
+      "targetRms": 6.0,
+      "construction": "A desert pavement of small ANGULAR FLAT GRAVEL fragments partially embedded in sand. Visible irregular broken chips approximately 1 to 3 percent of the image width, densely grouped in ragged connected clusters over about 45 percent of the surface; irregular open sand windows between clusters. The angular chips have simple muted flat gray-brown color fills with no bright edge, shadow, outline, bevel or raised-pebble appearance. Large enough that chip clusters and individual coarse pieces remain visible at 128 pixels, unlike fine-grain sand. Asymmetric all-over distribution, not circular islands or dots. Avoid cloudy noise; gravel-fragment topology is the defining cue.",
+      "prompt": "Use case: stylized-concept. Asset type: square seamless top-down ground ALBEDO texture for a restrained tactical miniature strategy game. Original designed artwork inspired by regional Kuwaiti desert material traits, not a photo reconstruction. Orthographic flat plan view filling entire square edge to edge. Uniform diffuse ambient illumination: no directional illumination, highlights, shadows, bevels, ambient occlusion, painted height, vignette or focal center. Matte low-saturation beige/taupe earth; quiet but legible material grouping. Surface material only, no text, UI, border, hexes, rocks standing above ground, objects, vegetation, buildings, roads, tire marks, tracks, water or cracks. Seamless repeating material field. Large-scale material groupings must survive downsampling to128px, fine grain subordinate. The ground is flat: distinguish materials through grain-density and color distribution, never relief. A desert pavement of small ANGULAR FLAT GRAVEL fragments partially embedded in sand. Visible irregular broken chips approximately 1 to 3 percent of the image width, densely grouped in ragged connected clusters over about 45 percent of the surface; irregular open sand windows between clusters. The angular chips have simple muted flat gray-brown color fills with no bright edge, shadow, outline, bevel or raised-pebble appearance. Large enough that chip clusters and individual coarse pieces remain visible at 128 pixels, unlike fine-grain sand. Asymmetric all-over distribution, not circular islands or dots. Avoid cloudy noise; gravel-fragment topology is the defining cue."
+    },
+    {
+      "id": "cantonment",
+      "rgb": [
+        166,
+        151,
+        126
+      ],
+      "targetRms": 4.5,
+      "construction": "Compacted dry hard-packed soil with broad irregular SMOOTH matte plates and short diffuse scuffed transitions. Smooth uninterrupted compacted areas occupy roughly 80 percent. Only sparse tiny grit gathers in discontinuous shallow ragged interstices. Some wider subtly lighter rubbed areas extend asymmetrically across the field, with flattened and angular ends; no straight lines, tire tracks, road, tile network, circles or repeated stamps. This material must look predominantly smooth and burnished by use, unlike the coarse gravel and like no loose sand. Compaction cue must survive at 128 pixels through broad smooth-versus-gritty areas.",
+      "prompt": "Use case: stylized-concept. Asset type: square seamless top-down ground ALBEDO texture for a restrained tactical miniature strategy game. Original designed artwork inspired by regional Kuwaiti desert material traits, not a photo reconstruction. Orthographic flat plan view filling entire square edge to edge. Uniform diffuse ambient illumination: no directional illumination, highlights, shadows, bevels, ambient occlusion, painted height, vignette or focal center. Matte low-saturation beige/taupe earth; quiet but legible material grouping. Surface material only, no text, UI, border, hexes, rocks standing above ground, objects, vegetation, buildings, roads, tire marks, tracks, water or cracks. Seamless repeating material field. Large-scale material groupings must survive downsampling to128px, fine grain subordinate. The ground is flat: distinguish materials through grain-density and color distribution, never relief. Compacted dry hard-packed soil with broad irregular SMOOTH matte plates and short diffuse scuffed transitions. Smooth uninterrupted compacted areas occupy roughly 80 percent. Only sparse tiny grit gathers in discontinuous shallow ragged interstices. Some wider subtly lighter rubbed areas extend asymmetrically across the field, with flattened and angular ends; no straight lines, tire tracks, road, tile network, circles or repeated stamps. This material must look predominantly smooth and burnished by use, unlike the coarse gravel and like no loose sand. Compaction cue must survive at 128 pixels through broad smooth-versus-gritty areas."
+    },
+    {
+      "id": "pan",
+      "rgb": [
+        183,
+        170,
+        151
+      ],
+      "targetRms": 4.0,
+      "construction": "Dry fine silty pan sediment: exceptionally fine powdery almost grain-free surface with several broad overlapping diffuse PALE SILT DEPOSITION VEILS. Very soft irregular feathered branching edges where silt settles, patches approximately one quarter of tile width, subtle chalky cream film on warm gray beige sediment. No large particles, gravel, scuffs, lines, cracks, cell networks, salt polygons, dunes, liquid or shore. Silt film pattern is non-directional and flat, no shading or highlights; smoother and softer-edged than compacted angular rubbed soil. Pale deposited-silt fields must remain identifiable at 128 pixels.",
+      "prompt": "Use case: stylized-concept. Asset type: square seamless top-down ground ALBEDO texture for a restrained tactical miniature strategy game. Original designed artwork inspired by regional Kuwaiti desert material traits, not a photo reconstruction. Orthographic flat plan view filling entire square edge to edge. Uniform diffuse ambient illumination: no directional illumination, highlights, shadows, bevels, ambient occlusion, painted height, vignette or focal center. Matte low-saturation beige/taupe earth; quiet but legible material grouping. Surface material only, no text, UI, border, hexes, rocks standing above ground, objects, vegetation, buildings, roads, tire marks, tracks, water or cracks. Seamless repeating material field. Large-scale material groupings must survive downsampling to128px, fine grain subordinate. The ground is flat: distinguish materials through grain-density and color distribution, never relief. Dry fine silty pan sediment: exceptionally fine powdery almost grain-free surface with several broad overlapping diffuse PALE SILT DEPOSITION VEILS. Very soft irregular feathered branching edges where silt settles, patches approximately one quarter of tile width, subtle chalky cream film on warm gray beige sediment. No large particles, gravel, scuffs, lines, cracks, cell networks, salt polygons, dunes, liquid or shore. Silt film pattern is non-directional and flat, no shading or highlights; smoother and softer-edged than compacted angular rubbed soil. Pale deposited-silt fields must remain identifiable at 128 pixels."
+    }
+  ],
+  "observedDefects": "B gravel, cantonment compaction and pan sediment are insufficiently distinct at128; smooth low-frequency generic grain carries too little identity.",
+  "pipeline": "Three individual recorded FormSeed2D concept handoffs, exact prompt per material, one host generation each. Typed resize512 then blur0.6; read-only expected-pixel tone normalization+periodic edge correction+residual calculation; ONLY public typed pixel operations author every derived raster. Constant RGB substrate; periodic radius6 lowpass surface variation; fine-detail residual reconstructs exact final target. All derived source hashes/manifests retained.",
+  "normalization": "Luminance from generated source after typed resize512+blur0.6. Center by mean and scale to material targetRms; clamp luma offset \u00b112. Preserve subtle source chroma with 0.12 gain capped\u00b11 per channel. Blend opposite edges over32px with smooth quadratic weight reaching0.5 atedge; duplicate edge pixels exact. Surface variation periodic separable radius6 box filtering; residual alpha reconstructs. No fake generated tool output.",
+  "retainedCriteria": [
+    "Exact512opaque/seam registration",
+    "Quiet matte low-saturation earth family",
+    "No baked relief/props/borders",
+    "Independent three-layer reconstruction and replacement",
+    "No prominent repeat landmarks",
+    "Material-scale groups survive128 while grain stays quiet"
+  ],
+  "falsifiers": [
+    "No distinction beyond palette at128",
+    "New repeated landmark or baked relief",
+    "Poor seamless repeat",
+    "Overlay competition at actual near/far scale"
+  ],
+  "deferred": {
+    "wholeAsset": "No applicable terrain rubric; formal no-go. Artwork human approval absent.",
+    "retainedSources": "Open A/wadi floor/crest r3 pilot pins plus C r2/slope r6/wadi slope r5, exact hashes in retained-source-set.json. Existing iOS label overlap stays separate.",
+    "owners": "Agent verifies complete family, lineage and runtime checks; George alone approves exact artwork; rubric missing remains independent limitation."
+  },
+  "review": "Independent complete recipe audit before dispatch. New neutral reviewer inspects sources and repeats at512/128/64/32 before disclosure, then compares old and new. Retain only improvement without regression, otherwise continue charged corrections while credible and budget available. Current web/iOS fixtures later required; loader cache/fallback/lifecycle and resource checks do not approve art."
+}

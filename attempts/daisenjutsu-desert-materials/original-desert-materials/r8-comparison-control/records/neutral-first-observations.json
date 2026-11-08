@@ -1,0 +1,43 @@
+{
+  "review_type": "independent neutral first observations",
+  "scope": "Read only neutral/index.json and its twelve listed PNGs before writing this report. No target identities, mapping, plans, prior versions, history, or rationale inspected.",
+  "method": "SHA-256 verification of all twelve files against index; direct image-tool inspection of all twelve PNGs at their supplied dimensions. No grayscale transformations or pixel modifications.",
+  "hash_verification": {
+    "files_checked": 12,
+    "matches": 12,
+    "mismatches": 0
+  },
+  "formal_approval": false,
+  "observations": {
+    "A": {
+      "single512": "Soft, smooth, matte beige field with low-contrast diffuse mottling. Suggests fine dust, powder, or very fine settled sand; also visually compatible with softly mottled plaster. No individually legible grains, stones, crust plates, or directional sand ripples.",
+      "repeat128": "Quiet cloudy mottling remains. A slight recurring diagonal/cloud arrangement can be found when looking for repetition, but there is no strong seam or square border.",
+      "repeat64": "Mostly fine soft mottling, with no convincing discrete surface features. Tile cadence is subdued.",
+      "repeat32": "Nearly uniform matte field with faint fine variation. Material specificity is weak at this scale.",
+      "pattern_relief_cracks": "No cracks or strong false relief. Very soft light/dark clouds could be shading or color variation; they do not strongly imply raised geometry."
+    },
+    "B": {
+      "single512": "Clusters of small, irregular, angular darker islands on a lighter flat base, separated by pale gaps. The islands resemble scattered shallow crust flakes or aggregate flecks more than smooth dust. Cluster density varies substantially, making a broad patch pattern.",
+      "repeat128": "Angular fleck clusters remain visible and separate B from the other two by texture structure. Identical denser and sparser clusters produce a readily traceable diagonal repeated arrangement. No hard border seam is apparent.",
+      "repeat64": "Flecks merge into grainy patchwork. Repeating diagonally arranged clusters remain more legible than individual islands.",
+      "repeat32": "Fine low-contrast stipple mostly collapses toward a uniform field. Structure-based identification becomes weak; some mottled grain remains.",
+      "pattern_relief_cracks": "Little convincing depth shading: the marks are predominantly flat color shapes. Pale interstices can evoke fragmented dried crust, but there is no clear dark branching fissure network. Broad cluster pattern and its repeat are the main conspicuous features."
+    },
+    "C": {
+      "single512": "Coarser mottled matte surface with broad irregular swaths and small rough/pitted texture. Several oblique boundaries pair lighter and darker tones, giving shallow raised or eroded relief. Reads closer to compacted rough earth or a lightly plastered/mineral surface than loose fine powder.",
+      "repeat128": "Broad wavy/oblique patch boundaries repeat clearly. The sheet has a diagonal undulating rhythm, with identical shallow ridge-like shapes recurring across rows. Texture stays coarse relative to A.",
+      "repeat64": "Repeated ridge-like marks remain visible even as fine roughness shrinks. This preserves a structure-based distinction but makes the tiled cadence pronounced.",
+      "repeat32": "Tiny repeated diagonal strokes remain visible, retaining a slightly embossed/wavy appearance. Stronger recurring directional texture than either A or B at this size.",
+      "pattern_relief_cracks": "Most conspicuous false-relief risk of the three: paired light/dark boundaries suggest shallow ledges, waves, or ridges. No obvious branching cracks. Broad diagonal forms and exact repeats are visible despite low contrast."
+    }
+  },
+  "distinguishability_without_color_alone": {
+    "single512": "A is smooth and diffuse; B has sharply bounded angular fleck islands; C has coarse roughness and broad shaded boundaries. All three have distinguishable structures independent of hue.",
+    "repeat128": "B remains granular/clustered, C remains broad and ridge-like, and A stays soft and diffuse. Their repeated patterns are clearest in B and C.",
+    "repeat64": "C retains the strongest distinctive directional relief-like structure. B remains somewhat grainier than A, but that distinction weakens.",
+    "repeat32": "C retains a tiny directional ridge cadence. A and B converge substantially in apparent texture; reliable distinction between them would lean on average tone/color or magnification.",
+    "qualification": "These are visual judgments from the supplied color images, not a separately tested grayscale discrimination result."
+  },
+  "overall_limitations": "These observations identify appearance and repetition, not suitability for an undisclosed target. No scores and no formal acceptance or approval are given.",
+  "next_step": "Await disclosed target identities and comparison instructions; preserve this neutral report unchanged."
+}

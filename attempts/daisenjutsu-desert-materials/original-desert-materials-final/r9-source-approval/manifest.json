@@ -1,0 +1,55 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "daisenjutsu-desert-materials",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed2d",
+    "buildVersion": "1.8.0"
+  },
+  "job": {
+    "jobId": "original-desert-materials-final",
+    "revision": 9,
+    "checkpointSha256": "3e8854365d33a8233af42e9b07661fd199213442af64a986629058338b00ad40"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "30d3359efff37a884c678247c5deed08e8a7ef12b53e29ee2ea5411999409dac",
+    "labeledSheet": {
+      "path": "desert-nine-review-final.png",
+      "sha256": "30d3359efff37a884c678247c5deed08e8a7ef12b53e29ee2ea5411999409dac",
+      "bytes": 188860
+    },
+    "files": [
+      {
+        "path": "records/decision.json",
+        "sha256": "ed99a9ece54f8cd0d95d1b61b3473de7e1e9c35bca86456b3cbba1e4945e0d83",
+        "bytes": 660
+      },
+      {
+        "path": "desert-nine-review-final.png",
+        "sha256": "30d3359efff37a884c678247c5deed08e8a7ef12b53e29ee2ea5411999409dac",
+        "bytes": 188860
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "b0493a9b816cb0828131e0bed08f137624bd98449cc1a118a38a10369bf5a5af",
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-08T03:09:37.057Z"
+  },
+  "notes": [
+    "Exact original raster artwork approved by George; public evidence publication explicitly authorized.",
+    "Human quote and scope retained in records/decision.json. No formal terrain qualification or measured phone performance.",
+    "Historical comparison-control records remain immutable; this source-approval record appends the later decision."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

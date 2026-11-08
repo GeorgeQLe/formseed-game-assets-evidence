@@ -1,0 +1,110 @@
+{
+  "review_kind": "neutral-first-observations",
+  "reviewer": "neutral_surface_review",
+  "disclosure_state": "Only neutral/index.json and the twelve neutral PNGs were read. No target mapping, rationale, or other project files were read.",
+  "status": "observations_only",
+  "formal_go": false,
+  "human_approval": false,
+  "method": "Viewed each of the twelve supplied images at its native supplied resolution. Independently computed SHA-256 with shasum -a 256; all PNG hashes match index.json.",
+  "index_sha256": "0a413487f45bf990f28cf4c6b1ca00ac126f050a1ea95dbade3a63f588fa8258",
+  "source_pins": [
+    {
+      "path": "neutral/A-single512.png",
+      "sha256": "2bb9b405735b3ddea19c0bf0d4525461a88a405959cc283295839427f1e3bb8e"
+    },
+    {
+      "path": "neutral/A-repeat128.png",
+      "sha256": "ca931b8c53a3f762bc059f562e49975afeec9e0bd26a28b52cfac2ab0eb13536"
+    },
+    {
+      "path": "neutral/A-repeat64.png",
+      "sha256": "7b0c2258ca9aa0ace32bb2307424da715d2fc39d60af430ec3908d515be0caa5"
+    },
+    {
+      "path": "neutral/A-repeat32.png",
+      "sha256": "182ddd9e9e043c86bc832c0db7edd75bca883f3d0105726d9f3c2a935d94bb74"
+    },
+    {
+      "path": "neutral/B-single512.png",
+      "sha256": "8d828ff940107ee6c9688f13c1006700027be83bc8653854d56203bdac9f6bd1"
+    },
+    {
+      "path": "neutral/B-repeat128.png",
+      "sha256": "d7bf99862e05aef718c3b7d3ea2632b30e5182140ecefcf304cd80539c35e652"
+    },
+    {
+      "path": "neutral/B-repeat64.png",
+      "sha256": "c6dca96ad6c1543a2b7ac626e75f84afcc5e5fd0965c233fda63fd8b52d8c441"
+    },
+    {
+      "path": "neutral/B-repeat32.png",
+      "sha256": "5fc33782aa9d960844d8886d8f80fdfed2d7fefec66773f49a05d46c38648555"
+    },
+    {
+      "path": "neutral/C-single512.png",
+      "sha256": "7294571300b3f20a4a2e47c8dfd6b509a88a3b9ba98a8aeda2a28d286d43c244"
+    },
+    {
+      "path": "neutral/C-repeat128.png",
+      "sha256": "96ffaab2f0c7e6257148c213fcffb53d5a915b37875e2a53d22444f254658fd8"
+    },
+    {
+      "path": "neutral/C-repeat64.png",
+      "sha256": "f89c025febfff24203cff1f3a5308e3b47ff6eb5f5480b7bb1f18a6d964adfb2"
+    },
+    {
+      "path": "neutral/C-repeat32.png",
+      "sha256": "e7e44cd0326788dd60460c16c357080650d41d7a164734e242a45de604e6e7b3"
+    }
+  ],
+  "observations": {
+    "A": {
+      "first_reading": "Matte beige granular ground or dusty earth, with broad shallow sweeping patches and fine irregular grit.",
+      "competing_readings": [
+        "Sand or compacted dusty soil",
+        "Weathered plaster or a painted stone surface",
+        "Low undulating banks or ridges when the broad pale boundaries are read as lighting"
+      ],
+      "single512": "Fine roughness is visible across the broad tonal patches. Irregular pale and darker swathes suggest a rubbed or wind-worked surface. No discrete large rocks, hard cracks, or strong cast shadows stand out.",
+      "repeat128": "The sweeping pale swathes recur in diagonal rows. This makes the repeated motif more apparent than in the single image, despite no obvious hard rectangular seams.",
+      "repeat64": "Fine grit mostly merges away. The broad pale crests and darker swathes remain, producing a rhythmic shallow-wave reading.",
+      "repeat32": "The fine surface identity is weak; the remaining cue is a regular pale diagonal scallop or wave pattern on beige.",
+      "false_relief": "Moderate ambiguity from broad pale-to-dark boundaries: these can imply shallow banks, rolling relief, or a repeated brushed surface. No convincing tall obstruction or discrete raised boulder."
+    },
+    "B": {
+      "first_reading": "Soft matte beige cloudy surface, apparently fine dust or very smooth sand with diffuse tonal mottling.",
+      "competing_readings": [
+        "Fine smooth sand or dust",
+        "Softly mottled plaster or paint",
+        "Blurred clouds, fabric, or a generic noise texture"
+      ],
+      "single512": "Diffuse irregular light and dark patches dominate. Very little sharply resolved grain or local material structure is available to anchor a precise physical reading.",
+      "repeat128": "Cloudlike pale mottles form recurring diagonal clusters. Repetition is easy to see from the return of the same shapes; no strong straight join is apparent.",
+      "repeat64": "Diffuse mottle remains readable. It is distinguishable from A by softer boundaries and less directional crests, but both occupy a similar beige low-contrast range.",
+      "repeat32": "Reads mainly as beige mottling. Physical material identity remains uncertain and the distinction from A narrows considerably.",
+      "false_relief": "The broad shading can imply gentle shallow undulation or diffuse lighting, though the soft edges weaken a definite raised-object interpretation. No strong edges, cast shadows, or tall relief."
+    },
+    "C": {
+      "first_reading": "Patches of small angular fragments or a broken crust on pale tan ground.",
+      "competing_readings": [
+        "Fine gravel or chips partly embedded in dust",
+        "Cracked or flaking dry crust",
+        "Flat camouflage, stippled paint, or a printed surface pattern"
+      ],
+      "single512": "Dense clusters of small angular darker polygons alternate with broad pale open areas. Pale gaps separate many pieces. The pieces have little directional shading, so apparent fragments may instead be flat marks or crust plates.",
+      "repeat128": "The granular fragment clusters remain visible, and their arrangement repeats in pronounced diagonal bands. Pattern recurrence is apparent without a hard tile border.",
+      "repeat64": "Many individual polygons merge into grainy clusters. The surface remains somewhat more granular and yellow-toned than A or B.",
+      "repeat32": "Most fragment shapes disappear. The image becomes low-contrast fine mottling with residual diagonal cluster rhythm; its yellow tone is a more dependable difference than its material structure.",
+      "false_relief": "Low direct lighting-based relief. Angular islands can suggest pebbles or plates, but without sided highlights or cast shadows they also read as a flat stencil. Pale separation may suggest shallow cracking, not deep fissures."
+    }
+  },
+  "cross_material_observations": [
+    "At 512, A has visibly fine roughness with sweeping patches, B is diffuse and cloudy, and C has sharply defined angular fragment clusters.",
+    "At repeat128, all three show obvious recurrence of the same patch layout, chiefly as diagonal rhythms. Absence of obvious straight seams does not hide this recurrence.",
+    "At repeat64, A versus B remains a boundary-sharpness and directional-pattern distinction; C retains more grainy clustering.",
+    "At repeat32, material distinctions compress substantially. A and B are particularly close in hue and overall contrast; C differs somewhat in yellow tone, but its fragment identity is largely lost.",
+    "None of the previews supplies a physical scale reference. Observations about sand, gravel, crust, and relief are competing visual readings, not target identification."
+  ],
+  "target_identity": null,
+  "score": null
+}

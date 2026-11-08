@@ -1,0 +1,498 @@
+{
+  "review": "independent disclosed material comparison",
+  "revision": "desert-material-r8",
+  "neutral_predecessor": {
+    "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/neutral-first-observations.json",
+    "sha256": "06cfc0ce8501b1f1e7ed20819ea145b1c53324f46a207b9a0690c8c2edb004cc"
+  },
+  "independence": "Neutral report completed before target disclosure. No coordinator/root impressions read. Production-plan, verification, selected-source-set and retained-source-set read only after disclosure. No production or lifecycle mutations performed.",
+  "method": "Direct image-tool viewing of all twelve neutral PNGs, all twelve r7 comparison PNGs, all twelve original-retained comparison PNGs, all nine r8 single128 PNGs, and the requested full-nine labeled sheet. The three r8 canonical PNGs are byte-identical to the viewed neutral single512 PNGs. Nine r8 repeat hashes were checked against verification.json and match the previously viewed neutral repeat hashes. All selected and retained canonical source hashes were independently checked and matched. No altered or grayscale images used.",
+  "judgment_scope": "retain/reject/uncertain below is an independent visual recommendation for retaining this revision as a review candidate, not a formal asset gate, engineering certification, game acceptance, or human artwork approval. No applicable formal rubric was supplied; no scores or invented go decision.",
+  "input_document_pins": [
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/production-plan.json",
+      "sha256": "f4716f080a875d236adbab923968441edf95825fafc1405824ea0bf012a8aa0f"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/verification.json",
+      "sha256": "16696b98a17cc9de13db65422ab961ddb5fe6c5a23e36160021d32818dcad8d4"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/selected-source-set.json",
+      "sha256": "e14c5fdd2468fac8876ce53c4b033e2805df91441f078252cecf8497f3ca2349"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/retained-source-set.json",
+      "sha256": "48883d93e70bd7ef0e661787834c4ab6a19fe1272ef75b70092f0b4305b89c5b"
+    }
+  ],
+  "selected_canonical_pins": [
+    {
+      "id": "open-sand-b",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-b-r8.png",
+      "canonicalSha256": "bb0fe0d847104af2f60dbe2a0c2ae7567debeb44faf6a85d87e8f3bef2e5ea2f",
+      "assemblyId": "ac199a1d-db9f-451f-aa83-473aa0cdac0b",
+      "revision": "r8"
+    },
+    {
+      "id": "open-sand-c",
+      "revision": "r2",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-six-r2/exports/open-sand-c-r2.png",
+      "canonicalSha256": "5c3f3db83cb4e951e28a06839d433801d30f6a34afc340159a2722c58e8bd9af",
+      "assemblyId": "a6652db9-67fa-4ccd-b347-2c6bf9c2fdde",
+      "assemblySignature": "ce2297bda8c6339d50ce61b70c63a52fed2f551588b40d0ab9c55f510b01cec5"
+    },
+    {
+      "id": "slope",
+      "revision": "desert-slope-r6",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-slope-r6/exports/slope-r6.png",
+      "canonicalSha256": "c46ce6698d1877af596a5b04498c40f7d6984740bc79e10487b9a31f37e185ff",
+      "assemblyId": "7d71babf-3729-415a-95c2-f32cf0b41ddc",
+      "assemblySignature": "8dc2437dc828a2ad2a25c402d1b8a752090d295647ce699eaa40af4d58cb3a1e"
+    },
+    {
+      "id": "wadi-slope",
+      "revision": "desert-pair-r5",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-pair-r5/exports/wadi-slope-r5.png",
+      "canonicalSha256": "5a206f2cc9f942e3233aef1d2a8f66ec96ecc7a78acfb6693ee02484669b6ce9",
+      "assemblyId": "dbd4f798-b85f-4360-bfce-2608ed69634c",
+      "assemblySignature": "8bbdd41264627933f89d17e12b8e8bfbedb4adaf63dc8436edce16f7a4ab42f4"
+    },
+    {
+      "id": "pan",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/pan-r8.png",
+      "canonicalSha256": "9ac3f83f27f7774ee5c187dbf5864a150278b475d5fa041dfce3c9e0ee99cb9e",
+      "assemblyId": "697a7131-5e5f-41d1-b0ca-6d1cdd8ea080",
+      "revision": "r8"
+    },
+    {
+      "id": "cantonment",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/cantonment-r8.png",
+      "canonicalSha256": "8e697c8b52c9aeea59c55ed148d54afc09eec1339545bdf03011c48d0644813d",
+      "assemblyId": "ef3315e2-c157-4a93-aaeb-7e3e6b81bcab",
+      "revision": "r8"
+    },
+    {
+      "id": "open-sand-a",
+      "canonicalPath": ".formseed2d/assemblies/af451ea7-2f0d-4096-b014-1019e52829e3/commits/0000000001/export/frames/0000000000.png",
+      "canonicalSha256": "c39a3613fad9ef1c0fc65e69b690d540f094946f1b456837abf1c3e54cbc8ff7",
+      "assemblyId": "af451ea7-2f0d-4096-b014-1019e52829e3",
+      "revision": "pilot-r3"
+    },
+    {
+      "id": "wadi-floor",
+      "canonicalPath": ".formseed2d/assemblies/4d526927-2d89-4e6b-a241-46874d17d417/commits/0000000001/export/frames/0000000000.png",
+      "canonicalSha256": "4bb94647a3ed2d7816cf7ba582922b669a68a1ed76c0f9ed4c80e5e6116c5c91",
+      "assemblyId": "4d526927-2d89-4e6b-a241-46874d17d417",
+      "revision": "pilot-r3"
+    },
+    {
+      "id": "crest",
+      "canonicalPath": ".formseed2d/assemblies/520b8ea4-9b30-4cbb-80c7-cf205f33095e/commits/0000000001/export/frames/0000000000.png",
+      "canonicalSha256": "8e073aac2b585e9643f90ba6d76ab837dc10f8b05cf8622e5da2f82bf2b7d2f6",
+      "assemblyId": "520b8ea4-9b30-4cbb-80c7-cf205f33095e",
+      "revision": "pilot-r3"
+    }
+  ],
+  "retained_canonical_pins": [
+    {
+      "id": "open-sand-b",
+      "revision": "desert-four-r4",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/open-sand-b-r4.png",
+      "canonicalSha256": "734655a521884c4162f31905908b76f92c0a084da054fdfb1551385cead1abd6",
+      "assemblyId": "910923b8-3e35-4e6e-ad39-35f62869a926",
+      "assemblySignature": "381e82596bb45a3a68edbba7b252a296545a21a68b844f265420db82e518cd9b"
+    },
+    {
+      "id": "open-sand-c",
+      "revision": "r2",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-six-r2/exports/open-sand-c-r2.png",
+      "canonicalSha256": "5c3f3db83cb4e951e28a06839d433801d30f6a34afc340159a2722c58e8bd9af",
+      "assemblyId": "a6652db9-67fa-4ccd-b347-2c6bf9c2fdde",
+      "assemblySignature": "ce2297bda8c6339d50ce61b70c63a52fed2f551588b40d0ab9c55f510b01cec5"
+    },
+    {
+      "id": "slope",
+      "revision": "desert-slope-r6",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-slope-r6/exports/slope-r6.png",
+      "canonicalSha256": "c46ce6698d1877af596a5b04498c40f7d6984740bc79e10487b9a31f37e185ff",
+      "assemblyId": "7d71babf-3729-415a-95c2-f32cf0b41ddc",
+      "assemblySignature": "8dc2437dc828a2ad2a25c402d1b8a752090d295647ce699eaa40af4d58cb3a1e"
+    },
+    {
+      "id": "wadi-slope",
+      "revision": "desert-pair-r5",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-pair-r5/exports/wadi-slope-r5.png",
+      "canonicalSha256": "5a206f2cc9f942e3233aef1d2a8f66ec96ecc7a78acfb6693ee02484669b6ce9",
+      "assemblyId": "dbd4f798-b85f-4360-bfce-2608ed69634c",
+      "assemblySignature": "8bbdd41264627933f89d17e12b8e8bfbedb4adaf63dc8436edce16f7a4ab42f4"
+    },
+    {
+      "id": "pan",
+      "revision": "r3",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-six-r2/pan-r3/exports/pan-r3.png",
+      "canonicalSha256": "5ccd65d55fbb17d8c3c9e567ac4e203a956e40d44db5ca71726bda3dc4cebbc0",
+      "assemblyId": "5c3bf7ce-25f8-4152-a581-1b4b4be4d216",
+      "assemblySignature": "bf2c9348733c633c4c1c1e319ebe93f4482684ed6eecdb711a6c1ade2cd9eead"
+    },
+    {
+      "id": "cantonment",
+      "revision": "desert-four-r4",
+      "canonicalPath": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/cantonment-r4.png",
+      "canonicalSha256": "eb7e888bd420174d9344f6d7c54b197715750db4a648f88ccf8c9e6608efad83",
+      "assemblyId": "67716fd3-b678-43a9-92c9-eccd52ed3819",
+      "assemblySignature": "6ab8c66cbd18f2d5589db13a2ac509f616e7b7ef20bca301b8a148f91e6447d6"
+    },
+    {
+      "id": "open-sand-a",
+      "canonicalPath": ".formseed2d/assemblies/af451ea7-2f0d-4096-b014-1019e52829e3/commits/0000000001/export/frames/0000000000.png",
+      "canonicalSha256": "c39a3613fad9ef1c0fc65e69b690d540f094946f1b456837abf1c3e54cbc8ff7",
+      "assemblyId": "af451ea7-2f0d-4096-b014-1019e52829e3",
+      "revision": "pilot-r3"
+    },
+    {
+      "id": "wadi-floor",
+      "canonicalPath": ".formseed2d/assemblies/4d526927-2d89-4e6b-a241-46874d17d417/commits/0000000001/export/frames/0000000000.png",
+      "canonicalSha256": "4bb94647a3ed2d7816cf7ba582922b669a68a1ed76c0f9ed4c80e5e6116c5c91",
+      "assemblyId": "4d526927-2d89-4e6b-a241-46874d17d417",
+      "revision": "pilot-r3"
+    },
+    {
+      "id": "crest",
+      "canonicalPath": ".formseed2d/assemblies/520b8ea4-9b30-4cbb-80c7-cf205f33095e/commits/0000000001/export/frames/0000000000.png",
+      "canonicalSha256": "8e073aac2b585e9643f90ba6d76ab837dc10f8b05cf8622e5da2f82bf2b7d2f6",
+      "assemblyId": "520b8ea4-9b30-4cbb-80c7-cf205f33095e",
+      "revision": "pilot-r3"
+    }
+  ],
+  "viewed_evidence_pins": [
+    {
+      "material": "open-sand-b",
+      "view": "r8",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-b-r8.png",
+      "sha256": "bb0fe0d847104af2f60dbe2a0c2ae7567debeb44faf6a85d87e8f3bef2e5ea2f"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "repeat-128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-b-repeat-128.png",
+      "sha256": "ad38ad4de367c0f8e5cf5fb0d5f1b09dd794c587d65b685d5942ad3ea8b4b805"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "repeat-64",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-b-repeat-64.png",
+      "sha256": "7cf062c380d293a09786ec1c30c0ec4c9a2e8f59dd71978302bdc530c11509bf"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "repeat-32",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-b-repeat-32.png",
+      "sha256": "96e29228d4e09d260e5e908b9679c22c12be5d4b1c94e13fe0fe0f641fbc99ec"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "r7",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/open-sand-b-r7.png",
+      "sha256": "7294571300b3f20a4a2e47c8dfd6b509a88a3b9ba98a8aeda2a28d286d43c244"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "repeat-128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/open-sand-b-repeat-128.png",
+      "sha256": "96ffaab2f0c7e6257148c213fcffb53d5a915b37875e2a53d22444f254658fd8"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "repeat-64",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/open-sand-b-repeat-64.png",
+      "sha256": "f89c025febfff24203cff1f3a5308e3b47ff6eb5f5480b7bb1f18a6d964adfb2"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "repeat-32",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/open-sand-b-repeat-32.png",
+      "sha256": "e7e44cd0326788dd60460c16c357080650d41d7a164734e242a45de604e6e7b3"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "r4",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/open-sand-b-r4.png",
+      "sha256": "734655a521884c4162f31905908b76f92c0a084da054fdfb1551385cead1abd6"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "repeat-128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/open-sand-b-repeat-128.png",
+      "sha256": "535bed873c20c7b01beddf08a637b2eeca8dfedd388b9110ea29d987155e1246"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "repeat-64",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/open-sand-b-repeat-64.png",
+      "sha256": "073cdc7afaed5b2688743b86607623ce448ab1eebde6db0c7b3c5cd441f6d5c3"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "repeat-32",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/open-sand-b-repeat-32.png",
+      "sha256": "3158098aab3207b8d79b3acc7c0fd22f4f14361bde1592e42dd8af93246f98d4"
+    },
+    {
+      "material": "cantonment",
+      "view": "r8",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/cantonment-r8.png",
+      "sha256": "8e697c8b52c9aeea59c55ed148d54afc09eec1339545bdf03011c48d0644813d"
+    },
+    {
+      "material": "cantonment",
+      "view": "repeat-128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/cantonment-repeat-128.png",
+      "sha256": "ed8fd2fb504831abca66328e3f32068137bc4d16a0e3054eb51f3da714af6a85"
+    },
+    {
+      "material": "cantonment",
+      "view": "repeat-64",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/cantonment-repeat-64.png",
+      "sha256": "fcecbf467a6b85c71a0482b54040ec85af89becf365f65d1650ae26dddf9a19c"
+    },
+    {
+      "material": "cantonment",
+      "view": "repeat-32",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/cantonment-repeat-32.png",
+      "sha256": "90aa05cea918830e15fb5c0666cbce5c04137eabeafadd3768e914a8a803d63f"
+    },
+    {
+      "material": "cantonment",
+      "view": "r7",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/cantonment-r7.png",
+      "sha256": "2bb9b405735b3ddea19c0bf0d4525461a88a405959cc283295839427f1e3bb8e"
+    },
+    {
+      "material": "cantonment",
+      "view": "repeat-128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/cantonment-repeat-128.png",
+      "sha256": "ca931b8c53a3f762bc059f562e49975afeec9e0bd26a28b52cfac2ab0eb13536"
+    },
+    {
+      "material": "cantonment",
+      "view": "repeat-64",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/cantonment-repeat-64.png",
+      "sha256": "7b0c2258ca9aa0ace32bb2307424da715d2fc39d60af430ec3908d515be0caa5"
+    },
+    {
+      "material": "cantonment",
+      "view": "repeat-32",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/cantonment-repeat-32.png",
+      "sha256": "182ddd9e9e043c86bc832c0db7edd75bca883f3d0105726d9f3c2a935d94bb74"
+    },
+    {
+      "material": "cantonment",
+      "view": "r4",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/cantonment-r4.png",
+      "sha256": "eb7e888bd420174d9344f6d7c54b197715750db4a648f88ccf8c9e6608efad83"
+    },
+    {
+      "material": "cantonment",
+      "view": "repeat-128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/cantonment-repeat-128.png",
+      "sha256": "45432a2a88a754945b3a8d5d7e78aa32f7647cbefcf794b0e7b5e8f442e42eda"
+    },
+    {
+      "material": "cantonment",
+      "view": "repeat-64",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/cantonment-repeat-64.png",
+      "sha256": "4e14386a64a5b45248b9dd68766075eecabc6c96a71264d1bb7b8a93e2c76a5c"
+    },
+    {
+      "material": "cantonment",
+      "view": "repeat-32",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/cantonment-repeat-32.png",
+      "sha256": "e86dd3ba8080da94aebc0f283738e6cdf3cf37569f8fe89afadf737eb538efa7"
+    },
+    {
+      "material": "pan",
+      "view": "r8",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/pan-r8.png",
+      "sha256": "9ac3f83f27f7774ee5c187dbf5864a150278b475d5fa041dfce3c9e0ee99cb9e"
+    },
+    {
+      "material": "pan",
+      "view": "repeat-128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/pan-repeat-128.png",
+      "sha256": "25ea05d9cd42f2de96d0ff286150f55a172e7d94ce5497d1b01c6baff231a45d"
+    },
+    {
+      "material": "pan",
+      "view": "repeat-64",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/pan-repeat-64.png",
+      "sha256": "a7665609abe57232ee05e2bd0b488cc7f6d54099b96138a9793284989461c4f6"
+    },
+    {
+      "material": "pan",
+      "view": "repeat-32",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/pan-repeat-32.png",
+      "sha256": "9e6c6859628dead5eea530492a36949890aab7b3b7a661b7453e975ba0523122"
+    },
+    {
+      "material": "pan",
+      "view": "r7",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/pan-r7.png",
+      "sha256": "8d828ff940107ee6c9688f13c1006700027be83bc8653854d56203bdac9f6bd1"
+    },
+    {
+      "material": "pan",
+      "view": "repeat-128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/pan-repeat-128.png",
+      "sha256": "d7bf99862e05aef718c3b7d3ea2632b30e5182140ecefcf304cd80539c35e652"
+    },
+    {
+      "material": "pan",
+      "view": "repeat-64",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/pan-repeat-64.png",
+      "sha256": "c6dca96ad6c1543a2b7ac626e75f84afcc5e5fd0965c233fda63fd8b52d8c441"
+    },
+    {
+      "material": "pan",
+      "view": "repeat-32",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r7/exports/pan-repeat-32.png",
+      "sha256": "5fc33782aa9d960844d8886d8f80fdfed2d7fefec66773f49a05d46c38648555"
+    },
+    {
+      "material": "pan",
+      "view": "r3",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-six-r2/pan-r3/exports/pan-r3.png",
+      "sha256": "5ccd65d55fbb17d8c3c9e567ac4e203a956e40d44db5ca71726bda3dc4cebbc0"
+    },
+    {
+      "material": "pan",
+      "view": "repeat-128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-six-r2/pan-r3/exports/pan-repeat-128.png",
+      "sha256": "bb8e72307adb6ad71f77a75f01df272b844598ced197154c0a83ca8588d09b96"
+    },
+    {
+      "material": "pan",
+      "view": "repeat-64",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-six-r2/pan-r3/exports/pan-repeat-64.png",
+      "sha256": "c396c6806bcf365f7243463ee49f64b37c293742bdbbaba6b5bca9d734d98d6f"
+    },
+    {
+      "material": "pan",
+      "view": "repeat-32",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-six-r2/pan-r3/exports/pan-repeat-32.png",
+      "sha256": "c04bdafd06c73d18803a16b025e5ad19e540695d11b483514e9ad670891c69dc"
+    },
+    {
+      "material": "open-sand-b",
+      "view": "r8-family-single128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-b-single-128.png",
+      "sha256": "26bd101a2989429dd9d139230150b01813435b4fa22fca09ae825d10fa8eb3ca"
+    },
+    {
+      "material": "open-sand-c",
+      "view": "r8-family-single128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-c-single-128.png",
+      "sha256": "e4e73e2119af5e328a3188d0d9ec5932ea3dfdfe77eb6976d82cfcd547e3ba11"
+    },
+    {
+      "material": "slope",
+      "view": "r8-family-single128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/slope-single-128.png",
+      "sha256": "51bceb735dc7b79f6e8d40d637b89b7e46624097ba05b09d6d4bc81b6c5532fc"
+    },
+    {
+      "material": "wadi-slope",
+      "view": "r8-family-single128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/wadi-slope-single-128.png",
+      "sha256": "f28f21c0c2d5b6d6ae763128bd5363cd2b2ab5724d83eba47eca23cc5931e9d5"
+    },
+    {
+      "material": "pan",
+      "view": "r8-family-single128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/pan-single-128.png",
+      "sha256": "63a867d6f0c79e41f27e2da1b8b928aa593b7a3aae17899a9607096221316d0e"
+    },
+    {
+      "material": "cantonment",
+      "view": "r8-family-single128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/cantonment-single-128.png",
+      "sha256": "03686720aeb75ec55619089bed67c5a781da6269417348d2207bad440576883a"
+    },
+    {
+      "material": "open-sand-a",
+      "view": "r8-family-single128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-a-single-128.png",
+      "sha256": "e3616e88bd36366d6edc65cd8dbf1c5b11e7d7116d4c0c174a98c98bcf68567e"
+    },
+    {
+      "material": "wadi-floor",
+      "view": "r8-family-single128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/wadi-floor-single-128.png",
+      "sha256": "8db973b08a71b62cb941d02cef1f36d5f9993e0a3e9a58bb04d74d6e69041f1d"
+    },
+    {
+      "material": "crest",
+      "view": "r8-family-single128",
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/crest-single-128.png",
+      "sha256": "6a06010cc3a18cc5f839df7e3b9cd68943fe6d8cdbf2af2a8df6fe90029a4a20"
+    },
+    {
+      "view": "full-nine-labeled-sheet",
+      "path": ".formseed2d/contact-sheets/ef6ad806-d8d5-49b1-8e44-e909e181d704/commits/0000000000/display-dark.png",
+      "sha256": "9806d01e03462af20cd625624275b4ef586c8bdb9e49dd241180310ecf08e414"
+    }
+  ],
+  "materials": [
+    {
+      "id": "open-sand-b",
+      "neutral_label": "B",
+      "disposition": "uncertain",
+      "r8_intrinsic": "Angular, predominantly flat gravel/chip shapes remain explicit at512. At128 the image retains distinct granular cluster structure beyond color; individual coarse flecks are small but still legible. It is substantially more structurally specific than smooth pan.",
+      "comparison_r7": "At512 and128 this is a modest visual change: almost the same clustered arrangement remains evident. At64/32 the broad density contrast is more subdued than r7, so the correction does improve distance quietness. The spatial topology and repeated diagonal cluster placement remain.",
+      "comparison_retained_r4": "The retained r4 has softer, smaller aggregate with pronounced broad sweeping cluster bands. r8 retains a more angular, coarser material cue at128 and less painted micro-relief. This is useful progress over r4; r4 is not an unproblematic fallback because its repeating diagonal bands remain obvious.",
+      "repeat_and_false_read": "r8 repeat128 still has a traceable diagonal sequence of dense chip clusters and open windows. This is not a hard seam or a continuous ridge, but the large-scale placement is a conspicuous repeat cue. Angular islands separated by pale sand can resemble fragmented crust/cells at512; no convincing dark branching crack network is present. At128 granular gravel is a reasonable reading, though not exclusive.",
+      "distance": "At64 the clustered grain survives weakly; at32 palette and average tone dominate. That loss of micro-identity is acceptable as a distance limitation and is not the reason for uncertainty.",
+      "reason": "Local gravel vocabulary is improved relative to r4, but the intended macro-pattern correction is not convincingly complete at128. Retain neither a confident success claim nor an automatic rejection based on32; judge the residual repeated cluster cadence in actual terrain context before choosing it."
+    },
+    {
+      "id": "cantonment",
+      "neutral_label": "C",
+      "disposition": "reject",
+      "r8_intrinsic": "A rougher compacted-earth-compatible surface than pan, with broad patches and small grit. At128 the strongest identifying cue is a set of oblique, paired light/dark boundaries that read like shallow ridges or undulations.",
+      "comparison_r7": "r8 is visibly less contrasted and quieter, especially at64/32, but the same wave-like edge arrangement persists. The correction reduces strength without removing the objectionable structure.",
+      "comparison_retained_r4": "r4 has broad smoother areas separated by irregular gritty swaths and feels more flat/compacted at128, although its repeated arrangement is still detectable. r8 replaces some useful grit-versus-smooth distinction with more conspicuous ridge-like edges. It is not a clear improvement on r4 for the stated compacted-flat target.",
+      "compaction_vs_pan": "The two are distinguishable beyond lightness at128: cantonment is coarser and more edge-defined while pan is diffuse. However, this difference does not establish compaction specifically; shallow terrain relief is a strong competing interpretation. Making the surfaces distinguishable via the wrong cue does not resolve the brief.",
+      "repeat_and_false_read": "Repeated oblique ridge strokes remain visible at128,64 and32. No branching cracks. False relief is the central objection, not geology disappearing at distance.",
+      "distance": "Palette would normally carry much of the far-scale role; here a small repeated ridge cadence also survives. I do not require gritty micro-identity at32.",
+      "reason": "Reject r8 as the claimed correction for cantonment because the broad ridge/diagonal problem remains and is stronger than in the retained r4 comparison. This does not formally approve r4 or prescribe another production iteration."
+    },
+    {
+      "id": "pan",
+      "neutral_label": "A",
+      "disposition": "retain",
+      "r8_intrinsic": "Very soft low-contrast mottling with no discrete gravel, scuff edges, crust plates or cracks. Reads as fine powder/silt and remains smoother and more diffuse than cantonment or gravel at128.",
+      "comparison_r7": "Clear improvement in quietness: r7 has conspicuous repeated bright cloudy perimeters and dark patches at128/64/32. r8 strongly subdues those same forms; no equally strong ridge/shadow cue remains. Mild recurrent cloud placement is still detectable when searching for it.",
+      "comparison_retained_pan_r3": "r3 is smoother and almost featureless, relying strongly on tone even at128. r8 adds a restrained fine/diffuse film pattern at128 while preserving its fine-sediment character. It does not recover a unique geological identity, but that is unnecessary for a useful quiet pan treatment.",
+      "distinction": "At128 it has a softer/finer structural quality than gravel and cantonment beyond lightness. Compared with the other smooth retained family members, semantic identity still depends on palette, placement and labels.",
+      "repeat_and_false_read": "No obvious cracks, cells, hard seam or strong false relief. Repeated mottling is faint rather than a dominant broad diagonal/ridge landmark.",
+      "distance": "At64/32 identity is primarily palette/average tone with faint mottling. This is an explicit limitation, not a rejection condition.",
+      "reason": "Retain r8 pan as a visual review candidate: it meaningfully corrects r7 and adds modest128 surface information relative to r3 without a conspicuous new defect. This recommendation is not human artwork approval."
+    }
+  ],
+  "full_nine_family_at128": {
+    "open-sand-a": "Smooth warm sandy field with broad diffuse patches; primarily tone and softness differentiate it.",
+    "open-sand-b": "Most legible coarse angular clustered material of the nine; residual cluster repeat remains relevant.",
+    "open-sand-c": "Fine diagonal striation/ripple-like cue, distinct from the angular gravel; this is an existing retained source, not a new r8 judgment.",
+    "slope": "Fine granular surface, low contrast, near the same visual vocabulary as wadi-slope.",
+    "wadi-slope": "Fine granular surface; distinction from slope in this sheet is predominantly palette/brightness, not a uniquely identifiable physical process.",
+    "pan": "Soft faint mottling, distinct in texture from granular slope/wadi-slope and coarse gravel, but not uniquely identifiable apart from all smooth family members.",
+    "cantonment": "Coarser than pan with repeated oblique edge structure that risks depicting raised ground.",
+    "wadi-floor": "Broad smooth cloudy patches with a darker tone; generic ground character rather than strong standalone material identity.",
+    "crest": "Smooth diffuse broader patches and lighter tone; soft field family relationship is clear.",
+    "family_observation": "The nine share subdued earth colors and quiet surface contrast. A useful coarse-to-fine texture hierarchy is present at128, but all nine are not independently identifiable by microstructure alone. Much of slope versus wadi-slope and the smooth-field categories relies on palette/context. The full sheet does not resolve the gravel-repeat uncertainty or cantonment false-relief objection."
+  },
+  "engineering_separation": "verification.json reports edge, opacity, assembly isolation and replacement results. I checked source hashes and visual images only; I did not independently rerun those engineering proofs. Technical success cannot settle these visual objections.",
+  "human_art_approval": null,
+  "formal_rubric_status": "absent; no formal whole-asset decision issued",
+  "consumer_limit": "No client screenshots or live terrain observed in this review, so overlay competition and real map prevalence are not certified."
+}

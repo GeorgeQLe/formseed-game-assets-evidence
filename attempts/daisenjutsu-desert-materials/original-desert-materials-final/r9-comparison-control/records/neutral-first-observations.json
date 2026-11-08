@@ -1,0 +1,44 @@
+{
+  "stage": "neutral-first-observations",
+  "scope": "Only neutral/index.json and its twelve PNGs inspected; targets, identities, mapping, history and rationale undisclosed.",
+  "hash_verification": {
+    "method": "SHA-256 of each PNG compared with neutral/index.json",
+    "matched": 12,
+    "total": 12
+  },
+  "visual_inspection": {
+    "method": "All twelve PNGs viewed using view_image at their supplied dimensions",
+    "views": [
+      "single512",
+      "repeat128",
+      "repeat64",
+      "repeat32"
+    ]
+  },
+  "observations": {
+    "A": {
+      "single512": "Matte khaki-beige ground with fine dusty grain and soft irregular pale mottles. Broad cloud-like variation occupies more area than individually resolved grains; faint curved or diagonal patches imply shallow surface variation without sharp edges.",
+      "repeat128": "Pale hooked or comma-like patches recur in an orderly spacing; repetition is easier to notice than in the single tile. The fine grain is subordinate to these light marks.",
+      "repeat64": "The recurring light flecks form a small, regularly spaced dotted texture. Individual material detail is weak.",
+      "repeat32": "Mostly smooth beige with a faint repeated pale-dot rhythm.",
+      "relief_cracks": "No distinct crack network or hard relief. Soft light/dark mottling can suggest faint surface undulation; no directional cast shadows."
+    },
+    "B": {
+      "single512": "Very smooth matte taupe-beige surface, softly blurred cloudy mottling, almost no discrete grains or particle outlines. Reads as diffuse powder or a smooth coating more readily than an exposed aggregate.",
+      "repeat128": "Fine cloudy texture with weak repeating light and dark patches; no strong isolated marker.",
+      "repeat64": "Quiet, nearly uniform field with a faint fine mottled rhythm.",
+      "repeat32": "Nearly flat beige; texture character is only weakly retained.",
+      "relief_cracks": "No cracks, outlined stones, strong relief or directional lighting. Broad soft shading is visible but does not clearly describe geometry."
+    },
+    "C": {
+      "single512": "Flat sandy yellow-beige base carrying dense discrete darker rounded and irregular spots. Spots have broadly similar size and contrast; resembles small flat embedded grains or a stippled print. Their edges are soft but substantially more defined than A or B.",
+      "repeat128": "Dense fine dark stipple remains clearly apparent. Repeated spatial distribution is present, but no single large mark dominates.",
+      "repeat64": "Stipple becomes a very fine mesh or grain field; texture remains more high-frequency than A or B.",
+      "repeat32": "Largely merges into a lightly grainy sandy field; discrete spots are no longer clearly resolved.",
+      "relief_cracks": "No cracks or strong directional shadows. The spots mostly look flat; a few may suggest shallow dimples, but no convincing raised pebble relief."
+    }
+  },
+  "distinguishability_beyond_color": "At 512 and repeated128, C is distinct through discrete dark particle-like spots, A through pale mottling and fine dusty grain, and B through soft smooth clouding. A versus B is a degree-of-texture difference rather than a strongly different structure. At repeated64 C retains finer stipple and A retains a pale-fleck rhythm; B remains smoothest. At repeated32 all approach uniform fields, with only weak textural distinctions, so color increasingly carries separation.",
+  "pattern_summary": "A has the most readily legible recurring pale motif; B has subdued broad clouding; C has dense, fairly uniform spot distribution. No obvious hard tile-edge seams observed in the supplied repeats. None shows an explicit crack network.",
+  "judgment_status": "No scores, approval or recommendations issued before target disclosure."
+}

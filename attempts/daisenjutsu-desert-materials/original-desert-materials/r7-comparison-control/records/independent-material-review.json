@@ -1,0 +1,214 @@
+{
+  "reviewer": "neutral_surface_review",
+  "revision": "desert-material-r7",
+  "review_mode": "independent post-disclosure comparison following preserved neutral observations",
+  "status": "complete scoped independent review; all three r7 replacements rejected for retention",
+  "first_observations": "neutral-first-observations.json",
+  "scope": "Three changed sources compared with exact predecessors at 512 and 3x3 repeats with tile widths128/64/32; all nine selected family singles inspected at128.",
+  "pins": {
+    "production_plan": "a8eaba6dfaecfc2c0c2986dd5cf10c24581f9c7cb423717f378e0ab04ddd145a",
+    "selected_source_set": "ce8541cdf2b1d4e08477e117eba222c6ebaf13970502571e7421964a022bf851",
+    "verification": "5b969fd633baedd99d58b6f2ea3e611d5a0110a693b27b54c1cefa826f84fa22",
+    "candidate_views": "Exact twelve independently computed pins in neutral-first-observations.json; neutral views equal canonical sources and verification scale exports.",
+    "predecessor_views": [
+      {
+        "path": "desert-four-r4/exports/open-sand-b-r4.png",
+        "sha256": "734655a521884c4162f31905908b76f92c0a084da054fdfb1551385cead1abd6"
+      },
+      {
+        "path": "desert-four-r4/exports/open-sand-b-repeat-128.png",
+        "sha256": "535bed873c20c7b01beddf08a637b2eeca8dfedd388b9110ea29d987155e1246"
+      },
+      {
+        "path": "desert-four-r4/exports/open-sand-b-repeat-64.png",
+        "sha256": "073cdc7afaed5b2688743b86607623ce448ab1eebde6db0c7b3c5cd441f6d5c3"
+      },
+      {
+        "path": "desert-four-r4/exports/open-sand-b-repeat-32.png",
+        "sha256": "3158098aab3207b8d79b3acc7c0fd22f4f14361bde1592e42dd8af93246f98d4"
+      },
+      {
+        "path": "desert-four-r4/exports/cantonment-r4.png",
+        "sha256": "eb7e888bd420174d9344f6d7c54b197715750db4a648f88ccf8c9e6608efad83"
+      },
+      {
+        "path": "desert-four-r4/exports/cantonment-repeat-128.png",
+        "sha256": "45432a2a88a754945b3a8d5d7e78aa32f7647cbefcf794b0e7b5e8f442e42eda"
+      },
+      {
+        "path": "desert-four-r4/exports/cantonment-repeat-64.png",
+        "sha256": "4e14386a64a5b45248b9dd68766075eecabc6c96a71264d1bb7b8a93e2c76a5c"
+      },
+      {
+        "path": "desert-four-r4/exports/cantonment-repeat-32.png",
+        "sha256": "e86dd3ba8080da94aebc0f283738e6cdf3cf37569f8fe89afadf737eb538efa7"
+      },
+      {
+        "path": "desert-six-r2/pan-r3/exports/pan-r3.png",
+        "sha256": "5ccd65d55fbb17d8c3c9e567ac4e203a956e40d44db5ca71726bda3dc4cebbc0"
+      },
+      {
+        "path": "desert-six-r2/pan-r3/exports/pan-repeat-128.png",
+        "sha256": "bb8e72307adb6ad71f77a75f01df272b844598ced197154c0a83ca8588d09b96"
+      },
+      {
+        "path": "desert-six-r2/pan-r3/exports/pan-repeat-64.png",
+        "sha256": "c396c6806bcf365f7243463ee49f64b37c293742bdbbaba6b5bca9d734d98d6f"
+      },
+      {
+        "path": "desert-six-r2/pan-r3/exports/pan-repeat-32.png",
+        "sha256": "c04bdafd06c73d18803a16b025e5ad19e540695d11b483514e9ad670891c69dc"
+      }
+    ]
+  },
+  "technicalValidation": {
+    "independently_verified": "All nine canonical source SHA-256 values match selected-source-set.json. Twelve neutral PNG hashes match neutral/index.json. Predecessor hashes computed from actual files.",
+    "reported_controls": "verification.json reports opaque512 sources, zero opposite-edge delta, independent three-layer hide evidence and controlled replacements preserving siblings.",
+    "limitation": "Technical control operations were not rerun by this reviewer. Exact seams do not test perceptual repetition or material identity.",
+    "runtime_handoff": "Required status tool schemas discovered; get_blender_status and get_image_backend_status succeeded. No production calls made."
+  },
+  "materials": [
+    {
+      "id": "open-sand-b",
+      "neutral": "C",
+      "candidate_sha256": "7294571300b3f20a4a2e47c8dfd6b509a88a3b9ba98a8aeda2a28d286d43c244",
+      "predecessor": "desert-four-r4/exports/open-sand-b-r4.png",
+      "retain": false,
+      "disposition": "reject r7 as retained replacement; preserve r4 working control and r7 failed evidence",
+      "intended_improvement": "Real improvement: clearly angular fragments and clustered gravel-like topology replace r4's softer fine-grain surface. At128 the grainy fragment groups are materially different from smooth silt.",
+      "identity_uncertainty": "Fragments also resemble broken crust or a flat camouflage stencil. Lack of directional shading preserves flatness but does not independently prove embedded gravel.",
+      "scale": "At128 cluster texture survives; at64 individual chips mostly merge; at32 material-specific fragment topology disappears into mottling.",
+      "repeat_comparison": "r4 already has repeating density bands, so recurrence is inherited rather than wholly new. r7 makes the dense clusters/open sand windows more emphatic, producing more conspicuous diagonal chains at128 and64. The gain in fragment vocabulary comes with a regression in repeat salience.",
+      "flatness": "No obvious raised stone highlights, side faces or cast shadows. Flat angular marks preserve the albedo intent better than shaded pebbles would.",
+      "next_correction": "Keep flat angular chips, but reduce broad cluster-density contrast and break connected diagonal cluster chains into smaller, irregularly distributed groups. Preserve enough local chip contrast to survive128. Do not simply blur the whole image: that would erase the actual improvement. Recompare exact repeats against r4 before retention."
+    },
+    {
+      "id": "cantonment",
+      "neutral": "A",
+      "candidate_sha256": "2bb9b405735b3ddea19c0bf0d4525461a88a405959cc283295839427f1e3bb8e",
+      "predecessor": "desert-four-r4/exports/cantonment-r4.png",
+      "retain": false,
+      "disposition": "reject r7 as retained replacement; preserve r4 working control and r7 failed evidence",
+      "intended_improvement": "Broad light/dark divisions are more readable than r4's faint granular rubbed patches, but this is not a secure improvement in compacted-soil identity.",
+      "identity_uncertainty": "At128, the connected pale boundaries read as sweeping wave crests or shallow wind-worked banks at least as readily as compacted scuffs. Neutral first observations did not establish firm compaction.",
+      "scale": "At64 and32, grain fades while sweeping scalloped edges persist, strengthening the unwanted directional-wave reading.",
+      "repeat_comparison": "r4 has subtle recurrent rubbed mottling; r7 adds much more visible aligned sweeping light edges across the3x3 field. This is a clear repeat-salience regression.",
+      "flatness": "No discrete rock shadows, but connected light-to-dark swathes imply shallow relief more strongly than r4.",
+      "next_correction": "Return to r4 as control. Introduce sparse short, irregular, predominantly nondirectional rubbed/scuffed patches and localized grit interruptions inside a mostly smooth field. Break long light boundaries and reduce broad directional contrast; compaction should arise from smooth-versus-gritty distribution rather than crests."
+    },
+    {
+      "id": "pan",
+      "neutral": "B",
+      "candidate_sha256": "8d828ff940107ee6c9688f13c1006700027be83bc8653854d56203bdac9f6bd1",
+      "predecessor": "desert-six-r2/pan-r3/exports/pan-r3.png",
+      "retain": false,
+      "disposition": "reject r7 as retained replacement; preserve r3 working control and r7 failed evidence",
+      "intended_improvement": "Visible diffuse deposition-like mottles replace the almost featureless r3 surface. This is a real increase in pattern visibility, but silt identity remains uncertain.",
+      "identity_uncertainty": "Soft grain-free character supports fine powder or silt; the branching bright/dark patches equally support clouds or mottled plaster. At128 identity rests on generic diffuse noise rather than a distinctive sediment cue.",
+      "scale": "At128 and64 the cloudy pattern is clear; at32 it is mainly generic beige mottling. A versus B distinction remains chiefly edge softness/direction and palette.",
+      "repeat_comparison": "r3 is exceptionally quiet with only faint broad modulation. r7 introduces conspicuous repeating diagonal cloud clusters at128 and64. This is a new prominent repeat defect relative to r3.",
+      "flatness": "No cracks, polygon cells, standing stones or sharp shadows. Nevertheless broad bright/dark patches can imply rolling shaded softness rather than uniformly illuminated flat deposits.",
+      "next_correction": "Start from r3's quiet smooth field and add fewer, much subtler, asymmetric pale silt deposits with incomplete feathered boundaries. Avoid a connected bright cloud perimeter and repetitive branching clusters. Test whether the cue remains distinguishable at128 without becoming a repeat landmark; do not treat increased contrast alone as identity."
+    }
+  ],
+  "adversarial_core_aspects": [
+    {
+      "aspect": "identity_and_scale",
+      "objection": "Clearer texture does not prove the requested material. Cantonment remains plausibly sand banks; pan remains generic cloudy noise; gravel remains plausibly crust/stencil. At32 these distinctions weaken markedly.",
+      "closure": "Material-specific structure must survive128 without relying only on palette, with64/32 inspected for misleading residual cues.",
+      "status": "unresolved"
+    },
+    {
+      "aspect": "repeat",
+      "objection": "All three r7 patterns have more conspicuous broad recurrence than their predecessors; cantonment and pan are the clearest regressions. Exact opposing edges do not prevent diagonal motif chains.",
+      "closure": "Compare new and predecessor3x3 views at128/64/32 and eliminate newly dominant landmarks while preserving local material identity.",
+      "status": "unresolved"
+    },
+    {
+      "aspect": "flatness",
+      "objection": "Cantonment pale wave boundaries create false low relief; pan cloud shading is ambiguous. Gravel's flat chips avoid obvious rock relief but retain crust ambiguity.",
+      "closure": "Remove connected light/shadow-like edge structure. Flat color and microtexture must carry identity without sided highlights or cast shadows.",
+      "status": "unresolved"
+    },
+    {
+      "aspect": "family_coherence",
+      "objection": "The nine singles share subdued earth colors, but r7 gravel/cantonment/pan have much more emphatic pattern structure than the retained slope, wadi-slope and fine open-sand-C. They can attract attention as texture fields before conveying terrain class.",
+      "closure": "Check completed hash-bound family contact sheets and actual overlay fixtures at near/far scales.",
+      "status": "native128 contact sheet inspected; pattern-coherence concern unresolved"
+    },
+    {
+      "aspect": "overlays",
+      "objection": "No current exact-r7 web/iOS unit, grid, text, selection or objective overlays were inspected. Increased ground patterning could compete with those overlays even if standalone samples are distinct.",
+      "closure": "Inspect current client fixtures bound to retained source hashes at real near/far scales; do not use loader/cache success as visual evidence.",
+      "status": "pending"
+    }
+  ],
+  "family_review": {
+    "singles128": "All nine inspected. Open-sand-A, wadi-floor and crest are broad soft tonal fields; open-sand-C has fine directional striation; slope and wadi-slope are fine granular fields. R7 gravel is the most sharply clustered, cantonment more sweeping, pan more cloudlike. Palette coherence is broadly preserved; pattern-intensity coherence is not established.",
+    "sheet_status": "Completed native128 nine-family contact sheet inspected; exact256 sheet not inspected and not needed for this scoped rejection.",
+    "approval_baseline": "The selected family is an unqualified diagnostic assembly, not an approved style baseline.",
+    "sheet_observation": "The sheet confirms common muted earth colors but a sharp frequency/style split: gravel's angular clusters, pan's cloudy edges, and cantonment's pale sweeping edges are more strongly patterned than open-sand-C and the fine granular slope fields. The retained pilot A/floor/crest are broad soft tonal fields, so a little modulation is already part of the family; the objection is not that every patch must be uniform. The new medium-scale motifs still carry conspicuous pattern recurrence and do not establish compaction/silt identity. Family view does not reverse the individual repeat regressions.",
+    "sheet_pin": {
+      "path": ".formseed2d/contact-sheets/735f3f65-271f-4f41-8e3e-05b2c9a32502/commits/0000000000/display-dark.png",
+      "sha256": "9d8b9dba55819f32079c18adaf1c11fcb5ded6ccfd653ded1826e0b2368d4db1",
+      "checkpoint": "ce1e6a9e84fb528ff78eab456561ee4b4def155123434ee8322a940f043c730c",
+      "receipt": "receipts/family-sheet-v2-128.json",
+      "receipt_sha256": "f55656317be494030873931b38271ab8ca907de0ed737a2629f0fdc74af21950"
+    },
+    "single_pins": [
+      {
+        "path": "exports/cantonment-single-128.png",
+        "sha256": "609c4ff1ec685569b0ca64eb65f92fc1987768e6fc664f245254892fccd9893a"
+      },
+      {
+        "path": "exports/crest-single-128.png",
+        "sha256": "6a06010cc3a18cc5f839df7e3b9cd68943fe6d8cdbf2af2a8df6fe90029a4a20"
+      },
+      {
+        "path": "exports/open-sand-a-single-128.png",
+        "sha256": "e3616e88bd36366d6edc65cd8dbf1c5b11e7d7116d4c0c174a98c98bcf68567e"
+      },
+      {
+        "path": "exports/open-sand-b-single-128.png",
+        "sha256": "f9f9dd7b29197be7767b657c535266e544d98ee3684b17c28564c877a749af44"
+      },
+      {
+        "path": "exports/open-sand-c-single-128.png",
+        "sha256": "e4e73e2119af5e328a3188d0d9ec5932ea3dfdfe77eb6976d82cfcd547e3ba11"
+      },
+      {
+        "path": "exports/pan-single-128.png",
+        "sha256": "cf61253689a2092fc4ccaee3f6cb4c15ccfab295c023a446af2cab252557a654"
+      },
+      {
+        "path": "exports/slope-single-128.png",
+        "sha256": "51bceb735dc7b79f6e8d40d637b89b7e46624097ba05b09d6d4bc81b6c5532fc"
+      },
+      {
+        "path": "exports/wadi-floor-single-128.png",
+        "sha256": "8db973b08a71b62cb941d02cef1f36d5f9993e0a3e9a58bb04d74d6e69041f1d"
+      },
+      {
+        "path": "exports/wadi-slope-single-128.png",
+        "sha256": "f28f21c0c2d5b6d6ae763128bd5363cd2b2ab5724d83eba47eca23cc5931e9d5"
+      }
+    ]
+  },
+  "visualRecommendation": {
+    "formal": "no-go",
+    "retention": "none of the three r7 replacements meets improvement-without-regression",
+    "rubric_blocker": "No applicable terrain rubric or complete deterministic artwork evaluation.",
+    "whole_set": "unqualified",
+    "additional_blockers": [
+      "repeat regressions",
+      "material identity uncertainty",
+      "false relief concern",
+      "exact-state client overlay review pending"
+    ]
+  },
+  "humanApproval": {
+    "status": "absent",
+    "authority": "George alone; no agent retention decision grants approval"
+  },
+  "scores": null
+}

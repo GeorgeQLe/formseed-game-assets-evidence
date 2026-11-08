@@ -1,0 +1,176 @@
+{
+  "review": "Independent neutral-first then target-disclosed raster review",
+  "approvalScope": "Unapproved visual direction only. No numeric rubric, formal go, human approval, runtime acceptance, production or activation.",
+  "neutralFirstRecord": "neutral-first-observations.json",
+  "targetDisclosure": {
+    "A": "cantonment r9, compacted gritty ground",
+    "B": "pan r8, fine smooth silty film",
+    "C": "open-sand-b r9, gravel embedded in sand",
+    "scaleConstraint": "Material differences at128 and a quiet board; distinct geological microidentity at32 is unnecessary. Palette/context may dominate far views."
+  },
+  "readDocuments": [
+    "production-plan.json",
+    "verification.json",
+    "selected-source-set.json",
+    "comparison-fallbacks.json"
+  ],
+  "hashVerification": {
+    "neutral": "12/12 matched before disclosure",
+    "selectedAndFallbackCanonicals": "11/11 matched supplied manifests",
+    "canonicalEquivalence": "A/B/C neutral single512 hashes exactly match cantonment-r9/pan-r8/open-sand-b-r9 canonicals; neutral changed-material repeat128 hashes match verification.json."
+  },
+  "actualViewedImages": [
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/A-single512.png",
+      "sha256": "e6983225b68187d3e5cd77c94f56a0cc69facf5d3d801b7f1f842893ab1877fc"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/A-repeat128.png",
+      "sha256": "c8f2c45819fa5628cf7c0baf68f1f321032558b8bc214862b0cd7ef40f50b864"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/A-repeat64.png",
+      "sha256": "9514849f093feab557175ffb797a8f3399ceb25080bf1952b59f766fc9e4a9c5"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/A-repeat32.png",
+      "sha256": "383c1ceeb459e2871defc66b6814a6b6a2a3a9b4e78b4599581b72169ff87aa0"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/B-single512.png",
+      "sha256": "9ac3f83f27f7774ee5c187dbf5864a150278b475d5fa041dfce3c9e0ee99cb9e"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/B-repeat128.png",
+      "sha256": "25ea05d9cd42f2de96d0ff286150f55a172e7d94ce5497d1b01c6baff231a45d"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/B-repeat64.png",
+      "sha256": "a7665609abe57232ee05e2bd0b488cc7f6d54099b96138a9793284989461c4f6"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/B-repeat32.png",
+      "sha256": "9e6c6859628dead5eea530492a36949890aab7b3b7a661b7453e975ba0523122"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/C-single512.png",
+      "sha256": "6f1993f0154840ce710f62a7c7d95e4b25f917722cb3dec539294a489c308b6f"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/C-repeat128.png",
+      "sha256": "09e85f321a479783fdb8bcbe43443168abbff44f497b5a8ebc898c40ea337905"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/C-repeat64.png",
+      "sha256": "60b278e54cb841743b99be3f5057fca070e7672608c0a4d30755a91148ba83fc"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/neutral/C-repeat32.png",
+      "sha256": "c881649301acf4de2a290d9bc4baf90a6e7b678bf6acc5a277f90bc4b8d92214"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/exports/open-sand-a-single-128.png",
+      "sha256": "e3616e88bd36366d6edc65cd8dbf1c5b11e7d7116d4c0c174a98c98bcf68567e"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/exports/open-sand-b-single-128.png",
+      "sha256": "2ec038c53d1b61ffc7a1faaa8c0a53c5e03ad24d53c64b0c504d94543e38f61b"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/exports/open-sand-c-single-128.png",
+      "sha256": "e4e73e2119af5e328a3188d0d9ec5932ea3dfdfe77eb6976d82cfcd547e3ba11"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/exports/slope-single-128.png",
+      "sha256": "51bceb735dc7b79f6e8d40d637b89b7e46624097ba05b09d6d4bc81b6c5532fc"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/exports/wadi-slope-single-128.png",
+      "sha256": "f28f21c0c2d5b6d6ae763128bd5363cd2b2ab5724d83eba47eca23cc5931e9d5"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/exports/wadi-floor-single-128.png",
+      "sha256": "8db973b08a71b62cb941d02cef1f36d5f9993e0a3e9a58bb04d74d6e69041f1d"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/exports/crest-single-128.png",
+      "sha256": "6a06010cc3a18cc5f839df7e3b9cd68943fe6d8cdbf2af2a8df6fe90029a4a20"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/exports/pan-single-128.png",
+      "sha256": "63a867d6f0c79e41f27e2da1b8b928aa593b7a3aae17899a9607096221316d0e"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/exports/cantonment-single-128.png",
+      "sha256": "f98252754131efabc426d56a0874b701b01dbd5c3c8991787c91832ffd5913bf"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-b-r8.png",
+      "sha256": "bb0fe0d847104af2f60dbe2a0c2ae7567debeb44faf6a85d87e8f3bef2e5ea2f"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/open-sand-b-repeat-128.png",
+      "sha256": "ad38ad4de367c0f8e5cf5fb0d5f1b09dd794c587d65b685d5942ad3ea8b4b805"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/cantonment-r8.png",
+      "sha256": "8e697c8b52c9aeea59c55ed148d54afc09eec1339545bdf03011c48d0644813d"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r8/exports/cantonment-repeat-128.png",
+      "sha256": "ed8fd2fb504831abca66328e3f32068137bc4d16a0e3054eb51f3da714af6a85"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/open-sand-b-r4.png",
+      "sha256": "734655a521884c4162f31905908b76f92c0a084da054fdfb1551385cead1abd6"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/open-sand-b-repeat-128.png",
+      "sha256": "535bed873c20c7b01beddf08a637b2eeca8dfedd388b9110ea29d987155e1246"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/cantonment-r4.png",
+      "sha256": "eb7e888bd420174d9344f6d7c54b197715750db4a648f88ccf8c9e6608efad83"
+    },
+    {
+      "path": "research/daisenjutsu-desert-pilot-20261107/desert-four-r4/exports/cantonment-repeat-128.png",
+      "sha256": "45432a2a88a754945b3a8d5d7e78aa32f7647cbefcf794b0e7b5e8f442e42eda"
+    },
+    {
+      "path": ".formseed2d/contact-sheets/1cd7c861-5293-40a7-a0d2-fba718c89f14/commits/0000000000/display-dark.png",
+      "sha256": "a31211330aec7915ce30cc8d502e1d6a28ff0c8abbbca4801ad57748b5199bc1"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "open-sand-b",
+      "revision": "r9",
+      "direction": "retain",
+      "basis": "Credible visible structural improvement over r8 and r4. Large oblique aggregate islands and empty corridors have been replaced by an all-over local distribution of independent spots, not merely attenuated. At128 it remains distinctly particulate against pan and cantonment while staying low contrast. No crack network or directional relief is apparent.",
+      "reservation": "The chips read as soft round/irregular dots, not the crisp angular chips stated in the plan. Some generic stippled-print character remains. Retain this direction for the requested board separation, not as proof of exact angular-gravel target compliance."
+    },
+    {
+      "id": "cantonment",
+      "revision": "r9",
+      "direction": "retain",
+      "basis": "R8/r4 long curved or diagonal light edges and swaths are replaced by shorter disconnected pale scuffs and fine dusty grain. This is a change in visible feature structure, not only lower contrast. At128 these pale marks and sharper grain distinguish it from the smooth cloudy pan beyond lightness. No strong ridge-like edge pairing remains.",
+      "reservation": "Repeated128 still reveals an orderly rhythm of small pale comma-like scuffs. The broad repeated sweep is removed, but repetition itself is not eliminated. Compacted-soil identity remains suggestive; the most reliable distinction is local scuffed/gritty versus smooth diffuse texture."
+    },
+    {
+      "id": "pan",
+      "revision": "r8 retained",
+      "direction": "retain",
+      "basis": "The smooth softly mottled film supplies the quietest surface among the three and is visibly less granular/scuffed at128. No cracks or convincing baked relief.",
+      "reservation": "Intrinsic silty identity is subtle. At64/32 it tends toward a flat field and depends increasingly on palette and context, within the disclosed scope."
+    }
+  ],
+  "completeFamily128": "Viewed all nine native128 singles and the named family sheet. Revised gravel is the densest discrete particulate cue; cantonment has isolated pale scuffs; pan is a smooth cloudy film. Open-sand-c has fine directional striae; slope and wadi-slope carry quieter fine grain and are closer to each other structurally. Open-sand-a, wadi-floor and crest have broader blurred variation. The revised pair remains muted within the family, though gravel is its most visibly patterned member. This review does not establish unique geological identity for all nine.",
+  "smallScaleLimit": "At64 distinctions weaken and at32 mostly collapse toward fields. C retains weak fine grain, A faint pale-fleck rhythm and B smoothness. Far-scale palette/context dominance is explicitly accepted rather than represented as geological readability.",
+  "residualUncertainty": [
+    "No live board, units, selection rings, overlays or motion were viewed; actual overlay competition is untested by this review.",
+    "Supplied repeats demonstrate visible periodicity, not all possible tile arrangements or display scaling.",
+    "Gravel angularity and cantonment compaction are weaker than the literal production descriptions.",
+    "Technical isolation/replacement claims were read in verification.json but not independently replayed; this is a raster review."
+  ],
+  "conclusion": "Retain r9 gravel and cantonment plus retained r8 pan as unapproved directions. Broad prior motifs have credibly changed; residual local repetition and softened material identity should remain visible in the handoff. No further production or formal artwork approval is implied."
+}

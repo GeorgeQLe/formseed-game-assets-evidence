@@ -1,0 +1,90 @@
+{
+  "revision": "desert-material-r9",
+  "authorization": "George: Ok please make revisions",
+  "mode": "sequential-component-refinement",
+  "scope": "One fresh local/isotropic source correction each for B gravel and cantonment only; retain pan r8 and six prior sources. No artwork activation or release.",
+  "predecessor": "desert-material-r8/independent-material-review.json",
+  "ledger": {
+    "classification": "autonomous",
+    "reason": "Generic revision authorization; conservative charge one per changed material",
+    "ceilingPerMaterial": 9,
+    "consumedBefore": {
+      "open-sand-b": 6,
+      "cantonment": 6
+    },
+    "reserved": {
+      "open-sand-b": 1,
+      "cantonment": 1
+    }
+  },
+  "references": {
+    "path": "/Users/georgele/Developer/Projects/games/daisenjutsu-research/terrain/desert-pilot-20261107/research-before-desert-six-20261107.json",
+    "sha256": "438c138aac3d4a567eed9da9dadd7defac34fea74307ccaa14e01ce8c9fd3cbe",
+    "inspected": [
+      "wadi-al-batin-fig4.jpg",
+      "al-batin-park.jpg",
+      "cmsf2-official-01.jpg"
+    ],
+    "resolution": "Per-material subject translation below resolves prior deferred targeted-reference gap. Contemporary regional images are material context only; exact 1991 microterrain and camp layout explicitly unclaimed."
+  },
+  "materials": [
+    {
+      "id": "open-sand-b",
+      "rgb": [
+        190,
+        175,
+        145
+      ],
+      "targetRms": 4.5,
+      "construction": "An isotropic all-over field of distinct tiny FLAT ANGULAR gravel chips embedded flush in sand. Chips are approximately 1 to 2 percent of image width, each a simple irregular solid shape, short angular ends, muted gray-brown. Distribute individual chips uniformly with modest local random pairs and trios; 30 percent coverage. Neighboring gaps are only a few chip widths. No patch or density grouping larger than 8 percent of image width. Every quarter has the same average density. Random orientations with no preferential angle. Never broad connected clusters, bands, swirls, diagonal corridors, islands, crack cells, contour lines, ridges or waves. Flat print-like albedo only; no raised edges or lighting. At 128px the defining cue is crisp angular chip grain scattered across plain sand.",
+      "prompt": "Use case: stylized-concept. Create original square seamless top-down ground ALBEDO texture for a restrained tactical miniature strategy game. Flat orthographic plan, edge-to-edge. Matte low-saturation beige/taupe. Perfectly even diffuse illumination; no shadows, highlights, bevels, relief, horizon, vignette or focal point. Ground material only: no props, text, borders, hexes, plants, buildings, road, liquid. Uniform stationary local material statistics, not a composition of big shapes. An isotropic all-over field of distinct tiny FLAT ANGULAR gravel chips embedded flush in sand. Chips are approximately 1 to 2 percent of image width, each a simple irregular solid shape, short angular ends, muted gray-brown. Distribute individual chips uniformly with modest local random pairs and trios; 30 percent coverage. Neighboring gaps are only a few chip widths. No patch or density grouping larger than 8 percent of image width. Every quarter has the same average density. Random orientations with no preferential angle. Never broad connected clusters, bands, swirls, diagonal corridors, islands, crack cells, contour lines, ridges or waves. Flat print-like albedo only; no raised edges or lighting. At 128px the defining cue is crisp angular chip grain scattered across plain sand."
+    },
+    {
+      "id": "cantonment",
+      "rgb": [
+        166,
+        151,
+        126
+      ],
+      "targetRms": 2.8,
+      "construction": "An isotropic matte field of FLAT tightly compacted dusty soil. Predominantly continuous smooth dark tan fill. Small disconnected soft scuff patches of rubbed powder, each about 3 to 7 percent of width, with only sparse fine gritty short specks at their ends. Random orientation and placement; each patch isolated, with no connected boundaries. Even overall density in every quarter. Short diffuse scuffs are softly elongated blobs, never large sweeping strokes. No patch or feature longer than 8 percent of width. No plates, ridges, shallow depressions, bright/dark edge pairs, broad lobes, diagonal formations, waves, dunes, wavy bands, crack/cell network, tracks or repeated stamp. Compaction reads as locally smooth rubbed flat areas with sparse gritty flecks, unlike angular gravel chips and unlike entirely soft fine-silt veils.",
+      "prompt": "Use case: stylized-concept. Create original square seamless top-down ground ALBEDO texture for a restrained tactical miniature strategy game. Flat orthographic plan, edge-to-edge. Matte low-saturation beige/taupe. Perfectly even diffuse illumination; no shadows, highlights, bevels, relief, horizon, vignette or focal point. Ground material only: no props, text, borders, hexes, plants, buildings, road, liquid. Uniform stationary local material statistics, not a composition of big shapes. An isotropic matte field of FLAT tightly compacted dusty soil. Predominantly continuous smooth dark tan fill. Small disconnected soft scuff patches of rubbed powder, each about 3 to 7 percent of width, with only sparse fine gritty short specks at their ends. Random orientation and placement; each patch isolated, with no connected boundaries. Even overall density in every quarter. Short diffuse scuffs are softly elongated blobs, never large sweeping strokes. No patch or feature longer than 8 percent of width. No plates, ridges, shallow depressions, bright/dark edge pairs, broad lobes, diagonal formations, waves, dunes, wavy bands, crack/cell network, tracks or repeated stamp. Compaction reads as locally smooth rubbed flat areas with sparse gritty flecks, unlike angular gravel chips and unlike entirely soft fine-silt veils."
+    }
+  ],
+  "observedDefects": "r8 B retains diagonal cluster repetition128; cantonment retains ridge-like sweeping edges, rejected. Macro attenuation alone failed visible topology; use fresh bounded local isotropic sources. Pan r8 retained.",
+  "pipeline": "Two individual recorded FormSeed2D concept handoffs, exact prompt per material, one host generation each. Typed resize512 then blur0.6; read-only expected-pixel tone normalization+periodic edge correction+residual calculation; ONLY public typed pixel operations author every derived raster. Constant RGB substrate; periodic radius6 lowpass surface variation; fine-detail residual reconstructs exact final target. All derived source hashes/manifests retained.",
+  "normalization": "Luminance from generated source after typed resize512+blur0.6. Center by mean and scale to material targetRms; clamp luma offset \u00b112. Preserve subtle source chroma with 0.12 gain capped\u00b11 per channel. Blend opposite edges over32px with smooth quadratic weight reaching0.5 atedge; duplicate edge pixels exact. Surface variation periodic separable radius6 box filtering; residual alpha reconstructs. No fake generated tool output.",
+  "retainedCriteria": [
+    "Exact512opaque/seam registration",
+    "Quiet matte low-saturation earth family",
+    "No baked relief/props/borders",
+    "Independent three-layer reconstruction and replacement",
+    "No prominent repeat landmarks",
+    "Material cues readable at128; palette may dominate64/32 without requiring geological identity."
+  ],
+  "falsifiers": [
+    "No distinction beyond palette at128",
+    "New repeated landmark or baked relief",
+    "Poor seamless repeat",
+    "Overlay competition at actual near/far scale"
+  ],
+  "deferred": {
+    "wholeAsset": "No applicable terrain rubric; formal no-go. Artwork human approval absent.",
+    "retainedSources": "Pan r8 plus original six other pins in retained-source-set.json",
+    "owners": "Agent verifies complete family, lineage and runtime checks; George alone approves exact artwork; rubric missing remains independent limitation."
+  },
+  "review": "Independent exact complete recipe audit before dispatch. Fresh neutral reviewer before targets; disclosed compare r8 and retained r4 plus full9. Stop this successor if no credible improvement; retain predecessors rather than loop without evidence.",
+  "retainedSourceSet": {
+    "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/retained-source-set.json",
+    "sha256": "d10c8ab13db5ad04939eee447b61e78c2639a87a960f550c0fbc6ee7e1252a07"
+  },
+  "comparisonFallbacks": {
+    "path": "research/daisenjutsu-desert-pilot-20261107/desert-material-r9/comparison-fallbacks.json",
+    "sha256": "96d248a2b1fa86d53b085ec3a2ad6364e37f3fa4d46c0ac2897439d709c60155"
+  },
+  "replacementSourceManifest": {
+    "path": "research/daisenjutsu-desert-pilot-20261107/desert-pair-r5/materials-manifest.json",
+    "sha256": "a577d7aeabd1baaf0ef27674e8a48295b479f58ec93823fc771193bf6cb9af54"
+  },
+  "replacementProof": "Exact distinct replacement source and nonzero changed output pixels, with unchanged sibling pins."
+}
