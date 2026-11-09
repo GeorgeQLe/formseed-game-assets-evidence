@@ -1,0 +1,117 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "e46-approved-source",
+  "project": "original-assets",
+  "producer": {
+    "kind": "formseed3d",
+    "buildVersion": "9466eea60da55d5bcdbad16d9e19f3ac50bb45f6af1ef8fa209439e836899664"
+  },
+  "job": {
+    "jobId": "43990566-7431-48ea-9d5a-78ef62083ba9",
+    "revision": 3,
+    "checkpointSha256": "1c4e57acee999b4e9e8c61045ac7ce96bc7c8bbf89c12b9d12b749fc0022a96a"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "6ab3415100e9d7670c9b57047aafb1b72c8ce5ba7292a08689ce075169981c2b",
+    "dimensionReportHash": "023f264923c63bf7925ac253fc1b5f2b939482b13af82f524e20161cc833f114",
+    "files": [
+      {
+        "path": "source/review.glb",
+        "sha256": "f73fb8bd4c63bafd6d8758919d3934e82d7d0c69691c690463045f6491fb8439",
+        "bytes": 1032492
+      },
+      {
+        "path": "source/checkpoint.blend",
+        "sha256": "1c4e57acee999b4e9e8c61045ac7ce96bc7c8bbf89c12b9d12b749fc0022a96a",
+        "bytes": 232937
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "b52f7bf9a00be13350377dc72fc46e3fac127aaa17d59906258ad8f17432ab09",
+        "bytes": 39245
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "db94a8ab79777463334dd2b2ca1e1aae3e4f4c79f173e7680210e85ce6c4b6c4",
+        "bytes": 780
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "50b3e05253302890c203d15037950b4fbe181f1ded72543da70adc174f0aaf76",
+        "bytes": 293
+      },
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "265fe55b73e07277fcdf4fdd493f3d89f67706b6f46747d4fcff2e358f8343d3",
+        "bytes": 8965
+      },
+      {
+        "path": "source/bundle.blend",
+        "sha256": "cd85a65dabf5015c5225a6aac5661af247dbb434f3d316ead86486b166cf62d9",
+        "bytes": 232877
+      },
+      {
+        "path": "source/bundle.glb",
+        "sha256": "17f66bd874509c3f6b0439b70fd4ab09a39de44beab4f9372a26c6d41202cbe4",
+        "bytes": 1020656
+      },
+      {
+        "path": "review/front.png",
+        "sha256": "6946dd7c8b75ba7181d79923789c74fc6235961f8b97d3bf30a12736532bc63d",
+        "bytes": 1393299
+      },
+      {
+        "path": "review/right.png",
+        "sha256": "2c7cd979785a62d54984873dca274ffe03b5ad31a715233cb9652fdd055f775c",
+        "bytes": 1444160
+      },
+      {
+        "path": "review/rear.png",
+        "sha256": "3bd24c2809d1eff0fb132d5392782c5700bead4c9fcd1b2dcf4d8c2b0cc88e38",
+        "bytes": 1393406
+      },
+      {
+        "path": "review/left.png",
+        "sha256": "3ad3877d8d20b6de57094f6c4089636df684ee1896c6311c8b3a769301729875",
+        "bytes": 1444006
+      },
+      {
+        "path": "review/top.png",
+        "sha256": "9a7bf8b82be5db7e45bd2186a29e6e2c7d8d91f662f9bcf59a63af3f250c03e8",
+        "bytes": 1497250
+      },
+      {
+        "path": "review/front-left.png",
+        "sha256": "26ec5b672179da25582b63b5b40f4f64d95716e3c98d8eca08c72236f8bc0930",
+        "bytes": 1500398
+      },
+      {
+        "path": "review/rear-right.png",
+        "sha256": "9444cb49124482e1e3139daab3c0a50d7709021776059de20a27ecff2e4b639c",
+        "bytes": 1498484
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "6913435c4e5f00b3c6ad2fdc84b51572c19ac7d4f91e9b787b9a1531e80e3b6e",
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-09T05:55:59.691Z"
+  },
+  "notes": [
+    "It looks good to me, I approve. Publish and integrate it and record for me a gameplay sizzle reel of the E-46 in action",
+    "Exact clean source only. Runtime performance qualification and unseen condition artwork are separate.",
+    "Review GLB is a producer axis-preserving export of the approved checkpoint; canonical bundle GLB has separate bytes. Both identities retained. No third-party reference imagery included.",
+    "Initial semantic source release is v1.0; v2 in the project name is a working iteration. Earlier artwork approvals remain rescinded."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
