@@ -1,0 +1,48 @@
+{
+  "recordType": "comet-human-artwork-approval",
+  "recordedAt": "2026-11-10T03:37:31.769791+00:00",
+  "approvedBy": "George Le",
+  "humanApproved": true,
+  "userStatement": "Approved wow",
+  "scope": "Artwork approval of the exact presented clean r14, DP r15, WP r15, six direct-clean condition recipes and their labelled evidence.",
+  "candidatePins": {
+    "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+    "clean": {
+      "branch": "main",
+      "revision": 14,
+      "checkpointId": "564be9ce-9c20-4b31-b254-9234fb54d26a",
+      "sha256": "8a309720170722a8805eccc52ee1ff00ef4cf761a2ef228bfa1f0cb45699610d"
+    },
+    "DP": {
+      "branch": "variant-3-1",
+      "revision": 15,
+      "checkpointId": "13a86f78-c03b-4e36-b076-8650d01a4a7a",
+      "sha256": "699921eeafea404efbfea1a7f21a37af30667aeb7edebc13dfd6bfafd49caf7f"
+    },
+    "WP": {
+      "branch": "variant-3-2",
+      "revision": 15,
+      "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+      "sha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84"
+    },
+    "variantSet": "96b204aa-7e77-441d-8c2d-751f49e01530"
+  },
+  "deliveryInventorySha256": "cf84a034ff1e909f7812168bbdd659b4d865c8baa12021086d86d0a771551b49",
+  "recipeIndexSha256": "fc604c19f0493196311c1d7a9999c4a0873777fbf934da7dc3eb4d9ac8cb912b",
+  "componentRegistryHashes": {
+    "P": "3089e5b1db68a40bc108c10a47f1f80bb04f85659edb4ef69e587b8d70a41edf",
+    "DP": "4b293207e2624d2d1119b433789a327d294f60cc3f6909a1a24d59db08fd3a9f",
+    "WP": "4b0323bd2b19a21d32ca8c4f7310d911dc9fa68ec049df9200711279381abf9f"
+  },
+  "reviewReceiptSha256": "8b403bbc4847ba35c05fbbc5e9c6471ba4f05c6aedceeb294a8f367f477d0843",
+  "independentAuditSha256": "e67beb593fea8b5b7872636981e4b58c2aa67c1c5b0d4d6bab849645227fcf17",
+  "exclusions": [
+    "Producer source completion/approval/promotion",
+    "Game integration",
+    "Catalog publication",
+    "Release",
+    "Performance qualification"
+  ],
+  "backendSemantics": "Conversation artwork acceptance recorded in canonical job evidence. No producer per-component approval transaction asserted; no complete_asset_job or promotion invoked.",
+  "preservation": "Sealed review package and historical pending-approval assessments retained byte-for-byte. This later approval receipt supersedes their historical artwork-pending status only."
+}

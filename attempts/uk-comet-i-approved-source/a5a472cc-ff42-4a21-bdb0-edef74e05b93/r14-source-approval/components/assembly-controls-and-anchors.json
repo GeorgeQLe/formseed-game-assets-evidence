@@ -1,0 +1,917 @@
+{
+  "sourceCheckpoint": {
+    "id": "564be9ce-9c20-4b31-b254-9234fb54d26a",
+    "path": "producer-local-path-omitted/f6a354da-daae-4a52-9f75-e5ea0c102777.blend",
+    "contentHash": "8a309720170722a8805eccc52ee1ff00ef4cf761a2ef228bfa1f0cb45699610d",
+    "revision": 14
+  },
+  "nativeSceneSha256": "22757fe24c7f468b39bc2d3a0c6ee8b835dfb2f960aa24ce6617045f02474761",
+  "sourceAxes": "+X forward +Y left +Z up",
+  "units": "m",
+  "nativeControls": [
+    {
+      "name": "asset-root",
+      "type": "EMPTY",
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": null,
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "turret-yaw",
+      "type": "EMPTY",
+      "location": [
+        0.35,
+        0,
+        1.64
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "gun-elevation",
+      "type": "EMPTY",
+      "location": [
+        1,
+        0,
+        0.36
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "turret-yaw",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "gun-recoil",
+      "type": "EMPTY",
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "gun-elevation",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "hull-mg-yaw",
+      "type": "EMPTY",
+      "location": [
+        2.565,
+        0.54,
+        1.49
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "hull-mg-pitch",
+      "type": "EMPTY",
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "hull-mg-yaw",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "commander-hatch-a",
+      "type": "EMPTY",
+      "location": [
+        -0.27,
+        0.23,
+        0.91
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "turret-yaw",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "commander-hatch-b",
+      "type": "EMPTY",
+      "location": [
+        -0.27,
+        0.87,
+        0.91
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "turret-yaw",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "loader-hatch-front",
+      "type": "EMPTY",
+      "location": [
+        0.43,
+        -0.515,
+        0.76
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "turret-yaw",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "loader-hatch-rear",
+      "type": "EMPTY",
+      "location": [
+        -0.24,
+        -0.515,
+        0.76
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "turret-yaw",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "driver-hatch",
+      "type": "EMPTY",
+      "location": [
+        1.79,
+        -0.565,
+        1.66
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "hull-mg-hatch",
+      "type": "EMPTY",
+      "location": [
+        1.79,
+        0.565,
+        1.66
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-wheel-1",
+      "type": "EMPTY",
+      "location": [
+        1.86,
+        1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-wheel-2",
+      "type": "EMPTY",
+      "location": [
+        0.988,
+        1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-wheel-3",
+      "type": "EMPTY",
+      "location": [
+        -0.023,
+        1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-wheel-4",
+      "type": "EMPTY",
+      "location": [
+        -0.982,
+        1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-wheel-5",
+      "type": "EMPTY",
+      "location": [
+        -1.8738,
+        1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-roller-1",
+      "type": "EMPTY",
+      "location": [
+        1.424,
+        1.265,
+        1.08
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-roller-2",
+      "type": "EMPTY",
+      "location": [
+        0.482,
+        1.265,
+        1.08
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-roller-3",
+      "type": "EMPTY",
+      "location": [
+        -0.502,
+        1.265,
+        1.08
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-roller-4",
+      "type": "EMPTY",
+      "location": [
+        -1.428,
+        1.265,
+        1.08
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-wheel-1",
+      "type": "EMPTY",
+      "location": [
+        1.86,
+        -1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-wheel-2",
+      "type": "EMPTY",
+      "location": [
+        0.988,
+        -1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-wheel-3",
+      "type": "EMPTY",
+      "location": [
+        -0.023,
+        -1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-wheel-4",
+      "type": "EMPTY",
+      "location": [
+        -0.982,
+        -1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-wheel-5",
+      "type": "EMPTY",
+      "location": [
+        -1.8738,
+        -1.265,
+        0.455
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-roller-1",
+      "type": "EMPTY",
+      "location": [
+        1.424,
+        -1.265,
+        1.08
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-roller-2",
+      "type": "EMPTY",
+      "location": [
+        0.482,
+        -1.265,
+        1.08
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-roller-3",
+      "type": "EMPTY",
+      "location": [
+        -0.502,
+        -1.265,
+        1.08
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-roller-4",
+      "type": "EMPTY",
+      "location": [
+        -1.428,
+        -1.265,
+        1.08
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-sprocket",
+      "type": "EMPTY",
+      "location": [
+        -2.66,
+        1.265,
+        0.8
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-sprocket",
+      "type": "EMPTY",
+      "location": [
+        -2.66,
+        -1.265,
+        0.8
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "left-idler",
+      "type": "EMPTY",
+      "location": [
+        2.7,
+        1.265,
+        0.762
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "right-idler",
+      "type": "EMPTY",
+      "location": [
+        2.7,
+        -1.265,
+        0.762
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "rider-01",
+      "type": "EMPTY",
+      "location": [
+        -0.7,
+        1.36,
+        1.695
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "rider-02",
+      "type": "EMPTY",
+      "location": [
+        -0.7,
+        -1.36,
+        1.695
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        -90
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "rider-03",
+      "type": "EMPTY",
+      "location": [
+        -1.45,
+        1.26,
+        1.695
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "rider-04",
+      "type": "EMPTY",
+      "location": [
+        -1.45,
+        -1.26,
+        1.695
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        -90
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "rider-05",
+      "type": "EMPTY",
+      "location": [
+        -2.9,
+        1.26,
+        1.45
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "rider-06",
+      "type": "EMPTY",
+      "location": [
+        -2.9,
+        -1.26,
+        1.45
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        -90
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "rider-07",
+      "type": "EMPTY",
+      "location": [
+        -2.95,
+        0.52,
+        1.775
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        180.00001
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "driver-station",
+      "type": "EMPTY",
+      "location": [
+        2.03,
+        -0.565,
+        1.66
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "asset-root",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    },
+    {
+      "name": "commander-station",
+      "type": "EMPTY",
+      "location": [
+        -0.27,
+        0.55,
+        0.8
+      ],
+      "rotationDegrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "turret-yaw",
+      "transformSource": "exact native scene local TRS; hierarchy from typed creation plan corroborated by exported descendant mappings"
+    }
+  ],
+  "backendLimitation": "Review GLB omits orphan anchor empties. Exact native Blend plus this companion manifest supplies anchors; no per-component producer completion/approval semantics."
+}

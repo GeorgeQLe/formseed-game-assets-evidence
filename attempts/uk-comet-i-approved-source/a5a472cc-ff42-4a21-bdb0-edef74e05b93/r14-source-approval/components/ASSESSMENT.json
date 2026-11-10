@@ -1,0 +1,99 @@
+{
+  "recordType": "comet-hash-bound-final-delivery-assessment",
+  "createdAt": "2026-11-10T03:35:40.613121+00:00",
+  "candidatePins": {
+    "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+    "clean": {
+      "branch": "main",
+      "revision": 14,
+      "checkpointId": "564be9ce-9c20-4b31-b254-9234fb54d26a",
+      "sha256": "8a309720170722a8805eccc52ee1ff00ef4cf761a2ef228bfa1f0cb45699610d"
+    },
+    "DP": {
+      "branch": "variant-3-1",
+      "revision": 15,
+      "checkpointId": "13a86f78-c03b-4e36-b076-8650d01a4a7a",
+      "sha256": "699921eeafea404efbfea1a7f21a37af30667aeb7edebc13dfd6bfafd49caf7f"
+    },
+    "WP": {
+      "branch": "variant-3-2",
+      "revision": 15,
+      "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+      "sha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84"
+    },
+    "variantSet": "96b204aa-7e77-441d-8c2d-751f49e01530"
+  },
+  "registries": {
+    "P": {
+      "path": "component-registry-P.json",
+      "sha256": "3089e5b1db68a40bc108c10a47f1f80bb04f85659edb4ef69e587b8d70a41edf"
+    },
+    "DP": {
+      "path": "component-registry-DP.json",
+      "sha256": "4b293207e2624d2d1119b433789a327d294f60cc3f6909a1a24d59db08fd3a9f"
+    },
+    "WP": {
+      "path": "component-registry-WP.json",
+      "sha256": "4b0323bd2b19a21d32ca8c4f7310d911dc9fa68ec049df9200711279381abf9f"
+    }
+  },
+  "recipeIndex": {
+    "path": "recipe-index.json",
+    "sha256": "fc604c19f0493196311c1d7a9999c4a0873777fbf934da7dc3eb4d9ac8cb912b"
+  },
+  "reviewReceipt": {
+    "path": "review/render-receipt.json",
+    "sha256": "8b403bbc4847ba35c05fbbc5e9c6471ba4f05c6aedceeb294a8f367f477d0843"
+  },
+  "referencePacket": {
+    "path": "producer-local-path-omitted/research.json",
+    "sha256": "6d16ee8f499628e737940083ca1d0af2073ab9ea902091b1072d16f32c049e8a"
+  },
+  "technicalValidation": {
+    "status": "PASS within declared producer and sampled verification scope",
+    "package": {
+      "path": "validation/final-package-validation.json",
+      "sha256": "5ac28f44c389aa15aba2fe4ad3ea88ed3c2680d6ee826da89777e467cd4245f8"
+    },
+    "conditionHostDerivations": {
+      "path": "validation/condition-derivation-correspondence.json",
+      "sha256": "cd11803eb4910b7e985bd41df3124a19bf7091f3cbb0d90852b07ebba3d6d4f8"
+    },
+    "nativeCleanHostPreservation": {
+      "path": "validation/clean-host-correspondence.json",
+      "sha256": "90331e15b95428e230722553f4bd5bcb4d21c44c4da4088054e7a47b15e67649"
+    },
+    "dimensionCriteria": "20/20 clean and each library clean-host scope",
+    "cleanTriangles": 18232,
+    "materials": 6,
+    "cleanPhysicalMeshes": 73,
+    "cleanSourceObjects": 117
+  },
+  "visualRecommendation": {
+    "status": "recommend for George batch artwork review",
+    "independentAudit": {
+      "path": "validation/independent-final-delivery-audit.json",
+      "sha256": "e67beb593fea8b5b7872636981e4b58c2aa67c1c5b0d4d6bab849645227fcf17"
+    },
+    "boundedReadability": "D01 deformed belt reads more clearly than fully thrown/broken."
+  },
+  "humanArtworkApproval": {
+    "status": "PENDING",
+    "approver": null
+  },
+  "performanceQualification": {
+    "status": "UNQUALIFIED",
+    "reason": "No engine performance tests/LODs;73 physical clean meshes exceed runtime32-object target. Producer30k triangle/160-object ceilings are separate from game qualification. Sprocket/static-belt6mm contact band is approximation, no moving shoe/terrain qualification."
+  },
+  "backendDeliverySemantics": "Local per-component registry and standalone exports derived from hash-pinned shared native Blends and exact selectors. Not producer per-component completion, promotion, approval or catalog publication. Orphan anchors supplied in native plus companion manifest.",
+  "forbiddenActionsPerformed": {
+    "selfApproval": false,
+    "integration": false,
+    "catalogPublication": false,
+    "release": false
+  },
+  "cleanup": {
+    "path": "validation/resource-cleanup.json",
+    "sha256": "5bf05865017feaa668bccd7e1e3a2bd4c76503a1313b8345226cba8c947f0fc6"
+  }
+}
