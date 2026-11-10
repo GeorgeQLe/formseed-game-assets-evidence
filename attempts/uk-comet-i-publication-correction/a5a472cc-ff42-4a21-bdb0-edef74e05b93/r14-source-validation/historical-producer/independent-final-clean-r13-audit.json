@@ -1,0 +1,95 @@
+{
+  "recordType": "independent-final-clean-visual-audit",
+  "reviewer": "Codex comet_reference_audit",
+  "createdAt": "2026-11-10T02:57:27.301983+00:00",
+  "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+  "revision": 13,
+  "checkpoint": {
+    "id": "54aaa767-2ee6-4c38-a952-5ffb398ea576",
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/checkpoints/d75457ea-d945-4b0a-a170-0de7b08fd610.blend",
+    "contentHash": "28a3f017666370ad568ea81903ec7addd1a3d824a31d9b0e17d9d78f6dbce455",
+    "revision": 13
+  },
+  "recordsFileSha256": "879e9461478645c5af2464d33f994882322a46bea622846864c0b068bdeace27",
+  "renderHash": "6739137deed3b4371d3b8b089f07c6718c81362a17ba1627f741de48a7f4d00e",
+  "evidence": [
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/hero/front-left.png",
+      "sha256": "f3a0adc40900a704414320680602f4f90d78f686cdae4861139b4980ebcefc9a"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/hero/rear-right.png",
+      "sha256": "997b3059be1d85c1ec5ff8df0083cbad87184a5e33a1e1855d52141af5a4d74a"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/hero/left.png",
+      "sha256": "8cb45fa61490e3c433204fe85d69b01376477cd27a78fb1fdcf8df7e55f3d867"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/hero/right.png",
+      "sha256": "aa92f6ae018a4e53d152e0e9f89f49aa3eaf8344834a0622c2eedc74f5aa80ad"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/hero/front.png",
+      "sha256": "50b43e90a22ed0fde5797d0c80c0002c67071a38eff9e41856e69f2dc5c8a4be"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/hero/rear.png",
+      "sha256": "2121d9639dd4a55a987d973bb0c064f0f2989b86d91e25e0a5727736bb17008b"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/hero/top.png",
+      "sha256": "727023fdd6c51845e17423f12e7654cee64bda366de7bac0b9369f22bcbed4af"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/hero/underside.png",
+      "sha256": "486d39d5569e9afbadc169827dcd22bdbc792d76b05b03c58e32b061bc97db5b"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/small-form/front-left.png",
+      "sha256": "10c82263892047d97968be9158a7782b227161542682ce49b2b34106654e5dbc"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/small-form/rear-right.png",
+      "sha256": "447244c314994c0e3b2a1bcbd1154431f1dc17f4849b709211e2b89fc54b7fc1"
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/renders/revision-13/production/run-w38NgU/pass-2/contact-sheet.png",
+      "sha256": "432ad77c4e647ebabd1e8ae8b4fc22da4a4b1a6ec0e5dac2b4e7474a6c9d8a7f"
+    }
+  ],
+  "scope": "Final clean visual delta review against r10 and retained period reference packet. Inspected exact r13 contact sheet, full opposing sides and front-quarter image. Prior reviews covered full unchanged top/rear/underside structures. No backend mutation.",
+  "findings": [
+    {
+      "id": "R13-01",
+      "severity": "resolved-visual-defect",
+      "finding": "Track path now follows rounded contact around actual idler/sprocket and a coherent lower roadwheel tangent, improving the former angular end transitions. Four upper rollers and five roadwheel stations remain visually distinct. No new blocking track silhouette mismatch established against TD25664 and period side photographs."
+    },
+    {
+      "id": "R13-02",
+      "severity": "resolved-visual-defect",
+      "finding": "Hull Besa spherical ball is now visible on the front installation and no longer reads as a flat collar buried in the front shell. Supplied collision tests remain separate technical evidence, not independently reproduced here."
+    },
+    {
+      "id": "R13-03",
+      "severity": "disclosure-required",
+      "finding": "Track body0.035m, tread outward0.024m and rotation clearance0.006m are designed miniature construction choices. Preserve their explicit design status; do not describe them as measured historical shoe dimensions."
+    }
+  ],
+  "blockingGeometryDefectsEstablished": [],
+  "carryForwardLimits": [
+    "Mantlet/brake contour simplification and cowl mouth/backing closeup readability remain bounded interpretations; no new defect is established in this delta review.",
+    "TD25664 revision, ring/trunnion interpretation and designed suspension support uncertainty remain.",
+    "Official producer view filenames retain legacy mirrored vehicle-side names; final delivery must use corrected labels and mapping as reported by main agent."
+  ],
+  "comparison": "Retained r10 turret/hull/bin proportions remain visually stable; track modification does not appear to move vehicle wheel stations or distort the overall form.",
+  "visualRecommendation": "No further blocking clean-silhouette correction identified for the exact r13 candidate by this independent delta review. Include exact r13 candidate in batched artwork review after condition and packaging validation; this is not artwork acceptance.",
+  "humanArtworkApproval": "absent",
+  "performanceQualification": "not assessed",
+  "conditionLibraryApprovalTransfer": false,
+  "limitations": [
+    "No motion/rider/collision duplication performed.",
+    "No standalone-part or recipe validation performed in this clean-only audit.",
+    "Prior DP/WP libraries are not validated for r13 by this review; new derivation correspondence must bind exact final source."
+  ]
+}

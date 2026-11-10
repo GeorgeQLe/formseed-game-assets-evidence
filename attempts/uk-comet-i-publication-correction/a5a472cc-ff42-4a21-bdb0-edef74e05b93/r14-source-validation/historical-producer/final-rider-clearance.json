@@ -1,0 +1,120 @@
+{
+  "checkpoint": {
+    "id": "564be9ce-9c20-4b31-b254-9234fb54d26a",
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/checkpoints/f6a354da-daae-4a52-9f75-e5ea0c102777.blend",
+    "contentHash": "8a309720170722a8805eccc52ee1ff00ef4cf761a2ef228bfa1f0cb45699610d",
+    "revision": 14
+  },
+  "producerGlbSha256": "fd1d4b8436274e134d35a7e9e6d651b34c5b3ef0b60e08889d0f95ebd5224088",
+  "assessment": {
+    "figureSha256": "e14fe0a732e39d7191faddd4c6100b6ee6e043f8ef24b6cee3bb4ccfd7df15d7",
+    "rows": [
+      {
+        "anchor": "rider-01",
+        "position": [
+          -0.7,
+          1.36,
+          1.695
+        ],
+        "headingDegreesSourceZ": 90,
+        "vehicleSurfaceCrossings": {}
+      },
+      {
+        "anchor": "rider-02",
+        "position": [
+          -0.7,
+          -1.36,
+          1.695
+        ],
+        "headingDegreesSourceZ": -90,
+        "vehicleSurfaceCrossings": {}
+      },
+      {
+        "anchor": "rider-03",
+        "position": [
+          -1.45,
+          1.26,
+          1.695
+        ],
+        "headingDegreesSourceZ": 90,
+        "vehicleSurfaceCrossings": {}
+      },
+      {
+        "anchor": "rider-04",
+        "position": [
+          -1.45,
+          -1.26,
+          1.695
+        ],
+        "headingDegreesSourceZ": -90,
+        "vehicleSurfaceCrossings": {}
+      },
+      {
+        "anchor": "rider-05",
+        "position": [
+          -2.9,
+          1.26,
+          1.45
+        ],
+        "headingDegreesSourceZ": 90,
+        "vehicleSurfaceCrossings": {}
+      },
+      {
+        "anchor": "rider-06",
+        "position": [
+          -2.9,
+          -1.26,
+          1.45
+        ],
+        "headingDegreesSourceZ": -90,
+        "vehicleSurfaceCrossings": {}
+      },
+      {
+        "anchor": "rider-07",
+        "position": [
+          -2.95,
+          0.52,
+          1.775
+        ],
+        "headingDegreesSourceZ": 180,
+        "vehicleSurfaceCrossings": {}
+      }
+    ],
+    "riderPairCrossings": []
+  },
+  "supportPlan": [
+    {
+      "riders": [
+        "01",
+        "02"
+      ],
+      "surface": "P32/P33 mid stowage lids; outward edge perch",
+      "nominalThighGapMeters": 0.0025
+    },
+    {
+      "riders": [
+        "03",
+        "04"
+      ],
+      "surface": "P32/P33 rear stowage lids",
+      "nominalThighGapMeters": 0.0025
+    },
+    {
+      "riders": [
+        "05",
+        "06"
+      ],
+      "surface": "P28/P29 rear mudguards",
+      "nominalThighGapMeters": 0.02
+    },
+    {
+      "riders": [
+        "07"
+      ],
+      "surface": "P20 left exhaust-cowl roof; rear-facing transport perch",
+      "nominalThighGapMeters": 0,
+      "uncertainty": "Not purpose-built seat; no historical certified seating or hot-exhaust safety claim"
+    }
+  ],
+  "limits": "Transport perches, not historical certified seats; shared figure separate. Side bin thigh gap 2.5mm; rear fender allowance20mm; seventh rider rear-facing left cowl. Occupied turret locked at0 despite sampled \u00b15 degrees clearing; \u00b110 and beyond intersect figures."
+}

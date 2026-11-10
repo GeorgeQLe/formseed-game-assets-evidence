@@ -1,0 +1,72 @@
+{
+  "checkpoint": {
+    "id": "54aaa767-2ee6-4c38-a952-5ffb398ea576",
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/a5a472cc-ff42-4a21-bdb0-edef74e05b93/main/checkpoints/d75457ea-d945-4b0a-a170-0de7b08fd610.blend",
+    "contentHash": "28a3f017666370ad568ea81903ec7addd1a3d824a31d9b0e17d9d78f6dbce455",
+    "revision": 13
+  },
+  "samples": [
+    {
+      "part": "P40",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.0030346746026311258
+    },
+    {
+      "part": "P41",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.005999992995846408
+    },
+    {
+      "part": "P42",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.005999992995846408
+    },
+    {
+      "part": "P43",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.005999992995846408
+    },
+    {
+      "part": "P44",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.003034665040800535
+    },
+    {
+      "part": "P50",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": 0.005442507192323677
+    },
+    {
+      "part": "P52",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.0019370510838021874
+    },
+    {
+      "part": "P54",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.005572902803450476
+    },
+    {
+      "part": "P55",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.00599995976686496
+    },
+    {
+      "part": "P56",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.00599995976686496
+    },
+    {
+      "part": "P57",
+      "staticTriangleSurfaceCrossings": 0,
+      "maximumSupportPlaneProtrusionOver72SpinSamplesMeters": -0.00599995976686496
+    }
+  ],
+  "method": "Every projected running-surface vertex against every convex inner-belt half-plane at 5degree wheel-spin increments. Negative values are clearance. Independent static triangle surface check includes tread relief.",
+  "designChoices": {
+    "contactClearanceMeters": 0.006,
+    "beltBodyThicknessMeters": 0.035,
+    "outwardTreadReliefMeters": 0.024
+  },
+  "limits": "Simplified taut belt and visual wheel spin; no animated shoes, suspension dynamics or historical shoe-section measurements asserted."
+}

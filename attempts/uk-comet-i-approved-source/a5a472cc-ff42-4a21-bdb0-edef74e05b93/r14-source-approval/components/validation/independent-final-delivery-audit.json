@@ -1,0 +1,225 @@
+{
+  "recordType": "independent-final-comet-delivery-audit",
+  "createdAt": "2026-11-10T03:34:43.733324+00:00",
+  "reviewer": "independent-comet-reference-audit",
+  "scope": "Read-only adversarial package and visual review; no backend source mutation, approval or gate advancement.",
+  "candidatePins": {
+    "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+    "clean": {
+      "branch": "main",
+      "revision": 14,
+      "checkpointId": "564be9ce-9c20-4b31-b254-9234fb54d26a",
+      "sha256": "8a309720170722a8805eccc52ee1ff00ef4cf761a2ef228bfa1f0cb45699610d"
+    },
+    "DP": {
+      "branch": "variant-3-1",
+      "revision": 15,
+      "checkpointId": "13a86f78-c03b-4e36-b076-8650d01a4a7a",
+      "sha256": "699921eeafea404efbfea1a7f21a37af30667aeb7edebc13dfd6bfafd49caf7f"
+    },
+    "WP": {
+      "branch": "variant-3-2",
+      "revision": 15,
+      "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+      "sha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84"
+    },
+    "variantSet": "96b204aa-7e77-441d-8c2d-751f49e01530"
+  },
+  "bindings": [
+    {
+      "path": "component-registry-P.json",
+      "sha256": "3089e5b1db68a40bc108c10a47f1f80bb04f85659edb4ef69e587b8d70a41edf"
+    },
+    {
+      "path": "component-registry-DP.json",
+      "sha256": "4b293207e2624d2d1119b433789a327d294f60cc3f6909a1a24d59db08fd3a9f"
+    },
+    {
+      "path": "component-registry-WP.json",
+      "sha256": "4b0323bd2b19a21d32ca8c4f7310d911dc9fa68ec049df9200711279381abf9f"
+    },
+    {
+      "path": "recipe-index.json",
+      "sha256": "fc604c19f0493196311c1d7a9999c4a0873777fbf934da7dc3eb4d9ac8cb912b"
+    },
+    {
+      "path": "review/render-receipt.json",
+      "sha256": "8b403bbc4847ba35c05fbbc5e9c6471ba4f05c6aedceeb294a8f367f477d0843"
+    },
+    {
+      "path": "review/overview.png",
+      "sha256": "75f0b53f4976a98c83e8dcd7532cee1d2a899442eaffdcd33add8c3cbeca514b"
+    },
+    {
+      "path": "review/exposure-and-riders.png",
+      "sha256": "9ac8c9c5d082818c83f2bfcecd59f703f3b3f985344da8f866289e8748f0d4ec"
+    },
+    {
+      "path": "validation/final-package-validation.json",
+      "sha256": "5ac28f44c389aa15aba2fe4ad3ea88ed3c2680d6ee826da89777e467cd4245f8"
+    },
+    {
+      "path": "validation/condition-derivation-correspondence.json",
+      "sha256": "cd11803eb4910b7e985bd41df3124a19bf7091f3cbb0d90852b07ebba3d6d4f8"
+    },
+    {
+      "path": "validation/clean-host-correspondence.json",
+      "sha256": "90331e15b95428e230722553f4bd5bcb4d21c44c4da4088054e7a47b15e67649"
+    },
+    {
+      "path": "REVIEW-AND-ASSEMBLY.txt",
+      "sha256": "2be6921b7ae212cb2e17906ca9d682bba9839fd95976a8e9e13aa6580bc8e2a5"
+    }
+  ],
+  "independentChecks": {
+    "filesHashed": 177,
+    "hashMismatches": 0,
+    "registeredPhysicalMeshes": {
+      "P": 73,
+      "DP": 10,
+      "WP": 10
+    },
+    "recipeOwnership": "All six conditions consume all73 clean P identities exactly once through retain/replace/remove; additions explicit. Every exported mesh count matches selectedParts. Seven assemblies including clean.",
+    "recipeOperationCounts": {
+      "D01": {
+        "retain": 70,
+        "replace": 3
+      },
+      "D02": {
+        "retain": 69,
+        "replace": 4
+      },
+      "D03": {
+        "retain": 71,
+        "replace": 2,
+        "add": 1
+      },
+      "W01": {
+        "retain": 70,
+        "replace": 3,
+        "add": 1
+      },
+      "W02": {
+        "retain": 67,
+        "replace": 6,
+        "add": 1
+      },
+      "W03": {
+        "retain": 69,
+        "replace": 3,
+        "remove": 1,
+        "add": 3
+      }
+    },
+    "visualInspection": [
+      {
+        "path": "review/overview.png",
+        "sha256": "75f0b53f4976a98c83e8dcd7532cee1d2a899442eaffdcd33add8c3cbeca514b"
+      },
+      {
+        "path": "review/exposure-and-riders.png",
+        "sha256": "9ac8c9c5d082818c83f2bfcecd59f703f3b3f985344da8f866289e8748f0d4ec"
+      },
+      {
+        "path": "review/D01-vehicle-left.png",
+        "sha256": "48d53703dc8dcac3d2fd898322d13f8d231d7eb18386214ba42b0782c09d4f8b"
+      },
+      {
+        "path": "review/D01-vehicle-right.png",
+        "sha256": "bc16730978f3ce6d340f1fe994a60b225cb5ec2852af7d5d032b648df335bd73"
+      },
+      {
+        "path": "review/D02-mantlet-brake.png",
+        "sha256": "fe61ee7ed15af6016e8150ade308d3ad8e637a3d753f720d749a7b32066ea6e7"
+      },
+      {
+        "path": "review/D03-vehicle-left.png",
+        "sha256": "c30bea50626bd7264577c2d1ffd2941f918f7985e043ea2a9a7c261be44c9623"
+      },
+      {
+        "path": "review/D03-vehicle-right.png",
+        "sha256": "3164a112918df1d979caae0b87f8baeabcf726720d23e670f226e57e979cf0bf"
+      },
+      {
+        "path": "review/D03-underside.png",
+        "sha256": "e3a3595803288aeb274662b475693aa9c55e2b4dc23f34414d9e7f5e7bb173ff"
+      },
+      {
+        "path": "review/W01-vehicle-left.png",
+        "sha256": "5b26a7606b4ba6541934591b35486efe356d9e3f2e4df67ff078b875a9fcedc9"
+      },
+      {
+        "path": "review/W01-vehicle-right.png",
+        "sha256": "bfe504cc2ca6cf55e08650a0c02a7a8d144129729da26493a4fbe2c662ba0297"
+      },
+      {
+        "path": "review/W02-vehicle-right.png",
+        "sha256": "003aeb9e7c8944c002086baafacc22812d40aceccab3609516eb52480c36b3a4"
+      },
+      {
+        "path": "review/W02-underside.png",
+        "sha256": "bf573319f534d44fb47cc494f870bfd85f795cbc2440add4e7b10151139a7b18"
+      },
+      {
+        "path": "review/W03-front-left.png",
+        "sha256": "4b5ca859d0812224451ec8739eed0b9539fd9a1fb47d00a2bcca7528ece50a77"
+      },
+      {
+        "path": "review/W03-rear-right.png",
+        "sha256": "d8957449f196419365054867b7aed94727eac12f37119f473476255446fff573"
+      },
+      {
+        "path": "review/W03-underside.png",
+        "sha256": "3ec84a94e692d32868e76fb91ff6f2cf4e925c6127a475dc8f460dcb314ef9ca"
+      }
+    ]
+  },
+  "blockingFindings": [],
+  "boundedFindings": [
+    {
+      "topic": "Generation2 defect resolved",
+      "finding": "Corrected generation3 views show W01 shell seated with neighbours attached, W03 complete nested turret beside hull with closure, and D03 local backed breach. Earlier zero-origin library and exploded previews are invalidated, not recommended."
+    },
+    {
+      "topic": "Damage readability",
+      "finding": "D01 has bent mudguard, visibly canted front wheel and distorted track run. The belt still reads as a largely continuous loop in side view; thrown/broken severity is less clear at overview scale. D02 bent weapon, D03 local engine breach, W01 blackened/buckled seated turret, W02 right mobility collapse and W03 detached turret are complementary and distinguishable. This is a human artwork choice, not a deterministic validation failure."
+    },
+    {
+      "topic": "Exposure",
+      "finding": "Inspected hull underside remains closed, engine breach has bounded backing, exposed hull ring is backed, detached turret underside is closed. No complete interior claimed. W03 is a stylized rigid110degree roll pose with25mm ground gap rather than simulated debris contact."
+    },
+    {
+      "topic": "History and miniature interpretation",
+      "finding": "Early unmarked cowl-exhaust configuration,77mmHV brake, five dished wheels/four rollers and asymmetric equipment remain coherent with retained packet. Small fittings, thickness, trunnion/ring interpretation, damage deformation and faceting are bounded artwork choices. Reproduced period drawing endpoints do not confer engineering precision. No Cromwell geometry, approvals or restored/postwar fittings are silently transferred."
+    },
+    {
+      "topic": "Backend delivery semantics",
+      "finding": "Per-part native source means exact object/mesh selectors in three shared pinned Blend checkpoints plus standalone self-contained GLBs. Local registry is not producer per-component completion/promotion/approval. Flattened condition GLBs are static review assemblies; articulation requires native hierarchy or explicit matrices. Orphan anchor empties are documented separately."
+    },
+    {
+      "topic": "Motion and riders",
+      "finding": "Reviewed declarations conservatively lock wrecks, lock damaged gun/turret forD02, retain upper motion forD01/D03 with sampled yaw, and lock occupied clean turret at0. Seven separate shared-figure perimeter perches are not historical certified seats; no vehicle figures or occupied firing qualification claimed."
+    },
+    {
+      "topic": "Performance",
+      "finding": "Clean18232 triangles/6materials satisfies stated numeric20k triangle/6material targets, but73meshes/117sourceobjects exceed32object target. Static sprocket engagement6mm approximation, dynamic belts, LODs, runtime draw calls and game frame time remain unqualified. Producer generic pass and review renderer counts confer no engine performance acceptance."
+    }
+  ],
+  "recommendation": {
+    "technicalValidation": "Package and hash checks PASS within the explicitly bounded finite/sample-based scope. Intended replacement placement and typed planned geometry correspondence now additionally assessed.",
+    "visualRecommendation": "Recommend these exact generation3 sources/recipes and labelled evidence for George batch artwork review, with D01 track-readability caveat. This is a recommendation to review, not artwork acceptance.",
+    "humanArtworkApproval": "PENDING; none granted or inferred",
+    "performanceQualification": "UNQUALIFIED",
+    "nextGate": "George batch artwork review only. No integration, catalog publication, source approval, promotion or release."
+  },
+  "routineDocumentationCorrections": [],
+  "priorInvalidatedAudit": {
+    "path": "producer-local-path-omitted/independent-invalidated-generation2-audit.json",
+    "sha256": "515362bf1a510a0a014fabe7d5886f252654d4deeca4519f0a79868dacc59776"
+  },
+  "documentationOnlyAddendum": {
+    "guideSha256": "2be6921b7ae212cb2e17906ca9d682bba9839fd95976a8e9e13aa6580bc8e2a5",
+    "scope": "Read appended independent readability caveat. It accurately records D01 deformed-belt/canted-wheel/mudguard visibility and pending human review. Rebound guide hash only; other10 audit bindings independently verified unchanged. No geometry, recipe or image re-review needed.",
+    "auditCopy": "Producer will provide a hash-identical copy at delivery/validation/independent-final-delivery-audit.json, resolving guide pointer."
+  }
+}

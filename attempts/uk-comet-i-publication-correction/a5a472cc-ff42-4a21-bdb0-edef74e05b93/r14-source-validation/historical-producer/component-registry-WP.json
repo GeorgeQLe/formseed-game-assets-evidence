@@ -1,0 +1,951 @@
+{
+  "recordType": "comet-standalone-component-registry",
+  "version": 1,
+  "units": "m",
+  "reviewOnly": true,
+  "components": [
+    {
+      "componentId": "WP03A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP03A",
+          "mesh": [
+            "WP03A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "f618682f77dc868b6334cf6bcbf5c4fa61e86490fbaf057d4a8b36a362ba2f81",
+        "nativeContentSha256": "551b453908927224dde97a7f1163f26063b01dd4356d2041a485ed467aaba859",
+        "nativeMeshSha256": "e3214df7a310c60ef0328925977752f1c791c634cc7cca8c3c24510ecf7a3b62",
+        "nativeMaterials": {
+          "comet-track": {
+            "sha256": "110a47ad023decedb5bfcb5439b313314d84fbe325a3e1b36a7ff874c7805094",
+            "users": [
+              "P36",
+              "P37",
+              "WP03A",
+              "WP04A",
+              "WP05A",
+              "WP27A",
+              "WP29A",
+              "WP37A",
+              "WP80A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          -2.0399999618530273,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.6100000143051147,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          -2.0399999618530273,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.6100000143051147,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP03A.glb",
+        "sha256": "d06eb48a16bb601246f2b3341ec98c461eb0e2d42f2f710f2d19b0b3a59298c2",
+        "bytes": 19296,
+        "logicalMeshSha256": "0052488efc7509e5591b0e96ebe9247d07321fa3186d476e57fb0c80595d8ba8",
+        "triangleCount": 336,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    },
+    {
+      "componentId": "WP04A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP04A",
+          "mesh": [
+            "WP04A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "b1364d6e3480aaf940373156f3e19a9e54aa2da76f95d930cf0fc84cae714083",
+        "nativeContentSha256": "f0af868a305f76a60a19f2b6db65db09d557f79f961f45344dccdf5846ffee61",
+        "nativeMeshSha256": "4930b85e965fba2dd768ce91e8a66cff24fab264a4f5cdfeec1c7b7fa321e079",
+        "nativeMaterials": {
+          "comet-track": {
+            "sha256": "110a47ad023decedb5bfcb5439b313314d84fbe325a3e1b36a7ff874c7805094",
+            "users": [
+              "P36",
+              "P37",
+              "WP03A",
+              "WP04A",
+              "WP05A",
+              "WP27A",
+              "WP29A",
+              "WP37A",
+              "WP80A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0.3499999940395355,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.6399999856948853,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP04A.glb",
+        "sha256": "fbd48c4da172dc5a5eba973e403ef25666d341345e4d02453cfea7e6208ed1fd",
+        "bytes": 24480,
+        "logicalMeshSha256": "2d22ee82566c4ef144a7d41ec604e57c377fed77140863efc6c2669d44c4b8d3",
+        "triangleCount": 436,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    },
+    {
+      "componentId": "WP05A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP05A",
+          "mesh": [
+            "WP05A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "a2454a829237e5ab8dfb223ae397e66f136b323cba493ac1433b6c9c296782cf",
+        "nativeContentSha256": "a773dc8b79bf6d833285c23106ab39d0ece3eee6abacbec0f7b0b086f7dfdc3e",
+        "nativeMeshSha256": "6e69a8921ca93228b6fdee7f6ae60c8a10ba034f6f37995febfad302eef657ac",
+        "nativeMaterials": {
+          "comet-track": {
+            "sha256": "110a47ad023decedb5bfcb5439b313314d84fbe325a3e1b36a7ff874c7805094",
+            "users": [
+              "P36",
+              "P37",
+              "WP03A",
+              "WP04A",
+              "WP05A",
+              "WP27A",
+              "WP29A",
+              "WP37A",
+              "WP80A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "gun-elevation",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          1.350000023841858,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP05A.glb",
+        "sha256": "06f05fd712fea26be7d4b1e7e4e9f78e4394fb18927583a433b148b273ec3455",
+        "bytes": 14700,
+        "logicalMeshSha256": "46ead4692c621696233f289151d284db22b91d357a111e2f18a5dabba41c113f",
+        "triangleCount": 308,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    },
+    {
+      "componentId": "WP06A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP06A",
+          "mesh": [
+            "WP06A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "f0d2078bd09fa04b2e9edab08540633d2759d6be8128f5734e42866bc95d606b",
+        "nativeContentSha256": "7af1f737a3ca493e68b95f505d0867808531c40e814112dd16fa56a00065cfad",
+        "nativeMeshSha256": "c3eac4b33bc507c9832b41be7dd05868586d1e91ac04e42130871d11d8bf5d52",
+        "nativeMaterials": {
+          "comet-steel": {
+            "sha256": "281e78872b0b1055eeda395628b4fd2fbd58e8c32143bf78a4857ef325fc3e12",
+            "users": [
+              "P08",
+              "P22",
+              "P23",
+              "P34",
+              "P50",
+              "P51",
+              "P52",
+              "P53",
+              "P75",
+              "P78",
+              "WP06A",
+              "WP45A",
+              "WP67A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "gun-recoil",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          1.350000023841858,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP06A.glb",
+        "sha256": "ceb9151ff13bd9826cd61185af10c5f302a00b51fabd134141e2febd90700c8d",
+        "bytes": 22472,
+        "logicalMeshSha256": "e2642ca4c32bbdba3a74c6a9cce482af3e3ac403b82f8732e91f904cbf4ce216",
+        "triangleCount": 480,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    },
+    {
+      "componentId": "WP27A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP27A",
+          "mesh": [
+            "WP27A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "f00b51de3402d6699c1a521d4af61e3b12c2e4759cde489a444ed1eb7bdb3fab",
+        "nativeContentSha256": "bb8ce2d021b460a3ed1ca7581ca67b1ee317437a53c3ec71a011b1a57bfbf58c",
+        "nativeMeshSha256": "0a1ae9b18fe757da50fdce95c7bc18559aa3d14097665cc225627bfbdc4c193f",
+        "nativeMaterials": {
+          "comet-track": {
+            "sha256": "110a47ad023decedb5bfcb5439b313314d84fbe325a3e1b36a7ff874c7805094",
+            "users": [
+              "P36",
+              "P37",
+              "WP03A",
+              "WP04A",
+              "WP05A",
+              "WP27A",
+              "WP29A",
+              "WP37A",
+              "WP80A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          2.609999895095825,
+          0,
+          1,
+          0,
+          -1.2999999523162842,
+          0,
+          0,
+          1,
+          1.309999942779541,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          2.609999895095825,
+          0,
+          1,
+          0,
+          -1.2999999523162842,
+          0,
+          0,
+          1,
+          1.309999942779541,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP27A.glb",
+        "sha256": "763ef9bfabd878b0e151ff88e0226ce4feed683a533076a59b6514d5775eaf99",
+        "bytes": 3092,
+        "logicalMeshSha256": "044e98550a6c6ee979cdca7d79b5340bfa9b9c113331d624a98aa9da42026e5e",
+        "triangleCount": 36,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    },
+    {
+      "componentId": "WP29A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP29A",
+          "mesh": [
+            "WP29A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "df6c55cab91ef3fa6314fc2b87505344659a6a0e5f9c68e2f31bc74b0bb7c35b",
+        "nativeContentSha256": "0e71537839e145d66fc36be48c291305a9f97b0b4bc8a9c1a9fafbb745124530",
+        "nativeMeshSha256": "dd1baae64b0766a584d90d4c098e78a185328fa8b7337945df61268fbd50fda5",
+        "nativeMaterials": {
+          "comet-track": {
+            "sha256": "110a47ad023decedb5bfcb5439b313314d84fbe325a3e1b36a7ff874c7805094",
+            "users": [
+              "P36",
+              "P37",
+              "WP03A",
+              "WP04A",
+              "WP05A",
+              "WP27A",
+              "WP29A",
+              "WP37A",
+              "WP80A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          -2.609999895095825,
+          0,
+          1,
+          0,
+          -1.2999999523162842,
+          0,
+          0,
+          1,
+          1.309999942779541,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          -2.609999895095825,
+          0,
+          1,
+          0,
+          -1.2999999523162842,
+          0,
+          0,
+          1,
+          1.309999942779541,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP29A.glb",
+        "sha256": "1803bd0faa5050a45ad205e20c178201dc62ace98e3850f8d57fb0c79223efb8",
+        "bytes": 3092,
+        "logicalMeshSha256": "72e5def2fb39ed8a9b73d32d91dfa7e9a423a78929168ed3a53f8a94456b84e6",
+        "triangleCount": 36,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    },
+    {
+      "componentId": "WP37A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP37A",
+          "mesh": [
+            "WP37A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "7cbd62690590ffaca840437bd28ab21582a8bb471c2a0736c686e3b7f0f30888",
+        "nativeContentSha256": "17411468fdf9994bbaf6ffdb47cc03e0b36521cfb6ae7b5a4bc8fff422dac4be",
+        "nativeMeshSha256": "aaf08615598f39419d710672982f0f43769776adcc0fe612bc4ea2682e8b5d48",
+        "nativeMaterials": {
+          "comet-track": {
+            "sha256": "110a47ad023decedb5bfcb5439b313314d84fbe325a3e1b36a7ff874c7805094",
+            "users": [
+              "P36",
+              "P37",
+              "WP03A",
+              "WP04A",
+              "WP05A",
+              "WP27A",
+              "WP29A",
+              "WP37A",
+              "WP80A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.2649999856948853,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.2649999856948853,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP37A.glb",
+        "sha256": "899cde4fc32296767c629d30e73e39a33ed8c7a2ab9ff93a29a86ac0feea5e9b",
+        "bytes": 48344,
+        "logicalMeshSha256": "c0f1cba3ac2ecd4f9370e515d086f61d24bcbf520a47ebf5027ada71af1c163f",
+        "triangleCount": 1092,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    },
+    {
+      "componentId": "WP45A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP45A",
+          "mesh": [
+            "WP45A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "95069d48bab8745ebaada56857eba4d2e1e3e4b9f5654989980d4119d2b4cb00",
+        "nativeContentSha256": "fed5afaeae9acf1a47763fb34ba1165f72980f2778faf78e73b67adc75215a70",
+        "nativeMeshSha256": "f09572fa1d5c0968d80b6b2ff40552b3c8e6adf8512ef54051e6a0b7b0c3ee1b",
+        "nativeMaterials": {
+          "comet-steel": {
+            "sha256": "281e78872b0b1055eeda395628b4fd2fbd58e8c32143bf78a4857ef325fc3e12",
+            "users": [
+              "P08",
+              "P22",
+              "P23",
+              "P34",
+              "P50",
+              "P51",
+              "P52",
+              "P53",
+              "P75",
+              "P78",
+              "WP06A",
+              "WP45A",
+              "WP67A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "right-wheel-1",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          1.8600000143051147,
+          0,
+          1,
+          0,
+          -1.2649999856948853,
+          0,
+          0,
+          1,
+          0.45500001311302185,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP45A.glb",
+        "sha256": "b03bcfd36813e71cd85a08741acb6d80a8a9a9d785237e0cc438054fc868517e",
+        "bytes": 26744,
+        "logicalMeshSha256": "acd5cf243b0583b9c7aab6be83013d9d3a91e941af7d58aebd0c980e5f99a72f",
+        "triangleCount": 552,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    },
+    {
+      "componentId": "WP67A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP67A",
+          "mesh": [
+            "WP67A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "13b5476eb8d11af30e9eec27d6155f2e17ba85a12aab944679fdc3911716fa3f",
+        "nativeContentSha256": "81b6dab4057e4cbdb267e71817016c603c550eac36ff93a6548fb29b44e6f11f",
+        "nativeMeshSha256": "65202fa2d89f6794a7c9ece6672c315a4f11643d63a46403e4ba2521a19e0885",
+        "nativeMaterials": {
+          "comet-steel": {
+            "sha256": "281e78872b0b1055eeda395628b4fd2fbd58e8c32143bf78a4857ef325fc3e12",
+            "users": [
+              "P08",
+              "P22",
+              "P23",
+              "P34",
+              "P50",
+              "P51",
+              "P52",
+              "P53",
+              "P75",
+              "P78",
+              "WP06A",
+              "WP45A",
+              "WP67A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          1.7100000381469727,
+          0,
+          1,
+          0,
+          -1.0199999809265137,
+          0,
+          0,
+          1,
+          0.6200000047683716,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          1.7100000381469727,
+          0,
+          1,
+          0,
+          -1.0199999809265137,
+          0,
+          0,
+          1,
+          0.6200000047683716,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP67A.glb",
+        "sha256": "3ad0102a60f57af4222845fc41c8c632b1699bb30f94e1b0459bfa8ca859ebb9",
+        "bytes": 1796,
+        "logicalMeshSha256": "d1fc8c89fbe7aef11b0844fbd3115b9a91652ce32b0df77ae223e9533ffa598f",
+        "triangleCount": 12,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    },
+    {
+      "componentId": "WP80A",
+      "candidateRevision": 15,
+      "source": {
+        "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+        "branchId": "variant-3-2",
+        "checkpointId": "6e783661-c721-4363-a9e5-ef84f24ec805",
+        "checkpointSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "nativeSource": "sources/WP-r15-542d060eddc9.blend",
+        "nativeSourceSha256": "542d060eddc9ebd09b3ac69df63097c45ea890e7567829f8872ea8600909bf84",
+        "selector": {
+          "object": "WP80A",
+          "mesh": [
+            "WP80A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "9da7d8aa5508c93498574b815281c1f50a80518648206b44dffe95b2984a810c",
+        "nativeContentSha256": "84a4e57647e7688d52d1a38bce8164dc75fa9b2b7eace6c355505de6db480e41",
+        "nativeMeshSha256": "eac86d4f3325bacd08c595c5899306f9acbc790df3b357c919a00d70d6831f39",
+        "nativeMaterials": {
+          "comet-track": {
+            "sha256": "110a47ad023decedb5bfcb5439b313314d84fbe325a3e1b36a7ff874c7805094",
+            "users": [
+              "P36",
+              "P37",
+              "WP03A",
+              "WP04A",
+              "WP05A",
+              "WP27A",
+              "WP29A",
+              "WP37A",
+              "WP80A"
+            ]
+          }
+        },
+        "isolationReceiptSha256": "fe2db014e44a31880029ec69be0de58cb7c1557a0fa233a56efd496db0882549"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "sourceLocalMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0.3499999940395355,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.4500000476837158,
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0.3499999940395355,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.4500000476837158,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local, signed-axis conversion to glTF Y-up; source +X forward becomes -Z; source +Y left becomes -X"
+      },
+      "export": {
+        "path": "parts/WP/WP80A.glb",
+        "sha256": "13f5f12220bd62058a0a0d0723847055603ec70e62184b9046022484fb32581f",
+        "bytes": 6504,
+        "logicalMeshSha256": "20d9e08a9fe6f58a765397ea2aec9e08507409e921e710043329f3ee7967e9b6",
+        "triangleCount": 124,
+        "selfContained": true,
+        "geometryAndMaterialCorrespondence": "byte-exact logical accessor and material comparison with producer review GLB"
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalogPublished": false
+      },
+      "status": "review-candidate-standalone"
+    }
+  ],
+  "backendSemantics": "Shared pinned Blend with exact native object selectors; independently selectable native meshes and self-contained standalone GLBs. This is a local preparation registry, not producer per-component approval, completion, promotion or catalog publication."
+}
