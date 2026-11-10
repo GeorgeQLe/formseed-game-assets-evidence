@@ -1,0 +1,102 @@
+{
+  "recordType": "comet-optional-conversion-preparation-delivery@1",
+  "candidateVersion": "0.1.0-candidate.r3-fit2",
+  "confirmedVersion": null,
+  "canonicalProgramStatus": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/status.json",
+    "sha256": "93388f62d5205fe4b9a629fdcf3b8b3d015a29e88c5696cf811a7f288a7e53fd",
+    "bytes": 8542
+  },
+  "assemblyGuide": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/ASSEMBLY-AND-REVIEW.md",
+    "sha256": "5663b78800c74705c840e9e0b10042606d097d545fd6892eb1fa76bb429a6360",
+    "bytes": 16455
+  },
+  "baseDependency": {
+    "assetId": "uk-comet-i",
+    "version": "1.0.0",
+    "jobId": "a5a472cc-ff42-4a21-bdb0-edef74e05b93",
+    "revision": 14,
+    "checkpointId": "564be9ce-9c20-4b31-b254-9234fb54d26a",
+    "checkpointSha256": "8a309720170722a8805eccc52ee1ff00ef4cf761a2ef228bfa1f0cb45699610d",
+    "configuration": "early-Comet-I-cowl-exhaust",
+    "runningGear": "exact approved static P36/P37, no animated successor"
+  },
+  "sourceHead": {
+    "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+    "branch": "main",
+    "revision": 3,
+    "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+    "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+    "writerReleased": true
+  },
+  "componentRegistry": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/component-registry.json",
+    "sha256": "1b28b8b69e4f657fe23e0e9e5bef35bda0dc6bb31a356931ce051d95dfff28a3",
+    "bytes": 141124
+  },
+  "sharedRegistry": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/shared-equipment-registry.json",
+    "sha256": "5d70e63118413b1d76240ec7ffe5eba7b5da98b5116836c3f7fb12fadf770b3a",
+    "bytes": 19572
+  },
+  "packages": [
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/packages/command/PACKAGE.json",
+      "sha256": "9a8bc9b7447a38a3a2cc8acdc39c9624b0eed85d953bdf00e654242607fbcc0b",
+      "bytes": 4019
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/packages/observation/PACKAGE.json",
+      "sha256": "4f07955a3f0bafd6ad80fb5f44d59727d35700d4055aee20771425972df3565b",
+      "bytes": 4185
+    },
+    {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/packages/crocodile/PACKAGE.json",
+      "sha256": "9e905ae4e9c4b8ed9c96a1d055844f513fcc3621287464c04130d29555b3a5d2",
+      "bytes": 4204
+    }
+  ],
+  "trailer": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/trailer-assembly.json",
+    "sha256": "ef1b1d0d52b2352f4345b6961df772007e9d06a07505e568ee8f5d807637a0f1",
+    "bytes": 1109
+  },
+  "directBaseRecipes": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/recipe-index.json",
+    "sha256": "3bbc410e249e883896c54cc0aab44ad6411d624045ebdac28e8a749d7e9dc589",
+    "bytes": 10981
+  },
+  "compatibility": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/compatibility-matrix.json",
+    "sha256": "174b1510ca86341ad7b2632cb979b3017cf323b7e680ec4e66a2bdbf09b73334",
+    "bytes": 35261
+  },
+  "assessment": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/ASSESSMENT.json",
+    "sha256": "f7aea8ab6698236c110315f05412f3ffbede8b75a79d59f57c7625efa9763600",
+    "bytes": 2379
+  },
+  "review": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/evidence-index.json",
+    "sha256": "bf83d09f42a777a4d0dece5324923a93df9a7e571fbcbeb4500452445fa679ef",
+    "bytes": 2167
+  },
+  "reviewDecision": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/REVIEW-DECISION.json",
+    "sha256": "8b8fc7723ba416ea88eb37ecffe0ca05f27a00924dfc198918750133267dc57f",
+    "bytes": 1925
+  },
+  "backendUnsupported": [
+    "First-class conversion package/component delivery registration",
+    "Package-specific artwork approvals",
+    "Condition composition and direct-base operations",
+    "Consumer hierarchy/control reconstruction",
+    "Trailer/hose/terrain runtime semantics"
+  ],
+  "integrated": false,
+  "published": false,
+  "released": false,
+  "humanArtworkApproval": null,
+  "completeVehicleFiles": "Derived review fixtures only, not independently authored sources or approved catalog tanks"
+}

@@ -1,0 +1,181 @@
+{
+  "backend": {
+    "schemaVersion": "coordinator-status@2.0.0",
+    "id": "d699e236-7cc6-482a-b377-56235c7e731e",
+    "modelResourceId": "e4b0758b-106d-4730-aea5-1d58f70be604",
+    "kind": "asset",
+    "canonicalRevision": 3,
+    "canonicalCheckpoint": {
+      "id": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/d699e236-7cc6-482a-b377-56235c7e731e/main/checkpoints/ce5c2523-90f4-4028-8056-01c7f055d078.blend",
+      "contentHash": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+      "revision": 3
+    },
+    "workflowStage": "blockout-review",
+    "updatedAt": "2026-11-10T05:32:18.339Z",
+    "referenceSupplementCount": 0,
+    "workflowReviewCount": 0,
+    "specification": {
+      "assetId": "uk-comet-i-conversions",
+      "schemaVersion": "2.0.0",
+      "kind": "hard-surface-component-library"
+    },
+    "dimensionSpecification": {
+      "canonicalJsonSha256": "8e43813aa991b238f3cb03742e595a400b1c8432075e34c7263cb2cd3e8a1d6f",
+      "bindingRevision": 0,
+      "boundAt": "2026-11-10T05:14:35.962Z"
+    },
+    "main": {
+      "id": "main",
+      "revision": 3,
+      "status": "ready",
+      "checkpoint": {
+        "id": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/d699e236-7cc6-482a-b377-56235c7e731e/main/checkpoints/ce5c2523-90f4-4028-8056-01c7f055d078.blend",
+        "contentHash": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3
+      },
+      "mutationSummary": {
+        "total": 4,
+        "byStatus": {
+          "committed": 3,
+          "rejected": 1
+        },
+        "latest": {
+          "id": "ce5c2523-90f4-4028-8056-01c7f055d078",
+          "branchId": "main",
+          "expectedRevision": 2,
+          "status": "committed",
+          "preparedAt": "2026-11-10T05:32:12.659Z",
+          "committedAt": "2026-11-10T05:32:18.339Z",
+          "productionOperation": "asset.replace_asset_components",
+          "operationCount": 83
+        }
+      },
+      "checkpointCount": 4,
+      "diffEvidenceCount": 0,
+      "renderBaselineCount": 0,
+      "effectiveDimensionSpecification": {
+        "canonicalJsonSha256": "8e43813aa991b238f3cb03742e595a400b1c8432075e34c7263cb2cd3e8a1d6f",
+        "bindingRevision": 0,
+        "boundAt": "2026-11-10T05:14:35.962Z"
+      },
+      "evidence": {
+        "renderRevision": 3,
+        "checkpointHash": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "contactSheet": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/d699e236-7cc6-482a-b377-56235c7e731e/main/renders/revision-3/production/run-49waH2/pass-2/contact-sheet.png",
+        "contactSheetHash": "ce23dd139904143ba2ca113b3f420b7129b2d73b1631c57b5376de85111295a7",
+        "renderHash": "7bec04ba527625e4f78db267f9871ff9f71fb6d81c0df2b873bfa43d5dfd6503",
+        "validationPassed": true,
+        "validationRevision": 3
+      },
+      "render": {
+        "renderRevision": 3,
+        "checkpointHash": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "renderHash": "7bec04ba527625e4f78db267f9871ff9f71fb6d81c0df2b873bfa43d5dfd6503",
+        "contactSheet": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/d699e236-7cc6-482a-b377-56235c7e731e/main/renders/revision-3/production/run-49waH2/pass-2/contact-sheet.png",
+        "contactSheetHash": "ce23dd139904143ba2ca113b3f420b7129b2d73b1631c57b5376de85111295a7",
+        "deterministic": true,
+        "renderImplementationRevision": "static-neutral-studio-v1",
+        "cameraConvention": "subject-space-v1"
+      },
+      "renderBaseline": {
+        "revision": 3,
+        "checkpointHash": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "firstHash": "7bec04ba527625e4f78db267f9871ff9f71fb6d81c0df2b873bfa43d5dfd6503",
+        "secondHash": "7bec04ba527625e4f78db267f9871ff9f71fb6d81c0df2b873bfa43d5dfd6503",
+        "deterministic": true,
+        "checkedAt": "2026-11-10T05:32:40.925Z",
+        "dimensionValidationPolicy": "required",
+        "dimensionValidationReportHash": "c1785dc54359225783f26ff2b91452bd671c104333fe1a5a80f1e6f352e72f01",
+        "renderImplementationRevision": "static-neutral-studio-v1",
+        "cameraConvention": "subject-space-v1",
+        "mismatchCount": 0
+      },
+      "validation": {
+        "id": "8b7640df-b06e-4d50-8162-224ff7630ba6",
+        "revision": 3,
+        "checkpointHash": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "renderRevision": 3,
+        "renderHash": "7bec04ba527625e4f78db267f9871ff9f71fb6d81c0df2b873bfa43d5dfd6503",
+        "contactSheetHash": "ce23dd139904143ba2ca113b3f420b7129b2d73b1631c57b5376de85111295a7",
+        "createdAt": "2026-11-10T05:32:52.597Z",
+        "passed": true,
+        "deterministic": true,
+        "issueCount": 0
+      },
+      "blockers": {
+        "codes": [],
+        "validationErrorCount": 0,
+        "issuePreview": [],
+        "omittedIssues": 0,
+        "detailsRequired": false
+      }
+    },
+    "variantSummary": {
+      "total": 0,
+      "activeBranches": 0,
+      "omittedBranches": 0
+    },
+    "variantSets": [],
+    "details": {
+      "tool": "get_asset_job",
+      "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+      "historyTool": "inspect_production_history"
+    }
+  },
+  "lock": {
+    "locks": [
+      {
+        "modelResourceId": "e4b0758b-106d-4730-aea5-1d58f70be604",
+        "branchId": "main",
+        "locked": false,
+        "epoch": 4
+      }
+    ]
+  },
+  "provenance": {
+    "sourcePath": "/Users/georgele/Documents/Codex/2026-11-09/investigate-research-and-produce-three-optional/batch-artwork-review-r3-fit2.png",
+    "outputPath": "/Users/georgele/Documents/Codex/2026-11-09/investigate-research-and-produce-three-optional/batch-artwork-review-r3-fit2-provenance.png",
+    "sourceSha256": "c93364e656d4593669b8a5501393c9e7b0ed7eb3200fea011e968768bf22cbf0",
+    "derivativeSha256": "38dbaa4cfda2a603facc9cdc08fd94de3e1d5b78c66b73db8682debd12c28c80",
+    "sourceDimensions": {
+      "width": 3600,
+      "height": 3150
+    },
+    "derivativeDimensions": {
+      "width": 4834,
+      "height": 3584
+    },
+    "layout": {
+      "fontSize": 57,
+      "lineHeight": 80,
+      "padding": 57,
+      "panelHeight": 434
+    },
+    "fontSha256": "328d50b6ece9ca25c46eea3e885ba497f6237f2fb84ef7b92f88e14a1a25e381",
+    "labels": [
+      "Asset: A34 Comet I conversion program - Command / Artillery OP / Crocodile",
+      "Canonical revision: source r3; assembly 0.1.0-candidate.r3-fit2",
+      "Checkpoint SHA-256: 7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+      "Review gate: Batch artwork review: clean, D01-D03, W01-W03 per package. No approval recorded; no game integration, publication or release."
+    ],
+    "sourceOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "comparison": {
+      "protectedRegion": {
+        "x": 0,
+        "y": 0,
+        "width": 3600,
+        "height": 3150
+      },
+      "differingPixels": 0,
+      "equal": true
+    },
+    "reviewGateAdvanced": false,
+    "approvalImplied": false,
+    "idempotentReplay": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "assemblyId": "comet-crocodile-type-trailer",
+  "version": "0.1.0-candidate.r3-fit2",
+  "essentialFor": [
+    "uk-comet-i-crocodile@0.1.0-candidate.r3-fit2"
+  ],
+  "components": [
+    "T_DP01A",
+    "T_DP02A",
+    "T_DP04A",
+    "T_P01",
+    "T_P02",
+    "T_P03",
+    "T_P04",
+    "T_P05",
+    "T_P06",
+    "T_P07",
+    "T_WP01A",
+    "T_WP02A",
+    "T_WP03A",
+    "T_WP05A"
+  ],
+  "root": {
+    "parent": "asset-root",
+    "pivot": [
+      -3.55,
+      0,
+      0.8
+    ],
+    "axisConvention": "+X forward +Y left +Z up"
+  },
+  "wheels": {
+    "left": "T_P04",
+    "right": "T_P05",
+    "axis": "local +Y",
+    "radiusDesignMeters": 0.6209386,
+    "warning": "Authored tread relief determines actual ground contact; nominal tyre radius is not historical measurement."
+  },
+  "linkage": "Exact component-registry sources/exports; package recipes pin specific clean/DP/WP revisions and hashes",
+  "motion": "Clean proposed yaw \u00b145 pitch \u00b110 roll \u00b18; sampled clearance report governs. Damaged towing disabled pending specific qualification. Wreck all controls disabled, W02/W03 detached."
+}

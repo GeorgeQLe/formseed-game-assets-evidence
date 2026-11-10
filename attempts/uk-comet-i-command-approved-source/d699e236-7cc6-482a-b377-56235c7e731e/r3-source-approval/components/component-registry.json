@@ -1,0 +1,5147 @@
+{
+  "recordType": "comet-conversion-standalone-component-registry",
+  "candidate": "0.1.0-candidate.r3-fit2",
+  "confirmedVersion": null,
+  "components": [
+    {
+      "componentId": "C_P01",
+      "nativeObject": "C_P01",
+      "label": "Command map wallet and rolled signal flags",
+      "role": "clean",
+      "owner": "C",
+      "mountWorld": [
+        -1.33,
+        0.45,
+        2.1
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "canvas",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        17.5,
+        0,
+        1
+      ],
+      "mountRevision": 2,
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "C_P01",
+          "mesh": [
+            "C_P01 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "0b9304ee2e9cc02f9c79659614e044c31873a4995f945e9cf12af32c64526161",
+        "nativeMeshSha256": "eaed33f2bea82c41dbc7625757f9a716fff8fa26fc261d587cb440a2ffbc9e68",
+        "nativeContentSha256": "abc378fe7edc75ac0dbc46d7b15a33ec49d4a6fb084ff35ef8911e1d29203cc5",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.6800000000000002,
+          0.0,
+          1.0,
+          0.0,
+          0.45,
+          0.0,
+          0.0,
+          1.0,
+          0.4600000000000002,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.33,
+          0.0,
+          1.0,
+          0.0,
+          0.45,
+          0.0,
+          0.0,
+          1.0,
+          2.1,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          17.5,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/C/C_P01-r2.glb",
+        "sha256": "954c9a4dc6437d2d1fd9130e8efd0009243d058eb370ec115cedf7f460df77f7",
+        "bytes": 3748,
+        "logicalMeshSha256": "6b4039cf7f5757d404842abe3f176689d9af55136bdc500c78ee3b8a44f07213",
+        "triangleCount": 56,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "eaed33f2bea82c41dbc7625757f9a716fff8fa26fc261d587cb440a2ffbc9e68",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "F_DP01A",
+      "nativeObject": "F_DP01A",
+      "label": "Bent closed projector shield",
+      "role": "damaged",
+      "owner": "F",
+      "mountWorld": [
+        2.565,
+        0.54,
+        1.49
+      ],
+      "motionGroup": "hull-mg-pitch",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "replacementOf": "F_P01",
+      "nativeLibraryLocation": [
+        7,
+        12,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "F_DP01A",
+          "mesh": [
+            "F_DP01A Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "5f804423e13dae95efa012648394c36c2ee4d206535c72eb79bba099be67ad95",
+        "nativeMeshSha256": "4ccc0df94c41eaea16046f9414369d076c9124681f8ff6027ad73f88927317ee",
+        "nativeContentSha256": "7bf7c586c5d648f12ffad47db6e1b7be4c0d357910a03acc983fa089fdb7e02d",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "hull-mg-pitch",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          2.565,
+          0.0,
+          1.0,
+          0.0,
+          0.54,
+          0.0,
+          0.0,
+          1.0,
+          1.49,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          7,
+          0,
+          1,
+          0,
+          12,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/F/F_DP01A-r3.glb",
+        "sha256": "c8a2b3c5bc7cff07c8443009d9e522cd37422d1719d105cdfc0e6b49a05e8f8a",
+        "bytes": 15020,
+        "logicalMeshSha256": "51a285de8fffe6347aefc95788dbc8e2979d45d99b35b8e54b9c62c3f3a42ab4",
+        "triangleCount": 296,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "F_DP02A",
+      "nativeObject": "F_DP02A",
+      "label": "Buckled underbody route armor",
+      "role": "damaged",
+      "owner": "F",
+      "mountWorld": [
+        -0.1,
+        0,
+        0.355
+      ],
+      "motionGroup": "asset-root",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "F_P02",
+      "nativeLibraryLocation": [
+        10.5,
+        12,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "F_DP02A",
+          "mesh": [
+            "F_DP02A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "1fa7f46d3f2f1cda3016e4607af133bf0ec607291251393997888ab80474c02d",
+        "nativeMeshSha256": "9da528f69d68b5edf59590853b166a679ccc03a0b3498a7f633b2b703d1a94c5",
+        "nativeContentSha256": "446143abec982dedfe130af0883d5e5a3f893e946623bbf449464c4050c1b7e1",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.1,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.355,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.1,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.355,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          10.5,
+          0,
+          1,
+          0,
+          12,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/F/F_DP02A-r2.glb",
+        "sha256": "fcf3424abb231d782e5a3a545e3401eac9e0a92086d718246934c15f7e8f0c34",
+        "bytes": 5676,
+        "logicalMeshSha256": "18d80650f1feacdc59c586e5faf4e7fd42e895d9f2fbf10156ca979c019cab00",
+        "triangleCount": 84,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "9da528f69d68b5edf59590853b166a679ccc03a0b3498a7f633b2b703d1a94c5",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "F_P01",
+      "nativeObject": "F_P01",
+      "label": "Comet-designed recessed visual projector ball",
+      "role": "clean",
+      "owner": "F",
+      "mountWorld": [
+        2.565,
+        0.54,
+        1.49
+      ],
+      "motionGroup": "hull-mg-pitch",
+      "replacesBase": "P10",
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "nativeLibraryLocation": [
+        10.5,
+        3,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "F_P01",
+          "mesh": [
+            "F_P01 Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "7ba3182a84b35d364a305658adab055edc647ef1b61e419ad56f19863a223bf2",
+        "nativeMeshSha256": "69cf0e31ffb4285e7ee8e71985f858f59b1f4933e1048d3107380be788a8684c",
+        "nativeContentSha256": "cf4da92a2fc2a486f23d4b4bd156afdd1c32771b2801fd4178e1f0e59d7fd44b",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "hull-mg-pitch",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          2.565,
+          0.0,
+          1.0,
+          0.0,
+          0.54,
+          0.0,
+          0.0,
+          1.0,
+          1.49,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          10.5,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/F/F_P01-r3.glb",
+        "sha256": "7b5e85365ebec74ca6af67e253482481130200597279daf71dd3e61faff7e0da",
+        "bytes": 15024,
+        "logicalMeshSha256": "8cdf306ff7edba51d223e7ee75895e719074d67950c8af34da92759cc3c4ffa3",
+        "triangleCount": 296,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "F_P02",
+      "nativeObject": "F_P02",
+      "label": "Underbody visible routing armor, enclosed nonfunctional",
+      "role": "clean",
+      "owner": "F",
+      "mountWorld": [
+        -0.1,
+        0,
+        0.355
+      ],
+      "motionGroup": "asset-root",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        14,
+        3,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "F_P02",
+          "mesh": [
+            "F_P02 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "27be070d5fb00767ae319d61216a5afcf09be5d6f0f256bf1ad73ac8780e31f3",
+        "nativeMeshSha256": "5a718973f86eb6ae80b186a3bfa8fe07a0072f11b30601f04aef44b10d95fd49",
+        "nativeContentSha256": "a4a598cadadd9759eb12ff66f456f64179a22d5e4f6807fa6289a2d26509c318",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.1,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.355,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.1,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.355,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          14,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/F/F_P02-r2.glb",
+        "sha256": "74587aabf71d9b90de848fdca2ca27248f510dfb4b1065d25714a3379f8f03ed",
+        "bytes": 5672,
+        "logicalMeshSha256": "64fd2ebfee9d62f626497592dd8b59469b180351cce177e98ebb199e829c2e04",
+        "triangleCount": 84,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "5a718973f86eb6ae80b186a3bfa8fe07a0072f11b30601f04aef44b10d95fd49",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "F_P03",
+      "nativeObject": "F_P03",
+      "label": "Comet-specific rear coupling crossmember",
+      "role": "clean",
+      "owner": "F",
+      "mountWorld": [
+        -3.16,
+        0,
+        0.82
+      ],
+      "motionGroup": "asset-root",
+      "replacesBase": "P23",
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        17.5,
+        3,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "F_P03",
+          "mesh": [
+            "F_P03 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "12722cd57eb21d2755f6d3f1e66f1d6ddaefe7e560821a653064e6c058f09099",
+        "nativeMeshSha256": "f34ceccabe1a0cf089b2225883a494a8ab67154babc1426a9605e28b15b2a22e",
+        "nativeContentSha256": "31d937bfe4e7a857f3702231af03be606369d013cfa632301c37ae91fb7880ea",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -3.16,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.82,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -3.16,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.82,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          17.5,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/F/F_P03-r2.glb",
+        "sha256": "49d811fa64e7750f5e7370b9a51ca6e7781ed4552bad44556ecb037e63610896",
+        "bytes": 4452,
+        "logicalMeshSha256": "5e5f067cbbedd15ced5c13097999d141505d8a30a8d4f3e30614c2c42b1e8adb",
+        "triangleCount": 68,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "f34ceccabe1a0cf089b2225883a494a8ab67154babc1426a9605e28b15b2a22e",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "F_P04",
+      "nativeObject": "F_P04",
+      "label": "External connector protective boot",
+      "role": "clean",
+      "owner": "F",
+      "mountWorld": [
+        -3.55,
+        0,
+        0.8
+      ],
+      "motionGroup": "asset-root",
+      "replacesBase": null,
+      "material": "dark",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        21,
+        3,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "F_P04",
+          "mesh": [
+            "F_P04 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "2db9551d44f90912edd2044d022ec4d8f0482ac5f8fbd74c2c4eed4d321f2125",
+        "nativeMeshSha256": "d69323c9f5f04e85b82f9a0ec7f60cb4904603355ae43ca321ea19ee6c6844d1",
+        "nativeContentSha256": "d0de24f3125f33d762638517aceba50e9f0ffb88c153c4db49e4aa71c89281c2",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "asset-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -3.55,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -3.55,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          21,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/F/F_P04-r2.glb",
+        "sha256": "b749809941886af2d764e0d047c2f72da86f900ff30a826fb970f666f3a6d2a3",
+        "bytes": 3152,
+        "logicalMeshSha256": "02bd425ae83cf7397db19a320a7df96a9c31f723cdbe9bd5846ffb1e87fdbc41",
+        "triangleCount": 44,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "d69323c9f5f04e85b82f9a0ec7f60cb4904603355ae43ca321ea19ee6c6844d1",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "F_WP01A",
+      "nativeObject": "F_WP01A",
+      "label": "Crushed cold projector",
+      "role": "wreck",
+      "owner": "F",
+      "mountWorld": [
+        2.565,
+        0.54,
+        1.49
+      ],
+      "motionGroup": "hull-mg-pitch",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "replacementOf": "F_P01",
+      "nativeLibraryLocation": [
+        14,
+        12,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "F_WP01A",
+          "mesh": [
+            "F_WP01A Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "54ef7e9ea4aa0ea4a39b6112dbf90fbdf4eee2d35c6e8932ccbbb2219a9c4fec",
+        "nativeMeshSha256": "bea56516522c10767dd7028019b5b4427de02c4fc0422f7a56c739f70732c0a2",
+        "nativeContentSha256": "499166a27f7625c5adeda67dfba66bbac980602e75ffa8b183ccac6361495140",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "hull-mg-pitch",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          2.565,
+          0.0,
+          1.0,
+          0.0,
+          0.54,
+          0.0,
+          0.0,
+          1.0,
+          1.49,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          14,
+          0,
+          1,
+          0,
+          12,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/F/F_WP01A-r3.glb",
+        "sha256": "049b557d3d34efbf4ac34ad1e4a260d4f477cf22a2a2abcbaafcd81e823a5bcb",
+        "bytes": 14184,
+        "logicalMeshSha256": "f9a282f7ddfd932702dcf076f9fc9e73bf4e27d4a34415a3bfd585bb8681fee8",
+        "triangleCount": 296,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "O_DP01A",
+      "nativeObject": "O_DP01A",
+      "label": "Broken sealed dummy barrel",
+      "role": "damaged",
+      "owner": "O",
+      "mountWorld": [
+        1.35,
+        0,
+        2
+      ],
+      "motionGroup": "gun-elevation",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "O_P01",
+      "nativeLibraryLocation": [
+        17.5,
+        9,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_DP01A",
+          "mesh": [
+            "O_DP01A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "18f9087bd4eb9ff80f5e39d5ec87fac77acd183f209a7bde9de65f831a8484bb",
+        "nativeMeshSha256": "8c3e93a2f96ad585f300050042d9d80c465a9eba19857818ceafc439b776be38",
+        "nativeContentSha256": "1d4dbdbf0095328fc13ef430f1b020308924be825b2607fc13a9f9cddd042dec",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "gun-elevation",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          1.35,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          17.5,
+          0,
+          1,
+          0,
+          9,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_DP01A-r2.glb",
+        "sha256": "7e9cc387fcfa7fbb5a52a12d0a182862d3cf17966f3f3c6c77c0cf800b6b140c",
+        "bytes": 5132,
+        "logicalMeshSha256": "3431ce6ee0aee610b1ec2b48fc55c33c161a28aacc7ca648f00714fbef212139",
+        "triangleCount": 88,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "8c3e93a2f96ad585f300050042d9d80c465a9eba19857818ceafc439b776be38",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "O_DP03A",
+      "nativeObject": "O_DP03A",
+      "label": "Bent observation pedestal",
+      "role": "damaged",
+      "owner": "O",
+      "mountWorld": [
+        -0.62,
+        -0.06,
+        2.4
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "O_P03",
+      "nativeLibraryLocation": [
+        21,
+        9,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_DP03A",
+          "mesh": [
+            "O_DP03A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "dab239ad7faba9c7ba9657c0e42fdd7f1a3c737d7b99c2ec4efe57fcf0c853c0",
+        "nativeMeshSha256": "fc553c09adc18df0a681084ccaff08cf7a7c1019f8414df66b2689b4e65ca1ed",
+        "nativeContentSha256": "e1d0e1de12653130b79e905a26b57e64a229c4502e6555dcc03473094fac599d",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.97,
+          0.0,
+          1.0,
+          0.0,
+          -0.06,
+          0.0,
+          0.0,
+          1.0,
+          0.76,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.62,
+          0.0,
+          1.0,
+          0.0,
+          -0.06,
+          0.0,
+          0.0,
+          1.0,
+          2.4,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          21,
+          0,
+          1,
+          0,
+          9,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_DP03A-r2.glb",
+        "sha256": "b47b397efbf0f103eacbef45e7d5188e6b6a898405bc11545302f234dbce5e46",
+        "bytes": 7080,
+        "logicalMeshSha256": "c9c6ec49734cef536d73f6dae422c01a58806e4bbd00e9d72a95d4f373b6ed92",
+        "triangleCount": 124,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "fc553c09adc18df0a681084ccaff08cf7a7c1019f8414df66b2689b4e65ca1ed",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "O_DP04A",
+      "nativeObject": "O_DP04A",
+      "label": "Impact-distorted optical head",
+      "role": "damaged",
+      "owner": "O",
+      "mountWorld": [
+        -0.62,
+        -0.06,
+        2.94
+      ],
+      "motionGroup": "observation-head",
+      "replacesBase": null,
+      "material": "dark",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "O_P04",
+      "nativeLibraryLocation": [
+        24.5,
+        9,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_DP04A",
+          "mesh": [
+            "O_DP04A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "cbbca9e05c9f747340593a7a5abfc71fd75eb1de965182524f8b15092a8c08d8",
+        "nativeMeshSha256": "7d642511d8a8afcc101346e23da22dc2579f1d02772b394dc92e985f85f30bd7",
+        "nativeContentSha256": "0b85027177fd1a080e07dabb8498842da9a19d2a788f683e74222d0886f193c2",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "observation-head",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.62,
+          0.0,
+          1.0,
+          0.0,
+          -0.06,
+          0.0,
+          0.0,
+          1.0,
+          2.94,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          24.5,
+          0,
+          1,
+          0,
+          9,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_DP04A-r2.glb",
+        "sha256": "a4ce2cd237448b807422c4295e6159424b0464c763d32591ae0ad8aeb6b7231f",
+        "bytes": 13768,
+        "logicalMeshSha256": "0e6f5aed1bc8cb13be7a3df15df8810770a529de2dd5cc45464b1a849ba07a07",
+        "triangleCount": 276,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "7d642511d8a8afcc101346e23da22dc2579f1d02772b394dc92e985f85f30bd7",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "O_P01",
+      "nativeObject": "O_P01",
+      "label": "Short sealed dummy main gun, no brake",
+      "role": "clean",
+      "owner": "O",
+      "mountWorld": [
+        1.35,
+        0,
+        2
+      ],
+      "motionGroup": "gun-elevation",
+      "replacesBase": "P06",
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        21,
+        0,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_P01",
+          "mesh": [
+            "O_P01 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "423b72e7f2f5cd4d0ce4556dd9ff540c0475a5f6e7d5d97767f04d59becfada8",
+        "nativeMeshSha256": "24fd91d207b0dad66b0ce3a83e5d3992c8768f197012e6255e1058a437ff4fef",
+        "nativeContentSha256": "08cc231b25c67f5c5a1c8b42fdbd48ab10f5b18983ff9868a9d2a648380f5610",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "gun-elevation",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          1.35,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          21,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_P01-r2.glb",
+        "sha256": "3789ef09609f40b5d820ceda0b206efd9cc76e4053267d4ef3018954b310fbb3",
+        "bytes": 5128,
+        "logicalMeshSha256": "b4050366c89409f9c25bdf0bdfb565b0d8939455f2ca07c8a813515a06c67471",
+        "triangleCount": 88,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "24fd91d207b0dad66b0ce3a83e5d3992c8768f197012e6255e1058a437ff4fef",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "O_P02",
+      "nativeObject": "O_P02",
+      "label": "Coax aperture closed cap",
+      "role": "clean",
+      "owner": "O",
+      "mountWorld": [
+        1.62,
+        0.45,
+        2
+      ],
+      "motionGroup": "gun-elevation",
+      "replacesBase": "P08",
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        24.5,
+        0,
+        1
+      ],
+      "mountRevision": 2,
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_P02",
+          "mesh": [
+            "O_P02 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "fe29cf4b763e9460ef2a1b325a6efa1a2eda4f3e70ea78f6d6349afae6a8c5e7",
+        "nativeMeshSha256": "fde825b3bb4c79e094ca1714e6235c656f7ee9aa79a84808523e0ef9909c8133",
+        "nativeContentSha256": "57d7611b80bbd0bd00bf979429a28a31f0e08c2aa588c4d574100f3aa74e1a56",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "gun-elevation",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.27,
+          0.0,
+          1.0,
+          0.0,
+          0.45,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          1.62,
+          0.0,
+          1.0,
+          0.0,
+          0.45,
+          0.0,
+          0.0,
+          1.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          24.5,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_P02-r2.glb",
+        "sha256": "a4299d52424cf809364a67d34b5322835774772bcdf2927adf7fc0685ac76101",
+        "bytes": 3152,
+        "logicalMeshSha256": "af15cbb25fac4745b9255022ddc13ec42597e2b603afa573179b136549292592",
+        "triangleCount": 44,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "fde825b3bb4c79e094ca1714e6235c656f7ee9aa79a84808523e0ef9909c8133",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "O_P03",
+      "nativeObject": "O_P03",
+      "label": "Designed observation optic roof pedestal",
+      "role": "clean",
+      "owner": "O",
+      "mountWorld": [
+        -0.62,
+        -0.06,
+        2.4
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        0,
+        3,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_P03",
+          "mesh": [
+            "O_P03 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "36eda5e6ccfdfc080ec42d95b294f325be84c46458a3cd8a3081b2699c197efd",
+        "nativeMeshSha256": "2168801c0074a574f04e05c7d4dc08e190e6b9b3e94af014caa7b369c10bd38c",
+        "nativeContentSha256": "6be90421df1b7379033e7e5aa75b6f1d7ded231e68ce760f2ba165c0b67fa259",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.97,
+          0.0,
+          1.0,
+          0.0,
+          -0.06,
+          0.0,
+          0.0,
+          1.0,
+          0.76,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.62,
+          0.0,
+          1.0,
+          0.0,
+          -0.06,
+          0.0,
+          0.0,
+          1.0,
+          2.4,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_P03-r2.glb",
+        "sha256": "c59e715ee93b76e5ceb63fb741173884bd27ac20dd0797804716f6a1ed8a9bd8",
+        "bytes": 7076,
+        "logicalMeshSha256": "695aceede62541a131c639c0f4e603b7a20c452b42659c351b442fb192d456a0",
+        "triangleCount": 124,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "2168801c0074a574f04e05c7d4dc08e190e6b9b3e94af014caa7b369c10bd38c",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "O_P04",
+      "nativeObject": "O_P04",
+      "label": "Designed right-angle observation head",
+      "role": "clean",
+      "owner": "O",
+      "mountWorld": [
+        -0.62,
+        -0.06,
+        2.94
+      ],
+      "motionGroup": "observation-head",
+      "replacesBase": null,
+      "material": "dark",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        3.5,
+        3,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_P04",
+          "mesh": [
+            "O_P04 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "7ab5fba29e315a369e297c887fb290edd099e07d868159c37def000f334777dd",
+        "nativeMeshSha256": "e18b2068c75efc21ff4b9589e128009478eb7cb93a3cb3a599e085bd732865fb",
+        "nativeContentSha256": "d2e4777f5adf8fa622828829f4dbae99518e7c9b50f16f0bbb716a9656dec68d",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "observation-head",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.62,
+          0.0,
+          1.0,
+          0.0,
+          -0.06,
+          0.0,
+          0.0,
+          1.0,
+          2.94,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          3.5,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_P04-r2.glb",
+        "sha256": "c3886eee520395c54d1239cbc38403af39f4c2c2d49b29d6db72797d893a1d35",
+        "bytes": 13768,
+        "logicalMeshSha256": "ccedf3bfd658babeb2217a8259030770f039da33c4ce5321706d2d7eee01af58",
+        "triangleCount": 276,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "e18b2068c75efc21ff4b9589e128009478eb7cb93a3cb3a599e085bd732865fb",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "O_P05",
+      "nativeObject": "O_P05",
+      "label": "Observation plotting wallet",
+      "role": "clean",
+      "owner": "O",
+      "mountWorld": [
+        -1.325,
+        0.45,
+        2.1
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "canvas",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        7,
+        3,
+        1
+      ],
+      "mountRevision": 2,
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_P05",
+          "mesh": [
+            "O_P05 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "560d6113baf49b8f3bd79c9bf276331233618d5530a2b296ba8a116489b9343e",
+        "nativeMeshSha256": "31aba77593723f5f54765d2b7a8d0894ff923398a52a84fde094c669273c9a17",
+        "nativeContentSha256": "9db5b03ea0ececa1962772df35d0051f8bf2ffb354417c9fe4d3c2b14308c0e0",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.6749999999999998,
+          0.0,
+          1.0,
+          0.0,
+          0.45,
+          0.0,
+          0.0,
+          1.0,
+          0.4600000000000002,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.325,
+          0.0,
+          1.0,
+          0.0,
+          0.45,
+          0.0,
+          0.0,
+          1.0,
+          2.1,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          7,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_P05-r2.glb",
+        "sha256": "75d0f0515b772b6c29a5b28437273175fe2338575db55813207d3282dcc348b9",
+        "bytes": 2444,
+        "logicalMeshSha256": "2782cd1b4f47156fff99a1db5c689ce2a926b528b84a3818afa80d6c616434fa",
+        "triangleCount": 24,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "31aba77593723f5f54765d2b7a8d0894ff923398a52a84fde094c669273c9a17",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "O_WP01A",
+      "nativeObject": "O_WP01A",
+      "label": "Wreck dummy stub",
+      "role": "wreck",
+      "owner": "O",
+      "mountWorld": [
+        1.35,
+        0,
+        2
+      ],
+      "motionGroup": "gun-elevation",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "O_P01",
+      "nativeLibraryLocation": [
+        0,
+        12,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_WP01A",
+          "mesh": [
+            "O_WP01A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "6767e14a3a7d0a5b51f8f5d52ff8a0bdb1223770c95b587e0c55c77ff3c3a8cc",
+        "nativeMeshSha256": "c7292692f1c745bce300011ae8d4f0665f9f845de1a49095ae074b20605ab18b",
+        "nativeContentSha256": "9442405e229fdaf0ed914f8b3879e124f86a52b1cf5e16ae3228df6a776c4a51",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "gun-elevation",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          1.35,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          12,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_WP01A-r2.glb",
+        "sha256": "332d2cbaa470c5989207831cf26c3a5ee4fcabbb64f293bbb6a057a073d3aa54",
+        "bytes": 5136,
+        "logicalMeshSha256": "50d915c3459494aa0e1e1285e380ab74794a96885ae80faeb9774f944da5845e",
+        "triangleCount": 88,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "c7292692f1c745bce300011ae8d4f0665f9f845de1a49095ae074b20605ab18b",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "O_WP04A",
+      "nativeObject": "O_WP04A",
+      "label": "Crushed optical head",
+      "role": "wreck",
+      "owner": "O",
+      "mountWorld": [
+        -0.62,
+        -0.06,
+        2.94
+      ],
+      "motionGroup": "observation-head",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "O_P04",
+      "nativeLibraryLocation": [
+        3.5,
+        12,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "O_WP04A",
+          "mesh": [
+            "O_WP04A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "002f92ed203fe3e2d57d7c1438718f5f04b84bd812c2721649770574b471b42f",
+        "nativeMeshSha256": "4119d1370238167e3e4112df888b02c1637a264430bc09f2d152482730d15344",
+        "nativeContentSha256": "9afe5f09f54297023abed7d52de6936a19a7508402575efbbc0d737375e0cad4",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "observation-head",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.62,
+          0.0,
+          1.0,
+          0.0,
+          -0.06,
+          0.0,
+          0.0,
+          1.0,
+          2.94,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          3.5,
+          0,
+          1,
+          0,
+          12,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/O/O_WP04A-r2.glb",
+        "sha256": "436458332e8940bae917a7fda6e4a7f3fb3a1cf1f52a6647d98fe264afe1f9b7",
+        "bytes": 13772,
+        "logicalMeshSha256": "6ae5af620b254c0d13918b670078888c0517190b45d0f4b000c473dcf0fa8f1f",
+        "triangleCount": 276,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "4119d1370238167e3e4112df888b02c1637a264430bc09f2d152482730d15344",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_DP01A",
+      "nativeObject": "S_DP01A",
+      "label": "Crushed equipment cases",
+      "role": "damaged",
+      "owner": "S",
+      "mountWorld": [
+        -0.82,
+        0,
+        1.98
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "S_P01",
+      "nativeLibraryLocation": [
+        21,
+        6,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_DP01A",
+          "mesh": [
+            "S_DP01A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "c8e75595c253bb757147e365877590802f33f8dde29e477fe4ea3150a4109567",
+        "nativeMeshSha256": "9ddc9b0ddb8c21796984744ed4ece0c5603e20f57cffb9aae9584142bc16ab59",
+        "nativeContentSha256": "e6769ec0c33655edd07bbd903499351fe923ac5fd631e8fddaf832fda93ed06a",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.17,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3400000000000001,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.82,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.98,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          21,
+          0,
+          1,
+          0,
+          6,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_DP01A-r2.glb",
+        "sha256": "bca3d44845bb3ecedd82741eb1c1e16f0936770cb9756d88f3209573196efd02",
+        "bytes": 12236,
+        "logicalMeshSha256": "00457906b983bf9c32d518de6511972bdd4991b449a104fcf1ecbb81e6b6155d",
+        "triangleCount": 212,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "9ddc9b0ddb8c21796984744ed4ece0c5603e20f57cffb9aae9584142bc16ab59",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_DP02A",
+      "nativeObject": "S_DP02A",
+      "label": "Bent broken rear aerial",
+      "role": "damaged",
+      "owner": "S",
+      "mountWorld": [
+        -0.56,
+        -0.68,
+        2.4
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "dark",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "S_P02",
+      "nativeLibraryLocation": [
+        24.5,
+        6,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_DP02A",
+          "mesh": [
+            "S_DP02A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "96b0e7e168a4a98c411015417cdd2165eaae096bddbf38f8f7c53d3d58139329",
+        "nativeMeshSha256": "5905656d655a16eaea2732359c22a02bbe4d553c27bceb97205041f8b0339d38",
+        "nativeContentSha256": "7433bad84902806c83b4f467c07c44d99a382bb9f3afc708030e6dfeda5214fb",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.91,
+          0.0,
+          1.0,
+          0.0,
+          -0.68,
+          0.0,
+          0.0,
+          1.0,
+          0.76,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.56,
+          0.0,
+          1.0,
+          0.0,
+          -0.68,
+          0.0,
+          0.0,
+          1.0,
+          2.4,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          24.5,
+          0,
+          1,
+          0,
+          6,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_DP02A-r2.glb",
+        "sha256": "988942325249cc0e5c38385dae729fc60c2f0d862f95e05ccdba72c417e7a04e",
+        "bytes": 7772,
+        "logicalMeshSha256": "0af0e0e1dbd05f113b4105b2824c55f40297c31d6d4ca7ff2a9ed95a01d9ad58",
+        "triangleCount": 144,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "5905656d655a16eaea2732359c22a02bbe4d553c27bceb97205041f8b0339d38",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_DP05A",
+      "nativeObject": "S_DP05A",
+      "label": "Bent cable reel flange",
+      "role": "damaged",
+      "owner": "S",
+      "mountWorld": [
+        -1.4,
+        -0.48,
+        2.04
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "dark",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "S_P05",
+      "nativeLibraryLocation": [
+        0,
+        9,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_DP05A",
+          "mesh": [
+            "S_DP05A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "6485f8494e38cef7d07884fd10382616372e2032f580b15a8a7be0aef484b7ff",
+        "nativeMeshSha256": "768f6b5a89d625c6333593bb25aee5dca0a84347b6d127fc4d7aa42ef24035ef",
+        "nativeContentSha256": "0f11bb577fed0a10a37478e10549f4f7988dfa2c2bbde3f9da31669745f311f7",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.75,
+          0.0,
+          1.0,
+          0.0,
+          -0.48,
+          0.0,
+          0.0,
+          1.0,
+          0.40000000000000013,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.4,
+          0.0,
+          1.0,
+          0.0,
+          -0.48,
+          0.0,
+          0.0,
+          1.0,
+          2.04,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          9,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_DP05A-r2.glb",
+        "sha256": "feafea7f5c3341baa5cd4ab57e14631985744705c902e5ac20e1c50c7604a392",
+        "bytes": 8440,
+        "logicalMeshSha256": "f8d8068c580edbfc5c25e5f98ad1d9dc116bc14bea82209089fd583a63e8ee25",
+        "triangleCount": 156,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "768f6b5a89d625c6333593bb25aee5dca0a84347b6d127fc4d7aa42ef24035ef",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_P01",
+      "nativeObject": "S_P01",
+      "label": "Comet bustle equipment rack and weatherproof cases",
+      "role": "clean",
+      "owner": "S",
+      "mountWorld": [
+        -0.82,
+        0,
+        1.98
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": "P11",
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        0,
+        0,
+        0
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_P01",
+          "mesh": [
+            "S_P01 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "17e55c76c5a0bdd90922340a6d780229530f1667821fb2f464bff7fdc13ddd83",
+        "nativeMeshSha256": "926ceeaf2feda73c902764b8c7f55f0a35bb760dc1b5229a737b640cf3e5e972",
+        "nativeContentSha256": "35be9747eb97a7f09809d57d492bdca2e06c85eb4df7f73232a83b188d3fb3d6",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.17,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3400000000000001,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.82,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.98,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_P01-r2.glb",
+        "sha256": "07bf997047dd37ec5091883b60695ee546b7fe85defaf0706432edb8b07215ae",
+        "bytes": 12228,
+        "logicalMeshSha256": "c1591c127e4a5102d62ad9d5474cef0c0918290009ccb256f056c6fab7adbe03",
+        "triangleCount": 212,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "926ceeaf2feda73c902764b8c7f55f0a35bb760dc1b5229a737b640cf3e5e972",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_P02",
+      "nativeObject": "S_P02",
+      "label": "Rear aerial and exact Comet base footprint",
+      "role": "clean",
+      "owner": "S",
+      "mountWorld": [
+        -0.56,
+        -0.68,
+        2.4
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": "P72",
+      "material": "dark",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        3.5,
+        0,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_P02",
+          "mesh": [
+            "S_P02 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "010e19e73dceb559fbe1c1f8a21f0855bf08fd02999e9c67f9eef9af3dbdc9f1",
+        "nativeMeshSha256": "d73811338622b2135b23b502b0065faef31b7052c905057cb113ce12d4cfd3f7",
+        "nativeContentSha256": "b5c6b6ed6df5a8df051927e26f80a4fc015158520a27a27de327225da32741d9",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.91,
+          0.0,
+          1.0,
+          0.0,
+          -0.68,
+          0.0,
+          0.0,
+          1.0,
+          0.76,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.56,
+          0.0,
+          1.0,
+          0.0,
+          -0.68,
+          0.0,
+          0.0,
+          1.0,
+          2.4,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          3.5,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_P02-r2.glb",
+        "sha256": "db6eae5db37963a55b779d5c7bb22fa69b4c2181489d059bf9d6173349c50850",
+        "bytes": 6452,
+        "logicalMeshSha256": "b81dbd2e44d7028ed40665fcb2555329b68c44a04c15947a08f3f12ee77fb26e",
+        "triangleCount": 116,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "d73811338622b2135b23b502b0065faef31b7052c905057cb113ce12d4cfd3f7",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_P03",
+      "nativeObject": "S_P03",
+      "label": "Forward aerial and exact Comet base footprint",
+      "role": "clean",
+      "owner": "S",
+      "mountWorld": [
+        1,
+        0.63,
+        2.4
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": "P73",
+      "material": "dark",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        7,
+        0,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_P03",
+          "mesh": [
+            "S_P03 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "9be8e2a664390e7cd66364c2ad3202b0888dbe5e829a9b44f96f842fa6a57648",
+        "nativeMeshSha256": "5e77f76d566ce79a010b5fcb2ff501868d6013bdbb735763b8372ebe62ed4456",
+        "nativeContentSha256": "eb738299870a7ef479ea9cee50d327021722cafdfc04efa581b5cf3f6633089c",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.65,
+          0.0,
+          1.0,
+          0.0,
+          0.63,
+          0.0,
+          0.0,
+          1.0,
+          0.76,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.63,
+          0.0,
+          0.0,
+          1.0,
+          2.4,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          7,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_P03-r2.glb",
+        "sha256": "a6ddfe6f23e326abdeff94bd9982ca8fe52b0735635ead25ec958e71f40880ad",
+        "bytes": 6448,
+        "logicalMeshSha256": "252b95fd3ac3cf90d4646f937b95afa926c5cfa0a5da52dd666c9061461dc1f7",
+        "triangleCount": 116,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "5e77f76d566ce79a010b5fcb2ff501868d6013bdbb735763b8372ebe62ed4456",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_P04",
+      "nativeObject": "S_P04",
+      "label": "Stowed field aerial poles with clamps",
+      "role": "clean",
+      "owner": "S",
+      "mountWorld": [
+        -1.05,
+        0,
+        2.27
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "canvas",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        10.5,
+        0,
+        1
+      ],
+      "mountRevision": 2,
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_P04",
+          "mesh": [
+            "S_P04 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "ca0aa5bde5740fe04dbd7f7390854cb88ab283cf01bbede6a2472c7fe2938b7f",
+        "nativeMeshSha256": "ec402faeb9d99f625fe1b362d949c14b4372def35a57ea6aa06bd1d834f8161e",
+        "nativeContentSha256": "8d6e606d570dfdb00d13e95e7ccb03e08ad92257a58d43cceeeb36eef0a9c1ef",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          -1.4,
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.6300000000000001,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          -1.05,
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          2.27,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          10.5,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_P04-r2.glb",
+        "sha256": "f8a7017bda07d990d8a1add9ec6d44c14166dae39b95ee7a27da2e9aba58c0ac",
+        "bytes": 8424,
+        "logicalMeshSha256": "bad56c1842cc7be63e808f750659b7cb5ba9606a2eb45755198eb21e0c4e2f2e",
+        "triangleCount": 156,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "ec402faeb9d99f625fe1b362d949c14b4372def35a57ea6aa06bd1d834f8161e",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_P05",
+      "nativeObject": "S_P05",
+      "label": "Field telephone cable reel and clamp",
+      "role": "clean",
+      "owner": "S",
+      "mountWorld": [
+        -1.4,
+        -0.48,
+        2.04
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "dark",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        14,
+        0,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_P05",
+          "mesh": [
+            "S_P05 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "7f7281cffa287682cea8f34f3c7820dfbdf2f0702a1ebf13b819b36c385a4f06",
+        "nativeMeshSha256": "7f0546682cccefb6314d0a586225b8dcc23be4beaabcca56e7041ea3acc6624d",
+        "nativeContentSha256": "bf6c8d081f36af36762db654aed4c531b9c52ce55793172abd1ee3bed1001581",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.75,
+          0.0,
+          1.0,
+          0.0,
+          -0.48,
+          0.0,
+          0.0,
+          1.0,
+          0.40000000000000013,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.4,
+          0.0,
+          1.0,
+          0.0,
+          -0.48,
+          0.0,
+          0.0,
+          1.0,
+          2.04,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          14,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_P05-r2.glb",
+        "sha256": "9546ae36038ca239cbf674cbdfa96acfcf9eccb8ff2ce6b8b0e0ee28324d2bb5",
+        "bytes": 8432,
+        "logicalMeshSha256": "7b9ae0faed49009bc8e14fca1ed1a3467ab2c2ae0c0f5d23058e405bcfe5bd42",
+        "triangleCount": 156,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "7f0546682cccefb6314d0a586225b8dcc23be4beaabcca56e7041ea3acc6624d",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_WP01A",
+      "nativeObject": "S_WP01A",
+      "label": "Collapsed burned equipment rack",
+      "role": "wreck",
+      "owner": "S",
+      "mountWorld": [
+        -0.82,
+        0,
+        1.98
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "S_P01",
+      "nativeLibraryLocation": [
+        3.5,
+        9,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_WP01A",
+          "mesh": [
+            "S_WP01A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "fc658d5662ad774b72765aa57f68b158f209af8959f0510296205abd327457bc",
+        "nativeMeshSha256": "03772db632080a1dfbb3cb7c96cde825ae7d1ba4a3832ed343b9e7fd5d9b6115",
+        "nativeContentSha256": "b166db5686e3a0ab39e6773dbfb1eea4f9e27042e5821d275bcaf57642952751",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.17,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3400000000000001,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.82,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.98,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          3.5,
+          0,
+          1,
+          0,
+          9,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_WP01A-r2.glb",
+        "sha256": "1aa8b4bf67b2448b825ec7cd80e1e7259dc956a91b8ebcd12f18607ccdebdd9a",
+        "bytes": 12236,
+        "logicalMeshSha256": "970cfc937066f60c96f016c52d9402faa809a990b78d848d60f92aaef870e2aa",
+        "triangleCount": 212,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "03772db632080a1dfbb3cb7c96cde825ae7d1ba4a3832ed343b9e7fd5d9b6115",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_WP02A",
+      "nativeObject": "S_WP02A",
+      "label": "Rear aerial wreck stub",
+      "role": "wreck",
+      "owner": "S",
+      "mountWorld": [
+        -0.56,
+        -0.68,
+        2.4
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "S_P02",
+      "nativeLibraryLocation": [
+        7,
+        9,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_WP02A",
+          "mesh": [
+            "S_WP02A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "8e0df2ba5dfb1a3bba1b6428e8146efff84b2a18139ef9cd272fa461f37f1b4e",
+        "nativeMeshSha256": "df07e75c292d492a56a971b0ed5af8bc16e24c900116a8a2ecd21176350b9609",
+        "nativeContentSha256": "d5272d212de46da5d58401c2e3befff393d2abec9d4688605e6fefe1540c8da2",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.91,
+          0.0,
+          1.0,
+          0.0,
+          -0.68,
+          0.0,
+          0.0,
+          1.0,
+          0.76,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -0.56,
+          0.0,
+          1.0,
+          0.0,
+          -0.68,
+          0.0,
+          0.0,
+          1.0,
+          2.4,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          7,
+          0,
+          1,
+          0,
+          9,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_WP02A-r2.glb",
+        "sha256": "de66971dec4ea1f46d7f52d2a40ee562cb596f72a136d5e30ab592c3600dc7c9",
+        "bytes": 6456,
+        "logicalMeshSha256": "b47e53cc9ce85e90f45d30d9754c96d8358457363fe69319fcf23b3b788a636e",
+        "triangleCount": 116,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "df07e75c292d492a56a971b0ed5af8bc16e24c900116a8a2ecd21176350b9609",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_WP03A",
+      "nativeObject": "S_WP03A",
+      "label": "Forward aerial wreck stub",
+      "role": "wreck",
+      "owner": "S",
+      "mountWorld": [
+        1,
+        0.63,
+        2.4
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "S_P03",
+      "nativeLibraryLocation": [
+        10.5,
+        9,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_WP03A",
+          "mesh": [
+            "S_WP03A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "bd8ef87c09562b02052c0c1c12859a6cee029ced94a4fc3ff54de168c86d376a",
+        "nativeMeshSha256": "4b97869f063c9def2792532e2061b5d7f4be634126e54ac6b59e6b006dcb5f31",
+        "nativeContentSha256": "b5640393d89859a166e0aa1991ca61e3456c1cec94e9a5ae0ef4806dd02ebe80",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.65,
+          0.0,
+          1.0,
+          0.0,
+          0.63,
+          0.0,
+          0.0,
+          1.0,
+          0.76,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.63,
+          0.0,
+          0.0,
+          1.0,
+          2.4,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          10.5,
+          0,
+          1,
+          0,
+          9,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_WP03A-r2.glb",
+        "sha256": "53a797c9ac413a95e199d7fa316277777ac2b20b1c1a5b7e83d0038388cf5458",
+        "bytes": 6456,
+        "logicalMeshSha256": "b47e53cc9ce85e90f45d30d9754c96d8358457363fe69319fcf23b3b788a636e",
+        "triangleCount": 116,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "4b97869f063c9def2792532e2061b5d7f4be634126e54ac6b59e6b006dcb5f31",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "S_WP05A",
+      "nativeObject": "S_WP05A",
+      "label": "Broken reel",
+      "role": "wreck",
+      "owner": "S",
+      "mountWorld": [
+        -1.4,
+        -0.48,
+        2.04
+      ],
+      "motionGroup": "turret-yaw",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "S_P05",
+      "nativeLibraryLocation": [
+        14,
+        9,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "S_WP05A",
+          "mesh": [
+            "S_WP05A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "a9d350f14b21391644ba80295e8e52eec4cef312754d78c2a9cf83a863d5f5a2",
+        "nativeMeshSha256": "811b3bc37467550ec3e097b9bbb31f17873bac66067c42c707476d4f467fedb8",
+        "nativeContentSha256": "21304b30fd53a7d25654b24101328aa2edf2b2bb45f8461aa848564926775004",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "turret-yaw",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.75,
+          0.0,
+          1.0,
+          0.0,
+          -0.48,
+          0.0,
+          0.0,
+          1.0,
+          0.40000000000000013,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -1.4,
+          0.0,
+          1.0,
+          0.0,
+          -0.48,
+          0.0,
+          0.0,
+          1.0,
+          2.04,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          14,
+          0,
+          1,
+          0,
+          9,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/S/S_WP05A-r2.glb",
+        "sha256": "6d4c45ee5031e2c25cb259a65477f954a7534b0e441174dd970dd96f50b3e5f5",
+        "bytes": 8436,
+        "logicalMeshSha256": "d59c6d68d634caa5558aa8e32f0abdb77a92ead1aba2838443f93a6d1e3776c5",
+        "triangleCount": 156,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "811b3bc37467550ec3e097b9bbb31f17873bac66067c42c707476d4f467fedb8",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "T_DP01A",
+      "nativeObject": "T_DP01A",
+      "label": "Bent drawbar and enclosed conduit",
+      "role": "damaged",
+      "owner": "T",
+      "mountWorld": [
+        -3.55,
+        0,
+        0.8
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "T_P01",
+      "nativeLibraryLocation": [
+        17.5,
+        12,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "T_DP01A",
+          "mesh": [
+            "T_DP01A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "74935bc6ca564addb360a39eccf3e5fed5361e3362153fedc2e6aa1cdc97e3d6",
+        "nativeMeshSha256": "f3824d9a9df64304e1581380f987c50cc2b210d7d93bc778a04534d231e5cd2c",
+        "nativeContentSha256": "ab4e1278ff3dbedcb87525f8a68502365f0a7a63593c6babb451dcd1f4166722",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -3.55,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          17.5,
+          0,
+          1,
+          0,
+          12,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_DP01A-r2.glb",
+        "sha256": "0bd32f60119bcd87ae6e43af74f0a848b0bf920ec85efd72db06642ed3a932a6",
+        "bytes": 7120,
+        "logicalMeshSha256": "be473adcada35398775ed337373c102fb0e7b898661af78cc487e4eb94272a2b",
+        "triangleCount": 128,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "f3824d9a9df64304e1581380f987c50cc2b210d7d93bc778a04534d231e5cd2c",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "T_DP02A",
+      "nativeObject": "T_DP02A",
+      "label": "Dented trailer shell",
+      "role": "damaged",
+      "owner": "T",
+      "mountWorld": [
+        -6,
+        0,
+        0.82
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "replacementOf": "T_P02",
+      "nativeLibraryLocation": [
+        21,
+        12,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "T_DP02A",
+          "mesh": [
+            "T_DP02A Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "dff388e38622e7c6395b08d5060bd632558926dd53553b77791e2c4bb1d949eb",
+        "nativeMeshSha256": "8dc1e26b91b35653c36ac4009e9766c1e47ff49c02a10366ba4ba5430b2eb5e1",
+        "nativeContentSha256": "22f9c750d311e5dbe8f40b3777daeb2e34b9dfaa98ccd02bb62c5cfb85c4bc85",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -2.45,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.019999999999999907,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.82,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          21,
+          0,
+          1,
+          0,
+          12,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_DP02A-r3.glb",
+        "sha256": "9c4816bf663f39129722a5d388b00872126de425a8602ebd4d1f6aafb9ac7d45",
+        "bytes": 7480,
+        "logicalMeshSha256": "819b531dc3be6695e509120d4534b2a71aeb500d670d8ec199d1c3cf08df2974",
+        "triangleCount": 124,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "T_DP04A",
+      "nativeObject": "T_DP04A",
+      "label": "Collapsed left trailer tyre",
+      "role": "damaged",
+      "owner": "T",
+      "mountWorld": [
+        -6.15,
+        1,
+        0.621
+      ],
+      "motionGroup": "trailer-wheel-left",
+      "replacesBase": null,
+      "material": "rubber",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "replacementOf": "T_P04",
+      "nativeLibraryLocation": [
+        24.5,
+        12,
+        1
+      ],
+      "mountRevision": 3,
+      "installedScale": [
+        1,
+        0.95,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "T_DP04A",
+          "mesh": [
+            "T_DP04A Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "eece697a99dbe19e2ae730ebfff345712b2b20586a6021be4bba67cfb6bcb027",
+        "nativeMeshSha256": "b4789259819f2ffb1ac0807bbfcdc4196be274982e2e2287e38361f74e488338",
+        "nativeContentSha256": "7079210bddaeab363c88bb257c3c52508a7e9bb637359f77a613f764ef88a84e",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "trailer-wheel-left",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.95,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.15,
+          0.0,
+          0.95,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.621,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          24.5,
+          0,
+          1,
+          0,
+          12,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_DP04A-r3.glb",
+        "sha256": "b1b8d121d160aaf60182da2721c0ab854b34cd3423dd548dcc9b89d62bf077a7",
+        "bytes": 83156,
+        "logicalMeshSha256": "35f1e10bdf838aa0ba241c5f7913bc19608a199b880f7f0ba02ecb13eaf05d72",
+        "triangleCount": 1616,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "T_P01",
+      "nativeObject": "T_P01",
+      "label": "Trailer A-drawbar and protected presentation conduit",
+      "role": "clean",
+      "owner": "T",
+      "mountWorld": [
+        -3.55,
+        0,
+        0.8
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        24.5,
+        3,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "T_P01",
+          "mesh": [
+            "T_P01 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "c2674dd5f1a88276369363ec24cc7912e8e92ca1d2279c083bf917a264688fd8",
+        "nativeMeshSha256": "729e33189aa97ed3c6c57aee1fbfc6e9cd5ca2286e31aa29585165b1777a54aa",
+        "nativeContentSha256": "410829c513294fe779cfb1f58199d95b3cf367e7780f24cda7fae953fe0dd691",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -3.55,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          24.5,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_P01-r2.glb",
+        "sha256": "b7ee33180a03d85cc4dbb89343a0ea4d87f7e35b794ca361b25504fa54664405",
+        "bytes": 7116,
+        "logicalMeshSha256": "a576ba19e4bf8d75283edf0a59d63b469c773feff8ab6a34a4a9f1fc1cd0b7b5",
+        "triangleCount": 128,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "729e33189aa97ed3c6c57aee1fbfc6e9cd5ca2286e31aa29585165b1777a54aa",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "T_P02",
+      "nativeObject": "T_P02",
+      "label": "Designed Crocodile-type armored trailer shell",
+      "role": "clean",
+      "owner": "T",
+      "mountWorld": [
+        -6,
+        0,
+        0.82
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "nativeLibraryLocation": [
+        0,
+        6,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "T_P02",
+          "mesh": [
+            "T_P02 Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "7c23bf5829a5e8c2287b2b7c19c3dee517333dc04154e262fead3130a499756d",
+        "nativeMeshSha256": "ccca0bf18ae5e04a42eefe8167cf0bed334d45f813380c08e814d37d82f65252",
+        "nativeContentSha256": "599e208a472903fd9451f787d8d0cb85684ca12e03ac8328a190a0354456169c",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -2.45,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.019999999999999907,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.82,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          6,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_P02-r3.glb",
+        "sha256": "20656801df62d3a9f506f86f9662e47ca34bcbeb1f7036f244d1a7ca7654c657",
+        "bytes": 7284,
+        "logicalMeshSha256": "8a5298915bfdfc573045cf49be6c8d9ecdca0d4086e0fc5ffdf077d2c1319e02",
+        "triangleCount": 124,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "T_P03",
+      "nativeObject": "T_P03",
+      "label": "Sloping trailer roof and service lid",
+      "role": "clean",
+      "owner": "T",
+      "mountWorld": [
+        -6,
+        0,
+        0.82
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "nativeLibraryLocation": [
+        3.5,
+        6,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "T_P03",
+          "mesh": [
+            "T_P03 Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "4c0b6e4576923c7a0f4d42af7ff90fef0727094c2890b97c2cd7e4ed0b3e80eb",
+        "nativeMeshSha256": "718232e05594a35a04bcf3b7f851a44b48cf39faa2f5e062741b34613df7e735",
+        "nativeContentSha256": "288cf68203b4149abc2752a6e5094daed62bf69a8d7790b91abfe065c38c901d",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -2.45,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.019999999999999907,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.82,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          3.5,
+          0,
+          1,
+          0,
+          6,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_P03-r3.glb",
+        "sha256": "70b8711b64753ca58eb45d7b652ae1620747aeba9d4febc1952e45f6b5c8846d",
+        "bytes": 9084,
+        "logicalMeshSha256": "23556804753bd478bc9851dbcf82ed892b691375df248e0a2f7a667e382f9225",
+        "triangleCount": 168,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "T_P04",
+      "nativeObject": "T_P04",
+      "label": "Left trailer wheel and tyre",
+      "role": "clean",
+      "owner": "T",
+      "mountWorld": [
+        -6.15,
+        1,
+        0.621
+      ],
+      "motionGroup": "trailer-wheel-left",
+      "replacesBase": null,
+      "material": "rubber",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "nativeLibraryLocation": [
+        7,
+        6,
+        1
+      ],
+      "mountRevision": 3,
+      "installedScale": [
+        1,
+        0.95,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "T_P04",
+          "mesh": [
+            "T_P04 Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "8120d0baa2008f4ef11d5a3119172f90b9075cc9a9144d4941b08352bda4a7df",
+        "nativeMeshSha256": "dde582def141593ffc5ab6c50338f891792d45bcccba65463d30bf3453b5b179",
+        "nativeContentSha256": "de4742efb52432b928a0483032b61253b34c5f7bf1e42f6e0914634d8fbee3c2",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "trailer-wheel-left",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.95,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.15,
+          0.0,
+          0.95,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.621,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          7,
+          0,
+          1,
+          0,
+          6,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_P04-r3.glb",
+        "sha256": "1c4c842ae61391b26bb1622da4ff05313032749b0b55fabd2a907aabfcb33931",
+        "bytes": 83152,
+        "logicalMeshSha256": "106df737cefef3be47c9a4a032506504194f2f97f1ecc1784372d4d27dade02c",
+        "triangleCount": 1616,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "T_P05",
+      "nativeObject": "T_P05",
+      "label": "Right trailer wheel and tyre",
+      "role": "clean",
+      "owner": "T",
+      "mountWorld": [
+        -6.15,
+        -1,
+        0.621
+      ],
+      "motionGroup": "trailer-wheel-right",
+      "replacesBase": null,
+      "material": "rubber",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "nativeLibraryLocation": [
+        10.5,
+        6,
+        1
+      ],
+      "mountRevision": 3,
+      "installedScale": [
+        1,
+        0.95,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "T_P05",
+          "mesh": [
+            "T_P05 Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "b6e60fb449fd4e3cae64d1a12e2901ba5616de9805a57fa0645625e58a374fd2",
+        "nativeMeshSha256": "e8005ef3a435ef47f05c42c75d1af5e8f76ebc8b0e45591a37d861eab42300e3",
+        "nativeContentSha256": "742875ff28935437297ddaf441d26fb55596503151d065917dbaaeca43946fb6",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "trailer-wheel-right",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.95,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.15,
+          0.0,
+          0.95,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.621,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          10.5,
+          0,
+          1,
+          0,
+          6,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_P05-r3.glb",
+        "sha256": "0f005eb4e25018fe73bfaca0fb7817350f803619f6db91c9f3eb808d81a81062",
+        "bytes": 83148,
+        "logicalMeshSha256": "3142617265243b6bc376a5e4cee68ed8826d01007dffa54a735a2bd7c7cf51da",
+        "triangleCount": 1616,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "T_P06",
+      "nativeObject": "T_P06",
+      "label": "Trailer axle and underside supports",
+      "role": "clean",
+      "owner": "T",
+      "mountWorld": [
+        -6.15,
+        0,
+        0.621
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "steel",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        14,
+        6,
+        1
+      ],
+      "mountRevision": 2,
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "T_P06",
+          "mesh": [
+            "T_P06 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "9aa89801b6413d79434bf440ae0dfdd5e23df1b5be3926f6a3cbd1b47355ffaa",
+        "nativeMeshSha256": "91dba052ed2eb7d7b0a29efaa8f70974591a25449a9dac34a4784e0982a75347",
+        "nativeContentSha256": "625c8ee6d95ee29ad989370abde589d11d4a6e8ba19d1d7a6638e59a88a555b7",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -2.6000000000000005,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          -0.17900000000000005,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.15,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.621,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          14,
+          0,
+          1,
+          0,
+          6,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_P06-r2.glb",
+        "sha256": "373c769a993fba9365cbf6f68d9b7e32900069a966ea37214d0c8acc9ef6a673",
+        "bytes": 3796,
+        "logicalMeshSha256": "0c747d87d7183e4a5be1078f2ed1a7038a589ceb4d86a161e9feab40e8dd0a6a",
+        "triangleCount": 56,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "91dba052ed2eb7d7b0a29efaa8f70974591a25449a9dac34a4784e0982a75347",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "T_P07",
+      "nativeObject": "T_P07",
+      "label": "Trailer rear fittings and lifting lugs",
+      "role": "clean",
+      "owner": "T",
+      "mountWorld": [
+        -7.24,
+        0,
+        0.97
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "olive",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "nativeLibraryLocation": [
+        17.5,
+        6,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "T_P07",
+          "mesh": [
+            "T_P07 Mesh"
+          ]
+        },
+        "nativeObjectSha256": "518b6f019700510db37e2cfb778df1f4fea6e070a80b3a58cb2584aaba37fbe1",
+        "nativeMeshSha256": "f332b3401e965609cc886e2f2f5daa28bc046482149b0b9f83d4ede319d19098",
+        "nativeContentSha256": "bb0327bb165ebfa2df039c7765fb418b7dcfddc090fdb7d5bae8ae822263ca30",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -3.6900000000000004,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.16999999999999993,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -7.24,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.97,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          17.5,
+          0,
+          1,
+          0,
+          6,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_P07-r2.glb",
+        "sha256": "fa819ad3f1a6a2c6d2e14cc15c002b58aab46fc8b964c09f1297fa42e1245f86",
+        "bytes": 4452,
+        "logicalMeshSha256": "d3469eb7e9105ae32680da7df7ad77e498671d1b77bf4c91c9c0704d67c38816",
+        "triangleCount": 68,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "f332b3401e965609cc886e2f2f5daa28bc046482149b0b9f83d4ede319d19098",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "T_WP01A",
+      "nativeObject": "T_WP01A",
+      "label": "Broken separated drawbar",
+      "role": "wreck",
+      "owner": "T",
+      "mountWorld": [
+        -3.55,
+        0,
+        0.8
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 2,
+      "replacementOf": "T_P01",
+      "nativeLibraryLocation": [
+        0,
+        15,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "4688beef-4bcf-49bd-b381-884ecd088ecd",
+        "checkpointSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "revision": 2,
+        "nativeSource": "sources/components-r2-4f4306b33e46.blend",
+        "nativeSourceSha256": "4f4306b33e46dd2d2df2c9d00441f0ad8f271ae26fcb02772656e02e37b6c587",
+        "selector": {
+          "object": "T_WP01A",
+          "mesh": [
+            "T_WP01A Mesh"
+          ]
+        },
+        "nativeObjectSha256": "8772aa61e5307d0b7a8d05831cb521d61133625ae234cd612de2e191fe9373d5",
+        "nativeMeshSha256": "71c08b03e15e26556ba22890c570a029a5c788e73e76c74a3af1159b3dc87eef",
+        "nativeContentSha256": "503ed4f1f54afb2bb9f91b9f3e11867935d6c69efcef05be82eb58d37a2998cb",
+        "isolationReceiptSha256": "a9a3d5813fc624a873715fd07e7848150eb6642fe63ef5a065f9319ca56d54ff"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -3.55,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          15,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_WP01A-r2.glb",
+        "sha256": "97f1465d4ee704d732ae357a6a0e16d09a0e84996d620b98117688950b488636",
+        "bytes": 7120,
+        "logicalMeshSha256": "f1028683331a42077e2d16b60532ab3c755522a9776767e27bcb88fd9bfa3c7f",
+        "triangleCount": 128,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      },
+      "sourceCorrespondenceAtR3": {
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "nativeMeshSha256": "71c08b03e15e26556ba22890c570a029a5c788e73e76c74a3af1159b3dc87eef",
+        "retainedExact": true
+      }
+    },
+    {
+      "componentId": "T_WP02A",
+      "nativeObject": "T_WP02A",
+      "label": "Ruptured burned trailer shell",
+      "role": "wreck",
+      "owner": "T",
+      "mountWorld": [
+        -6,
+        0,
+        0.82
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "replacementOf": "T_P02",
+      "nativeLibraryLocation": [
+        3.5,
+        15,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "T_WP02A",
+          "mesh": [
+            "T_WP02A Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "4d7469259d65095d07acfbbc17570b7adfa0d457b52c49c78cbaff94a241b998",
+        "nativeMeshSha256": "cd08957ef348217cfd4818bf3c2c97ec38a062ad33a3d152da45b0377bcd9a0f",
+        "nativeContentSha256": "161a0c366365ed06a72574ce0715ff7064a4251f3be8633d5b4b744599c1d5c3",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -2.45,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.019999999999999907,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.82,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          3.5,
+          0,
+          1,
+          0,
+          15,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_WP02A-r3.glb",
+        "sha256": "00f0b9a16e712b9b7f02dad8ab7fbd3b881e2e7b6e19ba474346b79d3410ee05",
+        "bytes": 8584,
+        "logicalMeshSha256": "46339798c30fdbbea179d6ffe1ec8c8e82c0608ea2ec589108d793425dce3410",
+        "triangleCount": 148,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "T_WP03A",
+      "nativeObject": "T_WP03A",
+      "label": "Warped trailer roof",
+      "role": "wreck",
+      "owner": "T",
+      "mountWorld": [
+        -6,
+        0,
+        0.82
+      ],
+      "motionGroup": "trailer-root",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "replacementOf": "T_P03",
+      "nativeLibraryLocation": [
+        7,
+        15,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "T_WP03A",
+          "mesh": [
+            "T_WP03A Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "e3c9a7fe7be5a55bef5e029695ad23c3b121a7f46d4d2bcf73ec8bfc89e9a32e",
+        "nativeMeshSha256": "be605591bb38e1ff169385a12203c32fad04f940fe3acf8ccb9c9a86ae8fa002",
+        "nativeContentSha256": "372960e0e192d8576c4a9a2197c110f8bf6953d0c81b25510db135a01f39ef2c",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "trailer-root",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -2.45,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.019999999999999907,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.82,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          7,
+          0,
+          1,
+          0,
+          15,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_WP03A-r3.glb",
+        "sha256": "fdf527aba8ab385f5f2d77aa867d5e19d5d729cea478f006a6aab294b605cd37",
+        "bytes": 9088,
+        "logicalMeshSha256": "bdd0e7f88bee5f0c52289c69ffe069e8f709c83608971925ae64c72c8eb4f993",
+        "triangleCount": 168,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    },
+    {
+      "componentId": "T_WP05A",
+      "nativeObject": "T_WP05A",
+      "label": "Destroyed right trailer wheel",
+      "role": "wreck",
+      "owner": "T",
+      "mountWorld": [
+        -6.15,
+        -1,
+        0.621
+      ],
+      "motionGroup": "trailer-wheel-right",
+      "replacesBase": null,
+      "material": "burnt",
+      "historicalStatus": "alternate-history-designed-fit; not a documented Comet configuration",
+      "candidateRevision": 3,
+      "replacementOf": "T_P05",
+      "nativeLibraryLocation": [
+        10.5,
+        15,
+        1
+      ],
+      "mountRevision": 3,
+      "installedScale": [
+        1,
+        0.95,
+        1
+      ],
+      "source": {
+        "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+        "branchId": "main",
+        "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+        "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "revision": 3,
+        "nativeSource": "sources/components-r3-7143badee86e.blend",
+        "nativeSourceSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+        "selector": {
+          "object": "T_WP05A",
+          "mesh": [
+            "T_WP05A Mesh.001"
+          ]
+        },
+        "nativeObjectSha256": "ad8534fa46ec085f3ebad37a57e7841a3091ace7207c765b24991c441b717f5c",
+        "nativeMeshSha256": "ff78f7a88d6bd0e02d89ce1b3b825bc73ff31433cb7e4a2aab2b472203b5dc0e",
+        "nativeContentSha256": "d68c139149d218661c624bfbf1a828e8824a63d45372dad02cf407ea911e43bc",
+        "isolationReceiptSha256": "adb00a689efbaff79954e7dea0f28a2ddb7caa4e3bb312a1382da3d3db5e14ee"
+      },
+      "mount": {
+        "parent": "trailer-wheel-right",
+        "parentLocalMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.95,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceWorldMatrixRowMajor": [
+          1.0,
+          0.0,
+          0.0,
+          -6.15,
+          0.0,
+          0.95,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.621,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sourceLibraryWorldMatrixRowMajor": [
+          1,
+          0,
+          0,
+          10.5,
+          0,
+          1,
+          0,
+          15,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "standaloneFrame": "component-local signed-axis glTF Y-up; source +X becomes -Z, +Y becomes -X"
+      },
+      "export": {
+        "path": "parts/T/T_WP05A-r3.glb",
+        "sha256": "832f8b3a04fbe580f74eb06b575daf757329c9a503706af4a4478ff4e781208f",
+        "bytes": 82300,
+        "logicalMeshSha256": "9f45bae1965bd64213f69c3b40afdd116fd01bbfbe383422872d5386c9d2a435",
+        "triangleCount": 1616,
+        "selfContained": true
+      },
+      "approval": {
+        "humanArtwork": null,
+        "source": null,
+        "catalog": false
+      }
+    }
+  ],
+  "backendSemantics": "Local preparation registry, exact shared native source plus independent selectors and standalone GLBs. Backend has no package/component publication or approval semantics. Nothing completed or promoted."
+}

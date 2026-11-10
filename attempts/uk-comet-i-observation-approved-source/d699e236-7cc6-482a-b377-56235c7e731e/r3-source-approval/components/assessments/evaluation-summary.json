@@ -1,0 +1,1139 @@
+{
+  "authority": "Local deterministic rubric evaluation only; no human approval or backend gate",
+  "results": [
+    {
+      "assessment": "assessments/command-clean-model-quality.json",
+      "resultPath": "assessments/command-clean-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-clean-art-style-consistency.json",
+      "resultPath": "assessments/command-clean-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-D01-model-quality.json",
+      "resultPath": "assessments/command-D01-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-D01-art-style-consistency.json",
+      "resultPath": "assessments/command-D01-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-D02-model-quality.json",
+      "resultPath": "assessments/command-D02-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-D02-art-style-consistency.json",
+      "resultPath": "assessments/command-D02-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-D03-model-quality.json",
+      "resultPath": "assessments/command-D03-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-D03-art-style-consistency.json",
+      "resultPath": "assessments/command-D03-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-W01-model-quality.json",
+      "resultPath": "assessments/command-W01-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-W01-art-style-consistency.json",
+      "resultPath": "assessments/command-W01-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-W02-model-quality.json",
+      "resultPath": "assessments/command-W02-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-W02-art-style-consistency.json",
+      "resultPath": "assessments/command-W02-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-W03-model-quality.json",
+      "resultPath": "assessments/command-W03-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/command-W03-art-style-consistency.json",
+      "resultPath": "assessments/command-W03-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-clean-model-quality.json",
+      "resultPath": "assessments/observation-clean-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-clean-art-style-consistency.json",
+      "resultPath": "assessments/observation-clean-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-D01-model-quality.json",
+      "resultPath": "assessments/observation-D01-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-D01-art-style-consistency.json",
+      "resultPath": "assessments/observation-D01-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-D02-model-quality.json",
+      "resultPath": "assessments/observation-D02-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-D02-art-style-consistency.json",
+      "resultPath": "assessments/observation-D02-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-D03-model-quality.json",
+      "resultPath": "assessments/observation-D03-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-D03-art-style-consistency.json",
+      "resultPath": "assessments/observation-D03-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-W01-model-quality.json",
+      "resultPath": "assessments/observation-W01-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-W01-art-style-consistency.json",
+      "resultPath": "assessments/observation-W01-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-W02-model-quality.json",
+      "resultPath": "assessments/observation-W02-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-W02-art-style-consistency.json",
+      "resultPath": "assessments/observation-W02-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-W03-model-quality.json",
+      "resultPath": "assessments/observation-W03-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/observation-W03-art-style-consistency.json",
+      "resultPath": "assessments/observation-W03-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-clean-model-quality.json",
+      "resultPath": "assessments/crocodile-clean-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-clean-art-style-consistency.json",
+      "resultPath": "assessments/crocodile-clean-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-D01-model-quality.json",
+      "resultPath": "assessments/crocodile-D01-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-D01-art-style-consistency.json",
+      "resultPath": "assessments/crocodile-D01-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-D02-model-quality.json",
+      "resultPath": "assessments/crocodile-D02-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-D02-art-style-consistency.json",
+      "resultPath": "assessments/crocodile-D02-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-D03-model-quality.json",
+      "resultPath": "assessments/crocodile-D03-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-D03-art-style-consistency.json",
+      "resultPath": "assessments/crocodile-D03-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-W01-model-quality.json",
+      "resultPath": "assessments/crocodile-W01-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-W01-art-style-consistency.json",
+      "resultPath": "assessments/crocodile-W01-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-W02-model-quality.json",
+      "resultPath": "assessments/crocodile-W02-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-W02-art-style-consistency.json",
+      "resultPath": "assessments/crocodile-W02-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-W03-model-quality.json",
+      "resultPath": "assessments/crocodile-W03-model-quality-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "go",
+      "effectiveDecision": "go",
+      "checks": {
+        "threshold": true,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    },
+    {
+      "assessment": "assessments/crocodile-W03-art-style-consistency.json",
+      "resultPath": "assessments/crocodile-W03-art-style-consistency-result.json",
+      "schemaVersion": "2.0.0",
+      "weightedTotal": 75,
+      "recommendation": "no-go",
+      "effectiveDecision": "no-go",
+      "checks": {
+        "threshold": false,
+        "categoryFloors": true,
+        "coreFloors": true,
+        "hardGates": true,
+        "structuredEvidence": true,
+        "adversarialReview": true
+      },
+      "failures": [
+        {
+          "kind": "threshold",
+          "id": "weighted-total",
+          "message": "75 is below the 80-point threshold."
+        }
+      ],
+      "status": {
+        "technicalValidation": "pass",
+        "visualRecommendation": "no-go",
+        "humanApproval": "absent"
+      },
+      "overrideApplied": false,
+      "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+    }
+  ]
+}

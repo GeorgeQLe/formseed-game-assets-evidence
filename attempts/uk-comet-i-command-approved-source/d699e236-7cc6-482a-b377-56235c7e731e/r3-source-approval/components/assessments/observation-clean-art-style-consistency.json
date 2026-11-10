@@ -1,0 +1,648 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "observation-clean-art-style-consistency-r3-fit2",
+  "rubric": {
+    "rubricId": "art-style-consistency",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "uk-comet-i-observation",
+    "revisionId": "0.1.0-candidate.r3-fit2/clean",
+    "revision": 3
+  },
+  "evidenceSet": {
+    "revision": 3,
+    "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+    "renderSetSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+    "requiredViews": [
+      {
+        "viewId": "front-left",
+        "width": 256,
+        "height": 256,
+        "sha256": "4da4cae08ae47b7f894463394bb30eb6878130646699af59a6e04b9c1912ac34"
+      },
+      {
+        "viewId": "rear-right",
+        "width": 256,
+        "height": 256,
+        "sha256": "10c9815ccf696b62c64f967967d33b62ceb110c9f9f8e00ae1094d11f4b0c56c"
+      },
+      {
+        "viewId": "vehicle-left",
+        "width": 256,
+        "height": 256,
+        "sha256": "04b33ff1edbf4006ce3a2ef096ee7a1f4d7d397da4b2b3623649aca6478e4cab"
+      },
+      {
+        "viewId": "vehicle-right",
+        "width": 256,
+        "height": 256,
+        "sha256": "10ad73588e3a74fbb86f5d3f8ec95a7f57e72cc1967f3b56adf07538137e877d"
+      },
+      {
+        "viewId": "front",
+        "width": 256,
+        "height": 256,
+        "sha256": "077c4a657879377461c473d20e1aa3198a5fdf5baada26ddc10b4990dd30d766"
+      },
+      {
+        "viewId": "rear",
+        "width": 256,
+        "height": 256,
+        "sha256": "41dfe4b3bef60716c0335bb214f07af080ef042ec2c1cc31855acbcce5c76082"
+      },
+      {
+        "viewId": "top",
+        "width": 256,
+        "height": 256,
+        "sha256": "4e89f13fe7cc8ec37aa7c42e993599a1524bfcf46d20022f55d012f370a30fff"
+      },
+      {
+        "viewId": "underside",
+        "width": 256,
+        "height": 256,
+        "sha256": "46b8637d755baa0fbe869d1c0d254929d6184a9abd21e81ef1f6d37a4cedd9b7"
+      }
+    ],
+    "validation": {
+      "reportId": "8b7640df-b06e-4d50-8162-224ff7630ba6",
+      "revision": 3,
+      "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "abstraction-detail",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Clean designed conversion. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "4da4cae08ae47b7f894463394bb30eb6878130646699af59a6e04b9c1912ac34"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Clean designed conversion. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "10c9815ccf696b62c64f967967d33b62ceb110c9f9f8e00ae1094d11f4b0c56c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Clean designed conversion. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "04b33ff1edbf4006ce3a2ef096ee7a1f4d7d397da4b2b3623649aca6478e4cab"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Clean designed conversion. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "10ad73588e3a74fbb86f5d3f8ec95a7f57e72cc1967f3b56adf07538137e877d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Clean designed conversion. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "077c4a657879377461c473d20e1aa3198a5fdf5baada26ddc10b4990dd30d766"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Clean designed conversion. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "41dfe4b3bef60716c0335bb214f07af080ef042ec2c1cc31855acbcce5c76082"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Clean designed conversion. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "4e89f13fe7cc8ec37aa7c42e993599a1524bfcf46d20022f55d012f370a30fff"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Clean designed conversion. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "46b8637d755baa0fbe869d1c0d254929d6184a9abd21e81ef1f6d37a4cedd9b7"
+        }
+      ]
+    },
+    {
+      "categoryId": "shape-edge",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Clean designed conversion. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "4da4cae08ae47b7f894463394bb30eb6878130646699af59a6e04b9c1912ac34"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Clean designed conversion. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "10c9815ccf696b62c64f967967d33b62ceb110c9f9f8e00ae1094d11f4b0c56c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Clean designed conversion. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "04b33ff1edbf4006ce3a2ef096ee7a1f4d7d397da4b2b3623649aca6478e4cab"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Clean designed conversion. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "10ad73588e3a74fbb86f5d3f8ec95a7f57e72cc1967f3b56adf07538137e877d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Clean designed conversion. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "077c4a657879377461c473d20e1aa3198a5fdf5baada26ddc10b4990dd30d766"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Clean designed conversion. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "41dfe4b3bef60716c0335bb214f07af080ef042ec2c1cc31855acbcce5c76082"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Clean designed conversion. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "4e89f13fe7cc8ec37aa7c42e993599a1524bfcf46d20022f55d012f370a30fff"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Clean designed conversion. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "46b8637d755baa0fbe869d1c0d254929d6184a9abd21e81ef1f6d37a4cedd9b7"
+        }
+      ]
+    },
+    {
+      "categoryId": "proportional-stylization",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Clean designed conversion. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "4da4cae08ae47b7f894463394bb30eb6878130646699af59a6e04b9c1912ac34"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Clean designed conversion. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "10c9815ccf696b62c64f967967d33b62ceb110c9f9f8e00ae1094d11f4b0c56c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Clean designed conversion. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "04b33ff1edbf4006ce3a2ef096ee7a1f4d7d397da4b2b3623649aca6478e4cab"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Clean designed conversion. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "10ad73588e3a74fbb86f5d3f8ec95a7f57e72cc1967f3b56adf07538137e877d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Clean designed conversion. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "077c4a657879377461c473d20e1aa3198a5fdf5baada26ddc10b4990dd30d766"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Clean designed conversion. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "41dfe4b3bef60716c0335bb214f07af080ef042ec2c1cc31855acbcce5c76082"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Clean designed conversion. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "4e89f13fe7cc8ec37aa7c42e993599a1524bfcf46d20022f55d012f370a30fff"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Clean designed conversion. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "46b8637d755baa0fbe869d1c0d254929d6184a9abd21e81ef1f6d37a4cedd9b7"
+        }
+      ]
+    },
+    {
+      "categoryId": "value-hierarchy",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Clean designed conversion. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "4da4cae08ae47b7f894463394bb30eb6878130646699af59a6e04b9c1912ac34"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Clean designed conversion. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "10c9815ccf696b62c64f967967d33b62ceb110c9f9f8e00ae1094d11f4b0c56c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Clean designed conversion. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "04b33ff1edbf4006ce3a2ef096ee7a1f4d7d397da4b2b3623649aca6478e4cab"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Clean designed conversion. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "10ad73588e3a74fbb86f5d3f8ec95a7f57e72cc1967f3b56adf07538137e877d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Clean designed conversion. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "077c4a657879377461c473d20e1aa3198a5fdf5baada26ddc10b4990dd30d766"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Clean designed conversion. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "41dfe4b3bef60716c0335bb214f07af080ef042ec2c1cc31855acbcce5c76082"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Clean designed conversion. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "4e89f13fe7cc8ec37aa7c42e993599a1524bfcf46d20022f55d012f370a30fff"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Clean designed conversion. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "46b8637d755baa0fbe869d1c0d254929d6184a9abd21e81ef1f6d37a4cedd9b7"
+        }
+      ]
+    },
+    {
+      "categoryId": "palette-behavior",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Clean designed conversion. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "4da4cae08ae47b7f894463394bb30eb6878130646699af59a6e04b9c1912ac34"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Clean designed conversion. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "10c9815ccf696b62c64f967967d33b62ceb110c9f9f8e00ae1094d11f4b0c56c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Clean designed conversion. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "04b33ff1edbf4006ce3a2ef096ee7a1f4d7d397da4b2b3623649aca6478e4cab"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Clean designed conversion. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "10ad73588e3a74fbb86f5d3f8ec95a7f57e72cc1967f3b56adf07538137e877d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Clean designed conversion. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "077c4a657879377461c473d20e1aa3198a5fdf5baada26ddc10b4990dd30d766"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Clean designed conversion. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "41dfe4b3bef60716c0335bb214f07af080ef042ec2c1cc31855acbcce5c76082"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Clean designed conversion. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "4e89f13fe7cc8ec37aa7c42e993599a1524bfcf46d20022f55d012f370a30fff"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Clean designed conversion. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "46b8637d755baa0fbe869d1c0d254929d6184a9abd21e81ef1f6d37a4cedd9b7"
+        }
+      ]
+    },
+    {
+      "categoryId": "material-vocabulary",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Clean designed conversion. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "4da4cae08ae47b7f894463394bb30eb6878130646699af59a6e04b9c1912ac34"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Clean designed conversion. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "10c9815ccf696b62c64f967967d33b62ceb110c9f9f8e00ae1094d11f4b0c56c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Clean designed conversion. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "04b33ff1edbf4006ce3a2ef096ee7a1f4d7d397da4b2b3623649aca6478e4cab"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Clean designed conversion. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "10ad73588e3a74fbb86f5d3f8ec95a7f57e72cc1967f3b56adf07538137e877d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Clean designed conversion. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "077c4a657879377461c473d20e1aa3198a5fdf5baada26ddc10b4990dd30d766"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Clean designed conversion. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "41dfe4b3bef60716c0335bb214f07af080ef042ec2c1cc31855acbcce5c76082"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Clean designed conversion. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "4e89f13fe7cc8ec37aa7c42e993599a1524bfcf46d20022f55d012f370a30fff"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Clean designed conversion. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "46b8637d755baa0fbe869d1c0d254929d6184a9abd21e81ef1f6d37a4cedd9b7"
+        }
+      ]
+    },
+    {
+      "categoryId": "markings-wear",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Clean designed conversion. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "4da4cae08ae47b7f894463394bb30eb6878130646699af59a6e04b9c1912ac34"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Clean designed conversion. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "10c9815ccf696b62c64f967967d33b62ceb110c9f9f8e00ae1094d11f4b0c56c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Clean designed conversion. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "04b33ff1edbf4006ce3a2ef096ee7a1f4d7d397da4b2b3623649aca6478e4cab"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Clean designed conversion. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "10ad73588e3a74fbb86f5d3f8ec95a7f57e72cc1967f3b56adf07538137e877d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Clean designed conversion. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "077c4a657879377461c473d20e1aa3198a5fdf5baada26ddc10b4990dd30d766"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Clean designed conversion. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "41dfe4b3bef60716c0335bb214f07af080ef042ec2c1cc31855acbcce5c76082"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Clean designed conversion. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "4e89f13fe7cc8ec37aa7c42e993599a1524bfcf46d20022f55d012f370a30fff"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Clean designed conversion. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "46b8637d755baa0fbe869d1c0d254929d6184a9abd21e81ef1f6d37a4cedd9b7"
+        }
+      ]
+    },
+    {
+      "categoryId": "presentation-behavior",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Clean designed conversion. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "4da4cae08ae47b7f894463394bb30eb6878130646699af59a6e04b9c1912ac34"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Clean designed conversion. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "10c9815ccf696b62c64f967967d33b62ceb110c9f9f8e00ae1094d11f4b0c56c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Clean designed conversion. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "04b33ff1edbf4006ce3a2ef096ee7a1f4d7d397da4b2b3623649aca6478e4cab"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Clean designed conversion. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "10ad73588e3a74fbb86f5d3f8ec95a7f57e72cc1967f3b56adf07538137e877d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Clean designed conversion. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "077c4a657879377461c473d20e1aa3198a5fdf5baada26ddc10b4990dd30d766"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Clean designed conversion. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "41dfe4b3bef60716c0335bb214f07af080ef042ec2c1cc31855acbcce5c76082"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Clean designed conversion. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "4e89f13fe7cc8ec37aa7c42e993599a1524bfcf46d20022f55d012f370a30fff"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Clean designed conversion. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "46b8637d755baa0fbe869d1c0d254929d6184a9abd21e81ef1f6d37a4cedd9b7"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "immutable-profile",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/catalog/art-styles/grounded-tactical-miniature-visual/1.0.0.yaml",
+          "evidenceSha256": "0f32ed9341b5233a03c0ec49e0944eeec960000901eca07175c577e67b001f16",
+          "observation": "Exact same immutable visual profile as accepted base authoring; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "presentation-contract",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "cross-view-consistency",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "independent-principles",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+          "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+          "observation": "Independent source-artwork review finds deliberate functional forms, not literal copying of donor mesh or one comparison asset."
+        }
+      ]
+    },
+    {
+      "gateId": "attributable-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/research/reference-packet.json",
+          "evidenceSha256": "2360a42833ffc75af07e3b02b3c1248b415c71944ccecd4471408269bcc69933",
+          "observation": "Original modeled proposed conversions, explicit alternate history and attributed private reference research; no donor meshes or third-party textures."
+        }
+      ]
+    }
+  ],
+  "assessedBy": "Codex /root primary",
+  "assessedAt": "2026-11-10T05:51:06.114541Z",
+  "adversarialReview": {
+    "reviewedBy": "Codex /root/adversarial_conversion_review",
+    "reviewedAt": "2026-11-10T05:51:06.114541Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "abstraction-detail",
+        "strongestReasonBelowThree": "Command role details are tiny, while tyres and optics could drift into generic primitives rather than informative functional forms.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Floor3 supported for source artwork: tall aerials, cross-bustle poles/cases/reel, short dummy gun/optic head and wedge/trailer wheel hierarchy provide sparse secondary explanation at native256. Tertiary noise is restrained. OP optical end contrast remains an advisory; no new microdetail demand."
+          }
+        ]
+      },
+      {
+        "categoryId": "shape-edge",
+        "strongestReasonBelowThree": "Faceted cylinders and sharp plates could look like unrelated construction vocabularies; the trailer could become an ungrounded angular toy.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Floor3 supported: vehicle additions retain deliberate planar armour, faceted cast/socket forms and narrow pole/reel primitives consistent with the base. The revised tyre rounded body and low-profile chevrons now separate rubber from plate construction without oversized paddles. No speculative bevel pass required."
+          }
+        ]
+      },
+      {
+        "categoryId": "value-hierarchy",
+        "strongestReasonBelowThree": "All-olive equipment may vanish against the turret; burned W01 accessories could merge into a dark lump.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Floor3 supported: dark undercarriage/tyres establish the lowest band, olive main masses remain clear, subdued canvas and reel/case contrasts are scarce accents. W01 dark turret and equipment still retain distinct edges and collapse geometry. Not a claim of lighting qualification."
+          }
+        ]
+      },
+      {
+        "categoryId": "presentation-behavior",
+        "strongestReasonBelowThree": "Large padded diagnostics could hide weakness at gameplay size, and one favorable view might conceal openings or supports.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Visual legibility floor3 supported by native256 thumbnails plus opposing sides, front, top, underside and exposed-state diagnostics. Camera/pivot/scale/lighting/runtime-format/performance/fallback requirements explicitly excluded by this exact visual-only profile are not applicable. No transparent frame, anchor or runtime-format failure is asserted. Front-only command wreck role discrimination remains advisory."
+          }
+        ]
+      }
+    ]
+  },
+  "styleProfile": {
+    "profileId": "grounded-tactical-miniature-visual",
+    "version": "1.0.0"
+  }
+}
