@@ -1,0 +1,98 @@
+{
+  "recordType": "comet-review-assembly-index",
+  "recipes": [
+    {
+      "recipeId": "clean",
+      "manifest": "recipes/clean.json",
+      "manifestSha256": "43cabfb151079f174516f81f9cda01d876e9d80d99a72a3f03d0b542946acdd7",
+      "description": "Clean early Comet I",
+      "path": "assemblies/clean.glb",
+      "sha256": "bf60f60e749bf0891bf5c5e5cbfa85d676490876604e17c93fed55ffc44f2a6b",
+      "bytes": 941084,
+      "meshCount": 73,
+      "triangles": 18232,
+      "materials": 6,
+      "correspondence": "All selected logical accessor and material payloads exact; transforms applied only at nodes."
+    },
+    {
+      "recipeId": "D01",
+      "manifest": "recipes/D01.json",
+      "manifestSha256": "11032b439abf1758c1bbd54af894fa8cb485292e0ece0ed00a1e94a05e9de32f",
+      "description": "Left mobility loss; thrown belt, wheel and folded mudguard",
+      "path": "assemblies/D01.glb",
+      "sha256": "247d8e496a0da5d8f134d6e02d5cfbed325d28232f108833b5a7d1afa71eddd9",
+      "bytes": 929828,
+      "meshCount": 73,
+      "triangles": 18192,
+      "materials": 6,
+      "correspondence": "All selected logical accessor and material payloads exact; transforms applied only at nodes."
+    },
+    {
+      "recipeId": "D02",
+      "manifest": "recipes/D02.json",
+      "manifestSha256": "12873083380be28c95d7b0f6363e3b39059db7f47dca5cdff6241ac1e5666ec5",
+      "description": "Weapon strike; bent tube/brake, dented mantlet and bin",
+      "path": "assemblies/D02.glb",
+      "sha256": "a7be6bca0d65c6ad8dd32b663ac6fa4c0a797e754a81287432243ae76385ab04",
+      "bytes": 943784,
+      "meshCount": 73,
+      "triangles": 18232,
+      "materials": 6,
+      "correspondence": "All selected logical accessor and material payloads exact; transforms applied only at nodes."
+    },
+    {
+      "recipeId": "D03",
+      "manifest": "recipes/D03.json",
+      "manifestSha256": "729ff720270f549de806d1601a607ab7b6fae86b6c73b640d66f143aedfb69b0",
+      "description": "Hull/engine-deck rupture and spread right exhaust cowl",
+      "path": "assemblies/D03.glb",
+      "sha256": "af1c5d0874a61e12c84aee5717ca322bf474ef936eac07f7af4c6d8a4803cf2d",
+      "bytes": 943228,
+      "meshCount": 74,
+      "triangles": 18268,
+      "materials": 6,
+      "correspondence": "All selected logical accessor and material payloads exact; transforms applied only at nodes."
+    },
+    {
+      "recipeId": "W01",
+      "manifest": "recipes/W01.json",
+      "manifestSha256": "6d9820dec58bea07c20aaa808e29a9d68be0fc740b56a50dee7b5b6e38e561f3",
+      "description": "Burned turret and engine-deck wreck; turret seated, hull retained",
+      "path": "assemblies/W01.glb",
+      "sha256": "e90cbb3f363998d3cafb36e3b4e79af804e3331f501818a6a993f53b7a3b9640",
+      "bytes": 942668,
+      "meshCount": 74,
+      "triangles": 18268,
+      "materials": 6,
+      "correspondence": "All selected logical accessor and material payloads exact; transforms applied only at nodes."
+    },
+    {
+      "recipeId": "W02",
+      "manifest": "recipes/W02.json",
+      "manifestSha256": "97727d1703eeb349d01e4ab73bcd99bb22fc779873aebd966e3548ad30a7d308",
+      "description": "Right mobility wreck; collapsed upper track, crushed wheel and mudguards",
+      "path": "assemblies/W02.glb",
+      "sha256": "b52ffde16d052939773269adf49c0c199e2deab234e4ae68752d39935b3de0d9",
+      "bytes": 904660,
+      "meshCount": 74,
+      "triangles": 17724,
+      "materials": 6,
+      "correspondence": "All selected logical accessor and material payloads exact; transforms applied only at nodes."
+    },
+    {
+      "recipeId": "W03",
+      "manifest": "recipes/W03.json",
+      "manifestSha256": "926e7bf78b752c4af792fedfe7db6814c61698538c2445a796509c621266a112",
+      "description": "Detached overturned turret with barrel stub; exposed backed ring and opened engine deck",
+      "path": "assemblies/W03.glb",
+      "sha256": "34bb05cd49964e6b636072e1ca951c71eb854c59e9df1fdb87c6a847a1bab669",
+      "bytes": 934452,
+      "meshCount": 74,
+      "triangles": 18000,
+      "materials": 6,
+      "correspondence": "All selected logical accessor and material payloads exact; transforms applied only at nodes."
+    }
+  ],
+  "assemblyGenerator": "compile_comet_recipes.py; only hash-pinned standalone exports, no independently authored complete condition tanks",
+  "humanApproval": null
+}
