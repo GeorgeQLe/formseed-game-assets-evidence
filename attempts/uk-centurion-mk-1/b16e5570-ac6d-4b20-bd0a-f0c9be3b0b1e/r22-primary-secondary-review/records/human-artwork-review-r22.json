@@ -1,0 +1,68 @@
+{
+  "recordType": "centurion-human-artwork-review",
+  "recordedAt": "2026-11-12T05:25:21.414Z",
+  "decidedBy": "George Le",
+  "humanApproved": false,
+  "decision": "not-approved",
+  "userStatement": "Centurion A41 Pilot r22 decisions (job b16e5570, checkpoint 82cd2638…4a7e9d):\n1. Artwork review: Not approved; further P06/P09 pass on r22\n2. Flange attachment: A: move ring/bolts/collar to the fixed turret side; ball moves alone (same axis, same shapes)\n3. Further pass scope: smooth boss outline and remove kink",
+  "scope": "Artwork review of the exact presented r22 clean source checkpoint (labeled sheet, close-ups and same-camera r21/r22 pairs on the decision page).",
+  "candidatePins": {
+    "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+    "branch": "main",
+    "revision": 22,
+    "checkpointId": "29d824a5-e2c3-4897-aea4-b777b65f88d7",
+    "sha256": "82cd26381991203c8970ae202a0b8ca6e6f97cc68e0a9838b8d18cdb174a7e9d"
+  },
+  "presentedEvidence": {
+    "labeledReviewSheet": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/.formseed-game-assets/reviews/centurion-a41-r22-review-labeled.png",
+      "sha256": "38bb14ed42ddd84fe9cb2fb4f33fe54568bd885df693b1ed1e58033134db9531"
+    },
+    "producerRecord": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/r22-producer-record.json",
+      "sha256": "1053d9991abdc0e75f2de1664ef46be996e91aad672ff3ba8d6e72d886d712a2"
+    },
+    "revisionBoundEvaluation": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/revision-bound-evaluation-r22.json",
+      "sha256": "a2bf60490a4488ebe8fb7fab2457f7dae87860bc075347f660ea50c73a2ba59c",
+      "result": "no-go 58.75"
+    },
+    "independentReview": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/independent-review.json",
+      "sha256": "bb4d3e9e2edcd07401c6cf8880edf54867f1bd090503512b7e414ebf6f6dd245"
+    },
+    "dimensionReport": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/dimensions22.json",
+      "sha256": "9e68f99eeea189a17682e12f9da54d91ca65b582b76322ef7313dba343f411f3"
+    },
+    "decisionPage": "https://claude.ai/artifact/EUkZeyp7ivomWRkZ8Gwrgp (private; version 4)"
+  },
+  "agentRecommendationAtDecision": "no-go (revision-bound evaluator 58.75 no-go; independent review no-go on mechanical coherence).",
+  "sameDecisionDirections": {
+    "flangeAttachment": "Option A: ring, bolts and collar move to the fixed turret side; the Polsten ball moves alone; same axis, same shapes",
+    "furtherPassScope": "smooth boss outline and remove kink",
+    "notSelected": [
+      "fill inboard wedge pocket",
+      "remove remaining overlap"
+    ]
+  },
+  "designChoiceLabels": {
+    "bossProfile": "design choice (no attributable reference fixes the cast boss outline)",
+    "boltCount12": "design choice (bolt count not established from references)"
+  },
+  "approvedFallback": {
+    "revision": 21,
+    "checkpointId": "4b9d645b-77b6-4c10-8bec-4aa8c798abed",
+    "sha256": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5"
+  },
+  "iterationAccounting": "r23 is human-directed (specifically requested correction); budgetCharge 0.",
+  "exclusions": [
+    "Any approval of r22",
+    "Producer completion/approval/promotion",
+    "Asset version/release",
+    "Game integration",
+    "Catalog publication",
+    "Performance qualification"
+  ],
+  "backendSemantics": "Conversation artwork decision recorded in canonical job evidence. No producer approval transaction invoked."
+}

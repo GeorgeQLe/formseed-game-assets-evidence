@@ -1,0 +1,89 @@
+{
+  "recordType": "formseed-native-isolation-summary",
+  "revision": 22,
+  "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+  "branchId": "main",
+  "checkpoint": {
+    "checkpointId": "29d824a5-e2c3-4897-aea4-b777b65f88d7",
+    "checkpointHash": "82cd26381991203c8970ae202a0b8ca6e6f97cc68e0a9838b8d18cdb174a7e9d"
+  },
+  "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/native-isolation-diagnostics/native-rigid-isolation-v1/809c0e7ec5f2e08c92290f198fc3cefd494e5dfd55fb61d11a286059d387c063/receipt.json",
+  "receiptSha256": "6ab6cc819f2b4e2d6ce5314bb919c2519531b968f0719509aeac3d8063937cc2",
+  "requestHash": "809c0e7ec5f2e08c92290f198fc3cefd494e5dfd55fb61d11a286059d387c063",
+  "stateSha256": "4277d0e3834947521ecc5601f8c81a4aeb303f5e83da5d71a9688de220ad1881",
+  "statePreserved": true,
+  "diagnosticOnly": true,
+  "approved": false,
+  "native": {
+    "complete": true,
+    "unsupportedFeatures": [],
+    "blenderVersion": "5.2.0 LTS",
+    "profile": "native-rigid-isolation-v1",
+    "collectionsSha256": "32b96811562d43a5bd4a19c7a8a07fba27675358efd14d6be914a2cb1b9235e3",
+    "objectCount": 151,
+    "components": {
+      "P06": {
+        "type": "MESH",
+        "objectSha256": "2ba32779497594d0549477c07116196021dcc81b8349d4fb09aa87a68fe082c7",
+        "contentSha256": "904a74c41dc7896e6eeb9de9225c964f75d5b6254387ffcbb4458e1a0fa1eba2"
+      },
+      "P07": {
+        "type": "MESH",
+        "objectSha256": "debdf8a1abab6d23ab1db18c18da0026d3bea1b7f9f0002f2a9422acb60342e6",
+        "contentSha256": "b8abe25e32720454ebb3025f83f240a4973db1a6fabac32ba0190a43a5fe6eb4"
+      },
+      "P09": {
+        "type": "MESH",
+        "objectSha256": "084074df74092eecdee7aae0627b589417a22069950535a98f4dcd57d38b7f45",
+        "contentSha256": "3942cda9249980873f88e5cdc71fa7c60aa00dd56cb72c65626e02ec814316c7"
+      }
+    }
+  },
+  "probes": [
+    {
+      "component": "P06",
+      "descendants": 0,
+      "selectionPassed": true,
+      "hiddenPassed": true,
+      "hideRenderPassed": true
+    },
+    {
+      "component": "P07",
+      "descendants": 0,
+      "selectionPassed": true,
+      "hiddenPassed": true,
+      "hideRenderPassed": true
+    },
+    {
+      "component": "P09",
+      "descendants": 0,
+      "selectionPassed": true,
+      "hiddenPassed": true,
+      "hideRenderPassed": true
+    }
+  ],
+  "mutationReceipt": {
+    "removedAndReplaced": [
+      "P06",
+      "P09"
+    ],
+    "retainedFingerprintCount": 149,
+    "p07Retained": true,
+    "p07CombinedHash": "039dc01f42ba03d5c2bfc4d48241da0152e95e0aca58651213047b47a7ab9375",
+    "delta": {
+      "triangles": 2,
+      "materials": 0,
+      "objects": 0
+    }
+  },
+  "limitations": [
+    "Native Blender API state proof, not GUI click or rendered-pixel equivalence",
+    "Unsupported features invalidate complete native-content proof",
+    "No inverse-edit or continuous-motion claim",
+    "Attribute storage_type is an internal compression cache excluded from logical native content; RNA reads expand SINGLE to ARRAY. The worker is invalidated after this diagnostic; checkpoint bytes are never saved."
+  ],
+  "source": {
+    "note": "Full 290,920-char tool result kept in session scratchpad only; receiptPath above is the authoritative persisted receipt.",
+    "fullResultSha256": "843aa5512a900a0b9f3266af32e8b8d0caa7164eb2d6cbac2348cdb8c307b80d"
+  }
+}

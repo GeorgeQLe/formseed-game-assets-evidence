@@ -1,0 +1,225 @@
+{
+  "recordType": "formseed-polish-producer-record",
+  "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+  "branchId": "main",
+  "writer": {
+    "agent": "Claude Code",
+    "leaseId": "598f760d-3345-419c-b535-a094ad3c7456",
+    "epoch": 29,
+    "released": true,
+    "releasedEpoch": 30
+  },
+  "direction": {
+    "source": "George, 2026-11-12 r21 decisions (status.polishAuthorization.georgeDirectionR22)",
+    "nextFlangePass": "r22: full reviewer package on P06+P09, same axis",
+    "flangeTone": "split: dark ring and bolts, olive collar",
+    "liftingEyes": "keep as designed",
+    "limits": "P06+P09 only on the existing Polsten axis; no inferred dimensions, axis, articulation or recoil; radii/bolt count/tone are design choices proportioned from the private reference; r21 stays the approved fallback."
+  },
+  "build": {
+    "script": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/build-r22.py",
+      "sha256": "9599226409863ce85674181161fe56b6840bef270c7a9c084da9f0b9aad2f906"
+    },
+    "summary": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/build-r22.json",
+      "sha256": "c6c62ca3804f1724b1e967769ac464005263094105739634ce959de3d427f335"
+    },
+    "request": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/r22-request.json",
+      "sha256": "ef6d90619df72dc44eb3496bfe27c045e3210bea67dba3c7d89fa9b356af4eb9"
+    }
+  },
+  "attempts": [
+    {
+      "key": "centurion-r22 replace_asset_components (request sha ef6d9061\u2026)",
+      "outcome": "committed r22 on first submission"
+    }
+  ],
+  "mutation": {
+    "tool": "replace_asset_components",
+    "expectedRevision": 21,
+    "revision": 22,
+    "applied": 21,
+    "removed": [
+      "P06",
+      "P09"
+    ],
+    "checkpoint": {
+      "checkpointId": "29d824a5-e2c3-4897-aea4-b777b65f88d7",
+      "checkpointHash": "82cd26381991203c8970ae202a0b8ca6e6f97cc68e0a9838b8d18cdb174a7e9d",
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/checkpoints/30697b60-f120-4fe1-a51e-da9ba1cf370d.blend"
+    },
+    "triangles": {
+      "before": 49938,
+      "after": 49940,
+      "budget": 50000
+    },
+    "materials": 2,
+    "objects": 151,
+    "retainedFingerprintCount": 149,
+    "retainedScope": "All 151 objects except P06 and P09 carried receipt-verified retained fingerprints, including P07 (lifting eyes, kept as designed)."
+  },
+  "rollback": {
+    "checkpointId": "4b9d645b-77b6-4c10-8bec-4aa8c798abed",
+    "checkpointHash": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5",
+    "revision": 21,
+    "note": "r21 is the George-approved artwork fallback."
+  },
+  "dimensions": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/dimensions22.json",
+    "sha256": "9e68f99eeea189a17682e12f9da54d91ca65b582b76322ef7313dba343f411f3"
+  },
+  "dimensionResultHash": "42a52aaeb6e8319447eb573b1378ca7b9438fb8d1b9e6fb755798e5249d866a5",
+  "dimensionPassed": 37,
+  "dimensionTotal": 37,
+  "dimensionsR21Rest": {
+    "passed": 37,
+    "total": 37,
+    "resultHash": "828d6abf\u2026 (pre-mutation check at r21)"
+  },
+  "renderBaseline": {
+    "tool": "preflight_asset_render_baseline",
+    "renderHash": "dc4baf0bd9b3afa8d84e5133de434ec060ce4d8371194ef1fba6975009151a5b",
+    "contactSheetSha256BothPasses": "2794898830790b21b8f8dcd1eeb2c9a612e4c5f6c4b10b47c2a00e10cfcd237f",
+    "deterministic": true
+  },
+  "productionRender": {
+    "run": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/renders/revision-22/production/run-ij0s15/pass-2",
+    "contactSheetHash": "2794898830790b21b8f8dcd1eeb2c9a612e4c5f6c4b10b47c2a00e10cfcd237f",
+    "renderHash": "dc4baf0bd9b3afa8d84e5133de434ec060ce4d8371194ef1fba6975009151a5b",
+    "identicalToBaseline": true,
+    "clippingOrAdvisories": "none"
+  },
+  "genericValidation": {
+    "id": "dc529d97-ba8e-453a-9eba-6047251afbb1",
+    "passed": true,
+    "deterministic": true,
+    "issues": [],
+    "triangleCount": 49940,
+    "materialCount": 2,
+    "objectCount": 151,
+    "textureCount": 0,
+    "checkpointHash": "82cd26381991203c8970ae202a0b8ca6e6f97cc68e0a9838b8d18cdb174a7e9d"
+  },
+  "nativeIsolation": {
+    "status": "captured",
+    "summary": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/native-isolation-r22-summary.json",
+      "sha256": "796bc4b1eb299f92f8b6e3899e0e23f3125e46661b00b76dff28fa4a50364740"
+    },
+    "receipt": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/native-isolation-diagnostics/native-rigid-isolation-v1/809c0e7ec5f2e08c92290f198fc3cefd494e5dfd55fb61d11a286059d387c063/receipt.json",
+      "sha256": "6ab6cc819f2b4e2d6ce5314bb919c2519531b968f0719509aeac3d8063937cc2"
+    },
+    "complete": true,
+    "unsupportedFeatures": [],
+    "components": [
+      "P06",
+      "P07",
+      "P09"
+    ],
+    "probesPassed": true
+  },
+  "closeups": {
+    "reRunOfR21Receipts": [
+      "5dd4e540",
+      "a4349a58",
+      "3e583cac",
+      "bb1a2f56"
+    ],
+    "r22": [
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22/flange-front-left.png",
+        "sha256": "3c950d6f8d3f2cbe188c6576ba9b6b031b4cfc630d0fd2634dce1a608023764b"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22/flange-left-front.png",
+        "sha256": "22288f1b3693df10945ced0fe8115ddd4de248c315651e124c21bd70aa7b7531"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22/flange-left-side.png",
+        "sha256": "81ccaf838c1841d1a5928c04c25ce32e52dc7c20f72eac4a3c88310c99bad408"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22/flange-side.png",
+        "sha256": "d8ae0e27d114b48c74efd5ec3ad8b22dd476a9db0c51f6bce97374b8fb62851b"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22/mantlet-eyes.png",
+        "sha256": "adc3245edd715c2cc955aa2a388530911790c417631da55e4005503cf05c7df5"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22/receipt-r22-of-5dd4e540.json",
+        "sha256": "386e2cb1a965a0f5d7221a1b71b9cef2baf3473d7e5cb494542ca5cccd664285"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22/receipt-r22-of-a4349a58.json",
+        "sha256": "11091816559e5b62777c15bd32ec2df8c81129584b0ab9aa513290f3eae85315"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22/turret-front-quarter.png",
+        "sha256": "1e27aecc48aea5bd4440eb0cd9869d033dc36e61ba8cc21562466eea9fd1751c"
+      }
+    ],
+    "r22SameCamera": [
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22-samecam/mantlet-front-quarter.png",
+        "sha256": "66d7b33bca838ff62d6db153b59500a6f0b3155e1d08b38f0906e05c6e1c29bf"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22-samecam/mantlet-side.png",
+        "sha256": "4513d94970f04fa59400de10154f015a4a0bb447dbb628f232058ef1f1dcfe82"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22-samecam/polsten-oblique-close.png",
+        "sha256": "5de4923b25939cef323288dcda0682acbef05116f3f37bdc8427ffe670d2b4cd"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22-samecam/polsten-seat-side.png",
+        "sha256": "f1d961588ed72876c61a81ff32fd8ab942dc358c2236e3a8690dae8d5fafd495"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22-samecam/polsten-seat-top.png",
+        "sha256": "40b89a32e5da09fb859f056d31dadca72ce072bb49f00d13b6ea6b4606523942"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22-samecam/receipt-r22-of-3e583cac.json",
+        "sha256": "43a2d9233f34f220b9df2f1cf59dbbbaa8a20154ff5c9fdfbbcba233f6aed07f"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22-samecam/receipt-r22-of-bb1a2f56.json",
+        "sha256": "39f667ebadbdbbbc9c22c6fbe984cd40bff82182ff6a16e968339f76bef88c4f"
+      }
+    ],
+    "beforeAfter": {
+      "script": {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/before-after-r21-r22/beforeafter.py",
+        "sha256": "c4261d1e796f655cbf14f4eacaee9637c85fd679a1c0dd753aed70aff2d6be75"
+      },
+      "report": {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/before-after-r21-r22/report.json",
+        "sha256": "a490bfff9b60bed54ff1b4a8826fdec93dd33ab1d77e2f791f27132f9be68a26"
+      },
+      "method": "same camera, no registration; changed pixels (threshold 30) tinted on the AFTER panel"
+    },
+    "evidenceClass": "diagnostic-closeup; qualifiesProductionGate false"
+  },
+  "producerObservations": [
+    "Boss is now a blended 20-segment cast swelling with a 25 mm flat land outside the ring; profile still shows faceting/lumpiness at close range.",
+    "Ring outer radius 0.245 m, collar about 66% of ring diameter, 12 bolts; ring and bolts dark, collar olive (George tone split).",
+    "A recess notch / sliver is visible where the boss meets the turret front upper corner (polsten-oblique-close).",
+    "Bolts are illegible at native size; ring top sits about level with the roof edge.",
+    "Native-size contact sheet change is small; the mount reads mainly as a darker ring."
+  ],
+  "iteration": {
+    "r22": {
+      "classification": "human-directed",
+      "budgetCharge": 0,
+      "technicalRetries": 0
+    }
+  },
+  "approval": "none",
+  "r21Approval": "r21 artwork approval does not transfer to r22",
+  "createdAt": "2026-11-12T05:07:41.961713+00:00"
+}

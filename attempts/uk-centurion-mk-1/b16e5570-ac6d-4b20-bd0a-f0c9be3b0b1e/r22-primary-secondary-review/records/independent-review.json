@@ -1,0 +1,104 @@
+{
+  "reviewer": "independent-agent",
+  "reviewedAt": "2026-11-12T00:00:00Z",
+  "revision": 22,
+  "checkpointId": "29d824a5-e2c3-4897-aea4-b777b65f88d7",
+  "checkpointHash": "82cd26381991203c8970ae202a0b8ca6e6f97cc68e0a9838b8d18cdb174a7e9d",
+  "method": "Read-only. I made no MCP calls, took no locks, and did not render, edit or record anything other than this file. Order of inspection: (1) the reference photos, including a 3x crop of the photo-2 Polsten, flange and turret cheek, kept in the session scratchpad only; (2) the r22 production pass-2 contact sheet and all 13 views; (3) a per-view pixel diff of r21 against r22 using numpy (per-pixel max RGBA delta, threshold 8, bounding boxes, alpha-change counts) with nearest-neighbour crop pairs; (4) native-size checks, downscaling az-315, az-0 and ortho front of r21 and r22 to 256 px; (5) the r22, r22-samecam and before/after close-ups, including a 2x crop of the inboard spot-face region in polsten-oblique-close, r21 against r22; (6) the r21 independent review; and (7) last, the producer files r22-request.json, build-r22.json and native-isolation-r22-summary.json. I did not run the deterministic evaluator and did not verify hashes or the validation reports.",
+  "evidenceInspected": [
+    "/Users/georgele/Developer/Projects/libs/military-vehicle-references/centurion/forum-reference-20261111/research/warthunder/data/a41p-polsten/photo-1-forum.webp",
+    "/Users/georgele/Developer/Projects/libs/military-vehicle-references/centurion/forum-reference-20261111/research/warthunder/data/a41p-polsten/photo-2-larger.png (Polsten/turret crop, scratchpad only)",
+    "/Users/georgele/Developer/Projects/libs/military-vehicle-references/centurion/forum-reference-20261111/research/warthunder/data/a41p-polsten/metadata-2026-11-11.json",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/renders/revision-22/production/run-ij0s15/pass-2/ (contact-sheet.png, source-eight-view/*, orthographic-form/*)",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/renders/revision-21/production/run-Xca4hB/pass-2/ (same 13 views)",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22/ (turret-front-quarter, mantlet-eyes, flange-left-side)",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/r22-samecam/ (polsten-oblique-close, polsten-seat-side, polsten-seat-top)",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21-samecam/polsten-oblique-close.png",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/closeups/before-after-r21-r22/ (polsten-seat-side, polsten-oblique-close, polsten-seat-top, flange-left-front, report.json)",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/independent-review.json",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/r22-request.json",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/build-r22.json",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/native-isolation-r22-summary.json",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/catalog/rubrics/model-quality/1.0.0.yaml"
+  ],
+  "changeConfinement": {
+    "method": "numpy per-pixel max RGBA delta of r21 against r22 production pass-2, threshold 8, with bounding boxes and alpha-change counts.",
+    "perView": [
+      {"view": "az-0", "changedPx": 172, "bbox": "533,495-553,515", "alphaChanged": 0, "location": "Polsten/boss"},
+      {"view": "az-45", "changedPx": 31, "bbox": "523,482-562,506", "alphaChanged": 21, "location": "Polsten boss outline at the turret edge"},
+      {"view": "az-90", "changedPx": 8, "bbox": "540,470-543,474", "alphaChanged": 3, "location": "boss edge peeking past turret"},
+      {"view": "az-135", "changedPx": 7, "bbox": "511,466-516,468", "alphaChanged": 6, "location": "boss edge"},
+      {"view": "az-180", "changedPx": 0},
+      {"view": "az-225", "changedPx": 46, "bbox": "461,482-470,502", "alphaChanged": 5, "location": "Polsten"},
+      {"view": "az-270", "changedPx": 155, "bbox": "472,471-488,516", "alphaChanged": 0, "location": "Polsten/boss"},
+      {"view": "az-315", "changedPx": 209, "bbox": "498,500-525,521", "alphaChanged": 0, "location": "Polsten/boss"},
+      {"view": "ortho front", "changedPx": 766, "bbox": "641,337-682,377", "location": "Polsten ring and boss"},
+      {"view": "ortho left", "changedPx": 6, "bbox": "659,336-663,338", "location": "boss edge"},
+      {"view": "ortho rear", "changedPx": 0},
+      {"view": "ortho right", "changedPx": 554, "bbox": "523,336-555,377", "location": "boss/ring profile"},
+      {"view": "ortho top", "changedPx": 307, "bbox": "642,446-681,476", "location": "boss/ring plan"}
+    ],
+    "verdict": "Each view has a single change cluster around the turret-front Polsten mount. Ortho rear and az-180 are pixel-identical. Unlike r21, this diff has no specks on the shell surface or elsewhere. The small alpha changes in az-45, az-90 and az-135 are the larger boss outline appearing past the turret silhouette. The pixels are consistent with only P06 and P09 changing. I cannot attribute the change per object from pixels alone. The producer's native isolation summary (151 objects, P06/P07/P09 probes passed, statePreserved true) is supporting, unverified evidence. I did not compare P07 or the other fingerprints with r21 myself."
+  },
+  "scores": [
+    {"categoryId": "identity-recognition", "score": 3, "rationale": "The whole vehicle still reads as an early Centurion/A41: hull, skirts, cast-and-welded turret, long 17-pdr and box mantlet. The Polsten is the cue that distinguishes the pilot. In r22 its dark bolted ring flange is visible at native size as a distinct dark donut beside the mantlet in ortho front, az-0 and az-315. In r21 it was an olive speck. The dark flange around a lighter collar matches photo-2.", "evidence": [
+      {"viewId": "orthographic-form/front (downscaled to 256 px)", "observation": "r22 shows a dark ring around the Polsten. r21 showed only a small olive disc."},
+      {"viewId": "source-eight-view/az-315 (256 px)", "observation": "A small dark ring mark is visible at the turret front-right. It is subtle, but present."},
+      {"path": "photo-2-larger.png (crop)", "observation": "Dark bolted flange with a lighter collar/drum in front, set in a rounded cast swelling of the turret cheek."}
+    ]},
+    {"categoryId": "proportion-mass", "score": 3, "rationale": "The whole-vehicle proportions are unchanged from r21. The new P06 boss is large: a 20-segment frustum from about r 0.37 m at its base to r 0.27 m at the land, about 0.39 m long. The photo shows a broad swelling, so this is plausible, but perspective prevents measurement. The collar-to-ring ratio is now about 0.65, close to the about 0.6 estimated from the photo.", "evidence": [
+      {"path": "polish-r22/closeups/r22/flange-left-side.png", "observation": "The boss is about 1.6x the ring diameter and dominates the cheek in side view."}
+    ]},
+    {"categoryId": "silhouette", "score": 3, "rationale": "The silhouette at gameplay scale is unchanged apart from a 25-40 px turret-front cluster at 1200 px ortho width. At close-up, the boss outline is polygonal and lumpy, which only matters at close range.", "evidence": [
+      {"path": "polish-r22/closeups/r22/flange-left-side.png", "observation": "The boss profile shows faceted corners and a re-entrant kink where it meets the turret face on the right."},
+      {"path": "polish-r22/closeups/r22-samecam/polsten-seat-top.png", "observation": "The boss upper outline in plan has a visible peaked vertex instead of a smooth curve."}
+    ]},
+    {"categoryId": "form-hierarchy", "score": 3, "rationale": "The ring flange, bolts and collar now read as clear secondary/tertiary forms set on a land. The boss reads more as a cast swelling than r21's hard drum, but it still looks like a separate mound attached to the cheek. In photo-2 the swelling is integral with the cheek.", "evidence": [
+      {"path": "polish-r22/closeups/r22/turret-front-quarter.png", "observation": "At mid range the mount reads coherently beside the mantlet."},
+      {"path": "polish-r22/closeups/r22-samecam/polsten-oblique-close.png", "observation": "A 25 mm flat land is visible outboard of the ring. Inboard, the boss dives into the cheek with a hard transition."}
+    ]},
+    {"categoryId": "mechanical-coherence", "score": 3, "rationale": "The ring sits square on a flat land on the boss face. Twelve bolt heads (26 mm, 14 mm proud) sit on the flange face. I saw no floating parts or visible gaps in the static pose. P09 is still parented to the articulated M.polsten-ball, so the 'fixed' flange moves with the ball. No posed evidence shows what happens at elevation or traverse. There is also a dark wedge pocket on the inboard side where the spot-face cut meets the oblique cheek.", "evidence": [
+      {"path": "polish-r22/closeups/r22-samecam/polsten-seat-side.png", "observation": "The flange sits on the boss face and the bolts face forward. No gap is visible."},
+      {"path": "r22-request.json", "observation": "P09 set_parent M.polsten-ball, so the ring is part of the articulated ball."},
+      {"path": "scratchpad crop of polsten-oblique-close r21 vs r22", "observation": "A dark triangular pocket/sliver sits between the inboard flat block and the ring. r21 had a similar recess crescent, so this is changed in shape but not new in kind."}
+    ]},
+    {"categoryId": "surface-material", "score": 3, "rationale": "The steel-dark flange now separates from the olive collar and boss, as in photo-2. The boss is smooth-shaded (auto-smooth 50 degrees), which improves on r21's flat-shaded drum. Its 20-segment silhouette still shows facets.", "evidence": [
+      {"path": "polish-r22/closeups/r22/mantlet-eyes.png", "observation": "The dark flange with bolts reads clearly against the olive."}
+    ]},
+    {"categoryId": "viewpoint-robustness", "score": 3, "rationale": "No view regresses. The weakest close-up views of the mount are the side and top, where the boss outline is lumpy. Gameplay views are unaffected.", "evidence": [
+      {"viewId": "orthographic-form/right", "observation": "The boss appears as a hemispherical bulge proud of the turret face. It is acceptable at scale."}
+    ]},
+    {"categoryId": "production-integrity", "score": 3, "rationale": "There is a captured native isolation summary bound to the r22 checkpoint hash, and the change is pixel-confined. Triangle counts are recorded: P09 dropped from 572 to 524, and the boss has 156 triangles plus the cutter. I did not verify the triangle budget, dimensions or validation. No hash-bound structured evaluator result exists for r22.", "evidence": [
+      {"path": "native-isolation-r22-summary.json", "observation": "151 objects; P06/P07/P09 selection, hidden and hide-render probes passed; statePreserved true; diagnosticOnly."}
+    ]}
+  ],
+  "coreCategoryObjections": [
+    {"categoryId": "identity-recognition", "strongestReasonBelowThree": "Pilot-specific identity depends on a Polsten that is only a few pixels at 256 px. The contact sheet frames the vehicle too small to show it at all.", "resolved": true, "resolutionObservation": "In my 256 px downscales, r22's dark ring is a legible dark donut in ortho front, az-0 and az-315, a clear gain over r21. The contact-sheet framing remains a presentation issue, not a model defect."},
+    {"categoryId": "silhouette", "strongestReasonBelowThree": "The new boss adds a lumpy, faceted mound with a re-entrant kink to the turret-front profile.", "resolved": true, "resolutionObservation": "This is visible only at close-up. At gameplay scale the change is a sub-40 px cluster, and the major contours are unchanged."},
+    {"categoryId": "mechanical-coherence", "strongestReasonBelowThree": "The flange should be fixed to the turret, but it is parented to the articulated Polsten ball (P09 -> M.polsten-ball). If the ball elevates or traverses, the flange would tilt off the boss land and either gap or interpenetrate. No posed evidence exists. A dark inboard wedge pocket also remains where the spot-face cut meets the cheek.", "resolved": false, "resolutionObservation": "There are no posed renders at the ball limits and no articulation spec for the Polsten in the evidence I inspected. The static pose is clean. The pocket existed in a different shape in the human-approved r21."},
+    {"categoryId": "production-integrity", "strongestReasonBelowThree": "No complete hash-bound structured assessment has been run through the deterministic evaluator for r22. I did not verify technical validation.", "resolved": false, "resolutionObservation": "Only a producer-side native isolation summary and build records exist. The evaluator result is absent, so this fails closed."}
+  ],
+  "r21ObjectionsDisposition": [
+    {"r21Objection": "silhouette/form: hard-edged 24-segment drum boss, reads as add-on", "disposition": "improved", "reason": "The boss is now a smooth-shaded tapered frustum with a land and reads more like a cast swelling. It still stands as a distinct mound with a faceted, lumpy outline, not blended into the cheek."},
+    {"r21Objection": "proportion: ball about 84% of ring diameter, no flat land", "disposition": "resolved", "reason": "Ring outer r 0.245 against collar face r 0.16 gives about 0.65, near the about 0.6 estimated from the photo. A 25 mm land is visible outboard."},
+    {"r21Objection": "construction/seating: hidden dome-through-ring overlap; fixed ring on articulated P09", "disposition": "unchanged", "reason": "The ring and collar are now one closed lathe, but the retained P07 dome (r up to about 0.163) still nominally meets the ring face inner radius 0.1617, which is hidden. P09 is still parented to the ball."},
+    {"r21Objection": "surface/shading: flat-shaded faceted boss/recess", "disposition": "improved", "reason": "The boss and ring are smooth-shaded. The silhouette facets and the inboard spot-face pocket remain."},
+    {"r21Objection": "detail legibility native vs close-up", "disposition": "improved", "reason": "The dark flange is now visible at 256 px. The bolts are still close-up only, which is acceptable."},
+    {"r21Objection": "reference fidelity: boss shape not labeled as stylization", "disposition": "unchanged", "reason": "I saw no explicit design-choice label for the boss profile in r22-request.json or build-r22.json. The bolt count of 12 is still unsupported by the photo, which suggests about 12 or more but cannot be counted."},
+    {"r21Objection": "change confinement", "disposition": "resolved", "reason": "The diff is confined to the Polsten mount with no stray specks, and a native isolation summary was captured."},
+    {"r21Objection": "evaluator gate", "disposition": "unchanged", "reason": "There is no hash-bound evaluator result for r22."},
+    {"r21Objection": "flange tone (optional)", "disposition": "resolved", "reason": "A dark steel material is assigned to the flange faces, matching photo-2."}
+  ],
+  "nativeSizeVsCloseup": "Close-up: the ring, 12 bolts, collar, land and boss are all clearly legible, and the boss outline is lumpy and faceted. Native (256 px): the only visible change is a dark ring mark around the Polsten in front and front-quarter views. It improves pilot-specific recognition and does not read as noise. The boss bulk and its lumpiness are invisible at native size. The contact sheet still frames the vehicle too small to show either.",
+  "newDefects": [
+    "Boss outline is polygonal and lumpy, with a re-entrant kink where it meets the turret face (flange-left-side, polsten-seat-top). It shows only at close-up.",
+    "Inboard spot-face region now shows a sharper dark triangular wedge pocket or sliver between the inboard flat block and the ring (polsten-oblique-close). r21 had a recess crescent there, so this is changed in shape, not new in kind.",
+    "No z-fighting, floating parts or jagged edges were visible in the static views I inspected. I could not assess the posed ball because no posed evidence exists."
+  ],
+  "recommendation": "no-go",
+  "recommendedNextStep": "r22 is a net improvement over r21 on the Polsten mount and should be kept as the working candidate if George agrees. r21 remains the approved fallback. Before named artwork review: (1) render the Polsten ball at its articulation limits, or declare it static, to settle the flange-parented-to-ball question; consider re-parenting the flange to the turret only on George's direction; (2) optionally raise the boss segment count or smooth the outline kink, and soften or fill the inboard spot-face wedge pocket; (3) label the boss profile and bolt count as design choices; (4) run a complete hash-bound structured assessment through the deterministic evaluator, then repeat the adversarial pass. Any further autonomous geometry retries count against the iteration budget.",
+  "technicalValidation": "not assessed by reviewer",
+  "visualRecommendation": "no-go",
+  "humanApproval": "none",
+  "approval": "none — this review grants no approval"
+}

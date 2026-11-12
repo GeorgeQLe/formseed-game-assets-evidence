@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "authority": {
+    "authoritative": true,
+    "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+    "branchId": "main",
+    "assetId": "uk-centurion-mk-1",
+    "revision": 22,
+    "checkpointSha256": "82cd26381991203c8970ae202a0b8ca6e6f97cc68e0a9838b8d18cdb174a7e9d",
+    "renderSetSha256": "dc4baf0bd9b3afa8d84e5133de434ec060ce4d8371194ef1fba6975009151a5b",
+    "contactSheetSha256": "2794898830790b21b8f8dcd1eeb2c9a612e4c5f6c4b10b47c2a00e10cfcd237f",
+    "validationReportId": "dc529d97-ba8e-453a-9eba-6047251afbb1"
+  },
+  "assessments": [
+    {
+      "assessmentId": "centurion-r22-model-quality-assessment",
+      "rubricId": "model-quality",
+      "version": "1.0.0",
+      "retentionBaselineSha256": "7295350186f2a55e27f23adfa87793eef4b8b007ecea14b1bee9c068cd5c6400",
+      "result": {
+        "schemaVersion": "2.0.0",
+        "weightedTotal": 58.75,
+        "recommendation": "no-go",
+        "effectiveDecision": "no-go",
+        "checks": {
+          "threshold": false,
+          "categoryFloors": true,
+          "coreFloors": false,
+          "hardGates": true,
+          "structuredEvidence": false,
+          "adversarialReview": false
+        },
+        "failures": [
+          {
+            "kind": "evidence",
+            "id": "form-hierarchy",
+            "message": "Form hierarchy and visual organization requires concrete observations tied to named views."
+          },
+          {
+            "kind": "evidence",
+            "id": "mechanical-coherence",
+            "message": "Mechanical and structural coherence requires concrete observations tied to named views."
+          },
+          {
+            "kind": "evidence",
+            "id": "surface-material",
+            "message": "Surface and material legibility requires concrete observations tied to named views."
+          },
+          {
+            "kind": "adversarial-objection",
+            "id": "mechanical-coherence",
+            "message": "Unresolved core-floor objection: The flange should be fixed to the turret, but it is parented to the articulated Polsten ball (P09 -> M.polsten-ball). If the ball elevates or traverses, the flange would tilt off the boss land and either gap or interpenetrate. No posed evidence exists. A dark inboard wedge pocket also remains where the spot-face cut meets the cheek."
+          },
+          {
+            "kind": "adversarial-objection",
+            "id": "production-integrity",
+            "message": "Unresolved core-floor objection: No complete hash-bound structured assessment has been run through the deterministic evaluator for r22. I did not verify technical validation."
+          },
+          {
+            "kind": "threshold",
+            "id": "weighted-total",
+            "message": "58.75 is below the 75-point threshold."
+          },
+          {
+            "kind": "core-floor",
+            "id": "identity-recognition",
+            "message": "Identity and recognition scored 2, below the core floor of 3."
+          },
+          {
+            "kind": "core-floor",
+            "id": "mechanical-coherence",
+            "message": "Mechanical and structural coherence scored 2, below the core floor of 3."
+          }
+        ],
+        "status": {
+          "technicalValidation": "pass",
+          "visualRecommendation": "no-go",
+          "humanApproval": "absent"
+        },
+        "overrideApplied": false,
+        "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+      }
+    }
+  ],
+  "monotonicity": {
+    "evaluated": false,
+    "passed": true,
+    "strictlyImproved": false,
+    "failures": []
+  },
+  "status": {
+    "technicalValidation": "pass",
+    "visualRecommendation": "no-go",
+    "projectConsistency": "not-evaluated",
+    "humanApproval": "absent"
+  },
+  "authorityNotice": "This read-only result grants no human, workflow-gate, source, production, promotion, integration, or game-readiness approval.",
+  "requestSha256": "5944d20e302caa329c953d420a8c433d48f13c563c731a47a8f2b045bad3d583",
+  "transport": "formseed-game-assets MCP evaluate_revision_bound_model_assessment via live loopback assessment endpoint 127.0.0.1:9877"
+}

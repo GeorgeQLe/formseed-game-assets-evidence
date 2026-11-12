@@ -1,0 +1,95 @@
+{
+  "requestPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r22/r22-request.json",
+  "requestSha256": "ef6d90619df72dc44eb3496bfe27c045e3210bea67dba3c7d89fa9b356af4eb9",
+  "parameters": {
+    "N09": 24,
+    "N06": 20,
+    "RO": 0.245,
+    "RL": 0.27,
+    "RC": 0.272,
+    "NB": 12,
+    "BOLT_HALF": 0.013,
+    "BOLT_H": 0.014,
+    "X_FACE": -0.03,
+    "X_RFRONT": -0.004,
+    "CLIP_Z": 0.045
+  },
+  "operations": 21,
+  "p09": {
+    "trianglesR21": 572,
+    "trianglesR22": 524,
+    "profile": [
+      [
+        -0.03,
+        0.245
+      ],
+      [
+        -0.01,
+        0.245
+      ],
+      [
+        -0.004,
+        0.239
+      ],
+      [
+        -0.004,
+        0.16174
+      ],
+      [
+        0.025,
+        0.16
+      ],
+      [
+        0.085,
+        0.142
+      ],
+      [
+        0.145,
+        0.112
+      ],
+      [
+        0.19,
+        0.054
+      ]
+    ],
+    "ringOuterRadius": 0.245,
+    "ringFaceRadiusInner": 0.16174,
+    "collarToRingDiameterRatio": 0.66,
+    "bolts": 12,
+    "boltHeadSquare": 0.026,
+    "boltProud": 0.014,
+    "boltCircleRadius": 0.2004,
+    "darkFaces": 145,
+    "closedVolume": 0.015556,
+    "overlap": "none: ring and collar are one closed single-skin lathe"
+  },
+  "p06": {
+    "sourceTriangles": 128,
+    "cutterTriangles": 76,
+    "bossTriangles": 156,
+    "clipTriangles": 12,
+    "bossProfile": [
+      [
+        -0.42,
+        0.37
+      ],
+      [
+        -0.16,
+        0.305
+      ],
+      [
+        -0.045,
+        0.28700000000000003
+      ],
+      [
+        -0.03,
+        0.27
+      ]
+    ],
+    "landRadius": 0.27,
+    "cutterRadius": 0.272,
+    "flatLandOutsideRing": 0.025
+  },
+  "r21TrianglesTotal": 49938,
+  "triangleBudget": 50000
+}
