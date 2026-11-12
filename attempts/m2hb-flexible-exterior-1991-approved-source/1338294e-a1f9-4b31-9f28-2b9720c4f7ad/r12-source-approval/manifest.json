@@ -1,0 +1,99 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m2hb-flexible-exterior-1991-approved-source",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "1338294e-a1f9-4b31-9f28-2b9720c4f7ad",
+    "revision": 12,
+    "checkpointSha256": "6086aee39877018c002f2597f3374b10045095c64720cdaee1f39a3085be15ca"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "028e5814a6c4cd0cbe50e738d4824399992aa0afd03c09c985f20cecdd29262b",
+    "dimensionReportHash": "fa5b4ce615bbbbb61325dc96dceab1ffa16cd5154bc8dea96c74a697b1bceee6",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "9f8204e029392522a1d49d9643f3a9e682bb2b14e12ace601a3a9b4d4354bfde",
+      "bytes": 2200369
+    },
+    "files": [
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "2fac8b5c4bb4169fab0554276a4b3cbb250b98d569af140e911018de241a41aa",
+        "bytes": 1723
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "e9387cf7d4924625c8a9cbd59f062df70fc40a44b35a23ea4b6ad6fc1a63b7e3",
+        "bytes": 426
+      },
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "c9473bfbc58995770abbccb9809e0b644f83f5f1b1b047d5df9f101eedefd90f",
+        "bytes": 5365
+      },
+      {
+        "path": "source/m2hb-flexible-exterior-1991.blend",
+        "sha256": "22dc12198f2c938a998e2e90c964c43f3fb6c5071df79792fe3b6b0dc12b50b0",
+        "bytes": 206031
+      },
+      {
+        "path": "renders/contact-sheet.png",
+        "sha256": "608b206fe6ba35f63fbf2ff66c41a9795b15bc63533bc66af29ea73d5c61054e",
+        "bytes": 2941755
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "d97fb5fd216789b9706501b558d9cae1c1764e214bf26d308a2a8cf05281cd16",
+        "bytes": 308148
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "9f8204e029392522a1d49d9643f3a9e682bb2b14e12ace601a3a9b4d4354bfde",
+        "bytes": 2200369
+      }
+    ]
+  },
+  "inputs": {
+    "dimensionSpecificationSha256": "71e209e9764756077a7f9c8fb3d5ac30ffec2d360a1a8d0cc3c67bfb8b33511c",
+    "references": [
+      {
+        "uri": "https://www.maritime.org/doc/pdf/tm-9-1225-50cal-mg-oct-1944.pdf",
+        "sha256": "0a47742759890c5e8a64d1903dbcfd27ae8c90cdcf2b485927e069942eb813ae",
+        "author": "US Army (TM 9-1225, October 1944)",
+        "license": "US Government work; identity only, bytes not archived",
+        "role": "Cross-era flexible exterior analogue (fig 6/7); not measured orthographic"
+      },
+      {
+        "uri": "https://www.koreanwaronline.com/history/50/1.pdf",
+        "sha256": "b8aab5deae4e0d5e9df6e0a295621008b17f3b46b298b402453fa6a1ee257dff",
+        "author": "US Army (TM 9-1005-213-10, 1992 base compilation)",
+        "license": "US Government work; identity only, bytes not archived",
+        "role": "Flexible paired grips/sights and retracting slide corroboration"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-12T04:42:06.787Z"
+  },
+  "notes": [
+    "Release-layout publication of the same r12 source approval archived at attempts/m2hb-flexible-exterior-1991/1338294e-a1f9-4b31-9f28-2b9720c4f7ad/r12-source-approval (evidence commit e365dd334578e5c91d928899d917a0d8c777323c); identical approval bytes.",
+    "source/review.glb is the exact approved bundle GLB; review/confirmed.png is the exact labeled sheet George reviewed.",
+    "Checkpoint id 2906b4d4-49c4-4e2a-aeb5-bc0033b44d11 (file named after mutation 65347ef5-77da-404a-a9bc-ab25898aafbe).",
+    "Deterministic evaluator remains no-go 72.5 < 75 (surface-material 2); independent reviewer go. Human artwork approval is a separate decision.",
+    "FM 23-65 (bits.de) reference recorded in the source manifest provenance; its byte hash was not retained.",
+    "Source approval only: no integration, runtime/performance, mount/carrier or water-cooled M2 qualification.",
+    "George Le confirmed the in-place dimension-supersession route on 2026-11-11: 'the height change is fine'."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

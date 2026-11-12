@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "2.0.0",
+  "assetId": "m2hb-flexible-exterior-1991",
+  "revisionId": "m2hb-flexible-exterior-1991-r12",
+  "createdAt": "2026-11-12T04:41:53.788Z",
+  "source": {
+    "blend": "revision-12/source/m2hb-flexible-exterior-1991.blend",
+    "glb": "revision-12/source/m2hb-flexible-exterior-1991.glb"
+  },
+  "dimensions": {
+    "x": 1.6543000936508179,
+    "y": 0.2709999978542328,
+    "z": 0.1940000057220459
+  },
+  "pivot": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "counts": {
+    "triangles": 7492,
+    "materials": 2,
+    "objects": 18,
+    "textures": 0
+  },
+  "provenance": [
+    {
+      "uri": "https://www.bits.de/NRANEU/others/amd-us-archive/FM23-65C2%2802%29.pdf",
+      "attribution": "US Army FM23-65 base1991 compiled later changes; M113 fig1-12 and crew fig5-4",
+      "license": "US Government source; retained privately with provenance"
+    },
+    {
+      "uri": "https://www.maritime.org/doc/pdf/tm-9-1225-50cal-mg-oct-1944.pdf",
+      "attribution": "US Army TM9-1225 October1944 fig6 flexible exterior; cross-era analogue, not metric ortho",
+      "license": "US Government source, private reference"
+    },
+    {
+      "uri": "https://www.koreanwaronline.com/history/50/1.pdf",
+      "attribution": "US Army TM9-1005-213-10 1992 compilation; flexible vs M48 exterior",
+      "license": "US Government source, private reference"
+    }
+  ],
+  "validation": {
+    "reportId": "a68c9c04-ffda-4b90-93cf-28ee49a0b248",
+    "passed": true,
+    "reproducible": true,
+    "blockingIssueCodes": [],
+    "advisoryIssueCodes": []
+  },
+  "renderSets": [
+    {
+      "name": "gun-review",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 1536,
+        "height": 1024
+      },
+      "transparentBackground": true,
+      "lightingIntent": "Neutral material colors, restrained studio; clear complete exterior silhouette",
+      "renderSetHash": "0ae9d98db2e5a673e0fce3a60234dc66590c2993decdfb4fdf9b38e31d0870d3",
+      "views": [
+        {
+          "name": "right",
+          "path": "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/right.png",
+          "sha256": "50dd2a4bfa0527848a46000146df93c3554278a0b307a011c82e2d9abf56fd37",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "left",
+          "path": "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/left.png",
+          "sha256": "12a25dd495f45ee40d22e6b7bb20f52706d09d5c95e35a37fbfec2e828190a43",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "top",
+          "path": "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/top.png",
+          "sha256": "3a820e319aef0077e8035b21697e3de0b8e4f5b28e73088a8972d30efda572d3",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "front",
+          "path": "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/front.png",
+          "sha256": "ff1091d654b4bc38b8cd6c87aaf069d2de9950de80b9cc6d5cef25ba654cda75",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear",
+          "path": "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/rear.png",
+          "sha256": "47a7a73edbbe73be05755d82fd84184d101cf1a86f5a0ef5daa6c82291449f41",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "front-right",
+          "path": "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/front-right.png",
+          "sha256": "5a6e786e431ca0d8c5a2153578042c0bceecf2ce02389f6fb83fd7e1bac331dc",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-left",
+          "path": "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/rear-left.png",
+          "sha256": "8d3032df746aceeb081ebfef17a6afad5f83da233385fd93c197af9fa861e4f3",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/right.png": "50dd2a4bfa0527848a46000146df93c3554278a0b307a011c82e2d9abf56fd37",
+    "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/left.png": "12a25dd495f45ee40d22e6b7bb20f52706d09d5c95e35a37fbfec2e828190a43",
+    "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/top.png": "3a820e319aef0077e8035b21697e3de0b8e4f5b28e73088a8972d30efda572d3",
+    "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/front.png": "ff1091d654b4bc38b8cd6c87aaf069d2de9950de80b9cc6d5cef25ba654cda75",
+    "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/rear.png": "47a7a73edbbe73be05755d82fd84184d101cf1a86f5a0ef5daa6c82291449f41",
+    "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/front-right.png": "5a6e786e431ca0d8c5a2153578042c0bceecf2ce02389f6fb83fd7e1bac331dc",
+    "renders/revision-12/production/run-rmW9ri/pass-2/gun-review/rear-left.png": "8d3032df746aceeb081ebfef17a6afad5f83da233385fd93c197af9fa861e4f3",
+    "revision-12/source/m2hb-flexible-exterior-1991.blend": "22dc12198f2c938a998e2e90c964c43f3fb6c5071df79792fe3b6b0dc12b50b0",
+    "revision-12/source/m2hb-flexible-exterior-1991.glb": "d97fb5fd216789b9706501b558d9cae1c1764e214bf26d308a2a8cf05281cd16"
+  }
+}
