@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "authority": {
+    "authoritative": true,
+    "jobId": "19313193-0dd7-419f-b38d-5eec8e331cc4",
+    "branchId": "main",
+    "assetId": "raf-jaguar-gr1a-granby",
+    "revision": 25,
+    "checkpointSha256": "6c06bd93aa13eb1afb7e8282883918294e10ed23782a80f086bedf02a7ef2625",
+    "renderSetSha256": "f44f89904f5db67d3a9dec774114553a17dfb0aed7724613f181fd1441f6eaf5",
+    "contactSheetSha256": "52a7106f0b382a69922c2f29aa8cde63b92c9eae8c4adb123228cf020e59c30f",
+    "validationReportId": "3464654c-6aa2-4784-883f-d6cb104e93b2"
+  },
+  "assessments": [
+    {
+      "assessmentId": "jaguar-gr1a-r25-model-quality-interim-v1",
+      "rubricId": "model-quality",
+      "version": "1.0.0",
+      "retentionBaselineSha256": "17eedf866ea20c5bb05e264d41554df9dca0f81b1a8153f2b39ac6a5232b0c78",
+      "result": {
+        "schemaVersion": "2.0.0",
+        "weightedTotal": 58.75,
+        "recommendation": "no-go",
+        "effectiveDecision": "no-go",
+        "checks": {
+          "threshold": false,
+          "categoryFloors": true,
+          "coreFloors": false,
+          "hardGates": false,
+          "structuredEvidence": true,
+          "adversarialReview": false
+        },
+        "failures": [
+          {
+            "kind": "adversarial-objection",
+            "id": "identity-recognition",
+            "message": "Unresolved core-floor objection: The two features that tell a GR1A apart from a GR1 or similar jets, the laser nose and RWR bullet, do not match XZ377."
+          },
+          {
+            "kind": "adversarial-objection",
+            "id": "silhouette",
+            "message": "Unresolved core-floor objection: In side profile, the nose and fin-tip silhouettes diverge from the Airfix side contour and XZ377."
+          },
+          {
+            "kind": "adversarial-objection",
+            "id": "mechanical-coherence",
+            "message": "Unresolved core-floor objection: The intake throat depth, the nozzle and tail-cone relationship, and the gear-door closure are not structurally believable at close-up distance."
+          },
+          {
+            "kind": "adversarial-objection",
+            "id": "production-integrity",
+            "message": "Unresolved core-floor objection: Without validation evidence and a verified binding between the checkpoint and the close-ups, this cannot be scored at 3 or above. Possible z-fighting at the gear doors also needs checking."
+          },
+          {
+            "kind": "threshold",
+            "id": "weighted-total",
+            "message": "58.75 is below the 75-point threshold."
+          },
+          {
+            "kind": "core-floor",
+            "id": "identity-recognition",
+            "message": "Identity and recognition scored 2, below the core floor of 3."
+          },
+          {
+            "kind": "core-floor",
+            "id": "silhouette",
+            "message": "Silhouette quality scored 2, below the core floor of 3."
+          },
+          {
+            "kind": "core-floor",
+            "id": "mechanical-coherence",
+            "message": "Mechanical and structural coherence scored 2, below the core floor of 3."
+          },
+          {
+            "kind": "core-floor",
+            "id": "production-integrity",
+            "message": "Production integrity scored 2, below the core floor of 3."
+          },
+          {
+            "kind": "hard-gate",
+            "id": "structural-plausibility",
+            "message": "Structural plausibility did not pass."
+          }
+        ],
+        "status": {
+          "technicalValidation": "pass",
+          "visualRecommendation": "no-go",
+          "humanApproval": "absent"
+        },
+        "overrideApplied": false,
+        "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+      }
+    }
+  ],
+  "monotonicity": {
+    "evaluated": false,
+    "passed": true,
+    "strictlyImproved": false,
+    "failures": []
+  },
+  "status": {
+    "technicalValidation": "pass",
+    "visualRecommendation": "no-go",
+    "projectConsistency": "not-evaluated",
+    "humanApproval": "absent"
+  },
+  "authorityNotice": "This read-only result grants no human, workflow-gate, source, production, promotion, integration, or game-readiness approval."
+}

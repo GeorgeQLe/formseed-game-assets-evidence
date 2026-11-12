@@ -1,0 +1,90 @@
+I compared r25 against the XZ377 chisel-nose photo and the Airfix side profile. My recommendation is no-go: make the geometry corrections below before the named human review. The read-only JSON assessment follows.
+
+```json
+{
+  "reviewer": "claude-opus-5-5 (independent adversarial reviewer, read-only; no files mutated, no MCP calls)",
+  "assetId": "raf-jaguar-gr1a-granby",
+  "candidate": "gear-up geometry r25",
+  "jobId": "19313193-0dd7-419f-b38d-5eec8e331cc4",
+  "checkpointSha256": "6c06bd93aa13eb1afb7e8282883918294e10ed23782a80f086bedf02a7ef2625",
+  "checkpointBinding": "Stated by requester; this review did not verify it against the job manifest. The close-ups sit under subject-space hash 175c2991…eed81, and this review did not link that hash to the checkpoint.",
+  "rubric": "catalog/rubrics/model-quality/1.0.0.yaml (core: identity-recognition, silhouette, mechanical-coherence, production-integrity) + docs/rubrics.md 'Requirements before named human review'",
+  "referencesUsed": {
+    "provenance": "/Users/georgele/Developer/Projects/tools/dev/formseed/tasks/hawgs-jaguar-3d-20261111/reference-provenance.json",
+    "xz377-photo": "sha256 42c42beb…fe941fe, Mike Freer, GFDL-1.2-only; chisel laser nose, fin RWR, single-piece canopy, empty overwing rails",
+    "airfix-granby-sheet": "sha256 9e86e869…dcd04; side/planform contours, fin-top RWR fairing",
+    "notedGaps": "Laser window shape is a recorded design choice. Intake face/cross-section is a reconstruction (front view is only a 348 px sheet). Splitter plates are deferred."
+  },
+  "inspectedEvidence": [
+    {"file": ".../main/renders/revision-25/production/run-6qWQG4/pass-2/contact-sheet.png", "sha256": "52a7106f0b382a69922c2f29aa8cde63b92c9eae8c4adb123228cf020e59c30f", "views": "top, left side, front, 3/4 front-right, 3/4 rear-left low, rear, two small-size insets (top, 3/4)"},
+    {"file": ".../closeup-subject-space-v1/175c2991…eed81/pass-2/laser-nose.png", "sha256": "a52d9092f0728b6a6e7f00743b259603e8063a8bb4b7870dab3d82855f2994e2", "views": "nose 3/4 front-left, slightly below"},
+    {"file": ".../pass-2/intake-throats.png", "sha256": "6db333801a823c866b2f0855ae52497706d007b33e5bfe7a41b766151b20fab0", "views": "forward fuselage 3/4 front-left"},
+    {"file": ".../pass-2/tail-and-rwr.png", "sha256": "825325810a9ca8bf4494bc4e97077d46d22d1a27262f63428c551ff4f2723bb9", "views": "aft fuselage 3/4 rear-left, slightly below"},
+    {"file": ".../pass-2/closed-gear-doors.png", "sha256": "5e5cc9097585801a5288e538c4eeba6a643d0e25e406aa9a39e83c26c28b125c", "views": "underside, looking forward"}
+  ],
+  "geometryIssues": {
+    "chiselNoseLaserWindow": {
+      "view": "laser-nose.png; intake-throats.png",
+      "objection": "The nose is not a chisel. It narrows behind the radome station into a pinched neck, then ends in a near-vertical blunt rectangular face with a raised lip. A small dark rounded-slot window is inset in that face. XZ377 shows a wedge whose lower face slopes forward and up to a sharp upper edge, with the window glazing on that sloped face. The current part reads as a snout or duct. The profile should be a continuous wedge from the radome line, with no waist, and the window should lie on the sloped lower plane."
+    },
+    "twinIntakeThroats": {
+      "view": "intake-throats.png; contact-sheet front and 3/4 views",
+      "objection": "The intakes are narrow stadium (rounded-oval) openings with a heavy uniform rim, built as boxes stuck onto the fuselage side with a flat top ledge. The reference intakes are taller, near-rectangular openings with tighter corners. There is no stand-off splitter gap; splitters are deferred, but the face itself still mismatches. A light triangular wedge shows close behind the lip in the left throat. Either the throat is shallow or an internal intersection is visible. The duct needs to darken continuously with depth."
+    },
+    "tailConeBrakeChuteFairing": {
+      "view": "tail-and-rwr.png; contact-sheet side and rear",
+      "objection": "The aft fuselage ends in a smooth rounded bulb above the twin nozzles. There is no distinct brake-chute fairing at the fin-root trailing edge: the fin trailing edge runs straight into the cone. Both nozzles sit tucked under the bulb and read as recessed cans, not exhausts flush with the tail-cone exit. Separately, the inboard flap trailing edge in the lower left of this close-up has a sawtooth notched edge. This looks like geometry, not texture; confirm whether it is intended."
+    },
+    "finRWR": {
+      "view": "tail-and-rwr.png; contact-sheet side",
+      "objection": "The fin tip carries a short pill-shaped cap, rounded at both ends and wider than the fin-tip chord. In the side view it reads as a T-cap. The fairing in the Airfix sheet and XZ377 is a slim fore/aft bullet with pointed ends, with the forward point running ahead of the fin leading edge. The RWR should be lengthened and sharpened, and its diameter brought down to roughly the fin-tip thickness."
+    },
+    "closedGearDoors": {
+      "view": "closed-gear-doors.png; contact-sheet rear and 3/4 rear-left",
+      "objection": "There are no legible closed main-gear or nose-gear door panels. The close-up shows only faint thin crescent highlight slivers on the lower fuselage. These read as coplanar or near-z-fighting plates, or floating edge strips, not doors sitting flush with a defined outline. The view is dominated by the pylons. Door outlines need to be flush and closed. Any intended outline should be a shallow panel recess, not a sliver plate; confirm there is no z-fighting at native size."
+    }
+  },
+  "surfaceIssuesPendingWeathering": {
+    "note": "Separate from geometry. r25 is a geometry candidate with weathering still pending. These do not affect the geometry dispositions.",
+    "observations": [
+      "The whole airframe is one uniform sand tan. Panel and material zones are not separated, apart from mid-grey overwing rails and a dark canopy and nozzles (contact sheet).",
+      "Dark, unevenly placed blotches sit along both wing trailing edges and the fuselage spine in the top view. They read as stray dirt or artifacts, not authored weathering.",
+      "A reddish-brown gradient covers the lower forward fuselage and the lower intake edges in the front view and close-ups. Either a material or vertex colour is bleeding, or the bounce lighting is too strong; check which.",
+      "The canopy is an opaque dark slate with no frame or arch definition. The single-piece canopy is correct, but it reads as a painted cap.",
+      "The contact sheet has no asset name or revision label, and its bottom-right quadrant is mostly empty black with two small insets. A labeled copy is needed before human presentation."
+    ]
+  },
+  "coreCategories": {
+    "identity-recognition": {
+      "observation": "The broad SEPECAT Jaguar layout is present: shoulder-mounted swept wing, tall side intakes behind the cockpit, single fin with tip fairing, overwing rails, twin nozzles. At the small inset size it reads as a generic swept-wing strike jet. The chisel laser nose and slim fin-top RWR are the GR1A's distinguishing cues, and both are misshapen. No 256 px recognition evidence covering every required view was supplied.",
+      "strongestReasonBelow3": "The two features that tell a GR1A apart from a GR1 or similar jets, the laser nose and RWR bullet, do not match XZ377.",
+      "disposition": "unresolved-objection"
+    },
+    "silhouette": {
+      "observation": "The side silhouette shows the pinched-snout nose, a T-cap at the fin tip and a bulbous tail cone with no chute fairing step. The top-view planform and wing sweep look consistent with the trace.",
+      "strongestReasonBelow3": "In side profile, the nose and fin-tip silhouettes diverge from the Airfix side contour and XZ377.",
+      "disposition": "unresolved-objection"
+    },
+    "mechanical-coherence": {
+      "observation": "The intakes are tacked-on boxes with no splitter stand-off and a visible internal wedge. The nozzles are recessed under the cone. The closed gear doors have no flush outline. The flap edge may be sawtoothed.",
+      "strongestReasonBelow3": "The intake throat depth, the nozzle and tail-cone relationship, and the gear-door closure are not structurally believable at close-up distance.",
+      "disposition": "unresolved-objection"
+    },
+    "production-integrity": {
+      "observation": "No technical validation, budget, topology or manifold evidence was given to this reviewer. The renders can show likely coplanar slivers at the gear doors and a possible throat intersection, but cannot prove them. The link from checkpoint to close-up hash was not verified.",
+      "strongestReasonBelow3": "Without validation evidence and a verified binding between the checkpoint and the close-ups, this cannot be scored at 3 or above. Possible z-fighting at the gear doors also needs checking.",
+      "disposition": "unresolved-objection (evidence missing; fail closed)"
+    }
+  },
+  "nonCoreNotes": {
+    "proportion-mass": "Overall length, span and wing position look plausible against the planform. The nose's forward mass is wrong because of the waist.",
+    "form-hierarchy": "Primary forms are in place. Intake rims are as heavy as the primary forms, which flattens the hierarchy.",
+    "surface-material": "Weathering is pending; see surfaceIssuesPendingWeathering. Not scored here.",
+    "viewpoint-robustness": "The front view is very small on the sheet. The 3/4 views hold up apart from the nose and RWR."
+  },
+  "scores": "Not scored. This reviewer does not invent numbers. No hash-bound structured assessment or deterministic evaluator result was given, so the visual recommendation fails closed to no-go.",
+  "technicalValidation": "not inspected / not provided",
+  "visualRecommendation": "no-go: corrections before the named human geometry review. Rework the nose as a chisel wedge with the window on the sloped lower face; rework the intake faces and throat depth; add a brake-chute fairing at the fin-root trailing edge and fix the nozzle exit relationship; lengthen and sharpen the fin RWR into a slim bullet; make the gear doors flush and closed with no slivers. Then refresh the close-ups and a labeled contact sheet bound to the new checkpoint.",
+  "humanApproval": "none; this review grants no approval"
+}
+```
