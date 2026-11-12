@@ -1,0 +1,1421 @@
+{
+  "capabilityVersion": "dimension-validation@1.2.0",
+  "kind": "asset-dimension-validation",
+  "jobId": "a9d5c73f-da16-4b51-b383-feb2dd808843",
+  "branchId": "main",
+  "revision": 1,
+  "checkpointId": "09e92b04-f662-46a1-bfa1-e8ccb88347f9",
+  "checkpointHash": "f40f40eaab8389f807c3fb3cab366db5931b8f4b6a4bc65ffdf20d0b7d7c6c9a",
+  "specificationHash": "7a1e793acebe3d98ee18caa4ae543749dab61af98e2a0a171c77896c28fd375a",
+  "assetSpecificationHash": "ee77f08c32d22d49a54b64c41f38ec8bf2ce7ff11f93dbd336d4ec6270356629",
+  "configuration": "ground-static",
+  "pose": "ground-static",
+  "validationScope": {
+    "policy": "configuration-and-pose",
+    "canonical": true,
+    "declaredCriterionIds": [
+      "datum:fin-top:Y",
+      "datum:main-port-ground:Y",
+      "datum:main-stbd-ground:Y",
+      "datum:nose-wheel-ground:Y",
+      "datum:origin:X",
+      "datum:origin:Y",
+      "datum:origin:Z",
+      "datum:probe-tip:Z",
+      "datum:tail-cone-tip:Z",
+      "datum:wingtip-port:X",
+      "datum:wingtip-stbd:X",
+      "grounding:main-port-ground",
+      "grounding:main-stbd-ground",
+      "grounding:nose-wheel-ground",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "applicableCriterionIds": [
+      "datum:fin-top:Y",
+      "datum:main-port-ground:Y",
+      "datum:main-stbd-ground:Y",
+      "datum:nose-wheel-ground:Y",
+      "datum:origin:X",
+      "datum:origin:Y",
+      "datum:origin:Z",
+      "datum:probe-tip:Z",
+      "datum:tail-cone-tip:Z",
+      "datum:wingtip-port:X",
+      "datum:wingtip-stbd:X",
+      "grounding:main-port-ground",
+      "grounding:main-stbd-ground",
+      "grounding:nose-wheel-ground",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "excludedCriterionIds": []
+  },
+  "resourceClosure": {
+    "policy": "self-contained",
+    "externalDependencies": []
+  },
+  "request": {
+    "jobId": "a9d5c73f-da16-4b51-b383-feb2dd808843",
+    "branchId": "main",
+    "expectedRevision": 1,
+    "checkpoint": {
+      "checkpointId": "09e92b04-f662-46a1-bfa1-e8ccb88347f9",
+      "checkpointHash": "f40f40eaab8389f807c3fb3cab366db5931b8f4b6a4bc65ffdf20d0b7d7c6c9a"
+    },
+    "configuration": "ground-static",
+    "pose": "ground-static"
+  },
+  "requestHash": "a4fff32030655182bc52aa9be7916c02bb759adcfd8214dcabf577fb8b7f0979",
+  "criterionSetHash": "56f1cba0d6311b4bdd593c00fa34791b9e492172280d3b417dfbf380bc64b28d",
+  "evidenceHash": "ec7744cd50543d5b8107c2012d61c8132bfc412a24f6865356a7ed4ab358ffa3",
+  "evidenceManifestHash": "feddda35c707a24edb9de192d89bd069d3d3b8a20c2ea31eb9f9bb6d908db90f",
+  "criteria": [
+    {
+      "criterionId": "overall-length",
+      "kind": "envelope",
+      "status": "fail",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 16.83,
+        "unit": "m",
+        "source": "length-overall"
+      },
+      "observed": 15.244999885559082,
+      "unit": "m",
+      "absoluteDeviation": 1.5850001144409163,
+      "relativeDeviation": 0.09417707156511684,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-width",
+      "kind": "envelope",
+      "status": "fail",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 8.69,
+        "unit": "m",
+        "source": "span"
+      },
+      "observed": 2.0999999046325684,
+      "unit": "m",
+      "absoluteDeviation": 6.590000095367431,
+      "relativeDeviation": 0.7583429338742729,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-height",
+      "kind": "envelope",
+      "status": "fail",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 4.89,
+        "unit": "m",
+        "source": "height-overall"
+      },
+      "observed": 1.7300000190734863,
+      "unit": "m",
+      "absoluteDeviation": 3.1599999809265134,
+      "relativeDeviation": 0.646216765015647,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": []
+    },
+    {
+      "criterionId": "datum:origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:probe-tip:Z",
+      "kind": "datum-coordinate",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -8.415,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "probe-tip"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.probe",
+          "axis": "Z",
+          "side": "minimum"
+        }
+      ],
+      "reason": "Exact object \"jaguar.probe\" was not found."
+    },
+    {
+      "criterionId": "datum:tail-cone-tip:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 8.415,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 8.414999961853027,
+      "unit": "m",
+      "absoluteDeviation": 3.814697180359872e-8,
+      "relativeDeviation": 4.53321114718939e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "tail-cone-tip"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.fuselage",
+          "axis": "Z",
+          "side": "maximum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:wingtip-port:X",
+      "kind": "datum-coordinate",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -4.345,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "wingtip-port"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.wing.port",
+          "axis": "X",
+          "side": "minimum"
+        }
+      ],
+      "reason": "Exact object \"jaguar.wing.port\" was not found."
+    },
+    {
+      "criterionId": "datum:wingtip-stbd:X",
+      "kind": "datum-coordinate",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 4.345,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "wingtip-stbd"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.wing.stbd",
+          "axis": "X",
+          "side": "maximum"
+        }
+      ],
+      "reason": "Exact object \"jaguar.wing.stbd\" was not found."
+    },
+    {
+      "criterionId": "datum:fin-top:Y",
+      "kind": "datum-coordinate",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 4.89,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "fin-top"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.fin.rwr",
+          "axis": "Y",
+          "side": "maximum"
+        }
+      ],
+      "reason": "Exact object \"jaguar.fin.rwr\" was not found."
+    },
+    {
+      "criterionId": "datum:nose-wheel-ground:Y",
+      "kind": "datum-coordinate",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "nose-wheel-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.gear.nose.wheel",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ],
+      "reason": "Exact object \"jaguar.gear.nose.wheel\" was not found."
+    },
+    {
+      "criterionId": "datum:main-port-ground:Y",
+      "kind": "datum-coordinate",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "main-port-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.port.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ],
+      "reason": "Exact object \"jaguar.gear.main.port.wheel.fwd\" was not found."
+    },
+    {
+      "criterionId": "datum:main-stbd-ground:Y",
+      "kind": "datum-coordinate",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "main-stbd-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.stbd.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ],
+      "reason": "Exact object \"jaguar.gear.main.stbd.wheel.fwd\" was not found."
+    },
+    {
+      "criterionId": "origin:X",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Y",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Z",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:X",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Static hinge/axle pivots declared in component plan; articulation sweeps not validated."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Y",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Static hinge/axle pivots declared in component plan; articulation sweeps not validated."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Z",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Static hinge/axle pivots declared in component plan; articulation sweeps not validated."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:nose-wheel-ground",
+      "kind": "grounding",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "nose-wheel-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [],
+      "reason": "Exact object \"jaguar.gear.nose.wheel\" was not found."
+    },
+    {
+      "criterionId": "grounding:main-port-ground",
+      "kind": "grounding",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "main-port-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [],
+      "reason": "Exact object \"jaguar.gear.main.port.wheel.fwd\" was not found."
+    },
+    {
+      "criterionId": "grounding:main-stbd-ground",
+      "kind": "grounding",
+      "status": "unavailable",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": null,
+      "unit": "m",
+      "absoluteDeviation": null,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "main-stbd-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [],
+      "reason": "Exact object \"jaguar.gear.main.stbd.wheel.fwd\" was not found."
+    }
+  ],
+  "measurements": {
+    "overallBounds": {
+      "minimum": {
+        "x": -1.0499999523162842,
+        "y": 1.25,
+        "z": -6.829999923706055
+      },
+      "maximum": {
+        "x": 1.0499999523162842,
+        "y": 2.9800000190734863,
+        "z": 8.414999961853027
+      },
+      "center": {
+        "x": 0,
+        "y": 2.115000009536743,
+        "z": 0.7925000190734863
+      }
+    },
+    "dimensions": {
+      "width": 2.0999999046325684,
+      "height": 1.7300000190734863,
+      "length": 15.244999885559082,
+      "unit": "m"
+    },
+    "components": [
+      {
+        "object": "jaguar.root",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.fuselage",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.0499999523162842,
+            "y": 1.25,
+            "z": -6.829999923706055
+          },
+          "maximum": {
+            "x": 1.0499999523162842,
+            "y": 2.9800000190734863,
+            "z": 8.414999961853027
+          },
+          "center": {
+            "x": 0,
+            "y": 2.115000009536743,
+            "z": 0.7925000190734863
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "6b4546cf54c316c4c472647e3003f02174fda991932f0a492348f89a1b0147a0"
+      },
+      {
+        "object": "jaguar.intake.port",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.intake.port.duct-face",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.intake.stbd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.intake.stbd.duct-face",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.windscreen",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.windscreen.frame",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.canopy",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.probe",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.nose.laser-window",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.wing.port",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.flap.port",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.wing.stbd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.flap.stbd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.tailplane.port",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.tailplane.stbd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.fin",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.rudder",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.fin.rwr",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.ventral-fin.port",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.ventral-fin.stbd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.nozzle.port",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.nozzle.port.interior",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.nozzle.stbd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.nozzle.stbd.interior",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.nose.leg",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.nose.wheel",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.main.port.leg",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.main.port.bogie",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.main.port.wheel.fwd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.main.port.wheel.aft",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.main.stbd.leg",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.main.stbd.bogie",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.main.stbd.wheel.fwd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.gear.main.stbd.wheel.aft",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.pylon.centreline",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.pylon.inner.port",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.pylon.outer.port",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.rail.overwing.port",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.pylon.inner.stbd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.pylon.outer.stbd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.rail.overwing.stbd",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      }
+    ],
+    "datums": [
+      {
+        "id": "origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "probe-tip",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.probe",
+          "axis": "Z",
+          "side": "minimum"
+        },
+        "status": "unavailable",
+        "position": null,
+        "reason": "Exact object \"jaguar.probe\" was not found."
+      },
+      {
+        "id": "tail-cone-tip",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.fuselage",
+          "axis": "Z",
+          "side": "maximum"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 2.115000009536743,
+          "z": 8.414999961853027
+        }
+      },
+      {
+        "id": "wingtip-port",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.wing.port",
+          "axis": "X",
+          "side": "minimum"
+        },
+        "status": "unavailable",
+        "position": null,
+        "reason": "Exact object \"jaguar.wing.port\" was not found."
+      },
+      {
+        "id": "wingtip-stbd",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.wing.stbd",
+          "axis": "X",
+          "side": "maximum"
+        },
+        "status": "unavailable",
+        "position": null,
+        "reason": "Exact object \"jaguar.wing.stbd\" was not found."
+      },
+      {
+        "id": "fin-top",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.fin.rwr",
+          "axis": "Y",
+          "side": "maximum"
+        },
+        "status": "unavailable",
+        "position": null,
+        "reason": "Exact object \"jaguar.fin.rwr\" was not found."
+      },
+      {
+        "id": "nose-wheel-ground",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.gear.nose.wheel",
+          "axis": "Y",
+          "side": "minimum"
+        },
+        "status": "unavailable",
+        "position": null,
+        "reason": "Exact object \"jaguar.gear.nose.wheel\" was not found."
+      },
+      {
+        "id": "main-port-ground",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.port.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        },
+        "status": "unavailable",
+        "position": null,
+        "reason": "Exact object \"jaguar.gear.main.port.wheel.fwd\" was not found."
+      },
+      {
+        "id": "main-stbd-ground",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.stbd.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        },
+        "status": "unavailable",
+        "position": null,
+        "reason": "Exact object \"jaguar.gear.main.stbd.wheel.fwd\" was not found."
+      }
+    ],
+    "ratios": [],
+    "clearances": [],
+    "articulationSamples": [],
+    "includedObjects": [
+      "jaguar.fuselage"
+    ],
+    "excludedObjects": [
+      "jaguar.canopy",
+      "jaguar.fin",
+      "jaguar.fin.rwr",
+      "jaguar.flap.port",
+      "jaguar.flap.stbd",
+      "jaguar.gear.main.port.bogie",
+      "jaguar.gear.main.port.leg",
+      "jaguar.gear.main.port.wheel.aft",
+      "jaguar.gear.main.port.wheel.fwd",
+      "jaguar.gear.main.stbd.bogie",
+      "jaguar.gear.main.stbd.leg",
+      "jaguar.gear.main.stbd.wheel.aft",
+      "jaguar.gear.main.stbd.wheel.fwd",
+      "jaguar.gear.nose.leg",
+      "jaguar.gear.nose.wheel",
+      "jaguar.intake.port",
+      "jaguar.intake.port.duct-face",
+      "jaguar.intake.stbd",
+      "jaguar.intake.stbd.duct-face",
+      "jaguar.nose.laser-window",
+      "jaguar.nozzle.port",
+      "jaguar.nozzle.port.interior",
+      "jaguar.nozzle.stbd",
+      "jaguar.nozzle.stbd.interior",
+      "jaguar.probe",
+      "jaguar.pylon.centreline",
+      "jaguar.pylon.inner.port",
+      "jaguar.pylon.inner.stbd",
+      "jaguar.pylon.outer.port",
+      "jaguar.pylon.outer.stbd",
+      "jaguar.rail.overwing.port",
+      "jaguar.rail.overwing.stbd",
+      "jaguar.root",
+      "jaguar.rudder",
+      "jaguar.tailplane.port",
+      "jaguar.tailplane.stbd",
+      "jaguar.ventral-fin.port",
+      "jaguar.ventral-fin.stbd",
+      "jaguar.windscreen",
+      "jaguar.windscreen.frame",
+      "jaguar.wing.port",
+      "jaguar.wing.stbd"
+    ],
+    "visibleGeometryObjects": [
+      "jaguar.fuselage"
+    ],
+    "configuration": "ground-static",
+    "pose": "ground-static"
+  },
+  "aggregate": {
+    "passed": false,
+    "complete": true,
+    "reproducible": true,
+    "internallyConsistent": false,
+    "expectedBlockingCriterionCount": 23,
+    "reportedBlockingCriterionCount": 23,
+    "passedBlockingCriterionCount": 10,
+    "blockingFailureCriterionIds": [
+      "datum:fin-top:Y",
+      "datum:main-port-ground:Y",
+      "datum:main-stbd-ground:Y",
+      "datum:nose-wheel-ground:Y",
+      "datum:probe-tip:Z",
+      "datum:wingtip-port:X",
+      "datum:wingtip-stbd:X",
+      "grounding:main-port-ground",
+      "grounding:main-stbd-ground",
+      "grounding:nose-wheel-ground",
+      "overall-height",
+      "overall-length",
+      "overall-width"
+    ]
+  },
+  "createdAt": "2026-11-11T22:17:09.187Z",
+  "resultHash": "95bdc52222abef3d60fa86aee0af3f9e8e99f6904c57a0a4ac201724580857eb",
+  "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/a9d5c73f-da16-4b51-b383-feb2dd808843/main/inspection/revision-1/asset-dimension-validation-95bdc52222abef3d60fa86aee0af3f9e8e99f6904c57a0a4ac201724580857eb.json"
+}

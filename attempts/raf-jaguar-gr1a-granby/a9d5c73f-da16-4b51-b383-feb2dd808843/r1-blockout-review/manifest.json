@@ -1,0 +1,46 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "raf-jaguar-gr1a-granby",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "a9d5c73f-da16-4b51-b383-feb2dd808843",
+    "revision": 1
+  },
+  "gate": "blockout-review",
+  "evidence": {
+    "dimensionReportHash": "ab9a29af81ed474f748f27a5c04f5d71183d5943d27383dbcbfe44c201e7da5c",
+    "files": [
+      {
+        "path": "records/dimension-report-r1-failing.json",
+        "sha256": "853d6786314f6444ff640bded414e07a535fe751eb105c3cdc90fa27229cf63c",
+        "bytes": 36929
+      },
+      {
+        "path": "records/dimension-report-r1-b.json",
+        "sha256": "85f7a129930975c4871b52d0a59a9f547c8b6d426fc6a1efeb0a1352234d5202",
+        "bytes": 36929
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "First batch held only root+fuselage, so dimension validation failed; the render baseline requires a passing report and every later mutation requires the baseline (unrecoverable deadlock). Replaced by job 19313193-0dd7-419f-b38d-5eec8e331cc4.",
+    "decidedAt": "2026-11-11T22:20:11Z"
+  },
+  "notes": [
+    "decidedAt is the replacement job 19313193 audit 5bc65530 timestamp (abandonment occurred no later than this). Abandoned before any review render; no presentation, no human decision. Records only; no .blend archived (not approved or disputed).",
+    "Project label kept as danger-close-hawgs for continuity with earlier Jaguar archive records; George corrected on 2026-11-11 that the model is for Daisenjutsu and Omega War Redux."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
