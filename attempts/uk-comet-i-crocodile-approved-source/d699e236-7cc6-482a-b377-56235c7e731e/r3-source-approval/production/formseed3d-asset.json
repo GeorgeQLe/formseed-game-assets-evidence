@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "2.0.0",
+  "assetId": "uk-comet-i-conversions",
+  "revisionId": "uk-comet-i-conversions-r3",
+  "createdAt": "2026-11-10T15:37:06.152Z",
+  "source": {
+    "blend": "revision-3/source/uk-comet-i-conversions.blend",
+    "glb": "revision-3/source/uk-comet-i-conversions.glb"
+  },
+  "dimensions": {
+    "x": 26.568283081054688,
+    "y": 16.6546688079834,
+    "z": 2.5199999809265137
+  },
+  "pivot": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "counts": {
+    "triangles": 12204,
+    "materials": 6,
+    "objects": 45,
+    "textures": 0
+  },
+  "provenance": [
+    {
+      "uri": "https://tankmuseum.org/tank-nuts/tank-collection/comet",
+      "attribution": "The Tank Museum; accepted Comet source interface and early-configuration packet",
+      "license": "Research reference only; no image texture redistribution"
+    },
+    {
+      "uri": "https://tanks-encyclopedia.com/coldwar-gb-comet-crocodile/",
+      "attribution": "Andrew Hills, secondary lead with museum-attributed trial photograph; metadata inconsistencies retained",
+      "license": "Research reference only"
+    },
+    {
+      "uri": "https://film.iwmcollections.org.uk/record/554",
+      "attribution": "IWM AFPU A70 135-8; period donor operation metadata only",
+      "license": "Research reference only"
+    }
+  ],
+  "validation": {
+    "reportId": "8b7640df-b06e-4d50-8162-224ff7630ba6",
+    "passed": true,
+    "reproducible": true,
+    "blockingIssueCodes": [],
+    "advisoryIssueCodes": []
+  },
+  "renderSets": [
+    {
+      "name": "component-library",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 1600,
+        "height": 1200
+      },
+      "transparentBackground": false,
+      "lightingIntent": "Neutral readable source-component grid; installed vehicle evidence separately assembled from exact GLBs",
+      "renderSetHash": "8a78eefc5cafc3474940ae60b877276c6dd943a4bf45aaa2ce779475c2b3039c",
+      "views": [
+        {
+          "name": "library-oblique",
+          "path": "renders/revision-3/production/run-49waH2/pass-2/component-library/library-oblique.png",
+          "sha256": "1dbe0ebcfeec95af639295c0242f36a7c62f75701d0b1b2f6ac9b0780aab23a3",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "library-opposite",
+          "path": "renders/revision-3/production/run-49waH2/pass-2/component-library/library-opposite.png",
+          "sha256": "5fb341f8c67539517e839dacadb2f50c12ad68411562909cfa5da7044f9a55d0",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "renders/revision-3/production/run-49waH2/pass-2/component-library/library-oblique.png": "1dbe0ebcfeec95af639295c0242f36a7c62f75701d0b1b2f6ac9b0780aab23a3",
+    "renders/revision-3/production/run-49waH2/pass-2/component-library/library-opposite.png": "5fb341f8c67539517e839dacadb2f50c12ad68411562909cfa5da7044f9a55d0",
+    "revision-3/source/uk-comet-i-conversions.blend": "98148739618872297801d3f992c5ad31b4eedfea369500683f9de1287a79b73f",
+    "revision-3/source/uk-comet-i-conversions.glb": "7a06ae95b68f2f33767f01ebf9021ea33018b861a05a781f6ef420efe1be8fe0"
+  }
+}

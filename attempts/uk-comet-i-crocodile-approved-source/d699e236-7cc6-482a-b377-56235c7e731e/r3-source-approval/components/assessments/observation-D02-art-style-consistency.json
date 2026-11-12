@@ -1,0 +1,648 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "observation-d02-art-style-consistency-r3-fit2",
+  "rubric": {
+    "rubricId": "art-style-consistency",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "uk-comet-i-observation",
+    "revisionId": "0.1.0-candidate.r3-fit2/D02",
+    "revision": 3
+  },
+  "evidenceSet": {
+    "revision": 3,
+    "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+    "renderSetSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+    "requiredViews": [
+      {
+        "viewId": "front-left",
+        "width": 256,
+        "height": 256,
+        "sha256": "6e67d1d1d32a87693b6e7652ba78c86748f3bb214307693699dba75dbd7bf9cd"
+      },
+      {
+        "viewId": "rear-right",
+        "width": 256,
+        "height": 256,
+        "sha256": "5350cac394668005aaec45b3ebe4a2ae57dfec2f953253692de464b9d2ce168e"
+      },
+      {
+        "viewId": "vehicle-left",
+        "width": 256,
+        "height": 256,
+        "sha256": "4a8307e14c1bbec2a4a24b259b8be992857b863e7489cab5c404aacaa8bb1742"
+      },
+      {
+        "viewId": "vehicle-right",
+        "width": 256,
+        "height": 256,
+        "sha256": "454047b20102a14b275da8f8fba666ca8f1d727d4d1a3a51506580ed73e49772"
+      },
+      {
+        "viewId": "front",
+        "width": 256,
+        "height": 256,
+        "sha256": "1822237d2ff8a9ec37e40246d704c7ffbfe9b3d3e1c41c6e3ec61b6628d5d74b"
+      },
+      {
+        "viewId": "rear",
+        "width": 256,
+        "height": 256,
+        "sha256": "925f8b03787463563bfdee7f46b88ddbb2a1b4a307eba4a093df9d10f3508d2b"
+      },
+      {
+        "viewId": "top",
+        "width": 256,
+        "height": 256,
+        "sha256": "cad4c048dd91c59cf27b45f1057019e85f56af5c790cbd11b2c6ffa49c8134f3"
+      },
+      {
+        "viewId": "underside",
+        "width": 256,
+        "height": 256,
+        "sha256": "ce437da4e5823bd836b019fb495282bbdf149ee09c9aec9a9838f3fa13a75400"
+      }
+    ],
+    "validation": {
+      "reportId": "8b7640df-b06e-4d50-8162-224ff7630ba6",
+      "revision": 3,
+      "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "abstraction-detail",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "6e67d1d1d32a87693b6e7652ba78c86748f3bb214307693699dba75dbd7bf9cd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "5350cac394668005aaec45b3ebe4a2ae57dfec2f953253692de464b9d2ce168e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "4a8307e14c1bbec2a4a24b259b8be992857b863e7489cab5c404aacaa8bb1742"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "454047b20102a14b275da8f8fba666ca8f1d727d4d1a3a51506580ed73e49772"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Dummy tube broken and equipment cases crushed. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "1822237d2ff8a9ec37e40246d704c7ffbfe9b3d3e1c41c6e3ec61b6628d5d74b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Dummy tube broken and equipment cases crushed. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "925f8b03787463563bfdee7f46b88ddbb2a1b4a307eba4a093df9d10f3508d2b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Dummy tube broken and equipment cases crushed. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "cad4c048dd91c59cf27b45f1057019e85f56af5c790cbd11b2c6ffa49c8134f3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Dummy tube broken and equipment cases crushed. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "ce437da4e5823bd836b019fb495282bbdf149ee09c9aec9a9838f3fa13a75400"
+        }
+      ]
+    },
+    {
+      "categoryId": "shape-edge",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "6e67d1d1d32a87693b6e7652ba78c86748f3bb214307693699dba75dbd7bf9cd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "5350cac394668005aaec45b3ebe4a2ae57dfec2f953253692de464b9d2ce168e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "4a8307e14c1bbec2a4a24b259b8be992857b863e7489cab5c404aacaa8bb1742"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "454047b20102a14b275da8f8fba666ca8f1d727d4d1a3a51506580ed73e49772"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Dummy tube broken and equipment cases crushed. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "1822237d2ff8a9ec37e40246d704c7ffbfe9b3d3e1c41c6e3ec61b6628d5d74b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Dummy tube broken and equipment cases crushed. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "925f8b03787463563bfdee7f46b88ddbb2a1b4a307eba4a093df9d10f3508d2b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Dummy tube broken and equipment cases crushed. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "cad4c048dd91c59cf27b45f1057019e85f56af5c790cbd11b2c6ffa49c8134f3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Dummy tube broken and equipment cases crushed. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "ce437da4e5823bd836b019fb495282bbdf149ee09c9aec9a9838f3fa13a75400"
+        }
+      ]
+    },
+    {
+      "categoryId": "proportional-stylization",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Dummy tube broken and equipment cases crushed. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "6e67d1d1d32a87693b6e7652ba78c86748f3bb214307693699dba75dbd7bf9cd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Dummy tube broken and equipment cases crushed. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "5350cac394668005aaec45b3ebe4a2ae57dfec2f953253692de464b9d2ce168e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Dummy tube broken and equipment cases crushed. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "4a8307e14c1bbec2a4a24b259b8be992857b863e7489cab5c404aacaa8bb1742"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Dummy tube broken and equipment cases crushed. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "454047b20102a14b275da8f8fba666ca8f1d727d4d1a3a51506580ed73e49772"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Dummy tube broken and equipment cases crushed. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "1822237d2ff8a9ec37e40246d704c7ffbfe9b3d3e1c41c6e3ec61b6628d5d74b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Dummy tube broken and equipment cases crushed. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "925f8b03787463563bfdee7f46b88ddbb2a1b4a307eba4a093df9d10f3508d2b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Dummy tube broken and equipment cases crushed. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "cad4c048dd91c59cf27b45f1057019e85f56af5c790cbd11b2c6ffa49c8134f3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Dummy tube broken and equipment cases crushed. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "ce437da4e5823bd836b019fb495282bbdf149ee09c9aec9a9838f3fa13a75400"
+        }
+      ]
+    },
+    {
+      "categoryId": "value-hierarchy",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "6e67d1d1d32a87693b6e7652ba78c86748f3bb214307693699dba75dbd7bf9cd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "5350cac394668005aaec45b3ebe4a2ae57dfec2f953253692de464b9d2ce168e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "4a8307e14c1bbec2a4a24b259b8be992857b863e7489cab5c404aacaa8bb1742"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "454047b20102a14b275da8f8fba666ca8f1d727d4d1a3a51506580ed73e49772"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Dummy tube broken and equipment cases crushed. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "1822237d2ff8a9ec37e40246d704c7ffbfe9b3d3e1c41c6e3ec61b6628d5d74b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Dummy tube broken and equipment cases crushed. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "925f8b03787463563bfdee7f46b88ddbb2a1b4a307eba4a093df9d10f3508d2b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Dummy tube broken and equipment cases crushed. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "cad4c048dd91c59cf27b45f1057019e85f56af5c790cbd11b2c6ffa49c8134f3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Dummy tube broken and equipment cases crushed. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "ce437da4e5823bd836b019fb495282bbdf149ee09c9aec9a9838f3fa13a75400"
+        }
+      ]
+    },
+    {
+      "categoryId": "palette-behavior",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "6e67d1d1d32a87693b6e7652ba78c86748f3bb214307693699dba75dbd7bf9cd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "5350cac394668005aaec45b3ebe4a2ae57dfec2f953253692de464b9d2ce168e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "4a8307e14c1bbec2a4a24b259b8be992857b863e7489cab5c404aacaa8bb1742"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "454047b20102a14b275da8f8fba666ca8f1d727d4d1a3a51506580ed73e49772"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Dummy tube broken and equipment cases crushed. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "1822237d2ff8a9ec37e40246d704c7ffbfe9b3d3e1c41c6e3ec61b6628d5d74b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Dummy tube broken and equipment cases crushed. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "925f8b03787463563bfdee7f46b88ddbb2a1b4a307eba4a093df9d10f3508d2b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Dummy tube broken and equipment cases crushed. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "cad4c048dd91c59cf27b45f1057019e85f56af5c790cbd11b2c6ffa49c8134f3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Dummy tube broken and equipment cases crushed. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "ce437da4e5823bd836b019fb495282bbdf149ee09c9aec9a9838f3fa13a75400"
+        }
+      ]
+    },
+    {
+      "categoryId": "material-vocabulary",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "6e67d1d1d32a87693b6e7652ba78c86748f3bb214307693699dba75dbd7bf9cd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "5350cac394668005aaec45b3ebe4a2ae57dfec2f953253692de464b9d2ce168e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "4a8307e14c1bbec2a4a24b259b8be992857b863e7489cab5c404aacaa8bb1742"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "454047b20102a14b275da8f8fba666ca8f1d727d4d1a3a51506580ed73e49772"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Dummy tube broken and equipment cases crushed. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "1822237d2ff8a9ec37e40246d704c7ffbfe9b3d3e1c41c6e3ec61b6628d5d74b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Dummy tube broken and equipment cases crushed. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "925f8b03787463563bfdee7f46b88ddbb2a1b4a307eba4a093df9d10f3508d2b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Dummy tube broken and equipment cases crushed. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "cad4c048dd91c59cf27b45f1057019e85f56af5c790cbd11b2c6ffa49c8134f3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Dummy tube broken and equipment cases crushed. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "ce437da4e5823bd836b019fb495282bbdf149ee09c9aec9a9838f3fa13a75400"
+        }
+      ]
+    },
+    {
+      "categoryId": "markings-wear",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "6e67d1d1d32a87693b6e7652ba78c86748f3bb214307693699dba75dbd7bf9cd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "5350cac394668005aaec45b3ebe4a2ae57dfec2f953253692de464b9d2ce168e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "4a8307e14c1bbec2a4a24b259b8be992857b863e7489cab5c404aacaa8bb1742"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "454047b20102a14b275da8f8fba666ca8f1d727d4d1a3a51506580ed73e49772"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Dummy tube broken and equipment cases crushed. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "1822237d2ff8a9ec37e40246d704c7ffbfe9b3d3e1c41c6e3ec61b6628d5d74b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Dummy tube broken and equipment cases crushed. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "925f8b03787463563bfdee7f46b88ddbb2a1b4a307eba4a093df9d10f3508d2b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Dummy tube broken and equipment cases crushed. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "cad4c048dd91c59cf27b45f1057019e85f56af5c790cbd11b2c6ffa49c8134f3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Dummy tube broken and equipment cases crushed. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "ce437da4e5823bd836b019fb495282bbdf149ee09c9aec9a9838f3fa13a75400"
+        }
+      ]
+    },
+    {
+      "categoryId": "presentation-behavior",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "6e67d1d1d32a87693b6e7652ba78c86748f3bb214307693699dba75dbd7bf9cd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "5350cac394668005aaec45b3ebe4a2ae57dfec2f953253692de464b9d2ce168e"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Dummy tube broken and equipment cases crushed. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "4a8307e14c1bbec2a4a24b259b8be992857b863e7489cab5c404aacaa8bb1742"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Dummy tube broken and equipment cases crushed. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "454047b20102a14b275da8f8fba666ca8f1d727d4d1a3a51506580ed73e49772"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Dummy tube broken and equipment cases crushed. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "1822237d2ff8a9ec37e40246d704c7ffbfe9b3d3e1c41c6e3ec61b6628d5d74b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Dummy tube broken and equipment cases crushed. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "925f8b03787463563bfdee7f46b88ddbb2a1b4a307eba4a093df9d10f3508d2b"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Dummy tube broken and equipment cases crushed. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "cad4c048dd91c59cf27b45f1057019e85f56af5c790cbd11b2c6ffa49c8134f3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Dummy tube broken and equipment cases crushed. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "ce437da4e5823bd836b019fb495282bbdf149ee09c9aec9a9838f3fa13a75400"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "immutable-profile",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/catalog/art-styles/grounded-tactical-miniature-visual/1.0.0.yaml",
+          "evidenceSha256": "0f32ed9341b5233a03c0ec49e0944eeec960000901eca07175c577e67b001f16",
+          "observation": "Exact same immutable visual profile as accepted base authoring; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "presentation-contract",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "cross-view-consistency",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "independent-principles",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+          "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+          "observation": "Independent source-artwork review finds deliberate functional forms, not literal copying of donor mesh or one comparison asset."
+        }
+      ]
+    },
+    {
+      "gateId": "attributable-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/research/reference-packet.json",
+          "evidenceSha256": "2360a42833ffc75af07e3b02b3c1248b415c71944ccecd4471408269bcc69933",
+          "observation": "Original modeled proposed conversions, explicit alternate history and attributed private reference research; no donor meshes or third-party textures."
+        }
+      ]
+    }
+  ],
+  "assessedBy": "Codex /root primary",
+  "assessedAt": "2026-11-10T05:51:06.114541Z",
+  "adversarialReview": {
+    "reviewedBy": "Codex /root/adversarial_conversion_review",
+    "reviewedAt": "2026-11-10T05:51:06.114541Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "abstraction-detail",
+        "strongestReasonBelowThree": "Command role details are tiny, while tyres and optics could drift into generic primitives rather than informative functional forms.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Floor3 supported for source artwork: tall aerials, cross-bustle poles/cases/reel, short dummy gun/optic head and wedge/trailer wheel hierarchy provide sparse secondary explanation at native256. Tertiary noise is restrained. OP optical end contrast remains an advisory; no new microdetail demand."
+          }
+        ]
+      },
+      {
+        "categoryId": "shape-edge",
+        "strongestReasonBelowThree": "Faceted cylinders and sharp plates could look like unrelated construction vocabularies; the trailer could become an ungrounded angular toy.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Floor3 supported: vehicle additions retain deliberate planar armour, faceted cast/socket forms and narrow pole/reel primitives consistent with the base. The revised tyre rounded body and low-profile chevrons now separate rubber from plate construction without oversized paddles. No speculative bevel pass required."
+          }
+        ]
+      },
+      {
+        "categoryId": "value-hierarchy",
+        "strongestReasonBelowThree": "All-olive equipment may vanish against the turret; burned W01 accessories could merge into a dark lump.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Floor3 supported: dark undercarriage/tyres establish the lowest band, olive main masses remain clear, subdued canvas and reel/case contrasts are scarce accents. W01 dark turret and equipment still retain distinct edges and collapse geometry. Not a claim of lighting qualification."
+          }
+        ]
+      },
+      {
+        "categoryId": "presentation-behavior",
+        "strongestReasonBelowThree": "Large padded diagnostics could hide weakness at gameplay size, and one favorable view might conceal openings or supports.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Visual legibility floor3 supported by native256 thumbnails plus opposing sides, front, top, underside and exposed-state diagnostics. Camera/pivot/scale/lighting/runtime-format/performance/fallback requirements explicitly excluded by this exact visual-only profile are not applicable. No transparent frame, anchor or runtime-format failure is asserted. Front-only command wreck role discrimination remains advisory."
+          }
+        ]
+      }
+    ]
+  },
+  "styleProfile": {
+    "profileId": "grounded-tactical-miniature-visual",
+    "version": "1.0.0"
+  }
+}

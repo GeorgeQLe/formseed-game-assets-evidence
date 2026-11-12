@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "2.0.0",
+  "weightedTotal": 75,
+  "recommendation": "no-go",
+  "effectiveDecision": "no-go",
+  "checks": {
+    "threshold": false,
+    "categoryFloors": true,
+    "coreFloors": true,
+    "hardGates": true,
+    "structuredEvidence": true,
+    "adversarialReview": true
+  },
+  "failures": [
+    {
+      "kind": "threshold",
+      "id": "weighted-total",
+      "message": "75 is below the 80-point threshold."
+    }
+  ],
+  "status": {
+    "technicalValidation": "pass",
+    "visualRecommendation": "no-go",
+    "humanApproval": "absent"
+  },
+  "overrideApplied": false,
+  "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+}

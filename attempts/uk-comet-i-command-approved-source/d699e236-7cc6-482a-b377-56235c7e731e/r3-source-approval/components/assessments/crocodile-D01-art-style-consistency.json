@@ -1,0 +1,648 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "crocodile-d01-art-style-consistency-r3-fit2",
+  "rubric": {
+    "rubricId": "art-style-consistency",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "uk-comet-i-crocodile",
+    "revisionId": "0.1.0-candidate.r3-fit2/D01",
+    "revision": 3
+  },
+  "evidenceSet": {
+    "revision": 3,
+    "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+    "renderSetSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+    "requiredViews": [
+      {
+        "viewId": "front-left",
+        "width": 256,
+        "height": 256,
+        "sha256": "bd9511ab1bc9342d4457bfa24deb618f010619af032cd58934ee6f33ed914fec"
+      },
+      {
+        "viewId": "rear-right",
+        "width": 256,
+        "height": 256,
+        "sha256": "dacc763a354e7b5ec711e605028c3957ff224cdf0f560a24fdc629235ca1efc3"
+      },
+      {
+        "viewId": "vehicle-left",
+        "width": 256,
+        "height": 256,
+        "sha256": "9bff10820406db41eb823066740e74d08ff90b9dc8db71c6dab16e63b52e879c"
+      },
+      {
+        "viewId": "vehicle-right",
+        "width": 256,
+        "height": 256,
+        "sha256": "1240dc9999b80ddea6c9232db1e9b3a7260327c5a944b934101debbb64d4a9b8"
+      },
+      {
+        "viewId": "front",
+        "width": 256,
+        "height": 256,
+        "sha256": "6b7224277f446988ad9c672e490ab9762d0b9b967bee09f1e9a5713938c2a48d"
+      },
+      {
+        "viewId": "rear",
+        "width": 256,
+        "height": 256,
+        "sha256": "ab5a6dd431873658c7f6073d51caee223c296ed10b0925a684ec2c5de54ca6a0"
+      },
+      {
+        "viewId": "top",
+        "width": 256,
+        "height": 256,
+        "sha256": "72cff9400458f53c4b80bc7eb8319ab1b26a284a4883fea47f6b15c64c14fe6f"
+      },
+      {
+        "viewId": "underside",
+        "width": 256,
+        "height": 256,
+        "sha256": "89892e9ac2763146a7fdeb633022d47f16d5c77332601955cb9a9c58394f56bc"
+      }
+    ],
+    "validation": {
+      "reportId": "8b7640df-b06e-4d50-8162-224ff7630ba6",
+      "revision": 3,
+      "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "abstraction-detail",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Mobility loss and deformed bow projector. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "bd9511ab1bc9342d4457bfa24deb618f010619af032cd58934ee6f33ed914fec"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Mobility loss and deformed bow projector. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "dacc763a354e7b5ec711e605028c3957ff224cdf0f560a24fdc629235ca1efc3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Mobility loss and deformed bow projector. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "9bff10820406db41eb823066740e74d08ff90b9dc8db71c6dab16e63b52e879c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Mobility loss and deformed bow projector. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "1240dc9999b80ddea6c9232db1e9b3a7260327c5a944b934101debbb64d4a9b8"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Mobility loss and deformed bow projector. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "6b7224277f446988ad9c672e490ab9762d0b9b967bee09f1e9a5713938c2a48d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Mobility loss and deformed bow projector. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "ab5a6dd431873658c7f6073d51caee223c296ed10b0925a684ec2c5de54ca6a0"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Mobility loss and deformed bow projector. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "72cff9400458f53c4b80bc7eb8319ab1b26a284a4883fea47f6b15c64c14fe6f"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Mobility loss and deformed bow projector. Sparse functional secondary additions explain communications, observation and flame-trailer roles while preserving the accepted tactical miniature. Optics could gain subtle lens/rim detail; no reference-quality claim.",
+          "evidenceSha256": "89892e9ac2763146a7fdeb633022d47f16d5c77332601955cb9a9c58394f56bc"
+        }
+      ]
+    },
+    {
+      "categoryId": "shape-edge",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Mobility loss and deformed bow projector. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "bd9511ab1bc9342d4457bfa24deb618f010619af032cd58934ee6f33ed914fec"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Mobility loss and deformed bow projector. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "dacc763a354e7b5ec711e605028c3957ff224cdf0f560a24fdc629235ca1efc3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Mobility loss and deformed bow projector. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "9bff10820406db41eb823066740e74d08ff90b9dc8db71c6dab16e63b52e879c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Mobility loss and deformed bow projector. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "1240dc9999b80ddea6c9232db1e9b3a7260327c5a944b934101debbb64d4a9b8"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Mobility loss and deformed bow projector. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "6b7224277f446988ad9c672e490ab9762d0b9b967bee09f1e9a5713938c2a48d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Mobility loss and deformed bow projector. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "ab5a6dd431873658c7f6073d51caee223c296ed10b0925a684ec2c5de54ca6a0"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Mobility loss and deformed bow projector. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "72cff9400458f53c4b80bc7eb8319ab1b26a284a4883fea47f6b15c64c14fe6f"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Mobility loss and deformed bow projector. Planar armor, faceted collars, cases, reels and restrained tyre chevrons follow the accepted mesh vocabulary. Sharp box and optical transitions remain serviceable production choices, not an exceptional edge-language benchmark.",
+          "evidenceSha256": "89892e9ac2763146a7fdeb633022d47f16d5c77332601955cb9a9c58394f56bc"
+        }
+      ]
+    },
+    {
+      "categoryId": "proportional-stylization",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Mobility loss and deformed bow projector. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "bd9511ab1bc9342d4457bfa24deb618f010619af032cd58934ee6f33ed914fec"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Mobility loss and deformed bow projector. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "dacc763a354e7b5ec711e605028c3957ff224cdf0f560a24fdc629235ca1efc3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Mobility loss and deformed bow projector. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "9bff10820406db41eb823066740e74d08ff90b9dc8db71c6dab16e63b52e879c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Mobility loss and deformed bow projector. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "1240dc9999b80ddea6c9232db1e9b3a7260327c5a944b934101debbb64d4a9b8"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Mobility loss and deformed bow projector. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "6b7224277f446988ad9c672e490ab9762d0b9b967bee09f1e9a5713938c2a48d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Mobility loss and deformed bow projector. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "ab5a6dd431873658c7f6073d51caee223c296ed10b0925a684ec2c5de54ca6a0"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Mobility loss and deformed bow projector. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "72cff9400458f53c4b80bc7eb8319ab1b26a284a4883fea47f6b15c64c14fe6f"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Mobility loss and deformed bow projector. The accepted tank proportions are preserved. New authored design envelopes remain credible and explicit; absent authenticated trailer dimensions prevent historical precision claims or benchmark grading.",
+          "evidenceSha256": "89892e9ac2763146a7fdeb633022d47f16d5c77332601955cb9a9c58394f56bc"
+        }
+      ]
+    },
+    {
+      "categoryId": "value-hierarchy",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Mobility loss and deformed bow projector. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "bd9511ab1bc9342d4457bfa24deb618f010619af032cd58934ee6f33ed914fec"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Mobility loss and deformed bow projector. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "dacc763a354e7b5ec711e605028c3957ff224cdf0f560a24fdc629235ca1efc3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Mobility loss and deformed bow projector. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "9bff10820406db41eb823066740e74d08ff90b9dc8db71c6dab16e63b52e879c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Mobility loss and deformed bow projector. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "1240dc9999b80ddea6c9232db1e9b3a7260327c5a944b934101debbb64d4a9b8"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Mobility loss and deformed bow projector. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "6b7224277f446988ad9c672e490ab9762d0b9b967bee09f1e9a5713938c2a48d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Mobility loss and deformed bow projector. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "ab5a6dd431873658c7f6073d51caee223c296ed10b0925a684ec2c5de54ca6a0"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Mobility loss and deformed bow projector. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "72cff9400458f53c4b80bc7eb8319ab1b26a284a4883fea47f6b15c64c14fe6f"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Mobility loss and deformed bow projector. Dark running gear/rubber under olive body and scarce canvas/optic accents support coherent three-band reading. Some all-olive roof fittings and dark wreck accessories merge at the smallest view.",
+          "evidenceSha256": "89892e9ac2763146a7fdeb633022d47f16d5c77332601955cb9a9c58394f56bc"
+        }
+      ]
+    },
+    {
+      "categoryId": "palette-behavior",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Mobility loss and deformed bow projector. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "bd9511ab1bc9342d4457bfa24deb618f010619af032cd58934ee6f33ed914fec"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Mobility loss and deformed bow projector. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "dacc763a354e7b5ec711e605028c3957ff224cdf0f560a24fdc629235ca1efc3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Mobility loss and deformed bow projector. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "9bff10820406db41eb823066740e74d08ff90b9dc8db71c6dab16e63b52e879c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Mobility loss and deformed bow projector. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "1240dc9999b80ddea6c9232db1e9b3a7260327c5a944b934101debbb64d4a9b8"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Mobility loss and deformed bow projector. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "6b7224277f446988ad9c672e490ab9762d0b9b967bee09f1e9a5713938c2a48d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Mobility loss and deformed bow projector. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "ab5a6dd431873658c7f6073d51caee223c296ed10b0925a684ec2c5de54ca6a0"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Mobility loss and deformed bow projector. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "72cff9400458f53c4b80bc7eb8319ab1b26a284a4883fea47f6b15c64c14fe6f"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Mobility loss and deformed bow projector. Restrained olive, rubber, canvas and burn finishes remain coherent across the program. No copied grading, invented unit markings or color-only faction identity. Compliant rather than an exceptional palette study.",
+          "evidenceSha256": "89892e9ac2763146a7fdeb633022d47f16d5c77332601955cb9a9c58394f56bc"
+        }
+      ]
+    },
+    {
+      "categoryId": "material-vocabulary",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Mobility loss and deformed bow projector. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "bd9511ab1bc9342d4457bfa24deb618f010619af032cd58934ee6f33ed914fec"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Mobility loss and deformed bow projector. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "dacc763a354e7b5ec711e605028c3957ff224cdf0f560a24fdc629235ca1efc3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Mobility loss and deformed bow projector. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "9bff10820406db41eb823066740e74d08ff90b9dc8db71c6dab16e63b52e879c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Mobility loss and deformed bow projector. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "1240dc9999b80ddea6c9232db1e9b3a7260327c5a944b934101debbb64d4a9b8"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Mobility loss and deformed bow projector. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "6b7224277f446988ad9c672e490ab9762d0b9b967bee09f1e9a5713938c2a48d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Mobility loss and deformed bow projector. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "ab5a6dd431873658c7f6073d51caee223c296ed10b0925a684ec2c5de54ca6a0"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Mobility loss and deformed bow projector. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "72cff9400458f53c4b80bc7eb8319ab1b26a284a4883fea47f6b15c64c14fe6f"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Mobility loss and deformed bow projector. Matte painted metal, dark rubber, canvas and a recessed aperture provide sparse meaningful differences without photoreal noise. Optical glazing/end response is simplified; no numeric material-reference qualification.",
+          "evidenceSha256": "89892e9ac2763146a7fdeb633022d47f16d5c77332601955cb9a9c58394f56bc"
+        }
+      ]
+    },
+    {
+      "categoryId": "markings-wear",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Mobility loss and deformed bow projector. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "bd9511ab1bc9342d4457bfa24deb618f010619af032cd58934ee6f33ed914fec"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Mobility loss and deformed bow projector. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "dacc763a354e7b5ec711e605028c3957ff224cdf0f560a24fdc629235ca1efc3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Mobility loss and deformed bow projector. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "9bff10820406db41eb823066740e74d08ff90b9dc8db71c6dab16e63b52e879c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Mobility loss and deformed bow projector. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "1240dc9999b80ddea6c9232db1e9b3a7260327c5a944b934101debbb64d4a9b8"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Mobility loss and deformed bow projector. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "6b7224277f446988ad9c672e490ab9762d0b9b967bee09f1e9a5713938c2a48d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Mobility loss and deformed bow projector. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "ab5a6dd431873658c7f6073d51caee223c296ed10b0925a684ec2c5de54ca6a0"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Mobility loss and deformed bow projector. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "72cff9400458f53c4b80bc7eb8319ab1b26a284a4883fea47f6b15c64c14fe6f"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Mobility loss and deformed bow projector. Explicit-none new markings and geometry-specific damage avoid gratuitous insignia/rust. W01 burn,W02 separation/mobility andW03 displaced/overturned states are distinct. Fine exposure/weathering character remains restrained rather than reference-quality.",
+          "evidenceSha256": "89892e9ac2763146a7fdeb633022d47f16d5c77332601955cb9a9c58394f56bc"
+        }
+      ]
+    },
+    {
+      "categoryId": "presentation-behavior",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Mobility loss and deformed bow projector. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "bd9511ab1bc9342d4457bfa24deb618f010619af032cd58934ee6f33ed914fec"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Mobility loss and deformed bow projector. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "dacc763a354e7b5ec711e605028c3957ff224cdf0f560a24fdc629235ca1efc3"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Mobility loss and deformed bow projector. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "9bff10820406db41eb823066740e74d08ff90b9dc8db71c6dab16e63b52e879c"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Mobility loss and deformed bow projector. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "1240dc9999b80ddea6c9232db1e9b3a7260327c5a944b934101debbb64d4a9b8"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Mobility loss and deformed bow projector. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "6b7224277f446988ad9c672e490ab9762d0b9b967bee09f1e9a5713938c2a48d"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Mobility loss and deformed bow projector. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "ab5a6dd431873658c7f6073d51caee223c296ed10b0925a684ec2c5de54ca6a0"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Mobility loss and deformed bow projector. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "72cff9400458f53c4b80bc7eb8319ab1b26a284a4883fea47f6b15c64c14fe6f"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Mobility loss and deformed bow projector. Current full diagnostic and unlabelled256px frames cover opposing/exposed forms. The exact visual-only profile excludes camera,pivot,scale,lighting,runtime-format,performance,fallback; no game-atlas or native runtime presentation pass is claimed.",
+          "evidenceSha256": "89892e9ac2763146a7fdeb633022d47f16d5c77332601955cb9a9c58394f56bc"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "immutable-profile",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/catalog/art-styles/grounded-tactical-miniature-visual/1.0.0.yaml",
+          "evidenceSha256": "0f32ed9341b5233a03c0ec49e0944eeec960000901eca07175c577e67b001f16",
+          "observation": "Exact same immutable visual profile as accepted base authoring; no approval transferred."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "presentation-contract",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "cross-view-consistency",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "independent-principles",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+          "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+          "observation": "Independent source-artwork review finds deliberate functional forms, not literal copying of donor mesh or one comparison asset."
+        }
+      ]
+    },
+    {
+      "gateId": "attributable-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/research/reference-packet.json",
+          "evidenceSha256": "2360a42833ffc75af07e3b02b3c1248b415c71944ccecd4471408269bcc69933",
+          "observation": "Original modeled proposed conversions, explicit alternate history and attributed private reference research; no donor meshes or third-party textures."
+        }
+      ]
+    }
+  ],
+  "assessedBy": "Codex /root primary",
+  "assessedAt": "2026-11-10T05:51:06.114541Z",
+  "adversarialReview": {
+    "reviewedBy": "Codex /root/adversarial_conversion_review",
+    "reviewedAt": "2026-11-10T05:51:06.114541Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "abstraction-detail",
+        "strongestReasonBelowThree": "Command role details are tiny, while tyres and optics could drift into generic primitives rather than informative functional forms.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Floor3 supported for source artwork: tall aerials, cross-bustle poles/cases/reel, short dummy gun/optic head and wedge/trailer wheel hierarchy provide sparse secondary explanation at native256. Tertiary noise is restrained. OP optical end contrast remains an advisory; no new microdetail demand."
+          }
+        ]
+      },
+      {
+        "categoryId": "shape-edge",
+        "strongestReasonBelowThree": "Faceted cylinders and sharp plates could look like unrelated construction vocabularies; the trailer could become an ungrounded angular toy.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Floor3 supported: vehicle additions retain deliberate planar armour, faceted cast/socket forms and narrow pole/reel primitives consistent with the base. The revised tyre rounded body and low-profile chevrons now separate rubber from plate construction without oversized paddles. No speculative bevel pass required."
+          }
+        ]
+      },
+      {
+        "categoryId": "value-hierarchy",
+        "strongestReasonBelowThree": "All-olive equipment may vanish against the turret; burned W01 accessories could merge into a dark lump.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Floor3 supported: dark undercarriage/tyres establish the lowest band, olive main masses remain clear, subdued canvas and reel/case contrasts are scarce accents. W01 dark turret and equipment still retain distinct edges and collapse geometry. Not a claim of lighting qualification."
+          }
+        ]
+      },
+      {
+        "categoryId": "presentation-behavior",
+        "strongestReasonBelowThree": "Large padded diagnostics could hide weakness at gameplay size, and one favorable view might conceal openings or supports.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Visual legibility floor3 supported by native256 thumbnails plus opposing sides, front, top, underside and exposed-state diagnostics. Camera/pivot/scale/lighting/runtime-format/performance/fallback requirements explicitly excluded by this exact visual-only profile are not applicable. No transparent frame, anchor or runtime-format failure is asserted. Front-only command wreck role discrimination remains advisory."
+          }
+        ]
+      }
+    ]
+  },
+  "styleProfile": {
+    "profileId": "grounded-tactical-miniature-visual",
+    "version": "1.0.0"
+  }
+}

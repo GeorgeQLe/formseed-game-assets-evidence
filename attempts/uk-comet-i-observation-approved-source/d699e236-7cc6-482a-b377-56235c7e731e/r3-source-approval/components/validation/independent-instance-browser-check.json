@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "package": "command",
+      "meshes": 88,
+      "independentGeometryAndArrays": true,
+      "poseVisibilityAndGeometryMutationIsolated": true,
+      "materialDisposalOwnershipIndependent": true,
+      "secondInstanceTriangles": 18884
+    },
+    {
+      "package": "observation",
+      "meshes": 89,
+      "independentGeometryAndArrays": true,
+      "poseVisibilityAndGeometryMutationIsolated": true,
+      "materialDisposalOwnershipIndependent": true,
+      "secondInstanceTriangles": 18372
+    },
+    {
+      "package": "crocodile",
+      "meshes": 97,
+      "independentGeometryAndArrays": true,
+      "poseVisibilityAndGeometryMutationIsolated": true,
+      "materialDisposalOwnershipIndependent": true,
+      "secondInstanceTriangles": 21988
+    }
+  ],
+  "scope": "Two separately loaded review fixtures per clean package, no runtime consumer adapter integration or shared-cache lifetime qualification",
+  "approved": false
+}

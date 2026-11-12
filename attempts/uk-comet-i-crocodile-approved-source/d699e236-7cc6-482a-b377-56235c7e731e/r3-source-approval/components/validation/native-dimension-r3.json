@@ -1,0 +1,7352 @@
+{
+  "capabilityVersion": "dimension-validation@1.2.0",
+  "kind": "asset-dimension-validation",
+  "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+  "branchId": "main",
+  "revision": 3,
+  "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+  "checkpointHash": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+  "specificationHash": "8e43813aa991b238f3cb03742e595a400b1c8432075e34c7263cb2cd3e8a1d6f",
+  "assetSpecificationHash": "1d61b98d1a51b8d389e4cd937b8a734d6646e3b265497798c8957310dbf48c54",
+  "configuration": "library-grid",
+  "pose": "library-grid",
+  "validationScope": {
+    "policy": "configuration-and-pose",
+    "canonical": true,
+    "declaredCriterionIds": [
+      "datum:C_P01-origin:X",
+      "datum:C_P01-origin:Y",
+      "datum:C_P01-origin:Z",
+      "datum:F_DP01A-origin:X",
+      "datum:F_DP01A-origin:Y",
+      "datum:F_DP01A-origin:Z",
+      "datum:F_DP02A-origin:X",
+      "datum:F_DP02A-origin:Y",
+      "datum:F_DP02A-origin:Z",
+      "datum:F_P01-origin:X",
+      "datum:F_P01-origin:Y",
+      "datum:F_P01-origin:Z",
+      "datum:F_P02-origin:X",
+      "datum:F_P02-origin:Y",
+      "datum:F_P02-origin:Z",
+      "datum:F_P03-origin:X",
+      "datum:F_P03-origin:Y",
+      "datum:F_P03-origin:Z",
+      "datum:F_P04-origin:X",
+      "datum:F_P04-origin:Y",
+      "datum:F_P04-origin:Z",
+      "datum:F_WP01A-origin:X",
+      "datum:F_WP01A-origin:Y",
+      "datum:F_WP01A-origin:Z",
+      "datum:O_DP01A-origin:X",
+      "datum:O_DP01A-origin:Y",
+      "datum:O_DP01A-origin:Z",
+      "datum:O_DP03A-origin:X",
+      "datum:O_DP03A-origin:Y",
+      "datum:O_DP03A-origin:Z",
+      "datum:O_DP04A-origin:X",
+      "datum:O_DP04A-origin:Y",
+      "datum:O_DP04A-origin:Z",
+      "datum:O_P01-origin:X",
+      "datum:O_P01-origin:Y",
+      "datum:O_P01-origin:Z",
+      "datum:O_P02-origin:X",
+      "datum:O_P02-origin:Y",
+      "datum:O_P02-origin:Z",
+      "datum:O_P03-origin:X",
+      "datum:O_P03-origin:Y",
+      "datum:O_P03-origin:Z",
+      "datum:O_P04-origin:X",
+      "datum:O_P04-origin:Y",
+      "datum:O_P04-origin:Z",
+      "datum:O_P05-origin:X",
+      "datum:O_P05-origin:Y",
+      "datum:O_P05-origin:Z",
+      "datum:O_WP01A-origin:X",
+      "datum:O_WP01A-origin:Y",
+      "datum:O_WP01A-origin:Z",
+      "datum:O_WP04A-origin:X",
+      "datum:O_WP04A-origin:Y",
+      "datum:O_WP04A-origin:Z",
+      "datum:S_DP01A-origin:X",
+      "datum:S_DP01A-origin:Y",
+      "datum:S_DP01A-origin:Z",
+      "datum:S_DP02A-origin:X",
+      "datum:S_DP02A-origin:Y",
+      "datum:S_DP02A-origin:Z",
+      "datum:S_DP05A-origin:X",
+      "datum:S_DP05A-origin:Y",
+      "datum:S_DP05A-origin:Z",
+      "datum:S_P01-origin:X",
+      "datum:S_P01-origin:Y",
+      "datum:S_P01-origin:Z",
+      "datum:S_P02-origin:X",
+      "datum:S_P02-origin:Y",
+      "datum:S_P02-origin:Z",
+      "datum:S_P03-origin:X",
+      "datum:S_P03-origin:Y",
+      "datum:S_P03-origin:Z",
+      "datum:S_P04-origin:X",
+      "datum:S_P04-origin:Y",
+      "datum:S_P04-origin:Z",
+      "datum:S_P05-origin:X",
+      "datum:S_P05-origin:Y",
+      "datum:S_P05-origin:Z",
+      "datum:S_WP01A-origin:X",
+      "datum:S_WP01A-origin:Y",
+      "datum:S_WP01A-origin:Z",
+      "datum:S_WP02A-origin:X",
+      "datum:S_WP02A-origin:Y",
+      "datum:S_WP02A-origin:Z",
+      "datum:S_WP03A-origin:X",
+      "datum:S_WP03A-origin:Y",
+      "datum:S_WP03A-origin:Z",
+      "datum:S_WP05A-origin:X",
+      "datum:S_WP05A-origin:Y",
+      "datum:S_WP05A-origin:Z",
+      "datum:T_DP01A-origin:X",
+      "datum:T_DP01A-origin:Y",
+      "datum:T_DP01A-origin:Z",
+      "datum:T_DP02A-origin:X",
+      "datum:T_DP02A-origin:Y",
+      "datum:T_DP02A-origin:Z",
+      "datum:T_DP04A-origin:X",
+      "datum:T_DP04A-origin:Y",
+      "datum:T_DP04A-origin:Z",
+      "datum:T_P01-origin:X",
+      "datum:T_P01-origin:Y",
+      "datum:T_P01-origin:Z",
+      "datum:T_P02-origin:X",
+      "datum:T_P02-origin:Y",
+      "datum:T_P02-origin:Z",
+      "datum:T_P03-origin:X",
+      "datum:T_P03-origin:Y",
+      "datum:T_P03-origin:Z",
+      "datum:T_P04-origin:X",
+      "datum:T_P04-origin:Y",
+      "datum:T_P04-origin:Z",
+      "datum:T_P05-origin:X",
+      "datum:T_P05-origin:Y",
+      "datum:T_P05-origin:Z",
+      "datum:T_P06-origin:X",
+      "datum:T_P06-origin:Y",
+      "datum:T_P06-origin:Z",
+      "datum:T_P07-origin:X",
+      "datum:T_P07-origin:Y",
+      "datum:T_P07-origin:Z",
+      "datum:T_WP01A-origin:X",
+      "datum:T_WP01A-origin:Y",
+      "datum:T_WP01A-origin:Z",
+      "datum:T_WP02A-origin:X",
+      "datum:T_WP02A-origin:Y",
+      "datum:T_WP02A-origin:Z",
+      "datum:T_WP03A-origin:X",
+      "datum:T_WP03A-origin:Y",
+      "datum:T_WP03A-origin:Z",
+      "datum:T_WP05A-origin:X",
+      "datum:T_WP05A-origin:Y",
+      "datum:T_WP05A-origin:Z",
+      "datum:library-origin:X",
+      "datum:library-origin:Y",
+      "datum:library-origin:Z",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "applicableCriterionIds": [
+      "datum:C_P01-origin:X",
+      "datum:C_P01-origin:Y",
+      "datum:C_P01-origin:Z",
+      "datum:F_DP01A-origin:X",
+      "datum:F_DP01A-origin:Y",
+      "datum:F_DP01A-origin:Z",
+      "datum:F_DP02A-origin:X",
+      "datum:F_DP02A-origin:Y",
+      "datum:F_DP02A-origin:Z",
+      "datum:F_P01-origin:X",
+      "datum:F_P01-origin:Y",
+      "datum:F_P01-origin:Z",
+      "datum:F_P02-origin:X",
+      "datum:F_P02-origin:Y",
+      "datum:F_P02-origin:Z",
+      "datum:F_P03-origin:X",
+      "datum:F_P03-origin:Y",
+      "datum:F_P03-origin:Z",
+      "datum:F_P04-origin:X",
+      "datum:F_P04-origin:Y",
+      "datum:F_P04-origin:Z",
+      "datum:F_WP01A-origin:X",
+      "datum:F_WP01A-origin:Y",
+      "datum:F_WP01A-origin:Z",
+      "datum:O_DP01A-origin:X",
+      "datum:O_DP01A-origin:Y",
+      "datum:O_DP01A-origin:Z",
+      "datum:O_DP03A-origin:X",
+      "datum:O_DP03A-origin:Y",
+      "datum:O_DP03A-origin:Z",
+      "datum:O_DP04A-origin:X",
+      "datum:O_DP04A-origin:Y",
+      "datum:O_DP04A-origin:Z",
+      "datum:O_P01-origin:X",
+      "datum:O_P01-origin:Y",
+      "datum:O_P01-origin:Z",
+      "datum:O_P02-origin:X",
+      "datum:O_P02-origin:Y",
+      "datum:O_P02-origin:Z",
+      "datum:O_P03-origin:X",
+      "datum:O_P03-origin:Y",
+      "datum:O_P03-origin:Z",
+      "datum:O_P04-origin:X",
+      "datum:O_P04-origin:Y",
+      "datum:O_P04-origin:Z",
+      "datum:O_P05-origin:X",
+      "datum:O_P05-origin:Y",
+      "datum:O_P05-origin:Z",
+      "datum:O_WP01A-origin:X",
+      "datum:O_WP01A-origin:Y",
+      "datum:O_WP01A-origin:Z",
+      "datum:O_WP04A-origin:X",
+      "datum:O_WP04A-origin:Y",
+      "datum:O_WP04A-origin:Z",
+      "datum:S_DP01A-origin:X",
+      "datum:S_DP01A-origin:Y",
+      "datum:S_DP01A-origin:Z",
+      "datum:S_DP02A-origin:X",
+      "datum:S_DP02A-origin:Y",
+      "datum:S_DP02A-origin:Z",
+      "datum:S_DP05A-origin:X",
+      "datum:S_DP05A-origin:Y",
+      "datum:S_DP05A-origin:Z",
+      "datum:S_P01-origin:X",
+      "datum:S_P01-origin:Y",
+      "datum:S_P01-origin:Z",
+      "datum:S_P02-origin:X",
+      "datum:S_P02-origin:Y",
+      "datum:S_P02-origin:Z",
+      "datum:S_P03-origin:X",
+      "datum:S_P03-origin:Y",
+      "datum:S_P03-origin:Z",
+      "datum:S_P04-origin:X",
+      "datum:S_P04-origin:Y",
+      "datum:S_P04-origin:Z",
+      "datum:S_P05-origin:X",
+      "datum:S_P05-origin:Y",
+      "datum:S_P05-origin:Z",
+      "datum:S_WP01A-origin:X",
+      "datum:S_WP01A-origin:Y",
+      "datum:S_WP01A-origin:Z",
+      "datum:S_WP02A-origin:X",
+      "datum:S_WP02A-origin:Y",
+      "datum:S_WP02A-origin:Z",
+      "datum:S_WP03A-origin:X",
+      "datum:S_WP03A-origin:Y",
+      "datum:S_WP03A-origin:Z",
+      "datum:S_WP05A-origin:X",
+      "datum:S_WP05A-origin:Y",
+      "datum:S_WP05A-origin:Z",
+      "datum:T_DP01A-origin:X",
+      "datum:T_DP01A-origin:Y",
+      "datum:T_DP01A-origin:Z",
+      "datum:T_DP02A-origin:X",
+      "datum:T_DP02A-origin:Y",
+      "datum:T_DP02A-origin:Z",
+      "datum:T_DP04A-origin:X",
+      "datum:T_DP04A-origin:Y",
+      "datum:T_DP04A-origin:Z",
+      "datum:T_P01-origin:X",
+      "datum:T_P01-origin:Y",
+      "datum:T_P01-origin:Z",
+      "datum:T_P02-origin:X",
+      "datum:T_P02-origin:Y",
+      "datum:T_P02-origin:Z",
+      "datum:T_P03-origin:X",
+      "datum:T_P03-origin:Y",
+      "datum:T_P03-origin:Z",
+      "datum:T_P04-origin:X",
+      "datum:T_P04-origin:Y",
+      "datum:T_P04-origin:Z",
+      "datum:T_P05-origin:X",
+      "datum:T_P05-origin:Y",
+      "datum:T_P05-origin:Z",
+      "datum:T_P06-origin:X",
+      "datum:T_P06-origin:Y",
+      "datum:T_P06-origin:Z",
+      "datum:T_P07-origin:X",
+      "datum:T_P07-origin:Y",
+      "datum:T_P07-origin:Z",
+      "datum:T_WP01A-origin:X",
+      "datum:T_WP01A-origin:Y",
+      "datum:T_WP01A-origin:Z",
+      "datum:T_WP02A-origin:X",
+      "datum:T_WP02A-origin:Y",
+      "datum:T_WP02A-origin:Z",
+      "datum:T_WP03A-origin:X",
+      "datum:T_WP03A-origin:Y",
+      "datum:T_WP03A-origin:Z",
+      "datum:T_WP05A-origin:X",
+      "datum:T_WP05A-origin:Y",
+      "datum:T_WP05A-origin:Z",
+      "datum:library-origin:X",
+      "datum:library-origin:Y",
+      "datum:library-origin:Z",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "excludedCriterionIds": []
+  },
+  "resourceClosure": {
+    "policy": "self-contained",
+    "externalDependencies": []
+  },
+  "request": {
+    "jobId": "d699e236-7cc6-482a-b377-56235c7e731e",
+    "branchId": "main",
+    "expectedRevision": 3,
+    "checkpoint": {
+      "checkpointId": "24092f5d-e0a5-431a-ac14-829fc4ab070f",
+      "checkpointHash": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1"
+    },
+    "configuration": "library-grid",
+    "pose": "library-grid"
+  },
+  "requestHash": "67ebc0cdcd88a970fbdcd66eecfa336756a2b5817c9323a305510362a63bd2a9",
+  "criterionSetHash": "774c60526254a5b8f7a5771f72d901a8bb2d70720ca04895a7ed0d6d81c1bacd",
+  "evidenceHash": "35ed8615ccaf2751f91c44f197344963ab1b59c4dd79df5a7e33bc3c6ad76877",
+  "evidenceManifestHash": "5a137a694bb2d5a16fb31a7ab8c90bd94b616e18047f46cbefbe22a5120924d0",
+  "criteria": [
+    {
+      "criterionId": "overall-length",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 26.56986717466841,
+        "unit": "m",
+        "source": "production-target"
+      },
+      "observed": 26.56828236579895,
+      "unit": "m",
+      "absoluteDeviation": 0.001584808869459664,
+      "relativeDeviation": 0.00005964684953226313,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.0001,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-width",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 16.65466910470693,
+        "unit": "m",
+        "source": "production-target"
+      },
+      "observed": 16.654669046401978,
+      "unit": "m",
+      "absoluteDeviation": 5.830495197756136e-8,
+      "relativeDeviation": 3.5008171949260318e-9,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.0001,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-height",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 2.5199999999999996,
+        "unit": "m",
+        "source": "production-target"
+      },
+      "observed": 2.5199999511241913,
+      "unit": "m",
+      "absoluteDeviation": 4.887580828949467e-8,
+      "relativeDeviation": 1.9395162019640747e-8,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.0001,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": []
+    },
+    {
+      "criterionId": "datum:library-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "library-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "library-root"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:library-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "library-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "library-root"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:library-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "library-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "library-root"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P01-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P01-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P01-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P02-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P02-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P02-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P03-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 7,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 7,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P03-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P03-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P04-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 10.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 10.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P04-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P04-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P05-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 14,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 14,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P05-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P05"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P05-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P05-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P05"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_P05-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_P05-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P05"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:C_P01-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 17.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 17.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "C_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "C_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:C_P01-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "C_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "C_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:C_P01-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "C_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "C_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P01-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 21,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 21,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P01-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P01-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P02-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 24.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 24.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P02-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P02-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P03-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P03-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P03-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P04-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P04-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P04-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P05-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 7,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 7,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P05-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P05"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P05-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P05-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P05"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_P05-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_P05-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_P05"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P01-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 10.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 10.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P01-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P01-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P02-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 14,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 14,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P02-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P02-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P03-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 17.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 17.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P03-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P03-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P04-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 21,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 21,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P04-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_P04-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P01-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 24.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 24.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P01-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P01-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P01-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P02-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P02-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 6,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 6,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P02-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P02-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P02"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P03-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P03-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 6,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 6,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P03-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P03-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P03"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P04-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 7,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 7,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P04-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 6,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 6,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P04-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P04-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P04"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P05-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 10.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 10.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P05-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P05"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P05-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 6,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 6,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P05-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P05"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P05-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P05-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P05"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P06-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 14,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 14,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P06-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P06"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P06-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 6,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 6,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P06-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P06"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P06-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P06-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P06"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P07-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 17.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 17.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P07-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P07"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P07-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 6,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 6,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P07-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P07"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_P07-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_P07-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_P07"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_DP01A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 21,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 21,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_DP01A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 6,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 6,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_DP01A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_DP02A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 24.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 24.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_DP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_DP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_DP02A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 6,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 6,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_DP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_DP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_DP02A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_DP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_DP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_DP05A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_DP05A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_DP05A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_DP05A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 9,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 9,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_DP05A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_DP05A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_DP05A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_DP05A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_DP05A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP01A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP01A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 9,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 9,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP01A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP02A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 7,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 7,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP02A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 9,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 9,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP02A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP03A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 10.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 10.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP03A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP03A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP03A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 9,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 9,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP03A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP03A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP03A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP03A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP03A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP05A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 14,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 14,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP05A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP05A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP05A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 9,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 9,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP05A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP05A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:S_WP05A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "S_WP05A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_WP05A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_DP01A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 17.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 17.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_DP01A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 9,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 9,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_DP01A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_DP03A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 21,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 21,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_DP03A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_DP03A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_DP03A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 9,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 9,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_DP03A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_DP03A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_DP03A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_DP03A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_DP03A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_DP04A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 24.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 24.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_DP04A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_DP04A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_DP04A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 9,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 9,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_DP04A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_DP04A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_DP04A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_DP04A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_DP04A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_WP01A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_WP01A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 12,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_WP01A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_WP04A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_WP04A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_WP04A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_WP04A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 12,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_WP04A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_WP04A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:O_WP04A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "O_WP04A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "O_WP04A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_DP01A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 7,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 7,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_DP01A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 12,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_DP01A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_DP02A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 10.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 10.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_DP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_DP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_DP02A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 12,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_DP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_DP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_DP02A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_DP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_DP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_WP01A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 14,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 14,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_WP01A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 12,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:F_WP01A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "F_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "F_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_DP01A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 17.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 17.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_DP01A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 12,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_DP01A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_DP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_DP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_DP02A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 21,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 21,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_DP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_DP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_DP02A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 12,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_DP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_DP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_DP02A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_DP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_DP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_DP04A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 24.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 24.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_DP04A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_DP04A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_DP04A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 12,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_DP04A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_DP04A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_DP04A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_DP04A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_DP04A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP01A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP01A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 15,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 15,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP01A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP01A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP01A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP02A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP02A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 15,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 15,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP02A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP02A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP02A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP03A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 7,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 7,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP03A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP03A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP03A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 15,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 15,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP03A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP03A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP03A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP03A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP03A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP05A-origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 10.5,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 10.5,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP05A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP05A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP05A-origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 15,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 15,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP05A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP05A"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:T_WP05A-origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": 0,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "T_WP05A-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "T_WP05A"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:X",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "library-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "library-root"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Y",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "library-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "library-root"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Z",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.0001,
+        "unit": "m",
+        "sourceTarget": "library-origin"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "library-root"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:X",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Native component-local geometry and grid storage locations only; assemblies use explicit separate parent-local transforms and exact base controls."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Y",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Native component-local geometry and grid storage locations only; assemblies use explicit separate parent-local transforms and exact base controls."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Z",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Native component-local geometry and grid storage locations only; assemblies use explicit separate parent-local transforms and exact base controls."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "library-grid",
+      "pose": "library-grid",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "S_P01"
+        }
+      ]
+    }
+  ],
+  "measurements": {
+    "overallBounds": {
+      "minimum": {
+        "x": -1.4500000476837158,
+        "y": -0.7400000095367432,
+        "z": -0.2199999988079071
+      },
+      "maximum": {
+        "x": 25.118282318115234,
+        "y": 15.914669036865234,
+        "z": 2.299999952316284
+      },
+      "center": {
+        "x": 11.83414077758789,
+        "y": 7.587334632873535,
+        "z": 1.0399999618530273
+      }
+    },
+    "dimensions": {
+      "width": 16.654669046401978,
+      "height": 2.5199999511241913,
+      "length": 26.56828236579895,
+      "unit": "m"
+    },
+    "components": [
+      {
+        "object": "S_P01",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.4560000002384186,
+            "y": -0.7400000095367432,
+            "z": -0.2199999988079071
+          },
+          "maximum": {
+            "x": 0.014999999664723873,
+            "y": 0.7400000095367432,
+            "z": 0.25999999046325684
+          },
+          "center": {
+            "x": -0.22050000727176666,
+            "y": 0,
+            "z": 0.019999995827674866
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "5cfb2bbadece6bdfe130d78a5d1843e30b1250d3b3d9ed85e540be5902b4ecc0"
+      },
+      {
+        "object": "S_P02",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 3.450000047683716,
+            "y": -0.05000000074505806,
+            "z": 1
+          },
+          "maximum": {
+            "x": 3.549999952316284,
+            "y": 0.05000000074505806,
+            "z": 2.299999952316284
+          },
+          "center": {
+            "x": 3.5,
+            "y": 0,
+            "z": 1.649999976158142
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 3.5,
+            "y": 0,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 3.5,
+          "y": 0,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "74831f194fbdc50e0b7f64c78f68edde04e9770fbad1c8d51213747ab2b7b07d"
+      },
+      {
+        "object": "S_P03",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 6.949999809265137,
+            "y": -0.05000000074505806,
+            "z": 1
+          },
+          "maximum": {
+            "x": 7.050000190734863,
+            "y": 0.05000000074505806,
+            "z": 1.8600000143051147
+          },
+          "center": {
+            "x": 7,
+            "y": 0,
+            "z": 1.4300000667572021
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 7,
+            "y": 0,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 7,
+          "y": 0,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "7a7633e71a2f10e2eb2051c6f33208833a487c423b44f55e672f933dc24bffaf"
+      },
+      {
+        "object": "S_P04",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 9.925000190734863,
+            "y": -0.14000000059604645,
+            "z": 0.9574999809265137
+          },
+          "maximum": {
+            "x": 11.074999809265137,
+            "y": 0.05999999865889549,
+            "z": 1.0425000190734863
+          },
+          "center": {
+            "x": 10.5,
+            "y": -0.03999999910593033,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 10.5,
+            "y": 0,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 10.5,
+          "y": 0,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "009ba9e3811b3a2b4471ac82953dd4c69d4fe171d3029dd31947b781f0467859"
+      },
+      {
+        "object": "S_P05",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 13.907500267028809,
+            "y": -0.20000000298023224,
+            "z": 0.7799999713897705
+          },
+          "maximum": {
+            "x": 14.130000114440918,
+            "y": 0.20000000298023224,
+            "z": 1.2000000476837158
+          },
+          "center": {
+            "x": 14.018750190734863,
+            "y": 0,
+            "z": 0.9900000095367432
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 14,
+            "y": 0,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 14,
+          "y": 0,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "28b06c807dbe43368c984deb93b1ba4736b0a9cc15f8be9eec5ed3a030183523"
+      },
+      {
+        "object": "C_P01",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 17.3700008392334,
+            "y": -0.25,
+            "z": 0.875
+          },
+          "maximum": {
+            "x": 17.565000534057617,
+            "y": 0.25,
+            "z": 1.2400000095367432
+          },
+          "center": {
+            "x": 17.467500686645508,
+            "y": 0,
+            "z": 1.0575000047683716
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 17.5,
+            "y": 0,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 17.5,
+          "y": 0,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "7e9ea4e7de3110d5b882eed695c2b067160f8deb609cc6b773040a3f8f9a3306"
+      },
+      {
+        "object": "O_P01",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 21,
+            "y": -0.0949999988079071,
+            "z": 0.9049999713897705
+          },
+          "maximum": {
+            "x": 21.700000762939453,
+            "y": 0.0949999988079071,
+            "z": 1.0950000286102295
+          },
+          "center": {
+            "x": 21.350000381469727,
+            "y": 0,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 21,
+            "y": 0,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 21,
+          "y": 0,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "5f984edc5d974e25e4b455fc5c2f4c0ae656027cb8d01b03066cd18e027818c6"
+      },
+      {
+        "object": "O_P02",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 24.552499771118164,
+            "y": -0.04600000008940697,
+            "z": 0.9539999961853027
+          },
+          "maximum": {
+            "x": 24.607500076293945,
+            "y": 0.04600000008940697,
+            "z": 1.0460000038146973
+          },
+          "center": {
+            "x": 24.579999923706055,
+            "y": 0,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 24.5,
+            "y": 0,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 24.5,
+          "y": 0,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "5196af5e78d3621852e3bc073364eae0c0c4de63cddf3661a2ac8ddab65549a7"
+      },
+      {
+        "object": "O_P03",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.10499999672174454,
+            "y": 2.8499999046325684,
+            "z": 1
+          },
+          "maximum": {
+            "x": 0.10499999672174454,
+            "y": 3.1500000953674316,
+            "z": 1.5699999332427979
+          },
+          "center": {
+            "x": 0,
+            "y": 3,
+            "z": 1.284999966621399
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 3,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "c492563d0d11f724df8db71afbd9799878058c4c564cd4736a8c4d6bed335e6f"
+      },
+      {
+        "object": "O_P04",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 3.3949999809265137,
+            "y": 2.8329999446868896,
+            "z": 0.949999988079071
+          },
+          "maximum": {
+            "x": 3.760999917984009,
+            "y": 3.1670000553131104,
+            "z": 1.159999966621399
+          },
+          "center": {
+            "x": 3.578000068664551,
+            "y": 3,
+            "z": 1.0549999475479126
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 3.5,
+            "y": 3,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 3.5,
+          "y": 3,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "62e282cbd32c5a50c2a9d1439c9c7586fc353e2988969c21e1e6f82a6972d215"
+      },
+      {
+        "object": "O_P05",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 6.909999847412109,
+            "y": 2.759999990463257,
+            "z": 0.8550000190734863
+          },
+          "maximum": {
+            "x": 7.059999942779541,
+            "y": 3.240000009536743,
+            "z": 1.149999976158142
+          },
+          "center": {
+            "x": 6.984999656677246,
+            "y": 3,
+            "z": 1.002500057220459
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 7,
+            "y": 3,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 7,
+          "y": 3,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "c2c2b48d16e39c622794cee177014722f70980232de8613fda3a1e80daa02951"
+      },
+      {
+        "object": "F_P01",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 10.4399995803833,
+            "y": 2.8610000610351562,
+            "z": 0.8610000014305115
+          },
+          "maximum": {
+            "x": 10.837499618530273,
+            "y": 3.1389999389648438,
+            "z": 1.1389999389648438
+          },
+          "center": {
+            "x": 10.638750076293945,
+            "y": 3,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 10.5,
+            "y": 3,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 10.5,
+          "y": 3,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "fff725ad1717ca7db7008ea7aa1e28d6148559597bc88d53063a510a5f058a1f"
+      },
+      {
+        "object": "F_P02",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 11.25,
+            "y": 2.809999942779541,
+            "z": 0.9725000262260437
+          },
+          "maximum": {
+            "x": 16.75,
+            "y": 3.190000057220459,
+            "z": 1.0449999570846558
+          },
+          "center": {
+            "x": 14,
+            "y": 3,
+            "z": 1.0087499618530273
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 14,
+            "y": 3,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 14,
+          "y": 3,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "ab94acb0dd4c4d6410020c636addf23cded3c13611bbc2ca820fd897158f8f7b"
+      },
+      {
+        "object": "F_P03",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 17.059999465942383,
+            "y": 2.2899999618530273,
+            "z": 0.8500000238418579
+          },
+          "maximum": {
+            "x": 17.559999465942383,
+            "y": 3.7100000381469727,
+            "z": 1.1100000143051147
+          },
+          "center": {
+            "x": 17.309999465942383,
+            "y": 3,
+            "z": 0.9800000190734863
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 17.5,
+            "y": 3,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 17.5,
+          "y": 3,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "90d5aec3f78912530d84b968b09b9271b242d672a57dcc7b91af8110aff5a3c6"
+      },
+      {
+        "object": "F_P04",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 20.8799991607666,
+            "y": 2.884999990463257,
+            "z": 0.8849999904632568
+          },
+          "maximum": {
+            "x": 21.1200008392334,
+            "y": 3.115000009536743,
+            "z": 1.1150000095367432
+          },
+          "center": {
+            "x": 21,
+            "y": 3,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 21,
+            "y": 3,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 21,
+          "y": 3,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "e57a4eeaa71235bb9e0263b3f4ca32a01da96c19f5fa1c2aaccff35f15d185b2"
+      },
+      {
+        "object": "T_P01",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 23.049999237060547,
+            "y": 2.3810980319976807,
+            "z": 0.824999988079071
+          },
+          "maximum": {
+            "x": 24.565000534057617,
+            "y": 3.6189019680023193,
+            "z": 1.1050000190734863
+          },
+          "center": {
+            "x": 23.807498931884766,
+            "y": 3,
+            "z": 0.9650000333786011
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 24.5,
+            "y": 3,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 24.5,
+          "y": 3,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "2258308da4b09277df5559af8c452946a8e0d4c3cc1a1ac56c22a23aff875db1"
+      },
+      {
+        "object": "T_P02",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.2000000476837158,
+            "y": 5.154999732971191,
+            "z": 0.5399999618530273
+          },
+          "maximum": {
+            "x": 1.2000000476837158,
+            "y": 6.845000267028809,
+            "z": 1.2999999523162842
+          },
+          "center": {
+            "x": 0,
+            "y": 6,
+            "z": 0.9199999570846558
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 6,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 6,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "e9be36876d0cfa0cce16432df38e45df9321ede5b81c0b3cc25595dfaaacd910"
+      },
+      {
+        "object": "T_P03",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.259999990463257,
+            "y": 5.139999866485596,
+            "z": 1.2999999523162842
+          },
+          "maximum": {
+            "x": 4.739999771118164,
+            "y": 6.860000133514404,
+            "z": 1.5780000686645508
+          },
+          "center": {
+            "x": 3.5,
+            "y": 6,
+            "z": 1.4390000104904175
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 3.5,
+            "y": 6,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 3.5,
+          "y": 6,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "ff39ca9c74f8d7ef5f83391735437ff9943198d642b520642193fa54872eb120"
+      },
+      {
+        "object": "T_P04",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 6.381718158721924,
+            "y": 5.824999809265137,
+            "z": 0.3835395574569702
+          },
+          "maximum": {
+            "x": 7.618281841278076,
+            "y": 6.244999885559082,
+            "z": 1.6164604425430298
+          },
+          "center": {
+            "x": 7,
+            "y": 6.034999847412109,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 7,
+            "y": 6,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 7,
+          "y": 6,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "a49ddd08a7f4653db1ee7d12390774c39d891e1ed28ae8ae92509e5f2d50b310"
+      },
+      {
+        "object": "T_P05",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 9.881717681884766,
+            "y": 5.755000114440918,
+            "z": 0.3835395574569702
+          },
+          "maximum": {
+            "x": 11.118282318115234,
+            "y": 6.175000190734863,
+            "z": 1.6164604425430298
+          },
+          "center": {
+            "x": 10.5,
+            "y": 5.965000152587891,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 10.5,
+            "y": 6,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 10.5,
+          "y": 6,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "5c86da9af59600e2ec9a6224a8b7152ce8ea63060b62e49580ca82101686100d"
+      },
+      {
+        "object": "T_P06",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 13.824999809265137,
+            "y": 5.050000190734863,
+            "z": 0.9350000023841858
+          },
+          "maximum": {
+            "x": 14.175000190734863,
+            "y": 6.949999809265137,
+            "z": 1.159999966621399
+          },
+          "center": {
+            "x": 14,
+            "y": 6,
+            "z": 1.0475000143051147
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 14,
+            "y": 6,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 14,
+          "y": 6,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "aa464787c1b0bbc284400f2f3e7c7dbdb9f8091050fb401bdbaabe7871121be2"
+      },
+      {
+        "object": "T_P07",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 17.413000106811523,
+            "y": 5.422999858856201,
+            "z": 0.8999999761581421
+          },
+          "maximum": {
+            "x": 17.530000686645508,
+            "y": 6.577000141143799,
+            "z": 1.1800000667572021
+          },
+          "center": {
+            "x": 17.471500396728516,
+            "y": 6,
+            "z": 1.0399999618530273
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 17.5,
+            "y": 6,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 17.5,
+          "y": 6,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "f40ef7943a02d28a662934daaf55a1835df3902ed0978ea05d38a4a7a2bf61bd"
+      },
+      {
+        "object": "S_DP01A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 20.531999588012695,
+            "y": 5.260000228881836,
+            "z": 0.8208749890327454
+          },
+          "maximum": {
+            "x": 21.014999389648438,
+            "y": 6.739999771118164,
+            "z": 1.2048749923706055
+          },
+          "center": {
+            "x": 20.77349853515625,
+            "y": 6,
+            "z": 1.012874960899353
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 21,
+            "y": 6,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 21,
+          "y": 6,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "92b2ebc30554992076450e6bd9c173af5b968f72f438ecf0ff1411e59dbd3dcf"
+      },
+      {
+        "object": "S_DP02A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 23.91773223876953,
+            "y": 5.949999809265137,
+            "z": 1
+          },
+          "maximum": {
+            "x": 24.549999237060547,
+            "y": 6.12685489654541,
+            "z": 1.7167577743530273
+          },
+          "center": {
+            "x": 24.23386573791504,
+            "y": 6.038427352905273,
+            "z": 1.3583788871765137
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 24.5,
+            "y": 6,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 24.5,
+          "y": 6,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "e0429676727ad4e16d4c454e327ee2e295849da6517d1bee49144bb45fbfacfb"
+      },
+      {
+        "object": "S_DP05A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.11649999767541885,
+            "y": 8.800000190734863,
+            "z": 0.7706999778747559
+          },
+          "maximum": {
+            "x": 0.1324000060558319,
+            "y": 9.199999809265137,
+            "z": 1.2000000476837158
+          },
+          "center": {
+            "x": 0.007950004190206528,
+            "y": 9,
+            "z": 0.9853500127792358
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 9,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 9,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "86219145bf308662b81149fcb2b393f44c71681e1de2f9c7b1a889b440926682"
+      },
+      {
+        "object": "S_WP01A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 3.03439998626709,
+            "y": 8.222999572753906,
+            "z": 0.8064249753952026
+          },
+          "maximum": {
+            "x": 3.515000104904175,
+            "y": 9.777000427246094,
+            "z": 1.1226249933242798
+          },
+          "center": {
+            "x": 3.274700164794922,
+            "y": 9,
+            "z": 0.9645249843597412
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 3.5,
+            "y": 9,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 3.5,
+          "y": 9,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "4a718832f28d2f4d860ad53391e594ec70d04047ab464908b55056371c2b2fac"
+      },
+      {
+        "object": "S_WP02A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 6.949999809265137,
+            "y": 8.91195011138916,
+            "z": 1
+          },
+          "maximum": {
+            "x": 7.166192531585693,
+            "y": 9.050000190734863,
+            "z": 1.2572805881500244
+          },
+          "center": {
+            "x": 7.058095932006836,
+            "y": 8.980975151062012,
+            "z": 1.1286402940750122
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 7,
+            "y": 9,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 7,
+          "y": 9,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "668758dc031dda35bdee4180674737b4e27b55963abe4c5cf740d664b71d7a1d"
+      },
+      {
+        "object": "S_WP03A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 10.449999809265137,
+            "y": 8.91195011138916,
+            "z": 1
+          },
+          "maximum": {
+            "x": 10.666192054748535,
+            "y": 9.050000190734863,
+            "z": 1.2572805881500244
+          },
+          "center": {
+            "x": 10.558095932006836,
+            "y": 8.980975151062012,
+            "z": 1.1286402940750122
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 10.5,
+            "y": 9,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 10.5,
+          "y": 9,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "90af60bba0a67f9c4b20fe6dd471d6cf27cffba77ec1a2bf34b584f3ff950d88"
+      },
+      {
+        "object": "S_WP05A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 13.84749984741211,
+            "y": 8.84000015258789,
+            "z": 0.9010000228881836
+          },
+          "maximum": {
+            "x": 14.15250015258789,
+            "y": 9.15999984741211,
+            "z": 1.090000033378601
+          },
+          "center": {
+            "x": 14,
+            "y": 9,
+            "z": 0.9955000281333923
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 14,
+            "y": 9,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 14,
+          "y": 9,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "285921e6e7267fb4a779d7e7aa77dd03ced5aaa475c9edcb47335ee045f8691e"
+      },
+      {
+        "object": "O_DP01A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 17.5,
+            "y": 8.904999732971191,
+            "z": 0.9049999713897705
+          },
+          "maximum": {
+            "x": 17.8799991607666,
+            "y": 9.095000267028809,
+            "z": 1.0950000286102295
+          },
+          "center": {
+            "x": 17.689998626708984,
+            "y": 9,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 17.5,
+            "y": 9,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 17.5,
+          "y": 9,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "f0de1b33e8ddc0e15247694cb340c4e4c7270b1617d38b04e6d4a9f0b97e38ae"
+      },
+      {
+        "object": "O_DP03A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 20.895000457763672,
+            "y": 8.850000381469727,
+            "z": 1
+          },
+          "maximum": {
+            "x": 21.204999923706055,
+            "y": 9.149999618530273,
+            "z": 1.5130000114440918
+          },
+          "center": {
+            "x": 21.049999237060547,
+            "y": 9,
+            "z": 1.256500005722046
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 21,
+            "y": 9,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 21,
+          "y": 9,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "87183329b5ff57fd2bc77f6c7fa8f5924d498dc69902b031aa13ab62e25f4bf3"
+      },
+      {
+        "object": "O_DP04A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 24.395000457763672,
+            "y": 8.8149995803833,
+            "z": 0.9007999897003174
+          },
+          "maximum": {
+            "x": 24.76099967956543,
+            "y": 9.219200134277344,
+            "z": 1.159999966621399
+          },
+          "center": {
+            "x": 24.577999114990234,
+            "y": 9.017099380493164,
+            "z": 1.030400037765503
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 24.5,
+            "y": 9,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 24.5,
+          "y": 9,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "b9dd23b112bef75149f0a4876c2cf2f80bcbbc3161f516886873d747ed799ca5"
+      },
+      {
+        "object": "O_WP01A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0,
+            "y": 11.904999732971191,
+            "z": 0.8930000066757202
+          },
+          "maximum": {
+            "x": 0.3799999952316284,
+            "y": 12.126999855041504,
+            "z": 1.0950000286102295
+          },
+          "center": {
+            "x": 0.1899999976158142,
+            "y": 12.015999794006348,
+            "z": 0.9940000176429749
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 12,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 12,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "c8e386896d27b94b140a390beb789d05e04ea44b3bed2aae6c34506721d99fb4"
+      },
+      {
+        "object": "O_WP04A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 3.426500082015991,
+            "y": 11.833000183105469,
+            "z": 0.9175000190734863
+          },
+          "maximum": {
+            "x": 3.6826999187469482,
+            "y": 12.166999816894531,
+            "z": 1.0119999647140503
+          },
+          "center": {
+            "x": 3.5546000003814697,
+            "y": 12,
+            "z": 0.9647499918937683
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 3.5,
+            "y": 12,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 3.5,
+          "y": 12,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "5dfedf527f5c0dde3db63441f4a3cef1f32e82c45db60fd372d586806baaf79e"
+      },
+      {
+        "object": "F_DP01A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 6.940000057220459,
+            "y": 11.861000061035156,
+            "z": 0.8610000014305115
+          },
+          "maximum": {
+            "x": 7.337500095367432,
+            "y": 12.138999938964844,
+            "z": 1.1389999389648438
+          },
+          "center": {
+            "x": 7.138750076293945,
+            "y": 12,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 7,
+            "y": 12,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 7,
+          "y": 12,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "7d70532d2ddd5577a761af7c4d933b3bf35cfbce67c0520d685e5e825d9d8182"
+      },
+      {
+        "object": "F_DP02A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 7.75,
+            "y": 11.775042533874512,
+            "z": 0.9725000262260437
+          },
+          "maximum": {
+            "x": 13.25,
+            "y": 12.224957466125488,
+            "z": 1.0449999570846558
+          },
+          "center": {
+            "x": 10.5,
+            "y": 12,
+            "z": 1.0087499618530273
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 10.5,
+            "y": 12,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 10.5,
+          "y": 12,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "aadf45319684bd49f1cf348950d4c8cc9cefe0fe42f65ef8e393445b2c73e0c0"
+      },
+      {
+        "object": "F_WP01A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 13.961000442504883,
+            "y": 11.869000434875488,
+            "z": 0.8199999928474426
+          },
+          "maximum": {
+            "x": 14.219374656677246,
+            "y": 12.147000312805176,
+            "z": 1.1200000047683716
+          },
+          "center": {
+            "x": 14.090187072753906,
+            "y": 12.008000373840332,
+            "z": 0.9700000286102295
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 14,
+            "y": 12,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 14,
+          "y": 12,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "b5c6cfd91a4301c45ec0b8bb8f30cad1b312204826dc187ce211308eda430a2e"
+      },
+      {
+        "object": "T_DP01A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 16.049999237060547,
+            "y": 11.479349136352539,
+            "z": 0.781000018119812
+          },
+          "maximum": {
+            "x": 17.565000534057617,
+            "y": 12.717153549194336,
+            "z": 1.1050000190734863
+          },
+          "center": {
+            "x": 16.807498931884766,
+            "y": 12.098251342773438,
+            "z": 0.9430000185966492
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 17.5,
+            "y": 12,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 17.5,
+          "y": 12,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "ea4c5ef0c7aefb63d41f2ad578bd70352c5af3c57e4a6855c9f20780df97ff9f"
+      },
+      {
+        "object": "T_DP02A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 19.799999237060547,
+            "y": 11.154999732971191,
+            "z": 0.4509999752044678
+          },
+          "maximum": {
+            "x": 22.200000762939453,
+            "y": 12.845000267028809,
+            "z": 1.2999999523162842
+          },
+          "center": {
+            "x": 21,
+            "y": 12,
+            "z": 0.875499963760376
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 21,
+            "y": 12,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 21,
+          "y": 12,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "25905c32d3bea3ee209fe126b803d4faf0afd4f61b63317520322e6d71a0f18c"
+      },
+      {
+        "object": "T_DP04A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 23.881717681884766,
+            "y": 11.824999809265137,
+            "z": 0.6693786978721619
+          },
+          "maximum": {
+            "x": 25.118282318115234,
+            "y": 12.244999885559082,
+            "z": 1.6164604425430298
+          },
+          "center": {
+            "x": 24.5,
+            "y": 12.03499984741211,
+            "z": 1.1429195404052734
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 24.5,
+            "y": 12,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 24.5,
+          "y": 12,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "d511c9816bba5a6c7997e112fad6e94c3a7a0ae1fb7e46fe01badb2d03c810a8"
+      },
+      {
+        "object": "T_WP01A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.4500000476837158,
+            "y": 14.597250938415527,
+            "z": 0.6929999589920044
+          },
+          "maximum": {
+            "x": 0.06499999761581421,
+            "y": 15.835054397583008,
+            "z": 1.1050000190734863
+          },
+          "center": {
+            "x": -0.6924999952316284,
+            "y": 15.21615219116211,
+            "z": 0.8989999890327454
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 15,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 15,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "1b8a29132e4772443d9d11a75509a28c3838b1f210ed90c189abd47565e637a7"
+      },
+      {
+        "object": "T_WP02A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.2258026599884033,
+            "y": 14.13725471496582,
+            "z": 0.47759997844696045
+          },
+          "maximum": {
+            "x": 4.774197578430176,
+            "y": 15.86274528503418,
+            "z": 1.5199999809265137
+          },
+          "center": {
+            "x": 3.5,
+            "y": 15,
+            "z": 0.9987999796867371
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 3.5,
+            "y": 15,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 3.5,
+          "y": 15,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "d4415b21bb9996e54b52b712e4f12c8b26d3c3c4bd8865b19361467a0513cf94"
+      },
+      {
+        "object": "T_WP03A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 5.760000228881836,
+            "y": 14.085330963134766,
+            "z": 1.1648375988006592
+          },
+          "maximum": {
+            "x": 8.239999771118164,
+            "y": 15.914669036865234,
+            "z": 1.7086894512176514
+          },
+          "center": {
+            "x": 7,
+            "y": 15,
+            "z": 1.4367635250091553
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 7,
+            "y": 15,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 7,
+          "y": 15,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "52c0a312a4346759c112fc9c6121756cef00b54fdbc792b6721e04a063ca8987"
+      },
+      {
+        "object": "T_WP05A",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 9.97446060180664,
+            "y": 14.738100051879883,
+            "z": 0.599300742149353
+          },
+          "maximum": {
+            "x": 11.02553939819336,
+            "y": 15.22439956665039,
+            "z": 1.400699257850647
+          },
+          "center": {
+            "x": 10.5,
+            "y": 14.981249809265137,
+            "z": 1
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 10.5,
+            "y": 15,
+            "z": 1
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 10.5,
+          "y": 15,
+          "z": 1
+        },
+        "appliedScale": true,
+        "fingerprint": "11fc23e145d551dfced07405f3fbc839a8fa9334baded49920861abd7fc7a0ab"
+      },
+      {
+        "object": "library-root",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      }
+    ],
+    "datums": [
+      {
+        "id": "library-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "library-root"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "S_P01-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_P01"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "S_P02-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_P02"
+        },
+        "status": "available",
+        "position": {
+          "x": 3.5,
+          "y": 0,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_P03-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_P03"
+        },
+        "status": "available",
+        "position": {
+          "x": 7,
+          "y": 0,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_P04-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_P04"
+        },
+        "status": "available",
+        "position": {
+          "x": 10.5,
+          "y": 0,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_P05-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_P05"
+        },
+        "status": "available",
+        "position": {
+          "x": 14,
+          "y": 0,
+          "z": 1
+        }
+      },
+      {
+        "id": "C_P01-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "C_P01"
+        },
+        "status": "available",
+        "position": {
+          "x": 17.5,
+          "y": 0,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_P01-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_P01"
+        },
+        "status": "available",
+        "position": {
+          "x": 21,
+          "y": 0,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_P02-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_P02"
+        },
+        "status": "available",
+        "position": {
+          "x": 24.5,
+          "y": 0,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_P03-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_P03"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 3,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_P04-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_P04"
+        },
+        "status": "available",
+        "position": {
+          "x": 3.5,
+          "y": 3,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_P05-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_P05"
+        },
+        "status": "available",
+        "position": {
+          "x": 7,
+          "y": 3,
+          "z": 1
+        }
+      },
+      {
+        "id": "F_P01-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "F_P01"
+        },
+        "status": "available",
+        "position": {
+          "x": 10.5,
+          "y": 3,
+          "z": 1
+        }
+      },
+      {
+        "id": "F_P02-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "F_P02"
+        },
+        "status": "available",
+        "position": {
+          "x": 14,
+          "y": 3,
+          "z": 1
+        }
+      },
+      {
+        "id": "F_P03-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "F_P03"
+        },
+        "status": "available",
+        "position": {
+          "x": 17.5,
+          "y": 3,
+          "z": 1
+        }
+      },
+      {
+        "id": "F_P04-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "F_P04"
+        },
+        "status": "available",
+        "position": {
+          "x": 21,
+          "y": 3,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_P01-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_P01"
+        },
+        "status": "available",
+        "position": {
+          "x": 24.5,
+          "y": 3,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_P02-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_P02"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 6,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_P03-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_P03"
+        },
+        "status": "available",
+        "position": {
+          "x": 3.5,
+          "y": 6,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_P04-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_P04"
+        },
+        "status": "available",
+        "position": {
+          "x": 7,
+          "y": 6,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_P05-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_P05"
+        },
+        "status": "available",
+        "position": {
+          "x": 10.5,
+          "y": 6,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_P06-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_P06"
+        },
+        "status": "available",
+        "position": {
+          "x": 14,
+          "y": 6,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_P07-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_P07"
+        },
+        "status": "available",
+        "position": {
+          "x": 17.5,
+          "y": 6,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_DP01A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_DP01A"
+        },
+        "status": "available",
+        "position": {
+          "x": 21,
+          "y": 6,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_DP02A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_DP02A"
+        },
+        "status": "available",
+        "position": {
+          "x": 24.5,
+          "y": 6,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_DP05A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_DP05A"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 9,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_WP01A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_WP01A"
+        },
+        "status": "available",
+        "position": {
+          "x": 3.5,
+          "y": 9,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_WP02A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_WP02A"
+        },
+        "status": "available",
+        "position": {
+          "x": 7,
+          "y": 9,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_WP03A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_WP03A"
+        },
+        "status": "available",
+        "position": {
+          "x": 10.5,
+          "y": 9,
+          "z": 1
+        }
+      },
+      {
+        "id": "S_WP05A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "S_WP05A"
+        },
+        "status": "available",
+        "position": {
+          "x": 14,
+          "y": 9,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_DP01A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_DP01A"
+        },
+        "status": "available",
+        "position": {
+          "x": 17.5,
+          "y": 9,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_DP03A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_DP03A"
+        },
+        "status": "available",
+        "position": {
+          "x": 21,
+          "y": 9,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_DP04A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_DP04A"
+        },
+        "status": "available",
+        "position": {
+          "x": 24.5,
+          "y": 9,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_WP01A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_WP01A"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 12,
+          "z": 1
+        }
+      },
+      {
+        "id": "O_WP04A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "O_WP04A"
+        },
+        "status": "available",
+        "position": {
+          "x": 3.5,
+          "y": 12,
+          "z": 1
+        }
+      },
+      {
+        "id": "F_DP01A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "F_DP01A"
+        },
+        "status": "available",
+        "position": {
+          "x": 7,
+          "y": 12,
+          "z": 1
+        }
+      },
+      {
+        "id": "F_DP02A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "F_DP02A"
+        },
+        "status": "available",
+        "position": {
+          "x": 10.5,
+          "y": 12,
+          "z": 1
+        }
+      },
+      {
+        "id": "F_WP01A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "F_WP01A"
+        },
+        "status": "available",
+        "position": {
+          "x": 14,
+          "y": 12,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_DP01A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_DP01A"
+        },
+        "status": "available",
+        "position": {
+          "x": 17.5,
+          "y": 12,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_DP02A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_DP02A"
+        },
+        "status": "available",
+        "position": {
+          "x": 21,
+          "y": 12,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_DP04A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_DP04A"
+        },
+        "status": "available",
+        "position": {
+          "x": 24.5,
+          "y": 12,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_WP01A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_WP01A"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 15,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_WP02A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_WP02A"
+        },
+        "status": "available",
+        "position": {
+          "x": 3.5,
+          "y": 15,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_WP03A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_WP03A"
+        },
+        "status": "available",
+        "position": {
+          "x": 7,
+          "y": 15,
+          "z": 1
+        }
+      },
+      {
+        "id": "T_WP05A-origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "T_WP05A"
+        },
+        "status": "available",
+        "position": {
+          "x": 10.5,
+          "y": 15,
+          "z": 1
+        }
+      }
+    ],
+    "ratios": [],
+    "clearances": [],
+    "articulationSamples": [],
+    "includedObjects": [
+      "C_P01",
+      "F_DP01A",
+      "F_DP02A",
+      "F_P01",
+      "F_P02",
+      "F_P03",
+      "F_P04",
+      "F_WP01A",
+      "O_DP01A",
+      "O_DP03A",
+      "O_DP04A",
+      "O_P01",
+      "O_P02",
+      "O_P03",
+      "O_P04",
+      "O_P05",
+      "O_WP01A",
+      "O_WP04A",
+      "S_DP01A",
+      "S_DP02A",
+      "S_DP05A",
+      "S_P01",
+      "S_P02",
+      "S_P03",
+      "S_P04",
+      "S_P05",
+      "S_WP01A",
+      "S_WP02A",
+      "S_WP03A",
+      "S_WP05A",
+      "T_DP01A",
+      "T_DP02A",
+      "T_DP04A",
+      "T_P01",
+      "T_P02",
+      "T_P03",
+      "T_P04",
+      "T_P05",
+      "T_P06",
+      "T_P07",
+      "T_WP01A",
+      "T_WP02A",
+      "T_WP03A",
+      "T_WP05A"
+    ],
+    "excludedObjects": [
+      "library-root"
+    ],
+    "visibleGeometryObjects": [
+      "C_P01",
+      "F_DP01A",
+      "F_DP02A",
+      "F_P01",
+      "F_P02",
+      "F_P03",
+      "F_P04",
+      "F_WP01A",
+      "O_DP01A",
+      "O_DP03A",
+      "O_DP04A",
+      "O_P01",
+      "O_P02",
+      "O_P03",
+      "O_P04",
+      "O_P05",
+      "O_WP01A",
+      "O_WP04A",
+      "S_DP01A",
+      "S_DP02A",
+      "S_DP05A",
+      "S_P01",
+      "S_P02",
+      "S_P03",
+      "S_P04",
+      "S_P05",
+      "S_WP01A",
+      "S_WP02A",
+      "S_WP03A",
+      "S_WP05A",
+      "T_DP01A",
+      "T_DP02A",
+      "T_DP04A",
+      "T_P01",
+      "T_P02",
+      "T_P03",
+      "T_P04",
+      "T_P05",
+      "T_P06",
+      "T_P07",
+      "T_WP01A",
+      "T_WP02A",
+      "T_WP03A",
+      "T_WP05A"
+    ],
+    "configuration": "library-grid",
+    "pose": "library-grid"
+  },
+  "aggregate": {
+    "passed": true,
+    "complete": true,
+    "reproducible": true,
+    "internallyConsistent": true,
+    "expectedBlockingCriterionCount": 144,
+    "reportedBlockingCriterionCount": 144,
+    "passedBlockingCriterionCount": 144,
+    "blockingFailureCriterionIds": []
+  },
+  "createdAt": "2026-11-10T05:32:25.037Z",
+  "resultHash": "c1785dc54359225783f26ff2b91452bd671c104333fe1a5a80f1e6f352e72f01",
+  "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/d699e236-7cc6-482a-b377-56235c7e731e/main/inspection/revision-3/asset-dimension-validation-c1785dc54359225783f26ff2b91452bd671c104333fe1a5a80f1e6f352e72f01.json"
+}

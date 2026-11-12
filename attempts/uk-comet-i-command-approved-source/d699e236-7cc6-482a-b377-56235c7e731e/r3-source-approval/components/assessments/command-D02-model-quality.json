@@ -1,0 +1,705 @@
+{
+  "schemaVersion": "2.0.0",
+  "assessmentId": "command-d02-model-quality-r3-fit2",
+  "rubric": {
+    "rubricId": "model-quality",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "assetId": "uk-comet-i-command",
+    "revisionId": "0.1.0-candidate.r3-fit2/D02",
+    "revision": 3
+  },
+  "evidenceSet": {
+    "revision": 3,
+    "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+    "renderSetSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+    "requiredViews": [
+      {
+        "viewId": "front-left",
+        "width": 256,
+        "height": 256,
+        "sha256": "957995b038b61ad253e991092280e11666838999a242d0204b26ec36518b8252"
+      },
+      {
+        "viewId": "rear-right",
+        "width": 256,
+        "height": 256,
+        "sha256": "f322ea88c8c51228bd710c6fc1551ada8dd6edcdd45355856ef7561614597468"
+      },
+      {
+        "viewId": "vehicle-left",
+        "width": 256,
+        "height": 256,
+        "sha256": "386041e3d5eb3f8f6cd5a04387502c4be1745af162b64d5831be04b87f4291fa"
+      },
+      {
+        "viewId": "vehicle-right",
+        "width": 256,
+        "height": 256,
+        "sha256": "cc5bdde98d474974392a92a2ae87537fa469345088f0314495655171b31d11dd"
+      },
+      {
+        "viewId": "front",
+        "width": 256,
+        "height": 256,
+        "sha256": "1ccc6d39d460233e52b51603621deb98272dd358aea9a2c557d0b8a53168a746"
+      },
+      {
+        "viewId": "rear",
+        "width": 256,
+        "height": 256,
+        "sha256": "116fcb4a50b1997441469c1b10ba50649306a0eddaaea86602ca8cfe890fd821"
+      },
+      {
+        "viewId": "top",
+        "width": 256,
+        "height": 256,
+        "sha256": "fcf80f26c2e75443e68f91dac6f63c73405b00b4dcc9d2fb6e9691584b73e8ef"
+      },
+      {
+        "viewId": "underside",
+        "width": 256,
+        "height": 256,
+        "sha256": "885b3ccbc2bfdb9b9d7fc29d5c06d9f921306e3830f01d7a213478481b391ed6"
+      }
+    ],
+    "validation": {
+      "reportId": "8b7640df-b06e-4d50-8162-224ff7630ba6",
+      "revision": 3,
+      "checkpointSha256": "7143badee86e377626fcfc9091fe5b646304c47d0c678a30b1e7d08622d9d3f1",
+      "passed": true,
+      "current": true,
+      "deterministic": true
+    }
+  },
+  "scores": [
+    {
+      "categoryId": "identity-recognition",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Comet hull, turret and running-gear family remain exact. Command carries a new aerial/case/reel silhouette (wreck W02 principally rearward); OP short closed dummy and optical head; Crocodile bow aperture and separate trailer distinguish proposed roles. Damaged/wreck equipment can lose operational role cues; no powered function inferred.",
+          "evidenceSha256": "957995b038b61ad253e991092280e11666838999a242d0204b26ec36518b8252"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Comet hull, turret and running-gear family remain exact. Command carries a new aerial/case/reel silhouette (wreck W02 principally rearward); OP short closed dummy and optical head; Crocodile bow aperture and separate trailer distinguish proposed roles. Damaged/wreck equipment can lose operational role cues; no powered function inferred.",
+          "evidenceSha256": "f322ea88c8c51228bd710c6fc1551ada8dd6edcdd45355856ef7561614597468"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Comet hull, turret and running-gear family remain exact. Command carries a new aerial/case/reel silhouette (wreck W02 principally rearward); OP short closed dummy and optical head; Crocodile bow aperture and separate trailer distinguish proposed roles. Damaged/wreck equipment can lose operational role cues; no powered function inferred.",
+          "evidenceSha256": "386041e3d5eb3f8f6cd5a04387502c4be1745af162b64d5831be04b87f4291fa"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Comet hull, turret and running-gear family remain exact. Command carries a new aerial/case/reel silhouette (wreck W02 principally rearward); OP short closed dummy and optical head; Crocodile bow aperture and separate trailer distinguish proposed roles. Damaged/wreck equipment can lose operational role cues; no powered function inferred.",
+          "evidenceSha256": "cc5bdde98d474974392a92a2ae87537fa469345088f0314495655171b31d11dd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Weapon strike and crushed radio accessory cases. Comet hull, turret and running-gear family remain exact. Command carries a new aerial/case/reel silhouette (wreck W02 principally rearward); OP short closed dummy and optical head; Crocodile bow aperture and separate trailer distinguish proposed roles. Damaged/wreck equipment can lose operational role cues; no powered function inferred.",
+          "evidenceSha256": "1ccc6d39d460233e52b51603621deb98272dd358aea9a2c557d0b8a53168a746"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Weapon strike and crushed radio accessory cases. Comet hull, turret and running-gear family remain exact. Command carries a new aerial/case/reel silhouette (wreck W02 principally rearward); OP short closed dummy and optical head; Crocodile bow aperture and separate trailer distinguish proposed roles. Damaged/wreck equipment can lose operational role cues; no powered function inferred.",
+          "evidenceSha256": "116fcb4a50b1997441469c1b10ba50649306a0eddaaea86602ca8cfe890fd821"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Weapon strike and crushed radio accessory cases. Comet hull, turret and running-gear family remain exact. Command carries a new aerial/case/reel silhouette (wreck W02 principally rearward); OP short closed dummy and optical head; Crocodile bow aperture and separate trailer distinguish proposed roles. Damaged/wreck equipment can lose operational role cues; no powered function inferred.",
+          "evidenceSha256": "fcf80f26c2e75443e68f91dac6f63c73405b00b4dcc9d2fb6e9691584b73e8ef"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Weapon strike and crushed radio accessory cases. Comet hull, turret and running-gear family remain exact. Command carries a new aerial/case/reel silhouette (wreck W02 principally rearward); OP short closed dummy and optical head; Crocodile bow aperture and separate trailer distinguish proposed roles. Damaged/wreck equipment can lose operational role cues; no powered function inferred.",
+          "evidenceSha256": "885b3ccbc2bfdb9b9d7fc29d5c06d9f921306e3830f01d7a213478481b391ed6"
+        }
+      ],
+      "recognition": {
+        "thumbnailPixels": 256,
+        "nearestNeighbors": [
+          "accepted ordinary Comet I",
+          "other Comet conversion packages",
+          "Churchill Crocodile donor (not this hull)"
+        ],
+        "distinguishers": [
+          "Exact Comet short five-roadwheel hull/turret and long77mm baseline where retained",
+          "Command paired cases and reel with tall aerials where surviving; OP closed short dummy and head; Crocodile essential articulated trailer",
+          "Condition-family identity does not imply operable equipment or front-only gameplay role recognition"
+        ]
+      }
+    },
+    {
+      "categoryId": "proportion-mass",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Accepted Comet proportions and stance unchanged. Additions use documented donor vocabulary but explicit authored fitting/trailer dimensions. Trailer lower taper, rounded tyres and drawbar give plausible visual mass without claiming measured historical manufacture.",
+          "evidenceSha256": "957995b038b61ad253e991092280e11666838999a242d0204b26ec36518b8252"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Accepted Comet proportions and stance unchanged. Additions use documented donor vocabulary but explicit authored fitting/trailer dimensions. Trailer lower taper, rounded tyres and drawbar give plausible visual mass without claiming measured historical manufacture.",
+          "evidenceSha256": "f322ea88c8c51228bd710c6fc1551ada8dd6edcdd45355856ef7561614597468"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Accepted Comet proportions and stance unchanged. Additions use documented donor vocabulary but explicit authored fitting/trailer dimensions. Trailer lower taper, rounded tyres and drawbar give plausible visual mass without claiming measured historical manufacture.",
+          "evidenceSha256": "386041e3d5eb3f8f6cd5a04387502c4be1745af162b64d5831be04b87f4291fa"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Accepted Comet proportions and stance unchanged. Additions use documented donor vocabulary but explicit authored fitting/trailer dimensions. Trailer lower taper, rounded tyres and drawbar give plausible visual mass without claiming measured historical manufacture.",
+          "evidenceSha256": "cc5bdde98d474974392a92a2ae87537fa469345088f0314495655171b31d11dd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Weapon strike and crushed radio accessory cases. Accepted Comet proportions and stance unchanged. Additions use documented donor vocabulary but explicit authored fitting/trailer dimensions. Trailer lower taper, rounded tyres and drawbar give plausible visual mass without claiming measured historical manufacture.",
+          "evidenceSha256": "1ccc6d39d460233e52b51603621deb98272dd358aea9a2c557d0b8a53168a746"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Weapon strike and crushed radio accessory cases. Accepted Comet proportions and stance unchanged. Additions use documented donor vocabulary but explicit authored fitting/trailer dimensions. Trailer lower taper, rounded tyres and drawbar give plausible visual mass without claiming measured historical manufacture.",
+          "evidenceSha256": "116fcb4a50b1997441469c1b10ba50649306a0eddaaea86602ca8cfe890fd821"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Weapon strike and crushed radio accessory cases. Accepted Comet proportions and stance unchanged. Additions use documented donor vocabulary but explicit authored fitting/trailer dimensions. Trailer lower taper, rounded tyres and drawbar give plausible visual mass without claiming measured historical manufacture.",
+          "evidenceSha256": "fcf80f26c2e75443e68f91dac6f63c73405b00b4dcc9d2fb6e9691584b73e8ef"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Weapon strike and crushed radio accessory cases. Accepted Comet proportions and stance unchanged. Additions use documented donor vocabulary but explicit authored fitting/trailer dimensions. Trailer lower taper, rounded tyres and drawbar give plausible visual mass without claiming measured historical manufacture.",
+          "evidenceSha256": "885b3ccbc2bfdb9b9d7fc29d5c06d9f921306e3830f01d7a213478481b391ed6"
+        }
+      ]
+    },
+    {
+      "categoryId": "silhouette",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Main Comet contours remain. Aerial/optic/trailer appendages and displaced or overturned condition assemblies form coherent different outlines. Fine command wreck-role discrimination is weaker from front and remains an advisory; no required whole frame is cropped.",
+          "evidenceSha256": "957995b038b61ad253e991092280e11666838999a242d0204b26ec36518b8252"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Main Comet contours remain. Aerial/optic/trailer appendages and displaced or overturned condition assemblies form coherent different outlines. Fine command wreck-role discrimination is weaker from front and remains an advisory; no required whole frame is cropped.",
+          "evidenceSha256": "f322ea88c8c51228bd710c6fc1551ada8dd6edcdd45355856ef7561614597468"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Main Comet contours remain. Aerial/optic/trailer appendages and displaced or overturned condition assemblies form coherent different outlines. Fine command wreck-role discrimination is weaker from front and remains an advisory; no required whole frame is cropped.",
+          "evidenceSha256": "386041e3d5eb3f8f6cd5a04387502c4be1745af162b64d5831be04b87f4291fa"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Main Comet contours remain. Aerial/optic/trailer appendages and displaced or overturned condition assemblies form coherent different outlines. Fine command wreck-role discrimination is weaker from front and remains an advisory; no required whole frame is cropped.",
+          "evidenceSha256": "cc5bdde98d474974392a92a2ae87537fa469345088f0314495655171b31d11dd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Weapon strike and crushed radio accessory cases. Main Comet contours remain. Aerial/optic/trailer appendages and displaced or overturned condition assemblies form coherent different outlines. Fine command wreck-role discrimination is weaker from front and remains an advisory; no required whole frame is cropped.",
+          "evidenceSha256": "1ccc6d39d460233e52b51603621deb98272dd358aea9a2c557d0b8a53168a746"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Weapon strike and crushed radio accessory cases. Main Comet contours remain. Aerial/optic/trailer appendages and displaced or overturned condition assemblies form coherent different outlines. Fine command wreck-role discrimination is weaker from front and remains an advisory; no required whole frame is cropped.",
+          "evidenceSha256": "116fcb4a50b1997441469c1b10ba50649306a0eddaaea86602ca8cfe890fd821"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Weapon strike and crushed radio accessory cases. Main Comet contours remain. Aerial/optic/trailer appendages and displaced or overturned condition assemblies form coherent different outlines. Fine command wreck-role discrimination is weaker from front and remains an advisory; no required whole frame is cropped.",
+          "evidenceSha256": "fcf80f26c2e75443e68f91dac6f63c73405b00b4dcc9d2fb6e9691584b73e8ef"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Weapon strike and crushed radio accessory cases. Main Comet contours remain. Aerial/optic/trailer appendages and displaced or overturned condition assemblies form coherent different outlines. Fine command wreck-role discrimination is weaker from front and remains an advisory; no required whole frame is cropped.",
+          "evidenceSha256": "885b3ccbc2bfdb9b9d7fc29d5c06d9f921306e3830f01d7a213478481b391ed6"
+        }
+      ]
+    },
+    {
+      "categoryId": "form-hierarchy",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Large accepted tank masses lead; sparse cases, poles, closed dummy/optic or trailer explain the conversion. No complete duplicate tank source or excessive new tertiary detail.",
+          "evidenceSha256": "957995b038b61ad253e991092280e11666838999a242d0204b26ec36518b8252"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Large accepted tank masses lead; sparse cases, poles, closed dummy/optic or trailer explain the conversion. No complete duplicate tank source or excessive new tertiary detail.",
+          "evidenceSha256": "f322ea88c8c51228bd710c6fc1551ada8dd6edcdd45355856ef7561614597468"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Large accepted tank masses lead; sparse cases, poles, closed dummy/optic or trailer explain the conversion. No complete duplicate tank source or excessive new tertiary detail.",
+          "evidenceSha256": "386041e3d5eb3f8f6cd5a04387502c4be1745af162b64d5831be04b87f4291fa"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Large accepted tank masses lead; sparse cases, poles, closed dummy/optic or trailer explain the conversion. No complete duplicate tank source or excessive new tertiary detail.",
+          "evidenceSha256": "cc5bdde98d474974392a92a2ae87537fa469345088f0314495655171b31d11dd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Weapon strike and crushed radio accessory cases. Large accepted tank masses lead; sparse cases, poles, closed dummy/optic or trailer explain the conversion. No complete duplicate tank source or excessive new tertiary detail.",
+          "evidenceSha256": "1ccc6d39d460233e52b51603621deb98272dd358aea9a2c557d0b8a53168a746"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Weapon strike and crushed radio accessory cases. Large accepted tank masses lead; sparse cases, poles, closed dummy/optic or trailer explain the conversion. No complete duplicate tank source or excessive new tertiary detail.",
+          "evidenceSha256": "116fcb4a50b1997441469c1b10ba50649306a0eddaaea86602ca8cfe890fd821"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Weapon strike and crushed radio accessory cases. Large accepted tank masses lead; sparse cases, poles, closed dummy/optic or trailer explain the conversion. No complete duplicate tank source or excessive new tertiary detail.",
+          "evidenceSha256": "fcf80f26c2e75443e68f91dac6f63c73405b00b4dcc9d2fb6e9691584b73e8ef"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Weapon strike and crushed radio accessory cases. Large accepted tank masses lead; sparse cases, poles, closed dummy/optic or trailer explain the conversion. No complete duplicate tank source or excessive new tertiary detail.",
+          "evidenceSha256": "885b3ccbc2bfdb9b9d7fc29d5c06d9f921306e3830f01d7a213478481b391ed6"
+        }
+      ]
+    },
+    {
+      "categoryId": "mechanical-coherence",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Explicit attachment seats and intended socket insertions explain support. Fit2 removes tyre/shell/lid crossings using declared .95 axle scaling. New hatch/gun/turret/optic/tow sampled envelopes clear with documented interlocks. Wrecks static; projector neutral locked; no real-system or continuous-motion qualification.",
+          "evidenceSha256": "957995b038b61ad253e991092280e11666838999a242d0204b26ec36518b8252"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Explicit attachment seats and intended socket insertions explain support. Fit2 removes tyre/shell/lid crossings using declared .95 axle scaling. New hatch/gun/turret/optic/tow sampled envelopes clear with documented interlocks. Wrecks static; projector neutral locked; no real-system or continuous-motion qualification.",
+          "evidenceSha256": "f322ea88c8c51228bd710c6fc1551ada8dd6edcdd45355856ef7561614597468"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Explicit attachment seats and intended socket insertions explain support. Fit2 removes tyre/shell/lid crossings using declared .95 axle scaling. New hatch/gun/turret/optic/tow sampled envelopes clear with documented interlocks. Wrecks static; projector neutral locked; no real-system or continuous-motion qualification.",
+          "evidenceSha256": "386041e3d5eb3f8f6cd5a04387502c4be1745af162b64d5831be04b87f4291fa"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Explicit attachment seats and intended socket insertions explain support. Fit2 removes tyre/shell/lid crossings using declared .95 axle scaling. New hatch/gun/turret/optic/tow sampled envelopes clear with documented interlocks. Wrecks static; projector neutral locked; no real-system or continuous-motion qualification.",
+          "evidenceSha256": "cc5bdde98d474974392a92a2ae87537fa469345088f0314495655171b31d11dd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Weapon strike and crushed radio accessory cases. Explicit attachment seats and intended socket insertions explain support. Fit2 removes tyre/shell/lid crossings using declared .95 axle scaling. New hatch/gun/turret/optic/tow sampled envelopes clear with documented interlocks. Wrecks static; projector neutral locked; no real-system or continuous-motion qualification.",
+          "evidenceSha256": "1ccc6d39d460233e52b51603621deb98272dd358aea9a2c557d0b8a53168a746"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Weapon strike and crushed radio accessory cases. Explicit attachment seats and intended socket insertions explain support. Fit2 removes tyre/shell/lid crossings using declared .95 axle scaling. New hatch/gun/turret/optic/tow sampled envelopes clear with documented interlocks. Wrecks static; projector neutral locked; no real-system or continuous-motion qualification.",
+          "evidenceSha256": "116fcb4a50b1997441469c1b10ba50649306a0eddaaea86602ca8cfe890fd821"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Weapon strike and crushed radio accessory cases. Explicit attachment seats and intended socket insertions explain support. Fit2 removes tyre/shell/lid crossings using declared .95 axle scaling. New hatch/gun/turret/optic/tow sampled envelopes clear with documented interlocks. Wrecks static; projector neutral locked; no real-system or continuous-motion qualification.",
+          "evidenceSha256": "fcf80f26c2e75443e68f91dac6f63c73405b00b4dcc9d2fb6e9691584b73e8ef"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Weapon strike and crushed radio accessory cases. Explicit attachment seats and intended socket insertions explain support. Fit2 removes tyre/shell/lid crossings using declared .95 axle scaling. New hatch/gun/turret/optic/tow sampled envelopes clear with documented interlocks. Wrecks static; projector neutral locked; no real-system or continuous-motion qualification.",
+          "evidenceSha256": "885b3ccbc2bfdb9b9d7fc29d5c06d9f921306e3830f01d7a213478481b391ed6"
+        }
+      ]
+    },
+    {
+      "categoryId": "surface-material",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Olive matte plates, dark rubber/reel/projector aperture, restrained canvas and optical materials separate functional construction. Damaged geometry changes and burn values differ by condition; optical end contrast and local normal detail could be refined.",
+          "evidenceSha256": "957995b038b61ad253e991092280e11666838999a242d0204b26ec36518b8252"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Olive matte plates, dark rubber/reel/projector aperture, restrained canvas and optical materials separate functional construction. Damaged geometry changes and burn values differ by condition; optical end contrast and local normal detail could be refined.",
+          "evidenceSha256": "f322ea88c8c51228bd710c6fc1551ada8dd6edcdd45355856ef7561614597468"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Olive matte plates, dark rubber/reel/projector aperture, restrained canvas and optical materials separate functional construction. Damaged geometry changes and burn values differ by condition; optical end contrast and local normal detail could be refined.",
+          "evidenceSha256": "386041e3d5eb3f8f6cd5a04387502c4be1745af162b64d5831be04b87f4291fa"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Olive matte plates, dark rubber/reel/projector aperture, restrained canvas and optical materials separate functional construction. Damaged geometry changes and burn values differ by condition; optical end contrast and local normal detail could be refined.",
+          "evidenceSha256": "cc5bdde98d474974392a92a2ae87537fa469345088f0314495655171b31d11dd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Weapon strike and crushed radio accessory cases. Olive matte plates, dark rubber/reel/projector aperture, restrained canvas and optical materials separate functional construction. Damaged geometry changes and burn values differ by condition; optical end contrast and local normal detail could be refined.",
+          "evidenceSha256": "1ccc6d39d460233e52b51603621deb98272dd358aea9a2c557d0b8a53168a746"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Weapon strike and crushed radio accessory cases. Olive matte plates, dark rubber/reel/projector aperture, restrained canvas and optical materials separate functional construction. Damaged geometry changes and burn values differ by condition; optical end contrast and local normal detail could be refined.",
+          "evidenceSha256": "116fcb4a50b1997441469c1b10ba50649306a0eddaaea86602ca8cfe890fd821"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Weapon strike and crushed radio accessory cases. Olive matte plates, dark rubber/reel/projector aperture, restrained canvas and optical materials separate functional construction. Damaged geometry changes and burn values differ by condition; optical end contrast and local normal detail could be refined.",
+          "evidenceSha256": "fcf80f26c2e75443e68f91dac6f63c73405b00b4dcc9d2fb6e9691584b73e8ef"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Weapon strike and crushed radio accessory cases. Olive matte plates, dark rubber/reel/projector aperture, restrained canvas and optical materials separate functional construction. Damaged geometry changes and burn values differ by condition; optical end contrast and local normal detail could be refined.",
+          "evidenceSha256": "885b3ccbc2bfdb9b9d7fc29d5c06d9f921306e3830f01d7a213478481b391ed6"
+        }
+      ]
+    },
+    {
+      "categoryId": "viewpoint-robustness",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Opposing sides plus front,rear,top,underside and256px views inspected. Weakest command front wreck role cue is recorded rather than concealed. Closeups supplement whole views.",
+          "evidenceSha256": "957995b038b61ad253e991092280e11666838999a242d0204b26ec36518b8252"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Opposing sides plus front,rear,top,underside and256px views inspected. Weakest command front wreck role cue is recorded rather than concealed. Closeups supplement whole views.",
+          "evidenceSha256": "f322ea88c8c51228bd710c6fc1551ada8dd6edcdd45355856ef7561614597468"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Weapon strike and crushed radio accessory cases. Opposing sides plus front,rear,top,underside and256px views inspected. Weakest command front wreck role cue is recorded rather than concealed. Closeups supplement whole views.",
+          "evidenceSha256": "386041e3d5eb3f8f6cd5a04387502c4be1745af162b64d5831be04b87f4291fa"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Weapon strike and crushed radio accessory cases. Opposing sides plus front,rear,top,underside and256px views inspected. Weakest command front wreck role cue is recorded rather than concealed. Closeups supplement whole views.",
+          "evidenceSha256": "cc5bdde98d474974392a92a2ae87537fa469345088f0314495655171b31d11dd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Weapon strike and crushed radio accessory cases. Opposing sides plus front,rear,top,underside and256px views inspected. Weakest command front wreck role cue is recorded rather than concealed. Closeups supplement whole views.",
+          "evidenceSha256": "1ccc6d39d460233e52b51603621deb98272dd358aea9a2c557d0b8a53168a746"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Weapon strike and crushed radio accessory cases. Opposing sides plus front,rear,top,underside and256px views inspected. Weakest command front wreck role cue is recorded rather than concealed. Closeups supplement whole views.",
+          "evidenceSha256": "116fcb4a50b1997441469c1b10ba50649306a0eddaaea86602ca8cfe890fd821"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Weapon strike and crushed radio accessory cases. Opposing sides plus front,rear,top,underside and256px views inspected. Weakest command front wreck role cue is recorded rather than concealed. Closeups supplement whole views.",
+          "evidenceSha256": "fcf80f26c2e75443e68f91dac6f63c73405b00b4dcc9d2fb6e9691584b73e8ef"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Weapon strike and crushed radio accessory cases. Opposing sides plus front,rear,top,underside and256px views inspected. Weakest command front wreck role cue is recorded rather than concealed. Closeups supplement whole views.",
+          "evidenceSha256": "885b3ccbc2bfdb9b9d7fc29d5c06d9f921306e3830f01d7a213478481b391ed6"
+        }
+      ]
+    },
+    {
+      "categoryId": "production-integrity",
+      "score": 3,
+      "evidence": [
+        {
+          "kind": "view-observation",
+          "viewId": "front-left",
+          "observation": "Weapon strike and crushed radio accessory cases. All44 source/export selectors hashed, mixed32r2/12r3 lineage explicit.21 direct-base manifests preserve73 clean host operations and condition ownership. Exact selected geometry/material payloads and matrices validated,220 base files unchanged; producer generic/dimension/determinism records current.",
+          "evidenceSha256": "957995b038b61ad253e991092280e11666838999a242d0204b26ec36518b8252"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear-right",
+          "observation": "Weapon strike and crushed radio accessory cases. All44 source/export selectors hashed, mixed32r2/12r3 lineage explicit.21 direct-base manifests preserve73 clean host operations and condition ownership. Exact selected geometry/material payloads and matrices validated,220 base files unchanged; producer generic/dimension/determinism records current.",
+          "evidenceSha256": "f322ea88c8c51228bd710c6fc1551ada8dd6edcdd45355856ef7561614597468"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-left",
+          "observation": "Weapon strike and crushed radio accessory cases. All44 source/export selectors hashed, mixed32r2/12r3 lineage explicit.21 direct-base manifests preserve73 clean host operations and condition ownership. Exact selected geometry/material payloads and matrices validated,220 base files unchanged; producer generic/dimension/determinism records current.",
+          "evidenceSha256": "386041e3d5eb3f8f6cd5a04387502c4be1745af162b64d5831be04b87f4291fa"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "vehicle-right",
+          "observation": "Weapon strike and crushed radio accessory cases. All44 source/export selectors hashed, mixed32r2/12r3 lineage explicit.21 direct-base manifests preserve73 clean host operations and condition ownership. Exact selected geometry/material payloads and matrices validated,220 base files unchanged; producer generic/dimension/determinism records current.",
+          "evidenceSha256": "cc5bdde98d474974392a92a2ae87537fa469345088f0314495655171b31d11dd"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "front",
+          "observation": "Weapon strike and crushed radio accessory cases. All44 source/export selectors hashed, mixed32r2/12r3 lineage explicit.21 direct-base manifests preserve73 clean host operations and condition ownership. Exact selected geometry/material payloads and matrices validated,220 base files unchanged; producer generic/dimension/determinism records current.",
+          "evidenceSha256": "1ccc6d39d460233e52b51603621deb98272dd358aea9a2c557d0b8a53168a746"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "rear",
+          "observation": "Weapon strike and crushed radio accessory cases. All44 source/export selectors hashed, mixed32r2/12r3 lineage explicit.21 direct-base manifests preserve73 clean host operations and condition ownership. Exact selected geometry/material payloads and matrices validated,220 base files unchanged; producer generic/dimension/determinism records current.",
+          "evidenceSha256": "116fcb4a50b1997441469c1b10ba50649306a0eddaaea86602ca8cfe890fd821"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "top",
+          "observation": "Weapon strike and crushed radio accessory cases. All44 source/export selectors hashed, mixed32r2/12r3 lineage explicit.21 direct-base manifests preserve73 clean host operations and condition ownership. Exact selected geometry/material payloads and matrices validated,220 base files unchanged; producer generic/dimension/determinism records current.",
+          "evidenceSha256": "fcf80f26c2e75443e68f91dac6f63c73405b00b4dcc9d2fb6e9691584b73e8ef"
+        },
+        {
+          "kind": "view-observation",
+          "viewId": "underside",
+          "observation": "Weapon strike and crushed radio accessory cases. All44 source/export selectors hashed, mixed32r2/12r3 lineage explicit.21 direct-base manifests preserve73 clean host operations and condition ownership. Exact selected geometry/material payloads and matrices validated,220 base files unchanged; producer generic/dimension/determinism records current.",
+          "evidenceSha256": "885b3ccbc2bfdb9b9d7fc29d5c06d9f921306e3830f01d7a213478481b391ed6"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "identity-authority",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/research/reference-packet.json",
+          "evidenceSha256": "2360a42833ffc75af07e3b02b3c1248b415c71944ccecd4471408269bcc69933",
+          "observation": "Original modeled proposed conversions, explicit alternate history and attributed private reference research; no donor meshes or third-party textures."
+        }
+      ]
+    },
+    {
+      "gateId": "required-views",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/review/thumbnail-render-receipt.json",
+          "evidenceSha256": "91894e15e9f1604a13c86ec416ff303a2777c31b186c3e8ff7e0e7124589a3b1",
+          "observation": "Eight current256px full views plus full-resolution diagnostics; visual-only profile has no transparent frame/anchor/runtime camera requirement."
+        }
+      ]
+    },
+    {
+      "gateId": "structural-plausibility",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/validation/joint-and-surface-continuity.json",
+          "evidenceSha256": "22adcce89a905b1149fa6e387c01d012d710b8698e4e9bf62886049117e472be",
+          "observation": "Intentional seats/bearings distinguished from resolved unwanted tyre crossings and explicit hidden/untested interfaces."
+        }
+      ]
+    },
+    {
+      "gateId": "transform-grounding",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/validation/assembled-motion-and-integrity.json",
+          "evidenceSha256": "06c5f58a4518b4004ce82a100987368a5cdefe68c6d79b4ca42f56ff87cbd5fe",
+          "observation": "Current sampled additional-equipment scope only. All condition restrictions and limitations in assembly guide remain binding."
+        }
+      ]
+    },
+    {
+      "gateId": "deterministic-output",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/producer-r3-records.json",
+          "evidenceSha256": "8a5e307b8c9a67dcd44bb895c511615bdb4f9d7e941080993083cf98d251521d",
+          "observation": "Authoritative source-library r3 generic validation passed,144 dimension criteria passed, deterministic baseline; not a consumer performance pass. Installed complete review geometry is additionally checked in the assembled report."
+        }
+      ]
+    },
+    {
+      "gateId": "current-validation",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/producer-r3-records.json",
+          "evidenceSha256": "8a5e307b8c9a67dcd44bb895c511615bdb4f9d7e941080993083cf98d251521d",
+          "observation": "Authoritative source-library r3 generic validation passed,144 dimension criteria passed, deterministic baseline; not a consumer performance pass. Installed complete review geometry is additionally checked in the assembled report."
+        }
+      ]
+    },
+    {
+      "gateId": "budgets",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/producer-r3-records.json",
+          "evidenceSha256": "8a5e307b8c9a67dcd44bb895c511615bdb4f9d7e941080993083cf98d251521d",
+          "observation": "Authoritative source-library r3 generic validation passed,144 dimension criteria passed, deterministic baseline; not a consumer performance pass. Installed complete review geometry is additionally checked in the assembled report."
+        }
+      ]
+    },
+    {
+      "gateId": "explained-content",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/component-registry.json",
+          "evidenceSha256": "1b28b8b69e4f657fe23e0e9e5bef35bda0dc6bb31a356931ce051d95dfff28a3",
+          "observation": "Exact selectors, source revisions, exports, hashes and declared installed transforms; package completeness binds this registry and21 manifests."
+        }
+      ]
+    },
+    {
+      "gateId": "artifact-integrity",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/delivery/component-registry.json",
+          "evidenceSha256": "1b28b8b69e4f657fe23e0e9e5bef35bda0dc6bb31a356931ce051d95dfff28a3",
+          "observation": "Exact selectors, source revisions, exports, hashes and declared installed transforms; package completeness binds this registry and21 manifests."
+        }
+      ]
+    },
+    {
+      "gateId": "copying-rights",
+      "passed": true,
+      "evidence": [
+        {
+          "kind": "technical-record",
+          "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/research/reference-packet.json",
+          "evidenceSha256": "2360a42833ffc75af07e3b02b3c1248b415c71944ccecd4471408269bcc69933",
+          "observation": "Original modeled proposed conversions, explicit alternate history and attributed private reference research; no donor meshes or third-party textures."
+        }
+      ]
+    }
+  ],
+  "assessedBy": "Codex /root primary",
+  "assessedAt": "2026-11-10T05:51:06.114541Z",
+  "adversarialReview": {
+    "reviewedBy": "Codex /root/adversarial_conversion_review",
+    "reviewedAt": "2026-11-10T05:51:06.114541Z",
+    "coreCategoryObjections": [
+      {
+        "categoryId": "identity-recognition",
+        "strongestReasonBelowThree": "Command W02 removes its tall aerials and flags; from the front it can be confused with an ordinary Comet wreck. All exact conversion layouts are invented rather than historical identification cues.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Resolved at static source-family scope with advisory. Compared accepted base W02 rear-right and command W02 rear-right: one green bustle block versus paired collapsed dark cases plus cable reel remains a deliberate distinction. The clean command also has tall aerials versus base short stubs. Wreck controls are disabled; a wreck is not required to advertise operational command functionality. OP short gun/head and Crocodile essential trailer distinguish their packages at native256. Front-only gameplay recognition remains weaker and is not claimed qualified."
+          }
+        ]
+      },
+      {
+        "categoryId": "silhouette",
+        "strongestReasonBelowThree": "Fine antennas/reels disappear or merge in front/top views; trailer tyres could dominate the body; displaced W03 assemblies can be confusing.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Resolved for source artwork. Primary Comet silhouette is preserved; clean OP short barrel/head and trailer negative space remain distinct; r3 tyre detail is subordinate. Wreck displacement and missing/failed running gear form three different state families. No new silhouette clipping observed in full required diagnostics. Local equipment closeups deliberately crop context and are not full-view proof."
+          }
+        ]
+      },
+      {
+        "categoryId": "mechanical-coherence",
+        "strongestReasonBelowThree": "The r3 wheel/rubber crossings were actual bad interfaces; poles could float after rack collapse; buried coax closures and a solid projector could contradict their intended function. Sampled motion can miss contact failures.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Resolved within bounded source-artwork evidence: fit2 removes all four tyre/body+lid pairs; cross-bustle clamps rest on clean rack; poles absent collapsed-rack wrecks; visible OP coax closure, dummy barrel and projector opening are coherent. The current report covers turret/hatches/gun/optic samples and171trailer poses. Service/linkage reports zero hitch pivot separation and clear straight-lift new-equipment envelope. Exact interlocks, neutral locked projector, terrain-appropriate trailer tilt and disabled wreck controls remain required. No continuous, dynamic, ergonomic or real-operability certification."
+          }
+        ]
+      },
+      {
+        "categoryId": "production-integrity",
+        "strongestReasonBelowThree": "Mixed r2/r3 identities, stale sheets and unrecorded mount scaling could bind the reviewer to a model different from the delivered recipes.",
+        "resolved": true,
+        "resolutionEvidence": [
+          {
+            "kind": "technical-record",
+            "recordId": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-comet-i-conversions/evidence/independent-review-r3.json",
+            "evidenceSha256": "06fc2a650d4a93fe1ca99d1f98f1390c3f197b3d000a3a5717ad74a04dd17850",
+            "observation": "Resolved for the assessed files:32r2+12r3 identities retained explicitly;1642independent exact selected mesh/accessor comparisons and file hashes pass; all21direct-base selections agree without duplicate selected parts; all203full and168thumbnail receipt image/assembly/manifest hashes match current bytes; sheets now current. Fit2 scaling appears explicitly in every applicable wheel mount. Final guide and primary evaluator records are outside this independent artifact verdict and must bind these same manifests."
+          }
+        ]
+      }
+    ]
+  }
+}
