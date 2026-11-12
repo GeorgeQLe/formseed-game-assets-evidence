@@ -1,0 +1,405 @@
+{
+ "schemaVersion": "2.0.0",
+ "assessmentId": "m2hb-r12-folded-leaf-seat-20261112",
+ "rubric": {
+  "rubricId": "model-quality",
+  "version": "1.0.0"
+ },
+ "subject": {
+  "assetId": "m2hb-flexible-exterior-1991",
+  "revisionId": "main-r12",
+  "revision": 12
+ },
+ "evidenceSet": {
+  "revision": 12,
+  "checkpointSha256": "6086aee39877018c002f2597f3374b10045095c64720cdaee1f39a3085be15ca",
+  "renderSetSha256": "028e5814a6c4cd0cbe50e738d4824399992aa0afd03c09c985f20cecdd29262b",
+  "requiredViews": [
+   {
+    "viewId": "right",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "50dd2a4bfa0527848a46000146df93c3554278a0b307a011c82e2d9abf56fd37"
+   },
+   {
+    "viewId": "left",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "12a25dd495f45ee40d22e6b7bb20f52706d09d5c95e35a37fbfec2e828190a43"
+   },
+   {
+    "viewId": "top",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "3a820e319aef0077e8035b21697e3de0b8e4f5b28e73088a8972d30efda572d3"
+   },
+   {
+    "viewId": "front",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "ff1091d654b4bc38b8cd6c87aaf069d2de9950de80b9cc6d5cef25ba654cda75"
+   },
+   {
+    "viewId": "rear",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "47a7a73edbbe73be05755d82fd84184d101cf1a86f5a0ef5daa6c82291449f41"
+   },
+   {
+    "viewId": "front-right",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "5a6e786e431ca0d8c5a2153578042c0bceecf2ce02389f6fb83fd7e1bac331dc"
+   },
+   {
+    "viewId": "rear-left",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "8d3032df746aceeb081ebfef17a6afad5f83da233385fd93c197af9fa861e4f3"
+   }
+  ],
+  "validation": {
+   "reportId": "a68c9c04-ffda-4b90-93cf-28ee49a0b248",
+   "revision": 12,
+   "checkpointSha256": "6086aee39877018c002f2597f3374b10045095c64720cdaee1f39a3085be15ca",
+   "passed": true,
+   "current": true,
+   "deterministic": true
+  }
+ },
+ "scores": [
+  {
+   "categoryId": "identity-recognition",
+   "score": 3,
+   "evidence": [
+    {
+     "kind": "view-observation",
+     "viewId": "right",
+     "observation": "Spade grips, boxy receiver, perforated barrel support and long heavy barrel read as M2HB in profile.",
+     "evidenceSha256": "50dd2a4bfa0527848a46000146df93c3554278a0b307a011c82e2d9abf56fd37"
+    },
+    {
+     "kind": "view-observation",
+     "viewId": "left",
+     "observation": "Mirror profile: retracting-handle side, receiver and HB barrel read as M2HB.",
+     "evidenceSha256": "12a25dd495f45ee40d22e6b7bb20f52706d09d5c95e35a37fbfec2e828190a43"
+    },
+    {
+     "kind": "view-observation",
+     "viewId": "top",
+     "observation": "Top: receiver/feed cover box, barrel support jacket and long barrel; no AA sight present.",
+     "evidenceSha256": "3a820e319aef0077e8035b21697e3de0b8e4f5b28e73088a8972d30efda572d3"
+    },
+    {
+     "kind": "view-observation",
+     "viewId": "front",
+     "observation": "Front: barrel support and receiver end-on with spade grips framing; compact heavy-MG read.",
+     "evidenceSha256": "ff1091d654b4bc38b8cd6c87aaf069d2de9950de80b9cc6d5cef25ba654cda75"
+    },
+    {
+     "kind": "view-observation",
+     "viewId": "rear",
+     "observation": "Rear: backplate, twin spade grips and trigger read as Browning .50 backplate group.",
+     "evidenceSha256": "47a7a73edbbe73be05755d82fd84184d101cf1a86f5a0ef5daa6c82291449f41"
+    },
+    {
+     "kind": "view-observation",
+     "viewId": "front-right",
+     "observation": "Oblique: receiver, perforated jacket, grips and barrel combine into a clear M2HB read at 256 px.",
+     "evidenceSha256": "5a6e786e431ca0d8c5a2153578042c0bceecf2ce02389f6fb83fd7e1bac331dc"
+    },
+    {
+     "kind": "view-observation",
+     "viewId": "rear-left",
+     "observation": "Oblique from rear: grips, backplate, upright front blade and long barrel read as M2HB.",
+     "evidenceSha256": "8d3032df746aceeb081ebfef17a6afad5f83da233385fd93c197af9fa861e4f3"
+    }
+   ],
+   "recognition": {
+    "thumbnailPixels": 256,
+    "nearestNeighbors": [
+     "M2 water-cooled",
+     "M1919 .30 cal",
+     "Mk 19 grenade launcher"
+    ],
+    "distinguishers": [
+     "heavy barrel with perforated barrel-support jacket (no water jacket)",
+     "spade grips on flat backplate",
+     "long receiver with feed cover proportion of .50 cal versus shorter M1919"
+    ]
+   }
+  },
+  {
+   "categoryId": "proportion-mass",
+   "score": 3,
+   "evidence": [
+    {
+     "kind": "view-observation",
+     "viewId": "right",
+     "observation": "Credible receiver-to-barrel mass; folded leaf lowers rear profile as directed (height 0.194 m).",
+     "evidenceSha256": "50dd2a4bfa0527848a46000146df93c3554278a0b307a011c82e2d9abf56fd37"
+    }
+   ]
+  },
+  {
+   "categoryId": "silhouette",
+   "score": 3,
+   "evidence": [
+    {
+     "kind": "view-observation",
+     "viewId": "right",
+     "observation": "Clean profile, upright front blade, low folded rear sight, no overhang.",
+     "evidenceSha256": "50dd2a4bfa0527848a46000146df93c3554278a0b307a011c82e2d9abf56fd37"
+    },
+    {
+     "kind": "view-observation",
+     "viewId": "front-right",
+     "observation": "Distinct grips, jacket perforations and barrel at oblique.",
+     "evidenceSha256": "5a6e786e431ca0d8c5a2153578042c0bceecf2ce02389f6fb83fd7e1bac331dc"
+    }
+   ]
+  },
+  {
+   "categoryId": "form-hierarchy",
+   "score": 3,
+   "evidence": [
+    {
+     "kind": "view-observation",
+     "viewId": "top",
+     "observation": "Primary/secondary forms clear; folded leaf merges tonally into its base from above.",
+     "evidenceSha256": "3a820e319aef0077e8035b21697e3de0b8e4f5b28e73088a8972d30efda572d3"
+    }
+   ]
+  },
+  {
+   "categoryId": "mechanical-coherence",
+   "score": 3,
+   "evidence": [
+    {
+     "kind": "view-observation",
+     "viewId": "rear-left",
+     "observation": "Rear sight seated on base, no gap/overhang (closeup r12-closeup-rear-sight-quarter.png sha 2ff59f09); no hinge knuckle and fused knob are static simplifications.",
+     "evidenceSha256": "8d3032df746aceeb081ebfef17a6afad5f83da233385fd93c197af9fa861e4f3"
+    }
+   ]
+  },
+  {
+   "categoryId": "surface-material",
+   "score": 2,
+   "evidence": [
+    {
+     "kind": "view-observation",
+     "viewId": "front-right",
+     "observation": "Uniform flat steel plus black grips; serviceable, little material separation.",
+     "evidenceSha256": "5a6e786e431ca0d8c5a2153578042c0bceecf2ce02389f6fb83fd7e1bac331dc"
+    }
+   ]
+  },
+  {
+   "categoryId": "viewpoint-robustness",
+   "score": 3,
+   "evidence": [
+    {
+     "kind": "view-observation",
+     "viewId": "rear-left",
+     "observation": "Coherent across all seven views; rear sight unreadable from top by design of the fold.",
+     "evidenceSha256": "8d3032df746aceeb081ebfef17a6afad5f83da233385fd93c197af9fa861e4f3"
+    }
+   ]
+  },
+  {
+   "categoryId": "production-integrity",
+   "score": 3,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "status-r12.json",
+     "observation": "Checkpoint 6086aee3, 12/12 dimension report fa5b4ce6, deterministic baseline 028e5814, validate_asset passed 0 issues, all bound to r12.",
+     "evidenceSha256": "0466e948c5eaadbfd015f602de97ee1f8c46c561dc137080c05419a83e3e3a5a"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "gateId": "identity-authority",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "plan.json",
+     "observation": "Original M2HB exterior from attributable references; George-directed r12 correction; no approval inferred.",
+     "evidenceSha256": "2aa9359acdb55cd5edb4ce91b8532ab06810ac52e78a6c78e2303e7f00955b2a"
+    }
+   ]
+  },
+  {
+   "gateId": "required-views",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "status-r12.json",
+     "observation": "All seven native gun-review views current, deterministic and unclipped.",
+     "evidenceSha256": "0466e948c5eaadbfd015f602de97ee1f8c46c561dc137080c05419a83e3e3a5a"
+    }
+   ]
+  },
+  {
+   "gateId": "structural-plausibility",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "final-review.md",
+     "observation": "Independent review: leaf seated, no floating or impossible intersection beyond declared 4 mm fused knob.",
+     "evidenceSha256": "ffba1dc8e40b8a89d4bf3e048e53f29a3bfbe934047e7ad6a055f09a337dbe2f"
+    }
+   ]
+  },
+  {
+   "gateId": "transform-grounding",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "dimension-validation-r12.json",
+     "observation": "12/12 blocking dimension checks pass against superseded binding 71e209e9.",
+     "evidenceSha256": "c8b75ae8d7a2d01d61937e6c25a6f8da05db4aef018bb9517e4eb59a51247c32"
+    }
+   ]
+  },
+  {
+   "gateId": "deterministic-output",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "status-r12.json",
+     "observation": "Baseline first=second hash 028e5814; validation deterministic.",
+     "evidenceSha256": "0466e948c5eaadbfd015f602de97ee1f8c46c561dc137080c05419a83e3e3a5a"
+    }
+   ]
+  },
+  {
+   "gateId": "current-validation",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "status-r12.json",
+     "observation": "validate_asset a68c9c04 passed for revision 12 checkpoint 6086aee3.",
+     "evidenceSha256": "0466e948c5eaadbfd015f602de97ee1f8c46c561dc137080c05419a83e3e3a5a"
+    }
+   ]
+  },
+  {
+   "gateId": "budgets",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "status-r12.json",
+     "observation": "7492 triangles, 2 materials, 18 objects within request budgets.",
+     "evidenceSha256": "0466e948c5eaadbfd015f602de97ee1f8c46c561dc137080c05419a83e3e3a5a"
+    }
+   ]
+  },
+  {
+   "gateId": "explained-content",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "review-glb-receipt.json",
+     "observation": "12 named meshes under M2_CommonRoot; all objects expected.",
+     "evidenceSha256": "9db4261e5029742a03a7f0a5ac475e29cea748085af829b5845933a6d354939b"
+    }
+   ]
+  },
+  {
+   "gateId": "artifact-integrity",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "final-review.md",
+     "observation": "Reviewer recomputed operations, blend and GLB hashes; all match.",
+     "evidenceSha256": "ffba1dc8e40b8a89d4bf3e048e53f29a3bfbe934047e7ad6a055f09a337dbe2f"
+    }
+   ]
+  },
+  {
+   "gateId": "copying-rights",
+   "passed": true,
+   "evidence": [
+    {
+     "kind": "technical-record",
+     "recordId": "plan.json",
+     "observation": "Original geometry authored from typed operations; no third-party mesh.",
+     "evidenceSha256": "2aa9359acdb55cd5edb4ce91b8532ab06810ac52e78a6c78e2303e7f00955b2a"
+    }
+   ]
+  }
+ ],
+ "assessedBy": "claude-code-main-session-9a2ce4c7",
+ "assessedAt": "2026-11-12T03:40:00Z",
+ "adversarialReview": {
+  "reviewedBy": "claude-review-independent-r12",
+  "reviewedAt": "2026-11-12T03:35:00Z",
+  "coreCategoryObjections": [
+   {
+    "categoryId": "identity-recognition",
+    "strongestReasonBelowThree": "Weakest is top view, where rear sight vanishes; still reads as M2HB at 256 px.",
+    "resolved": true,
+    "resolutionEvidence": [
+     {
+      "kind": "technical-record",
+      "recordId": "final-review.md",
+      "observation": "Independent reviewer judged this non-blocking and listed no unresolved core objections.",
+      "evidenceSha256": "ffba1dc8e40b8a89d4bf3e048e53f29a3bfbe934047e7ad6a055f09a337dbe2f"
+     }
+    ]
+   },
+   {
+    "categoryId": "silhouette",
+    "strongestReasonBelowThree": "Folded leaf invisible at 128 px; expected for a folded sight.",
+    "resolved": true,
+    "resolutionEvidence": [
+     {
+      "kind": "technical-record",
+      "recordId": "final-review.md",
+      "observation": "Independent reviewer judged this non-blocking and listed no unresolved core objections.",
+      "evidenceSha256": "ffba1dc8e40b8a89d4bf3e048e53f29a3bfbe934047e7ad6a055f09a337dbe2f"
+     }
+    ]
+   },
+   {
+    "categoryId": "mechanical-coherence",
+    "strongestReasonBelowThree": "No hinge knuckle; knob fused 4 mm into leaf end; peep/tab mismatch carried from r11 (static-only scope).",
+    "resolved": true,
+    "resolutionEvidence": [
+     {
+      "kind": "technical-record",
+      "recordId": "final-review.md",
+      "observation": "Independent reviewer judged this non-blocking and listed no unresolved core objections.",
+      "evidenceSha256": "ffba1dc8e40b8a89d4bf3e048e53f29a3bfbe934047e7ad6a055f09a337dbe2f"
+     }
+    ]
+   },
+   {
+    "categoryId": "production-integrity",
+    "strongestReasonBelowThree": "productionInput/construction receipt not retained, so status operationsSha256 bc06d303 is not directly reproducible; geometry match to operations.json proven instead.",
+    "resolved": true,
+    "resolutionEvidence": [
+     {
+      "kind": "technical-record",
+      "recordId": "final-review.md",
+      "observation": "Independent reviewer judged this non-blocking and listed no unresolved core objections.",
+      "evidenceSha256": "ffba1dc8e40b8a89d4bf3e048e53f29a3bfbe934047e7ad6a055f09a337dbe2f"
+     }
+    ]
+   }
+  ]
+ }
+}

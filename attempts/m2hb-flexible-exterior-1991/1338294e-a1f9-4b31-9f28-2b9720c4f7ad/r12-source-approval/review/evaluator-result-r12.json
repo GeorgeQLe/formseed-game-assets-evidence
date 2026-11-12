@@ -1,0 +1,7 @@
+{
+  "tool": "formseed-game-assets.evaluate_game_asset_rubric_assessment",
+  "note": "evaluate_revision_bound_model_assessment unavailable: game-assets server uses fixture backend ('Unknown fixture FormSeed assessment evidence'); deterministic rubric evaluator used on the hash-bound assessment-r12.json instead.",
+  "assessmentFile": "assessment-r12.json",
+  "rubric": {"rubricId": "model-quality", "version": "1.0.0"},
+  "result": {"schemaVersion":"2.0.0","weightedTotal":72.5,"recommendation":"no-go","effectiveDecision":"no-go","checks":{"threshold":false,"categoryFloors":true,"coreFloors":true,"hardGates":true,"structuredEvidence":true,"adversarialReview":true},"failures":[{"kind":"threshold","id":"weighted-total","message":"72.5 is below the 75-point threshold."}],"status":{"technicalValidation":"pass","visualRecommendation":"no-go","humanApproval":"absent"},"overrideApplied":false,"authorityNotice":"A recommendation or requester override is not production, source, or game-readiness approval."}
+}

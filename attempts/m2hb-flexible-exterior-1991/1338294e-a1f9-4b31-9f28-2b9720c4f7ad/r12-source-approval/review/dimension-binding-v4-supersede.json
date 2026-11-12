@@ -1,0 +1,239 @@
+{
+  "record": {
+    "recordType": "dimension-specification",
+    "schemaVersion": "1.0.0",
+    "specificationId": "m2hb-flexible-exterior-interpreted-v4",
+    "assetId": "m2hb-flexible-exterior-1991",
+    "revision": 2,
+    "bindings": {
+      "request": {
+        "requestId": "george.m2hb-exterior-checkpoint.20261110",
+        "sha256": "879f9f4ff7b9431908817a75a5faeb5db855b2e2ef151a9fd96225fdb91a7628"
+      },
+      "phase2Packet": {
+        "packetId": "m2hb-exterior-plan-v3",
+        "sha256": "703bb9f6c1bd670a2fea349456f004c0729eeb5c6b737683b609a537dbefebd9"
+      },
+      "styleProfile": {
+        "profileId": "grounded-tactical-miniature-visual",
+        "version": "1.0.0",
+        "sha256": "94037bbde55739b9b28871ca675de0c5f557151237053df42e39bb38342244ae"
+      }
+    },
+    "subjectSpace": {
+      "units": "meters",
+      "handedness": "right-handed",
+      "axes": {
+        "width": "Y",
+        "height": "Z",
+        "length": "X",
+        "forward": "+X",
+        "up": "+Z"
+      },
+      "canonicalPose": {
+        "poseId": "horizontal-flexible",
+        "statement": "Standalone static manually operated exterior, no adapter/ammunition; dimensions bind artistic implementation, not engineering reconstruction.",
+        "includedGeometry": [
+          "P01Receiver",
+          "P02FeedCover",
+          "P03BarrelSupport",
+          "P04Barrel",
+          "P05Backplate",
+          "P06LeftGrip",
+          "P07RightGrip",
+          "P08Trigger",
+          "P09RetractingHandle",
+          "P10FrontSight",
+          "P11RearSight",
+          "P12BoltLatchRelease"
+        ],
+        "excludedGeometry": []
+      },
+      "origin": {
+        "kind": "declared-datum",
+        "datumId": "receiver-rear-axis",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "grounding": {
+          "status": "inapplicable",
+          "contactDatumIds": []
+        }
+      }
+    },
+    "sourceMeasurements": [],
+    "configurations": [
+      {
+        "configurationId": "horizontal-flexible",
+        "conditions": [
+          "static gun exterior, left-feed configuration, front blade upright, rear leaf folded"
+        ],
+        "disposition": "proposed-production-canonical"
+      }
+    ],
+    "productionTargets": {
+      "status": "complete",
+      "canonicalConfigurationId": "horizontal-flexible",
+      "envelope": {
+        "length": {
+          "status": "provisional",
+          "value": 1.6542999999999999,
+          "unit": "m",
+          "basis": "Declared exterior artwork envelope. Overall length nominal 65.13in; other extents interpreted, not historical validation."
+        },
+        "width": {
+          "status": "provisional",
+          "value": 0.271,
+          "unit": "m",
+          "basis": "Declared exterior artwork envelope. Overall length nominal 65.13in; other extents interpreted, not historical validation."
+        },
+        "height": {
+          "status": "provisional",
+          "value": 0.194,
+          "unit": "m",
+          "basis": "Interpreted exterior artwork envelope, not historical validation. Overall length nominal 65.13in; other extents interpreted. Height retargeted 2026-11-11 from 0.232 m (v3, rear leaf upright) to the measured folded-leaf envelope 0.194 m (job 1338294e r11 dimension report 49174841..., unchanged by the r12 directed leaf correction; maximum Z is the P10 front-sight blade tip)."
+        }
+      },
+      "componentRatios": [],
+      "componentDatums": [
+        {
+          "datumId": "receiver-rear-axis",
+          "parent": null,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "basisMeasurementIds": [],
+          "selector": {
+            "type": "object-origin",
+            "object": "P01Receiver"
+          }
+        }
+      ],
+      "clearances": [],
+      "articulationEnvelopes": [],
+      "intentionalExaggerations": [],
+      "acceptanceTolerances": [
+        {
+          "target": "overall-envelope",
+          "mode": "per-axis-relative",
+          "lengthPercent": 1,
+          "widthPercent": 1,
+          "heightPercent": 1,
+          "rationale": "Implementation conformance only; this tight tolerance does not establish historical correctness"
+        },
+        {
+          "target": "receiver-rear-axis",
+          "mode": "absolute",
+          "meters": 0.001,
+          "rationale": "Declared rear receiver datum; no measured center-of-mass or animation authority"
+        }
+      ]
+    },
+    "addenda": {
+      "threeDimensional": {
+        "status": "active",
+        "canonicalArtifact": {
+          "format": "glb",
+          "gltfVersion": "2.0",
+          "embeddedResources": true
+        },
+        "worldSpace": {
+          "units": "meters",
+          "expectedBounds": {
+            "min": {
+              "x": -0.129,
+              "y": -0.087,
+              "z": -1.5693
+            },
+            "max": {
+              "x": 0.142,
+              "y": 0.107,
+              "z": 0.08499999999999999
+            }
+          },
+          "mapping": {
+            "length": "maxZ-minus-minZ",
+            "width": "maxX-minus-minX",
+            "height": "maxY-minus-minY"
+          },
+          "boundsInclusion": "evaluated-visible-canonical-nodes",
+          "transformPolicy": {
+            "rootTranslation": [
+              0,
+              0,
+              0
+            ],
+            "rootRotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rootScale": [
+              1,
+              1,
+              1
+            ],
+            "childTransforms": "applied-or-declared"
+          },
+          "pivotValidation": "Rear receiver datum only; cosmetic cradle pitch and mounting unknown, no animation qualification"
+        },
+        "producerHandoff": {
+          "briefLines": [
+            "Human-directed source-part artwork checkpoint only",
+            "No approved source reuse or vehicle replacement",
+            "All cross sections interpreted; nominal generic length is not complete metric reconstruction"
+          ],
+          "specificationFacts": [
+            "twelve isolated P meshes",
+            "manual flexible fittings separated from common core",
+            "no vehicle adapter",
+            "not-human-approved",
+            "rear leaf folded, front blade upright (George 2026-11-11)"
+          ]
+        }
+      }
+    },
+    "conflicts": [],
+    "provisionalAssumptions": [],
+    "openQuestions": [],
+    "decisions": [
+      {
+        "decisionId": "george-20261111-folded-leaf-height-successor",
+        "actor": "George",
+        "actorRole": "named-human",
+        "decidedAt": "2026-11-11T19:55:00Z",
+        "inputs": [
+          "19e8efdc7ae3feacaf6283e930d7490cdb890d8ad707a93e3d97b784727b4d07",
+          "49174841f30b26fd2e0743f34f873a1188926db3e5de2bd19758700892d7c351"
+        ],
+        "outcome": "George: front blade upright, rear leaf folded; 'go ahead' with a finishing successor bound to a folded-leaf dimension-ready record. Height retargeted to measured folded envelope; all other targets retained. Production authorization only; no artwork, source or integration approval.",
+        "scope": "phase3-only"
+      }
+    ],
+    "status": "dimension-ready",
+    "authority": {
+      "productionAuthorized": false,
+      "approvalTransfer": false
+    },
+    "invalidation": {
+      "watches": [
+        "request.sha256",
+        "phase2Packet.sha256",
+        "styleProfile.sha256"
+      ],
+      "current": true
+    },
+    "supersession": {
+      "state": "superseding",
+      "priorSpecificationSha256Status": "19e8efdc7ae3feacaf6283e930d7490cdb890d8ad707a93e3d97b784727b4d07"
+    }
+  },
+  "canonicalJsonSha256": "71e209e9764756077a7f9c8fb3d5ac30ffec2d360a1a8d0cc3c67bfb8b33511c",
+  "bindingRevision": 11,
+  "boundAt": "2026-11-12T03:20:00Z"
+}

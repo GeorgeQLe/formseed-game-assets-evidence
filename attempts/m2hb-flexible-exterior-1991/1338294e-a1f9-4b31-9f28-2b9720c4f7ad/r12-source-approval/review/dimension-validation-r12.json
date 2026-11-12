@@ -1,0 +1,1041 @@
+{
+  "capabilityVersion": "dimension-validation@1.2.0",
+  "kind": "asset-dimension-validation",
+  "jobId": "1338294e-a1f9-4b31-9f28-2b9720c4f7ad",
+  "branchId": "main",
+  "revision": 12,
+  "checkpointId": "2906b4d4-49c4-4e2a-aeb5-bc0033b44d11",
+  "checkpointHash": "6086aee39877018c002f2597f3374b10045095c64720cdaee1f39a3085be15ca",
+  "specificationHash": "71e209e9764756077a7f9c8fb3d5ac30ffec2d360a1a8d0cc3c67bfb8b33511c",
+  "assetSpecificationHash": "e0556c11f0610d3b5727f9a1f66247482534d8d9525d2705b1a39249a1f8260b",
+  "configuration": "horizontal-flexible",
+  "pose": "horizontal-flexible",
+  "validationScope": {
+    "policy": "configuration-and-pose",
+    "canonical": true,
+    "declaredCriterionIds": [
+      "datum:receiver-rear-axis:X",
+      "datum:receiver-rear-axis:Y",
+      "datum:receiver-rear-axis:Z",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "applicableCriterionIds": [
+      "datum:receiver-rear-axis:X",
+      "datum:receiver-rear-axis:Y",
+      "datum:receiver-rear-axis:Z",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "excludedCriterionIds": []
+  },
+  "resourceClosure": {
+    "policy": "self-contained",
+    "externalDependencies": []
+  },
+  "request": {
+    "jobId": "1338294e-a1f9-4b31-9f28-2b9720c4f7ad",
+    "branchId": "main",
+    "expectedRevision": 12,
+    "checkpoint": {
+      "checkpointId": "2906b4d4-49c4-4e2a-aeb5-bc0033b44d11",
+      "checkpointHash": "6086aee39877018c002f2597f3374b10045095c64720cdaee1f39a3085be15ca"
+    },
+    "configuration": "horizontal-flexible",
+    "pose": "horizontal-flexible"
+  },
+  "requestHash": "66ee82849fec6687b98e1dea12550b402bf77d59de4453952f5a40dea54f66eb",
+  "criterionSetHash": "1b36da0a1e5136c26944bc5e5f9ca3d9b08f6a95f446e10b492f3aedbe1f5bd5",
+  "evidenceHash": "67d1b92a978a3edbfd6fd6f17e1bdebc8cea353615c69a3a6058b363a50fb320",
+  "evidenceManifestHash": "b2a18563d7209808160baa5c7c0063178e65655396ecbe1f3f1354db2dace1e3",
+  "criteria": [
+    {
+      "criterionId": "overall-length",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "value": 1.6542999999999999,
+        "unit": "m",
+        "basis": "Declared exterior artwork envelope. Overall length nominal 65.13in; other extents interpreted, not historical validation.",
+        "state": "provisional"
+      },
+      "observed": 1.6543000563979149,
+      "unit": "m",
+      "absoluteDeviation": 5.6397915004779975e-8,
+      "relativeDeviation": 3.409170948726348e-8,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-width",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "value": 0.271,
+        "unit": "m",
+        "basis": "Declared exterior artwork envelope. Overall length nominal 65.13in; other extents interpreted, not historical validation.",
+        "state": "provisional"
+      },
+      "observed": 0.2709999978542328,
+      "unit": "m",
+      "absoluteDeviation": 2.1457672305658093e-9,
+      "relativeDeviation": 7.917960260390439e-9,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-height",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "value": 0.194,
+        "unit": "m",
+        "basis": "Interpreted exterior artwork envelope, not historical validation. Overall length nominal 65.13in; other extents interpreted. Height retargeted 2026-11-11 from 0.232 m (v3, rear leaf upright) to the measured folded-leaf envelope 0.194 m (job 1338294e r11 dimension report 49174841..., unchanged by the r12 directed leaf correction; maximum Z is the P10 front-sight blade tip).",
+        "state": "provisional"
+      },
+      "observed": 0.1939999982714653,
+      "unit": "m",
+      "absoluteDeviation": 1.7285347042594879e-9,
+      "relativeDeviation": 8.909972702368494e-9,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": []
+    },
+    {
+      "criterionId": "datum:receiver-rear-axis:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "receiver-rear-axis"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:receiver-rear-axis:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "receiver-rear-axis"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:receiver-rear-axis:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "receiver-rear-axis"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:X",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "receiver-rear-axis"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Y",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "receiver-rear-axis"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Z",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.001,
+        "unit": "m",
+        "sourceTarget": "receiver-rear-axis"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:X",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Rear receiver datum only; cosmetic cradle pitch and mounting unknown, no animation qualification"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Y",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Rear receiver datum only; cosmetic cradle pitch and mounting unknown, no animation qualification"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Z",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Rear receiver datum only; cosmetic cradle pitch and mounting unknown, no animation qualification"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "horizontal-flexible",
+      "pose": "horizontal-flexible",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        }
+      ]
+    }
+  ],
+  "measurements": {
+    "overallBounds": {
+      "minimum": {
+        "x": -0.08500000089406967,
+        "y": -0.1420000046491623,
+        "z": -0.08699999749660492
+      },
+      "maximum": {
+        "x": 1.5693000555038452,
+        "y": 0.1289999932050705,
+        "z": 0.10700000077486038
+      },
+      "center": {
+        "x": 0.7421500086784363,
+        "y": -0.0065000057220458984,
+        "z": 0.010000001639127731
+      }
+    },
+    "dimensions": {
+      "width": 0.2709999978542328,
+      "height": 0.1939999982714653,
+      "length": 1.6543000563979149,
+      "unit": "m"
+    },
+    "components": [
+      {
+        "object": "P01Receiver",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0,
+            "y": -0.0860000029206276,
+            "z": -0.08699999749660492
+          },
+          "maximum": {
+            "x": 0.5860000252723694,
+            "y": 0.0860000029206276,
+            "z": 0.07400000095367432
+          },
+          "center": {
+            "x": 0.2930000126361847,
+            "y": 0,
+            "z": -0.0064999982714653015
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "5cc8073c2f1598f3f892980ff6ff9eeb5988732383bb059022d399d8055db715"
+      },
+      {
+        "object": "P02FeedCover",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.23999999463558197,
+            "y": -0.07699999958276749,
+            "z": 0.06499999761581421
+          },
+          "maximum": {
+            "x": 0.5299999713897705,
+            "y": 0.07699999958276749,
+            "z": 0.07699999958276749
+          },
+          "center": {
+            "x": 0.38499999046325684,
+            "y": 0,
+            "z": 0.07099999487400055
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "ca89c9b97ceaca14cb438e169e0183a2406959d54a8bfe8697a56ed7de2d0073"
+      },
+      {
+        "object": "P03BarrelSupport",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.5849999785423279,
+            "y": -0.039500001817941666,
+            "z": -0.039500001817941666
+          },
+          "maximum": {
+            "x": 0.8360000252723694,
+            "y": 0.039500001817941666,
+            "z": 0.039500001817941666
+          },
+          "center": {
+            "x": 0.7105000019073486,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "81fc4b29ace13e3bd8d9b522370ad3fdf9be94e7f244c177c3b206628cd24ec5"
+      },
+      {
+        "object": "P04Barrel",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.5799999833106995,
+            "y": -0.028999999165534973,
+            "z": -0.028999999165534973
+          },
+          "maximum": {
+            "x": 1.5693000555038452,
+            "y": 0.028999999165534973,
+            "z": 0.028999999165534973
+          },
+          "center": {
+            "x": 1.0746500492095947,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "7618e915f2e5b881dd1de5232e1d48a9c55be5124ef91133ecff74714392b768"
+      },
+      {
+        "object": "P05Backplate",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.054999999701976776,
+            "y": -0.07800000160932541,
+            "z": -0.06499999761581421
+          },
+          "maximum": {
+            "x": 0.0020000000949949026,
+            "y": 0.07800000160932541,
+            "z": 0.07400000095367432
+          },
+          "center": {
+            "x": -0.026499999687075615,
+            "y": 0,
+            "z": 0.004500001668930054
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "453dee6ca3e5fcbc1d99705be5b50a363481078b9cdf0d24c9bba464bbc9e620"
+      },
+      {
+        "object": "P06LeftGrip",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.08500000089406967,
+            "y": 0.06378605216741562,
+            "z": -0.05950000137090683
+          },
+          "maximum": {
+            "x": -0.00016502321523148566,
+            "y": 0.1289999932050705,
+            "z": 0.07850000262260437
+          },
+          "center": {
+            "x": -0.04258251190185547,
+            "y": 0.09639301896095276,
+            "z": 0.00950000062584877
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "a1d23e568fb7c63815766f1e5ef7ca5f97632eed8a920701e0824f0205cab347"
+      },
+      {
+        "object": "P07RightGrip",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.08500000089406967,
+            "y": -0.1289999932050705,
+            "z": -0.05950000137090683
+          },
+          "maximum": {
+            "x": -0.00016502321523148566,
+            "y": -0.06378605216741562,
+            "z": 0.07850000262260437
+          },
+          "center": {
+            "x": -0.04258251190185547,
+            "y": -0.09639301896095276,
+            "z": 0.00950000062584877
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "c20ce4ba799c7479ebf0efe2d037713950b060a86ae03b461c0e76c7e9c306a4"
+      },
+      {
+        "object": "P08Trigger",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.052000001072883606,
+            "y": -0.04500000178813934,
+            "z": 0.019999999552965164
+          },
+          "maximum": {
+            "x": -0.03799999877810478,
+            "y": 0.04500000178813934,
+            "z": 0.08299999684095383
+          },
+          "center": {
+            "x": -0.04500000178813934,
+            "y": 0,
+            "z": 0.051500000059604645
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "57c13e2dbcab1e77a1b40701a4cafc433d675fc39d7708b510131c35fb48c47d"
+      },
+      {
+        "object": "P09RetractingHandle",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.22100000083446503,
+            "y": -0.1420000046491623,
+            "z": -0.050999999046325684
+          },
+          "maximum": {
+            "x": 0.2639999985694885,
+            "y": -0.07900000363588333,
+            "z": 0.06400000303983688
+          },
+          "center": {
+            "x": 0.24250000715255737,
+            "y": -0.11050000786781311,
+            "z": 0.0065000019967556
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "7523dd97748a82173fcb5cea9ec1e48ff36b93498df1e941e54696d84570eafe"
+      },
+      {
+        "object": "P10FrontSight",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.5479999780654907,
+            "y": -0.019999999552965164,
+            "z": 0.05999999865889549
+          },
+          "maximum": {
+            "x": 0.5839999914169312,
+            "y": 0.019999999552965164,
+            "z": 0.10700000077486038
+          },
+          "center": {
+            "x": 0.5659999847412109,
+            "y": 0,
+            "z": 0.08349999785423279
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "36acfc90e8e557dc23868e38aa82effe3cacd79a58d7cf5d703471869e46bc24"
+      },
+      {
+        "object": "P11RearSight",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.052000001072883606,
+            "y": -0.029999999329447746,
+            "z": 0.0729999989271164
+          },
+          "maximum": {
+            "x": 0.13300000131130219,
+            "y": 0.029999999329447746,
+            "z": 0.10000000149011612
+          },
+          "center": {
+            "x": 0.0925000011920929,
+            "y": 0,
+            "z": 0.08650000393390656
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "c640aaf7b0a4d5a207cf645662eab3e27cca3912fe521c1d25e263e1ff65c38b"
+      },
+      {
+        "object": "P12BoltLatchRelease",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.009999999776482582,
+            "y": -0.00800000037997961,
+            "z": 0.07199999690055847
+          },
+          "maximum": {
+            "x": 0.014000000432133675,
+            "y": 0.00800000037997961,
+            "z": 0.08699999749660492
+          },
+          "center": {
+            "x": 0.0020000003278255463,
+            "y": 0,
+            "z": 0.0794999971985817
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "42ff2fc86f5c17cc231aed7582c282186f717c27bd9ff836f151d15d74c40e07"
+      }
+    ],
+    "datums": [
+      {
+        "id": "receiver-rear-axis",
+        "selector": {
+          "type": "object-origin",
+          "object": "P01Receiver"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "ratios": [],
+    "clearances": [],
+    "articulationSamples": [],
+    "includedObjects": [
+      "P01Receiver",
+      "P02FeedCover",
+      "P03BarrelSupport",
+      "P04Barrel",
+      "P05Backplate",
+      "P06LeftGrip",
+      "P07RightGrip",
+      "P08Trigger",
+      "P09RetractingHandle",
+      "P10FrontSight",
+      "P11RearSight",
+      "P12BoltLatchRelease"
+    ],
+    "excludedObjects": [],
+    "visibleGeometryObjects": [
+      "P01Receiver",
+      "P02FeedCover",
+      "P03BarrelSupport",
+      "P04Barrel",
+      "P05Backplate",
+      "P06LeftGrip",
+      "P07RightGrip",
+      "P08Trigger",
+      "P09RetractingHandle",
+      "P10FrontSight",
+      "P11RearSight",
+      "P12BoltLatchRelease"
+    ],
+    "configuration": "horizontal-flexible",
+    "pose": "horizontal-flexible"
+  },
+  "aggregate": {
+    "passed": true,
+    "complete": true,
+    "reproducible": true,
+    "internallyConsistent": true,
+    "expectedBlockingCriterionCount": 12,
+    "reportedBlockingCriterionCount": 12,
+    "passedBlockingCriterionCount": 12,
+    "blockingFailureCriterionIds": []
+  },
+  "createdAt": "2026-11-12T03:16:00.712Z",
+  "resultHash": "fa5b4ce615bbbbb61325dc96dceab1ffa16cd5154bc8dea96c74a697b1bceee6",
+  "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/1338294e-a1f9-4b31-9f28-2b9720c4f7ad/main/inspection/revision-12/asset-dimension-validation-fa5b4ce615bbbbb61325dc96dceab1ffa16cd5154bc8dea96c74a697b1bceee6.json"
+}
