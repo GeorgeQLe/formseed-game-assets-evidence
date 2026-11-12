@@ -1,0 +1,127 @@
+{
+  "requestPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r23/r23-request.json",
+  "requestSha256": "72bb5189e534e153f6748580969fc0dfbdab5eeb81900e7169ad00cf8df7ca5e",
+  "parameters": {
+    "N": 24,
+    "RO": 0.245,
+    "RL": 0.27,
+    "RC": 0.273,
+    "NB": 12,
+    "BOLT_HALF": 0.013,
+    "BOLT_H": 0.014,
+    "X_FACE": -0.03,
+    "X_RFRONT": -0.004,
+    "X_SPLIT": 0.025,
+    "CLIP_Z": 0.045,
+    "SKIRT": [
+      -0.42,
+      0.37
+    ],
+    "EDGE": [
+      -0.045,
+      0.288
+    ]
+  },
+  "operations": 22,
+  "fixedFlange": {
+    "owner": "P06 (parent M.turret)",
+    "profile": [
+      [
+        -0.42,
+        0.37
+      ],
+      [
+        -0.045,
+        0.288
+      ],
+      [
+        -0.03,
+        0.27
+      ],
+      [
+        -0.03,
+        0.245
+      ],
+      [
+        -0.01,
+        0.245
+      ],
+      [
+        -0.004,
+        0.239
+      ],
+      [
+        -0.004,
+        0.16174
+      ],
+      [
+        0.025,
+        0.16
+      ]
+    ],
+    "segments": 24,
+    "triangles": 524,
+    "darkFaces": 144,
+    "bolts": 12,
+    "boltCircleRadius": 0.2004,
+    "closedVolume": 0.137628,
+    "ringFaceRadiusInner": 0.16174,
+    "splitRadius": 0.16
+  },
+  "ball": {
+    "owner": "P09 (parent M.polsten-ball)",
+    "profile": [
+      [
+        0.025,
+        0.16
+      ],
+      [
+        0.085,
+        0.142
+      ],
+      [
+        0.145,
+        0.112
+      ],
+      [
+        0.19,
+        0.054
+      ]
+    ],
+    "segments": 24,
+    "triangles": 188,
+    "closedVolume": 0.008276
+  },
+  "r22Comparison": {
+    "p09Triangles": 524,
+    "bossTriangles": 156,
+    "bossSegments": 20,
+    "bossProfile": [
+      [
+        -0.42,
+        0.37
+      ],
+      [
+        -0.16,
+        0.305
+      ],
+      [
+        -0.045,
+        0.287
+      ],
+      [
+        -0.03,
+        0.27
+      ]
+    ]
+  },
+  "estimatedTriangleDelta": 32,
+  "cutter": {
+    "segments": 24,
+    "radius": 0.273,
+    "flatRadius": 0.27066,
+    "triangles": 92
+  },
+  "r22TrianglesTotal": 49940,
+  "triangleBudget": 50000
+}

@@ -1,0 +1,141 @@
+{
+  "recordType": "formseed-polish-producer-record",
+  "recordedAt": "2026-11-12T05:42:15.030935+00:00",
+  "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+  "branchId": "main",
+  "writer": {
+    "agent": "Claude Code",
+    "leaseId": "06f410ee-b263-40f1-b070-9377ecdd5e03",
+    "epoch": 31,
+    "released": true,
+    "releasedEpoch": 32
+  },
+  "direction": {
+    "source": "George, 2026-11-12 r22 decisions (status.polishAuthorization.georgeDirectionR23)",
+    "budgetCharge": 0,
+    "humanDirected": true
+  },
+  "build": {
+    "script": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r23/build-r23.py",
+      "sha256": "e6966a3dc47cd9526e22aca60030900de980ccadcbf9ab8c969a2f46d626811a"
+    },
+    "summary": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r23/build-r23.json",
+      "sha256": "c474e8ad699ba2f2d049361ac1587ff41a3610f9658052b741eed904534ad4e0"
+    },
+    "request": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r23/r23-request.json",
+      "sha256": "72bb5189e534e153f6748580969fc0dfbdab5eeb81900e7169ad00cf8df7ca5e"
+    }
+  },
+  "attempts": [
+    {
+      "key": "centurion-r23-fixed-flange-boss-20261112-v1",
+      "outcome": "committed r23 on first submission"
+    }
+  ],
+  "mutation": {
+    "tool": "replace_asset_components",
+    "batchId": "e820f9ed-56c5-4208-8b8b-5bff1cfc934a",
+    "operationsSha256": "7aaf246059b6f07752b29325b31d6f6f76aab7d29c029728bbf1bfd68a2bea75",
+    "expectedRevision": 22,
+    "revision": 23,
+    "applied": 22,
+    "removed": [
+      "P06",
+      "P09"
+    ],
+    "checkpoint": {
+      "checkpointId": "3a33d3d6-8e1a-4f13-a910-a43b7f68483f",
+      "checkpointHash": "d5661b5ed9b74fa852ffa25c022776f4347f6eb5e6900898de72a675b26cdf76"
+    },
+    "triangles": {
+      "before": 49940,
+      "after": 49838,
+      "delta": -102,
+      "estimatedDelta": 32,
+      "budget": 50000
+    },
+    "materials": 2,
+    "objects": 151,
+    "retainedFingerprintCount": 149
+  },
+  "rollback": {
+    "r22": {
+      "checkpointId": "29d824a5-e2c3-4897-aea4-b777b65f88d7",
+      "checkpointHash": "82cd26381991203c8970ae202a0b8ca6e6f97cc68e0a9838b8d18cdb174a7e9d",
+      "note": "not approved"
+    },
+    "r21": {
+      "checkpointId": "4b9d645b-77b6-4c10-8bec-4aa8c798abed",
+      "checkpointHash": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5",
+      "note": "George-approved artwork fallback"
+    }
+  },
+  "dimensions": {
+    "reportHash": "5f85bfccb11f8083b9ef66bf544af0d9c46ce2efa57aa2b36d1e64e9057b02cd"
+  },
+  "renders": {
+    "renderHash": "76a4e6652f89af59adc1bba5556f6c6fe206e38db4dddc7c40c53125d51a309d",
+    "deterministic": true,
+    "contactSheet": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/renders/revision-23/production/run-drTFYM/pass-2/contact-sheet.png",
+    "contactSheetHash": "0fca63fe01725f983bf378ffb9946d1adc980b198912d7e863e3b8ee1b4d558a"
+  },
+  "validation": {
+    "id": "412d7d1d-8d53-4f4f-adb2-221c8124a07a",
+    "passed": true,
+    "issues": []
+  },
+  "closeups": {
+    "transparent": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r23/closeups/r23/receipt-r23-8b33d1c0.json",
+      "sha256": "ee7ab176075c55fcd56416452fece744a208f9b835873c4bf45040d06cdae223"
+    },
+    "opaque": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r23/closeups/r23-opaque/receipt-r23-1e4f9902.json",
+      "sha256": "a57b58234ccbf9275bf0da18509fb90513f0525908b9bbdabf6ddb6cd7c3108e"
+    },
+    "beforeAfterReport": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r23/closeups/before-after-r22-r23/report.json",
+      "sha256": "8c3cedafd46a981a23024e81318ec149ede5332c60bb0b6d83bdba9306a6decf"
+    },
+    "boltProbe": {
+      "receiptRequestHash": "774e61d1328afe1f6623f7be3d92ce3b22db10b598d6e5c653205825ca015ca2",
+      "oblique": {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/closeup-diagnostics/closeup-subject-space-v1/774e61d1328afe1f6623f7be3d92ce3b22db10b598d6e5c653205825ca015ca2/pass-2/bolt-probe-oblique.png",
+        "sha256": "714ff88be46c7aebaa319d14ddbb0e0c3c42d28696041f038da07bf610b57237"
+      },
+      "profile": {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/closeup-diagnostics/closeup-subject-space-v1/774e61d1328afe1f6623f7be3d92ce3b22db10b598d6e5c653205825ca015ca2/pass-2/bolt-probe-profile.png",
+        "sha256": "b6397444dc20e8880e2ad652694c79542439ed46c6fffe92b30ebffce05170e9"
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "r23-bolts-missing",
+      "severity": "blocking-for-direction",
+      "finding": "The 12 flange bolts are absent at r23. Same-camera close-ups and the bolt-probe oblique show a plain dark ring face; the triangle delta (-102 vs +32 estimated, ~144 bolt triangles) matches the bolts being lost.",
+      "likelyCause": "The EXACT floor-clip boolean (z<=0.045) applied after joining the bolts dropped the disjoint bolt shells embedded 0.002 m into the ring face.",
+      "directionConflict": "George's direction 'move ring/bolts/collar to the fixed turret side ... same shapes' is not fully implemented.",
+      "proposedCorrection": "r24 (needs George's direction): rebuild the bolts with the same 12-bolt design, add them after the floor clip as disjoint shells starting at x>=1.116 (no embedding), then join into P06. No other change."
+    },
+    {
+      "id": "r23-kink-softened",
+      "severity": "partial",
+      "finding": "The boss/cheek spike seen from the top is reduced to a shallow apex. It is softened, not fully removed. Further smoothing adds segments and would press against the 50,000-triangle budget (r23 at 49,838; bolts restore ~+144)."
+    },
+    {
+      "id": "r23-split-design-choice",
+      "severity": "note",
+      "finding": "The collar/ball split at local x 0.025 (radius 0.16) is an interpretation and design choice; P09 dome rings .16/.142/.112/.054 are design choices."
+    }
+  ],
+  "gates": {
+    "technicalValidation": "pass (validate_asset 412d7d1d, deterministic renders, dimension report bound)",
+    "visualRecommendation": "no-go: missing bolts contradict the human direction; no revision-bound evaluator or adversarial review run for a candidate already known to be incomplete",
+    "humanApproval": "pending: r23 not reviewed; r21 remains the approved artwork"
+  },
+  "approved": false
+}

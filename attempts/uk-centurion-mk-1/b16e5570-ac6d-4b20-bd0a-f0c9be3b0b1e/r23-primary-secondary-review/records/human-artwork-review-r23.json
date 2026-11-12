@@ -1,0 +1,53 @@
+{
+  "recordType": "centurion-human-artwork-review",
+  "recordedAt": "2026-11-12T05:53:09.983Z",
+  "decidedBy": "George Le",
+  "humanApproved": false,
+  "decision": "not-approved",
+  "userStatement": "Centurion A41 Pilot r23 decisions (job b16e5570, checkpoint d5661b5e\u20265b26cdf76):\n1. Artwork review: Not approved; correct in r24\n2. Bolts: Restore the same 12 bolts after the floor cut, seated on the ring face; no other change\n3. Kink: Accept the softened kink",
+  "scope": "Artwork review of the exact presented r23 clean source checkpoint (labeled sheet, r22/r23 same-camera pairs and bolt check on the decision page).",
+  "candidatePins": {
+    "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+    "branch": "main",
+    "revision": 23,
+    "checkpointId": "3a33d3d6-8e1a-4f13-a910-a43b7f68483f",
+    "sha256": "d5661b5ed9b74fa852ffa25c022776f4347f6eb5e6900898de72a675b26cdf76"
+  },
+  "presentedEvidence": {
+    "labeledReviewSheet": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/.formseed-game-assets/reviews/centurion-a41-r23-review-labeled.png",
+      "sha256": "fcd5a517ea3e8b5a1aa95fe015b572bf9e993946eac9ec64311d476001811cdc"
+    },
+    "producerRecord": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r23/r23-producer-record.json",
+      "sha256": "da0477f5700b44d15cb3d0efd020e22aa7b5cf0ebee80b53388002cee091941e"
+    },
+    "decisionPage": "https://claude.ai/artifact/EUkZeyp7ivomWRkZ8Gwrgp (private; version 5)"
+  },
+  "agentRecommendationAtDecision": "no-go (12 flange bolts lost to the floor-clip boolean; evaluator and independent review not run on a known-incomplete candidate).",
+  "sameDecisionDirections": {
+    "bolts": "restore the same 12 bolts after the floor cut, seated on the ring face; no other change",
+    "kink": "accept the softened kink"
+  },
+  "designChoiceLabels": {
+    "bossProfile": "design choice",
+    "boltCount12": "design choice",
+    "collarBallSplit": "design choice (x 0.025, r 0.16)",
+    "p09DomeProfile": "design choice"
+  },
+  "approvedFallback": {
+    "revision": 21,
+    "checkpointId": "4b9d645b-77b6-4c10-8bec-4aa8c798abed",
+    "sha256": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5"
+  },
+  "iterationAccounting": "r24 is human-directed (specifically requested correction); budgetCharge 0.",
+  "exclusions": [
+    "Any approval of r23",
+    "Producer completion/approval/promotion",
+    "Asset version/release",
+    "Game integration",
+    "Catalog publication",
+    "Performance qualification"
+  ],
+  "backendSemantics": "Conversation artwork decision recorded in canonical job evidence. No producer approval transaction invoked."
+}
