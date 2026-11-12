@@ -1,0 +1,86 @@
+{
+  "reviewer": "independent-agent",
+  "revision": 21,
+  "checkpointHash": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5",
+  "method": "Read-only. I inspected the reference photos first, using zoomed crops of the photo-2 Polsten and mantlet and the photo-1 turret. Next I inspected the six r21 diagnostic close-ups, the r20 close-ups and the full r20/r21 production pass-2 renders. Only then did I read the producer files. Each of the 13 full production renders and the contact sheet was pixel-diffed, r20 against r21, using ImageMagick compare -metric AE (exact, and with 2% fuzz). I thresholded each difference image at 3% and dilated it by Disk:4 for connected-component boxes. Isolated changed pixels were checked against exact pixel values. I also compared the build-script geometry (radii and axial ranges) with what the close-ups show. Point-scaled inspection copies were written only to the session scratchpad. I made no MCP tool calls and took no locks. I did not render, edit or record anything other than this file.",
+  "evidenceInspected": [
+    "/Users/georgele/Developer/Projects/libs/military-vehicle-references/centurion/forum-reference-20261111/research/warthunder/data/a41p-polsten/photo-1-forum.webp",
+    "/Users/georgele/Developer/Projects/libs/military-vehicle-references/centurion/forum-reference-20261111/research/warthunder/data/a41p-polsten/photo-2-larger.png (turret crop 3x, mantlet-top crop 7x, Polsten crop 8x)",
+    "/Users/georgele/Developer/Projects/libs/military-vehicle-references/centurion/forum-reference-20261111/research/warthunder/data/a41p-polsten/metadata-2026-11-11.json",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/flange-front-left.png",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/flange-left-front.png",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/flange-left-side.png",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/flange-side.png",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/mantlet-eyes.png",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/turret-front-quarter.png",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r19-r20/closeups/r20/polsten-oblique-close.png",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r19-r20/closeups/r20/polsten-front.png",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/renders/revision-21/production/run-Xca4hB/pass-2/ (contact-sheet.png, orthographic-form/*, source-eight-view/*)",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/renders/revision-20/production/run-JCwm6Q/pass-2/ (same set)",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/build-r21.py",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/build-r21.json",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/r21-producer-record.json",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/dimensions21.json (aggregate only)",
+    "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r19-r20/independent-review.json"
+  ],
+  "flangeComparison": {
+    "verdict": "Partly matches. The identity cue is now present and complete, but its proportions and seating do not yet match the reference.",
+    "referenceCue": "Photo-2 shows a dark, flat, bolted ring flange. Its outer diameter is clearly larger than the lighter bell or collar in front of it; at a rough pixel estimate, the collar is about 60% of the flange diameter. Bolt heads are legible on the visible upper and right arc. On the turret side, the flange is surrounded by a lighter, rounded cast swelling that blends into the cheek with no hard edge. Photo-1 does not show this side of the turret.",
+    "whatR21Does": "The ring is complete and square to the existing axis. It sits on a flat spot face, with a cylindrical P06 boss outboard and a cylindrical recess inboard. The axis is unchanged, as directed. The ring is no longer buried at one side like the r18 crescent, and it is not absent as in r20.",
+    "mismatches": [
+      "Ring to ball proportion. The build has a ring of r 0.158 to 0.195 and a dome of max r 0.163. The ring therefore extends only about 32 mm beyond the dome, which is about 84% of the ring diameter, against roughly 60% in the reference. In flange-front-left and flange-left-side the flange reads as a thin lip behind the ball, not a broad flat ring.",
+      "Boss form. The P06 boss (r 0.196) is a 24-segment cylinder with sharp 90-degree edges. It projects up to about 0.13 m outboard of the oblique cheek. In flange-left-front and flange-left-side it reads as a faceted drum stuck onto the cheek, not as the photo's rounded cast swelling. The producer records the same observation.",
+      "The boss and the ring outer radius are almost the same (0.196 against 0.195), so the ring has no visible flat land around it on the boss face. The reference shows the flange sitting within a broader surrounding face.",
+      "Eight bolts against more in the photo. Each is 18 mm square and stands about 10 mm proud, which is barely legible even at close-up. The producer labels the count as a budget simplification, which is acceptable as a design choice.",
+      "Tone. The single olive material gives no dark-flange and light-collar separation. This is a separate surface decision and not a geometry fault."
+    ],
+    "construction": "The dome profile (r 0.1607 to 0.163 over x -0.06 to 0.025) passes through the ring's inner radius (0.158) over the ring's axial span (x -0.03 to -0.005). This is about 3 to 5 mm of hidden interpenetration between closed shells inside one P09 object. I saw no visible gap, fin or crescent at any close-up angle. The inboard spot-face recess shows as faceted crescents above and below the ball in flange-front-left. That is plausible as a recess, but it is hard-edged."
+  },
+  "liftingEyes": {
+    "referenceSupport": "The eyes' presence, count and approximate location are reference-supported. The photo-2 mantlet crop shows two small U-shaped loop eyes on the mantlet top, toward the rear edge, one near each end. The producer checked the reference, as directed.",
+    "designChoices": "The following are design choices, and the build script labels them as such: loop size (86 mm outer, 16 mm square section), plane orientation (lateral y-z, facing forward), the exact lateral spacing of plus or minus 0.39 m from the mantlet centre, and the fore-and-aft position x=0.08. The square section is also a choice; the photo eyes read as round bar. The photo cannot settle loop orientation. In the reference, the eyes look placed slightly nearer the mantlet ends and the rear edge than in r21. Perspective prevents measurement, so this is not an objection.",
+    "seatingAndForm": "In mantlet-eyes and flange-front-left both loops sit on the top surface. The legs are embedded about 12 mm, and I saw no visible float or gap. At close range they read as eyes. They are not overscaled."
+  },
+  "nativeSizeVsCloseup": {
+    "closeup": "All three changes are clearly visible: the boss, recess, ring and bolts, and the two eyes.",
+    "native": "At native size in az-315, the Polsten gains a faint one-pixel ring outline around the ball and is otherwise the same small olive ball as r20. The bolts are illegible. In ortho-front, the boss reads as a slightly larger disc. The lifting eyes are 1 to 2 dark pixels on the mantlet top corners. The changed area is 10x9 px per eye in ortho-front and about 35x30 px for the Polsten. They are visible as specks but do not read as eyes. The contact sheet frames the vehicle too small to show any of these changes.",
+    "assessment": "The main gain is a close-up identity gain. At native size the Polsten identity is only marginally improved. That fits small detail parts, but it means r21 does not materially change native-size recognition of the A41 Pilot."
+  },
+  "changeConfinement": {
+    "method": "ImageMagick compare -metric AE, r20 against r21 production pass-2, exact and with 2% fuzz. Difference images were thresholded at 3%, dilated by Disk:4 and labelled as connected components.",
+    "perView": [
+      {"view": "ortho front 1200x800", "AEexact": 419, "AEfuzz2": 111, "regions": "35x30+641+345 (Polsten boss and ring), 9x9+659+343 (Polsten), 10x9+565+313 and 11x9+620+313 (the two mantlet-top eyes)"},
+      {"view": "ortho left", "AEexact": 10, "AEfuzz2": 10, "regions": "10x13+669+313 (eye above the mantlet top)"},
+      {"view": "ortho right", "AEexact": 380, "AEfuzz2": 119, "regions": "24x34+523+341 (Polsten boss), 10x13+521+313 (eye)"},
+      {"view": "ortho rear", "AEexact": 0, "AEfuzz2": 0, "regions": "none"},
+      {"view": "ortho top", "AEexact": 184, "AEfuzz2": 82, "regions": "36x28+640+453 (Polsten), 14x10+563+469 and 15x10+618+469 (eyes)"},
+      {"view": "az-0", "AEexact": 111, "AEfuzz2": 37, "regions": "22x22+531+496 (Polsten), two 11x9 eye regions"},
+      {"view": "az-45", "AEexact": 20, "AEfuzz2": 12, "regions": "three small regions at the turret front, mantlet top and Polsten"},
+      {"view": "az-90", "AEexact": 26, "AEfuzz2": 1, "regions": "a single pixel at 541,471"},
+      {"view": "az-135", "AEexact": 13, "AEfuzz2": 8, "regions": "isolated pixels at 529,462, 547-549,468-470 and 532,487"},
+      {"view": "az-180", "AEexact": 15, "AEfuzz2": 3, "regions": "single pixels at 527,461 (dark speck at the turret-roof crest, consistent with an eye peeking over), 549,480 and 489,501 (both on the turret shell surface)"},
+      {"view": "az-225", "AEexact": 59, "AEfuzz2": 31, "regions": "14x21+458+481 (Polsten), plus scattered pixels at 476,467, 496,461, 533-551,496-508 and 573-582,498-510 on the turret side"},
+      {"view": "az-270", "AEexact": 77, "AEfuzz2": 30, "regions": "17x22+470+494 (Polsten)"},
+      {"view": "az-315", "AEexact": 124, "AEfuzz2": 54, "regions": "26x21+496+500 (Polsten), plus two eye regions"},
+      {"view": "contact sheet 4800x4096", "AEexact": 1438, "AEfuzz2": 498, "regions": "The overall bounding box spans the panels; this is the sum of the per-view cells above"}
+    ],
+    "verdict": "Confined to the turret, within the scope of P06, P07 and P09. Every substantive cluster lies on the Polsten/boss or the mantlet-top eyes. There are no changes on the hull, tracks, wheels, deck or rear (ortho rear AE 0). Several rear and side views also contain isolated 1 to 3 px changes on the P06 turret-shell surface away from the Polsten. These are consistent with the P06 boolean retriangulation altering pre-existing pinhole or speck pixels, but I cannot attribute them per object from pixels alone. The producer record states that 148 retained fingerprints were receipt-verified and only P06, P07 and P09 were replaced. inspect_native_component_isolation was run but its result was not captured, so I could not independently cross-check object-level isolation."
+  },
+  "coreCategoryObjections": [
+    {"category": "silhouette/form", "objection": "Whole-vehicle silhouette is unchanged and only the turret front differs. However, the new P06 boss is a hard-edged 24-segment drum standing up to about 0.13 m proud of the oblique cheek. It reads as an add-on cylinder, not the reference's blended cast swelling.", "status": "unresolved"},
+    {"category": "proportion vs reference", "objection": "The ring flange is only about 32 mm wider than the ball (ball about 84% of the ring diameter, against about 60% in photo-2). The boss radius equals the ring's outer radius, so no flat land shows around the ring. The flange reads as a thin lip, not the photo's broad bolted ring.", "status": "unresolved"},
+    {"category": "construction/seating", "objection": "The r18 crescent and r20 flange absence are fixed. The ring is complete, square to the unchanged axis and seated on a flat spot face. The eyes are seated and do not float. Remaining issues: hidden 3 to 5 mm interpenetration of the dome through the ring inner radius (not visible), and the fixed ring belongs to the articulated P09 (a known limitation the producer records).", "status": "resolved"},
+    {"category": "surface/shading", "objection": "The boss, recess crescents and ring are flat-shaded 24-segment geometry with sharp edges. Their facets are visible at close-up and set against the smoothed P07 mantlet and dome. This continues r20's inconsistent cast-surface language objection; r21 adds more faceted hard-surface geometry.", "status": "unresolved"},
+    {"category": "detail legibility (native vs close-up)", "objection": "The flange, bolts and eyes are legible only at close-up. At native size the Polsten gains a one-pixel ring outline and the eyes are 1 to 2 px specks. The contact sheet cannot show them. This is acceptable for small parts, but it means the native identity gain is marginal. No labeled, framed review sheet or fixed-camera r20/r21 pair exists; the r21 close-ups use new framings.", "status": "unresolved"},
+    {"category": "reference fidelity (documented vs design choice)", "objection": "The lifting eyes are reference-supported in presence, count and approximate location; size, section, orientation and spacing are labeled design choices. The flange is reference-supported as a complete bolted ring on a flat face. The bolt count (8) and all radii are labeled design choices. The boss shape is not the photographed cast form and is not labeled as a deliberate stylization.", "status": "unresolved"},
+    {"category": "change confinement (outside P06/P07/P09)", "objection": "Pixel diffs are confined to the turret front, the Polsten and the mantlet top, apart from isolated 1 to 3 px shell-surface specks consistent with P06 retriangulation. Ortho rear is identical. The producer receipt reports 148 retained fingerprints. Object-level native isolation evidence was not captured.", "status": "resolved"},
+    {"category": "evaluator gate", "objection": "No complete hash-bound structured assessment for r21 has been run through the deterministic evaluator, so the visual result fails closed to no-go.", "status": "unresolved"}
+  ],
+  "recommendation": "no-go",
+  "recommendedNextStep": "Keep r21 as the working baseline over r20, because it carries a net gain: a complete flange on the existing axis and reference-supported mantlet eyes, with no regressions found outside the turret front. Do not present it as resolving the Polsten identity. These fixes apply only with George's direction or within the autonomous budget, and stay limited to P06 and P09 on the existing axis: (1) widen the flange outer radius toward about 0.24-0.26 m, or reduce the collar or ball front, so the collar is about 60% of the ring diameter, and add more and larger bolt heads; (2) replace the hard cylinder boss with a larger, blended cast swelling (chamfered or rounded transition, smooth-shaded), with a flat land visible around the ring; (3) smooth-shade or add segments to the boss, recess and ring; (4) optionally darken the flange tone (a separate surface decision); (5) tuck the ring inner radius outside the dome, or trim the dome, to remove the hidden overlap. Before any named review, produce fixed-camera r20/r21 pairs, a labeled framed review sheet with native crops, a captured native isolation result, and a complete hash-bound structured assessment through the deterministic evaluator, followed by a new adversarial review.",
+  "technicalValidation": "pass (producer-reported and not rerun here: dimensions21 aggregate passed 37/37, generic validation passed, 49,938/50,000 triangles, 151 objects with P06/P07/P09 replaced)",
+  "visualRecommendation": "no-go",
+  "humanApproval": "none",
+  "scores": "none assigned",
+  "approval": "none"
+}

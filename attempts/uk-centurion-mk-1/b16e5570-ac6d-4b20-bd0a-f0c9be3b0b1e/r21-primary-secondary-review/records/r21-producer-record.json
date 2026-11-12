@@ -1,0 +1,162 @@
+{
+  "recordType": "formseed-polish-producer-record",
+  "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+  "branchId": "main",
+  "writer": {
+    "agent": "Claude Code",
+    "leaseId": "5f915204-f4f4-4770-9d0a-ffba4f307a8e",
+    "epoch": 25,
+    "released": true,
+    "releasedEpoch": 26
+  },
+  "direction": {
+    "source": "George, 2026-11-11 reply to r20 decision page",
+    "artwork": "Not approved; keep r20 as working baseline and polish further",
+    "flange": "A: local P06 pad on the existing axis + complete P09 ring (P06 change authorized)",
+    "mantlet": "lifting eyes (check references first, infer nothing)"
+  },
+  "build": {
+    "script": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/build-r21.py",
+      "sha256": "804d5f1706f1c3fc5494164ec5a3777c0bea20a9a2c3830d34c62edff7dffd53"
+    },
+    "summary": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/build-r21.json",
+      "sha256": "c853a51c67c3417a51debeb2fb969ec5fc1d01742e9ecc15eac1e6f7f4ae647f"
+    },
+    "request": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/r21-request.json",
+      "sha256": "da5e74348c49095c41cf05b1beff2157db4efdaf8d74fa52355018b443370a12"
+    }
+  },
+  "attempts": [
+    {
+      "key": "centurion-r21-flangeA-eyes-20261111-v1",
+      "outcome": "rejected by replace_asset_components before commit: Boolean result \"P06\" must be a closed manifold mesh; checkpoint stayed at r20",
+      "cause": "Builder cylinder caps were wound inward (local check tested edge manifoldness only, not orientation); cutter r 0.205 also grazed the front-face edge"
+    },
+    {
+      "key": "centurion-r21-flangeA-eyes-20261111-v2",
+      "outcome": "never submitted; local headless test still showed 22 non-manifold edges"
+    },
+    {
+      "key": "centurion-r21-flangeA-eyes-20261111-v3",
+      "outcome": "committed r21"
+    }
+  ],
+  "mutation": {
+    "tool": "replace_asset_components",
+    "expectedRevision": 20,
+    "revision": 21,
+    "applied": 19,
+    "removed": [
+      "P06",
+      "P07",
+      "P09"
+    ],
+    "checkpoint": {
+      "checkpointId": "4b9d645b-77b6-4c10-8bec-4aa8c798abed",
+      "checkpointHash": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5"
+    },
+    "triangles": {
+      "before": 49680,
+      "after": 49938,
+      "budget": 50000
+    },
+    "materials": 2,
+    "objects": 151,
+    "retainedFingerprintCount": 148,
+    "retainedScope": "All 151 objects except P06, P07 and P09 carried receipt-verified retained fingerprints (fingerprints in the FormSeed production journal for revision 21)."
+  },
+  "rollback": {
+    "checkpointId": "8c6cac01-3521-4569-b3cb-337942a8c895",
+    "checkpointHash": "d4bc9dcd740a70b2cbe9763c1ae7bcb0648dd868a7b5dcbe514acffc0f25db37",
+    "revision": 20
+  },
+  "dimensions": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/dimensions21.json",
+    "sha256": "bb2594c072990d598a54cd057852364e6a0305e52ca6d83eedbb9da460424adf"
+  },
+  "dimensionResultHash": "cf85a18a2c77af906a88910fe8dfa5d462745b647c9db708781796df211e5405",
+  "dimensionPassed": 37,
+  "dimensionTotal": 37,
+  "renderBaseline": {
+    "tool": "preflight_asset_render_baseline",
+    "contactSheetSha256BothPasses": "fce368d25cad3076e61ae6b73efb2db43e50b7a7b64b4ca8d834d1222d6f2987",
+    "contactSheetsByteIdentical": true
+  },
+  "productionRender": {
+    "run": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/renders/revision-21/production/run-Xca4hB/pass-2",
+    "contactSheetHash": "fce368d25cad3076e61ae6b73efb2db43e50b7a7b64b4ca8d834d1222d6f2987",
+    "renderHash": "b75e242beb92900ae88275129ab41e77418f048cd16c753414188a4d2d91e9f2",
+    "identicalToBaseline": true
+  },
+  "genericValidation": {
+    "id": "87e06fd1-8f90-4271-b8e6-485d1f49dbf3",
+    "passed": true,
+    "deterministic": true,
+    "issues": [],
+    "triangleCount": 49938,
+    "materialCount": 2,
+    "objectCount": 151,
+    "checkpointHash": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5"
+  },
+  "nativeIsolation": {
+    "status": "not captured",
+    "reason": "inspect_native_component_isolation(P06,P07,P09) ran but its 263k-character result could not be returned or saved by the Claude Code host (tool-results directory is a symlink the host refuses). Isolation is evidenced instead by the mutation receipt: 148 retained fingerprints, only P06/P07/P09 replaced."
+  },
+  "closeups": {
+    "dir": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21",
+    "files": [
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/flange-front-left.png",
+        "sha256": "36523ff967937b94fbc554f44f6cfa98d24fd0671e9b56365c3b32fd7464eddd"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/flange-left-front.png",
+        "sha256": "785f16448b71d407207bd4c7eb254564c49674933a7d60bc8b47d8492a0b94c0"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/flange-left-side.png",
+        "sha256": "175a9e0b7094c34d5e1eccb16dbd857eb37817f0a842caf910e31b0a2bf68ce5"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/flange-side.png",
+        "sha256": "13bce286b14a4f90a6902071f3b6ba517f23deaaf5b556951d925d238234f571"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/mantlet-eyes.png",
+        "sha256": "19fcc71410adebc7f53c66eaaef4255ef67d284d57bdfac69d80d17139668791"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/receipt-5dd4e540.json",
+        "sha256": "75fd70f4cd1da530db20e22ac8593a2853736c7c9e4845f84bba2d9a42ad6123"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/receipt-a4349a58.json",
+        "sha256": "ce36d40d8c01f9084dc4d1c906d5669d3ca108073957649e38d2d9f6385fdea5"
+      },
+      {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/closeups/r21/turret-front-quarter.png",
+        "sha256": "f0dcfc24e195e2c537d1209fe9ac88491485752fccf1cf8763ff47fc44370079"
+      }
+    ],
+    "evidenceClass": "diagnostic-closeup; qualifiesProductionGate false",
+    "r20Counterparts": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r19-r20/closeups/r20",
+    "framingNote": "r21 views use new point/component framings, not the r20 camera set; comparison is qualitative."
+  },
+  "producerObservations": [
+    "Lifting eyes read as two small loops on the mantlet top in mantlet-eyes and flange-front-left.",
+    "Boss stands proud of the cheek as a hard 24-segment unsmoothed cylinder; reads faceted at close range and lacks cast-edge rounding.",
+    "Ring flange and 8 bolt heads are present but low-contrast in the single olive material."
+  ],
+  "iteration": {
+    "r21": {
+      "classification": "human-directed",
+      "budgetCharge": 0,
+      "technicalRetries": 1
+    }
+  },
+  "approval": "none",
+  "createdAt": "2026-11-12T02:01:51.807421+00:00"
+}

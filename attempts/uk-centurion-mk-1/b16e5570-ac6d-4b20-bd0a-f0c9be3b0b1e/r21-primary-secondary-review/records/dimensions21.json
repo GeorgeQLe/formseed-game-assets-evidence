@@ -1,0 +1,5435 @@
+{
+  "capabilityVersion": "dimension-validation@1.2.0",
+  "kind": "asset-dimension-validation",
+  "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+  "branchId": "main",
+  "revision": 21,
+  "checkpointId": "4b9d645b-77b6-4c10-8bec-4aa8c798abed",
+  "checkpointHash": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5",
+  "specificationHash": "36cc5fa27e6c6686ac2ae113e7e3e0181980608251aadf7427f71117cb4e029f",
+  "assetSpecificationHash": "a671e1f3ea0c550b039933e4658c19ac75ad89ed55689cb8b3e3153506e97b78",
+  "configuration": "rest",
+  "pose": "rest",
+  "validationScope": {
+    "policy": "configuration-and-pose",
+    "canonical": true,
+    "declaredCriterionIds": [
+      "datum:cupola:X",
+      "datum:cupola:Y",
+      "datum:cupola:Z",
+      "datum:ground-below-traverse:X",
+      "datum:ground-below-traverse:Y",
+      "datum:ground-below-traverse:Z",
+      "datum:gun-elevation:X",
+      "datum:gun-elevation:Y",
+      "datum:gun-elevation:Z",
+      "datum:gun-recoil:X",
+      "datum:gun-recoil:Y",
+      "datum:gun-recoil:Z",
+      "datum:left-ground:Z",
+      "datum:polsten-ball:X",
+      "datum:polsten-ball:Y",
+      "datum:polsten-ball:Z",
+      "datum:right-ground:Z",
+      "datum:track-left:X",
+      "datum:track-left:Y",
+      "datum:track-left:Z",
+      "datum:track-right:X",
+      "datum:track-right:Y",
+      "datum:track-right:Z",
+      "datum:turret:X",
+      "datum:turret:Y",
+      "datum:turret:Z",
+      "grounding:left-ground",
+      "grounding:right-ground",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "applicableCriterionIds": [
+      "datum:cupola:X",
+      "datum:cupola:Y",
+      "datum:cupola:Z",
+      "datum:ground-below-traverse:X",
+      "datum:ground-below-traverse:Y",
+      "datum:ground-below-traverse:Z",
+      "datum:gun-elevation:X",
+      "datum:gun-elevation:Y",
+      "datum:gun-elevation:Z",
+      "datum:gun-recoil:X",
+      "datum:gun-recoil:Y",
+      "datum:gun-recoil:Z",
+      "datum:left-ground:Z",
+      "datum:polsten-ball:X",
+      "datum:polsten-ball:Y",
+      "datum:polsten-ball:Z",
+      "datum:right-ground:Z",
+      "datum:track-left:X",
+      "datum:track-left:Y",
+      "datum:track-left:Z",
+      "datum:track-right:X",
+      "datum:track-right:Y",
+      "datum:track-right:Z",
+      "datum:turret:X",
+      "datum:turret:Y",
+      "datum:turret:Z",
+      "grounding:left-ground",
+      "grounding:right-ground",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "excludedCriterionIds": []
+  },
+  "resourceClosure": {
+    "policy": "self-contained",
+    "externalDependencies": []
+  },
+  "request": {
+    "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+    "branchId": "main",
+    "expectedRevision": 21,
+    "checkpoint": {
+      "checkpointId": "4b9d645b-77b6-4c10-8bec-4aa8c798abed",
+      "checkpointHash": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5"
+    },
+    "configuration": "rest",
+    "pose": "rest"
+  },
+  "requestHash": "b8f655e4fb90f2320fd998f877db916434789a322adb2714d3fe3f21ac5cacca",
+  "criterionSetHash": "1458e36412c8c8e8ade8a7a40cd7aebba574fe544f86220df909fac55f4ce8b7",
+  "evidenceHash": "94b97ec2b099b39c9b20e0689d5846aa5ce0c022e0400fe90848d9f25c41c1c2",
+  "evidenceManifestHash": "308b8b26ce880d90406caf33a72e26d03a53146741759545133b66f1cde620d1",
+  "criteria": [
+    {
+      "criterionId": "overall-length",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 9.2308233,
+        "unit": "m",
+        "source": "length"
+      },
+      "observed": 9.230000019073486,
+      "unit": "m",
+      "absoluteDeviation": 0.0008232809265145136,
+      "relativeDeviation": 0.00008918824461892944,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.002,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-width",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.306,
+        "unit": "m",
+        "source": "width"
+      },
+      "observed": 3.305999994277954,
+      "unit": "m",
+      "absoluteDeviation": 5.7220459481754915e-9,
+      "relativeDeviation": 1.7308063969072871e-9,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.002,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-height",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 2.717201779076892,
+        "unit": "m",
+        "source": "height"
+      },
+      "observed": 2.7172017097473145,
+      "unit": "m",
+      "absoluteDeviation": 6.932957763439163e-8,
+      "relativeDeviation": 2.5515064125250495e-8,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.002,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": []
+    },
+    {
+      "criterionId": "datum:ground-below-traverse:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "ground-below-traverse"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:ground-below-traverse:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "ground-below-traverse"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:ground-below-traverse:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "ground-below-traverse"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:turret:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "turret"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.turret"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:turret:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "turret"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.turret"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:turret:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.6077017790768922,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.6077017784118652,
+      "unit": "m",
+      "absoluteDeviation": 6.650269224195426e-10,
+      "relativeDeviation": 4.1365067270211446e-10,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "turret"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.turret"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:gun-elevation:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.1200000047683716,
+      "unit": "m",
+      "absoluteDeviation": 4.76837147544984e-9,
+      "relativeDeviation": 4.257474531651642e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "gun-elevation"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.gun-elevation"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:gun-elevation:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "gun-elevation"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.gun-elevation"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:gun-elevation:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 2.0277017790768923,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 2.0277018547058105,
+      "unit": "m",
+      "absoluteDeviation": 7.562891823909013e-8,
+      "relativeDeviation": 3.729785070934842e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "gun-elevation"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.gun-elevation"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:gun-recoil:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.1200000047683716,
+      "unit": "m",
+      "absoluteDeviation": 4.76837147544984e-9,
+      "relativeDeviation": 4.257474531651642e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "gun-recoil"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.gun-recoil"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:gun-recoil:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "gun-recoil"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.gun-recoil"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:gun-recoil:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 2.0277017790768923,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 2.0277018547058105,
+      "unit": "m",
+      "absoluteDeviation": 7.562891823909013e-8,
+      "relativeDeviation": 3.729785070934842e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "gun-recoil"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.gun-recoil"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:polsten-ball:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.12,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.1200000047683716,
+      "unit": "m",
+      "absoluteDeviation": 4.76837147544984e-9,
+      "relativeDeviation": 4.257474531651642e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "polsten-ball"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.polsten-ball"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:polsten-ball:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0.82,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0.8199999928474426,
+      "unit": "m",
+      "absoluteDeviation": 7.152557324197062e-9,
+      "relativeDeviation": 8.722630883167149e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "polsten-ball"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.polsten-ball"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:polsten-ball:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.957701779076892,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.9577018022537231,
+      "unit": "m",
+      "absoluteDeviation": 2.317683112096347e-8,
+      "relativeDeviation": 1.183879555541496e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "polsten-ball"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.polsten-ball"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:cupola:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -0.88,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": -0.8799999952316284,
+      "unit": "m",
+      "absoluteDeviation": 4.768371586472142e-9,
+      "relativeDeviation": 5.418604075536525e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "cupola"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.cupola"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:cupola:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -0.306,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": -0.3059999942779541,
+      "unit": "m",
+      "absoluteDeviation": 5.72204589266434e-9,
+      "relativeDeviation": 1.8699496381256015e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "cupola"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.cupola"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:cupola:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 2.627701779076892,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 2.627701759338379,
+      "unit": "m",
+      "absoluteDeviation": 1.9738513046263506e-8,
+      "relativeDeviation": 7.511702128236797e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "cupola"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.cupola"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:track-left:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "track-left"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.track-left"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:track-left:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.35,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.350000023841858,
+      "unit": "m",
+      "absoluteDeviation": 2.3841857821338408e-8,
+      "relativeDeviation": 1.7660635423213634e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "track-left"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.track-left"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:track-left:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "track-left"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.track-left"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:track-right:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "track-right"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.track-right"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:track-right:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -1.35,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": -1.350000023841858,
+      "unit": "m",
+      "absoluteDeviation": 2.3841857821338408e-8,
+      "relativeDeviation": 1.7660635423213634e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "track-right"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.track-right"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:track-right:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "track-right"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.track-right"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:left-ground:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "left-ground"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "P39",
+          "axis": "Z",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:right-ground:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "right-ground"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "P40",
+          "axis": "Z",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:X",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "ground-below-traverse"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Y",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "ground-below-traverse"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Z",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "ground-below-traverse"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "M.hull"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:X",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Selected static mount origins only. Dynamic clearances and track circulation not qualified by this blockout."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Y",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Selected static mount origins only. Dynamic clearances and track circulation not qualified by this blockout."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Z",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Selected static mount origins only. Dynamic clearances and track circulation not qualified by this blockout."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "P01"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:left-ground",
+      "kind": "grounding",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "left-ground"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "P39",
+          "axis": "Z",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:right-ground",
+      "kind": "grounding",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.005,
+        "unit": "m",
+        "sourceTarget": "right-ground"
+      },
+      "configuration": "rest",
+      "pose": "rest",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "P40",
+          "axis": "Z",
+          "side": "minimum"
+        }
+      ]
+    }
+  ],
+  "measurements": {
+    "overallBounds": {
+      "minimum": {
+        "x": -4.460000038146973,
+        "y": -1.652999997138977,
+        "z": 0
+      },
+      "maximum": {
+        "x": 4.769999980926514,
+        "y": 1.652999997138977,
+        "z": 2.7172017097473145
+      },
+      "center": {
+        "x": 0.1549999713897705,
+        "y": 0,
+        "z": 1.3586008548736572
+      }
+    },
+    "dimensions": {
+      "width": 3.305999994277954,
+      "height": 2.7172017097473145,
+      "length": 9.230000019073486,
+      "unit": "m"
+    },
+    "components": [
+      {
+        "object": "P01",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.9450411796569824,
+            "y": -1.0479106903076172,
+            "z": 0.49239349365234375
+          },
+          "maximum": {
+            "x": 2.8146140575408936,
+            "y": 1.0248759984970093,
+            "z": 1
+          },
+          "center": {
+            "x": -0.5652135610580444,
+            "y": -0.011517345905303955,
+            "z": 0.7461967468261719
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "38fc5eb8b5f5aed10447e06c16ac469f89c66f9132ccf1e874ed6138396389be"
+      },
+      {
+        "object": "P02",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -4,
+            "y": -1.2000000476837158,
+            "z": 1
+          },
+          "maximum": {
+            "x": 1.8486616611480713,
+            "y": 1.2000000476837158,
+            "z": 1.760483741760254
+          },
+          "center": {
+            "x": -1.0756691694259644,
+            "y": 0,
+            "z": 1.380241870880127
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "85d0e0eb291a90698833b15df907e461f8391d13ff21ff56cc2d143ab872cfd1"
+      },
+      {
+        "object": "P03",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.8486616611480713,
+            "y": -1.2000000476837158,
+            "z": 1
+          },
+          "maximum": {
+            "x": 2.857022523880005,
+            "y": 1.2000000476837158,
+            "z": 1.5771453380584717
+          },
+          "center": {
+            "x": 2.352842092514038,
+            "y": 0,
+            "z": 1.2885726690292358
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "9776688400548487ebe5940637c52e52e211a95a09251854e804145d153c9a58"
+      },
+      {
+        "object": "P04",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -4.430676460266113,
+            "y": -0.9854435920715332,
+            "z": 1.2289949655532837
+          },
+          "maximum": {
+            "x": -4,
+            "y": 0.9854435920715332,
+            "z": 1.760483741760254
+          },
+          "center": {
+            "x": -4.215338230133057,
+            "y": 0,
+            "z": 1.494739294052124
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "71f7206f5349a580b869a9b213e0624d51a8abee2d49328386874c28ee16e334"
+      },
+      {
+        "object": "P05",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -4.099999904632568,
+            "y": -0.8999999761581421,
+            "z": 1.7602018117904663
+          },
+          "maximum": {
+            "x": -1.600000023841858,
+            "y": 0.8999999761581421,
+            "z": 1.8127018213272095
+          },
+          "center": {
+            "x": -2.8499999046325684,
+            "y": 0,
+            "z": 1.786451816558838
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "2e66de2fe5c06798af385c3087b6bd0231fe8fb586bb7aa8771ded0413f81f32"
+      },
+      {
+        "object": "P06",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.7737675905227661,
+            "y": -1.24638831615448,
+            "z": 1.6477017402648926
+          },
+          "maximum": {
+            "x": 1.2477537393569946,
+            "y": 1.2591885328292847,
+            "z": 2.547701835632324
+          },
+          "center": {
+            "x": -0.26300692558288574,
+            "y": 0.006400108337402344,
+            "z": 2.0977017879486084
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1.6077017784118652
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 1.6077017784118652
+        },
+        "appliedScale": true,
+        "fingerprint": "0c8e3567bc79f3d03420013bd42c026d3708fd8567b4adc4e891925b3125f80e"
+      },
+      {
+        "object": "P07",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.0600000619888306,
+            "y": -0.6399999856948853,
+            "z": 1.8477017879486084
+          },
+          "maximum": {
+            "x": 1.4550000429153442,
+            "y": 0.5799999833106995,
+            "z": 2.5300347805023193
+          },
+          "center": {
+            "x": 1.2575000524520874,
+            "y": -0.030000001192092896,
+            "z": 2.188868284225464
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.1200000047683716,
+            "y": 0,
+            "z": 2.0277018547058105
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.1200000047683716,
+          "y": 0,
+          "z": 2.0277018547058105
+        },
+        "appliedScale": true,
+        "fingerprint": "039dc01f42ba03d5c2bfc4d48241da0152e95e0aca58651213047b47a7ab9375"
+      },
+      {
+        "object": "P08",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.2100000381469727,
+            "y": -0.10499999672174454,
+            "z": 1.9227018356323242
+          },
+          "maximum": {
+            "x": 4.769999980926514,
+            "y": 0.10499999672174454,
+            "z": 2.132701873779297
+          },
+          "center": {
+            "x": 2.990000009536743,
+            "y": 0,
+            "z": 2.0277018547058105
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.1200000047683716,
+            "y": 0,
+            "z": 2.0277018547058105
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.1200000047683716,
+          "y": 0,
+          "z": 2.0277018547058105
+        },
+        "appliedScale": true,
+        "fingerprint": "1c42251bf8415035b4a17c5301d2532c5f614354c8152d79d1fdba33abbadcd6"
+      },
+      {
+        "object": "P09",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.0600000619888306,
+            "y": 0.625,
+            "z": 1.7627017498016357
+          },
+          "maximum": {
+            "x": 1.309999942779541,
+            "y": 1.0149999856948853,
+            "z": 2.1527018547058105
+          },
+          "center": {
+            "x": 1.184999942779541,
+            "y": 0.8199999928474426,
+            "z": 1.9577018022537231
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.1200000047683716,
+            "y": 0.8199999928474426,
+            "z": 1.9577018022537231
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.1200000047683716,
+          "y": 0.8199999928474426,
+          "z": 1.9577018022537231
+        },
+        "appliedScale": true,
+        "fingerprint": "b73d82837f81f5d16eb945ecec2978f7c8290646595de99e1f61e544d4c82dac"
+      },
+      {
+        "object": "P10",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.2799999713897705,
+            "y": 0.7789999842643738,
+            "z": 1.9167017936706543
+          },
+          "maximum": {
+            "x": 1.9500000476837158,
+            "y": 0.8610000014305115,
+            "z": 1.998701810836792
+          },
+          "center": {
+            "x": 1.6150000095367432,
+            "y": 0.8199999928474426,
+            "z": 1.9577018022537231
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.1200000047683716,
+            "y": 0.8199999928474426,
+            "z": 1.9577018022537231
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.1200000047683716,
+          "y": 0.8199999928474426,
+          "z": 1.9577018022537231
+        },
+        "appliedScale": true,
+        "fingerprint": "d601a08290ba4a56be0bafd89fdf3435be22f2906157750f4be83c60453667ae"
+      },
+      {
+        "object": "P11",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.3079999685287476,
+            "y": -0.7339999675750732,
+            "z": 2.547701835632324
+          },
+          "maximum": {
+            "x": -0.4519999921321869,
+            "y": 0.12200000882148743,
+            "z": 2.692201852798462
+          },
+          "center": {
+            "x": -0.8799999952316284,
+            "y": -0.3059999942779541,
+            "z": 2.6199517250061035
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.8799999952316284,
+            "y": -0.3059999942779541,
+            "z": 2.627701759338379
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.8799999952316284,
+          "y": -0.3059999942779541,
+          "z": 2.627701759338379
+        },
+        "appliedScale": true,
+        "fingerprint": "2d4340b4913b26f81320ac0f1803a147110d5881b56cb74c3d4a542fbea662e2"
+      },
+      {
+        "object": "P12",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.8725000023841858,
+            "y": -0.6460000276565552,
+            "z": 2.692201852798462
+          },
+          "maximum": {
+            "x": -0.44749999046325684,
+            "y": 0.034000009298324585,
+            "z": 2.7172017097473145
+          },
+          "center": {
+            "x": -0.6599999666213989,
+            "y": -0.3059999942779541,
+            "z": 2.7047019004821777
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.6600000262260437,
+            "y": -0.3059999942779541,
+            "z": 2.692701816558838
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.6600000262260437,
+          "y": -0.3059999942779541,
+          "z": 2.692701816558838
+        },
+        "appliedScale": true,
+        "fingerprint": "153cfe0433e9f11406182505ede86791c1ca8e3eadd4bb842fc8e9211f10641e"
+      },
+      {
+        "object": "P13",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.3125,
+            "y": -0.6460000276565552,
+            "z": 2.692201852798462
+          },
+          "maximum": {
+            "x": -0.887499988079071,
+            "y": 0.034000009298324585,
+            "z": 2.7172017097473145
+          },
+          "center": {
+            "x": -1.100000023841858,
+            "y": -0.3059999942779541,
+            "z": 2.7047019004821777
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.100000023841858,
+            "y": -0.3059999942779541,
+            "z": 2.692701816558838
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.100000023841858,
+          "y": -0.3059999942779541,
+          "z": 2.692701816558838
+        },
+        "appliedScale": true,
+        "fingerprint": "52236cac2fbbbb6fa13aa8ce4cdf85c9e54db71a457c460fa6a92249d6c44d2a"
+      },
+      {
+        "object": "P14",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.5579999685287476,
+            "y": 0.30500003695487976,
+            "z": 2.547701835632324
+          },
+          "maximum": {
+            "x": -0.02800002694129944,
+            "y": 0.7350000143051147,
+            "z": 2.5827019214630127
+          },
+          "center": {
+            "x": -0.2929999828338623,
+            "y": 0.5200000405311584,
+            "z": 2.565201759338379
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.2930000126361847,
+            "y": 0.734000027179718,
+            "z": 2.567701816558838
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.2930000126361847,
+          "y": 0.734000027179718,
+          "z": 2.567701816558838
+        },
+        "appliedScale": true,
+        "fingerprint": "7798d67b27defac28e6db4966cc5243c399c98916d386747f66882f672344ae4"
+      },
+      {
+        "object": "P15",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.04700000584125519,
+            "y": -0.7489999532699585,
+            "z": 2.547701835632324
+          },
+          "maximum": {
+            "x": 0.3529999852180481,
+            "y": -0.44899997115135193,
+            "z": 2.572701930999756
+          },
+          "center": {
+            "x": 0.15299999713897705,
+            "y": -0.5989999771118164,
+            "z": 2.56020188331604
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.15299999713897705,
+            "y": -0.5989999771118164,
+            "z": 2.557701826095581
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.15299999713897705,
+          "y": -0.5989999771118164,
+          "z": 2.557701826095581
+        },
+        "appliedScale": true,
+        "fingerprint": "545a4a290e83bb62fa83fe9b4608c0f37d8256877e2c95695008a72cc9d1e76a"
+      },
+      {
+        "object": "P16",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.309999942779541,
+            "y": -0.4399999976158142,
+            "z": 1.5925017595291138
+          },
+          "maximum": {
+            "x": 1.809999942779541,
+            "y": -0.1599999964237213,
+            "z": 1.6175017356872559
+          },
+          "center": {
+            "x": 1.559999942779541,
+            "y": -0.30000001192092896,
+            "z": 1.60500168800354
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.559999942779541,
+            "y": -0.1599999964237213,
+            "z": 1.627701759338379
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.559999942779541,
+          "y": -0.1599999964237213,
+          "z": 1.627701759338379
+        },
+        "appliedScale": true,
+        "fingerprint": "0fa1c434fbd38fb5dd5957308b13b211727c2179825bfae997611f7e8288de79"
+      },
+      {
+        "object": "P17",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.309999942779541,
+            "y": -0.7260000109672546,
+            "z": 1.5925017595291138
+          },
+          "maximum": {
+            "x": 1.809999942779541,
+            "y": -0.44600000977516174,
+            "z": 1.6175017356872559
+          },
+          "center": {
+            "x": 1.559999942779541,
+            "y": -0.5860000252723694,
+            "z": 1.60500168800354
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.559999942779541,
+            "y": -0.7260000109672546,
+            "z": 1.627701759338379
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.559999942779541,
+          "y": -0.7260000109672546,
+          "z": 1.627701759338379
+        },
+        "appliedScale": true,
+        "fingerprint": "d92b8a916290a7c0f295221869b0f70818c3ab8edb31053417184dedcc236526"
+      },
+      {
+        "object": "P18",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.7052289843559265,
+            "y": 0.9090397357940674,
+            "z": 1.7181916236877441
+          },
+          "maximum": {
+            "x": -0.2857813239097595,
+            "y": 1.0968258380889893,
+            "z": 2.159081220626831
+          },
+          "center": {
+            "x": -0.495505154132843,
+            "y": 1.0029327869415283,
+            "z": 1.9386364221572876
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.49000000953674316,
+            "y": 1.100000023841858,
+            "z": 1.9377018213272095
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.49000000953674316,
+          "y": 1.100000023841858,
+          "z": 1.9377018213272095
+        },
+        "appliedScale": true,
+        "fingerprint": "cb6314ea16bed9ee785b6b9f4253fa14e4ec4fe916964a80b82a636539b6cf48"
+      },
+      {
+        "object": "P19",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.9800000190734863,
+            "y": 0.9628044962882996,
+            "z": 0.9800000190734863
+          },
+          "maximum": {
+            "x": 3.1500000953674316,
+            "y": 1.649999976158142,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": -0.41499996185302734,
+            "y": 1.3064022064208984,
+            "z": 1.2350000143051147
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 1.649999976158142,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 1.649999976158142,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "226328c1b4280b8573dba0989d6ef1e0181a13f143a85cb3d44ed71a59a6b536"
+      },
+      {
+        "object": "P20",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.9800000190734863,
+            "y": -1.649999976158142,
+            "z": 0.9800000190734863
+          },
+          "maximum": {
+            "x": 3.1500000953674316,
+            "y": -0.9806429147720337,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": -0.41499996185302734,
+            "y": -1.315321445465088,
+            "z": 1.2350000143051147
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": -1.649999976158142,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": -1.649999976158142,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "3c4a27fba0fb8d9ea2ff21be330d42ace14719dfdb45554583d54f29cd4ff15c"
+      },
+      {
+        "object": "P21",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.25,
+            "y": 1.6410000324249268,
+            "z": 0.5699999928474426
+          },
+          "maximum": {
+            "x": 2.950000047683716,
+            "y": 1.652999997138977,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": 2.0999999046325684,
+            "y": 1.6470000743865967,
+            "z": 1.0299999713897705
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 2.0999999046325684,
+            "y": 1.6469999551773071,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 2.0999999046325684,
+          "y": 1.6469999551773071,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "4be677e81521e416f9ae4ac8980dadb8246eb4039d8df698a519dda2bb43c787"
+      },
+      {
+        "object": "P22",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.40000003576278687,
+            "y": 1.6410000324249268,
+            "z": 0.5699999928474426
+          },
+          "maximum": {
+            "x": 1.25,
+            "y": 1.652999997138977,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": 0.42499998211860657,
+            "y": 1.6470000743865967,
+            "z": 1.0299999713897705
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.42500001192092896,
+            "y": 1.6469999551773071,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.42500001192092896,
+          "y": 1.6469999551773071,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "6444b4dc0f1c8138d6f6a26c123ffbc72a123b13329462315b4341533426c10f"
+      },
+      {
+        "object": "P86",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.049999952316284,
+            "y": 1.6410000324249268,
+            "z": 0.5699999928474426
+          },
+          "maximum": {
+            "x": -0.3999999761581421,
+            "y": 1.652999997138977,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": -1.2249999046325684,
+            "y": 1.6470000743865967,
+            "z": 1.0299999713897705
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.225000023841858,
+            "y": 1.6469999551773071,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.225000023841858,
+          "y": 1.6469999551773071,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "aca95e25f19f0d730009855337211c6c0954175c154edb7fb4e6debcf44c4955"
+      },
+      {
+        "object": "P23",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.880000114440918,
+            "y": 1.6410000324249268,
+            "z": 0.5699999928474426
+          },
+          "maximum": {
+            "x": -2.049999952316284,
+            "y": 1.652999997138977,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": -2.9650001525878906,
+            "y": 1.6470000743865967,
+            "z": 1.0299999713897705
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.9649999141693115,
+            "y": 1.6469999551773071,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.9649999141693115,
+          "y": 1.6469999551773071,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "7a2a3c886144b7123b85233d9fa6f6b2c3ab5a336bb4fa3ae64baabe423063f2"
+      },
+      {
+        "object": "P24",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.25,
+            "y": -1.652999997138977,
+            "z": 0.5699999928474426
+          },
+          "maximum": {
+            "x": 2.950000047683716,
+            "y": -1.6410000324249268,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": 2.0999999046325684,
+            "y": -1.6470000743865967,
+            "z": 1.0299999713897705
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 2.0999999046325684,
+            "y": -1.6469999551773071,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 2.0999999046325684,
+          "y": -1.6469999551773071,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "7ebac3c1f23576f597934eba3a28d41313aecf34b2b68f6e48355d60b50cb12d"
+      },
+      {
+        "object": "P25",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.40000003576278687,
+            "y": -1.652999997138977,
+            "z": 0.5699999928474426
+          },
+          "maximum": {
+            "x": 1.25,
+            "y": -1.6410000324249268,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": 0.42499998211860657,
+            "y": -1.6470000743865967,
+            "z": 1.0299999713897705
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.42500001192092896,
+            "y": -1.6469999551773071,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.42500001192092896,
+          "y": -1.6469999551773071,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "c11815034142bea7cee3df758fd08f87a110e63b89c63054a4f2fa7f3e6299a7"
+      },
+      {
+        "object": "P87",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.049999952316284,
+            "y": -1.652999997138977,
+            "z": 0.5699999928474426
+          },
+          "maximum": {
+            "x": -0.3999999761581421,
+            "y": -1.6410000324249268,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": -1.2249999046325684,
+            "y": -1.6470000743865967,
+            "z": 1.0299999713897705
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.225000023841858,
+            "y": -1.6469999551773071,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.225000023841858,
+          "y": -1.6469999551773071,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "926f6fb8b24e5cf7f95bb7d0d2ea0b1a23de2385669c9163803f95a7ab869632"
+      },
+      {
+        "object": "P26",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.880000114440918,
+            "y": -1.652999997138977,
+            "z": 0.5699999928474426
+          },
+          "maximum": {
+            "x": -2.049999952316284,
+            "y": -1.6410000324249268,
+            "z": 1.4900000095367432
+          },
+          "center": {
+            "x": -2.9650001525878906,
+            "y": -1.6470000743865967,
+            "z": 1.0299999713897705
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.9649999141693115,
+            "y": -1.6469999551773071,
+            "z": 1.4900000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.9649999141693115,
+          "y": -1.6469999551773071,
+          "z": 1.4900000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "1f00fd190d3259ec91782bf36b298ed0c41c1baaca69732f7484fb4eef73d7f4"
+      },
+      {
+        "object": "P27",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.7339727878570557,
+            "y": 0.8578892350196838,
+            "z": 2.18770170211792
+          },
+          "maximum": {
+            "x": 0.4403837025165558,
+            "y": 1.3578497171401978,
+            "z": 2.5177018642425537
+          },
+          "center": {
+            "x": -0.14679454267024994,
+            "y": 1.1078695058822632,
+            "z": 2.3527016639709473
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1.6077017784118652
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 1.6077017784118652
+        },
+        "appliedScale": true,
+        "fingerprint": "0489b76996dd9fba646c8497aeafde10659865347ddb2e4c127c45b39010ff9f"
+      },
+      {
+        "object": "P28",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.9083293676376343,
+            "y": 0.42668285965919495,
+            "z": 1.9577018022537231
+          },
+          "maximum": {
+            "x": -0.7339727878570557,
+            "y": 1.162123680114746,
+            "z": 2.5177018642425537
+          },
+          "center": {
+            "x": -1.3211510181427002,
+            "y": 0.7944032549858093,
+            "z": 2.237701892852783
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1.6077017784118652
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 1.6077017784118652
+        },
+        "appliedScale": true,
+        "fingerprint": "d8a8f1daa9cefac3df68462f0782110c45c2c5915ee2ae7e7281f62194d979c4"
+      },
+      {
+        "object": "P29",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.7278563976287842,
+            "y": -1.2722195386886597,
+            "z": 2.18770170211792
+          },
+          "maximum": {
+            "x": 0.4403837025165558,
+            "y": -0.8935864567756653,
+            "z": 2.5177018642425537
+          },
+          "center": {
+            "x": -0.1437363475561142,
+            "y": -1.0829030275344849,
+            "z": 2.3527016639709473
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1.6077017784118652
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 1.6077017784118652
+        },
+        "appliedScale": true,
+        "fingerprint": "6b83f0fff70c1f6b7899cf7696e450218fa869372419afcfa7d8c208bbe43bf4"
+      },
+      {
+        "object": "P30",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.8960964679718018,
+            "y": -1.1260887384414673,
+            "z": 1.9577018022537231
+          },
+          "maximum": {
+            "x": -0.7278563976287842,
+            "y": -0.5488919615745544,
+            "z": 2.5177018642425537
+          },
+          "center": {
+            "x": -1.311976432800293,
+            "y": -0.8374903202056885,
+            "z": 2.237701892852783
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1.6077017784118652
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 1.6077017784118652
+        },
+        "appliedScale": true,
+        "fingerprint": "ff7493cf8778b882f68f48c0251b7a637533e1cce41f495bd52a62d09f020511"
+      },
+      {
+        "object": "P31",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.625,
+            "y": 0.9599999785423279,
+            "z": 1.6444048881530762
+          },
+          "maximum": {
+            "x": -2.375,
+            "y": 1.1399999856948853,
+            "z": 1.815595030784607
+          },
+          "center": {
+            "x": -3,
+            "y": 1.0499999523162842,
+            "z": 1.7300000190734863
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "9a55e65f19552c025ba3732e984c64d583d883902188d7a1f91b26e6b371a7c9"
+      },
+      {
+        "object": "P32",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.625,
+            "y": -1.1399999856948853,
+            "z": 1.6444048881530762
+          },
+          "maximum": {
+            "x": -2.375,
+            "y": -0.9599999785423279,
+            "z": 1.815595030784607
+          },
+          "center": {
+            "x": -3,
+            "y": -1.0499999523162842,
+            "z": 1.7300000190734863
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "3ae16c6619b893d43a370a7570412904684985567f20f6b09fb987957b5db833"
+      },
+      {
+        "object": "P33",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.640000104904175,
+            "y": -0.699999988079071,
+            "z": 0.9700000286102295
+          },
+          "maximum": {
+            "x": 2.7799999713897705,
+            "y": 0.699999988079071,
+            "z": 1.090000033378601
+          },
+          "center": {
+            "x": 2.7100000381469727,
+            "y": 0,
+            "z": 1.0299999713897705
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "e2a12fd5f7f1b3d906c03b46698de6d0bff1ce09ef55c57f50b9e116c151645a"
+      },
+      {
+        "object": "P34",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -4.460000038146973,
+            "y": -0.699999988079071,
+            "z": 1.1399999856948853
+          },
+          "maximum": {
+            "x": -4.320000171661377,
+            "y": 0.699999988079071,
+            "z": 1.2599999904632568
+          },
+          "center": {
+            "x": -4.390000343322754,
+            "y": 0,
+            "z": 1.2000000476837158
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "891c4deaffa1c6e944ef9d1e52b5f1763ede5b1b0c998ba46681f9f49d6e9f2c"
+      },
+      {
+        "object": "P35",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.0950000286102295,
+            "y": -0.8349999785423279,
+            "z": 1.16916024684906
+          },
+          "maximum": {
+            "x": 2.2249999046325684,
+            "y": -0.6650000214576721,
+            "z": 1.5508397817611694
+          },
+          "center": {
+            "x": 2.1599998474121094,
+            "y": -0.75,
+            "z": 1.3600000143051147
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "297fcb057169fe90a56f942d8281aadd1a2201ad0b925aefc833b1dbf3f411ae"
+      },
+      {
+        "object": "P37",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.1599999964237213,
+            "y": -0.625,
+            "z": 2.5127017498016357
+          },
+          "maximum": {
+            "x": 0.36000001430511475,
+            "y": 0.6050000190734863,
+            "z": 2.62270188331604
+          },
+          "center": {
+            "x": 0.25999999046325684,
+            "y": -0.009999990463256836,
+            "z": 2.567701816558838
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1.6077017784118652
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 1.6077017784118652
+        },
+        "appliedScale": true,
+        "fingerprint": "e50ea9fc6b8e40e9f6f0a590b5f3e27726188951257fdc7ce6f49e07ea782b70"
+      },
+      {
+        "object": "P81",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.350000023841858,
+            "y": 0.3324471712112427,
+            "z": 2.377701759338379
+          },
+          "maximum": {
+            "x": -1.25,
+            "y": 0.42755281925201416,
+            "z": 2.5177018642425537
+          },
+          "center": {
+            "x": -1.2999999523162842,
+            "y": 0.3799999952316284,
+            "z": 2.447701930999756
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1.6077017784118652
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 1.6077017784118652
+        },
+        "appliedScale": true,
+        "fingerprint": "17979b5d81920b5623eb73e03d1f1caa3dd635de078cf14f3a8dac8356636223"
+      },
+      {
+        "object": "P47",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.3949999809265137,
+            "y": 1.1399999856948853,
+            "z": 0.05317714810371399
+          },
+          "maximum": {
+            "x": 2.2049999237060547,
+            "y": 1.559999942779541,
+            "z": 0.8631771802902222
+          },
+          "center": {
+            "x": 1.7999999523162842,
+            "y": 1.3499999046325684,
+            "z": 0.4581771492958069
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.7999999523162842,
+            "y": 1.350000023841858,
+            "z": 0.4581771492958069
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.7999999523162842,
+          "y": 1.350000023841858,
+          "z": 0.4581771492958069
+        },
+        "appliedScale": true,
+        "fingerprint": "a92788d9c4981556c25a2311a32b789e51de8bc611d8fc659ec65712638b8c5d"
+      },
+      {
+        "object": "P48",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.4950000047683716,
+            "y": 1.1399999856948853,
+            "z": 0.04800000786781311
+          },
+          "maximum": {
+            "x": 1.3049999475479126,
+            "y": 1.559999942779541,
+            "z": 0.8579999804496765
+          },
+          "center": {
+            "x": 0.8999999761581421,
+            "y": 1.3499999046325684,
+            "z": 0.453000009059906
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.8999999761581421,
+            "y": 1.350000023841858,
+            "z": 0.453000009059906
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.8999999761581421,
+          "y": 1.350000023841858,
+          "z": 0.453000009059906
+        },
+        "appliedScale": true,
+        "fingerprint": "ce085abd4a24f85a0a556e8d8dcf408aa982efba4e540d4d6ecd2706d96892a6"
+      },
+      {
+        "object": "P49",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.45500001311302185,
+            "y": 1.1399999856948853,
+            "z": 0.04800000786781311
+          },
+          "maximum": {
+            "x": 0.35499998927116394,
+            "y": 1.559999942779541,
+            "z": 0.8579999804496765
+          },
+          "center": {
+            "x": -0.050000011920928955,
+            "y": 1.3499999046325684,
+            "z": 0.453000009059906
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.05000000074505806,
+            "y": 1.350000023841858,
+            "z": 0.453000009059906
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.05000000074505806,
+          "y": 1.350000023841858,
+          "z": 0.453000009059906
+        },
+        "appliedScale": true,
+        "fingerprint": "b9894fb0d4efe01e13fe1f6b20522f390faab35924bed612621b82b17ed3ff19"
+      },
+      {
+        "object": "P50",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.3550000190734863,
+            "y": 1.1399999856948853,
+            "z": 0.04800000786781311
+          },
+          "maximum": {
+            "x": -0.5450000166893005,
+            "y": 1.559999942779541,
+            "z": 0.8579999804496765
+          },
+          "center": {
+            "x": -0.9500000476837158,
+            "y": 1.3499999046325684,
+            "z": 0.453000009059906
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.949999988079071,
+            "y": 1.350000023841858,
+            "z": 0.453000009059906
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.949999988079071,
+          "y": 1.350000023841858,
+          "z": 0.453000009059906
+        },
+        "appliedScale": true,
+        "fingerprint": "2bc004cbf959aa30d144f40fbc1836bfba48f1db463559b9003f3080b2d2723d"
+      },
+      {
+        "object": "P51",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.305000066757202,
+            "y": 1.1399999856948853,
+            "z": 0.04800000786781311
+          },
+          "maximum": {
+            "x": -1.4950000047683716,
+            "y": 1.559999942779541,
+            "z": 0.8579999804496765
+          },
+          "center": {
+            "x": -1.9000000953674316,
+            "y": 1.3499999046325684,
+            "z": 0.453000009059906
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.899999976158142,
+            "y": 1.350000023841858,
+            "z": 0.453000009059906
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.899999976158142,
+          "y": 1.350000023841858,
+          "z": 0.453000009059906
+        },
+        "appliedScale": true,
+        "fingerprint": "0eb8fadae0b48353fe5dbe1a1673b2d63266bd4efeb17de980cd5449dd29311b"
+      },
+      {
+        "object": "P52",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.2049999237060547,
+            "y": 1.1399999856948853,
+            "z": 0.05370178818702698
+          },
+          "maximum": {
+            "x": -2.3949999809265137,
+            "y": 1.559999942779541,
+            "z": 0.8637017607688904
+          },
+          "center": {
+            "x": -2.799999952316284,
+            "y": 1.3499999046325684,
+            "z": 0.4587017893791199
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.799999952316284,
+            "y": 1.350000023841858,
+            "z": 0.4587017893791199
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.799999952316284,
+          "y": 1.350000023841858,
+          "z": 0.4587017893791199
+        },
+        "appliedScale": true,
+        "fingerprint": "5228c3d4acec0b137920891230bda4fd7ccc5f200b0beb88a8b22dc3a43b726a"
+      },
+      {
+        "object": "P59",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.283097267150879,
+            "y": 1.1649999618530273,
+            "z": 0.5177018046379089
+          },
+          "maximum": {
+            "x": 3.0430972576141357,
+            "y": 1.534999966621399,
+            "z": 1.277701735496521
+          },
+          "center": {
+            "x": 2.663097381591797,
+            "y": 1.3499999046325684,
+            "z": 0.8977017402648926
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 2.663097381591797,
+            "y": 1.350000023841858,
+            "z": 0.8977017998695374
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 2.663097381591797,
+          "y": 1.350000023841858,
+          "z": 0.8977017998695374
+        },
+        "appliedScale": true,
+        "fingerprint": "32ad867e888abcc21bd6f591dd622caeda55aab38e7bfb6ed09a326509e75422"
+      },
+      {
+        "object": "P61",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.921999931335449,
+            "y": 1.1369999647140503,
+            "z": 0.43037644028663635
+          },
+          "maximum": {
+            "x": -3.078000068664551,
+            "y": 1.562999963760376,
+            "z": 1.2650271654129028
+          },
+          "center": {
+            "x": -3.5,
+            "y": 1.3499999046325684,
+            "z": 0.8477017879486084
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -3.5,
+            "y": 1.350000023841858,
+            "z": 0.8477017879486084
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -3.5,
+          "y": 1.350000023841858,
+          "z": 0.8477017879486084
+        },
+        "appliedScale": true,
+        "fingerprint": "cee19786ad89ad48640f695d7d3957aabdc0b1fa13c2de3b4fc676b29dff0b26"
+      },
+      {
+        "object": "P63",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.3700000047683716,
+            "y": 1.2300000190734863,
+            "z": 1.0277550220489502
+          },
+          "maximum": {
+            "x": 1.6299999952316284,
+            "y": 1.4700000286102295,
+            "z": 1.2750297784805298
+          },
+          "center": {
+            "x": 1.5,
+            "y": 1.350000023841858,
+            "z": 1.1513924598693848
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.5,
+            "y": 1.350000023841858,
+            "z": 1.1513923406600952
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.5,
+          "y": 1.350000023841858,
+          "z": 1.1513923406600952
+        },
+        "appliedScale": true,
+        "fingerprint": "5b71b05bd5fe0aa6cd6b499ef1f6f8531713a16b01a05b80f7d99fa0e71904f6"
+      },
+      {
+        "object": "P64",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.019999995827674866,
+            "y": 1.2300000190734863,
+            "z": 1.0250134468078613
+          },
+          "maximum": {
+            "x": 0.2800000011920929,
+            "y": 1.4700000286102295,
+            "z": 1.2722880840301514
+          },
+          "center": {
+            "x": 0.15000000596046448,
+            "y": 1.350000023841858,
+            "z": 1.1486507654190063
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.15000000596046448,
+            "y": 1.350000023841858,
+            "z": 1.1486507654190063
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.15000000596046448,
+          "y": 1.350000023841858,
+          "z": 1.1486507654190063
+        },
+        "appliedScale": true,
+        "fingerprint": "1178bb2663f35e85e6ba884c4bbccdd8e346c81f14748bc66df9686adafa5b0e"
+      },
+      {
+        "object": "P65",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.3300000429153442,
+            "y": 1.2300000190734863,
+            "z": 1.0222718715667725
+          },
+          "maximum": {
+            "x": -1.0700000524520874,
+            "y": 1.4700000286102295,
+            "z": 1.2695465087890625
+          },
+          "center": {
+            "x": -1.2000000476837158,
+            "y": 1.350000023841858,
+            "z": 1.1459091901779175
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.2000000476837158,
+            "y": 1.350000023841858,
+            "z": 1.1459091901779175
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.2000000476837158,
+          "y": 1.350000023841858,
+          "z": 1.1459091901779175
+        },
+        "appliedScale": true,
+        "fingerprint": "9411d6c371758625d5d761df4608b1a624b0b0863591a1ddbdc21c973775528a"
+      },
+      {
+        "object": "P84",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.680000066757202,
+            "y": 1.2300000190734863,
+            "z": 1.0183440446853638
+          },
+          "maximum": {
+            "x": -2.4200000762939453,
+            "y": 1.4700000286102295,
+            "z": 1.2656186819076538
+          },
+          "center": {
+            "x": -2.5500001907348633,
+            "y": 1.350000023841858,
+            "z": 1.1419813632965088
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.549999952316284,
+            "y": 1.350000023841858,
+            "z": 1.1419813632965088
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.549999952316284,
+          "y": 1.350000023841858,
+          "z": 1.1419813632965088
+        },
+        "appliedScale": true,
+        "fingerprint": "7a1b66a71f48855258873b11dd371bc0c5666af56034ded8519e035c1b298dee"
+      },
+      {
+        "object": "P41",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.8899999856948853,
+            "y": 0.7992792725563049,
+            "z": 0.5477017760276794
+          },
+          "maximum": {
+            "x": 1.809999942779541,
+            "y": 1.1100000143051147,
+            "z": 1.1777018308639526
+          },
+          "center": {
+            "x": 1.3499999046325684,
+            "y": 0.9546396732330322,
+            "z": 0.8627017736434937
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.350000023841858,
+            "y": 1.0700000524520874,
+            "z": 1.0377017259597778
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.350000023841858,
+          "y": 1.0700000524520874,
+          "z": 1.0377017259597778
+        },
+        "appliedScale": true,
+        "fingerprint": "a169e0ec3173a4763fad73b4748f2b8e1a40e9c23d4d6bcfda625b4da6db9044"
+      },
+      {
+        "object": "P69",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.434999942779541,
+            "y": 1.034999966621399,
+            "z": 0.41317716240882874
+          },
+          "maximum": {
+            "x": 1.8450000286102295,
+            "y": 1.5449999570846558,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": 1.6399999856948853,
+            "y": 1.2899999618530273,
+            "z": 0.7491021752357483
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.4700000286102295,
+            "y": 1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.4700000286102295,
+          "y": 1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "a71f3dec3a7c16bd46cb34efc385dde7fdc9c3e237dd01ef35830caab221362a"
+      },
+      {
+        "object": "P70",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.8550000190734863,
+            "y": 1.034999966621399,
+            "z": 0.40799999237060547
+          },
+          "maximum": {
+            "x": 1.2649999856948853,
+            "y": 1.5449999570846558,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": 1.059999942779541,
+            "y": 1.2899999618530273,
+            "z": 0.7465136051177979
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.2300000190734863,
+            "y": 1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.2300000190734863,
+          "y": 1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "b6a6e7e9e9a2fa435791233020bac0cb69704fc386990af35f9c15b75c09cde9"
+      },
+      {
+        "object": "P42",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.9599999785423279,
+            "y": 0.9742307066917419,
+            "z": 0.5477017760276794
+          },
+          "maximum": {
+            "x": -0.03999999165534973,
+            "y": 1.1100000143051147,
+            "z": 1.1777018308639526
+          },
+          "center": {
+            "x": -0.5,
+            "y": 1.042115330696106,
+            "z": 0.8627017736434937
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.5,
+            "y": 1.0700000524520874,
+            "z": 1.0377017259597778
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.5,
+          "y": 1.0700000524520874,
+          "z": 1.0377017259597778
+        },
+        "appliedScale": true,
+        "fingerprint": "51159261fdaa83011ece641acd6802fb4a055e68ed0a7d4fea821f681796bc1c"
+      },
+      {
+        "object": "P71",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.41499999165534973,
+            "y": 1.034999966621399,
+            "z": 0.40799999237060547
+          },
+          "maximum": {
+            "x": -0.004999995231628418,
+            "y": 1.5449999570846558,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": -0.20999999344348907,
+            "y": 1.2899999618530273,
+            "z": 0.7465136051177979
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.3799999952316284,
+            "y": 1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.3799999952316284,
+          "y": 1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "4d1c4832c268e2eb1cda74ad206d8f7a27e0227042ef6162d1668a045bd52490"
+      },
+      {
+        "object": "P72",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.9950000047683716,
+            "y": 1.034999966621399,
+            "z": 0.40799999237060547
+          },
+          "maximum": {
+            "x": -0.5849999785423279,
+            "y": 1.5449999570846558,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": -0.7899999618530273,
+            "y": 1.2899999618530273,
+            "z": 0.7465136051177979
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.6200000047683716,
+            "y": 1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.6200000047683716,
+          "y": 1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "6973a7bf7b373f8c1d88abbe779b99e7d1081c9006ab1b8f673fe6f984c6b133"
+      },
+      {
+        "object": "P43",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.809999942779541,
+            "y": 0.982443630695343,
+            "z": 0.5477017760276794
+          },
+          "maximum": {
+            "x": -1.8899999856948853,
+            "y": 1.1100000143051147,
+            "z": 1.1777018308639526
+          },
+          "center": {
+            "x": -2.3499999046325684,
+            "y": 1.0462218523025513,
+            "z": 0.8627017736434937
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.3499999046325684,
+            "y": 1.0700000524520874,
+            "z": 1.0377017259597778
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.3499999046325684,
+          "y": 1.0700000524520874,
+          "z": 1.0377017259597778
+        },
+        "appliedScale": true,
+        "fingerprint": "f4d01214b5efba11506b2715f3815d1f9e730b2715ac15a4355a801a7bb0861d"
+      },
+      {
+        "object": "P73",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.265000104904175,
+            "y": 1.034999966621399,
+            "z": 0.40799999237060547
+          },
+          "maximum": {
+            "x": -1.8550000190734863,
+            "y": 1.5449999570846558,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": -2.059999942779541,
+            "y": 1.2899999618530273,
+            "z": 0.7465136051177979
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.2300000190734863,
+            "y": 1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.2300000190734863,
+          "y": 1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "6a28e401f6ce65dfc7a345c223382bf492f8fbe1a40e194d3cea270c6ac96270"
+      },
+      {
+        "object": "P74",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.8450000286102295,
+            "y": 1.034999966621399,
+            "z": 0.41370177268981934
+          },
+          "maximum": {
+            "x": -2.434999942779541,
+            "y": 1.5449999570846558,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": -2.6399998664855957,
+            "y": 1.2899999618530273,
+            "z": 0.7493644952774048
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.4700000286102295,
+            "y": 1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.4700000286102295,
+          "y": 1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "95fb0aa53dbf0df0159f15d8617edda07d53d7b143377e0cd53536474be96fbc"
+      },
+      {
+        "object": "P53",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.3949999809265137,
+            "y": -1.559999942779541,
+            "z": 0.05317714810371399
+          },
+          "maximum": {
+            "x": 2.2049999237060547,
+            "y": -1.1399999856948853,
+            "z": 0.8631771802902222
+          },
+          "center": {
+            "x": 1.7999999523162842,
+            "y": -1.3499999046325684,
+            "z": 0.4581771492958069
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.7999999523162842,
+            "y": -1.350000023841858,
+            "z": 0.4581771492958069
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.7999999523162842,
+          "y": -1.350000023841858,
+          "z": 0.4581771492958069
+        },
+        "appliedScale": true,
+        "fingerprint": "45e4a0677c7d946e8cc6bc6582de9163aaca7374972b4f7160bad41bd6a8314c"
+      },
+      {
+        "object": "P54",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.4950000047683716,
+            "y": -1.559999942779541,
+            "z": 0.04800000786781311
+          },
+          "maximum": {
+            "x": 1.3049999475479126,
+            "y": -1.1399999856948853,
+            "z": 0.8579999804496765
+          },
+          "center": {
+            "x": 0.8999999761581421,
+            "y": -1.3499999046325684,
+            "z": 0.453000009059906
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.8999999761581421,
+            "y": -1.350000023841858,
+            "z": 0.453000009059906
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.8999999761581421,
+          "y": -1.350000023841858,
+          "z": 0.453000009059906
+        },
+        "appliedScale": true,
+        "fingerprint": "109f9d2dd955758ec706ee83c3083023dc523d3ec3280790e50d90c0c73d6dea"
+      },
+      {
+        "object": "P55",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.45500001311302185,
+            "y": -1.559999942779541,
+            "z": 0.04800000786781311
+          },
+          "maximum": {
+            "x": 0.35499998927116394,
+            "y": -1.1399999856948853,
+            "z": 0.8579999804496765
+          },
+          "center": {
+            "x": -0.050000011920928955,
+            "y": -1.3499999046325684,
+            "z": 0.453000009059906
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.05000000074505806,
+            "y": -1.350000023841858,
+            "z": 0.453000009059906
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.05000000074505806,
+          "y": -1.350000023841858,
+          "z": 0.453000009059906
+        },
+        "appliedScale": true,
+        "fingerprint": "e9ad05789f529a7ee55153bbb02b74d67534ed808ef1034fcb07ff231b32d20e"
+      },
+      {
+        "object": "P56",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.3550000190734863,
+            "y": -1.559999942779541,
+            "z": 0.04800000786781311
+          },
+          "maximum": {
+            "x": -0.5450000166893005,
+            "y": -1.1399999856948853,
+            "z": 0.8579999804496765
+          },
+          "center": {
+            "x": -0.9500000476837158,
+            "y": -1.3499999046325684,
+            "z": 0.453000009059906
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.949999988079071,
+            "y": -1.350000023841858,
+            "z": 0.453000009059906
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.949999988079071,
+          "y": -1.350000023841858,
+          "z": 0.453000009059906
+        },
+        "appliedScale": true,
+        "fingerprint": "7f8528ed68817730508d14793997ad29f60be7df43b994b3332999d95a669993"
+      },
+      {
+        "object": "P57",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.305000066757202,
+            "y": -1.559999942779541,
+            "z": 0.04800000786781311
+          },
+          "maximum": {
+            "x": -1.4950000047683716,
+            "y": -1.1399999856948853,
+            "z": 0.8579999804496765
+          },
+          "center": {
+            "x": -1.9000000953674316,
+            "y": -1.3499999046325684,
+            "z": 0.453000009059906
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.899999976158142,
+            "y": -1.350000023841858,
+            "z": 0.453000009059906
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.899999976158142,
+          "y": -1.350000023841858,
+          "z": 0.453000009059906
+        },
+        "appliedScale": true,
+        "fingerprint": "3b053eb605c8f0ccc5a2593bae3c107ff9759e5cd0bfec2a17bc64f8b95da52e"
+      },
+      {
+        "object": "P58",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.2049999237060547,
+            "y": -1.559999942779541,
+            "z": 0.05370178818702698
+          },
+          "maximum": {
+            "x": -2.3949999809265137,
+            "y": -1.1399999856948853,
+            "z": 0.8637017607688904
+          },
+          "center": {
+            "x": -2.799999952316284,
+            "y": -1.3499999046325684,
+            "z": 0.4587017893791199
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.799999952316284,
+            "y": -1.350000023841858,
+            "z": 0.4587017893791199
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.799999952316284,
+          "y": -1.350000023841858,
+          "z": 0.4587017893791199
+        },
+        "appliedScale": true,
+        "fingerprint": "e17e1940230f09b50711901d2a62a8148cacd1907f4a2591d52a6f9e67aaea44"
+      },
+      {
+        "object": "P60",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.283097267150879,
+            "y": -1.534999966621399,
+            "z": 0.5177018046379089
+          },
+          "maximum": {
+            "x": 3.0430972576141357,
+            "y": -1.1649999618530273,
+            "z": 1.277701735496521
+          },
+          "center": {
+            "x": 2.663097381591797,
+            "y": -1.3499999046325684,
+            "z": 0.8977017402648926
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 2.663097381591797,
+            "y": -1.350000023841858,
+            "z": 0.8977017998695374
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 2.663097381591797,
+          "y": -1.350000023841858,
+          "z": 0.8977017998695374
+        },
+        "appliedScale": true,
+        "fingerprint": "3bf81354a92f8d17d4e96f64cfea964ce6650d78f3a9bdc53a0f1829ff7cdcb9"
+      },
+      {
+        "object": "P62",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.921999931335449,
+            "y": -1.562999963760376,
+            "z": 0.43037644028663635
+          },
+          "maximum": {
+            "x": -3.078000068664551,
+            "y": -1.1369999647140503,
+            "z": 1.2650271654129028
+          },
+          "center": {
+            "x": -3.5,
+            "y": -1.3499999046325684,
+            "z": 0.8477017879486084
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -3.5,
+            "y": -1.350000023841858,
+            "z": 0.8477017879486084
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -3.5,
+          "y": -1.350000023841858,
+          "z": 0.8477017879486084
+        },
+        "appliedScale": true,
+        "fingerprint": "ef479c0c967d74e85e0bef00106ef7642de22f1d47efc1d65fe4e6a4b4638cd2"
+      },
+      {
+        "object": "P66",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.3700000047683716,
+            "y": -1.4700000286102295,
+            "z": 1.0277550220489502
+          },
+          "maximum": {
+            "x": 1.6299999952316284,
+            "y": -1.2300000190734863,
+            "z": 1.2750297784805298
+          },
+          "center": {
+            "x": 1.5,
+            "y": -1.350000023841858,
+            "z": 1.1513924598693848
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.5,
+            "y": -1.350000023841858,
+            "z": 1.1513923406600952
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.5,
+          "y": -1.350000023841858,
+          "z": 1.1513923406600952
+        },
+        "appliedScale": true,
+        "fingerprint": "3de89b64b3f91e194591329de18c98e2ee3b88b3f715b8572d402279ec08d283"
+      },
+      {
+        "object": "P67",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.019999995827674866,
+            "y": -1.4700000286102295,
+            "z": 1.0250134468078613
+          },
+          "maximum": {
+            "x": 0.2800000011920929,
+            "y": -1.2300000190734863,
+            "z": 1.2722880840301514
+          },
+          "center": {
+            "x": 0.15000000596046448,
+            "y": -1.350000023841858,
+            "z": 1.1486507654190063
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.15000000596046448,
+            "y": -1.350000023841858,
+            "z": 1.1486507654190063
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.15000000596046448,
+          "y": -1.350000023841858,
+          "z": 1.1486507654190063
+        },
+        "appliedScale": true,
+        "fingerprint": "8f130d129ae2c435da283fad9405333230839c468949ffa71acb6ee004d07fe8"
+      },
+      {
+        "object": "P68",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.3300000429153442,
+            "y": -1.4700000286102295,
+            "z": 1.0222718715667725
+          },
+          "maximum": {
+            "x": -1.0700000524520874,
+            "y": -1.2300000190734863,
+            "z": 1.2695465087890625
+          },
+          "center": {
+            "x": -1.2000000476837158,
+            "y": -1.350000023841858,
+            "z": 1.1459091901779175
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.2000000476837158,
+            "y": -1.350000023841858,
+            "z": 1.1459091901779175
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.2000000476837158,
+          "y": -1.350000023841858,
+          "z": 1.1459091901779175
+        },
+        "appliedScale": true,
+        "fingerprint": "759f7f3302691c7ce403629a9719e1e58e5ccd604b25734370e8de77a76887ca"
+      },
+      {
+        "object": "P85",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.680000066757202,
+            "y": -1.4700000286102295,
+            "z": 1.0183440446853638
+          },
+          "maximum": {
+            "x": -2.4200000762939453,
+            "y": -1.2300000190734863,
+            "z": 1.2656186819076538
+          },
+          "center": {
+            "x": -2.5500001907348633,
+            "y": -1.350000023841858,
+            "z": 1.1419813632965088
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.549999952316284,
+            "y": -1.350000023841858,
+            "z": 1.1419813632965088
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.549999952316284,
+          "y": -1.350000023841858,
+          "z": 1.1419813632965088
+        },
+        "appliedScale": true,
+        "fingerprint": "63243b3b643b586bf118d6f91b0fd09999d8ad53a5b71e7a0e86b2d9cee28cbf"
+      },
+      {
+        "object": "P44",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.8899999856948853,
+            "y": -1.1100000143051147,
+            "z": 0.5477017760276794
+          },
+          "maximum": {
+            "x": 1.809999942779541,
+            "y": -0.8274580836296082,
+            "z": 1.1777018308639526
+          },
+          "center": {
+            "x": 1.3499999046325684,
+            "y": -0.9687290191650391,
+            "z": 0.8627017736434937
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.350000023841858,
+            "y": -1.0700000524520874,
+            "z": 1.0377017259597778
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.350000023841858,
+          "y": -1.0700000524520874,
+          "z": 1.0377017259597778
+        },
+        "appliedScale": true,
+        "fingerprint": "b21c12eadb11b822de0383fbe68a42b1adf218c70f7cf6cf6cf36090dc7fc7eb"
+      },
+      {
+        "object": "P75",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.434999942779541,
+            "y": -1.5449999570846558,
+            "z": 0.41317716240882874
+          },
+          "maximum": {
+            "x": 1.8450000286102295,
+            "y": -1.034999966621399,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": 1.6399999856948853,
+            "y": -1.2899999618530273,
+            "z": 0.7491021752357483
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.4700000286102295,
+            "y": -1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.4700000286102295,
+          "y": -1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "dba0982f00bb6ad3aea017382f758eade5b7b71af2ff91130a0af6b26dfde9d5"
+      },
+      {
+        "object": "P76",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.8550000190734863,
+            "y": -1.5449999570846558,
+            "z": 0.40799999237060547
+          },
+          "maximum": {
+            "x": 1.2649999856948853,
+            "y": -1.034999966621399,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": 1.059999942779541,
+            "y": -1.2899999618530273,
+            "z": 0.7465136051177979
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.2300000190734863,
+            "y": -1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.2300000190734863,
+          "y": -1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "1445ce789a93587445fe7acc209a3bc1905241d093d6235ca1f273c07ae6be91"
+      },
+      {
+        "object": "P45",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.9599999785423279,
+            "y": -1.1100000143051147,
+            "z": 0.5477017760276794
+          },
+          "maximum": {
+            "x": -0.03999999165534973,
+            "y": -0.9331662654876709,
+            "z": 1.1777018308639526
+          },
+          "center": {
+            "x": -0.5,
+            "y": -1.021583080291748,
+            "z": 0.8627017736434937
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.5,
+            "y": -1.0700000524520874,
+            "z": 1.0377017259597778
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.5,
+          "y": -1.0700000524520874,
+          "z": 1.0377017259597778
+        },
+        "appliedScale": true,
+        "fingerprint": "9fb3760136fd818662bd84fade0faaac08933b344c4552cc425b0c8bfbeaeb93"
+      },
+      {
+        "object": "P77",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.41499999165534973,
+            "y": -1.5449999570846558,
+            "z": 0.40799999237060547
+          },
+          "maximum": {
+            "x": -0.004999995231628418,
+            "y": -1.034999966621399,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": -0.20999999344348907,
+            "y": -1.2899999618530273,
+            "z": 0.7465136051177979
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.3799999952316284,
+            "y": -1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.3799999952316284,
+          "y": -1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "76582797a01d9dd3b4f5884e8b2a0909d0dd537928daf517025e60e461d177e7"
+      },
+      {
+        "object": "P78",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.9950000047683716,
+            "y": -1.5449999570846558,
+            "z": 0.40799999237060547
+          },
+          "maximum": {
+            "x": -0.5849999785423279,
+            "y": -1.034999966621399,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": -0.7899999618530273,
+            "y": -1.2899999618530273,
+            "z": 0.7465136051177979
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.6200000047683716,
+            "y": -1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.6200000047683716,
+          "y": -1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "9530c87a403d671a0a93148de44c095c8098887ea2174a4ab8959524325306cb"
+      },
+      {
+        "object": "P46",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.809999942779541,
+            "y": -1.1100000143051147,
+            "z": 0.5477017760276794
+          },
+          "maximum": {
+            "x": -1.8899999856948853,
+            "y": -0.982443630695343,
+            "z": 1.1777018308639526
+          },
+          "center": {
+            "x": -2.3499999046325684,
+            "y": -1.0462218523025513,
+            "z": 0.8627017736434937
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.3499999046325684,
+            "y": -1.0700000524520874,
+            "z": 1.0377017259597778
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.3499999046325684,
+          "y": -1.0700000524520874,
+          "z": 1.0377017259597778
+        },
+        "appliedScale": true,
+        "fingerprint": "38f77bbdbf7164da706ed04d773abf0aff9b20d7fb55409dd322579472d546ec"
+      },
+      {
+        "object": "P79",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.265000104904175,
+            "y": -1.5449999570846558,
+            "z": 0.40799999237060547
+          },
+          "maximum": {
+            "x": -1.8550000190734863,
+            "y": -1.034999966621399,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": -2.059999942779541,
+            "y": -1.2899999618530273,
+            "z": 0.7465136051177979
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.2300000190734863,
+            "y": -1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.2300000190734863,
+          "y": -1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "592f83ed61839499bedd21edefda41a8f1f331b8567a63fc318f165713c2133a"
+      },
+      {
+        "object": "P80",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.8450000286102295,
+            "y": -1.5449999570846558,
+            "z": 0.41370177268981934
+          },
+          "maximum": {
+            "x": -2.434999942779541,
+            "y": -1.034999966621399,
+            "z": 1.0850272178649902
+          },
+          "center": {
+            "x": -2.6399998664855957,
+            "y": -1.2899999618530273,
+            "z": 0.7493644952774048
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.4700000286102295,
+            "y": -1.065000057220459,
+            "z": 0.5787017941474915
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.4700000286102295,
+          "y": -1.065000057220459,
+          "z": 0.5787017941474915
+        },
+        "appliedScale": true,
+        "fingerprint": "aab65da3f199f9eca3ac30adbf023071063ba15d8abb25420368df3c5bcf3814"
+      },
+      {
+        "object": "P83",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.8378500938415527,
+            "y": -0.2540000081062317,
+            "z": 1.8297017812728882
+          },
+          "maximum": {
+            "x": -3.4121499061584473,
+            "y": 0.2540000081062317,
+            "z": 1.9477018117904663
+          },
+          "center": {
+            "x": -3.625,
+            "y": 0,
+            "z": 1.8887017965316772
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "7d1b30b10c01220c3f49ece7399233218558fb00fdac556c2a55f807d99605c6"
+      },
+      {
+        "object": "P39",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.9251623153686523,
+            "y": 1.0959999561309814,
+            "z": 0
+          },
+          "maximum": {
+            "x": 3.0895450115203857,
+            "y": 1.6039999723434448,
+            "z": 1.3315227031707764
+          },
+          "center": {
+            "x": -0.4178086519241333,
+            "y": 1.3499999046325684,
+            "z": 0.6657613515853882
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 1.350000023841858,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 1.350000023841858,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "08521140317fdc668f7bff60c6384b4251e354bdabe7fb10289fad4f64cfb84b"
+      },
+      {
+        "object": "P40",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.9251623153686523,
+            "y": -1.6039999723434448,
+            "z": 0
+          },
+          "maximum": {
+            "x": 3.0895450115203857,
+            "y": -1.0959999561309814,
+            "z": 1.3315227031707764
+          },
+          "center": {
+            "x": -0.4178086519241333,
+            "y": -1.3499999046325684,
+            "z": 0.6657613515853882
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": -1.350000023841858,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": -1.350000023841858,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "47ba9a237abf9b8723d28e21d825f168e09459f118164d759dba0e11975d5275"
+      },
+      {
+        "object": "M.hull",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "M.turret",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "M.gun-elevation",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "M.gun-recoil",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "M.polsten-ball",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "M.cupola",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "M.track-left",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "M.track-right",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      }
+    ],
+    "datums": [
+      {
+        "id": "ground-below-traverse",
+        "selector": {
+          "type": "object-origin",
+          "object": "M.hull"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "turret",
+        "selector": {
+          "type": "object-origin",
+          "object": "M.turret"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 1.6077017784118652
+        }
+      },
+      {
+        "id": "gun-elevation",
+        "selector": {
+          "type": "object-origin",
+          "object": "M.gun-elevation"
+        },
+        "status": "available",
+        "position": {
+          "x": 1.1200000047683716,
+          "y": 0,
+          "z": 2.0277018547058105
+        }
+      },
+      {
+        "id": "gun-recoil",
+        "selector": {
+          "type": "object-origin",
+          "object": "M.gun-recoil"
+        },
+        "status": "available",
+        "position": {
+          "x": 1.1200000047683716,
+          "y": 0,
+          "z": 2.0277018547058105
+        }
+      },
+      {
+        "id": "polsten-ball",
+        "selector": {
+          "type": "object-origin",
+          "object": "M.polsten-ball"
+        },
+        "status": "available",
+        "position": {
+          "x": 1.1200000047683716,
+          "y": 0.8199999928474426,
+          "z": 1.9577018022537231
+        }
+      },
+      {
+        "id": "cupola",
+        "selector": {
+          "type": "object-origin",
+          "object": "M.cupola"
+        },
+        "status": "available",
+        "position": {
+          "x": -0.8799999952316284,
+          "y": -0.3059999942779541,
+          "z": 2.627701759338379
+        }
+      },
+      {
+        "id": "track-left",
+        "selector": {
+          "type": "object-origin",
+          "object": "M.track-left"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 1.350000023841858,
+          "z": 0
+        }
+      },
+      {
+        "id": "track-right",
+        "selector": {
+          "type": "object-origin",
+          "object": "M.track-right"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": -1.350000023841858,
+          "z": 0
+        }
+      },
+      {
+        "id": "left-ground",
+        "selector": {
+          "type": "object-bound",
+          "object": "P39",
+          "axis": "Z",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": -0.4178086519241333,
+          "y": 1.3499999046325684,
+          "z": 0
+        }
+      },
+      {
+        "id": "right-ground",
+        "selector": {
+          "type": "object-bound",
+          "object": "P40",
+          "axis": "Z",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": -0.4178086519241333,
+          "y": -1.3499999046325684,
+          "z": 0
+        }
+      }
+    ],
+    "ratios": [],
+    "clearances": [],
+    "articulationSamples": [],
+    "includedObjects": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P20",
+      "P21",
+      "P22",
+      "P23",
+      "P24",
+      "P25",
+      "P26",
+      "P27",
+      "P28",
+      "P29",
+      "P30",
+      "P31",
+      "P32",
+      "P33",
+      "P34",
+      "P35",
+      "P37",
+      "P39",
+      "P40",
+      "P41",
+      "P42",
+      "P43",
+      "P44",
+      "P45",
+      "P46",
+      "P47",
+      "P48",
+      "P49",
+      "P50",
+      "P51",
+      "P52",
+      "P53",
+      "P54",
+      "P55",
+      "P56",
+      "P57",
+      "P58",
+      "P59",
+      "P60",
+      "P61",
+      "P62",
+      "P63",
+      "P64",
+      "P65",
+      "P66",
+      "P67",
+      "P68",
+      "P69",
+      "P70",
+      "P71",
+      "P72",
+      "P73",
+      "P74",
+      "P75",
+      "P76",
+      "P77",
+      "P78",
+      "P79",
+      "P80",
+      "P81",
+      "P83",
+      "P84",
+      "P85",
+      "P86",
+      "P87"
+    ],
+    "excludedObjects": [
+      "M.cupola",
+      "M.gun-elevation",
+      "M.gun-recoil",
+      "M.hull",
+      "M.polsten-ball",
+      "M.track-left",
+      "M.track-right",
+      "M.turret"
+    ],
+    "visibleGeometryObjects": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P20",
+      "P21",
+      "P22",
+      "P23",
+      "P24",
+      "P25",
+      "P26",
+      "P27",
+      "P28",
+      "P29",
+      "P30",
+      "P31",
+      "P32",
+      "P33",
+      "P34",
+      "P35",
+      "P37",
+      "P39",
+      "P40",
+      "P41",
+      "P42",
+      "P43",
+      "P44",
+      "P45",
+      "P46",
+      "P47",
+      "P48",
+      "P49",
+      "P50",
+      "P51",
+      "P52",
+      "P53",
+      "P54",
+      "P55",
+      "P56",
+      "P57",
+      "P58",
+      "P59",
+      "P60",
+      "P61",
+      "P62",
+      "P63",
+      "P64",
+      "P65",
+      "P66",
+      "P67",
+      "P68",
+      "P69",
+      "P70",
+      "P71",
+      "P72",
+      "P73",
+      "P74",
+      "P75",
+      "P76",
+      "P77",
+      "P78",
+      "P79",
+      "P80",
+      "P81",
+      "P83",
+      "P84",
+      "P85",
+      "P86",
+      "P87"
+    ],
+    "configuration": "rest",
+    "pose": "rest"
+  },
+  "aggregate": {
+    "passed": true,
+    "complete": true,
+    "reproducible": true,
+    "internallyConsistent": true,
+    "expectedBlockingCriterionCount": 37,
+    "reportedBlockingCriterionCount": 37,
+    "passedBlockingCriterionCount": 37,
+    "blockingFailureCriterionIds": []
+  },
+  "createdAt": "2026-11-12T01:53:58.964Z",
+  "resultHash": "cf85a18a2c77af906a88910fe8dfa5d462745b647c9db708781796df211e5405",
+  "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/inspection/revision-21/asset-dimension-validation-cf85a18a2c77af906a88910fe8dfa5d462745b647c9db708781796df211e5405.json"
+}

@@ -1,0 +1,49 @@
+{
+  "recordType": "centurion-human-artwork-approval",
+  "recordedAt": "2026-11-12T03:09:28.279937+00:00",
+  "approvedBy": "George Le",
+  "humanApproved": true,
+  "userStatement": "Centurion A41 Pilot r21 decisions (job b16e5570, checkpoint e43c5542…2fce5):\n1. Artwork review: Approve r21 artwork (exact checkpoint e43c5542…2fce5)\n2. Next flange pass: Full reviewer package: wider ring (~0.24–0.26 m), more/larger bolts, blended cast boss with flat land, remove overlap (P06+P09, same axis)\n3. Flange tone: Split: dark ring and bolts, olive collar\n4. Lifting eyes: Keep as designed",
+  "scope": "Artwork approval of the exact presented r21 clean source checkpoint (labeled 13-view sheet plus close-ups and same-camera r20/r21 pairs on the decision page).",
+  "candidatePins": {
+    "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+    "branch": "main",
+    "revision": 21,
+    "checkpointId": "4b9d645b-77b6-4c10-8bec-4aa8c798abed",
+    "sha256": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5"
+  },
+  "presentedEvidence": {
+    "labeledReviewSheet": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/.formseed-game-assets/reviews/centurion-a41-r21-review-labeled.png",
+      "sha256": "a06c8a45261ead42d28600f39f8055ba91f3a181edfe06641e84c333c9483499"
+    },
+    "producerRecord": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/r21-producer-record.json",
+      "sha256": "f5c78c6f4e8ff1e0eb63705bfacb791e391c28fda76ff3afb6c9757a41c568d5"
+    },
+    "independentReview": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/independent-review.json",
+      "sha256": "c0a58b2bc0095d99b35a62a4bcd7de132ba77a2699a78ab1f005b26b6841d388"
+    },
+    "dimensionReport": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r21/dimensions21.json",
+      "sha256": "bb2594c072990d598a54cd057852364e6a0305e52ca6d83eedbb9da460424adf"
+    },
+    "decisionPage": "https://claude.ai/artifact/EUkZeyp7ivomWRkZ8Gwrgp (private; version 3)"
+  },
+  "agentRecommendationAtDecision": "no-go (independent agent review; no structured evaluator assessment). Human approval is independent of it and does not change it.",
+  "sameDecisionDirections": {
+    "nextFlangePass": "r22: full reviewer package on P06+P09, same axis",
+    "flangeTone": "split: dark ring and bolts, olive collar",
+    "liftingEyes": "keep as designed"
+  },
+  "exclusions": [
+    "Producer source completion/approval/promotion",
+    "Asset version/release (ADR 0013 requires source approval and publication first)",
+    "Game integration",
+    "Catalog publication",
+    "Performance qualification",
+    "Any later revision: r22 changes P06/P09 and needs its own approval"
+  ],
+  "backendSemantics": "Conversation artwork acceptance recorded in canonical job evidence. No producer approval transaction, complete_asset_job or promotion invoked."
+}
