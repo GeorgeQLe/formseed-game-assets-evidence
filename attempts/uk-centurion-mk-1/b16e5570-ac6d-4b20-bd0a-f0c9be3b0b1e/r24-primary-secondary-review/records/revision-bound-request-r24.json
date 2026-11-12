@@ -1,0 +1,484 @@
+{
+  "schemaVersion": "1.0.0",
+  "job": {
+    "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+    "branchId": "main",
+    "assetId": "uk-centurion-mk-1",
+    "revision": 24,
+    "checkpointSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574",
+    "renderSetSha256": "429fa1c52a91d2423a6a62c208b7ecda83f372be3812f91a34054d4fdfed1fec",
+    "contactSheetSha256": "ad60f1e84749fab6c8cbb0429c7562c62364183025ff0e501eb3439f7d42d360",
+    "validationReportId": "26687876-c650-4e35-9558-b88d0df9da41"
+  },
+  "catalogBindings": {
+    "rubrics": [
+      {
+        "rubricId": "model-quality",
+        "version": "1.0.0",
+        "sha256": "5f44f1568e5a9ced239bce0de0f9bc8dbc84a3737e304b2e2d4aa6e26a1cb177"
+      }
+    ],
+    "styleProfiles": [],
+    "files": []
+  },
+  "assessments": [
+    {
+      "schemaVersion": "2.0.0",
+      "assessmentId": "centurion-r24-model-quality-assessment",
+      "rubric": {
+        "rubricId": "model-quality",
+        "version": "1.0.0"
+      },
+      "subject": {
+        "assetId": "uk-centurion-mk-1",
+        "revisionId": "2d72aed5-ea82-4054-aaed-8050e83945a3",
+        "revision": 24
+      },
+      "evidenceSet": {
+        "revision": 24,
+        "checkpointSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574",
+        "renderSetSha256": "429fa1c52a91d2423a6a62c208b7ecda83f372be3812f91a34054d4fdfed1fec",
+        "requiredViews": [
+          {
+            "viewId": "az-0",
+            "width": 1024,
+            "height": 1024,
+            "sha256": "4cbd34f756341b654db2a051e09bb4f12adb4c1647a26cf1da2e50e1b5ace9d9"
+          },
+          {
+            "viewId": "az-45",
+            "width": 1024,
+            "height": 1024,
+            "sha256": "ed2b34192dfb20cfa2584548b4c6cbc862f9d82a984deca83a0760b45f35442b"
+          },
+          {
+            "viewId": "az-90",
+            "width": 1024,
+            "height": 1024,
+            "sha256": "52e66ccef77552751648d091262e69383876754a515531af403215fb8a052d5f"
+          },
+          {
+            "viewId": "az-135",
+            "width": 1024,
+            "height": 1024,
+            "sha256": "13bf40cae7454aaf3408ff0d0cccbe7ab3079ff243938463d2efb24d39c89f9c"
+          },
+          {
+            "viewId": "az-180",
+            "width": 1024,
+            "height": 1024,
+            "sha256": "579af5a4aaa1ff88121a3a96121d00e5147f1e0027445a9caee9501ab49894d7"
+          },
+          {
+            "viewId": "az-225",
+            "width": 1024,
+            "height": 1024,
+            "sha256": "43e4c244075a11ff22245638dfa06afac0dee88cb897b4f6730db9eca52dd7ef"
+          },
+          {
+            "viewId": "az-270",
+            "width": 1024,
+            "height": 1024,
+            "sha256": "7a349513cde523dd65c63bc3197294af8e8ab2f5277f7a0c70de8a75a000c8ef"
+          },
+          {
+            "viewId": "az-315",
+            "width": 1024,
+            "height": 1024,
+            "sha256": "f9245b431b25a622306861f70d94be1d30d2d28508114121ed12ffb9082ac59c"
+          },
+          {
+            "viewId": "front",
+            "width": 1200,
+            "height": 800,
+            "sha256": "f05b7e08e46622737b9929f0659a41c53254586c081be2e36e317570211cf911"
+          },
+          {
+            "viewId": "left",
+            "width": 1200,
+            "height": 800,
+            "sha256": "dbc48a5b43cacf3a49f943dd98a1b23e52ac0a70616337a4e1725ef7ab80ee6d"
+          },
+          {
+            "viewId": "rear",
+            "width": 1200,
+            "height": 800,
+            "sha256": "02052f04037f1fb3838310bd39e15cf990f42589e60467b3bdf10a1794c561c3"
+          },
+          {
+            "viewId": "right",
+            "width": 1200,
+            "height": 800,
+            "sha256": "594cda6e9c55d3d4d6f856a41df35ac8328de249f39457ae55c7bbcb01bf8d00"
+          },
+          {
+            "viewId": "top",
+            "width": 1200,
+            "height": 800,
+            "sha256": "9bbed0b197943b6aca830e2963f40669c26a6c337c0470d289a0abbfd7c3fe5f"
+          }
+        ],
+        "validation": {
+          "reportId": "26687876-c650-4e35-9558-b88d0df9da41",
+          "revision": 24,
+          "checkpointSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574",
+          "passed": true,
+          "current": true,
+          "deterministic": true
+        }
+      },
+      "scores": [
+        {
+          "categoryId": "identity-recognition",
+          "score": 2,
+          "evidence": [
+            {
+              "kind": "view-observation",
+              "viewId": "az-45",
+              "observation": "Tracked tank with low angular cast turret, long 17-pdr barrel, six road wheels and an offset rounded Polsten housing at the turret front left; reads as a Centurion-family A41. Unchanged from r23 at this scale.",
+              "evidenceSha256": "ed2b34192dfb20cfa2584548b4c6cbc862f9d82a984deca83a0760b45f35442b"
+            },
+            {
+              "kind": "view-observation",
+              "viewId": "front",
+              "observation": "At 256 px the Polsten mount is a small dark ring and short tube beside the mantlet; the 12 restored bolts are sub-pixel. Pilot-specific identity still depends on a few pixels and does not reliably separate the A41 Pilot from nearest variants.",
+              "evidenceSha256": "f05b7e08e46622737b9929f0659a41c53254586c081be2e36e317570211cf911"
+            }
+          ]
+        },
+        {
+          "categoryId": "proportion-mass",
+          "score": 3,
+          "evidence": [
+            {
+              "kind": "view-observation",
+              "viewId": "left",
+              "observation": "Hull length, turret placement, barrel overhang and running-gear spacing unchanged from approved r21; 37/37 dimension criteria pass at r24.",
+              "evidenceSha256": "dbc48a5b43cacf3a49f943dd98a1b23e52ac0a70616337a4e1725ef7ab80ee6d"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "dimension-validation-r24",
+              "observation": "37/37 dimension criteria pass at revision 24.",
+              "evidenceSha256": "8311752dad280457decb102d539bfd2610b160205d5468479d6779fd88cd261a"
+            }
+          ]
+        },
+        {
+          "categoryId": "silhouette",
+          "score": 3,
+          "evidence": [
+            {
+              "kind": "view-observation",
+              "viewId": "top",
+              "observation": "Top view: turret-front profile keeps r23's softened boss/cheek apex (accepted by George); whole-vehicle outline unchanged from r23.",
+              "evidenceSha256": "9bbed0b197943b6aca830e2963f40669c26a6c337c0470d289a0abbfd7c3fe5f"
+            },
+            {
+              "kind": "view-observation",
+              "viewId": "right",
+              "observation": "Turret, gun, hull and track envelopes distinct; no outline change outside the Polsten ring.",
+              "evidenceSha256": "594cda6e9c55d3d4d6f856a41df35ac8328de249f39457ae55c7bbcb01bf8d00"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "polish-r24/closeups/r24/turret-front-quarter.png",
+              "observation": "Same-camera r23->r24 pair shows zero changed pixels in this view.",
+              "evidenceSha256": "0672682ff66ea9a56995f898a5815d3804334112b93922049c6f6dd2333c9ec2"
+            }
+          ]
+        },
+        {
+          "categoryId": "form-hierarchy",
+          "score": 2,
+          "evidence": [
+            {
+              "kind": "view-observation",
+              "viewId": "az-0",
+              "observation": "Front-quarter view: boss, dark ring and ball read as a three-step hierarchy at full render size; the bolt circle is not legible at native size.",
+              "evidenceSha256": "4cbd34f756341b654db2a051e09bb4f12adb4c1647a26cf1da2e50e1b5ace9d9"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "polish-r24/closeups/r24-opaque/flange-left-side.png",
+              "observation": "Close-up: 12 small square bolt heads punctuate the dark ring face around the ball; they read as secondary detail subordinate to the ring and boss.",
+              "evidenceSha256": "d1b3adafd0d984e10c9fe09a9099e4b8c96f71354a17697bb969c153040b0032"
+            }
+          ]
+        },
+        {
+          "categoryId": "mechanical-coherence",
+          "score": 3,
+          "evidence": [
+            {
+              "kind": "view-observation",
+              "viewId": "az-0",
+              "observation": "Ring, collar and boss sit on the fixed turret side (P06 parented to M.turret since r23); the ball P09 seats inside the collar with no visible gap at render scale.",
+              "evidenceSha256": "4cbd34f756341b654db2a051e09bb4f12adb4c1647a26cf1da2e50e1b5ace9d9"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "polish-r24/closeups/r24-boltprobe/bolt-probe-oblique.png",
+              "observation": "Bolt probe: bolt heads sit on the ring face around the ball, absent at r23; no floating or embedded heads visible.",
+              "evidenceSha256": "df66c3633ca58c7c91428c879622c9718db1b6a3a879bdcf5a74c8fc8380b269"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "polish-r24/closeups/r24/polsten-seat-side.png",
+              "observation": "Side close-up: bolt heads stand proud of the dark ring face on the turret side, evenly spaced; ring seated against the boss land.",
+              "evidenceSha256": "ad50c9435634259be19afbf660f60a7aee1be66d3456a7f6f139ca83933a0e99"
+            }
+          ]
+        },
+        {
+          "categoryId": "surface-material",
+          "score": 2,
+          "evidence": [
+            {
+              "kind": "view-observation",
+              "viewId": "az-45",
+              "observation": "Two flat materials only; dark grey ring contrasts with olive body. No texture detail.",
+              "evidenceSha256": "ed2b34192dfb20cfa2584548b4c6cbc862f9d82a984deca83a0760b45f35442b"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "polish-r24/closeups/r24-opaque/mantlet-eyes.png",
+              "observation": "Bolt heads take the olive body material against the dark ring, giving a readable rim pattern at close range; boss rim faceting remains.",
+              "evidenceSha256": "775385c479b95894fb7c8403b0017b16af79c1cb196d878b4ab7c58135848bd3"
+            }
+          ]
+        },
+        {
+          "categoryId": "viewpoint-robustness",
+          "score": 2,
+          "evidence": [
+            {
+              "kind": "view-observation",
+              "viewId": "az-315",
+              "observation": "Polsten region hidden or tiny from rear/far-side angles; front-quarter views carry the change. No broken or clipped surface at native size.",
+              "evidenceSha256": "f9245b431b25a622306861f70d94be1d30d2d28508114121ed12ffb9082ac59c"
+            },
+            {
+              "kind": "view-observation",
+              "viewId": "az-90",
+              "observation": "Side view: mount and bolts read as a small ring cluster; no artifacts.",
+              "evidenceSha256": "52e66ccef77552751648d091262e69383876754a515531af403215fb8a052d5f"
+            }
+          ]
+        },
+        {
+          "categoryId": "production-integrity",
+          "score": 3,
+          "evidence": [
+            {
+              "kind": "view-observation",
+              "viewId": "az-0",
+              "observation": "Deterministic production render, identical to the preflight baseline, no clipping or advisories.",
+              "evidenceSha256": "4cbd34f756341b654db2a051e09bb4f12adb4c1647a26cf1da2e50e1b5ace9d9"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "validate_asset 26687876",
+              "observation": "Generic validation passed, deterministic, 49,982 triangles, 2 materials, 0 textures, 151 objects, no issues.",
+              "evidenceSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "native-isolation-r24-summary.json",
+              "observation": "Native isolation complete with no unsupported features; P06/P09 probes pass; 150/151 objects identical to r23, only P06 replaced.",
+              "evidenceSha256": "69a4092695d7c6ee9b23785e9aaeee6c28c97848aec1de67669415f0da6a1d2b"
+            },
+            {
+              "kind": "technical-record",
+              "recordId": "before-after-r23-r24/report.json",
+              "observation": "Same-camera r23->r24 pairs: every changed region lies on the bolt circle; max changedFraction 0.0059.",
+              "evidenceSha256": "7e6ef0eef9714e0df0a06e014e2ea1bd2a15c83408c09ce68204a394d589e8b5"
+            }
+          ]
+        }
+      ],
+      "gates": [
+        {
+          "gateId": "identity-authority",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "identity-authority",
+              "observation": "Canonical authorized A41 Pilot job b16e5570; private photo-2 used for research only, not textured or published.",
+              "evidenceSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+            }
+          ]
+        },
+        {
+          "gateId": "required-views",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "required-views",
+              "observation": "All 13 configured r24 views rendered at pass-2, unclipped, no advisories.",
+              "evidenceSha256": "ad60f1e84749fab6c8cbb0429c7562c62364183025ff0e501eb3439f7d42d360"
+            }
+          ]
+        },
+        {
+          "gateId": "structural-plausibility",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "structural-plausibility",
+              "observation": "Bolts seated on the ring face; no floating parts in close-ups; ring/collar on fixed turret side.",
+              "evidenceSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+            }
+          ]
+        },
+        {
+          "gateId": "transform-grounding",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "transform-grounding",
+              "observation": "37/37 dimension criteria pass at r24.",
+              "evidenceSha256": "8311752dad280457decb102d539bfd2610b160205d5468479d6779fd88cd261a"
+            }
+          ]
+        },
+        {
+          "gateId": "deterministic-output",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "deterministic-output",
+              "observation": "Preflight and production render hashes identical (429fa1c5...); validation and close-ups deterministic.",
+              "evidenceSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+            }
+          ]
+        },
+        {
+          "gateId": "current-validation",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "current-validation",
+              "observation": "validate_asset 26687876 passed at revision 24 bound to checkpoint 53ea7c63....",
+              "evidenceSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+            }
+          ]
+        },
+        {
+          "gateId": "budgets",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "budgets",
+              "observation": "49,982 triangles under 50,000; 2 materials; 0 textures.",
+              "evidenceSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+            }
+          ]
+        },
+        {
+          "gateId": "explained-content",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "explained-content",
+              "observation": "Mutation receipt replaces only P06 (bolts restored, human-directed); 150 retained fingerprints including P09.",
+              "evidenceSha256": "69a4092695d7c6ee9b23785e9aaeee6c28c97848aec1de67669415f0da6a1d2b"
+            }
+          ]
+        },
+        {
+          "gateId": "artifact-integrity",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "artifact-integrity",
+              "observation": "View hashes from the authoritative render result bound in evidenceSet; close-up copies hash-verified.",
+              "evidenceSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+            }
+          ]
+        },
+        {
+          "gateId": "copying-rights",
+          "passed": true,
+          "evidence": [
+            {
+              "kind": "technical-record",
+              "recordId": "copying-rights",
+              "observation": "Procedural geometry from build-r24.py; no external meshes or textures; private reference not copied.",
+              "evidenceSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+            }
+          ]
+        }
+      ],
+      "assessedBy": "Claude Code primary assessor (Centurion r24 producer session)",
+      "assessedAt": "2026-11-12T06:16:49.908523Z",
+      "adversarialReview": {
+        "reviewedBy": "Claude Code independent adversarial review agent (separate context)",
+        "reviewedAt": "2026-11-12T06:13:29Z",
+        "coreCategoryObjections": [
+          {
+            "categoryId": "identity-recognition",
+            "strongestReasonBelowThree": "The pilot-specific Polsten is only a few pixels at gameplay size, the contact sheet frames the vehicle very small, and the restored bolts are invisible at native size.",
+            "resolved": true,
+            "resolutionEvidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "polish-r24/independent-review.json",
+                "observation": "In my 256 px downscales of ortho front, az-0 and az-315, the dark ring is legible as a distinct mount, exactly as in the human-approved r21/r22 lineage. The bolts are a close-up detail and were never needed for native-size identity. Contact-sheet framing is a presentation matter.",
+                "evidenceSha256": "755ed8ad86c740b0e43edc40fa3e63f83853f181f002d6130113820d19ea8e30"
+              }
+            ]
+          },
+          {
+            "categoryId": "silhouette",
+            "strongestReasonBelowThree": "The boss/cheek kink in plan is only softened, not removed, and the boss outline is faceted.",
+            "resolved": true,
+            "resolutionEvidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "polish-r24/independent-review.json",
+                "observation": "George explicitly accepted the softened kink. r24 has zero alpha changes against r23 in all 13 views, and the major contours are unchanged at gameplay scale. The facets show only at close range.",
+                "evidenceSha256": "755ed8ad86c740b0e43edc40fa3e63f83853f181f002d6130113820d19ea8e30"
+              }
+            ]
+          },
+          {
+            "categoryId": "mechanical-coherence",
+            "strongestReasonBelowThree": "Carried from r22: the fixed flange was parented to the articulated ball, and there is no posed evidence. New for r24: the bolts could be floating, buried or clipped by the floor boolean, as happened in r23. Also carried: the inboard wedge shard at the spot-face.",
+            "resolved": true,
+            "resolutionEvidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "polish-r24/independent-review.json",
+                "observation": "From r23 onward, P06 (ring, bolts, collar) is parented to M.turret and P09 moves alone, which resolves the parenting. Bolts are created after the floor clip, with their rear faces exactly on the ring face (x 1.116), radially inside the ring annulus and above the clip plane (min z 0.1405 against 0.045). The close-ups show them seated with no gap. The wedge shard is unchanged and was deliberately not selected by George; it is a known residual, not a regression. Posed ball evidence is still absent, but no articulation limits are declared, so it is a coverage gap for a later animation gate, not a static-structure defect.",
+                "evidenceSha256": "755ed8ad86c740b0e43edc40fa3e63f83853f181f002d6130113820d19ea8e30"
+              }
+            ]
+          },
+          {
+            "categoryId": "production-integrity",
+            "strongestReasonBelowThree": "Carried from r22: there is no hash-bound deterministic evaluator result, so the rubric gate fails closed. The triangle budget is nearly exhausted (49,982 of 50,000). One bolt probe view (profile) is uninformative.",
+            "resolved": true,
+            "resolutionEvidence": [
+              {
+                "kind": "technical-record",
+                "recordId": "polish-r24/independent-review.json",
+                "observation": "I judged this from technical evidence, as instructed. Validation passed and is deterministic, renders are identical to the baseline, dimensions pass 37/37, native isolation is complete, and the budget is within limit. All of it is bound to checkpoint 53ea7c63...74fa. The thin headroom is a constraint, not a violation. Caveat: under AGENTS.md, a visual go still requires the deterministic evaluator's exact 'go' on the complete r24 assessment, which the producer is running in parallel. Until that result exists, the gate stays fail-closed regardless of this review.",
+                "evidenceSha256": "755ed8ad86c740b0e43edc40fa3e63f83853f181f002d6130113820d19ea8e30"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

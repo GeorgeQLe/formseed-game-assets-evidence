@@ -1,0 +1,218 @@
+{
+  "recordType": "formseed-polish-producer-record",
+  "recordedAt": "2026-11-12T06:11:27.906222+00:00",
+  "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+  "branchId": "main",
+  "writer": {
+    "agent": "Claude Code",
+    "mutation": {
+      "leaseId": "706c054a-b492-434c-b85f-3de1b3c178c1",
+      "released": true,
+      "releasedEpoch": 34
+    },
+    "evidence": {
+      "leaseId": "22bc3d6b-97d2-47ef-a3a7-db3028f280fc",
+      "epoch": 35,
+      "released": true,
+      "releasedEpoch": 36
+    }
+  },
+  "direction": {
+    "source": "George, 2026-11-12 r23 decisions (status.polishAuthorization.georgeDirectionR24)",
+    "quote": "Restore the same 12 bolts after the floor cut, seated on the ring face; no other change / Accept the softened kink",
+    "budgetCharge": 0,
+    "humanDirected": true
+  },
+  "build": {
+    "script": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/build-r24.py",
+      "sha256": "b462e67688cb901b092b7ac2f66bc3f6250edc3c75578ae631f06425e2036520"
+    },
+    "summary": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/build-r24.json",
+      "sha256": "1427dc81cac0c50e972392d55fabbd05550685000a8eab873a39225e8d885537"
+    },
+    "request": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/r24-request.json",
+      "sha256": "4b43b6f089a0d5d4e34d2fc897ce254df549e00326471eca1af08cefa21e17a5"
+    }
+  },
+  "attempts": [
+    {
+      "key": "centurion-r24-bolt-restore-20261112-v1",
+      "outcome": "committed r24"
+    }
+  ],
+  "mutation": {
+    "tool": "replace_asset_components",
+    "batchId": "8790349d-5403-4d05-a6af-8a09dde30516",
+    "operationsSha256": "42aeed5ac4b9f589f75eeec79207ddf1fe7f35f8e67149431272179dcb8b0625",
+    "expectedRevision": 23,
+    "revision": 24,
+    "applied": 23,
+    "removed": [
+      "P06"
+    ],
+    "checkpoint": {
+      "checkpointId": "2d72aed5-ea82-4054-aaed-8050e83945a3",
+      "checkpointHash": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+    },
+    "triangles": {
+      "before": 49838,
+      "after": 49982,
+      "delta": 144,
+      "estimatedDelta": 144,
+      "budget": 50000
+    },
+    "materials": 2,
+    "objects": 151,
+    "retainedFingerprintCount": 150
+  },
+  "rollback": {
+    "r23": {
+      "checkpointId": "3a33d3d6-8e1a-4f13-a910-a43b7f68483f",
+      "checkpointHash": "d5661b5ed9b74fa852ffa25c022776f4347f6eb5e6900898de72a675b26cdf76",
+      "note": "rejected by George; archived (evidence repo 45f672cd)"
+    },
+    "r21": {
+      "checkpointId": "4b9d645b-77b6-4c10-8bec-4aa8c798abed",
+      "checkpointHash": "e43c5542dc0bc43ae7dc3cf5a87e4de49eed563b0c6cb2bc819b9ed929c2fce5",
+      "note": "George-approved artwork fallback"
+    }
+  },
+  "dimensions": {
+    "reportHash": "8311752dad280457decb102d539bfd2610b160205d5468479d6779fd88cd261a",
+    "passed": 37,
+    "total": 37,
+    "evidence": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/dimensions24.json",
+      "sha256": "af97952962f29cb879f91fa025cee6e788ae3ab766c0eac1a4537cac7b8e403c"
+    }
+  },
+  "renders": {
+    "renderHash": "429fa1c52a91d2423a6a62c208b7ecda83f372be3812f91a34054d4fdfed1fec",
+    "deterministic": true,
+    "identicalToBaseline": true,
+    "contactSheet": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/main/renders/revision-24/production/run-b7Bmu0/pass-2/contact-sheet.png",
+    "contactSheetHash": "ad60f1e84749fab6c8cbb0429c7562c62364183025ff0e501eb3439f7d42d360",
+    "reviewArtifactId": "94ff1842-a12e-47d0-bf11-f6ef5b8b5641",
+    "clippingOrAdvisories": "none"
+  },
+  "validation": {
+    "id": "26687876-c650-4e35-9558-b88d0df9da41",
+    "passed": true,
+    "deterministic": true,
+    "issues": [],
+    "triangles": 49982,
+    "materials": 2,
+    "textures": 0,
+    "objects": 151
+  },
+  "nativeIsolation": {
+    "summary": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/native-isolation-r24-summary.json",
+      "sha256": "69a4092695d7c6ee9b23785e9aaeee6c28c97848aec1de67669415f0da6a1d2b"
+    },
+    "receipt": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/native-isolation-diagnostics/native-rigid-isolation-v1/8d2d223be08d19c3fba944a1b413d2b6d2ce28e112a52753004d7f9ec0346e79/receipt.json",
+      "sha256": "86bbe1cc55842bc54f36a02101a1202a8acc1515c9d47d97c4869ffb645df694"
+    },
+    "complete": true,
+    "unsupportedFeatures": [],
+    "probesPassed": true,
+    "P06": "6bd3ebeaa01c5bc43ecd1cec5e2187917d5cec105cf429a1b383517ac56c227c (changed from r23 4a3d4a3e\u2026)",
+    "P09": "5951bffd5ada7d116381b5c7786577e4d2cfc054efaf60c84a31a598f425839f (identical to r23)",
+    "unchangedObjectsVsR23": "150/151"
+  },
+  "closeups": {
+    "transparent": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/closeups/r24/receipt-r24-89124408.json",
+      "sha256": "9c12e72dd6d91575af59dd64ea5764124f6e3d4ebd96b4dbc668cee345c4fb7a"
+    },
+    "opaque": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/closeups/r24-opaque/receipt-r24-2ff18253.json",
+      "sha256": "adcbc014868b2be81d14b1dd9b1cca7a3ab2324a3c7d956be67be670a339d349"
+    },
+    "beforeAfterReport": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/closeups/before-after-r23-r24/report.json",
+      "sha256": "7e6ef0eef9714e0df0a06e014e2ea1bd2a15c83408c09ce68204a394d589e8b5"
+    },
+    "beforeAfterScript": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/closeups/before-after-r23-r24/beforeafter.py",
+      "sha256": "977d661387cf712e3eca495b0c2a9cf80afac0026e0fdc97dfcdce6640b4cb5a"
+    },
+    "boltProbe": {
+      "receiptRequestHash": "f92ef372bd2ec71d155675bc43df964dfe969d27e85d1ded9fad9e04bbeef8ae",
+      "receipt": {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/closeups/r24-boltprobe/receipt-r24-f92ef372.json",
+        "sha256": "4383440980a79f769e3b83264323e86ce83642b33ac4df61a2e9c942c3a0b0e0"
+      },
+      "oblique": {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/closeups/r24-boltprobe/bolt-probe-oblique.png",
+        "sha256": "df66c3633ca58c7c91428c879622c9718db1b6a3a879bdcf5a74c8fc8380b269"
+      },
+      "profile": {
+        "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/closeups/r24-boltprobe/bolt-probe-profile.png",
+        "sha256": "be37a0e260dbf8c52f11740cf8ee1a1717cd64d1f6fce7d290e8f9e3d6bf7fc7"
+      }
+    },
+    "camerasReused": "exact r23 requests (transparent 8b33d1c0, opaque 1e4f9902, bolt probe 774e61d1)"
+  },
+  "findings": [
+    {
+      "id": "r24-bolts-restored",
+      "severity": "resolved",
+      "finding": "The 12 bolts are present and seated on the ring face (turret side) in the bolt-probe oblique, flange-left-side and polsten-seat-side close-ups; r23 showed a bare ring. Triangle delta +144 matches the estimate exactly."
+    },
+    {
+      "id": "r24-no-other-change",
+      "severity": "verified",
+      "finding": "Same-camera r23->r24 pairs: every changed region in all 16 views lies on the bolt circle (max changedFraction 0.0059); flange-side, turret-front-quarter and bolt-probe-profile show zero change. Native isolation: 150/151 objects identical to r23; P09 unchanged; only P06 differs."
+    },
+    {
+      "id": "r24-kink-accepted",
+      "severity": "note",
+      "finding": "Softened boss/cheek kink retained unchanged per George's 'Accept the softened kink'."
+    },
+    {
+      "id": "r23-split-design-choice",
+      "severity": "note",
+      "finding": "Collar/ball split at local x 0.025 and P09 dome rings remain interpretations/design choices (carried from r23)."
+    }
+  ],
+  "gates": {
+    "technicalValidation": "pass (validate_asset 26687876, deterministic renders identical to baseline, dimension report 37/37 bound, isolation complete)",
+    "visualRecommendation": "no-go: revision-bound evaluator 62.5 (failures: weighted-total: threshold; identity-recognition: core-floor); independent adversarial reviewer recommends go with all four core objections resolved, conditional on an evaluator go",
+    "humanApproval": "pending: r24 not reviewed; r21 remains the approved artwork"
+  },
+  "approved": false,
+  "evaluation": {
+    "request": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/revision-bound-request-r24.json",
+      "sha256": "80af1b2b4028c46d1813ed9220766baaeb6568b4f139f215bf487ed8cf27c797"
+    },
+    "assessment": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/model-quality-assessment-r24.json",
+      "sha256": "0baabbc78824ceaa592352a41805a70a7d03cb2c073865687752bf96cbcddda0"
+    },
+    "result": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/revision-bound-evaluation-r24.json",
+      "sha256": "09b7da9bad4920f84f5ec6322a3df278cd2037d54932eecdc1cb4bfd348e4948"
+    },
+    "independentReview": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/independent-review.json",
+      "sha256": "755ed8ad86c740b0e43edc40fa3e63f83853f181f002d6130113820d19ea8e30"
+    },
+    "weightedTotal": 62.5,
+    "failures": [
+      "weighted-total: threshold",
+      "identity-recognition: core-floor"
+    ]
+  },
+  "labeledReviewSheet": {
+    "path": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/.formseed-game-assets/reviews/uk-centurion-mk-1-r24-contact-sheet-labeled.png",
+    "sha256": "05f8c829708e1170c394e2de7b8e4558277c73ea9e6f51ea2b222caae3189e00",
+    "sourceSha256": "ad60f1e84749fab6c8cbb0429c7562c62364183025ff0e501eb3439f7d42d360",
+    "protectedPixelsEqual": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "recordType": "centurion-human-artwork-approval",
+  "recordedAt": "2026-11-12T15:15:25.867738+00:00",
+  "approvedBy": "George Le",
+  "humanApproved": true,
+  "userStatement": {
+    "identityContext": "in our 1946 setting of Omega War, we would only have the pilot Centurion so it's the only one. Unless we upgrade the triangle count or make the models larger, it'd be hard to add in enough details into the small minature style models we have without changing that?",
+    "request": "let's do surface finishing",
+    "answers": {
+      "base": "Approve r24, finish r24 (Recommended)",
+      "scope": "option 1 with a todo to do 2 after approve of option 1 work",
+      "condition": "all of the above as different variations"
+    }
+  },
+  "optionPresented": {
+    "base": "Approve r24, finish r24: records your artwork approval of exact r24 (checkpoint 53ea7c63…a5574), accepts the native-size identity objection for the 1946 Pilot-only setting, then finishes r24."
+  },
+  "scope": "Artwork approval of the exact presented r24 clean source checkpoint (labeled 13-view sheet, close-ups and same-camera r23/r24 pairs on the decision page).",
+  "candidatePins": {
+    "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+    "branch": "main",
+    "revision": 24,
+    "checkpointId": "2d72aed5-ea82-4054-aaed-8050e83945a3",
+    "sha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+  },
+  "presentedEvidence": {
+    "labeledReviewSheet": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed-game-assets/.formseed-game-assets/reviews/uk-centurion-mk-1-r24-contact-sheet-labeled.png",
+      "sha256": "05f8c829708e1170c394e2de7b8e4558277c73ea9e6f51ea2b222caae3189e00"
+    },
+    "producerRecord": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/r24-producer-record.json",
+      "sha256": "175ded069d1c996b1177ed9ffcdc753749618c34bd5c9250e1a8d4c2060fc470"
+    },
+    "independentReview": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/independent-review.json",
+      "sha256": "755ed8ad86c740b0e43edc40fa3e63f83853f181f002d6130113820d19ea8e30"
+    },
+    "evaluatorResult": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/revision-bound-evaluation-r24.json",
+      "sha256": "09b7da9bad4920f84f5ec6322a3df278cd2037d54932eecdc1cb4bfd348e4948"
+    },
+    "dimensionReport": {
+      "path": "/Users/georgele/Developer/Projects/tools/dev/formseed/projects/uk-centurion-mk-1/evidence/polish-r24/dimensions24.json",
+      "sha256": "af97952962f29cb879f91fa025cee6e788ae3ab766c0eac1a4537cac7b8e403c"
+    },
+    "decisionPage": "https://claude.ai/artifact/EUkZeyp7ivomWRkZ8Gwrgp (private; version 6)"
+  },
+  "agentRecommendationAtDecision": "no-go (revision-bound evaluator 62.5: weighted-total threshold, identity-recognition core floor); independent adversarial reviewer go. Human approval is independent of it and does not change the recorded evaluator result.",
+  "identityObjectionDecision": "Accepted by George for the 1946 Omega War setting, in which the A41 Pilot is the only Centurion; identity is judged against the game roster, not other Centurion marks. Recorded evaluator result unchanged.",
+  "sameDecisionDirections": {
+    "surfaceFinishing": "Start from r24. Scope now: matte flat material zones matched to Omega War siblings (no textures, no modelled markings).",
+    "deferredTodo": "FormSeed2D texture work (ADR 0016) only after George approves the material-zone finishing work.",
+    "finishVariants": [
+      "clean service finish",
+      "lightly weathered",
+      "battle-scarred cosmetic"
+    ]
+  },
+  "exclusions": [
+    "Producer source completion/approval/promotion",
+    "Asset version/release (ADR 0013 requires source approval and publication first)",
+    "Game integration",
+    "Catalog publication",
+    "Performance qualification",
+    "Any finished-surface revision or finish variant: each needs its own approval"
+  ],
+  "backendSemantics": "Conversation artwork acceptance recorded in canonical job evidence. No producer approval transaction, complete_asset_job or promotion invoked."
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "authority": {
+    "authoritative": true,
+    "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+    "branchId": "main",
+    "assetId": "uk-centurion-mk-1",
+    "revision": 24,
+    "checkpointSha256": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574",
+    "renderSetSha256": "429fa1c52a91d2423a6a62c208b7ecda83f372be3812f91a34054d4fdfed1fec",
+    "contactSheetSha256": "ad60f1e84749fab6c8cbb0429c7562c62364183025ff0e501eb3439f7d42d360",
+    "validationReportId": "26687876-c650-4e35-9558-b88d0df9da41"
+  },
+  "assessments": [
+    {
+      "assessmentId": "centurion-r24-model-quality-assessment",
+      "rubricId": "model-quality",
+      "version": "1.0.0",
+      "retentionBaselineSha256": "806cf8f36d3b1dd921d4e3c29cead864160f8f81a04064baf4cb5f304a358672",
+      "result": {
+        "schemaVersion": "2.0.0",
+        "weightedTotal": 62.5,
+        "recommendation": "no-go",
+        "effectiveDecision": "no-go",
+        "checks": {
+          "threshold": false,
+          "categoryFloors": true,
+          "coreFloors": false,
+          "hardGates": true,
+          "structuredEvidence": true,
+          "adversarialReview": true
+        },
+        "failures": [
+          {
+            "kind": "threshold",
+            "id": "weighted-total",
+            "message": "62.5 is below the 75-point threshold."
+          },
+          {
+            "kind": "core-floor",
+            "id": "identity-recognition",
+            "message": "Identity and recognition scored 2, below the core floor of 3."
+          }
+        ],
+        "status": {
+          "technicalValidation": "pass",
+          "visualRecommendation": "no-go",
+          "humanApproval": "absent"
+        },
+        "overrideApplied": false,
+        "authorityNotice": "A recommendation or requester override is not production, source, or game-readiness approval."
+      }
+    }
+  ],
+  "monotonicity": {
+    "evaluated": false,
+    "passed": true,
+    "strictlyImproved": false,
+    "failures": []
+  },
+  "status": {
+    "technicalValidation": "pass",
+    "visualRecommendation": "no-go",
+    "projectConsistency": "not-evaluated",
+    "humanApproval": "absent"
+  },
+  "authorityNotice": "This read-only result grants no human, workflow-gate, source, production, promotion, integration, or game-readiness approval.",
+  "requestSha256": "80af1b2b4028c46d1813ed9220766baaeb6568b4f139f215bf487ed8cf27c797",
+  "transport": "formseed-game-assets MCP evaluate_revision_bound_model_assessment via live loopback assessment endpoint 127.0.0.1:9877"
+}

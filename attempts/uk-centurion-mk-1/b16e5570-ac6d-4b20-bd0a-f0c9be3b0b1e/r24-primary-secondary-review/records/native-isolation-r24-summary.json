@@ -1,0 +1,85 @@
+{
+  "recordType": "formseed-native-isolation-summary",
+  "revision": 24,
+  "jobId": "b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e",
+  "branchId": "main",
+  "checkpoint": {
+    "checkpointId": "2d72aed5-ea82-4054-aaed-8050e83945a3",
+    "checkpointHash": "53ea7c63c3e46a001c188fa642885a4ed59abc443c8257b394c3d0ed7bfa5574"
+  },
+  "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/native-isolation-diagnostics/native-rigid-isolation-v1/8d2d223be08d19c3fba944a1b413d2b6d2ce28e112a52753004d7f9ec0346e79/receipt.json",
+  "receiptSha256": "86bbe1cc55842bc54f36a02101a1202a8acc1515c9d47d97c4869ffb645df694",
+  "requestHash": "8d2d223be08d19c3fba944a1b413d2b6d2ce28e112a52753004d7f9ec0346e79",
+  "stateSha256": "21df24dcf6a4bfa583173292ab0c99a2cc28c744f85344575103ec56c80f26d2",
+  "statePreserved": true,
+  "diagnosticOnly": true,
+  "approved": false,
+  "native": {
+    "complete": true,
+    "unsupportedFeatures": [],
+    "blenderVersion": "5.2.0 LTS",
+    "profile": "native-rigid-isolation-v1",
+    "collectionsSha256": "32b96811562d43a5bd4a19c7a8a07fba27675358efd14d6be914a2cb1b9235e3",
+    "objectCount": 151,
+    "components": {
+      "P06": {
+        "type": "MESH",
+        "objectSha256": "823f5a005738bad347d9c102a7adb6e27b01271c7b6caaf5ed9bddfcb6894226",
+        "contentSha256": "6bd3ebeaa01c5bc43ecd1cec5e2187917d5cec105cf429a1b383517ac56c227c",
+        "meshSha256": "128c0adf0102007ff05b61ba0a18e0dd53f911c7d48e25017c95c90453b4ad70",
+        "parent": null
+      },
+      "P09": {
+        "type": "MESH",
+        "objectSha256": "29bb26ac24b60f62ff6c240e174a73af90f68b0de92c9abd790972c68fd16f4f",
+        "contentSha256": "5951bffd5ada7d116381b5c7786577e4d2cfc054efaf60c84a31a598f425839f",
+        "meshSha256": "ad53896275d0a03ea69c23fbbaefa3d0dcf8e4be7a05ac54416c377b6ceffd7e",
+        "parent": null
+      }
+    }
+  },
+  "probes": {
+    "P06": {
+      "selection": true,
+      "hidden": true,
+      "hideRender": true
+    },
+    "P09": {
+      "selection": true,
+      "hidden": true,
+      "hideRender": true
+    }
+  },
+  "priorRevisionComparison": {
+    "r23": {
+      "P06": {
+        "contentSha256": "4a3d4a3e6b7105038493f5bdc699c287295c1805756d4b8346bd939deccfaf08",
+        "equalToR24": false
+      },
+      "P09": {
+        "contentSha256": "5951bffd5ada7d116381b5c7786577e4d2cfc054efaf60c84a31a598f425839f",
+        "equalToR24": true
+      },
+      "identicalObjects": 150,
+      "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/native-isolation-diagnostics/native-rigid-isolation-v1/743cef85676ef2f5b236167155f9ec65b07dc028040a10a73e26d63219620488/receipt.json"
+    },
+    "r22": {
+      "P06": {
+        "contentSha256": "904a74c41dc7896e6eeb9de9225c964f75d5b6254387ffcbb4458e1a0fa1eba2",
+        "equalToR24": false
+      },
+      "P09": {
+        "contentSha256": "3942cda9249980873f88e5cdc71fa7c60aa00dd56cb72c65626e02ec814316c7",
+        "equalToR24": false
+      },
+      "identicalObjects": 147,
+      "receiptPath": "/Users/georgele/Developer/Projects/tools/dev/formseed/.formseed3d/staging/b16e5570-ac6d-4b20-bd0a-f0c9be3b0b1e/native-isolation-diagnostics/native-rigid-isolation-v1/809c0e7ec5f2e08c92290f198fc3cefd494e5dfd55fb61d11a286059d387c063/receipt.json"
+    }
+  },
+  "limitations": [
+    "Native Blender API state proof, not GUI click or rendered-pixel equivalence",
+    "Unsupported features invalidate complete native-content proof",
+    "No inverse-edit or continuous-motion claim",
+    "Attribute storage_type is an internal compression cache excluded from logical native content; RNA reads expand SINGLE to ARRAY. The worker is invalidated after this diagnostic; checkpoint bytes are never saved."
+  ]
+}
