@@ -1,0 +1,39 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "raf-jaguar-gr1a-granby",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed2d"
+  },
+  "job": {
+    "jobId": "e52854f7-111b-4e47-a079-b0617bd0544e",
+    "revision": 0
+  },
+  "gate": "source-validation",
+  "evidence": {
+    "files": [
+      {
+        "path": "records/abandoned-raster-attempt.json",
+        "sha256": "b0928d05b1d667571fc0edfd50490700ff9f5c239509e66aabf74ab255989065",
+        "bytes": 612
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "The first pixel operation failed because the image exceeded the producer pixel-buffer limit. No candidate render or human review followed.",
+    "decidedAt": "2026-11-12T19:13:06Z"
+  },
+  "notes": [
+    "The timestamp records the archival disposition. The attempt was already abandoned before r23 review. No scratch or third-party imagery is included."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
