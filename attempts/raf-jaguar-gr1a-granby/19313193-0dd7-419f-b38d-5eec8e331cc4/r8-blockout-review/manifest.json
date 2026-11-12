@@ -1,0 +1,115 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "raf-jaguar-gr1a-granby",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "19313193-0dd7-419f-b38d-5eec8e331cc4",
+    "revision": 8,
+    "checkpointSha256": "deb50f60c4f5e7c47201df625bb999da19a78a84789f93950aa7cafeb643956c"
+  },
+  "gate": "blockout-review",
+  "evidence": {
+    "renderHash": "96bab8b946f599fb6a675a1f42362e650caca271997e38bba67e41f4d0522d0f",
+    "dimensionReportHash": "bf893cb164d3d0e40f09d974b2b6e67fe78c9978bc4265b340b63ebbf16dac0f",
+    "labeledSheet": {
+      "path": "review/presented-blockout.png",
+      "sha256": "bc52d7befbf6df380e84d91c252a9cca74f1cab0e3b981bd373d1c032cce34f4",
+      "bytes": 3404724
+    },
+    "files": [
+      {
+        "path": "review/canonical/top.png",
+        "sha256": "cca6a889f03d54fcdfae98de6828b0beb8126ce2140810b66c146293910c98cd",
+        "bytes": 473989
+      },
+      {
+        "path": "review/canonical/port-side.png",
+        "sha256": "9ba56d1805385b619f890ff14d1970f771a32a47db6eaf48f706564b07ea00bc",
+        "bytes": 457191
+      },
+      {
+        "path": "review/canonical/front.png",
+        "sha256": "511e0b9cbbc23080aafa5bed502db97d35dc5d06f3443d4246759592b20920a6",
+        "bytes": 446731
+      },
+      {
+        "path": "review/canonical/front-left-34.png",
+        "sha256": "adfa630e60976ae347d0b497fc9a24477d0dbf0b6fb087b376051ab4550ea178",
+        "bytes": 469916
+      },
+      {
+        "path": "review/canonical/rear-right-34.png",
+        "sha256": "4f53404d745503ff219d18ce41f6f871d03b809ce510ff82b3dd6b1d43a4c6b7",
+        "bytes": 467900
+      },
+      {
+        "path": "review/canonical/rear.png",
+        "sha256": "b17fdb9bfeee07aa7377706e7cc85b5dddfac6eead52725abe4f7dc57b9a3435",
+        "bytes": 450627
+      },
+      {
+        "path": "review/canonical/contact-sheet.png",
+        "sha256": "3eba7b9aac884a08ef54d384faf202abb753de6541531f2a4175cb78716dda97",
+        "bytes": 2881730
+      },
+      {
+        "path": "records/dimension-report-r8.json",
+        "sha256": "1ae88e8a74703f789ebbf93af10db1d9a1e0dad00b3214d74db5bc0808fff759",
+        "bytes": 74876
+      },
+      {
+        "path": "source/approved-blockout.blend",
+        "sha256": "deb50f60c4f5e7c47201df625bb999da19a78a84789f93950aa7cafeb643956c",
+        "bytes": 147168
+      },
+      {
+        "path": "records/checkpoint-diff-r6-r8.json",
+        "sha256": "b4724add63b6c1081643982f69d6d15ca7136aabac519d7f256f2cd6ab9175b5",
+        "bytes": 13875
+      },
+      {
+        "path": "review/presented-blockout.png",
+        "sha256": "bc52d7befbf6df380e84d91c252a9cca74f1cab0e3b981bd373d1c032cce34f4",
+        "bytes": 3404724
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Sepecat_Jaguar_GR1A,_UK_-_Air_Force_AN1712863.jpg",
+        "sha256": "42c42beb8a10668764c13d18263c39674e041887e3319a9efd03b70fdce941fe",
+        "author": "Mike Freer / Touchdown-aviation",
+        "license": "GFDL-1.2-only",
+        "role": "period configuration: one-piece canopy, tandem main wheels, chisel laser nose, fin RWR, overwing rails"
+      },
+      {
+        "uri": "https://scottbouch.com/rtfm/manufacturer/ee-bac/brochures/the-jaguars-are-coming.pdf",
+        "sha256": "6edbd96adb60cc21370adcc007268a31e7d13443c0d509bdc363b6564760a5db",
+        "author": "British Aircraft Corporation",
+        "license": "unknown; reference only",
+        "role": "manufacturer planform photos and cutaway"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George",
+    "decidedAt": "2026-11-12T01:35:00Z"
+  },
+  "notes": [
+    "Exact user words: ok blockout looks good, let's move onto to polish work",
+    "Low-detail blockout approval only at r8. No artwork, source, game-readiness, promotion or integration approval. Nose probe question still open.",
+    "r6->r8 checkpoint diff: 7 objects modified (wings, windscreen, windscreen frame, canopy, overwing rails), 35 unchanged.",
+    "Airfix/Hornby Granby painting guide (XZ118, sha256 9e86e869...) and an unattributed GR.Mk1 sheet were also used as reference only (no public URI, reuse not cleared); no third-party bytes archived."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "raf-jaguar-gr1a-granby",
+  "project": "danger-close-hawgs",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "19313193-0dd7-419f-b38d-5eec8e331cc4",
+    "revision": 6,
+    "checkpointSha256": "f39b5553346efa3cd0b91ef9fc16bfc07077f689dffa6918d965f51c3dd7a39c"
+  },
+  "gate": "blockout-review",
+  "evidence": {
+    "renderHash": "8d290ec282f4cd9a18dbe17a70956f396216f714a350897780df7286fddf3013",
+    "dimensionReportHash": "a49150a5b2219c76a064483554d7503fe70802640d30bd649a0129b66c817ff0",
+    "labeledSheet": {
+      "path": "review/presented-blockout.png",
+      "sha256": "e0570bfd98b390ae2d0ce2b6470acdbc0a11836bd40868a35c0e5e4d04515590",
+      "bytes": 3409007
+    },
+    "files": [
+      {
+        "path": "review/canonical/top.png",
+        "sha256": "efea8e82f096bed130d5e107e175d61d79478640361e672ad94d13dce0b41b14",
+        "bytes": 474005
+      },
+      {
+        "path": "review/canonical/port-side.png",
+        "sha256": "c037da3f4ac297739172d4c7175e2aa296fc7413f127a80842c90f0c4a4c0096",
+        "bytes": 456847
+      },
+      {
+        "path": "review/canonical/front.png",
+        "sha256": "fd2fcf5c2ef44585e63630246be2872bee9b052c6ee8e417b2b3b6d38cbee31e",
+        "bytes": 446640
+      },
+      {
+        "path": "review/canonical/front-left-34.png",
+        "sha256": "d7709efc5ceb8d51f0c09b679c0244aec2fbc29b73c669998c48a873f5c69740",
+        "bytes": 470363
+      },
+      {
+        "path": "review/canonical/rear-right-34.png",
+        "sha256": "4f1bcc62df71faef976c61fe88141a6d1062509b250952cae63bc7f18afd28a9",
+        "bytes": 467895
+      },
+      {
+        "path": "review/canonical/rear.png",
+        "sha256": "53ddd33848894d512810bdead3a73c1e63f3fc0b9ee09a40b0ef51915560bc84",
+        "bytes": 450671
+      },
+      {
+        "path": "review/canonical/contact-sheet.png",
+        "sha256": "baaca403725b7fdfd4c2fc6a1998e5ce72f3a26ec3dd4bd83cebbbee2426d8b7",
+        "bytes": 2883140
+      },
+      {
+        "path": "records/dimension-report-r6.json",
+        "sha256": "dbeb04ffcc8647eec10acf8b5793e7c44b7873367e011ec25cf7c9a01d293b5f",
+        "bytes": 74858
+      },
+      {
+        "path": "review/presented-blockout.png",
+        "sha256": "e0570bfd98b390ae2d0ce2b6470acdbc0a11836bd40868a35c0e5e4d04515590",
+        "bytes": 3409007
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Sepecat_Jaguar_GR1A,_UK_-_Air_Force_AN1712863.jpg",
+        "sha256": "42c42beb8a10668764c13d18263c39674e041887e3319a9efd03b70fdce941fe",
+        "author": "Mike Freer / Touchdown-aviation",
+        "license": "GFDL-1.2-only",
+        "role": "period configuration: one-piece canopy, tandem main wheels, chisel laser nose, fin RWR, overwing rails"
+      },
+      {
+        "uri": "https://scottbouch.com/rtfm/manufacturer/ee-bac/brochures/the-jaguars-are-coming.pdf",
+        "sha256": "6edbd96adb60cc21370adcc007268a31e7d13443c0d509bdc363b6564760a5db",
+        "author": "British Aircraft Corporation",
+        "license": "unknown; reference only",
+        "role": "manufacturer planform photos and cutaway"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George",
+    "decidedAt": "2026-11-12T00:55:00Z",
+    "quote": "ok proceed with your recommendations"
+  },
+  "notes": [
+    "Send-back of r6 after agent critique: add wing dogtooth, split short windscreen from long canopy, shorten overwing rails onto short pylons. Nose probe left open; thin gear accepted at blockout fidelity.",
+    "Recorded as rejected (sent back for correction); not an artwork rejection of the whole design. No .blend archived (not approved).",
+    "Airfix/Hornby Granby painting guide (XZ118, sha256 9e86e869...) and an unattributed GR.Mk1 sheet were also used as reference only (no public URI, reuse not cleared); no third-party bytes archived."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

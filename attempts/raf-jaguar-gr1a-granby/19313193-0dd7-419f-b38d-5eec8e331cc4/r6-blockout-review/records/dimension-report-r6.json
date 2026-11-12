@@ -1,0 +1,2956 @@
+{
+  "capabilityVersion": "dimension-validation@1.2.0",
+  "kind": "asset-dimension-validation",
+  "jobId": "19313193-0dd7-419f-b38d-5eec8e331cc4",
+  "branchId": "main",
+  "revision": 6,
+  "checkpointId": "efe2a71b-3845-4edf-a57c-b1b0978c4254",
+  "checkpointHash": "f39b5553346efa3cd0b91ef9fc16bfc07077f689dffa6918d965f51c3dd7a39c",
+  "specificationHash": "7a1e793acebe3d98ee18caa4ae543749dab61af98e2a0a171c77896c28fd375a",
+  "assetSpecificationHash": "ee77f08c32d22d49a54b64c41f38ec8bf2ce7ff11f93dbd336d4ec6270356629",
+  "configuration": "ground-static",
+  "pose": "ground-static",
+  "validationScope": {
+    "policy": "configuration-and-pose",
+    "canonical": true,
+    "declaredCriterionIds": [
+      "datum:fin-top:Y",
+      "datum:main-port-ground:Y",
+      "datum:main-stbd-ground:Y",
+      "datum:nose-wheel-ground:Y",
+      "datum:origin:X",
+      "datum:origin:Y",
+      "datum:origin:Z",
+      "datum:probe-tip:Z",
+      "datum:tail-cone-tip:Z",
+      "datum:wingtip-port:X",
+      "datum:wingtip-stbd:X",
+      "grounding:main-port-ground",
+      "grounding:main-stbd-ground",
+      "grounding:nose-wheel-ground",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "applicableCriterionIds": [
+      "datum:fin-top:Y",
+      "datum:main-port-ground:Y",
+      "datum:main-stbd-ground:Y",
+      "datum:nose-wheel-ground:Y",
+      "datum:origin:X",
+      "datum:origin:Y",
+      "datum:origin:Z",
+      "datum:probe-tip:Z",
+      "datum:tail-cone-tip:Z",
+      "datum:wingtip-port:X",
+      "datum:wingtip-stbd:X",
+      "grounding:main-port-ground",
+      "grounding:main-stbd-ground",
+      "grounding:nose-wheel-ground",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "excludedCriterionIds": []
+  },
+  "resourceClosure": {
+    "policy": "self-contained",
+    "externalDependencies": []
+  },
+  "request": {
+    "jobId": "19313193-0dd7-419f-b38d-5eec8e331cc4",
+    "branchId": "main",
+    "expectedRevision": 6,
+    "checkpoint": {
+      "checkpointId": "efe2a71b-3845-4edf-a57c-b1b0978c4254",
+      "checkpointHash": "f39b5553346efa3cd0b91ef9fc16bfc07077f689dffa6918d965f51c3dd7a39c"
+    },
+    "configuration": "ground-static",
+    "pose": "ground-static"
+  },
+  "requestHash": "07d05bc25e9bc9ad5be64a7261b1850b57ea3d4bd7a4a175759ef8bde62d645c",
+  "criterionSetHash": "56f1cba0d6311b4bdd593c00fa34791b9e492172280d3b417dfbf380bc64b28d",
+  "evidenceHash": "02b676756106869cd98ed09b48f698b08ab117fb49ba8adde5baa81b19b25042",
+  "evidenceManifestHash": "4830a1f2d79a0471d46884b54e25a4135a334f4481a515b625529415976c3401",
+  "criteria": [
+    {
+      "criterionId": "overall-length",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 16.83,
+        "unit": "m",
+        "source": "length-overall"
+      },
+      "observed": 16.829999923706055,
+      "unit": "m",
+      "absoluteDeviation": 7.629394360719743e-8,
+      "relativeDeviation": 4.53321114718939e-9,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-width",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 8.69,
+        "unit": "m",
+        "source": "span"
+      },
+      "observed": 8.6899995803833,
+      "unit": "m",
+      "absoluteDeviation": 4.196166987213701e-7,
+      "relativeDeviation": 4.828730710257424e-8,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-height",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 4.89,
+        "unit": "m",
+        "source": "height-overall"
+      },
+      "observed": 4.889999866485596,
+      "unit": "m",
+      "absoluteDeviation": 1.3351440397713077e-7,
+      "relativeDeviation": 2.7303559095527766e-8,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": []
+    },
+    {
+      "criterionId": "datum:origin:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:origin:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:origin:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:probe-tip:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -8.415,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": -8.414999961853027,
+      "unit": "m",
+      "absoluteDeviation": 3.814697180359872e-8,
+      "relativeDeviation": 4.53321114718939e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "probe-tip"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.probe",
+          "axis": "Z",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:tail-cone-tip:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 8.415,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 8.414999961853027,
+      "unit": "m",
+      "absoluteDeviation": 3.814697180359872e-8,
+      "relativeDeviation": 4.53321114718939e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "tail-cone-tip"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.fuselage",
+          "axis": "Z",
+          "side": "maximum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:wingtip-port:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -4.345,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": -4.34499979019165,
+      "unit": "m",
+      "absoluteDeviation": 2.0980834936068504e-7,
+      "relativeDeviation": 4.828730710257424e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "wingtip-port"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.wing.port",
+          "axis": "X",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:wingtip-stbd:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 4.345,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 4.34499979019165,
+      "unit": "m",
+      "absoluteDeviation": 2.0980834936068504e-7,
+      "relativeDeviation": 4.828730710257424e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "wingtip-stbd"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.wing.stbd",
+          "axis": "X",
+          "side": "maximum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:fin-top:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 4.89,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 4.889999866485596,
+      "unit": "m",
+      "absoluteDeviation": 1.3351440397713077e-7,
+      "relativeDeviation": 2.7303559095527766e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "fin-top"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.fin.rwr",
+          "axis": "Y",
+          "side": "maximum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:nose-wheel-ground:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "nose-wheel-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.gear.nose.wheel",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:main-port-ground:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 5.960464477539063e-8,
+      "unit": "m",
+      "absoluteDeviation": 5.960464477539063e-8,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "main-port-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.port.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:main-stbd-ground:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 5.960464477539063e-8,
+      "unit": "m",
+      "absoluteDeviation": 5.960464477539063e-8,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "main-stbd-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.stbd.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:X",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Y",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:Z",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "origin"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:X",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Static hinge/axle pivots declared in component plan; articulation sweeps not validated."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Y",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Static hinge/axle pivots declared in component plan; articulation sweeps not validated."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Z",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Static hinge/axle pivots declared in component plan; articulation sweeps not validated."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:nose-wheel-ground",
+      "kind": "grounding",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "nose-wheel-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.gear.nose.wheel",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:main-port-ground",
+      "kind": "grounding",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": 5.960464477539063e-8,
+      "unit": "m",
+      "absoluteDeviation": 5.960464477539063e-8,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "main-port-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.port.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:main-stbd-ground",
+      "kind": "grounding",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": 5.960464477539063e-8,
+      "unit": "m",
+      "absoluteDeviation": 5.960464477539063e-8,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.02,
+        "unit": "m",
+        "sourceTarget": "main-stbd-ground"
+      },
+      "configuration": "ground-static",
+      "pose": "ground-static",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.stbd.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    }
+  ],
+  "measurements": {
+    "overallBounds": {
+      "minimum": {
+        "x": -4.34499979019165,
+        "y": 0,
+        "z": -8.414999961853027
+      },
+      "maximum": {
+        "x": 4.34499979019165,
+        "y": 4.889999866485596,
+        "z": 8.414999961853027
+      },
+      "center": {
+        "x": 0,
+        "y": 2.444999933242798,
+        "z": 0
+      }
+    },
+    "dimensions": {
+      "width": 8.6899995803833,
+      "height": 4.889999866485596,
+      "length": 16.829999923706055,
+      "unit": "m"
+    },
+    "components": [
+      {
+        "object": "jaguar.root",
+        "available": false,
+        "bounds": null,
+        "transform": null,
+        "pivot": null,
+        "appliedScale": null,
+        "fingerprint": null
+      },
+      {
+        "object": "jaguar.fuselage",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.0499999523162842,
+            "y": 1.25,
+            "z": -6.829999923706055
+          },
+          "maximum": {
+            "x": 1.0499999523162842,
+            "y": 2.9800000190734863,
+            "z": 8.414999961853027
+          },
+          "center": {
+            "x": 0,
+            "y": 2.115000009536743,
+            "z": 0.7925000190734863
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "8abdb74aafdc90ac74f7f9a0b43e0463bf87958055814b3a6319faf7ef7d8f8d"
+      },
+      {
+        "object": "jaguar.intake.port",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.034999966621399,
+            "y": 1.4800000190734863,
+            "z": -2.0999999046325684
+          },
+          "maximum": {
+            "x": -0.5199999809265137,
+            "y": 2.799999952316284,
+            "z": -0.5
+          },
+          "center": {
+            "x": -0.7774999737739563,
+            "y": 2.1399998664855957,
+            "z": -1.2999999523162842
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "da0057cd4b8cdcc11d398b5fbd931ce47f2214b48d27c8763cae07541f9af01b"
+      },
+      {
+        "object": "jaguar.intake.port.duct-face",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1,
+            "y": 1.659999966621399,
+            "z": -1.6100000143051147
+          },
+          "maximum": {
+            "x": -0.6000000238418579,
+            "y": 2.740000009536743,
+            "z": -1.5800000429153442
+          },
+          "center": {
+            "x": -0.800000011920929,
+            "y": 2.200000047683716,
+            "z": -1.5950000286102295
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "55aeafb3ddcfdbde8380bed2348c8d8219afba603214d6ad929b3e5cec2d58cc"
+      },
+      {
+        "object": "jaguar.intake.stbd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.5199999809265137,
+            "y": 1.4800000190734863,
+            "z": -2.0999999046325684
+          },
+          "maximum": {
+            "x": 1.034999966621399,
+            "y": 2.799999952316284,
+            "z": -0.5
+          },
+          "center": {
+            "x": 0.7774999737739563,
+            "y": 2.1399998664855957,
+            "z": -1.2999999523162842
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "cb889a79ad1ab62e20964b21ba6a8601b035d1a06a9977edfede26d3efd0dd3b"
+      },
+      {
+        "object": "jaguar.intake.stbd.duct-face",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.6000000238418579,
+            "y": 1.659999966621399,
+            "z": -1.6100000143051147
+          },
+          "maximum": {
+            "x": 1,
+            "y": 2.740000009536743,
+            "z": -1.5800000429153442
+          },
+          "center": {
+            "x": 0.800000011920929,
+            "y": 2.200000047683716,
+            "z": -1.5950000286102295
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "203b47e966d1614dcc610a158c7722b8a4d1c8744e6a98a61dfc1ab02fe93f44"
+      },
+      {
+        "object": "jaguar.windscreen",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.4399999976158142,
+            "y": 2.180000066757202,
+            "z": -4.849999904632568
+          },
+          "maximum": {
+            "x": 0.4399999976158142,
+            "y": 2.940000057220459,
+            "z": -3.380000114440918
+          },
+          "center": {
+            "x": 0,
+            "y": 2.559999942779541,
+            "z": -4.114999771118164
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "117b4558c46e7c99e3200585ec28b9be1a20e36ee09167182cdac46fa892c40b"
+      },
+      {
+        "object": "jaguar.windscreen.frame",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.45500001311302185,
+            "y": 2.4200000762939453,
+            "z": -3.4000000953674316
+          },
+          "maximum": {
+            "x": 0.45500001311302185,
+            "y": 2.9649999141693115,
+            "z": -3.3299999237060547
+          },
+          "center": {
+            "x": 0,
+            "y": 2.692500114440918,
+            "z": -3.365000009536743
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "4844b796683a0bda71346fbd1f11fc0b23b56de19cab120ae7c5c9b618638782"
+      },
+      {
+        "object": "jaguar.canopy",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.4449999928474426,
+            "y": 2.440000057220459,
+            "z": -3.3299999237060547
+          },
+          "maximum": {
+            "x": 0.4449999928474426,
+            "y": 3.0299999713897705,
+            "z": -2.259999990463257
+          },
+          "center": {
+            "x": 0,
+            "y": 2.7350001335144043,
+            "z": -2.7950000762939453
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 2.799999952316284,
+            "z": -2.259999990463257
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 2.799999952316284,
+          "z": -2.259999990463257
+        },
+        "appliedScale": true,
+        "fingerprint": "fe88efbf4ae45ea4bff81c46374f433928add62bd73385fbca8643b5e7ec8800"
+      },
+      {
+        "object": "jaguar.probe",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.04500000178813934,
+            "y": 1.687000036239624,
+            "z": -8.414999961853027
+          },
+          "maximum": {
+            "x": 0.04500000178813934,
+            "y": 1.7730000019073486,
+            "z": -6.71999979019165
+          },
+          "center": {
+            "x": 0,
+            "y": 1.7300000190734863,
+            "z": -7.567500114440918
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "a47f506c9212a643a919293be3286a70af1c221504d7834c753ed23ab9f4b1e2"
+      },
+      {
+        "object": "jaguar.nose.laser-window",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.2070000022649765,
+            "y": 1.600000023841858,
+            "z": -6.800000190734863
+          },
+          "maximum": {
+            "x": 0.2070000022649765,
+            "y": 1.8799999952316284,
+            "z": -6.400000095367432
+          },
+          "center": {
+            "x": 0,
+            "y": 1.7400000095367432,
+            "z": -6.600000381469727
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "89a225bbabf9e5c82dad4117b986230fe06533b821cf9937ff3a2f75c634da14"
+      },
+      {
+        "object": "jaguar.wing.port",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -4.34499979019165,
+            "y": 2.5139999389648438,
+            "z": -0.3009999990463257
+          },
+          "maximum": {
+            "x": -0.6000000238418579,
+            "y": 2.805999994277954,
+            "z": 4.320000171661377
+          },
+          "center": {
+            "x": -2.4724998474121094,
+            "y": 2.6599998474121094,
+            "z": 2.009500026702881
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "c5d6bb5ecc298616e299479f3f5d45e73e5df75682114d3b4344d68f5b3e708e"
+      },
+      {
+        "object": "jaguar.flap.port",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -3.9499998092651367,
+            "y": 2.5360000133514404,
+            "z": 2.7819998264312744
+          },
+          "maximum": {
+            "x": -1.1200000047683716,
+            "y": 2.7269999980926514,
+            "z": 4.234999656677246
+          },
+          "center": {
+            "x": -2.5349998474121094,
+            "y": 2.631500005722046,
+            "z": 3.5084996223449707
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.5299999713897705,
+            "y": 2.61899995803833,
+            "z": 3.3369998931884766
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.5299999713897705,
+          "y": 2.61899995803833,
+          "z": 3.3369998931884766
+        },
+        "appliedScale": true,
+        "fingerprint": "e1c32f25b4ff4664841f34ff1c28b755fc13142b286fd90ec52da8703da3a2f7"
+      },
+      {
+        "object": "jaguar.wing.stbd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.6000000238418579,
+            "y": 2.5139999389648438,
+            "z": -0.3009999990463257
+          },
+          "maximum": {
+            "x": 4.34499979019165,
+            "y": 2.805999994277954,
+            "z": 4.320000171661377
+          },
+          "center": {
+            "x": 2.4724998474121094,
+            "y": 2.6599998474121094,
+            "z": 2.009500026702881
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "f0ffb05bd0255461cb01159c5494d3eccbee53992ae256830afe3868eb6961cb"
+      },
+      {
+        "object": "jaguar.flap.stbd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.1200000047683716,
+            "y": 2.5360000133514404,
+            "z": 2.7819998264312744
+          },
+          "maximum": {
+            "x": 3.9499998092651367,
+            "y": 2.7269999980926514,
+            "z": 4.234999656677246
+          },
+          "center": {
+            "x": 2.5349998474121094,
+            "y": 2.631500005722046,
+            "z": 3.5084996223449707
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 2.5299999713897705,
+            "y": 2.61899995803833,
+            "z": 3.3369998931884766
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 2.5299999713897705,
+          "y": 2.61899995803833,
+          "z": 3.3369998931884766
+        },
+        "appliedScale": true,
+        "fingerprint": "a3c46fd1f61c15be8f48ceb34a77e6fc16daf70fca645b01e8f7b23ffa235b1a"
+      },
+      {
+        "object": "jaguar.tailplane.port",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.370000123977661,
+            "y": 1.9929999113082886,
+            "z": 4.392999649047852
+          },
+          "maximum": {
+            "x": -0.550000011920929,
+            "y": 2.4029998779296875,
+            "z": 8.299999237060547
+          },
+          "center": {
+            "x": -1.4600000381469727,
+            "y": 2.197999954223633,
+            "z": 6.346499443054199
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.550000011920929,
+            "y": 2.319999933242798,
+            "z": 6.199999809265137
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.550000011920929,
+          "y": 2.319999933242798,
+          "z": 6.199999809265137
+        },
+        "appliedScale": true,
+        "fingerprint": "0de6e483ec9f33dfb1309ec48f8f37157422f398cd5010bfa72f90b20754c5ca"
+      },
+      {
+        "object": "jaguar.tailplane.stbd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.550000011920929,
+            "y": 1.9929999113082886,
+            "z": 4.392999649047852
+          },
+          "maximum": {
+            "x": 2.370000123977661,
+            "y": 2.4029998779296875,
+            "z": 8.299999237060547
+          },
+          "center": {
+            "x": 1.4600000381469727,
+            "y": 2.197999954223633,
+            "z": 6.346499443054199
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.550000011920929,
+            "y": 2.319999933242798,
+            "z": 6.199999809265137
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.550000011920929,
+          "y": 2.319999933242798,
+          "z": 6.199999809265137
+        },
+        "appliedScale": true,
+        "fingerprint": "c37525f8bdd5106659f538e2b9c477166e7ecdeda91e48611a127394af17cc29"
+      },
+      {
+        "object": "jaguar.fin",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.05900000035762787,
+            "y": 2.799999952316284,
+            "z": 5.050000190734863
+          },
+          "maximum": {
+            "x": 0.05900000035762787,
+            "y": 4.739999771118164,
+            "z": 7.699999809265137
+          },
+          "center": {
+            "x": 0,
+            "y": 3.7699999809265137,
+            "z": 6.375
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "22d397221df4a19b952c76cdb2be23c5805f9866642f3a18625431561f3c1d11"
+      },
+      {
+        "object": "jaguar.rudder",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.02800000086426735,
+            "y": 2.9499998092651367,
+            "z": 7.440000057220459
+          },
+          "maximum": {
+            "x": 0.02800000086426735,
+            "y": 4.699999809265137,
+            "z": 8.119999885559082
+          },
+          "center": {
+            "x": 0,
+            "y": 3.8249998092651367,
+            "z": 7.779999732971191
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 3.819999933242798,
+            "z": 7.565000057220459
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 3.819999933242798,
+          "z": 7.565000057220459
+        },
+        "appliedScale": true,
+        "fingerprint": "c72b2708f558207b0e6ee2e76fe540808faf986d0098794627f7913b0fd2dfee"
+      },
+      {
+        "object": "jaguar.fin.rwr",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.09000000357627869,
+            "y": 4.710000038146973,
+            "z": 7.420000076293945
+          },
+          "maximum": {
+            "x": 0.09000000357627869,
+            "y": 4.889999866485596,
+            "z": 8.199999809265137
+          },
+          "center": {
+            "x": 0,
+            "y": 4.800000190734863,
+            "z": 7.809999942779541
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "ecb6893308d095c5ff67e0e00b5533ee26eb30cbdcde63085762370782fbaecd"
+      },
+      {
+        "object": "jaguar.ventral-fin.port",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.3199999928474426,
+            "y": 0.9900000095367432,
+            "z": 3.950000047683716
+          },
+          "maximum": {
+            "x": -0.2800000011920929,
+            "y": 1.399999976158142,
+            "z": 5.349999904632568
+          },
+          "center": {
+            "x": -0.30000001192092896,
+            "y": 1.1949999332427979,
+            "z": 4.650000095367432
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "e65d0cbe60ceea40ffe53daf4578ae8528de55be1d2f142dcaaf394d8edda35b"
+      },
+      {
+        "object": "jaguar.ventral-fin.stbd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.2800000011920929,
+            "y": 0.9900000095367432,
+            "z": 3.950000047683716
+          },
+          "maximum": {
+            "x": 0.3199999928474426,
+            "y": 1.399999976158142,
+            "z": 5.349999904632568
+          },
+          "center": {
+            "x": 0.30000001192092896,
+            "y": 1.1949999332427979,
+            "z": 4.650000095367432
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "15e79ec3244bcdbbc6d88bd8f04952b59a61e3fa269665b1cdf0f8b68d677235"
+      },
+      {
+        "object": "jaguar.nozzle.port",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.5699999928474426,
+            "y": 1.809999942779541,
+            "z": 6.300000190734863
+          },
+          "maximum": {
+            "x": -0.029999999329447746,
+            "y": 2.3499999046325684,
+            "z": 7.71999979019165
+          },
+          "center": {
+            "x": -0.29999998211860657,
+            "y": 2.0799999237060547,
+            "z": 7.010000228881836
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "23eebe845fe73b057688f781d3b50199f88b56deef6f9b035978d208e15aba22"
+      },
+      {
+        "object": "jaguar.nozzle.port.interior",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.5099999904632568,
+            "y": 1.8700000047683716,
+            "z": 7.28000020980835
+          },
+          "maximum": {
+            "x": -0.09000000357627869,
+            "y": 2.2899999618530273,
+            "z": 7.309999942779541
+          },
+          "center": {
+            "x": -0.30000001192092896,
+            "y": 2.0799999237060547,
+            "z": 7.295000076293945
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "7e7947dcace70562d4ed5866aafde0578bbed4c806e4a95aaaa4df2d10952320"
+      },
+      {
+        "object": "jaguar.nozzle.stbd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.029999999329447746,
+            "y": 1.809999942779541,
+            "z": 6.300000190734863
+          },
+          "maximum": {
+            "x": 0.5699999928474426,
+            "y": 2.3499999046325684,
+            "z": 7.71999979019165
+          },
+          "center": {
+            "x": 0.29999998211860657,
+            "y": 2.0799999237060547,
+            "z": 7.010000228881836
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "2838564576d1d39e20eae52ac7400355d66077a28460240ed2303ec7c59162c2"
+      },
+      {
+        "object": "jaguar.nozzle.stbd.interior",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.09000000357627869,
+            "y": 1.8700000047683716,
+            "z": 7.28000020980835
+          },
+          "maximum": {
+            "x": 0.5099999904632568,
+            "y": 2.2899999618530273,
+            "z": 7.309999942779541
+          },
+          "center": {
+            "x": 0.30000001192092896,
+            "y": 2.0799999237060547,
+            "z": 7.295000076293945
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "5f7812a2a397b2762d52b9694e6390855842511ff47cda1ba897ba8b3bc274e6"
+      },
+      {
+        "object": "jaguar.gear.nose.leg",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.052000001072883606,
+            "y": 0.24600005149841309,
+            "z": -3.744999885559082
+          },
+          "maximum": {
+            "x": 0.052000001072883606,
+            "y": 1.4739999771118164,
+            "z": -3.544999837875366
+          },
+          "center": {
+            "x": 0,
+            "y": 0.8600000143051147,
+            "z": -3.6449999809265137
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 1.4700000286102295,
+            "z": -3.5999999046325684
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 1.4700000286102295,
+          "z": -3.5999999046325684
+        },
+        "appliedScale": true,
+        "fingerprint": "e5f43cea5660bb7a42553cbc4d9bdfadc713060b14cf0e2828dbd6ab5cf410f9"
+      },
+      {
+        "object": "jaguar.gear.nose.wheel",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.08500000089406967,
+            "y": 0,
+            "z": -3.940000057220459
+          },
+          "maximum": {
+            "x": 0.08500000089406967,
+            "y": 0.5,
+            "z": -3.440000057220459
+          },
+          "center": {
+            "x": 0,
+            "y": 0.25,
+            "z": -3.690000057220459
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0.25,
+            "z": -3.690000057220459
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0.25,
+          "z": -3.690000057220459
+        },
+        "appliedScale": true,
+        "fingerprint": "16ec098d2c6def5dce3a58af2990025fa26719e2f35af65eb1576bcb0b92fb18"
+      },
+      {
+        "object": "jaguar.gear.main.port.leg",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.0910000801086426,
+            "y": 0.28800010681152344,
+            "z": 1.8760000467300415
+          },
+          "maximum": {
+            "x": -0.8490000367164612,
+            "y": 1.3320000171661377,
+            "z": 2.1540000438690186
+          },
+          "center": {
+            "x": -0.9700000286102295,
+            "y": 0.8100000619888306,
+            "z": 2.015000104904175
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -0.9200000166893005,
+            "y": 1.3200000524520874,
+            "z": 1.9500000476837158
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -0.9200000166893005,
+          "y": 1.3200000524520874,
+          "z": 1.9500000476837158
+        },
+        "appliedScale": true,
+        "fingerprint": "118bb58057762c837d6cb7624b206fe983cbbd68bbf4b8e79cf0666007f365eb"
+      },
+      {
+        "object": "jaguar.gear.main.port.bogie",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.0699999332427979,
+            "y": 0.24000006914138794,
+            "z": 1.6999999284744263
+          },
+          "maximum": {
+            "x": -0.9799999594688416,
+            "y": 0.3600000739097595,
+            "z": 2.4600000381469727
+          },
+          "center": {
+            "x": -1.024999976158142,
+            "y": 0.30000007152557373,
+            "z": 2.0799999237060547
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.0199999809265137,
+            "y": 0.30000007152557373,
+            "z": 2.0799999237060547
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.0199999809265137,
+          "y": 0.30000007152557373,
+          "z": 2.0799999237060547
+        },
+        "appliedScale": true,
+        "fingerprint": "be5c9cb85a52eae76db02e2b5457d65edd905a3ee88179aa40441fd4f013b234"
+      },
+      {
+        "object": "jaguar.gear.main.port.wheel.fwd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.2799999713897705,
+            "y": 5.960464477539063e-8,
+            "z": 1.4700000286102295
+          },
+          "maximum": {
+            "x": -1.0799999237060547,
+            "y": 0.6000000834465027,
+            "z": 2.069999933242798
+          },
+          "center": {
+            "x": -1.1799999475479126,
+            "y": 0.30000007152557373,
+            "z": 1.7699999809265137
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.1799999475479126,
+            "y": 0.30000007152557373,
+            "z": 1.7699999809265137
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.1799999475479126,
+          "y": 0.30000007152557373,
+          "z": 1.7699999809265137
+        },
+        "appliedScale": true,
+        "fingerprint": "68c0f074bcb211cef71de2d81f3ee22b138840d2b9db3a22bdd7842a7af60d8b"
+      },
+      {
+        "object": "jaguar.gear.main.port.wheel.aft",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.2799999713897705,
+            "y": 5.960464477539063e-8,
+            "z": 2.0900001525878906
+          },
+          "maximum": {
+            "x": -1.0799999237060547,
+            "y": 0.6000000834465027,
+            "z": 2.690000057220459
+          },
+          "center": {
+            "x": -1.1799999475479126,
+            "y": 0.30000007152557373,
+            "z": 2.390000104904175
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.1799999475479126,
+            "y": 0.30000007152557373,
+            "z": 2.390000104904175
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.1799999475479126,
+          "y": 0.30000007152557373,
+          "z": 2.390000104904175
+        },
+        "appliedScale": true,
+        "fingerprint": "007b2b1ba1a6314a2ec5d0fededb190ceee980f09f346f71413e0fafeaf6ad54"
+      },
+      {
+        "object": "jaguar.gear.main.stbd.leg",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.8490000367164612,
+            "y": 0.28800010681152344,
+            "z": 1.8760000467300415
+          },
+          "maximum": {
+            "x": 1.0910000801086426,
+            "y": 1.3320000171661377,
+            "z": 2.1540000438690186
+          },
+          "center": {
+            "x": 0.9700000286102295,
+            "y": 0.8100000619888306,
+            "z": 2.015000104904175
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.9200000166893005,
+            "y": 1.3200000524520874,
+            "z": 1.9500000476837158
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.9200000166893005,
+          "y": 1.3200000524520874,
+          "z": 1.9500000476837158
+        },
+        "appliedScale": true,
+        "fingerprint": "bc1aeae9bf2e3b75dd4e73b2110e80d8c57c5398487466e0e95ba212df4dcbd8"
+      },
+      {
+        "object": "jaguar.gear.main.stbd.bogie",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.9799999594688416,
+            "y": 0.24000006914138794,
+            "z": 1.6999999284744263
+          },
+          "maximum": {
+            "x": 1.0699999332427979,
+            "y": 0.3600000739097595,
+            "z": 2.4600000381469727
+          },
+          "center": {
+            "x": 1.024999976158142,
+            "y": 0.30000007152557373,
+            "z": 2.0799999237060547
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.0199999809265137,
+            "y": 0.30000007152557373,
+            "z": 2.0799999237060547
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.0199999809265137,
+          "y": 0.30000007152557373,
+          "z": 2.0799999237060547
+        },
+        "appliedScale": true,
+        "fingerprint": "308f28ec89a0b005caef9fda5dda5af0852986e5152d95c1a2c3a5fb184aa05b"
+      },
+      {
+        "object": "jaguar.gear.main.stbd.wheel.fwd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.0799999237060547,
+            "y": 5.960464477539063e-8,
+            "z": 1.4700000286102295
+          },
+          "maximum": {
+            "x": 1.2799999713897705,
+            "y": 0.6000000834465027,
+            "z": 2.069999933242798
+          },
+          "center": {
+            "x": 1.1799999475479126,
+            "y": 0.30000007152557373,
+            "z": 1.7699999809265137
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.1799999475479126,
+            "y": 0.30000007152557373,
+            "z": 1.7699999809265137
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.1799999475479126,
+          "y": 0.30000007152557373,
+          "z": 1.7699999809265137
+        },
+        "appliedScale": true,
+        "fingerprint": "28ba274eac95a4dc7fbe0eeabf7a4a5a16ca89ebd7b66f7ea557ee131b0c1970"
+      },
+      {
+        "object": "jaguar.gear.main.stbd.wheel.aft",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.0799999237060547,
+            "y": 5.960464477539063e-8,
+            "z": 2.0900001525878906
+          },
+          "maximum": {
+            "x": 1.2799999713897705,
+            "y": 0.6000000834465027,
+            "z": 2.690000057220459
+          },
+          "center": {
+            "x": 1.1799999475479126,
+            "y": 0.30000007152557373,
+            "z": 2.390000104904175
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.1799999475479126,
+            "y": 0.30000007152557373,
+            "z": 2.390000104904175
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.1799999475479126,
+          "y": 0.30000007152557373,
+          "z": 2.390000104904175
+        },
+        "appliedScale": true,
+        "fingerprint": "698abf686ae4f9b4b344c01942023be433324a6076ed0b6f9765f479380c69f9"
+      },
+      {
+        "object": "jaguar.pylon.centreline",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.07000000029802322,
+            "y": 1.059999942779541,
+            "z": 0.10000002384185791
+          },
+          "maximum": {
+            "x": 0.07000000029802322,
+            "y": 1.2999999523162842,
+            "z": 2.0500001907348633
+          },
+          "center": {
+            "x": 0,
+            "y": 1.1799999475479126,
+            "z": 1.0750000476837158
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 1.059999942779541,
+            "z": 1.0700000524520874
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 1.059999942779541,
+          "z": 1.0700000524520874
+        },
+        "appliedScale": true,
+        "fingerprint": "68cbcef6b4bf501bdb6c29a7d2b49b6743f7b112a625473b6e5cf2a8053233f0"
+      },
+      {
+        "object": "jaguar.pylon.inner.port",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.809999942779541,
+            "y": 2.3499999046325684,
+            "z": 1.100000023841858
+          },
+          "maximum": {
+            "x": -1.690000057220459,
+            "y": 2.6499998569488525,
+            "z": 2.8499999046325684
+          },
+          "center": {
+            "x": -1.75,
+            "y": 2.5,
+            "z": 1.9749999046325684
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.75,
+            "y": 2.3499999046325684,
+            "z": 1.975000023841858
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.75,
+          "y": 2.3499999046325684,
+          "z": 1.975000023841858
+        },
+        "appliedScale": true,
+        "fingerprint": "c3a0d84da88f6e4edb31fd079876c7d9a1fdcedcd01452b53975f340a76ff19f"
+      },
+      {
+        "object": "jaguar.pylon.outer.port",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.9099998474121094,
+            "y": 2.302000045776367,
+            "z": 2.25
+          },
+          "maximum": {
+            "x": -2.7899999618530273,
+            "y": 2.6019999980926514,
+            "z": 3.5999999046325684
+          },
+          "center": {
+            "x": -2.8499999046325684,
+            "y": 2.452000141143799,
+            "z": 2.924999952316284
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.8499999046325684,
+            "y": 2.302000045776367,
+            "z": 2.924999952316284
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.8499999046325684,
+          "y": 2.302000045776367,
+          "z": 2.924999952316284
+        },
+        "appliedScale": true,
+        "fingerprint": "d7b2046eedd3a3c8cb048f0914857b83dded39168bf0c369451d5b72f5c6e219"
+      },
+      {
+        "object": "jaguar.rail.overwing.port",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.195000171661377,
+            "y": 2.6549999713897705,
+            "z": 0.25
+          },
+          "maximum": {
+            "x": -2.1050000190734863,
+            "y": 2.984999895095825,
+            "z": 3.5
+          },
+          "center": {
+            "x": -2.1500000953674316,
+            "y": 2.819999933242798,
+            "z": 1.875
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -2.1500000953674316,
+            "y": 2.984999895095825,
+            "z": 1.875
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -2.1500000953674316,
+          "y": 2.984999895095825,
+          "z": 1.875
+        },
+        "appliedScale": true,
+        "fingerprint": "1e229bcf59214abbeb211973253db8941e51b48ba45e5ec750dac6cc4fd86fde"
+      },
+      {
+        "object": "jaguar.pylon.inner.stbd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.690000057220459,
+            "y": 2.3499999046325684,
+            "z": 1.100000023841858
+          },
+          "maximum": {
+            "x": 1.809999942779541,
+            "y": 2.6499998569488525,
+            "z": 2.8499999046325684
+          },
+          "center": {
+            "x": 1.75,
+            "y": 2.5,
+            "z": 1.9749999046325684
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.75,
+            "y": 2.3499999046325684,
+            "z": 1.975000023841858
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.75,
+          "y": 2.3499999046325684,
+          "z": 1.975000023841858
+        },
+        "appliedScale": true,
+        "fingerprint": "8abccc7df15b14c8c1f3dd2fc0c051517f0c2e99d038eebcc8d46d4224b13816"
+      },
+      {
+        "object": "jaguar.pylon.outer.stbd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.7899999618530273,
+            "y": 2.302000045776367,
+            "z": 2.25
+          },
+          "maximum": {
+            "x": 2.9099998474121094,
+            "y": 2.6019999980926514,
+            "z": 3.5999999046325684
+          },
+          "center": {
+            "x": 2.8499999046325684,
+            "y": 2.452000141143799,
+            "z": 2.924999952316284
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 2.8499999046325684,
+            "y": 2.302000045776367,
+            "z": 2.924999952316284
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 2.8499999046325684,
+          "y": 2.302000045776367,
+          "z": 2.924999952316284
+        },
+        "appliedScale": true,
+        "fingerprint": "2c6dd61921cdf5ae2368782dfe0e81fbf0252b565b74398c37f5c3f4a73e809f"
+      },
+      {
+        "object": "jaguar.rail.overwing.stbd",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 2.1050000190734863,
+            "y": 2.6549999713897705,
+            "z": 0.25
+          },
+          "maximum": {
+            "x": 2.195000171661377,
+            "y": 2.984999895095825,
+            "z": 3.5
+          },
+          "center": {
+            "x": 2.1500000953674316,
+            "y": 2.819999933242798,
+            "z": 1.875
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 2.1500000953674316,
+            "y": 2.984999895095825,
+            "z": 1.875
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 2.1500000953674316,
+          "y": 2.984999895095825,
+          "z": 1.875
+        },
+        "appliedScale": true,
+        "fingerprint": "9b3f6a46db11802318ef14dd7bc5719f031d71ae5c56ea6a089373eeaf1ec768"
+      }
+    ],
+    "datums": [
+      {
+        "id": "origin",
+        "selector": {
+          "type": "object-origin",
+          "object": "jaguar.root"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "probe-tip",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.probe",
+          "axis": "Z",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 1.7300000190734863,
+          "z": -8.414999961853027
+        }
+      },
+      {
+        "id": "tail-cone-tip",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.fuselage",
+          "axis": "Z",
+          "side": "maximum"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 2.115000009536743,
+          "z": 8.414999961853027
+        }
+      },
+      {
+        "id": "wingtip-port",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.wing.port",
+          "axis": "X",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": -4.34499979019165,
+          "y": 2.6599998474121094,
+          "z": 2.009500026702881
+        }
+      },
+      {
+        "id": "wingtip-stbd",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.wing.stbd",
+          "axis": "X",
+          "side": "maximum"
+        },
+        "status": "available",
+        "position": {
+          "x": 4.34499979019165,
+          "y": 2.6599998474121094,
+          "z": 2.009500026702881
+        }
+      },
+      {
+        "id": "fin-top",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.fin.rwr",
+          "axis": "Y",
+          "side": "maximum"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 4.889999866485596,
+          "z": 7.809999942779541
+        }
+      },
+      {
+        "id": "nose-wheel-ground",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.gear.nose.wheel",
+          "axis": "Y",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -3.690000057220459
+        }
+      },
+      {
+        "id": "main-port-ground",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.port.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": -1.1799999475479126,
+          "y": 5.960464477539063e-8,
+          "z": 1.7699999809265137
+        }
+      },
+      {
+        "id": "main-stbd-ground",
+        "selector": {
+          "type": "object-bound",
+          "object": "jaguar.gear.main.stbd.wheel.fwd",
+          "axis": "Y",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": 1.1799999475479126,
+          "y": 5.960464477539063e-8,
+          "z": 1.7699999809265137
+        }
+      }
+    ],
+    "ratios": [],
+    "clearances": [],
+    "articulationSamples": [],
+    "includedObjects": [
+      "jaguar.canopy",
+      "jaguar.fin",
+      "jaguar.fin.rwr",
+      "jaguar.flap.port",
+      "jaguar.flap.stbd",
+      "jaguar.fuselage",
+      "jaguar.gear.main.port.bogie",
+      "jaguar.gear.main.port.leg",
+      "jaguar.gear.main.port.wheel.aft",
+      "jaguar.gear.main.port.wheel.fwd",
+      "jaguar.gear.main.stbd.bogie",
+      "jaguar.gear.main.stbd.leg",
+      "jaguar.gear.main.stbd.wheel.aft",
+      "jaguar.gear.main.stbd.wheel.fwd",
+      "jaguar.gear.nose.leg",
+      "jaguar.gear.nose.wheel",
+      "jaguar.intake.port",
+      "jaguar.intake.port.duct-face",
+      "jaguar.intake.stbd",
+      "jaguar.intake.stbd.duct-face",
+      "jaguar.nose.laser-window",
+      "jaguar.nozzle.port",
+      "jaguar.nozzle.port.interior",
+      "jaguar.nozzle.stbd",
+      "jaguar.nozzle.stbd.interior",
+      "jaguar.probe",
+      "jaguar.pylon.centreline",
+      "jaguar.pylon.inner.port",
+      "jaguar.pylon.inner.stbd",
+      "jaguar.pylon.outer.port",
+      "jaguar.pylon.outer.stbd",
+      "jaguar.rail.overwing.port",
+      "jaguar.rail.overwing.stbd",
+      "jaguar.rudder",
+      "jaguar.tailplane.port",
+      "jaguar.tailplane.stbd",
+      "jaguar.ventral-fin.port",
+      "jaguar.ventral-fin.stbd",
+      "jaguar.windscreen",
+      "jaguar.windscreen.frame",
+      "jaguar.wing.port",
+      "jaguar.wing.stbd"
+    ],
+    "excludedObjects": [
+      "jaguar.root"
+    ],
+    "visibleGeometryObjects": [
+      "jaguar.canopy",
+      "jaguar.fin",
+      "jaguar.fin.rwr",
+      "jaguar.flap.port",
+      "jaguar.flap.stbd",
+      "jaguar.fuselage",
+      "jaguar.gear.main.port.bogie",
+      "jaguar.gear.main.port.leg",
+      "jaguar.gear.main.port.wheel.aft",
+      "jaguar.gear.main.port.wheel.fwd",
+      "jaguar.gear.main.stbd.bogie",
+      "jaguar.gear.main.stbd.leg",
+      "jaguar.gear.main.stbd.wheel.aft",
+      "jaguar.gear.main.stbd.wheel.fwd",
+      "jaguar.gear.nose.leg",
+      "jaguar.gear.nose.wheel",
+      "jaguar.intake.port",
+      "jaguar.intake.port.duct-face",
+      "jaguar.intake.stbd",
+      "jaguar.intake.stbd.duct-face",
+      "jaguar.nose.laser-window",
+      "jaguar.nozzle.port",
+      "jaguar.nozzle.port.interior",
+      "jaguar.nozzle.stbd",
+      "jaguar.nozzle.stbd.interior",
+      "jaguar.probe",
+      "jaguar.pylon.centreline",
+      "jaguar.pylon.inner.port",
+      "jaguar.pylon.inner.stbd",
+      "jaguar.pylon.outer.port",
+      "jaguar.pylon.outer.stbd",
+      "jaguar.rail.overwing.port",
+      "jaguar.rail.overwing.stbd",
+      "jaguar.rudder",
+      "jaguar.tailplane.port",
+      "jaguar.tailplane.stbd",
+      "jaguar.ventral-fin.port",
+      "jaguar.ventral-fin.stbd",
+      "jaguar.windscreen",
+      "jaguar.windscreen.frame",
+      "jaguar.wing.port",
+      "jaguar.wing.stbd"
+    ],
+    "configuration": "ground-static",
+    "pose": "ground-static"
+  },
+  "aggregate": {
+    "passed": true,
+    "complete": true,
+    "reproducible": true,
+    "internallyConsistent": true,
+    "expectedBlockingCriterionCount": 23,
+    "reportedBlockingCriterionCount": 23,
+    "passedBlockingCriterionCount": 23,
+    "blockingFailureCriterionIds": []
+  },
+  "createdAt": "2026-11-12T00:41:33.605Z",
+  "resultHash": "a49150a5b2219c76a064483554d7503fe70802640d30bd649a0129b66c817ff0",
+  "evidencePath": "/Users/georgele/FormSeed3D/.formseed3d/staging/19313193-0dd7-419f-b38d-5eec8e331cc4/main/inspection/revision-6/asset-dimension-validation-a49150a5b2219c76a064483554d7503fe70802640d30bd649a0129b66c817ff0.json"
+}
