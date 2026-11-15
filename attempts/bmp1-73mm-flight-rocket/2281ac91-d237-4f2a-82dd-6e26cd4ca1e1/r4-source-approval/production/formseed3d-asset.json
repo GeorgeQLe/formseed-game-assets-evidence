@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "assetId": "bmp1-73mm-flight-rocket",
+  "revisionId": "bmp1-73mm-flight-rocket-r4",
+  "createdAt": "2026-11-15T06:39:28.116Z",
+  "source": {
+    "blend": "revision-4/source/bmp1-73mm-flight-rocket.blend",
+    "glb": "revision-4/source/bmp1-73mm-flight-rocket.glb"
+  },
+  "dimensions": {
+    "x": 0.18719999492168427,
+    "y": 0.16262996196746826,
+    "z": 0.7874000072479248
+  },
+  "pivot": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "counts": {
+    "triangles": 1510,
+    "materials": 2,
+    "objects": 4,
+    "textures": 0
+  },
+  "provenance": [
+    {
+      "uri": "https://www.bulletpicker.com/pdf/DST-1160Z-029-94.pdf#page=47",
+      "attribution": "US DST-1160Z-029-94 Figure 2-21, printed page 2-22; PDF SHA-256 7b3dc854b33222b831b7f34ac755e60aced690e917cac53adff81fe16fe6ff75",
+      "license": "U.S. government technical drawing, reference only"
+    },
+    {
+      "uri": "https://www.jmu.edu/cisr/research/afghanistan-oig/06-rocket.pdf#page=3",
+      "attribution": "Afghanistan Ordnance Identification Guide, Rocket p.3; corroborates the PG-9 and PG-15V relation",
+      "license": "Reference-only photography; rights retained by copyright holder"
+    }
+  ],
+  "validation": {
+    "reportId": "7f1339e9-3d85-4b0c-be99-4d9890385b9c",
+    "passed": true,
+    "reproducible": true,
+    "blockingIssueCodes": [],
+    "advisoryIssueCodes": []
+  },
+  "renderSets": [
+    {
+      "name": "projectile-exterior-review",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "transparentBackground": false,
+      "lightingIntent": "Neutral key and fill for exterior silhouette and body transitions",
+      "renderSetHash": "5e48d3fd1a6eb458e2a2724db76bad2e437b89812e2d0457947354f8c756cffd",
+      "views": [
+        {
+          "name": "nose",
+          "path": "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/nose.png",
+          "sha256": "f17d05835b8e7c2a3043f7abb2a7593cd7e5400bc138be9090c87ba6411a9cf3",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "left",
+          "path": "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/left.png",
+          "sha256": "98f36f3c9609b59a67b8cc40f6526b4057ea5f6aca403d095af906d25968e864",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "tail",
+          "path": "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/tail.png",
+          "sha256": "b22432b01604a8c2e2dc45b55aa589fc16b7588b197c4ab86bc072cebe3a9825",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "right",
+          "path": "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/right.png",
+          "sha256": "932d5026394616d3a2553670aacf655be0748069ceaf458af422c97de0acc32e",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "oblique",
+          "path": "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/oblique.png",
+          "sha256": "178ee3996ff93eaf5628eabeb085d73251e293731ed425e2155c9eae746cdf31",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/nose.png": "f17d05835b8e7c2a3043f7abb2a7593cd7e5400bc138be9090c87ba6411a9cf3",
+    "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/left.png": "98f36f3c9609b59a67b8cc40f6526b4057ea5f6aca403d095af906d25968e864",
+    "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/tail.png": "b22432b01604a8c2e2dc45b55aa589fc16b7588b197c4ab86bc072cebe3a9825",
+    "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/right.png": "932d5026394616d3a2553670aacf655be0748069ceaf458af422c97de0acc32e",
+    "renders/revision-4/production/run-siiPdi/pass-2/projectile-exterior-review/oblique.png": "178ee3996ff93eaf5628eabeb085d73251e293731ed425e2155c9eae746cdf31",
+    "revision-4/source/bmp1-73mm-flight-rocket.blend": "3fe97e3546421cf8b3cf1c40b72aa7d6cb507923c60956e125c0bef5fdcf8ebf",
+    "revision-4/source/bmp1-73mm-flight-rocket.glb": "3b7efc6bbbe1980a2771dcdaf557cf30134c77c09d7a86d6edf9fee7d4a9701d"
+  }
+}

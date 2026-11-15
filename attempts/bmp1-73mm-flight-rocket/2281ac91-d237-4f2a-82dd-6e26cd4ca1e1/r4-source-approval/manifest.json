@@ -1,0 +1,108 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "bmp1-73mm-flight-rocket",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "2281ac91-d237-4f2a-82dd-6e26cd4ca1e1",
+    "revision": 4,
+    "checkpointSha256": "aa2aa32be38440ed9f06f35fde8dfd50dda4becf34688b5b7f8802536dcf0ad3"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "5e48d3fd1a6eb458e2a2724db76bad2e437b89812e2d0457947354f8c756cffd",
+    "dimensionReportHash": "ba246ed293b898c5065464c350225ef3c46d357f01c032c95890c8961a1f62df",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "f388361d4201559aa57783ce2e3ddf5a3bc90148711eb0e2df2998abfbbbae4c",
+      "bytes": 3063830
+    },
+    "files": [
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "2f4acf847203624f806b73206dffc19350617ed9b926dc4aabcca0fd13834d82",
+        "bytes": 499
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "27e39604e31a153fc294189861807e8f681ce02aa32a6105badda724d0a8fdf7",
+        "bytes": 347
+      },
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "d65c0b56cbb07583631e2181e2936b04cf8b5a4fe3721508a0a0a78e64fec07a",
+        "bytes": 4434
+      },
+      {
+        "path": "source/pg9.blend",
+        "sha256": "3fe97e3546421cf8b3cf1c40b72aa7d6cb507923c60956e125c0bef5fdcf8ebf",
+        "bytes": 110385
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "3b7efc6bbbe1980a2771dcdaf557cf30134c77c09d7a86d6edf9fee7d4a9701d",
+        "bytes": 42932
+      },
+      {
+        "path": "renders/nose.png",
+        "sha256": "f17d05835b8e7c2a3043f7abb2a7593cd7e5400bc138be9090c87ba6411a9cf3",
+        "bytes": 589113
+      },
+      {
+        "path": "renders/left.png",
+        "sha256": "98f36f3c9609b59a67b8cc40f6526b4057ea5f6aca403d095af906d25968e864",
+        "bytes": 610156
+      },
+      {
+        "path": "renders/right.png",
+        "sha256": "932d5026394616d3a2553670aacf655be0748069ceaf458af422c97de0acc32e",
+        "bytes": 610099
+      },
+      {
+        "path": "renders/tail.png",
+        "sha256": "b22432b01604a8c2e2dc45b55aa589fc16b7588b197c4ab86bc072cebe3a9825",
+        "bytes": 588639
+      },
+      {
+        "path": "renders/oblique.png",
+        "sha256": "178ee3996ff93eaf5628eabeb085d73251e293731ed425e2155c9eae746cdf31",
+        "bytes": 617697
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "f388361d4201559aa57783ce2e3ddf5a3bc90148711eb0e2df2998abfbbbae4c",
+        "bytes": 3063830
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "0dcec55428280b0743fe6f5b0a281bd094ef1cffdc162d41ff2cf842b0bca8b4",
+    "dimensionSpecificationSha256": "69fd855dcb4211c6595b82695f85e2cc11731afe1e2bc309b663c937b72cd3a4",
+    "references": [
+      {
+        "uri": "https://www.bulletpicker.com/pdf/DST-1160Z-029-94.pdf#page=47",
+        "sha256": "7b3dc854b33222b831b7f34ac755e60aced690e917cac53adff81fe16fe6ff75",
+        "author": "US Defense Intelligence Agency, DST-1160Z-029-94",
+        "license": "US Government technical reference, identity only",
+        "role": "Figure 2-21, exterior dimensions and profile"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-15T06:39:42.489Z"
+  },
+  "notes": [
+    "Unmarked PG-9-family in-flight exterior for the BMP-1 2A28 shot presentation.",
+    "Approved Blender long axis is Z. The canonical GLB exporter maps the long axis to Y and the game applies the corresponding presentation transform."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
