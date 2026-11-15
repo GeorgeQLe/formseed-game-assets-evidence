@@ -1,0 +1,88 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "dshk-m1938-is2-textured",
+  "project": "omega-war",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "2a361c10-2521-4cb2-a233-4bc453562440",
+    "revision": 3,
+    "checkpointSha256": "e8bfd1e5a600ce294b0bcfcf25d802cf0cc0fea78eafe5dba35eabafdb628b1a"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "dimensionReportHash": "027de37512acc5376e565a80098e30ba755f5a85e7e1a4fd7c44c1042ded412d",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "5181dc05225d278be1ae172613f58cd76ff637e9df36ab0a0da3fb60af060f51",
+      "bytes": 141929
+    },
+    "files": [
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "35b506e46b450384423d4618062a90d6fa55ee0a0d8af7cb71baa0cfecba5870",
+        "bytes": 818
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "b1d9d357ef27684d60953aad334cbab8deb996a08dd058192c82d9959b9d7689",
+        "bytes": 293
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "48f2ef0958f285e19b3c1b08632ca853e4ee1e50bb11ecf8760578c7d7b88db8",
+        "bytes": 295884
+      },
+      {
+        "path": "source/dshk-m1938-is2-textured.blend",
+        "sha256": "dae0fdb8ccc371373b7cd3478d2fc13bf82710e5165123ca5180db54259b9b21",
+        "bytes": 189124
+      },
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "bb835c291c0157e56bce37664a983d56460e5a7a29a5f8a2b750862efe82a8e6",
+        "bytes": 4496
+      },
+      {
+        "path": "review/left-inlet.png",
+        "sha256": "f6def4b1ab44b964444226319b891103944ef57f26871af4ab06088824ad916b",
+        "bytes": 81028
+      },
+      {
+        "path": "review/right-exit.png",
+        "sha256": "af2d1ad998567b66c680888e3ccdc4cfc1e36fb5c2424eb6aa068f17633f607d",
+        "bytes": 83489
+      },
+      {
+        "path": "review/rear-plate.png",
+        "sha256": "ac4cc23ad360e03cfc2f593ef2c3a67143af1316efc1138e65c997f6ca2801da",
+        "bytes": 415612
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "5181dc05225d278be1ae172613f58cd76ff637e9df36ab0a0da3fb60af060f51",
+        "bytes": 141929
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-15T16:04:10.819Z"
+  },
+  "notes": [
+    "Exact main/r3 checkpoint 107e0ddc-e9c3-4728-b909-bd08b46248f4. George Le approved the standalone source.",
+    "The confirmed PNG was shown to George. The paired feed and rear plate views document the same revision.",
+    "Source, dimension and baseline checks passed. Installed mount, belt chute, crew pose and runtime performance have separate qualification."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
