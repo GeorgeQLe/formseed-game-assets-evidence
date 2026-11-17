@@ -1,0 +1,85 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "m240",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d",
+    "buildVersion": "0.2.0+codex.20261115053637"
+  },
+  "job": {
+    "jobId": "cdda9607-95b5-42b7-a780-a5ba029b1983",
+    "revision": 5,
+    "checkpointSha256": "55bb28000db280efcd490b5c5676b00358f9dcb8796ac12544c7ca0cbc3f6caf"
+  },
+  "gate": "primary-secondary-review",
+  "evidence": {
+    "renderHash": "259820adf67042ad61755de9729f590f9e6a59200deb7b123a6a27de2128a9b0",
+    "dimensionReportHash": "ac6280566c3f2cb45f11e5cd5fee0c02033590165afc9a9db58984756808b94d",
+    "labeledSheet": {
+      "path": "mounted-r5-review.png",
+      "sha256": "f46c66721a712f30ecfe45bf2fdde8291d7317b54b9e0b3f410c46740cf11199",
+      "bytes": 259324
+    },
+    "files": [
+      {
+        "path": "views/left.png",
+        "sha256": "cd94e2157b4145e40c4f301e2343ce0da5a40fcc8bc8596095b35d0e203fb97e",
+        "bytes": 108489
+      },
+      {
+        "path": "views/right.png",
+        "sha256": "af420642d3b68353db47ab5ee6634235b1a21fde3832ce121a48e4e68b8c99fd",
+        "bytes": 108537
+      },
+      {
+        "path": "views/overhead.png",
+        "sha256": "88b2a37e9cff405275c136f302b9f3e31692fbbd9e9d7afb397fefe730f22852",
+        "bytes": 123959
+      },
+      {
+        "path": "views/tactical.png",
+        "sha256": "2bc31b2edb3b80dc9e3d98e3fa7b6ee774e36a3946ab6515f55308edfc9b1b0b",
+        "bytes": 124673
+      },
+      {
+        "path": "views/contact-sheet.png",
+        "sha256": "d1a1b56aa80d161a3f8c60b10373195095f122aa2b9e9e547eda108906efb94b",
+        "bytes": 496900
+      },
+      {
+        "path": "source/m240-r5.blend",
+        "sha256": "55bb28000db280efcd490b5c5676b00358f9dcb8796ac12544c7ca0cbc3f6caf",
+        "bytes": 125357
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "2fce19c5d1fbb443655f9c530c872b707b1ac4234cee83e6b6e3613c9b9c306e",
+        "bytes": 90788
+      },
+      {
+        "path": "mounted-r5-review.png",
+        "sha256": "f46c66721a712f30ecfe45bf2fdde8291d7317b54b9e0b3f410c46740cf11199",
+        "bytes": 259324
+      }
+    ]
+  },
+  "inputs": {
+    "dimensionSpecificationSha256": "e7afef0f7fe6a65fc3acdbea0d06b9d0a4c8c3a7df2e145001b94cfbb8270ae8",
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-17T20:05:06.516Z"
+  },
+  "notes": [
+    "George Le: Approve the M240 r5 primary and secondary forms with the current gunmetal finish. Record my approval and proceed to the next gate.",
+    "Scope: r5 forms and finish. Source approval is a separate gate."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
