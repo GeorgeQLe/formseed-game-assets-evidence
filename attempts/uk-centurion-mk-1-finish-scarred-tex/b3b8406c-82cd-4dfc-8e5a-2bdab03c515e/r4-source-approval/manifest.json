@@ -1,0 +1,121 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "uk-centurion-mk-1-finish-scarred-tex",
+  "project": "omega-war-redux",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "b3b8406c-82cd-4dfc-8e5a-2bdab03c515e",
+    "revision": 4,
+    "checkpointSha256": "353898ad531e5d2238aeda2c085d27059958700f4e615f5a836e66e86ba43343"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "3b2bcbb23981b866ea51975b8f169e93041077e1fbeb59f316bebadb5901b4a6",
+    "dimensionReportHash": "a91e9fbd5621734e83b92a98bbb97c9f14704f0607377ae20d65b26bfb2b9823",
+    "labeledSheet": {
+      "path": "centurion-scarred-r4-review.png",
+      "sha256": "a23b813a59c2933c3d59130743ee0bfea5683c7b8008d00fcbd4b010a58c2653",
+      "bytes": 3102799
+    },
+    "files": [
+      {
+        "path": "renders/source-eight-view/az-0.png",
+        "sha256": "880062e02ab30b5ec403305da7982e7e95e8452831c26d218ed27c023330e2ff",
+        "bytes": 270889
+      },
+      {
+        "path": "renders/source-eight-view/az-45.png",
+        "sha256": "fd2e6758c0cda2939518a25dc239824950ac46a9a77188fb1c09d26763af2320",
+        "bytes": 280857
+      },
+      {
+        "path": "renders/source-eight-view/az-90.png",
+        "sha256": "2a3be643468d6ea3894fecf350bcca232f952efa2cf4e529081da5f3a761debb",
+        "bytes": 281053
+      },
+      {
+        "path": "renders/source-eight-view/az-135.png",
+        "sha256": "3ca0329719c97701be1f35c8467623ecd5e621998bda5d76473b3a789cf7d6a6",
+        "bytes": 284314
+      },
+      {
+        "path": "renders/source-eight-view/az-180.png",
+        "sha256": "c508cd443b8bdeea7c4208e0113b8a138d9cb35d1612d5044bc834f093905d99",
+        "bytes": 278542
+      },
+      {
+        "path": "renders/source-eight-view/az-225.png",
+        "sha256": "bebf9a5183dc266e97927d7599158254ff4b913667c6faba7e5b59adbe87b2b8",
+        "bytes": 283797
+      },
+      {
+        "path": "renders/source-eight-view/az-270.png",
+        "sha256": "03bb6d627cfac1511fb1f0bdf457e80792ba7db2866509a1348a58c597abc65c",
+        "bytes": 281826
+      },
+      {
+        "path": "renders/source-eight-view/az-315.png",
+        "sha256": "078e0226bdf6762e1432648421b05e4875b57ab170497f8ab9c8ae9450a9fee6",
+        "bytes": 282309
+      },
+      {
+        "path": "renders/orthographic-form/front.png",
+        "sha256": "ec8d62409f23f7bbc51c3b4b306dcd56bccd234191d1a885f1733b61022ab28e",
+        "bytes": 279300
+      },
+      {
+        "path": "renders/orthographic-form/left.png",
+        "sha256": "4a36343e4b7a09a40aa2c8fecbd5cd8d8a6c6a4486a82172d73cb9f198e7e1da",
+        "bytes": 319667
+      },
+      {
+        "path": "renders/orthographic-form/rear.png",
+        "sha256": "4735460d81689c0729d2d0cf8f857d54e8ceb38a0ac8ac38c26c38505f4286ff",
+        "bytes": 279838
+      },
+      {
+        "path": "renders/orthographic-form/right.png",
+        "sha256": "d49c4fa0342de65a84d1fdab671cca702603ceac5e86095aa04ac75468261f10",
+        "bytes": 320896
+      },
+      {
+        "path": "renders/orthographic-form/top.png",
+        "sha256": "90ae5623e94e105fd6ec957386aa262599aa942645226682a937159f2928880b",
+        "bytes": 458200
+      },
+      {
+        "path": "renders/contact-sheet.png",
+        "sha256": "c6835092fb12da2248f4c54b3c0c5a8b73c561b71e8bbb1e11306058f8847077",
+        "bytes": 4064678
+      },
+      {
+        "path": "centurion-scarred-r4-review.png",
+        "sha256": "a23b813a59c2933c3d59130743ee0bfea5683c7b8008d00fcbd4b010a58c2653",
+        "bytes": 3102799
+      }
+    ]
+  },
+  "inputs": {
+    "briefSha256": "93ee0d673616152b9d55697eb3562830f3b535ca479b22f38241dd15ffbf99f2",
+    "dimensionSpecificationSha256": "f3c331a12c008ce37d551a0cf1f1bbc6f4a50db8069c2066bfa4c33384319a03",
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-12T19:06:29Z"
+  },
+  "notes": [
+    "Approval applies separately to Centurion Mk 1 scarred revision 4, strong-wear finish visual review.",
+    "George Le: “I approve Weathered r4 and Scarred r4 separately. Archive both exact review sheets and my decisions per ADR 0008, then run the evaluator and adversarial review. No integration, release, sibling work, or commit yet.”",
+    "The producer source-completion and promotion gates are outside this archived decision. Private research references are excluded."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
