@@ -1,0 +1,66 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "central-european-tall-grass",
+  "project": "omega-war-redux",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "9c1470df-5d1d-4aef-bbd4-fc86538717c6",
+    "revision": 1,
+    "checkpointSha256": "606c92dc66475e09c423f493d283197b8a5153ba522273cec7237aa5cac5c77c"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "b74c23ecdefba23ac8c472844a65e85eac6e57b2ee9c51ab68edd9ca2594afe4",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "b74c23ecdefba23ac8c472844a65e85eac6e57b2ee9c51ab68edd9ca2594afe4",
+      "bytes": 382910
+    },
+    "files": [
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "6aa989eaae61537b6599698713c97e643a39cddb0c599d840f6c3a7bdb219eeb",
+        "bytes": 544
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "b39ec773c561297070f4470477a971879c042897d563fbb0b8f3d872bea75fe0",
+        "bytes": 350
+      },
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "4cbcd1b8ca30da97ffa729a341d54926435993d39ab4a7c04a9332c62702b3fd",
+        "bytes": 5907
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "779a62f5592e3d298251e0b6bea1395b8378b3698c239af58525e83642bf1f47",
+        "bytes": 9480
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "b74c23ecdefba23ac8c472844a65e85eac6e57b2ee9c51ab68edd9ca2594afe4",
+        "bytes": 382910
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-19T16:19:15.007Z"
+  },
+  "notes": [
+    "Approved source-review GLB and frozen producer manifest. The reusable standing terrain kit pins nine runtime GLBs and both palettes."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "central-european-tall-grass",
+  "project": "omega-war-redux",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "7e2aa74b-2c91-40e6-8130-e88629cd2fc9",
+    "revision": 9,
+    "checkpointSha256": "d82078ba29cca24939addf443f055cd179ea431518d546c1422fe6e69e142ad9"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "acab86a54af760508d205da734ec2ed7887db8a858190d0242f76871aa7d640b",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "acab86a54af760508d205da734ec2ed7887db8a858190d0242f76871aa7d640b",
+      "bytes": 356642
+    },
+    "files": [
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "bf8a46c9499b367de84c82aeb5f0963c160bc2e3124bad50830631d8195a3b9e",
+        "bytes": 544
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "50630d2f7dd083a2ce333283d411d1ab7753ca021c5378c44fd003f745c0646a",
+        "bytes": 350
+      },
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "bfe435defff7a8681b9b6dc9effb66f017dfa509bd9bd4c86854920b3fac90a0",
+        "bytes": 5841
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "b7bd5ac54bb127c7b9e150e9dcfd2c46ef9340398adf22d02b145822e57461d1",
+        "bytes": 9488
+      },
+      {
+        "path": "runtime/standing-tall-grass-terrain-kit-1.0.0.zip",
+        "sha256": "ad9fd932149350f7c88cbcc40863e5192be8d04da26ddd4611a2221c805488e9",
+        "bytes": 32651
+      },
+      {
+        "path": "runtime/kit.json",
+        "sha256": "2a65227cb625c0d6c4f4c083b69f5880a4bebd160e8a55d445fd2bdfe30400bc",
+        "bytes": 805
+      },
+      {
+        "path": "runtime/standing-lods.png",
+        "sha256": "84d3c8d93a5fa9f02c4ed1a33d6ee30869aad1151ba90f7a802f67cbe2e4afb8",
+        "bytes": 607654
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "acab86a54af760508d205da734ec2ed7887db8a858190d0242f76871aa7d640b",
+        "bytes": 356642
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-19T16:26:03.645Z"
+  },
+  "notes": [
+    "Approved source-review GLB and frozen producer manifest. The reusable standing terrain kit pins nine runtime GLBs and both palettes."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
