@@ -1,0 +1,67 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "central-european-low-shrub",
+  "project": "omega-war-redux",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "42276a59-50f5-43e9-913d-560c9c2a6f69",
+    "revision": 1,
+    "checkpointSha256": "239cac03c9a0dc678d207ed4fdb6821e5754d284b11b20f62434411bb32c7fc7"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "b89df4c58cd73a74331657fb61f65a7e4a557474353b0c3097a591f936a5bb48",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "b89df4c58cd73a74331657fb61f65a7e4a557474353b0c3097a591f936a5bb48",
+      "bytes": 478673
+    },
+    "files": [
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "ef28a45b074bb1a65f720529fcc2cc94b3e698b6eb19b53722b1d827f78d40f8",
+        "bytes": 506
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "8c437c4c7a20717fcce9a0ef5cb7fd58361c8d3d74638e84fcb9799617d13093",
+        "bytes": 350
+      },
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "bd4d4f61fb950bccb05d2118174072a4ec09db4d893dfbb8f70e2ab18a4dcfe6",
+        "bytes": 6645
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "7159c5c02120739149d9ad9424786efe747330a1229fa2bcec669784f20b1c4f",
+        "bytes": 23876
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "b89df4c58cd73a74331657fb61f65a7e4a557474353b0c3097a591f936a5bb48",
+        "bytes": 478673
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-19T05:38:12.855Z"
+  },
+  "notes": [
+    "Shared gameplay-scale review of authored shrub meshes.",
+    "Wider game performance qualification and decimated LODs are tracked separately."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
