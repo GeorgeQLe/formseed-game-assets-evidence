@@ -1,0 +1,501 @@
+{
+  "asset": "central-european-tall-grass",
+  "scope": "runtime qualification candidate",
+  "units": "meters",
+  "up": "+Y",
+  "forward": "-Z",
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "reductionFunctionSha256": "a4acf3a28a41b0e7d344d51dbefddd3bf531a8a83b9f7b7f240148b73790f6bf",
+  "profiles": {
+    "base": {
+      "source": {
+        "green": {
+          "jobId": "7e2aa74b-2c91-40e6-8130-e88629cd2fc9",
+          "revision": 9,
+          "checkpointId": "cc1698dc-8497-4648-a09c-7314d755e772",
+          "checkpointHash": "d82078ba29cca24939addf443f055cd179ea431518d546c1422fe6e69e142ad9",
+          "glbSha256": "b7bd5ac54bb127c7b9e150e9dcfd2c46ef9340398adf22d02b145822e57461d1",
+          "recipeSha256": "bb6be56f658394c9a3f83311e97602e66e22017deb5d2e0258b632e3689bd0d5"
+        },
+        "straw": {
+          "jobId": "9c1470df-5d1d-4aef-bbd4-fc86538717c6",
+          "revision": 1,
+          "checkpointId": "7b217796-9d7e-46f3-b2bc-ae12422c54f4",
+          "checkpointHash": "606c92dc66475e09c423f493d283197b8a5153ba522273cec7237aa5cac5c77c",
+          "glbSha256": "779a62f5592e3d298251e0b6bea1395b8378b3698c239af58525e83642bf1f47",
+          "recipeSha256": "0e4da10962114ce8cfee713b2a0974662c3bda9c301f63a5ebffa437dceda382"
+        }
+      },
+      "materials": {
+        "green": [
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-blade-matte"
+            },
+            "name": "meadow-blade-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.08699999749660492,
+                0.14499999582767487,
+                0.052000001072883606,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9300000071525574
+            }
+          },
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-panicle-matte"
+            },
+            "name": "meadow-panicle-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.12600000202655792,
+                0.15399999916553497,
+                0.06199999898672104,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9599999785423279
+            }
+          }
+        ],
+        "straw": [
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-blade-matte"
+            },
+            "name": "meadow-blade-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.2849999964237213,
+                0.20399999618530273,
+                0.08799999952316284,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9300000071525574
+            }
+          },
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-panicle-matte"
+            },
+            "name": "meadow-panicle-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.2240000069141388,
+                0.15199999511241913,
+                0.057999998331069946,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9599999785423279
+            }
+          }
+        ]
+      },
+      "lods": [
+        {
+          "lod": 0,
+          "file": "base-lod0.glb",
+          "sha256": "b7bd5ac54bb127c7b9e150e9dcfd2c46ef9340398adf22d02b145822e57461d1",
+          "bytes": 9488,
+          "slotTriangles": [
+            106,
+            14
+          ],
+          "bounds": [
+            [
+              -0.42500001192092896,
+              0,
+              -0.32499998807907104
+            ],
+            [
+              0.42500001192092896,
+              0.8999999761581421,
+              0.32499998807907104
+            ]
+          ]
+        },
+        {
+          "lod": 1,
+          "file": "base-lod1.glb",
+          "sha256": "43603ac988448632e0840dd12970738853cc6c5d0880c491207e0f4fc235ed55",
+          "bytes": 6032,
+          "slotTriangles": [
+            44,
+            4
+          ],
+          "bounds": [
+            [
+              -0.42500001192092896,
+              0,
+              -0.32499998807907104
+            ],
+            [
+              0.42500001192092896,
+              0.8727840185165405,
+              0.32499998807907104
+            ]
+          ]
+        },
+        {
+          "lod": 2,
+          "file": "base-lod2.glb",
+          "sha256": "100e9123a5ac99880e3c085864b95e3a05c038b34358b2f20a3ee1f38b4dd956",
+          "bytes": 3572,
+          "slotTriangles": [
+            10,
+            6
+          ],
+          "bounds": [
+            [
+              -0.42500001192092896,
+              0,
+              -0.32499998807907104
+            ],
+            [
+              0.42500001192092896,
+              0.8999999761581421,
+              0.32499998807907104
+            ]
+          ]
+        }
+      ]
+    },
+    "upright": {
+      "source": {
+        "green": {
+          "jobId": "47676c7a-8797-4130-8fcf-8bfafe9b528f",
+          "revision": 1,
+          "checkpointId": "0800a012-43ea-4443-bd50-1d9e046feced",
+          "checkpointHash": "9942083d79f887f598fbd38c49656248fd95607d425ade3a0c7fa37876c1c1fc",
+          "glbSha256": "1090757a7ff3fe2e0fa5d241bd8e7bcad6ddd2d3751286869e02d763ec4348bc",
+          "recipeSha256": "fdc2587c97095e3b03c6b3d2b0c902320f49d830ffd75debe6c4b92873996d32"
+        },
+        "straw": {
+          "jobId": "f29576db-420f-43dd-8963-cf8c597a1840",
+          "revision": 1,
+          "checkpointId": "a2ff306e-065a-424f-8cc4-9ce83779950a",
+          "checkpointHash": "8cdd2169636fdc37e18951923a34d927a86c985996f2c46c3e9a807622e5d053",
+          "glbSha256": "fdf5af9ed811c5d80df944f3d7bb2528639849b22b40b73cb1d6a04692a88fc7",
+          "recipeSha256": "47244a7b4195a82b7938893d109680cfe05f2a060a39737a3f6a5b393172505e"
+        }
+      },
+      "materials": {
+        "green": [
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-blade-matte"
+            },
+            "name": "meadow-blade-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.08699999749660492,
+                0.14499999582767487,
+                0.052000001072883606,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9300000071525574
+            }
+          },
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-panicle-matte"
+            },
+            "name": "meadow-panicle-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.12600000202655792,
+                0.15399999916553497,
+                0.06199999898672104,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9599999785423279
+            }
+          }
+        ],
+        "straw": [
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-blade-matte"
+            },
+            "name": "meadow-blade-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.2849999964237213,
+                0.20399999618530273,
+                0.08799999952316284,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9300000071525574
+            }
+          },
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-panicle-matte"
+            },
+            "name": "meadow-panicle-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.2240000069141388,
+                0.15199999511241913,
+                0.057999998331069946,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9599999785423279
+            }
+          }
+        ]
+      },
+      "lods": [
+        {
+          "lod": 0,
+          "file": "upright-lod0.glb",
+          "sha256": "1090757a7ff3fe2e0fa5d241bd8e7bcad6ddd2d3751286869e02d763ec4348bc",
+          "bytes": 9484,
+          "slotTriangles": [
+            106,
+            14
+          ],
+          "bounds": [
+            [
+              -0.44815701246261597,
+              0,
+              -0.2922770082950592
+            ],
+            [
+              0.29884299635887146,
+              0.9810000061988831,
+              0.2767229974269867
+            ]
+          ]
+        },
+        {
+          "lod": 1,
+          "file": "upright-lod1.glb",
+          "sha256": "f3b85759bd92d683841559be1ba4f04bdcdd1f5d9fea397e50af84c9316891e7",
+          "bytes": 6076,
+          "slotTriangles": [
+            44,
+            4
+          ],
+          "bounds": [
+            [
+              -0.44815701246261597,
+              0,
+              -0.2922770082950592
+            ],
+            [
+              0.29884299635887146,
+              0.9513350129127502,
+              0.2767229974269867
+            ]
+          ]
+        },
+        {
+          "lod": 2,
+          "file": "upright-lod2.glb",
+          "sha256": "4cf1d871ef998c7e38daaa4f5e14d0b4cc474a368f77b1870c893a52a4c96a4c",
+          "bytes": 3572,
+          "slotTriangles": [
+            10,
+            6
+          ],
+          "bounds": [
+            [
+              -0.44815701246261597,
+              0,
+              -0.2922770082950592
+            ],
+            [
+              0.29884299635887146,
+              0.9810000061988831,
+              0.2767229974269867
+            ]
+          ]
+        }
+      ]
+    },
+    "low-fan": {
+      "source": {
+        "green": {
+          "jobId": "2db3f724-9752-4a59-9b69-ef07951d7ce3",
+          "revision": 1,
+          "checkpointId": "869899f0-078e-4746-a07e-5b51c6623f32",
+          "checkpointHash": "777709377b516ae709c7bf40a3cb81cc35ba144c99de82af8a300ff1016fb2b7",
+          "glbSha256": "8f6d9c0390b7f580b9e87e69139a8b9ead00214a8e4355494df60c790ae0cd20",
+          "recipeSha256": "521fe7f6a02a1bc3395f5c224202de8807d16fc9ae360b559ba0b8430f8322ba"
+        },
+        "straw": {
+          "jobId": "6efbd5f1-1985-46d9-9817-44460220799f",
+          "revision": 1,
+          "checkpointId": "8ec288b9-1031-4d97-b58a-1519ecc8ab79",
+          "checkpointHash": "3b13d7efc2a769db48d156682196113dda05d28a29acb9f15a63c2055d5897fa",
+          "glbSha256": "64b12a1cf8c03c6b12320cb40d4e4e79d659d195f54212e9c25a1c0d3327bf7b",
+          "recipeSha256": "b7306c2027e05a6fd9c367f5acd3ecdd4b66012b97bb38c778419f3fba360270"
+        }
+      },
+      "materials": {
+        "green": [
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-blade-matte"
+            },
+            "name": "meadow-blade-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.08699999749660492,
+                0.14499999582767487,
+                0.052000001072883606,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9300000071525574
+            }
+          },
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-panicle-matte"
+            },
+            "name": "meadow-panicle-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.12600000202655792,
+                0.15399999916553497,
+                0.06199999898672104,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9599999785423279
+            }
+          }
+        ],
+        "straw": [
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-blade-matte"
+            },
+            "name": "meadow-blade-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.2849999964237213,
+                0.20399999618530273,
+                0.08799999952316284,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9300000071525574
+            }
+          },
+          {
+            "doubleSided": true,
+            "extras": {
+              "formseedReviewSource": "meadow-panicle-matte"
+            },
+            "name": "meadow-panicle-matte",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.2240000069141388,
+                0.15199999511241913,
+                0.057999998331069946,
+                1
+              ],
+              "metallicFactor": 0,
+              "roughnessFactor": 0.9599999785423279
+            }
+          }
+        ]
+      },
+      "lods": [
+        {
+          "lod": 0,
+          "file": "low-fan-lod0.glb",
+          "sha256": "8f6d9c0390b7f580b9e87e69139a8b9ead00214a8e4355494df60c790ae0cd20",
+          "bytes": 9484,
+          "slotTriangles": [
+            106,
+            14
+          ],
+          "bounds": [
+            [
+              -0.4811989963054657,
+              0,
+              -0.32333800196647644
+            ],
+            [
+              0.48580101132392883,
+              0.7870000004768372,
+              0.4116620123386383
+            ]
+          ]
+        },
+        {
+          "lod": 1,
+          "file": "low-fan-lod1.glb",
+          "sha256": "8afc0272d5dfde53cb03ca4bc1d1a468457c2d6d1a943bdbbd9d05148ac1ccd6",
+          "bytes": 6080,
+          "slotTriangles": [
+            44,
+            4
+          ],
+          "bounds": [
+            [
+              -0.4811989963054657,
+              0,
+              -0.32333800196647644
+            ],
+            [
+              0.48580101132392883,
+              0.7632009983062744,
+              0.4116620123386383
+            ]
+          ]
+        },
+        {
+          "lod": 2,
+          "file": "low-fan-lod2.glb",
+          "sha256": "f05139438ba0a4adc42cdfdb7fc6de8a6572eaab813770a3c0e97932d0233929",
+          "bytes": 3572,
+          "slotTriangles": [
+            10,
+            6
+          ],
+          "bounds": [
+            [
+              -0.4811989963054657,
+              0,
+              -0.32333800196647644
+            ],
+            [
+              0.48580101132392883,
+              0.7870000004768372,
+              0.4116620123386383
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

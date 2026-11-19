@@ -1,0 +1,138 @@
+{
+  "asset": "central-european-tall-grass",
+  "requestId": "omega-war.central-european-tall-grass.v4",
+  "approvedBy": "George Le",
+  "recordedAt": "2026-11-19T15:59:18.280546+00:00",
+  "decision": "approved",
+  "scope": "Standing LOD1 and LOD2 artwork",
+  "artworkVersion": "1.0.0",
+  "decisionText": "I approve the 48- and 16-triangle standing LOD artwork for all three profiles in green and straw. Record my approval and push commit 4f797ea to the public FormSeed evidence repository’s main branch. Keep production integration separate.",
+  "evidenceSha256": {
+    "package.json": "be1cdc335c7071e69918864c28cc9010fc0975f938d4d15c30e42bbd0cdea292",
+    "schoningen-standing-lods.png": "84d3c8d93a5fa9f02c4ed1a33d6ee30869aad1151ba90f7a802f67cbe2e4afb8",
+    "standing-grass-lods.zip": "c7363e43225ccc2e2ab289a8618a4da62900442ce93f42abe2acba1c7a00f688"
+  },
+  "approvedVariants": [
+    {
+      "profile": "base",
+      "palette": "green",
+      "lod": 1,
+      "triangles": 48,
+      "geometryFile": "base-lod1.glb",
+      "geometrySha256": "43603ac988448632e0840dd12970738853cc6c5d0880c491207e0f4fc235ed55",
+      "materialBinding": "package.json#/profiles/base/materials/green",
+      "sourceCheckpointSha256": "d82078ba29cca24939addf443f055cd179ea431518d546c1422fe6e69e142ad9"
+    },
+    {
+      "profile": "base",
+      "palette": "straw",
+      "lod": 1,
+      "triangles": 48,
+      "geometryFile": "base-lod1.glb",
+      "geometrySha256": "43603ac988448632e0840dd12970738853cc6c5d0880c491207e0f4fc235ed55",
+      "materialBinding": "package.json#/profiles/base/materials/straw",
+      "sourceCheckpointSha256": "606c92dc66475e09c423f493d283197b8a5153ba522273cec7237aa5cac5c77c"
+    },
+    {
+      "profile": "base",
+      "palette": "green",
+      "lod": 2,
+      "triangles": 16,
+      "geometryFile": "base-lod2.glb",
+      "geometrySha256": "100e9123a5ac99880e3c085864b95e3a05c038b34358b2f20a3ee1f38b4dd956",
+      "materialBinding": "package.json#/profiles/base/materials/green",
+      "sourceCheckpointSha256": "d82078ba29cca24939addf443f055cd179ea431518d546c1422fe6e69e142ad9"
+    },
+    {
+      "profile": "base",
+      "palette": "straw",
+      "lod": 2,
+      "triangles": 16,
+      "geometryFile": "base-lod2.glb",
+      "geometrySha256": "100e9123a5ac99880e3c085864b95e3a05c038b34358b2f20a3ee1f38b4dd956",
+      "materialBinding": "package.json#/profiles/base/materials/straw",
+      "sourceCheckpointSha256": "606c92dc66475e09c423f493d283197b8a5153ba522273cec7237aa5cac5c77c"
+    },
+    {
+      "profile": "upright",
+      "palette": "green",
+      "lod": 1,
+      "triangles": 48,
+      "geometryFile": "upright-lod1.glb",
+      "geometrySha256": "f3b85759bd92d683841559be1ba4f04bdcdd1f5d9fea397e50af84c9316891e7",
+      "materialBinding": "package.json#/profiles/upright/materials/green",
+      "sourceCheckpointSha256": "9942083d79f887f598fbd38c49656248fd95607d425ade3a0c7fa37876c1c1fc"
+    },
+    {
+      "profile": "upright",
+      "palette": "straw",
+      "lod": 1,
+      "triangles": 48,
+      "geometryFile": "upright-lod1.glb",
+      "geometrySha256": "f3b85759bd92d683841559be1ba4f04bdcdd1f5d9fea397e50af84c9316891e7",
+      "materialBinding": "package.json#/profiles/upright/materials/straw",
+      "sourceCheckpointSha256": "8cdd2169636fdc37e18951923a34d927a86c985996f2c46c3e9a807622e5d053"
+    },
+    {
+      "profile": "upright",
+      "palette": "green",
+      "lod": 2,
+      "triangles": 16,
+      "geometryFile": "upright-lod2.glb",
+      "geometrySha256": "4cf1d871ef998c7e38daaa4f5e14d0b4cc474a368f77b1870c893a52a4c96a4c",
+      "materialBinding": "package.json#/profiles/upright/materials/green",
+      "sourceCheckpointSha256": "9942083d79f887f598fbd38c49656248fd95607d425ade3a0c7fa37876c1c1fc"
+    },
+    {
+      "profile": "upright",
+      "palette": "straw",
+      "lod": 2,
+      "triangles": 16,
+      "geometryFile": "upright-lod2.glb",
+      "geometrySha256": "4cf1d871ef998c7e38daaa4f5e14d0b4cc474a368f77b1870c893a52a4c96a4c",
+      "materialBinding": "package.json#/profiles/upright/materials/straw",
+      "sourceCheckpointSha256": "8cdd2169636fdc37e18951923a34d927a86c985996f2c46c3e9a807622e5d053"
+    },
+    {
+      "profile": "low-fan",
+      "palette": "green",
+      "lod": 1,
+      "triangles": 48,
+      "geometryFile": "low-fan-lod1.glb",
+      "geometrySha256": "8afc0272d5dfde53cb03ca4bc1d1a468457c2d6d1a943bdbbd9d05148ac1ccd6",
+      "materialBinding": "package.json#/profiles/low-fan/materials/green",
+      "sourceCheckpointSha256": "777709377b516ae709c7bf40a3cb81cc35ba144c99de82af8a300ff1016fb2b7"
+    },
+    {
+      "profile": "low-fan",
+      "palette": "straw",
+      "lod": 1,
+      "triangles": 48,
+      "geometryFile": "low-fan-lod1.glb",
+      "geometrySha256": "8afc0272d5dfde53cb03ca4bc1d1a468457c2d6d1a943bdbbd9d05148ac1ccd6",
+      "materialBinding": "package.json#/profiles/low-fan/materials/straw",
+      "sourceCheckpointSha256": "3b13d7efc2a769db48d156682196113dda05d28a29acb9f15a63c2055d5897fa"
+    },
+    {
+      "profile": "low-fan",
+      "palette": "green",
+      "lod": 2,
+      "triangles": 16,
+      "geometryFile": "low-fan-lod2.glb",
+      "geometrySha256": "f05139438ba0a4adc42cdfdb7fc6de8a6572eaab813770a3c0e97932d0233929",
+      "materialBinding": "package.json#/profiles/low-fan/materials/green",
+      "sourceCheckpointSha256": "777709377b516ae709c7bf40a3cb81cc35ba144c99de82af8a300ff1016fb2b7"
+    },
+    {
+      "profile": "low-fan",
+      "palette": "straw",
+      "lod": 2,
+      "triangles": 16,
+      "geometryFile": "low-fan-lod2.glb",
+      "geometrySha256": "f05139438ba0a4adc42cdfdb7fc6de8a6572eaab813770a3c0e97932d0233929",
+      "materialBinding": "package.json#/profiles/low-fan/materials/straw",
+      "sourceCheckpointSha256": "3b13d7efc2a769db48d156682196113dda05d28a29acb9f15a63c2055d5897fa"
+    }
+  ],
+  "productionIntegration": "separate decision pending"
+}

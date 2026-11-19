@@ -1,0 +1,661 @@
+{
+  "benchmark": {
+    "current": {
+      "frames": 1200,
+      "frameMedianMs": 16.7,
+      "frameP95Ms": 16.8,
+      "frameP99Ms": 33.4,
+      "callbackP95Ms": 22.9,
+      "drawCallsP95": 1802.0,
+      "trianglesP95": 1058073.0,
+      "blockFrameP95Ms": [
+        16.8,
+        16.7
+      ]
+    },
+    "base": {
+      "frames": 1200,
+      "frameMedianMs": 16.7,
+      "frameP95Ms": 16.8,
+      "frameP99Ms": 16.8,
+      "callbackP95Ms": 17.6,
+      "drawCallsP95": 1803.0,
+      "trianglesP95": 1058049.0,
+      "blockFrameP95Ms": [
+        16.7,
+        16.8
+      ]
+    },
+    "one": {
+      "frames": 1200,
+      "frameMedianMs": 16.7,
+      "frameP95Ms": 16.8,
+      "frameP99Ms": 16.8,
+      "callbackP95Ms": 18.5,
+      "drawCallsP95": 1807.0,
+      "trianglesP95": 1057833.0,
+      "blockFrameP95Ms": [
+        16.8,
+        16.8
+      ]
+    },
+    "two": {
+      "frames": 1200,
+      "frameMedianMs": 16.7,
+      "frameP95Ms": 16.7,
+      "frameP99Ms": 16.8,
+      "callbackP95Ms": 10.6,
+      "drawCallsP95": 1820.0,
+      "trianglesP95": 1057941.0,
+      "blockFrameP95Ms": [
+        16.8,
+        16.7
+      ]
+    }
+  },
+  "pairedExtraCalls": {
+    "min": -20,
+    "median": 10.0,
+    "p95": 20.0,
+    "max": 28
+  },
+  "controlImage": {
+    "meanChannelError": 0.0,
+    "peak": 0,
+    "fractionOver2": 0.0
+  },
+  "motion": [
+    {
+      "mode": "current",
+      "field": "west",
+      "view": "front",
+      "activePixels": 13143,
+      "deltaPerChannelMean": 5.864,
+      "p95": 18.3333
+    },
+    {
+      "mode": "current",
+      "field": "west",
+      "view": "oblique",
+      "activePixels": 19959,
+      "deltaPerChannelMean": 7.386,
+      "p95": 21.3333
+    },
+    {
+      "mode": "current",
+      "field": "west",
+      "view": "side",
+      "activePixels": 35688,
+      "deltaPerChannelMean": 8.446,
+      "p95": 23.0
+    },
+    {
+      "mode": "current",
+      "field": "estate",
+      "view": "front",
+      "activePixels": 13231,
+      "deltaPerChannelMean": 6.405,
+      "p95": 20.0
+    },
+    {
+      "mode": "current",
+      "field": "estate",
+      "view": "oblique",
+      "activePixels": 19558,
+      "deltaPerChannelMean": 8.078,
+      "p95": 23.3333
+    },
+    {
+      "mode": "current",
+      "field": "estate",
+      "view": "side",
+      "activePixels": 29352,
+      "deltaPerChannelMean": 9.265,
+      "p95": 25.3333
+    },
+    {
+      "mode": "two",
+      "field": "west",
+      "view": "front",
+      "activePixels": 13118,
+      "deltaPerChannelMean": 5.91,
+      "p95": 18.6667
+    },
+    {
+      "mode": "two",
+      "field": "west",
+      "view": "oblique",
+      "activePixels": 19793,
+      "deltaPerChannelMean": 7.318,
+      "p95": 21.3333
+    },
+    {
+      "mode": "two",
+      "field": "west",
+      "view": "side",
+      "activePixels": 35456,
+      "deltaPerChannelMean": 8.295,
+      "p95": 22.6667
+    },
+    {
+      "mode": "two",
+      "field": "estate",
+      "view": "front",
+      "activePixels": 13067,
+      "deltaPerChannelMean": 6.536,
+      "p95": 20.0
+    },
+    {
+      "mode": "two",
+      "field": "estate",
+      "view": "oblique",
+      "activePixels": 19382,
+      "deltaPerChannelMean": 7.961,
+      "p95": 23.0
+    },
+    {
+      "mode": "two",
+      "field": "estate",
+      "view": "side",
+      "activePixels": 29258,
+      "deltaPerChannelMean": 9.052,
+      "p95": 25.0
+    }
+  ],
+  "transitions": [
+    {
+      "mode": "current",
+      "field": "west",
+      "boundary": "near",
+      "substantialPixels": 2898,
+      "fraction": 0.0759,
+      "peak": 61
+    },
+    {
+      "mode": "current",
+      "field": "west",
+      "boundary": "far",
+      "substantialPixels": 1061,
+      "fraction": 0.02779,
+      "peak": 45
+    },
+    {
+      "mode": "current",
+      "field": "estate",
+      "boundary": "near",
+      "substantialPixels": 2596,
+      "fraction": 0.06799,
+      "peak": 70
+    },
+    {
+      "mode": "current",
+      "field": "estate",
+      "boundary": "far",
+      "substantialPixels": 912,
+      "fraction": 0.02388,
+      "peak": 60
+    },
+    {
+      "mode": "two",
+      "field": "west",
+      "boundary": "near",
+      "substantialPixels": 2869,
+      "fraction": 0.07514,
+      "peak": 69
+    },
+    {
+      "mode": "two",
+      "field": "west",
+      "boundary": "far",
+      "substantialPixels": 1017,
+      "fraction": 0.02663,
+      "peak": 57
+    },
+    {
+      "mode": "two",
+      "field": "estate",
+      "boundary": "near",
+      "substantialPixels": 2527,
+      "fraction": 0.06618,
+      "peak": 70
+    },
+    {
+      "mode": "two",
+      "field": "estate",
+      "boundary": "far",
+      "substantialPixels": 933,
+      "fraction": 0.02443,
+      "peak": 67
+    }
+  ],
+  "checks": {
+    "ground": 0,
+    "counts": [
+      1505,
+      1478
+    ],
+    "checks": [
+      {
+        "mode": "current",
+        "label": "west",
+        "pair": "near",
+        "levels": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "changed": 1
+      },
+      {
+        "mode": "current",
+        "label": "west",
+        "pair": "far",
+        "levels": [
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "changed": 1
+      },
+      {
+        "mode": "current",
+        "label": "estate",
+        "pair": "near",
+        "levels": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "changed": 1
+      },
+      {
+        "mode": "current",
+        "label": "estate",
+        "pair": "far",
+        "levels": [
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "changed": 1
+      },
+      {
+        "mode": "two",
+        "label": "west",
+        "pair": "near",
+        "levels": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "changed": 1
+      },
+      {
+        "mode": "two",
+        "label": "west",
+        "pair": "far",
+        "levels": [
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "changed": 1
+      },
+      {
+        "mode": "two",
+        "label": "estate",
+        "pair": "near",
+        "levels": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "changed": 1
+      },
+      {
+        "mode": "two",
+        "label": "estate",
+        "pair": "far",
+        "levels": [
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "changed": 1
+      },
+      {
+        "density": "sparse",
+        "label": "west",
+        "roots": 753,
+        "instances": 753
+      },
+      {
+        "density": "sparse",
+        "label": "estate",
+        "roots": 739,
+        "instances": 739
+      },
+      {
+        "density": "intended",
+        "label": "west",
+        "roots": 1505,
+        "instances": 1505
+      },
+      {
+        "density": "intended",
+        "label": "estate",
+        "roots": 1478,
+        "instances": 1478
+      },
+      {
+        "density": "crowded",
+        "label": "west",
+        "roots": 2258,
+        "instances": 2258
+      },
+      {
+        "density": "crowded",
+        "label": "estate",
+        "roots": 2217,
+        "instances": 2217
+      }
+    ]
+  },
+  "frameP95ChangePct": -0.595,
+  "run": {
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)",
+    "browser": "158.0.8127.42",
+    "simulationDigest": "82c7c26de98cb6d92fc3de3b52fcb02922136b6e17e6c2cbe6f6a437c8badd14",
+    "shots": 678,
+    "survivors": 31,
+    "shadows": true
+  },
+  "rawSampleSha256": "a09a496fe8c444879b30b57daa369c7ad5768491f7075eac09a7410d8f14b995",
+  "densityStress": {
+    "current-sparse": {
+      "roots": 1492,
+      "frames": 1200,
+      "frameP95Ms": 33.3,
+      "blockP95Ms": [
+        33.3,
+        33.3
+      ]
+    },
+    "two-sparse": {
+      "roots": 1492,
+      "frames": 1200,
+      "frameP95Ms": 33.3,
+      "blockP95Ms": [
+        33.4,
+        33.3
+      ]
+    },
+    "current-crowded": {
+      "roots": 4475,
+      "frames": 1200,
+      "frameP95Ms": 33.3,
+      "blockP95Ms": [
+        33.3,
+        33.3
+      ]
+    },
+    "two-crowded": {
+      "roots": 4475,
+      "frames": 1200,
+      "frameP95Ms": 33.3,
+      "blockP95Ms": [
+        33.3,
+        33.3
+      ]
+    }
+  },
+  "densityRawSha256": "9458afe7b22f36d0eef02cffa4267c1045fb72df33857f59f2116146b750f567",
+  "fixedScenePrimitiveControl": {
+    "ground": 0,
+    "counts": [
+      1505,
+      1478
+    ],
+    "checks": [
+      {
+        "mode": "one",
+        "calls": 1113,
+        "triangles": 994056,
+        "standing": 6,
+        "shadowMap": true
+      },
+      {
+        "mode": "two",
+        "calls": 1119,
+        "triangles": 994056,
+        "standing": 12,
+        "shadowMap": true
+      },
+      {
+        "mode": "one",
+        "calls": 1113,
+        "triangles": 994056,
+        "standing": 6,
+        "shadowMap": true
+      }
+    ]
+  },
+  "fixedSceneCropSha256": "cf9958aa006ea744ad5dbf0a74ac2af550fc13d5de620f943c7cfd1e9f0fbb72",
+  "fixture": {
+    "scenario": "conquest-of-schoningen",
+    "baseline": "existing two-field renderer",
+    "seed": 43,
+    "warmupFrames": 75,
+    "displayFramesPerBlock": 600,
+    "simTicksPerBlock": 200,
+    "blocks": 16,
+    "hardware": "Apple M4",
+    "viewport": [
+      1080,
+      720
+    ],
+    "dpr": 1,
+    "harness": "loopback Vite, sandboxed Brave, isolated renderer module replacement"
+  },
+  "originalMeasurementsSha256": "6f7742613d66c4f03492bd7e5398bdc6ed6153fc0ca3b939335386125b95b649"
+}
