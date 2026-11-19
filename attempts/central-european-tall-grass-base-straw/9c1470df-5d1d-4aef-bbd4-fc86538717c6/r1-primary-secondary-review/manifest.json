@@ -1,0 +1,71 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "central-european-tall-grass-base-straw",
+  "project": "omega-war-redux",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "9c1470df-5d1d-4aef-bbd4-fc86538717c6",
+    "revision": 1,
+    "checkpointSha256": "606c92dc66475e09c423f493d283197b8a5153ba522273cec7237aa5cac5c77c"
+  },
+  "gate": "primary-secondary-review",
+  "evidence": {
+    "dimensionReportHash": "e997f3144d87fb37c5d1475e7055d56b0744937498b0bf7cbaf81db64e093c52",
+    "labeledSheet": {
+      "path": "review/standing-derivatives-review.png",
+      "sha256": "b74c23ecdefba23ac8c472844a65e85eac6e57b2ee9c51ab68edd9ca2594afe4",
+      "bytes": 382910
+    },
+    "files": [
+      {
+        "path": "source/base-straw.glb",
+        "sha256": "779a62f5592e3d298251e0b6bea1395b8378b3698c239af58525e83642bf1f47",
+        "bytes": 9480
+      },
+      {
+        "path": "review/producer.png",
+        "sha256": "a07d9b0edc467acbb38d9acadb8c2a4c3ed6d4b55fd7b04643577a4487a9c20a",
+        "bytes": 101055
+      },
+      {
+        "path": "review/standing-derivatives-review.png",
+        "sha256": "b74c23ecdefba23ac8c472844a65e85eac6e57b2ee9c51ab68edd9ca2594afe4",
+        "bytes": 382910
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Dactylis_glomerata_Kropaar_plant.jpg",
+        "sha256": "b68dad8ad8562a80f51e527b3eecbab49b8c2ef455fcc0b456dfbdc928f5b735",
+        "author": "Rasbak",
+        "license": "CC BY-SA 3.0",
+        "role": "whole clump"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:Dactylis_glomerata_seedhead.jpg",
+        "sha256": "6a4ca6749e075b05220b4e4558961615175151c81cf2720f2f1133975074c1f1",
+        "author": "John Haslam",
+        "license": "CC BY 2.0",
+        "role": "panicles"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-19T15:32:26.076491Z"
+  },
+  "notes": [
+    "Standing LOD0 artwork only. Decision: I approve all five pictured r1 derivatives for standing LOD0 artwork. Record my approval and proceed with the 48- and 16-triangle LODs for qualification at Schöningen Sidings."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
