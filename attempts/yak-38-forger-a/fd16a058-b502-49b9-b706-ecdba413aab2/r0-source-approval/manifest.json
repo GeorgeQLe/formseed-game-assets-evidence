@@ -1,0 +1,68 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "yak-38-forger-a",
+  "project": "formseed",
+  "producer": {
+    "kind": "formseed3d",
+    "buildVersion": "0.2.0+codex.20261120003612"
+  },
+  "job": {
+    "jobId": "fd16a058-b502-49b9-b706-ecdba413aab2",
+    "revision": 0,
+    "checkpointSha256": "b67c0b13f201141753b2eab14ca4f249e46d55dfa8491c5dca5028560f64defd"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "dfc6e9d2000edcf6b36f5667bb183a679b759d4d28009c529dd4c4c1f3bab9ce",
+    "dimensionReportHash": "4a32a1b3b2ed6bfd38f9f2f73e8baef7bb35d7cc5d9cad3c86be9fb22e294522",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "560dc37351fd6fc397f22f5fb18fdcbc2de2e2bb5cd685527710318011019d8a",
+      "bytes": 94219
+    },
+    "files": [
+      {
+        "path": "source/review.glb",
+        "sha256": "526dda93a1cff8d6bdcde4dd1749abbcffd6c3adad2f30d5d37ed07a21892011",
+        "bytes": 379076
+      },
+      {
+        "path": "approval/formseed-approval.json",
+        "sha256": "e95b964a6ae754aee857831a051aa7033d9575c0bc419ae5916b5826a7b3099b",
+        "bytes": 512
+      },
+      {
+        "path": "approval/formseed-completion.json",
+        "sha256": "59c5d0891534c036a9247e44662bf376ef9f5ffcf8f49c864b97551210a72f9a",
+        "bytes": 297
+      },
+      {
+        "path": "approval/formseed-promotion.json",
+        "sha256": "c702900dd852cfd9411fea7efe1d6865aebead1d072f99ad638ebe2ad62843c5",
+        "bytes": 495
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "560dc37351fd6fc397f22f5fb18fdcbc2de2e2bb5cd685527710318011019d8a",
+        "bytes": 94219
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-20T06:00:23.402Z"
+  },
+  "notes": [
+    "Clean finish. Exact runtime GLB and FormSeed publication evidence. In-game qualification is separate."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

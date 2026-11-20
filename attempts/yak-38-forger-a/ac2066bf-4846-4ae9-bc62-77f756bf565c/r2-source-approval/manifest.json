@@ -1,0 +1,83 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "yak-38-forger-a",
+  "project": "formseed",
+  "producer": {
+    "kind": "formseed3d",
+    "buildVersion": "0.2.0+codex.20261120003612"
+  },
+  "job": {
+    "jobId": "ac2066bf-4846-4ae9-bc62-77f756bf565c",
+    "revision": 2,
+    "checkpointSha256": "19a77ecb2d727b6573bc70fa3728fabacdc57432343ce15e701d8dba8d367fe9"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "a3e78b893836389d9f323fd6fb7d234f5251446f42aeec16f3966c3a6ad39495",
+    "dimensionReportHash": "ecb45d6f5aca7948ed7ed234542a9c0a2a4d58b7d6aa62b6d6f6320db8e93f79",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "b89310004f3bba1933b99a9c6eb450582264d28d8ed1e2607dcfe5d59813c47c",
+      "bytes": 172963
+    },
+    "files": [
+      {
+        "path": "source/review.glb",
+        "sha256": "ff46539868e4806a3d73d52cd5926cdd93d113283f2729968359be81c32a18e0",
+        "bytes": 122624
+      },
+      {
+        "path": "approval/formseed-approval.json",
+        "sha256": "1f10ac3de7bca2b9158a16d8f43da4f77394d01297412583546a96ea2a1b03c7",
+        "bytes": 564
+      },
+      {
+        "path": "review/configured/front.png",
+        "sha256": "cc14efeb2d79d5ef2f1752df6fa6d360e9dbbc0e4a433a47a99573fb49ab1d53",
+        "bytes": 399489
+      },
+      {
+        "path": "review/configured/forward-quarter.png",
+        "sha256": "dc63aa53687b26b3a50648c03c1cc45ee62eb4d5562db5ec30fcff7478484cc1",
+        "bytes": 415373
+      },
+      {
+        "path": "review/configured/side.png",
+        "sha256": "bf61a680143457da660f37571cae302455c04e5ffc607c8bff930c6051abb5b5",
+        "bytes": 408038
+      },
+      {
+        "path": "review/configured/rear-quarter.png",
+        "sha256": "ccda12885782cbd99bdf7de79200f5d039a21fb82fb21b3ea11bcb75af79c53c",
+        "bytes": 410106
+      },
+      {
+        "path": "review/configured/top.png",
+        "sha256": "5888ccc0176a01700ae70ae54e5914f06e424e9a309d7cb9eb27ccaf716ade7c",
+        "bytes": 424951
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "b89310004f3bba1933b99a9c6eb450582264d28d8ed1e2607dcfe5d59813c47c",
+        "bytes": 172963
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-20T04:20:40.349Z"
+  },
+  "notes": [
+    "Naval finish. Exact source GLB and FormSeed publication evidence. In-game qualification is separate."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
