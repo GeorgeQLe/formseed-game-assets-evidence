@@ -1,0 +1,120 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "btr-60pb",
+  "project": "hawgs-over-arctic",
+  "producer": {
+    "kind": "formseed3d",
+    "buildVersion": "0.2.0+codex.20261120003612"
+  },
+  "job": {
+    "jobId": "4c07ad4b-bc6e-4e58-b6fb-4162542ce767",
+    "revision": 6,
+    "checkpointSha256": "265b591449429831af132febf4e35d3edd18ce300051bd88a39404dc9639d2fb"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "2d5a7e15e808641b99c2d67003ff4b27f15fc8b23538b75d926cc86628639b31",
+    "dimensionReportHash": "eccb2733d6063d5c7d4f69e09ae71c51dea520a583862b73112bf75ed710ca17",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "fac4b7c24fad4ac0bb66f9746177ff9f094f1ff73d75653ee0b6d50f02bd0d9e",
+      "bytes": 128890
+    },
+    "files": [
+      {
+        "path": "source/review.glb",
+        "sha256": "cc75942653f8fdee65272ea32ffd8dbe951b4bcdeec9a1e2037e15cbdcb0c5e9",
+        "bytes": 267284
+      },
+      {
+        "path": "source/btr-60pb.blend",
+        "sha256": "3aad6e58a57bb4185281a8bffc00b9a0285ca56392b8f4941ba77fddfdfd35de",
+        "bytes": 129077
+      },
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "9332df1e95989b2a8d9ea2aef496c767f322f4aece78f24f08156c564d4e574d",
+        "bytes": 4824
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "6322363eaccc1efb7979dbe1180746718ca50635c9c8b10cba6e34569134d4eb",
+        "bytes": 398
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "db348ed73f48d699a9715dc900f45e7678231e5d22194ec97f514d282d853277",
+        "bytes": 293
+      },
+      {
+        "path": "review/configured/front.png",
+        "sha256": "9465ef45a4397c8184e95ce6607cd4338d1ae46466979b04286cd962b3ce7eab",
+        "bytes": 105236
+      },
+      {
+        "path": "review/configured/forward-quarter.png",
+        "sha256": "9586661a2c763662ae8528d07fe790b234d6f5b113695181046d408283d4eea3",
+        "bytes": 121966
+      },
+      {
+        "path": "review/configured/side.png",
+        "sha256": "d0f917ada9fe8b777d616597e81fb2e8ea7fda0ffcbcbeac5b1a2db6e50fc9b8",
+        "bytes": 115448
+      },
+      {
+        "path": "review/configured/rear-quarter.png",
+        "sha256": "fa94e414f2ae6b28c9f7163c576784af8c10f6b7219666f81a5bb4cd9dfe23d5",
+        "bytes": 121940
+      },
+      {
+        "path": "review/configured/top.png",
+        "sha256": "280e7437bf2872c9f12512fce43ef5a94e74402fe7699b17c5d6215c1e700c35",
+        "bytes": 152625
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "fac4b7c24fad4ac0bb66f9746177ff9f094f1ff73d75653ee0b6d50f02bd0d9e",
+        "bytes": 128890
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://djvu.online/jpg1/9/t/N/9tNhYG0p9jWHM/015.webp",
+        "sha256": "8b9e8a27d00e5b19983e6005d42cdc1bf1a1650eec0e9441405fd90fbfe5dca8",
+        "author": "USSR Ministry of Defense",
+        "license": "External manual, reference only",
+        "role": "1974 exterior variant reference"
+      },
+      {
+        "uri": "https://djvu.online/jpg1/9/t/N/9tNhYG0p9jWHM/016.webp",
+        "sha256": "126ee1dd29c8de8d892801e7c99f086e4ca294c65da95b84056b60ed7e383398",
+        "author": "USSR Ministry of Defense",
+        "license": "External manual, reference only",
+        "role": "1974 exterior variant reference"
+      },
+      {
+        "uri": "https://djvu.online/jpg1/9/t/N/9tNhYG0p9jWHM/151.webp",
+        "sha256": "9d593a9ca6e58b5c601aa449e36f29ad05de1c535442d3e61d47a47c9e6bf312",
+        "author": "USSR Ministry of Defense",
+        "license": "External manual, reference only",
+        "role": "1974 exterior variant reference"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-20T05:38:33.037Z"
+  },
+  "notes": [
+    "Clean unmarked static recognition source. Runtime LOD qualification is separate."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
