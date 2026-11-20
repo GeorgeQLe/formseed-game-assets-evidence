@@ -1,0 +1,130 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "soviet-naval-infantry-pt-76",
+  "project": "hawgs-arctic",
+  "producer": {
+    "kind": "formseed3d",
+    "buildVersion": "0.2.0+codex.20261120003612"
+  },
+  "job": {
+    "jobId": "3db72f2e-8b27-451c-845a-aecad270ffbb",
+    "revision": 2,
+    "checkpointSha256": "4320ce60be0c148af50bd90e8aae59494e3ce5a69ccd5d46786c281e5ef02cda"
+  },
+  "gate": "blockout-review",
+  "evidence": {
+    "renderHash": "f614da99618d30a28acebb548b7f23b8b80d6ad5861fe533f1f6ef763989467b",
+    "dimensionReportHash": "3653c47f242c2a7a205ae93d0ffaff504068a2da39a66fe8790f8d89d55dcfaf",
+    "labeledSheet": {
+      "path": "review-sheet.png",
+      "sha256": "2289ddc1a9ba0bcd1c80fef9e13e5415e415d7453d1dfcc254851c95f9775969",
+      "bytes": 454236
+    },
+    "files": [
+      {
+        "path": "source/pt76b.blend",
+        "sha256": "4320ce60be0c148af50bd90e8aae59494e3ce5a69ccd5d46786c281e5ef02cda",
+        "bytes": 159256
+      },
+      {
+        "path": "views/front.png",
+        "sha256": "e8d18316c627e2689d151c1c9603331f1d00f0a4aba0e833cf08d1b867229fc7",
+        "bytes": 83889
+      },
+      {
+        "path": "views/forward-quarter.png",
+        "sha256": "e009a5fe04a8dffbbd9585550760b3e1b295979a7a37f4555fb2ed9af589919e",
+        "bytes": 105234
+      },
+      {
+        "path": "views/side.png",
+        "sha256": "54acec94a46feaf2c603c17a3a2683b3fbc302aa330801412142a27e19f94362",
+        "bytes": 95574
+      },
+      {
+        "path": "views/rear-quarter.png",
+        "sha256": "6ebe9c44ba126fcf00ec3e0b51884a0643aec44a017c299c5bad573b15356d01",
+        "bytes": 106794
+      },
+      {
+        "path": "views/top.png",
+        "sha256": "a6782e6b3b33ab96c250fa9afe772e431dbb3d53088fcec16e0638703050c43b",
+        "bytes": 127720
+      },
+      {
+        "path": "review-sheet.png",
+        "sha256": "2289ddc1a9ba0bcd1c80fef9e13e5415e415d7453d1dfcc254851c95f9775969",
+        "bytes": 454236
+      }
+    ]
+  },
+  "inputs": {
+    "dimensionSpecificationSha256": "bbc3632fdf6c76b7995cd9ba69e4875e9268aa325e36adf98cf53cdb45758429",
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:ParkPatriot2015part2-44.jpg",
+        "sha256": "210474b7f8781d186fec11455dca53431211a03a10d608ce51ac2f453a1050c8",
+        "author": "Vitaly V. Kuzmin",
+        "license": "CC BY-SA 3.0",
+        "role": "Front quarter"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:ParkPatriot2015part2-45.jpg",
+        "sha256": "9857751c91548b442be70e55697ebc494b2f27e7cd8812e1b607be1021471a75",
+        "author": "Vitaly V. Kuzmin",
+        "license": "CC BY-SA 3.0",
+        "role": "Side profile"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:ParkPatriot2015part2-46.jpg",
+        "sha256": "77eef3a2b23fd5e92a02692e080ef57f7d94f8f013708ae5d65e8b933e326630",
+        "author": "Vitaly V. Kuzmin",
+        "license": "CC BY-SA 3.0",
+        "role": "Aft-biased side"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:ParkPatriot2015part2-47.jpg",
+        "sha256": "3b9e46575d39088b50c822b5ce7f2bfcbd1e1a00f9ec86fb4de7039a0ed26b1a",
+        "author": "Vitaly V. Kuzmin",
+        "license": "CC BY-SA 3.0",
+        "role": "Rear quarter"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:ParkPatriot2015part11-061.jpg",
+        "sha256": "2722acc7b98e211346f0ec01314a592b49b0d270edde4d7aff7339ec437ff11d",
+        "author": "Vitaly V. Kuzmin",
+        "license": "CC BY-SA 3.0",
+        "role": "Elevated bow and turret roof"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:ParkPatriot2015part11-062.jpg",
+        "sha256": "b7c3499c05d21ad0d78647515c4d4c70392459ddb99af0d10bf6e7148585026e",
+        "author": "Vitaly V. Kuzmin",
+        "license": "CC BY-SA 3.0",
+        "role": "Elevated aft deck"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:PT-76_B.jpg",
+        "sha256": "3120d692569278273bdfc1ddb9bec1204b9e085a569841cf90f12ead9217a0d2",
+        "author": "Darkone",
+        "license": "CC BY-SA 2.5",
+        "role": "Parked front quarter"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-20T16:48:46.692Z"
+  },
+  "notes": [
+    "George Le: I approve, let's move onto polish and do surface textures with formseed 2D",
+    "George Le authorized CC0 publication of this approved blockout and its model-only review imagery."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
