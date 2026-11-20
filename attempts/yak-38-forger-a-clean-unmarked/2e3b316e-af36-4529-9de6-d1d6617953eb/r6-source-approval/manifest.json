@@ -1,0 +1,103 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "yak-38-forger-a-clean-unmarked",
+  "project": "formseed",
+  "producer": {
+    "kind": "formseed3d",
+    "buildVersion": "0.2.0+codex.20261120003612"
+  },
+  "job": {
+    "jobId": "2e3b316e-af36-4529-9de6-d1d6617953eb",
+    "revision": 6,
+    "checkpointSha256": "eab962d1e7f6e6e6c307e6ed9a266d1258b43b525722ab9f7bf26ff3c544e6d8"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "dfc6e9d2000edcf6b36f5667bb183a679b759d4d28009c529dd4c4c1f3bab9ce",
+    "dimensionReportHash": "ec84944ae232ba741684c0d5e61eaa99fd0bcd57ea432f10a16eebb396bfd5db",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "b89310004f3bba1933b99a9c6eb450582264d28d8ed1e2607dcfe5d59813c47c",
+      "bytes": 172963
+    },
+    "files": [
+      {
+        "path": "source/review.glb",
+        "sha256": "54fef069f01b9275d23ce00fb8d7f037bf107c26eeac60152fa9db6f25c68ce2",
+        "bytes": 115288
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "c67b32e936b3bafa7cf59c6464c399daccae7a83c9fb1b5e39abc8af46f6cf2a",
+        "bytes": 384
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "9df433ecabbde9c55e0abd96ed186638b0b997e8c6dc907e14a2b568474075db",
+        "bytes": 293
+      },
+      {
+        "path": "production/renders/revision-6/production/run-RuGpy4/pass-2/recognition-turntable/front.png",
+        "sha256": "ca0bd5ae12ac7cb546a9e1857dbc79ca063d70f5ed5d75eb78fc931ff623522c",
+        "bytes": 399761
+      },
+      {
+        "path": "production/renders/revision-6/production/run-RuGpy4/pass-2/recognition-turntable/forward-quarter.png",
+        "sha256": "7e47142e5a04bbdc217841b5a6b516c3004bcad8b43585e81f49aeacd429edd1",
+        "bytes": 415491
+      },
+      {
+        "path": "production/renders/revision-6/production/run-RuGpy4/pass-2/recognition-turntable/side.png",
+        "sha256": "2c63de76e92e763675232490427c57037f22fc030404ff2dd7d35ee69edf40d0",
+        "bytes": 409199
+      },
+      {
+        "path": "production/renders/revision-6/production/run-RuGpy4/pass-2/recognition-turntable/rear-quarter.png",
+        "sha256": "4fd76814e77364c5304da69360f066bdc9f3e73ab010c13178f8de4315e8dc46",
+        "bytes": 410919
+      },
+      {
+        "path": "production/renders/revision-6/production/run-RuGpy4/pass-2/recognition-turntable/top.png",
+        "sha256": "f1f29e2e418f3a4dba6bd004587e86eb3daea08ee76c8a43fa6818e8040e772f",
+        "bytes": 428027
+      },
+      {
+        "path": "production/revision-6/source/yak-38-forger-a.blend",
+        "sha256": "d2cc1169639ffa9a82118746d13f353cd86e6322a8b81005dd9ef1066b07fa04",
+        "bytes": 135355
+      },
+      {
+        "path": "production/revision-6/source/yak-38-forger-a.glb",
+        "sha256": "54fef069f01b9275d23ce00fb8d7f037bf107c26eeac60152fa9db6f25c68ce2",
+        "bytes": 115288
+      },
+      {
+        "path": "source/approved.blend",
+        "sha256": "d2cc1169639ffa9a82118746d13f353cd86e6322a8b81005dd9ef1066b07fa04",
+        "bytes": 135355
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "b89310004f3bba1933b99a9c6eb450582264d28d8ed1e2607dcfe5d59813c47c",
+        "bytes": 172963
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-20T04:18:54.820Z"
+  },
+  "notes": [
+    "Versioned source release evidence. Runtime qualification is separate."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
