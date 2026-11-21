@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "2.0.0",
+  "assetId": "raf-jaguar-gr1a-granby",
+  "revisionId": "raf-jaguar-gr1a-granby-r49",
+  "createdAt": "2026-11-21T06:50:31.831Z",
+  "source": {
+    "blend": "revision-49/source/raf-jaguar-gr1a-granby.blend",
+    "glb": "revision-49/source/raf-jaguar-gr1a-granby.glb"
+  },
+  "dimensions": {
+    "x": 8.6899995803833,
+    "y": 3.8999998569488525,
+    "z": 15.520000457763672
+  },
+  "pivot": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "counts": {
+    "triangles": 9956,
+    "materials": 9,
+    "objects": 36,
+    "textures": 1
+  },
+  "provenance": [
+    {
+      "uri": "https://commons.wikimedia.org/wiki/File:Sepecat_Jaguar_GR1A,_UK_-_Air_Force_AN1712863.jpg",
+      "attribution": "Mike Freer / Touchdown-aviation, XZ377 6 Sqn 24 Apr 1991 (sha256 42c42beb...e941fe); research repository only",
+      "license": "GFDL-1.2-only"
+    },
+    {
+      "uri": "https://scottbouch.com/rtfm/manufacturer/ee-bac/brochures/the-jaguars-are-coming.pdf",
+      "attribution": "BAC, The Jaguars Are Coming brochure (sha256 6edbd96a...a5db)",
+      "license": "Reference only"
+    },
+    {
+      "uri": "https://milavia.net/aircraft/jaguar/jaguar_specs.htm",
+      "attribution": "Milavia Jaguar specifications (dimensions)",
+      "license": "Reference only"
+    },
+    {
+      "uri": "https://aerospaceweb.org/aircraft/attack/jaguar/",
+      "attribution": "Aerospaceweb Jaguar (dimension cross-check)",
+      "license": "Reference only"
+    },
+    {
+      "uri": "military-vehicle-references/jaguar/raf-gr1a-diagrams-20261111/traces/r2/geometry.json",
+      "attribution": "Airfix GR.1A Granby sheet and GR Mk.1 sheet source-pixel traces r2",
+      "license": "Reference only; reuse not cleared"
+    }
+  ],
+  "validation": {
+    "reportId": "c4ecadbd-4227-434c-b77d-2cd5d649c37e",
+    "passed": true,
+    "reproducible": true,
+    "blockingIssueCodes": [],
+    "advisoryIssueCodes": []
+  },
+  "renderSets": [
+    {
+      "name": "jaguar-exterior",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 1024,
+        "height": 768
+      },
+      "transparentBackground": false,
+      "lightingIntent": "static-neutral-studio-v1",
+      "renderSetHash": "233e0e23f43d0ce472a979ce6627a059ddee60c5b5172056fde768dc510c6fb9",
+      "views": [
+        {
+          "name": "top",
+          "path": "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/top.png",
+          "sha256": "922671f734da7723bbe2a57fe659fa54fce0a6bbc85bb9cf7397167568c0bf4e",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "port-side",
+          "path": "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/port-side.png",
+          "sha256": "59c9934a281573caf814c24aac97475ce60af55018f66d29513965637a8aec17",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "front",
+          "path": "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/front.png",
+          "sha256": "6bfcddef0a69a039421b366a62b5dfc694f5f67c0ffc3c7a5a77e8489621e34c",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "front-left-34",
+          "path": "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/front-left-34.png",
+          "sha256": "87e8b576768deab162bc578536f4e5c3c008ad762563028d9586a6ffc7a5eac2",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear-right-34",
+          "path": "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/rear-right-34.png",
+          "sha256": "520cd1e6702d8a70fe0aee3b22111bbc766bde361eda57dd1ab8d61af199b8bb",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "rear",
+          "path": "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/rear.png",
+          "sha256": "c2cf969d49af0533f2940b82a98479bd80ede082ec43428fb63f6b687679a2a7",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    },
+    {
+      "name": "jaguar-overhead-game",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 256,
+        "height": 256
+      },
+      "transparentBackground": false,
+      "lightingIntent": "static-neutral-studio-v1",
+      "renderSetHash": "37c1de2fb48e2fc3628c4b66502731d2d30cf46b1b5c2696a887a6f06eeca886",
+      "views": [
+        {
+          "name": "overhead",
+          "path": "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-overhead-game/overhead.png",
+          "sha256": "d4fa3b650e432447b1aabcb5b97aa0267b23573b7de0da47abaf140e2fe39934",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "tactical",
+          "path": "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-overhead-game/tactical.png",
+          "sha256": "0180ce1cc432c9a229821f61102212a2440bbdc43ef993017dfd8b5479f4b0e5",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/top.png": "922671f734da7723bbe2a57fe659fa54fce0a6bbc85bb9cf7397167568c0bf4e",
+    "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/port-side.png": "59c9934a281573caf814c24aac97475ce60af55018f66d29513965637a8aec17",
+    "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/front.png": "6bfcddef0a69a039421b366a62b5dfc694f5f67c0ffc3c7a5a77e8489621e34c",
+    "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/front-left-34.png": "87e8b576768deab162bc578536f4e5c3c008ad762563028d9586a6ffc7a5eac2",
+    "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/rear-right-34.png": "520cd1e6702d8a70fe0aee3b22111bbc766bde361eda57dd1ab8d61af199b8bb",
+    "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-exterior/rear.png": "c2cf969d49af0533f2940b82a98479bd80ede082ec43428fb63f6b687679a2a7",
+    "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-overhead-game/overhead.png": "d4fa3b650e432447b1aabcb5b97aa0267b23573b7de0da47abaf140e2fe39934",
+    "renders/revision-49/production/run-cGjaYt/pass-2/jaguar-overhead-game/tactical.png": "0180ce1cc432c9a229821f61102212a2440bbdc43ef993017dfd8b5479f4b0e5",
+    "revision-49/source/raf-jaguar-gr1a-granby.blend": "11855d8a4bed82bdfc889864dc66efb345b9fd5dd34d25842092a2713f465df5",
+    "revision-49/source/raf-jaguar-gr1a-granby.glb": "9bbdffc597712dedae25acfedd4f4eca348460cc05c9c9afc99179392f25062d"
+  }
+}
