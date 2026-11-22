@@ -1,0 +1,73 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "uh-60a-black-hawk",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "1743eee3-8ce6-48a9-a5e0-0a92ed406e9a",
+    "revision": 15,
+    "checkpointSha256": "a3164ad299d79260d554529155e01299e5762fb7124d752dca40eadfbc55444d"
+  },
+  "gate": "blockout-review",
+  "evidence": {
+    "renderHash": "f467cbd291ded0dc52508d52a325ff0321bc5cab761089aa2065f9f9d8166732",
+    "dimensionReportHash": "b5085b1589158020ab89761da56b217be6fa0c933a0531b5354c51c140926e5f",
+    "files": [
+      {
+        "path": "validation/dimensions.json",
+        "sha256": "b57d349184000a5a96633a19d6891ea2b800685d7f9f11d9635caf8fc10df18a",
+        "bytes": 46573
+      }
+    ]
+  },
+  "inputs": {
+    "dimensionSpecificationSha256": "68aa63a08bf669f2f1cb820bfe0bfb422830c3da7115fed375bdef890b9531f4",
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:101st_Airborne_Division%27s_Rapid_Refuel_Point_02.jpg",
+        "sha256": "fc78bd6d3d33578cbbcf7e7d40bc3d721d3684dd7ed89b0b9b81d0694581f666",
+        "author": "SGT Randall M. Yackiel, DS-F-159-10.; Post-Work: User:W.wolny",
+        "license": "Public domain",
+        "role": "period identity and configuration"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:UH-60A_Blackhawk_air_ambulance_being_refueled_at_the_101st_Airborne_Division_Rapid_Refuel_Point.jpg",
+        "sha256": "b1753c18cfd8cc5993421f881767472e780704c75b5a9d8ab2fff432f4cfdbec",
+        "author": "GT Randall M. Yackiel",
+        "license": "Public domain",
+        "role": "period identity and configuration"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:DA-ST-91-06392.jpg",
+        "sha256": "f796585ae87dc10ee9a90b223263071b0e97e021d9aab7db15a42849039d1753",
+        "author": "U.S. Army Materiel Command",
+        "license": "CC BY 2.0",
+        "role": "period identity and configuration"
+      },
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:A_soldier_runs_toward_a_UH-60_Black_Hawk_(Blackhawk)_helicopter_in_a_landing_zone_near_a_medical_facility_during_Operation_Desert_Shield_-_DPLA_-_27efca5a8643dc37e03781a7346ce7e8.jpeg",
+        "sha256": "ffec35132805b89573a87020f0d6ef0d4c98ced3bf0835fd59b26b6c9cb47c0d",
+        "author": "Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994",
+        "license": "Public domain",
+        "role": "period identity and configuration"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "abandoned",
+    "reason": "Intermediate batch A of the requester-directed r15 change, split to stay within the model lock and completed as canonical revision 16 (r15). Never presented for review. Agent working-candidate disposition only; no human rejection.",
+    "decidedAt": "2026-11-20T05:08:36.000Z"
+  },
+  "notes": [
+    "Canonical revision 15; no working label or review sheet.",
+    "Renders are pass 1 of the deterministic production render run."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

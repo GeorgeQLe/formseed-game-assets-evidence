@@ -1,0 +1,1758 @@
+{
+  "capabilityVersion": "dimension-validation@1.2.0",
+  "kind": "asset-dimension-validation",
+  "jobId": "1743eee3-8ce6-48a9-a5e0-0a92ed406e9a",
+  "branchId": "main",
+  "revision": 20,
+  "checkpointId": "e669bf21-e386-4795-99e7-c1aa2ad6fc83",
+  "checkpointHash": "360b74efe36a73e6a1fc4ef8beb699d68cb339612ac6225d3cde7132242d95b7",
+  "specificationHash": "68aa63a08bf669f2f1cb820bfe0bfb422830c3da7115fed375bdef890b9531f4",
+  "assetSpecificationHash": "a832dccb21c3c9cd082b30f4c444853eb5aced8929ea2ae8549d3daa09a22bf3",
+  "configuration": "early-uh60a-parked-cross",
+  "pose": "early-uh60a-parked-cross",
+  "validationScope": {
+    "policy": "configuration-and-pose",
+    "canonical": true,
+    "declaredCriterionIds": [
+      "datum:cabin-door-left-mount:X",
+      "datum:cabin-door-left-mount:Y",
+      "datum:cabin-door-left-mount:Z",
+      "datum:cabin-door-right-mount:X",
+      "datum:cabin-door-right-mount:Y",
+      "datum:cabin-door-right-mount:Z",
+      "datum:main-gear-left-contact:Y",
+      "datum:main-gear-right-contact:Y",
+      "datum:main-rotor-mount:X",
+      "datum:main-rotor-mount:Y",
+      "datum:main-rotor-mount:Z",
+      "datum:stabilator-mount:X",
+      "datum:stabilator-mount:Y",
+      "datum:stabilator-mount:Z",
+      "datum:tail-rotor-mount:X",
+      "datum:tail-rotor-mount:Y",
+      "datum:tail-rotor-mount:Z",
+      "datum:tailwheel-contact:Y",
+      "grounding:main-gear-left-contact",
+      "grounding:main-gear-right-contact",
+      "grounding:tailwheel-contact",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "applicableCriterionIds": [
+      "datum:cabin-door-left-mount:X",
+      "datum:cabin-door-left-mount:Y",
+      "datum:cabin-door-left-mount:Z",
+      "datum:cabin-door-right-mount:X",
+      "datum:cabin-door-right-mount:Y",
+      "datum:cabin-door-right-mount:Z",
+      "datum:main-gear-left-contact:Y",
+      "datum:main-gear-right-contact:Y",
+      "datum:main-rotor-mount:X",
+      "datum:main-rotor-mount:Y",
+      "datum:main-rotor-mount:Z",
+      "datum:stabilator-mount:X",
+      "datum:stabilator-mount:Y",
+      "datum:stabilator-mount:Z",
+      "datum:tail-rotor-mount:X",
+      "datum:tail-rotor-mount:Y",
+      "datum:tail-rotor-mount:Z",
+      "datum:tailwheel-contact:Y",
+      "grounding:main-gear-left-contact",
+      "grounding:main-gear-right-contact",
+      "grounding:tailwheel-contact",
+      "origin:X",
+      "origin:Y",
+      "origin:Z",
+      "overall-height",
+      "overall-length",
+      "overall-width",
+      "pivot:X",
+      "pivot:Y",
+      "pivot:Z"
+    ],
+    "excludedCriterionIds": []
+  },
+  "resourceClosure": {
+    "policy": "self-contained",
+    "externalDependencies": []
+  },
+  "request": {
+    "jobId": "1743eee3-8ce6-48a9-a5e0-0a92ed406e9a",
+    "branchId": "main",
+    "expectedRevision": 20,
+    "checkpoint": {
+      "checkpointId": "e669bf21-e386-4795-99e7-c1aa2ad6fc83",
+      "checkpointHash": "360b74efe36a73e6a1fc4ef8beb699d68cb339612ac6225d3cde7132242d95b7"
+    },
+    "configuration": "early-uh60a-parked-cross",
+    "pose": "early-uh60a-parked-cross"
+  },
+  "requestHash": "17736f3252dbd58237e0cd88df7c1b792a4e00e624b34bcc095e487e785d17da",
+  "criterionSetHash": "8ab86efc25183c5f0446586c345cd28f9ad513846498971b323bba2a7938c8e7",
+  "evidenceHash": "16ec4d01f7cc45cd12f35ef887abc995cf52e12f75d0158997e0886471a4b792",
+  "evidenceManifestHash": "d01033a710b4505bbe91066fb727c522ec24d1d7fc1a203e1ad6f48823ab3439",
+  "criteria": [
+    {
+      "criterionId": "overall-length",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 19.77572,
+        "unit": "m",
+        "source": "overall-drawing-length,hub-spacing,main-diameter,tail-diameter"
+      },
+      "observed": 19.775720596313477,
+      "unit": "m",
+      "absoluteDeviation": 5.963134768194323e-7,
+      "relativeDeviation": 3.015381876459781e-8,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-width",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 16.3576,
+        "unit": "m",
+        "source": "main-diameter"
+      },
+      "observed": 16.35759925842285,
+      "unit": "m",
+      "absoluteDeviation": 7.415771499097445e-7,
+      "relativeDeviation": 4.533532730411212e-8,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.01,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": []
+    },
+    {
+      "criterionId": "overall-height",
+      "kind": "envelope",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 5.1308,
+        "unit": "m",
+        "source": "upper-tail-height"
+      },
+      "observed": 5.130800724029541,
+      "unit": "m",
+      "absoluteDeviation": 7.240295412103137e-7,
+      "relativeDeviation": 1.411143566715354e-7,
+      "tolerance": {
+        "mode": "relative",
+        "value": 0.02,
+        "unit": "ratio",
+        "sourceTarget": "overall-envelope"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": []
+    },
+    {
+      "criterionId": "datum:main-gear-left-contact:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.015,
+        "unit": "m",
+        "sourceTarget": "main-gear-left-contact"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "main-gear-left",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:main-gear-right-contact:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.015,
+        "unit": "m",
+        "sourceTarget": "main-gear-right-contact"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "main-gear-right",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:tailwheel-contact:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.015,
+        "unit": "m",
+        "sourceTarget": "tailwheel-contact"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "tailwheel",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:main-rotor-mount:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "main-rotor-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "main-rotor"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:main-rotor-mount:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.7592,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3.759200096130371,
+      "unit": "m",
+      "absoluteDeviation": 9.613037121880552e-8,
+      "relativeDeviation": 2.557202894733069e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "main-rotor-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "main-rotor"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:main-rotor-mount:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -1.71486,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": -1.714859962463379,
+      "unit": "m",
+      "absoluteDeviation": 3.7536621144695914e-8,
+      "relativeDeviation": 2.188902950952026e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "main-rotor-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "main-rotor"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:tail-rotor-mount:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0.38,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0.3799999952316284,
+      "unit": "m",
+      "absoluteDeviation": 4.768371586472142e-9,
+      "relativeDeviation": 1.2548346280189847e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "tail-rotor-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "tail-rotor"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:tail-rotor-mount:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 3.5555,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 3.555500030517578,
+      "unit": "m",
+      "absoluteDeviation": 3.051757824223955e-8,
+      "relativeDeviation": 8.583202993176642e-9,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "tail-rotor-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "tail-rotor"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:tail-rotor-mount:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 8.21146,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 8.21146011352539,
+      "unit": "m",
+      "absoluteDeviation": 1.1352538997755346e-7,
+      "relativeDeviation": 1.382523814005712e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "tail-rotor-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "tail-rotor"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:stabilator-mount:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "stabilator-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "stabilator"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:stabilator-mount:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.52,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.5199999809265137,
+      "unit": "m",
+      "absoluteDeviation": 1.907348634588857e-8,
+      "relativeDeviation": 1.2548346280189847e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "stabilator-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "stabilator"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:stabilator-mount:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 7.65,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 7.650000095367432,
+      "unit": "m",
+      "absoluteDeviation": 9.536743128535363e-8,
+      "relativeDeviation": 1.2466330886974331e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "stabilator-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "stabilator"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:cabin-door-left-mount:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -1.19,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": -1.190000057220459,
+      "unit": "m",
+      "absoluteDeviation": 5.7220459037665705e-8,
+      "relativeDeviation": 4.808441935938295e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "cabin-door-left-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "cabin-door-left"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:cabin-door-left-mount:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.33,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.3300000429153442,
+      "unit": "m",
+      "absoluteDeviation": 4.2915344167226976e-8,
+      "relativeDeviation": 3.226717606558419e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "cabin-door-left-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "cabin-door-left"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:cabin-door-left-mount:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -1.72,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": -1.7200000286102295,
+      "unit": "m",
+      "absoluteDeviation": 2.8610229518832853e-8,
+      "relativeDeviation": 1.663385437141445e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "cabin-door-left-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "cabin-door-left"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:cabin-door-right-mount:X",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.19,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.190000057220459,
+      "unit": "m",
+      "absoluteDeviation": 5.7220459037665705e-8,
+      "relativeDeviation": 4.808441935938295e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "cabin-door-right-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "cabin-door-right"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:cabin-door-right-mount:Y",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 1.33,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": 1.3300000429153442,
+      "unit": "m",
+      "absoluteDeviation": 4.2915344167226976e-8,
+      "relativeDeviation": 3.226717606558419e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "cabin-door-right-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "cabin-door-right"
+        }
+      ]
+    },
+    {
+      "criterionId": "datum:cabin-door-right-mount:Z",
+      "kind": "datum-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": -1.72,
+        "unit": "m",
+        "source": "component-datum"
+      },
+      "observed": -1.7200000286102295,
+      "unit": "m",
+      "absoluteDeviation": 2.8610229518832853e-8,
+      "relativeDeviation": 1.663385437141445e-8,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.1,
+        "unit": "m",
+        "sourceTarget": "cabin-door-right-mount"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "cabin-door-right"
+        }
+      ]
+    },
+    {
+      "criterionId": "origin:X",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": []
+    },
+    {
+      "criterionId": "origin:Y",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": []
+    },
+    {
+      "criterionId": "origin:Z",
+      "kind": "origin-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "subject-origin"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": []
+    },
+    {
+      "criterionId": "pivot:X",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Verify assembly origins and contact positions. The static stabilator and door origins are modeling datums and do not represent measured physical hinge or track coordinates."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "airframe"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Y",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Verify assembly origins and contact positions. The static stabilator and door origins are modeling datums and do not represent measured physical hinge or track coordinates."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "airframe"
+        }
+      ]
+    },
+    {
+      "criterionId": "pivot:Z",
+      "kind": "pivot-coordinate",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "Verify assembly origins and contact positions. The static stabilator and door origins are modeling datums and do not represent measured physical hinge or track coordinates."
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.000001,
+        "unit": "m",
+        "sourceTarget": "producer-technical-epsilon"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-origin",
+          "object": "airframe"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:main-gear-left-contact",
+      "kind": "grounding",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.015,
+        "unit": "m",
+        "sourceTarget": "main-gear-left-contact"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "main-gear-left",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:main-gear-right-contact",
+      "kind": "grounding",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.015,
+        "unit": "m",
+        "sourceTarget": "main-gear-right-contact"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "main-gear-right",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    },
+    {
+      "criterionId": "grounding:tailwheel-contact",
+      "kind": "grounding",
+      "status": "pass",
+      "disposition": "blocking",
+      "target": {
+        "state": "direct",
+        "value": 0,
+        "unit": "m",
+        "source": "grounding-contact"
+      },
+      "observed": 0,
+      "unit": "m",
+      "absoluteDeviation": 0,
+      "relativeDeviation": null,
+      "tolerance": {
+        "mode": "absolute",
+        "value": 0.015,
+        "unit": "m",
+        "sourceTarget": "tailwheel-contact"
+      },
+      "configuration": "early-uh60a-parked-cross",
+      "pose": "early-uh60a-parked-cross",
+      "selectors": [
+        {
+          "type": "object-bound",
+          "object": "tailwheel",
+          "axis": "Y",
+          "side": "minimum"
+        }
+      ]
+    }
+  ],
+  "measurements": {
+    "overallBounds": {
+      "minimum": {
+        "x": -8.178799629211426,
+        "y": 0,
+        "z": -9.887860298156738
+      },
+      "maximum": {
+        "x": 8.178799629211426,
+        "y": 5.130800724029541,
+        "z": 9.887860298156738
+      },
+      "center": {
+        "x": 0,
+        "y": 2.5654003620147705,
+        "z": 0
+      }
+    },
+    "dimensions": {
+      "width": 16.35759925842285,
+      "height": 5.130800724029541,
+      "length": 19.775720596313477,
+      "unit": "m"
+    },
+    "components": [
+      {
+        "object": "airframe",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.2089999914169312,
+            "y": 0.49000000953674316,
+            "z": -6.309999942779541
+          },
+          "maximum": {
+            "x": 1.2089999914169312,
+            "y": 3.806999921798706,
+            "z": 8.895999908447266
+          },
+          "center": {
+            "x": 0,
+            "y": 2.1484999656677246,
+            "z": 1.2929999828338623
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "appliedScale": true,
+        "fingerprint": "7404a47f30cd51716ec7c9f8cb3940d0db8b3da4ba6de60ac1a245f5c3fbe44b"
+      },
+      {
+        "object": "main-gear-left",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.5608199834823608,
+            "y": 0,
+            "z": -3.9070000648498535
+          },
+          "maximum": {
+            "x": -0.8958199620246887,
+            "y": 1.2400000095367432,
+            "z": -2.620000123977661
+          },
+          "center": {
+            "x": -1.2283200025558472,
+            "y": 0.6200000047683716,
+            "z": -3.263500213623047
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.3538199663162231,
+            "y": 0.3100000023841858,
+            "z": -2.930000066757202
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.3538199663162231,
+          "y": 0.3100000023841858,
+          "z": -2.930000066757202
+        },
+        "appliedScale": true,
+        "fingerprint": "dfb6fbe4b293327f482eba16bb59aaf69782beab98e657e2d07c5a34b2e257d2"
+      },
+      {
+        "object": "main-gear-right",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.8958199620246887,
+            "y": 0,
+            "z": -3.9070000648498535
+          },
+          "maximum": {
+            "x": 1.5608199834823608,
+            "y": 1.2400000095367432,
+            "z": -2.620000123977661
+          },
+          "center": {
+            "x": 1.2283200025558472,
+            "y": 0.6200000047683716,
+            "z": -3.263500213623047
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.3538199663162231,
+            "y": 0.3100000023841858,
+            "z": -2.930000066757202
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.3538199663162231,
+          "y": 0.3100000023841858,
+          "z": -2.930000066757202
+        },
+        "appliedScale": true,
+        "fingerprint": "bef74d12c732ff2780644172f12124bf814d2baa45737c6bc2e34f550b0af95b"
+      },
+      {
+        "object": "tailwheel",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.16699999570846558,
+            "y": 0,
+            "z": 5.422850131988525
+          },
+          "maximum": {
+            "x": 0.16699999570846558,
+            "y": 1.0800000429153442,
+            "z": 6.122849941253662
+          },
+          "center": {
+            "x": 0,
+            "y": 0.5400000214576721,
+            "z": 5.772850036621094
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 0.2199999988079071,
+            "z": 5.902850151062012
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 0.2199999988079071,
+          "z": 5.902850151062012
+        },
+        "appliedScale": true,
+        "fingerprint": "a395bc395c37f69c9d963910be8315f583ef473efb453bb8a58a99cae1c89927"
+      },
+      {
+        "object": "main-rotor",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.8600000143051147,
+            "y": 3.1792001724243164,
+            "z": -2.574860095977783
+          },
+          "maximum": {
+            "x": 0.8600000143051147,
+            "y": 3.899200201034546,
+            "z": -0.8548599481582642
+          },
+          "center": {
+            "x": 0,
+            "y": 3.5392003059387207,
+            "z": -1.714859962463379
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 3.759200096130371,
+            "z": -1.714859962463379
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 3.759200096130371,
+          "z": -1.714859962463379
+        },
+        "appliedScale": true,
+        "fingerprint": "f9888033c38002e9ee5c80d289afb9597d985bfa84310edd4b7c5d69b779cc1d"
+      },
+      {
+        "object": "main-blade-1",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.2800000011920929,
+            "y": 3.3420000076293945,
+            "z": -9.887860298156738
+          },
+          "maximum": {
+            "x": 0.26350000500679016,
+            "y": 3.7872002124786377,
+            "z": -1.904860019683838
+          },
+          "center": {
+            "x": -0.008249998092651367,
+            "y": 3.5645999908447266,
+            "z": -5.896360397338867
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 3.759200096130371,
+            "z": -1.714859962463379
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 3.759200096130371,
+          "z": -1.714859962463379
+        },
+        "appliedScale": true,
+        "fingerprint": "d19be0701063031dd12d9d4c9fb899fb04c218b7e360e0eb22f32033156bf0d9"
+      },
+      {
+        "object": "main-blade-2",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 0.1899999976158142,
+            "y": 3.682000160217285,
+            "z": -1.9948599338531494
+          },
+          "maximum": {
+            "x": 8.178799629211426,
+            "y": 3.7872002124786377,
+            "z": -1.4513599872589111
+          },
+          "center": {
+            "x": 4.184399604797363,
+            "y": 3.734600067138672,
+            "z": -1.7231099605560303
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 3.759200096130371,
+            "z": -1.714859962463379
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 3.759200096130371,
+          "z": -1.714859962463379
+        },
+        "appliedScale": true,
+        "fingerprint": "823b2761f82c5ea566ca941502cca706ff8552b029058986f47885c604c8f1cc"
+      },
+      {
+        "object": "main-blade-3",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.26350000500679016,
+            "y": 3.7260000705718994,
+            "z": -1.52485990524292
+          },
+          "maximum": {
+            "x": 0.2800000011920929,
+            "y": 4.088000297546387,
+            "z": 6.4581403732299805
+          },
+          "center": {
+            "x": 0.008249998092651367,
+            "y": 3.9070000648498535,
+            "z": 2.4666402339935303
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 3.759200096130371,
+            "z": -1.714859962463379
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 3.759200096130371,
+          "z": -1.714859962463379
+        },
+        "appliedScale": true,
+        "fingerprint": "aa5060b7eb3ed301ebc35cd49003343a18a04f679fa4ad9afe0471fd1a543c22"
+      },
+      {
+        "object": "main-blade-4",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -8.178799629211426,
+            "y": 3.682000160217285,
+            "z": -1.9783599376678467
+          },
+          "maximum": {
+            "x": -0.1899999976158142,
+            "y": 3.7872002124786377,
+            "z": -1.4348599910736084
+          },
+          "center": {
+            "x": -4.184399604797363,
+            "y": 3.734600067138672,
+            "z": -1.7066099643707275
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 3.759200096130371,
+            "z": -1.714859962463379
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 3.759200096130371,
+          "z": -1.714859962463379
+        },
+        "appliedScale": true,
+        "fingerprint": "518c34fb2ef679a428875f8a7e46ae0b45087e384043a6589be6806d10358b7e"
+      },
+      {
+        "object": "tail-rotor",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -0.21836256980895996,
+            "y": 1.9801993370056152,
+            "z": 6.535059928894043
+          },
+          "maximum": {
+            "x": 0.9783625602722168,
+            "y": 5.130800724029541,
+            "z": 9.887860298156738
+          },
+          "center": {
+            "x": 0.3799999952316284,
+            "y": 3.555500030517578,
+            "z": 8.21146011352539
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0.3799999952316284,
+            "y": 3.555500030517578,
+            "z": 8.21146011352539
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0.3799999952316284,
+          "y": 3.555500030517578,
+          "z": 8.21146011352539
+        },
+        "appliedScale": true,
+        "fingerprint": "c8bd8eba881fb17c2777c0dce557852d52f09b98546122b0e472f6d0f7d0f92a"
+      },
+      {
+        "object": "stabilator",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -2.184000015258789,
+            "y": 1.132849931716919,
+            "z": 7.156000137329102
+          },
+          "maximum": {
+            "x": 2.184000015258789,
+            "y": 1.774999976158142,
+            "z": 8.326000213623047
+          },
+          "center": {
+            "x": 0,
+            "y": 1.4539248943328857,
+            "z": 7.741000175476074
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 0,
+            "y": 1.5199999809265137,
+            "z": 7.650000095367432
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 0,
+          "y": 1.5199999809265137,
+          "z": 7.650000095367432
+        },
+        "appliedScale": true,
+        "fingerprint": "e46ece6a9ef82e55b60c3e1ee6f8d00f40e1226f1a3f158165cc8493ef95b8b0"
+      },
+      {
+        "object": "cabin-door-left",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": -1.225000023841858,
+            "y": 0.7100000381469727,
+            "z": -2.6600000858306885
+          },
+          "maximum": {
+            "x": -1.0750000476837158,
+            "y": 2.1100001335144043,
+            "z": -0.8100000023841858
+          },
+          "center": {
+            "x": -1.1500000953674316,
+            "y": 1.4100000858306885,
+            "z": -1.7350000143051147
+          }
+        },
+        "transform": {
+          "location": {
+            "x": -1.190000057220459,
+            "y": 1.3300000429153442,
+            "z": -1.7200000286102295
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": -1.190000057220459,
+          "y": 1.3300000429153442,
+          "z": -1.7200000286102295
+        },
+        "appliedScale": true,
+        "fingerprint": "a7d343d4b78909d395c9d375b3018a4f95de82d434ba7d51a4bb4f9fc3299678"
+      },
+      {
+        "object": "cabin-door-right",
+        "available": true,
+        "bounds": {
+          "minimum": {
+            "x": 1.0750000476837158,
+            "y": 0.7100000381469727,
+            "z": -2.6600000858306885
+          },
+          "maximum": {
+            "x": 1.225000023841858,
+            "y": 2.1100001335144043,
+            "z": -0.8100000023841858
+          },
+          "center": {
+            "x": 1.1500000953674316,
+            "y": 1.4100000858306885,
+            "z": -1.7350000143051147
+          }
+        },
+        "transform": {
+          "location": {
+            "x": 1.190000057220459,
+            "y": 1.3300000429153442,
+            "z": -1.7200000286102295
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "pivot": {
+          "x": 1.190000057220459,
+          "y": 1.3300000429153442,
+          "z": -1.7200000286102295
+        },
+        "appliedScale": true,
+        "fingerprint": "7b14df05540573bae29eeec6684be7ea85ba9d5bbb76904eb52f4d4db69fffc8"
+      }
+    ],
+    "datums": [
+      {
+        "id": "main-gear-left-contact",
+        "selector": {
+          "type": "object-bound",
+          "object": "main-gear-left",
+          "axis": "Y",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": -1.2283200025558472,
+          "y": 0,
+          "z": -3.263500213623047
+        }
+      },
+      {
+        "id": "main-gear-right-contact",
+        "selector": {
+          "type": "object-bound",
+          "object": "main-gear-right",
+          "axis": "Y",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": 1.2283200025558472,
+          "y": 0,
+          "z": -3.263500213623047
+        }
+      },
+      {
+        "id": "tailwheel-contact",
+        "selector": {
+          "type": "object-bound",
+          "object": "tailwheel",
+          "axis": "Y",
+          "side": "minimum"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 5.772850036621094
+        }
+      },
+      {
+        "id": "main-rotor-mount",
+        "selector": {
+          "type": "object-origin",
+          "object": "main-rotor"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 3.759200096130371,
+          "z": -1.714859962463379
+        }
+      },
+      {
+        "id": "tail-rotor-mount",
+        "selector": {
+          "type": "object-origin",
+          "object": "tail-rotor"
+        },
+        "status": "available",
+        "position": {
+          "x": 0.3799999952316284,
+          "y": 3.555500030517578,
+          "z": 8.21146011352539
+        }
+      },
+      {
+        "id": "stabilator-mount",
+        "selector": {
+          "type": "object-origin",
+          "object": "stabilator"
+        },
+        "status": "available",
+        "position": {
+          "x": 0,
+          "y": 1.5199999809265137,
+          "z": 7.650000095367432
+        }
+      },
+      {
+        "id": "cabin-door-left-mount",
+        "selector": {
+          "type": "object-origin",
+          "object": "cabin-door-left"
+        },
+        "status": "available",
+        "position": {
+          "x": -1.190000057220459,
+          "y": 1.3300000429153442,
+          "z": -1.7200000286102295
+        }
+      },
+      {
+        "id": "cabin-door-right-mount",
+        "selector": {
+          "type": "object-origin",
+          "object": "cabin-door-right"
+        },
+        "status": "available",
+        "position": {
+          "x": 1.190000057220459,
+          "y": 1.3300000429153442,
+          "z": -1.7200000286102295
+        }
+      }
+    ],
+    "ratios": [],
+    "clearances": [],
+    "articulationSamples": [],
+    "includedObjects": [
+      "airframe",
+      "cabin-door-left",
+      "cabin-door-right",
+      "main-blade-1",
+      "main-blade-2",
+      "main-blade-3",
+      "main-blade-4",
+      "main-gear-left",
+      "main-gear-right",
+      "main-rotor",
+      "stabilator",
+      "tail-rotor",
+      "tailwheel"
+    ],
+    "excludedObjects": [],
+    "visibleGeometryObjects": [
+      "airframe",
+      "cabin-door-left",
+      "cabin-door-right",
+      "main-blade-1",
+      "main-blade-2",
+      "main-blade-3",
+      "main-blade-4",
+      "main-gear-left",
+      "main-gear-right",
+      "main-rotor",
+      "stabilator",
+      "tail-rotor",
+      "tailwheel"
+    ],
+    "configuration": "early-uh60a-parked-cross",
+    "pose": "early-uh60a-parked-cross"
+  },
+  "aggregate": {
+    "passed": true,
+    "complete": true,
+    "reproducible": true,
+    "internallyConsistent": true,
+    "expectedBlockingCriterionCount": 30,
+    "reportedBlockingCriterionCount": 30,
+    "passedBlockingCriterionCount": 30,
+    "blockingFailureCriterionIds": []
+  },
+  "createdAt": "2026-11-21T05:02:56.350Z",
+  "resultHash": "bde5c97dd4d865a4dc86973ae819245e8a2007480c94f567c5a5e59d94d93e2c",
+  "evidencePath": "/home/gle/FormSeed3D/.formseed3d/staging/1743eee3-8ce6-48a9-a5e0-0a92ed406e9a/main/inspection/revision-20/asset-dimension-validation-bde5c97dd4d865a4dc86973ae819245e8a2007480c94f567c5a5e59d94d93e2c.json"
+}

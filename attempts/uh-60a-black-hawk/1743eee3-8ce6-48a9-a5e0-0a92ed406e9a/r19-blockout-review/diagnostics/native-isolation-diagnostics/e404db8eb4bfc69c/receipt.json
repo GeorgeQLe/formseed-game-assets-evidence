@@ -1,0 +1,2074 @@
+{
+  "implementationRevision": "native-rigid-isolation-v1",
+  "native": {
+    "profile": "native-rigid-isolation-v1",
+    "blenderVersion": "5.3.0",
+    "complete": true,
+    "unsupportedFeatures": [],
+    "objects": {
+      "airframe": {
+        "type": "MESH",
+        "objectSha256": "f9425eda14341fc8a403f3bbafd554b8c8d40dd89378241141068f151ca0fba7",
+        "contentSha256": "438e988b0440aaeb03526ee665d9500bb949fbf04553e64491e35fe609e43017",
+        "mesh": {
+          "sha256": "35bc3f7c131107b4558cee5d701f97bd213e7108edfe9bd1fb080e5f70e11491",
+          "users": [
+            "airframe"
+          ]
+        },
+        "materials": {
+          "army-olive": {
+            "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right",
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "stabilator",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "cockpit-glazing": {
+            "sha256": "0676319ce0cb15a73ce2069b5193618ae4d74686a4d2fdb3eb44436ebd38173c",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right"
+            ]
+          },
+          "rotor-and-rubber": {
+            "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+            "users": [
+              "airframe",
+              "main-blade-1",
+              "main-blade-2",
+              "main-blade-3",
+              "main-blade-4",
+              "main-gear-left",
+              "main-gear-right",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "cockpit-smoked-glazing": {
+            "sha256": "9da79da8e642fa7d6c234aae7a17199003c0905ce446236c5050aa76ac3d5c70",
+            "users": [
+              "airframe"
+            ]
+          }
+        }
+      },
+      "cabin-door-left": {
+        "type": "MESH",
+        "objectSha256": "87548f62a0af7fc5f4232e863d336c54a600d8c63ab97e855c883fe2780ee912",
+        "contentSha256": "718ecd06ce2154695885a0dd7adbd242b9fa2fd1f2b336f0c08c469a5f5f89e3",
+        "mesh": {
+          "sha256": "19ad6f4d3ab2335eb83d6825b13345e310c5f8cde55aab285467969cb25022c8",
+          "users": [
+            "cabin-door-left"
+          ]
+        },
+        "materials": {
+          "army-olive": {
+            "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right",
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "stabilator",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "cockpit-glazing": {
+            "sha256": "0676319ce0cb15a73ce2069b5193618ae4d74686a4d2fdb3eb44436ebd38173c",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right"
+            ]
+          }
+        }
+      },
+      "cabin-door-right": {
+        "type": "MESH",
+        "objectSha256": "dca989c44d1461ff83092ea2eaca76b2d212c2d8a245554294f7765cd81e7964",
+        "contentSha256": "b4fe6c91de0bce2438321830590389899746f8adb9c94823d2ea5648ecd8a055",
+        "mesh": {
+          "sha256": "7f98af6e63bd46c91e4be9a663d81ec136ec99aeeeeb3c4fe3e113b8a7acfdd9",
+          "users": [
+            "cabin-door-right"
+          ]
+        },
+        "materials": {
+          "army-olive": {
+            "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right",
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "stabilator",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "cockpit-glazing": {
+            "sha256": "0676319ce0cb15a73ce2069b5193618ae4d74686a4d2fdb3eb44436ebd38173c",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right"
+            ]
+          }
+        }
+      },
+      "main-blade-1": {
+        "type": "MESH",
+        "objectSha256": "d04f276b08048cb029b80ab705471474c0dfeca766b1a1db2b93bd4bead7c33b",
+        "contentSha256": "c9a543e83e1a5314f0901a15e960193131bb9b772a96d00d0dea05b234f95442",
+        "mesh": {
+          "sha256": "19d8e2fc6e2ea4a72d67b0d923f5b76736f0cc88f628e635dc84b6bd8aad9674",
+          "users": [
+            "main-blade-1"
+          ]
+        },
+        "materials": {
+          "rotor-and-rubber": {
+            "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+            "users": [
+              "airframe",
+              "main-blade-1",
+              "main-blade-2",
+              "main-blade-3",
+              "main-blade-4",
+              "main-gear-left",
+              "main-gear-right",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      },
+      "main-blade-2": {
+        "type": "MESH",
+        "objectSha256": "66a70a810e09140b3efccd37d4320bff454a25d0ea34daf2f58d3eb4f975c244",
+        "contentSha256": "6dc5fdc8800966c0a71b480709b768f8404903fc6fb4f663c78492a825fc83c6",
+        "mesh": {
+          "sha256": "bcac5d5cebd5e5264998870dcc4d27be707693e3039703fe02208fb0404b3736",
+          "users": [
+            "main-blade-2"
+          ]
+        },
+        "materials": {
+          "rotor-and-rubber": {
+            "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+            "users": [
+              "airframe",
+              "main-blade-1",
+              "main-blade-2",
+              "main-blade-3",
+              "main-blade-4",
+              "main-gear-left",
+              "main-gear-right",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      },
+      "main-blade-3": {
+        "type": "MESH",
+        "objectSha256": "01642e5cc4b5900585c75d9a9dcd297d826d7f5728f8f3e4f259cf208fb2a681",
+        "contentSha256": "af217c6aa9935620b79e97d7f6a7b045ce07fcd104a852feb4f495bc35a9cf6f",
+        "mesh": {
+          "sha256": "04b477e25db9bc60e0e191a910a798ee84012b0c23fd422e0dd05d63dfb67418",
+          "users": [
+            "main-blade-3"
+          ]
+        },
+        "materials": {
+          "rotor-and-rubber": {
+            "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+            "users": [
+              "airframe",
+              "main-blade-1",
+              "main-blade-2",
+              "main-blade-3",
+              "main-blade-4",
+              "main-gear-left",
+              "main-gear-right",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      },
+      "main-blade-4": {
+        "type": "MESH",
+        "objectSha256": "c11de64e297084927aeb0a4fb3b5fbb996312e6d6518b32c65013ff8622f28d8",
+        "contentSha256": "e6681b8b3517695a20fb076a0a70a5874506072005f5e868f38a927ae163fc01",
+        "mesh": {
+          "sha256": "04356578f5ec36e80cd1fd73b513e1bd40eb783268acb8f24b8e7dae792fdc7c",
+          "users": [
+            "main-blade-4"
+          ]
+        },
+        "materials": {
+          "rotor-and-rubber": {
+            "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+            "users": [
+              "airframe",
+              "main-blade-1",
+              "main-blade-2",
+              "main-blade-3",
+              "main-blade-4",
+              "main-gear-left",
+              "main-gear-right",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      },
+      "main-gear-left": {
+        "type": "MESH",
+        "objectSha256": "bf7fccb92fb6bd6321a979d1df101cb988660fd3bd4cef6a8941edae5a7c1e89",
+        "contentSha256": "ccbc1df358fb9fe5d7165dd6d42d9cf18a7a54aedd6a061d284487a960c63275",
+        "mesh": {
+          "sha256": "e87bc3f3344a1ab13569b775dc2a3f623eacb2cc243b8df8539e882d76ecad76",
+          "users": [
+            "main-gear-left"
+          ]
+        },
+        "materials": {
+          "army-olive": {
+            "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right",
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "stabilator",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "rotor-and-rubber": {
+            "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+            "users": [
+              "airframe",
+              "main-blade-1",
+              "main-blade-2",
+              "main-blade-3",
+              "main-blade-4",
+              "main-gear-left",
+              "main-gear-right",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "rotor-hub-metal": {
+            "sha256": "b99676cfab8cac43b3cb77671a9bfeb1412c1a87ae64a7ccdf139f04d018f0d1",
+            "users": [
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      },
+      "main-gear-right": {
+        "type": "MESH",
+        "objectSha256": "15327ca7e1a1d6ea3de7a24264667ea4bc809c49fe14af63e2e60d434a3ac22e",
+        "contentSha256": "bed79c00674c93fbfb5a64e8938c1f8c9feecb1756708cdb6f8bffafd3319d74",
+        "mesh": {
+          "sha256": "2d98457bbef215a3c1ce16d26a9e963ed882c3397ffe5ddb72678c87d99e42ec",
+          "users": [
+            "main-gear-right"
+          ]
+        },
+        "materials": {
+          "army-olive": {
+            "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right",
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "stabilator",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "rotor-and-rubber": {
+            "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+            "users": [
+              "airframe",
+              "main-blade-1",
+              "main-blade-2",
+              "main-blade-3",
+              "main-blade-4",
+              "main-gear-left",
+              "main-gear-right",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "rotor-hub-metal": {
+            "sha256": "b99676cfab8cac43b3cb77671a9bfeb1412c1a87ae64a7ccdf139f04d018f0d1",
+            "users": [
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      },
+      "main-rotor": {
+        "type": "MESH",
+        "objectSha256": "5f4c8c570f2fc1234ed4070e2e2e4d664bc39125c795a616e77533347e1fb958",
+        "contentSha256": "adfc905aa73989e828525e0b26967ad35d37b08c06b4f937412e965566dd96b7",
+        "mesh": {
+          "sha256": "2db765443b5288c561dc5566c51838602d6d73d15f395f2b44ecd08704305b05",
+          "users": [
+            "main-rotor"
+          ]
+        },
+        "materials": {
+          "rotor-hub-metal": {
+            "sha256": "b99676cfab8cac43b3cb77671a9bfeb1412c1a87ae64a7ccdf139f04d018f0d1",
+            "users": [
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "army-olive": {
+            "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right",
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "stabilator",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      },
+      "stabilator": {
+        "type": "MESH",
+        "objectSha256": "821b5644b5505c27ba53318e47f65891bfdfd216277eaa5aa850e6e744ea7bdd",
+        "contentSha256": "647266d8e23687df58533ee6ad27095378f1fc3b40d2d79036d2567a48442c8e",
+        "mesh": {
+          "sha256": "711950077524014e10680eaee3427281b13b02b768f85f37f1056407d31d7e64",
+          "users": [
+            "stabilator"
+          ]
+        },
+        "materials": {
+          "army-olive": {
+            "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right",
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "stabilator",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      },
+      "tail-rotor": {
+        "type": "MESH",
+        "objectSha256": "1175dde286399e56d49b9ed6b8f75247f94277df5735fbacc8fe25fd08069474",
+        "contentSha256": "90724c211786e89bad6ff93f3deaa92e78e73cb517251637e87bc081759acb4e",
+        "mesh": {
+          "sha256": "faca99abfd266eab1f6aacedf9db4f41dc68ebc8c1e81eca4191631c18400316",
+          "users": [
+            "tail-rotor"
+          ]
+        },
+        "materials": {
+          "rotor-and-rubber": {
+            "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+            "users": [
+              "airframe",
+              "main-blade-1",
+              "main-blade-2",
+              "main-blade-3",
+              "main-blade-4",
+              "main-gear-left",
+              "main-gear-right",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "rotor-hub-metal": {
+            "sha256": "b99676cfab8cac43b3cb77671a9bfeb1412c1a87ae64a7ccdf139f04d018f0d1",
+            "users": [
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "army-olive": {
+            "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right",
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "stabilator",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      },
+      "tailwheel": {
+        "type": "MESH",
+        "objectSha256": "e04d965412b6ccdff91e8b946f718e94ed2064ccbfdaf879441765f873f13e2e",
+        "contentSha256": "1fc62985f3e7cab4154a0626164ac929a41168ca15721e136fa7fac2fc62799f",
+        "mesh": {
+          "sha256": "3cdb2f812c5dbfdb056e234fe7c795e17f01eebe51f49dbcaaf347f5d2a32a7d",
+          "users": [
+            "tailwheel"
+          ]
+        },
+        "materials": {
+          "army-olive": {
+            "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+            "users": [
+              "airframe",
+              "cabin-door-left",
+              "cabin-door-right",
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "stabilator",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "rotor-and-rubber": {
+            "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+            "users": [
+              "airframe",
+              "main-blade-1",
+              "main-blade-2",
+              "main-blade-3",
+              "main-blade-4",
+              "main-gear-left",
+              "main-gear-right",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          },
+          "rotor-hub-metal": {
+            "sha256": "b99676cfab8cac43b3cb77671a9bfeb1412c1a87ae64a7ccdf139f04d018f0d1",
+            "users": [
+              "main-gear-left",
+              "main-gear-right",
+              "main-rotor",
+              "tail-rotor",
+              "tailwheel"
+            ]
+          }
+        }
+      }
+    },
+    "meshDatablocks": {
+      "airframe Mesh.001": {
+        "sha256": "35bc3f7c131107b4558cee5d701f97bd213e7108edfe9bd1fb080e5f70e11491",
+        "users": [
+          "airframe"
+        ]
+      },
+      "cabin-door-left Mesh": {
+        "sha256": "19ad6f4d3ab2335eb83d6825b13345e310c5f8cde55aab285467969cb25022c8",
+        "users": [
+          "cabin-door-left"
+        ]
+      },
+      "cabin-door-right Mesh": {
+        "sha256": "7f98af6e63bd46c91e4be9a663d81ec136ec99aeeeeb3c4fe3e113b8a7acfdd9",
+        "users": [
+          "cabin-door-right"
+        ]
+      },
+      "main-blade-1 Mesh": {
+        "sha256": "19d8e2fc6e2ea4a72d67b0d923f5b76736f0cc88f628e635dc84b6bd8aad9674",
+        "users": [
+          "main-blade-1"
+        ]
+      },
+      "main-blade-2 Mesh": {
+        "sha256": "bcac5d5cebd5e5264998870dcc4d27be707693e3039703fe02208fb0404b3736",
+        "users": [
+          "main-blade-2"
+        ]
+      },
+      "main-blade-3 Mesh": {
+        "sha256": "04b477e25db9bc60e0e191a910a798ee84012b0c23fd422e0dd05d63dfb67418",
+        "users": [
+          "main-blade-3"
+        ]
+      },
+      "main-blade-4 Mesh": {
+        "sha256": "04356578f5ec36e80cd1fd73b513e1bd40eb783268acb8f24b8e7dae792fdc7c",
+        "users": [
+          "main-blade-4"
+        ]
+      },
+      "main-gear-left Mesh.001": {
+        "sha256": "e87bc3f3344a1ab13569b775dc2a3f623eacb2cc243b8df8539e882d76ecad76",
+        "users": [
+          "main-gear-left"
+        ]
+      },
+      "main-gear-right Mesh.001": {
+        "sha256": "2d98457bbef215a3c1ce16d26a9e963ed882c3397ffe5ddb72678c87d99e42ec",
+        "users": [
+          "main-gear-right"
+        ]
+      },
+      "main-rotor Mesh.001": {
+        "sha256": "2db765443b5288c561dc5566c51838602d6d73d15f395f2b44ecd08704305b05",
+        "users": [
+          "main-rotor"
+        ]
+      },
+      "stabilator Mesh": {
+        "sha256": "711950077524014e10680eaee3427281b13b02b768f85f37f1056407d31d7e64",
+        "users": [
+          "stabilator"
+        ]
+      },
+      "tail-rotor Mesh": {
+        "sha256": "faca99abfd266eab1f6aacedf9db4f41dc68ebc8c1e81eca4191631c18400316",
+        "users": [
+          "tail-rotor"
+        ]
+      },
+      "tailwheel Mesh": {
+        "sha256": "3cdb2f812c5dbfdb056e234fe7c795e17f01eebe51f49dbcaaf347f5d2a32a7d",
+        "users": [
+          "tailwheel"
+        ]
+      }
+    },
+    "materialDatablocks": {
+      "army-olive": {
+        "sha256": "316c52a5451b8da646e620e9de0f60238d27db73c95e1a3eadea764e8314af28",
+        "users": [
+          "airframe",
+          "cabin-door-left",
+          "cabin-door-right",
+          "main-gear-left",
+          "main-gear-right",
+          "main-rotor",
+          "stabilator",
+          "tail-rotor",
+          "tailwheel"
+        ]
+      },
+      "cockpit-glazing": {
+        "sha256": "0676319ce0cb15a73ce2069b5193618ae4d74686a4d2fdb3eb44436ebd38173c",
+        "users": [
+          "airframe",
+          "cabin-door-left",
+          "cabin-door-right"
+        ]
+      },
+      "cockpit-smoked-glazing": {
+        "sha256": "9da79da8e642fa7d6c234aae7a17199003c0905ce446236c5050aa76ac3d5c70",
+        "users": [
+          "airframe"
+        ]
+      },
+      "rotor-and-rubber": {
+        "sha256": "b12eb8b7f49d85f020b1738fcc89a2643e7d095a58840124b940265ce930820b",
+        "users": [
+          "airframe",
+          "main-blade-1",
+          "main-blade-2",
+          "main-blade-3",
+          "main-blade-4",
+          "main-gear-left",
+          "main-gear-right",
+          "tail-rotor",
+          "tailwheel"
+        ]
+      },
+      "rotor-hub-metal": {
+        "sha256": "b99676cfab8cac43b3cb77671a9bfeb1412c1a87ae64a7ccdf139f04d018f0d1",
+        "users": [
+          "main-gear-left",
+          "main-gear-right",
+          "main-rotor",
+          "tail-rotor",
+          "tailwheel"
+        ]
+      }
+    },
+    "collectionsSha256": "8997df94da087251e46c4046e5a3a0b66172fbb77340798da258bb45cf8de839"
+  },
+  "probes": [
+    {
+      "component": "airframe",
+      "descendants": [
+        "cabin-door-left",
+        "cabin-door-right",
+        "main-blade-1",
+        "main-blade-2",
+        "main-blade-3",
+        "main-blade-4",
+        "main-gear-left",
+        "main-gear-right",
+        "main-rotor",
+        "stabilator",
+        "tail-rotor",
+        "tailwheel"
+      ],
+      "selection": {
+        "passed": true,
+        "observed": {
+          "active": "airframe",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      },
+      "hidden": {
+        "passed": true,
+        "unaffectedObjectsPreserved": true,
+        "proof": "effective-viewport-visibility",
+        "observed": {
+          "active": "airframe",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": false,
+              "hidden": true,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": false
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      },
+      "hideRender": {
+        "passed": true,
+        "unaffectedObjectsPreserved": true,
+        "proof": "render-flag-isolation-only",
+        "observed": {
+          "active": "airframe",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": true,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "component": "stabilator",
+      "descendants": [],
+      "selection": {
+        "passed": true,
+        "observed": {
+          "active": "stabilator",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      },
+      "hidden": {
+        "passed": true,
+        "unaffectedObjectsPreserved": true,
+        "proof": "effective-viewport-visibility",
+        "observed": {
+          "active": "airframe",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": true,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "hideRender": {
+        "passed": true,
+        "unaffectedObjectsPreserved": true,
+        "proof": "render-flag-isolation-only",
+        "observed": {
+          "active": "airframe",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": true,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "component": "tail-rotor",
+      "descendants": [],
+      "selection": {
+        "passed": true,
+        "observed": {
+          "active": "tail-rotor",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      },
+      "hidden": {
+        "passed": true,
+        "unaffectedObjectsPreserved": true,
+        "proof": "effective-viewport-visibility",
+        "observed": {
+          "active": "airframe",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": true,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": false
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      },
+      "hideRender": {
+        "passed": true,
+        "unaffectedObjectsPreserved": true,
+        "proof": "render-flag-isolation-only",
+        "observed": {
+          "active": "airframe",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": true,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "component": "tailwheel",
+      "descendants": [],
+      "selection": {
+        "passed": true,
+        "observed": {
+          "active": "tailwheel",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      },
+      "hidden": {
+        "passed": true,
+        "unaffectedObjectsPreserved": true,
+        "proof": "effective-viewport-visibility",
+        "observed": {
+          "active": "airframe",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": true,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": false
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      },
+      "hideRender": {
+        "passed": true,
+        "unaffectedObjectsPreserved": true,
+        "proof": "render-flag-isolation-only",
+        "observed": {
+          "active": "airframe",
+          "objects": {
+            "main-blade-1": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-2": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-3": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-blade-4": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "cabin-door-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tailwheel": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": true,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-right": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "main-gear-left": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "airframe": {
+              "selected": true,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "tail-rotor": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            },
+            "stabilator": {
+              "selected": false,
+              "hidden": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSelect": false,
+              "visible": true
+            }
+          }
+        }
+      }
+    }
+  ],
+  "statePreserved": true,
+  "stateSha256": "e01ed029a22034202f5e2a02f32667cba5e5eee6e6fae75badd202e5f320a60d",
+  "limitations": [
+    "Native Blender API state proof, not GUI click or rendered-pixel equivalence",
+    "Unsupported features invalidate complete native-content proof",
+    "No inverse-edit or continuous-motion claim",
+    "Attribute storage_type is an internal compression cache excluded from logical native content; RNA reads expand SINGLE to ARRAY. The worker is invalidated after this diagnostic; checkpoint bytes are never saved."
+  ],
+  "requestHash": "e404db8eb4bfc69cd9b2c4316456ab550876a55233ef68f2142386553b8c6243",
+  "producerIdentity": {
+    "format": "formseed-producer-source@1",
+    "sourceSha256": "522b08ecf71ead55b97484d1c81895fa88efdba200d87eb82e46102d559ff601",
+    "workerFiles": {
+      "formseed3d_worker_bootstrap.py": "9653250c054aea83bbba9c09ae3ef7099c7b0adb5521b198145020b735318872",
+      "text2blended_bridge/__init__.py": "ce598b47ea639d98e08046b2a51287319e4645c28beb904490ab75fe34597159",
+      "text2blended_bridge/component_masks.py": "ebbfa5f202d63022d6a5fe5f16a446e8093014024803f367c6349bf0d690ada2",
+      "text2blended_bridge/review_glb.py": "e604f1193a54f85a201cfb6acd0c8b4d23c4f8ddaf25da141e61881ebe3e5a66",
+      "text2blended_bridge/closeups.py": "0681c006259ddf4254535635db72f410ada9e7d57bfc149bfb8db4c172f04945",
+      "text2blended_bridge/native_isolation.py": "cff3026078e0730a535accbc2875c6ab5848472338f26cc3c65d0fe5b4692916",
+      "text2blended_bridge/appearance.py": "6f93d3da3dce5fed8a4b64f400b6d741cdbce4b82095c27c569af76093d25f04",
+      "text2blended_bridge/texture_material.py": "1a070ec239440df185ffce8541a6544fd02c718288afaf8d724d6da9e1a92db3",
+      "text2blended_bridge/scoped_source_copy.py": "891f53a39ed7309f025cd0613ebdcd17c7ecba910ddab325804f32f110b9e48f",
+      "text2blended_bridge/mesh_extraction.py": "759f558872694c4a77adb9dd28f6e183c8435ac5b8f9be426bcde41e4bb4265d",
+      "text2blended_bridge/track_loop.py": "3b9980cc8b20892a7c7df5cd9e4c4128e2f437234a446db29db7bf30171f4d39"
+    }
+  },
+  "jobId": "1743eee3-8ce6-48a9-a5e0-0a92ed406e9a",
+  "branchId": "main",
+  "revision": 19,
+  "checkpoint": {
+    "checkpointId": "ef2ee2a6-eda5-4508-9760-60aa442e5bb4",
+    "checkpointHash": "1cc99a04a7d06c36a3dd29b7efb544c4c65588a7841f6af35d521acbb669ba91"
+  },
+  "diagnosticOnly": true,
+  "approved": false,
+  "capabilityVersion": "native-isolation@1.0.0"
+}

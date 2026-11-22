@@ -1,0 +1,555 @@
+{
+  "implementationRevision": "closeup-subject-space-v1",
+  "cameraConvention": "subject-space-v1",
+  "renderer": {
+    "engine": "BLENDER_WORKBENCH",
+    "blenderVersion": "5.3.0",
+    "lighting": {
+      "light": "STUDIO",
+      "studioLight": "paint.sl",
+      "rotationZ": 0,
+      "worldSpace": false
+    },
+    "colorType": "MATERIAL",
+    "shadows": false,
+    "cavity": false,
+    "specular": false,
+    "antiAliasing": "OFF",
+    "transparentBackground": true,
+    "colorManagement": {
+      "viewTransform": "AgX",
+      "look": "None",
+      "exposure": 0,
+      "gamma": 1,
+      "displayDevice": "sRGB"
+    }
+  },
+  "baseColorSource": "material",
+  "neighbourPolicy": "all-render-visible-meshes-retained",
+  "assemblyWorldBounds": {
+    "min": [
+      -8.178799629211426,
+      0,
+      -9.887860298156738
+    ],
+    "max": [
+      8.178799629211426,
+      5.130800724029541,
+      9.887860298156738
+    ]
+  },
+  "renderedPixelsPerPass": 480000,
+  "views": [
+    {
+      "name": "cockpit-port",
+      "path": "/home/gle/FormSeed3D/.formseed3d/staging/1743eee3-8ce6-48a9-a5e0-0a92ed406e9a/closeup-diagnostics/closeup-subject-space-v1/21afe87719d44660c469b50cc98c9e700a353a5888817e80292bae3ba69b15d8/pass-2/cockpit-port.png",
+      "sha256": "36a21ad0279ae1d42668feda6144ae6033b10888166275df1093aa198449a4b6",
+      "pixelHash": "8b30efdc35070609c585ee8b00a13ec1b2f3257bb639af7e76ad45539da3fdbc",
+      "resolution": {
+        "width": 800,
+        "height": 600
+      },
+      "target": {
+        "kind": "point",
+        "center": [
+          0,
+          1.6,
+          -4.6
+        ],
+        "radiusMeters": 1.9,
+        "resolvedMeshes": [],
+        "worldBounds": {
+          "min": [
+            -1.899999976158142,
+            -0.2999999523162842,
+            -6.5
+          ],
+          "max": [
+            1.899999976158142,
+            3.5,
+            -2.6999998092651367
+          ]
+        },
+        "worldCenter": [
+          0,
+          1.600000023841858,
+          -4.599999904632568
+        ],
+        "projected": {
+          "pixelBounds": {
+            "left": 148.874,
+            "top": 24,
+            "right": 651.126,
+            "bottom": 576
+          },
+          "pixelExtent": {
+            "width": 502.252,
+            "height": 552
+          },
+          "frameMarginsPixels": {
+            "left": 148.874,
+            "right": 148.874,
+            "top": 24,
+            "bottom": 24
+          },
+          "fullyInFrame": true,
+          "withinClipRange": true
+        },
+        "pixelsPerMeterAtTargetCenter": 132.171523
+      },
+      "camera": {
+        "projection": "orthographic",
+        "orientation": {
+          "azimuthDegrees": 270,
+          "elevationDegrees": 6,
+          "rollDegrees": 0
+        },
+        "marginFraction": 0.04,
+        "distanceMeters": 27.322370340512148,
+        "location": [
+          -27.172697067260742,
+          4.455965518951416,
+          -4.599999904632568
+        ],
+        "matrixWorld": [
+          -4.371138828673793e-8,
+          0.10452845692634583,
+          -0.9945219159126282,
+          -27.172697067260742,
+          0,
+          0.9945219159126282,
+          0.10452845692634583,
+          4.455965518951416,
+          1,
+          4.569084222083575e-9,
+          -4.3471935384786775e-8,
+          -4.599999904632568,
+          0,
+          0,
+          0,
+          1
+        ],
+        "lensMillimeters": null,
+        "sensorWidthMillimeters": 36,
+        "sensorFit": "HORIZONTAL",
+        "orthoScale": 6.052741050720215,
+        "clipStart": 0.009999999776482582,
+        "clipEnd": 53.54654312133789
+      },
+      "clipping": {
+        "targetClipped": false,
+        "imageEdgeCoverage": true,
+        "imageMargins": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 69
+        },
+        "method": "evaluated-bounding-box-depths",
+        "nearPlaneIntersected": [],
+        "excludedBeforeNearPlane": [],
+        "farPlaneIntersected": [],
+        "excludedBeyondFarPlane": []
+      },
+      "reviewCapture": {
+        "path": "/home/gle/FormSeed3D/.formseed3d/staging/1743eee3-8ce6-48a9-a5e0-0a92ed406e9a/closeup-diagnostics/closeup-subject-space-v1/21afe87719d44660c469b50cc98c9e700a353a5888817e80292bae3ba69b15d8/pass-2/cockpit-port.png",
+        "sha256": "36a21ad0279ae1d42668feda6144ae6033b10888166275df1093aa198449a4b6",
+        "width": 800,
+        "height": 600,
+        "camera": {
+          "viewMatrix": [
+            -4.371139183945161e-8,
+            0,
+            1,
+            4.599998950958252,
+            0.10452845692634583,
+            0.9945219159126282,
+            4.569083777994365e-9,
+            -1.5912351608276367,
+            -0.9945219159126282,
+            0.10452845692634583,
+            -4.3471935384786775e-8,
+            -27.48961639404297,
+            0,
+            0,
+            0,
+            1
+          ],
+          "projectionMatrix": [
+            0.330428808927536,
+            0,
+            0,
+            0,
+            0,
+            0.44057175517082214,
+            0,
+            0,
+            0,
+            0,
+            -0.03735765814781189,
+            -1.0003734827041626,
+            0,
+            0,
+            0,
+            1
+          ],
+          "projection": "orthographic"
+        },
+        "frame": null,
+        "objectWorldBounds": {
+          "main-blade-1": {
+            "min": [
+              -0.2800000011920929,
+              3.3420000076293945,
+              -9.887860298156738
+            ],
+            "max": [
+              0.26350000500679016,
+              3.7872002124786377,
+              -1.904860019683838
+            ]
+          },
+          "main-blade-2": {
+            "min": [
+              0.1899999976158142,
+              3.682000160217285,
+              -1.9948599338531494
+            ],
+            "max": [
+              8.178799629211426,
+              3.7872002124786377,
+              -1.4513599872589111
+            ]
+          },
+          "main-blade-3": {
+            "min": [
+              -0.26350000500679016,
+              3.7260000705718994,
+              -1.52485990524292
+            ],
+            "max": [
+              0.2800000011920929,
+              4.088000297546387,
+              6.4581403732299805
+            ]
+          },
+          "main-blade-4": {
+            "min": [
+              -8.178799629211426,
+              3.682000160217285,
+              -1.9783599376678467
+            ],
+            "max": [
+              -0.1899999976158142,
+              3.7872002124786377,
+              -1.4348599910736084
+            ]
+          },
+          "main-gear-left": {
+            "min": [
+              -1.4808199405670166,
+              0,
+              -3.240000009536743
+            ],
+            "max": [
+              -0.7970520853996277,
+              1.100000023841858,
+              -2.620000123977661
+            ]
+          },
+          "main-gear-right": {
+            "min": [
+              0.7970520853996277,
+              0,
+              -3.240000009536743
+            ],
+            "max": [
+              1.4808199405670166,
+              1.100000023841858,
+              -2.620000123977661
+            ]
+          },
+          "tailwheel": {
+            "min": [
+              -0.09749999642372131,
+              0,
+              5.682850360870361
+            ],
+            "max": [
+              0.09749999642372131,
+              1.0099999904632568,
+              6.19035005569458
+            ]
+          },
+          "tail-rotor": {
+            "min": [
+              -0.21836256980895996,
+              1.9801993370056152,
+              6.535059928894043
+            ],
+            "max": [
+              0.9783625602722168,
+              5.130800724029541,
+              9.887860298156738
+            ]
+          },
+          "stabilator": {
+            "min": [
+              -2.184000015258789,
+              0.9909999966621399,
+              7.244999885559082
+            ],
+            "max": [
+              2.184000015258789,
+              1.8680000305175781,
+              8.256000518798828
+            ]
+          },
+          "cabin-door-left": {
+            "min": [
+              -1.225000023841858,
+              0.7100000381469727,
+              -2.6600000858306885
+            ],
+            "max": [
+              -1.0750000476837158,
+              2.1100001335144043,
+              -0.8100000023841858
+            ]
+          },
+          "cabin-door-right": {
+            "min": [
+              1.0750000476837158,
+              0.7100000381469727,
+              -2.6600000858306885
+            ],
+            "max": [
+              1.225000023841858,
+              2.1100001335144043,
+              -0.8100000023841858
+            ]
+          },
+          "airframe": {
+            "min": [
+              -1.1959999799728394,
+              0.49000000953674316,
+              -6.309999942779541
+            ],
+            "max": [
+              1.1959999799728394,
+              3.619999885559082,
+              8.930000305175781
+            ]
+          },
+          "main-rotor": {
+            "min": [
+              -0.8600000143051147,
+              3.1792001724243164,
+              -2.574860095977783
+            ],
+            "max": [
+              0.8600000143051147,
+              3.899200201034546,
+              -0.8548599481582642
+            ]
+          }
+        },
+        "visibilityContext": {
+          "scene": "Scene",
+          "viewLayer": "ViewLayer",
+          "enabledViewLayers": [
+            "ViewLayer"
+          ],
+          "collectionPaths": [
+            {
+              "path": [
+                "Scene Collection"
+              ],
+              "exclude": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "layerHideViewport": false,
+              "holdout": false,
+              "indirectOnly": false
+            },
+            {
+              "path": [
+                "Scene Collection",
+                "Collection"
+              ],
+              "exclude": false,
+              "hideRender": false,
+              "hideViewport": false,
+              "layerHideViewport": false,
+              "holdout": false,
+              "indirectOnly": false
+            }
+          ],
+          "renderObjects": [
+            "FormSeed3D temporary close-up camera",
+            "airframe",
+            "cabin-door-left",
+            "cabin-door-right",
+            "main-blade-1",
+            "main-blade-2",
+            "main-blade-3",
+            "main-blade-4",
+            "main-gear-left",
+            "main-gear-right",
+            "main-rotor",
+            "stabilator",
+            "tail-rotor",
+            "tailwheel"
+          ],
+          "objectFlags": {
+            "FormSeed3D temporary close-up camera": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "main-blade-1": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "main-blade-2": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "main-blade-3": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "main-blade-4": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "main-gear-left": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "main-gear-right": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "tailwheel": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "tail-rotor": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "stabilator": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "cabin-door-left": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "cabin-door-right": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "airframe": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            },
+            "main-rotor": {
+              "hideRender": false,
+              "hideViewport": false,
+              "hideSet": false
+            }
+          }
+        }
+      }
+    }
+  ],
+  "renderHash": "1cbdf6d40d560ffdf477275120e49dc10c53bc65f0dfe7507039ca6ca8282d78",
+  "deterministic": true,
+  "mismatches": [],
+  "statePreserved": true,
+  "sceneFingerprint": "87a3c52f44b4618c99deb0611bbf6ba59354fffab6d8e0c0067682278434409c",
+  "recordType": "formseed3d-closeup-render-receipt",
+  "capabilityVersion": "asset-closeups@1.0.0",
+  "evidenceClass": "diagnostic-closeup",
+  "qualifiesProductionGate": false,
+  "reviewOnly": true,
+  "approved": false,
+  "baselineChanged": false,
+  "sourceGeometryChanged": false,
+  "jobId": "1743eee3-8ce6-48a9-a5e0-0a92ed406e9a",
+  "branchId": "main",
+  "revision": 11,
+  "checkpoint": {
+    "checkpointId": "c1ed0e50-3b01-4223-bb5c-868572b907e6",
+    "checkpointHash": "cdd9b4325c3b672bf82240426a15237671ab9220bda5e0f46385c06f59fc8e2f"
+  },
+  "request": {
+    "jobId": "1743eee3-8ce6-48a9-a5e0-0a92ed406e9a",
+    "branchId": "main",
+    "expectedRevision": 11,
+    "checkpoint": {
+      "checkpointId": "c1ed0e50-3b01-4223-bb5c-868572b907e6",
+      "checkpointHash": "cdd9b4325c3b672bf82240426a15237671ab9220bda5e0f46385c06f59fc8e2f"
+    },
+    "views": [
+      {
+        "name": "cockpit-port",
+        "target": {
+          "kind": "point",
+          "center": [
+            0,
+            1.6,
+            -4.6
+          ],
+          "radiusMeters": 1.9
+        },
+        "orientation": {
+          "azimuthDegrees": 270,
+          "elevationDegrees": 6,
+          "rollDegrees": 0
+        },
+        "projection": "orthographic",
+        "marginFraction": 0.04,
+        "resolution": {
+          "width": 800,
+          "height": 600
+        }
+      }
+    ],
+    "transparentBackground": true,
+    "runtimeLod": null
+  },
+  "requestHash": "21afe87719d44660c469b50cc98c9e700a353a5888817e80292bae3ba69b15d8",
+  "dimensionSpecificationSha256": "f24ec8d313faf2bc57ba2674874b8b1b83d7ce8c7b0690490bd866c32a0e4940",
+  "producerIdentity": {
+    "format": "formseed-producer-source@1",
+    "sourceSha256": "522b08ecf71ead55b97484d1c81895fa88efdba200d87eb82e46102d559ff601",
+    "workerFiles": {
+      "formseed3d_worker_bootstrap.py": "9653250c054aea83bbba9c09ae3ef7099c7b0adb5521b198145020b735318872",
+      "text2blended_bridge/__init__.py": "ce598b47ea639d98e08046b2a51287319e4645c28beb904490ab75fe34597159",
+      "text2blended_bridge/component_masks.py": "ebbfa5f202d63022d6a5fe5f16a446e8093014024803f367c6349bf0d690ada2",
+      "text2blended_bridge/review_glb.py": "e604f1193a54f85a201cfb6acd0c8b4d23c4f8ddaf25da141e61881ebe3e5a66",
+      "text2blended_bridge/closeups.py": "0681c006259ddf4254535635db72f410ada9e7d57bfc149bfb8db4c172f04945",
+      "text2blended_bridge/native_isolation.py": "cff3026078e0730a535accbc2875c6ab5848472338f26cc3c65d0fe5b4692916",
+      "text2blended_bridge/appearance.py": "6f93d3da3dce5fed8a4b64f400b6d741cdbce4b82095c27c569af76093d25f04",
+      "text2blended_bridge/texture_material.py": "1a070ec239440df185ffce8541a6544fd02c718288afaf8d724d6da9e1a92db3",
+      "text2blended_bridge/scoped_source_copy.py": "891f53a39ed7309f025cd0613ebdcd17c7ecba910ddab325804f32f110b9e48f",
+      "text2blended_bridge/mesh_extraction.py": "759f558872694c4a77adb9dd28f6e183c8435ac5b8f9be426bcde41e4bb4265d",
+      "text2blended_bridge/track_loop.py": "3b9980cc8b20892a7c7df5cd9e4c4128e2f437234a446db29db7bf30171f4d39"
+    }
+  }
+}
