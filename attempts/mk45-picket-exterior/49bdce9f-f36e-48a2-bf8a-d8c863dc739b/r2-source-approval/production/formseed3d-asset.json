@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "2.0.0",
+  "assetId": "mk45-picket-exterior",
+  "revisionId": "mk45-picket-exterior-r2",
+  "createdAt": "2026-11-22T15:52:15.576Z",
+  "source": {
+    "blend": "revision-2/source/mk45-picket-exterior.blend",
+    "glb": "revision-2/source/mk45-picket-exterior.glb"
+  },
+  "dimensions": {
+    "x": 3.359999895095825,
+    "y": 7.289999008178711,
+    "z": 2.710700750350952
+  },
+  "pivot": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "counts": {
+    "triangles": 1228,
+    "materials": 4,
+    "objects": 4,
+    "textures": 1
+  },
+  "provenance": [
+    {
+      "uri": "https://www.dvidshub.net/video/924451/uss-carney-ddg-64-transits-yorktown-mayport",
+      "attribution": "U.S. Navy, Eric Shorter, May 17 2024. M2 00:24, 01:12, 01:20, 01:32.",
+      "license": "DVIDS public domain notice"
+    },
+    {
+      "uri": "https://www.dvidshub.net/image/8396634/uss-carney-ddg-64-visits-naval-station-norfolk",
+      "attribution": "U.S. Navy, Manvir Gill, May 10 2024. M5 aft silhouette.",
+      "license": "DVIDS public domain notice"
+    },
+    {
+      "uri": "https://www.dvidshub.net/image/8062929/uss-carney-ddg-64-conducts-pacfire",
+      "attribution": "U.S. Navy, Aaron Lau, October 3 2023. S2 same-hull forward housing shape only.",
+      "license": "DVIDS public domain notice"
+    }
+  ],
+  "validation": {
+    "reportId": "ec7802c2-4f1b-42e2-95d7-70e224681ebb",
+    "passed": true,
+    "reproducible": true,
+    "blockingIssueCodes": [],
+    "advisoryIssueCodes": []
+  },
+  "renderSets": [
+    {
+      "name": "standalone",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 800,
+        "height": 550
+      },
+      "transparentBackground": false,
+      "lightingIntent": "Inspect the clean paint and exact standalone form.",
+      "renderSetHash": "84f72b3d518c11bc6b570b2bf0633c9c392a80b49bfb7a8ed366217b894e40cb",
+      "views": [
+        {
+          "name": "port-side",
+          "path": "renders/revision-2/production/run-wj78XM/pass-2/standalone/port-side.png",
+          "sha256": "e90f5564419ce277b0e1537fdbb0f80c2e2b47f793e8690c14da509003f2b7e0",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "bow-quarter",
+          "path": "renders/revision-2/production/run-wj78XM/pass-2/standalone/bow-quarter.png",
+          "sha256": "e90cdc776e2a9b731d5d801f0f90f5bbf7b73922d8649b06d7d171b19e4c6471",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "aft-quarter",
+          "path": "renders/revision-2/production/run-wj78XM/pass-2/standalone/aft-quarter.png",
+          "sha256": "e92be3fe94ab0f4c8392303d1c5d83d95158503517ff1c1daeb7084ec4420de1",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "renders/revision-2/production/run-wj78XM/pass-2/standalone/port-side.png": "e90f5564419ce277b0e1537fdbb0f80c2e2b47f793e8690c14da509003f2b7e0",
+    "renders/revision-2/production/run-wj78XM/pass-2/standalone/bow-quarter.png": "e90cdc776e2a9b731d5d801f0f90f5bbf7b73922d8649b06d7d171b19e4c6471",
+    "renders/revision-2/production/run-wj78XM/pass-2/standalone/aft-quarter.png": "e92be3fe94ab0f4c8392303d1c5d83d95158503517ff1c1daeb7084ec4420de1",
+    "revision-2/source/mk45-picket-exterior.blend": "634b5ae484afafab0bcb7f57746fd51b9011c0db03c52e1b5d3e997ea5bba6f0",
+    "revision-2/source/mk45-picket-exterior.glb": "3ca000afac1585934383e5031721330f867ddb26f6499fb044082cee1f4e3f12"
+  }
+}

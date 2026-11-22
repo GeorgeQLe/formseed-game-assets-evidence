@@ -1,0 +1,127 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "mk45-picket-exterior",
+  "project": "chance-of-missiles",
+  "producer": {
+    "kind": "formseed3d",
+    "buildVersion": "0.2.0+codex.20261121023059"
+  },
+  "job": {
+    "jobId": "49bdce9f-f36e-48a2-bf8a-d8c863dc739b",
+    "revision": 2,
+    "checkpointSha256": "807d9ad5baf012d2399831286c54f4f7757c48b8a599819dc57d344f4197aae1"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "2eb94669ba41cb775faf26d2e35cc36885cfdb0aea3b6de40051d2c17a5cb655",
+    "dimensionReportHash": "d258b9fd9d31695b87b1b74c7e78a7ff84d45cc02713ed11780dd3f096cde230",
+    "labeledSheet": {
+      "path": "review/confirmed.png",
+      "sha256": "9ef127adc0202c21c3659846ea89b83606129f5a43493f439bea727e26bc2274",
+      "bytes": 954519
+    },
+    "files": [
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "68c716ddbda5bc24448154c6fa04a2a76122ea71e8ee04a8753d874f3aed1f3e",
+        "bytes": 3519
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "75160c7ef19f9d153c2627f525aa35dbc473c1fdaef573712eef5ad8d59b1acd",
+        "bytes": 505
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "0a9b4186b2f435213c54428540dae451bfb0b96eca2de1abd579e255c759b7c2",
+        "bytes": 293
+      },
+      {
+        "path": "source/mk45-picket-exterior.blend",
+        "sha256": "634b5ae484afafab0bcb7f57746fd51b9011c0db03c52e1b5d3e997ea5bba6f0",
+        "bytes": 129481
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "3ca000afac1585934383e5031721330f867ddb26f6499fb044082cee1f4e3f12",
+        "bytes": 45792
+      },
+      {
+        "path": "review/views/port-side.png",
+        "sha256": "e90f5564419ce277b0e1537fdbb0f80c2e2b47f793e8690c14da509003f2b7e0",
+        "bytes": 265589
+      },
+      {
+        "path": "review/views/bow-quarter.png",
+        "sha256": "e90cdc776e2a9b731d5d801f0f90f5bbf7b73922d8649b06d7d171b19e4c6471",
+        "bytes": 272943
+      },
+      {
+        "path": "review/views/aft-quarter.png",
+        "sha256": "e92be3fe94ab0f4c8392303d1c5d83d95158503517ff1c1daeb7084ec4420de1",
+        "bytes": 276754
+      },
+      {
+        "path": "production/authority/approval.json",
+        "sha256": "9d90255f9ab55e2fc2a182c42843855ef2ed5706460bd8cbb894319c7cbff4c7",
+        "bytes": 516
+      },
+      {
+        "path": "production/authority/completion.json",
+        "sha256": "0f7545a3b14f44f301abcc047b54bd909ee1e41bbf3e8c8bbd64ad8de4cfefc3",
+        "bytes": 283
+      },
+      {
+        "path": "production/authority/promotion.json",
+        "sha256": "c9e518ce46153f3c532be319889ce009a462dbd640636f08ab76a7f4c1c988f9",
+        "bytes": 481
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "9ef127adc0202c21c3659846ea89b83606129f5a43493f439bea727e26bc2274",
+        "bytes": 954519
+      }
+    ]
+  },
+  "inputs": {
+    "dimensionSpecificationSha256": "531223bb7bd57c640f5e8f1c7f3113e47bac90921d1fd75433f03455d3e02c75",
+    "references": [
+      {
+        "uri": "https://www.dvidshub.net/video/924451/uss-carney-ddg-64-transits-yorktown-mayport",
+        "sha256": "8c0888f366d79361cec69d9842b44581acc4eddd5cc4b9774b96ec1b45352a78",
+        "author": "U.S. Navy, Eric Shorter, May 17 2024. M2 00:24, 01:12, 01:20, 01:32.",
+        "license": "DVIDS public domain notice",
+        "role": "Primary May 2024 views"
+      },
+      {
+        "uri": "https://www.dvidshub.net/image/8396634/uss-carney-ddg-64-visits-naval-station-norfolk",
+        "sha256": "6487a079a5336193d09744679342904b7c180106a9c6944bbd5e10e7bc716aa7",
+        "author": "U.S. Navy, Manvir Gill, May 10 2024. M5 aft silhouette.",
+        "license": "DVIDS public domain notice",
+        "role": "May 2024 aft silhouette"
+      },
+      {
+        "uri": "https://www.dvidshub.net/image/8062929/uss-carney-ddg-64-conducts-pacfire",
+        "sha256": "8c39ddf288dfac6a34f082fda3fb96b2d884a5d3a0039eed3d01e1e21864c800",
+        "author": "U.S. Navy, Aaron Lau, October 3 2023. S2 same-hull forward housing shape only.",
+        "license": "DVIDS public domain notice",
+        "role": "Supplemental same-hull forward silhouette"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-22T15:58:00.677Z"
+  },
+  "notes": [
+    "First confirmed standalone static exterior for Chance of Missiles.",
+    "PK-04 records that the precise subvariant remains uncertain. Fine fittings and markings are omitted."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
