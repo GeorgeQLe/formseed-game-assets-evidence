@@ -1,0 +1,112 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "uh-60a-black-hawk-high-detail-master",
+  "project": "daisenjutsu",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "a4b4eea8-dfa7-4970-9943-945774d5644f",
+    "revision": 0,
+    "checkpointSha256": "f95d32dc51eee28340233bb1ea236014f79937802df5e88b9de46dfda5f560d5"
+  },
+  "gate": "blockout-review",
+  "evidence": {
+    "dimensionReportHash": "6230e20b2b3cf3c44a6c63b7076546807ba5bac7234c2095108f733729ffe3f4",
+    "labeledSheet": {
+      "path": "review/labeled-sheet.png",
+      "sha256": "d9476af2c4f0df18bfc327100d422df77cc347c09d22d76fdf6b660cfd8091b7",
+      "bytes": 608321
+    },
+    "files": [
+      {
+        "path": "views/front-quarter.png",
+        "sha256": "75e38795040e49bd309044ffaf38110ee25d666071f5533695d6c3d4a0dda809",
+        "bytes": 187394
+      },
+      {
+        "path": "views/front.png",
+        "sha256": "ee2411c32e62c248f57fdb5490911803914e207d26dc5c49d6a2fc717da2066a",
+        "bytes": 177610
+      },
+      {
+        "path": "views/opposite-front-quarter.png",
+        "sha256": "c7d82efcb24177c9fc506d75844d8be930d2104f558d90344870e7b8aa3a09b5",
+        "bytes": 186887
+      },
+      {
+        "path": "views/opposite-rear-quarter.png",
+        "sha256": "68102ccdb1f3938c33a31b6b12874e0f17fd9a292e6d1f903e05e28de02cf909",
+        "bytes": 186515
+      },
+      {
+        "path": "views/opposite-side.png",
+        "sha256": "b93ee336a1485256c583bfab563816ca9bf1f0121e2d2bba87efbc6320636c81",
+        "bytes": 182468
+      },
+      {
+        "path": "views/rear-quarter.png",
+        "sha256": "7d7d36fa68eb6c96e9cfab635e2b3300b55bfd04a95f7920f1468a90a5f78a76",
+        "bytes": 185936
+      },
+      {
+        "path": "views/rear.png",
+        "sha256": "9022001180d2a01078fb51fae59693b49679de9510f4f5acacbb2e2b88a80a88",
+        "bytes": 177801
+      },
+      {
+        "path": "views/side.png",
+        "sha256": "4422986ea7ddc8ed2fe7612cd191e6ba1a4e4dc8d5c8104f81905717f0a11c7d",
+        "bytes": 182967
+      },
+      {
+        "path": "views/top.png",
+        "sha256": "84688f5b9d59e9b6e2cef808b5544ac7e203b0e319a714871cf77eb4da0bc56f",
+        "bytes": 188057
+      },
+      {
+        "path": "views/underbody.png",
+        "sha256": "1bcd7aab796a48c0866c2f3be0f3db8aa67cdb60be766c8951e61b9be8e9b932",
+        "bytes": 184165
+      },
+      {
+        "path": "review/labeled-sheet.png",
+        "sha256": "d9476af2c4f0df18bfc327100d422df77cc347c09d22d76fdf6b660cfd8091b7",
+        "bytes": 608321
+      }
+    ]
+  },
+  "inputs": {
+    "references": [
+      {
+        "uri": "https://commons.wikimedia.org/wiki/File:A_soldier_runs_toward_a_UH-60_Black_Hawk_(Blackhawk)_helicopter_in_a_landing_zone_near_a_medical_facility_during_Operation_Desert_Shield_-_DPLA_-_27efca5a8643dc37e03781a7346ce7e8.jpeg",
+        "sha256": "ffec35132805b89573a87020f0d6ef0d4c98ced3bf0835fd59b26b6c9cb47c0d",
+        "author": "Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994",
+        "license": "Public domain",
+        "role": "1991 Desert Shield | starboard medevac"
+      },
+      {
+        "uri": "https://nara.getarchive.net/media/a-uh-60a-black-hawk-blackhawk-helicopter-is-refueled-during-exercise-gallant-45d555",
+        "sha256": "78ed365f120cd221bd535c1eab12c0c70863f64f443d182a4e6f4edf905bcb1b",
+        "author": "TSgt. Jose Lopez, U.S. National Archives, Exercise Gallant Eagle '86; U.S. government/public domain",
+        "license": "U.S. government public domain",
+        "role": "1986 Gallant Eagle | port side, early plain exhaust"
+      }
+    ]
+  },
+  "outcome": {
+    "status": "rejected",
+    "decidedBy": "George",
+    "decidedAt": "2026-11-23T04:42:15.714Z",
+    "quote": "let's start from scratch for the high detailed master. Reject all these revisions, I want to start over with trace on the reference photos."
+  },
+  "notes": [
+    "Inherited starting geometry rejected for the high-detail master."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
