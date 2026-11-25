@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "2.0.0",
+  "assetId": "de-warnkreuz",
+  "revisionId": "de-warnkreuz-r0",
+  "createdAt": "2026-11-25T03:08:18.941Z",
+  "source": {
+    "blend": "checkpoints/revision-0.blend",
+    "glb": "checkpoints/reviewed-runtime.glb"
+  },
+  "dimensions": {
+    "x": 1.2599999904632568,
+    "y": 0.11400000005960464,
+    "z": 3.3320000171661377
+  },
+  "pivot": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "counts": {
+    "triangles": 224,
+    "materials": 3,
+    "objects": 6,
+    "textures": 1
+  },
+  "provenance": [
+    {
+      "uri": "https://github.com/GeorgeQLe/formseed-game-assets/issues/95",
+      "attribution": "FormSeed issue #95 and the approved R3.1 package",
+      "license": "Project-owned scenery and source evidence"
+    }
+  ],
+  "validation": {
+    "reportId": "5f68a232-bf30-4547-b4db-d4fa215c13e4",
+    "passed": true,
+    "reproducible": true,
+    "blockingIssueCodes": [],
+    "advisoryIssueCodes": []
+  },
+  "renderSets": [
+    {
+      "name": "close",
+      "projection": "orthographic",
+      "resolution": {
+        "width": 768,
+        "height": 768
+      },
+      "transparentBackground": false,
+      "lightingIntent": "Neutral review of face, back and depth",
+      "renderSetHash": "92f20f26a4feff3fba022c65ac47b98ae81bf10af27f6126fc4791280b65c7d4",
+      "views": [
+        {
+          "name": "front",
+          "path": "renders/revision-0/production/run-N6D4Zs/pass-2/close/front.png",
+          "sha256": "e3a9a2355b3f5198c86afed4384d88179179a8c405a5dd077e3d28274f48ebf3",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "side",
+          "path": "renders/revision-0/production/run-N6D4Zs/pass-2/close/side.png",
+          "sha256": "97121f5b14e5b34b7ce898af91033ffe2f30d05d81f16dd15139a752a67e8276",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        },
+        {
+          "name": "reverse",
+          "path": "renders/revision-0/production/run-N6D4Zs/pass-2/close/reverse.png",
+          "sha256": "13ce55985d4c57c5d0a523f87a39e8bf7a1ee28f953f9945fc9eda566b0a52e6",
+          "frameBoundaryClipped": false,
+          "advisories": []
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "renders/revision-0/production/run-N6D4Zs/pass-2/close/front.png": "e3a9a2355b3f5198c86afed4384d88179179a8c405a5dd077e3d28274f48ebf3",
+    "renders/revision-0/production/run-N6D4Zs/pass-2/close/side.png": "97121f5b14e5b34b7ce898af91033ffe2f30d05d81f16dd15139a752a67e8276",
+    "renders/revision-0/production/run-N6D4Zs/pass-2/close/reverse.png": "13ce55985d4c57c5d0a523f87a39e8bf7a1ee28f953f9945fc9eda566b0a52e6",
+    "checkpoints/revision-0.blend": "94336b363ff6d15073eeab7448e31dfe8098242ec04e2fed94ea02c4fae4ad8d",
+    "checkpoints/reviewed-runtime.glb": "cc0a99144f3e4a07715b6adb64e5653cd72dc52868f8979334b8dbc246245b69"
+  },
+  "extensions": {
+    "com.formseed3d.external-static-source.v1": {
+      "checkpointSha256": "94336b363ff6d15073eeab7448e31dfe8098242ec04e2fed94ea02c4fae4ad8d",
+      "provenanceUri": "https://github.com/GeorgeQLe/formseed-game-assets/issues/95",
+      "runtime": {
+        "sha256": "cc0a99144f3e4a07715b6adb64e5653cd72dc52868f8979334b8dbc246245b69",
+        "lodCeilings": {
+          "lod0": 300,
+          "lod1": 150,
+          "lod2": 60
+        }
+      }
+    },
+    "com.formseed3d.external-runtime.v1": {
+      "sha256": "cc0a99144f3e4a07715b6adb64e5653cd72dc52868f8979334b8dbc246245b69",
+      "lodTriangles": {
+        "lod0": 88,
+        "lod1": 76,
+        "lod2": 60
+      },
+      "counts": {
+        "triangles": 224,
+        "materials": 3,
+        "objects": 6,
+        "textures": 1
+      }
+    }
+  }
+}

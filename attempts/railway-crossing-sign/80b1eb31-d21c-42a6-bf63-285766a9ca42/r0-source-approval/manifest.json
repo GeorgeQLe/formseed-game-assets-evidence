@@ -1,0 +1,118 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "railway-crossing-sign",
+  "project": "omega-war",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "80b1eb31-d21c-42a6-bf63-285766a9ca42",
+    "revision": 0,
+    "checkpointSha256": "042d2df0c5fb4306aa161b005ea1cb65d777dac7208a0f2914588e05a00d5d8a"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "81ccf110129f26f2a0e75f32fdef91782dbca805a71befa044334adbf8cc6515",
+    "files": [
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "1cc5a485f337831a4bbc3b1f816ed21dacc3cbeffb4b7ecda1c5f4e742830951",
+        "bytes": 3664
+      },
+      {
+        "path": "source/approved.blend",
+        "sha256": "042d2df0c5fb4306aa161b005ea1cb65d777dac7208a0f2914588e05a00d5d8a",
+        "bytes": 559364
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "260cc26dcdb3cd6b6a965a65c7995fd77aaae235c53523dc41ba28fec90529b4",
+        "bytes": 59640
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "028fc8240f7f51851cc1edf97f4feb261bc7edba19445a10d0ff39d1c7ea5c71",
+        "bytes": 363601
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "37c1b1b7dce6627d6210c95d306dc502328701b9aa4d80a4739b54506e5f9268",
+        "bytes": 608
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "ab79e7eca9a088b27688463291d301c627e7ddfe1fccf11149bf3862daf44717",
+        "bytes": 293
+      },
+      {
+        "path": "review/native-front.png",
+        "sha256": "028fc8240f7f51851cc1edf97f4feb261bc7edba19445a10d0ff39d1c7ea5c71",
+        "bytes": 363601
+      },
+      {
+        "path": "review/native-side.png",
+        "sha256": "fd5f89e6eb5a9414a37192bdc6c0aba944851719dc56671dc7fba610c7d12b05",
+        "bytes": 335007
+      },
+      {
+        "path": "review/native-reverse.png",
+        "sha256": "736a881acdf5d1e6d4c988a9d4440ef19fcc7a2fa54adf55a49a7c37addd0b18",
+        "bytes": 337835
+      },
+      {
+        "path": "review/r3-front.png",
+        "sha256": "04237feee1a1396611b12b1f53b138488746c79d33da6ebc5faa1102a38d3243",
+        "bytes": 816945
+      },
+      {
+        "path": "review/r3-edge.png",
+        "sha256": "998406e865943dda17c50f0061889716708a9d04bf61b67a074598e888ba6f45",
+        "bytes": 829693
+      },
+      {
+        "path": "review/r3-back.png",
+        "sha256": "81a859c6e52187c291ccfa8d750d8499e63673f096e0842e850a30ac817f4a16",
+        "bytes": 838043
+      },
+      {
+        "path": "review/r3-detail.png",
+        "sha256": "cc681607356e8c23734a647656a36fcbcffd0b9982480442b6f8735924979832",
+        "bytes": 841850
+      },
+      {
+        "path": "source/us-crossbuck.lod0.glb",
+        "sha256": "77d370f73e9ff3c3692b982e7ffe579d2c93134d87030908b85e5f97e6f4cd76",
+        "bytes": 48608
+      },
+      {
+        "path": "source/us-crossbuck.lod1.glb",
+        "sha256": "05101d490b7dd711e6a296a63cefea19975cd74f733ca2f943d1a34a81100799",
+        "bytes": 42616
+      },
+      {
+        "path": "source/us-crossbuck.lod2.glb",
+        "sha256": "2bb3410fb1f0a50a94296ed333f5c3dd1dfc4e1ff843c2605cc18e576e53677b",
+        "bytes": 40748
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-25T03:08:33.055Z"
+  },
+  "notes": [
+    "Dated primary evidence: https://upload.wikimedia.org/wikipedia/commons/4/4c/Manual_on_Uniform_Traffic_Control_Devices_for_Streets_and_Highways%2C_1935_Edition.pdf#page=139",
+    "Embedded three-LOD geometry. Select exactly one of lod0, lod1, and lod2 when displaying the selector GLB.",
+    "Third-party source images are linked in FormSeed issue #95 and excluded from this archive."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

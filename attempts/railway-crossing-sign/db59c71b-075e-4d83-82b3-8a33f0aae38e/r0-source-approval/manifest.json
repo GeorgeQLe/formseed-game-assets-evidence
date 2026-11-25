@@ -1,0 +1,113 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "railway-crossing-sign",
+  "project": "omega-war",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "db59c71b-075e-4d83-82b3-8a33f0aae38e",
+    "revision": 0,
+    "checkpointSha256": "39d248856343569d941633bf640081f47cbc7cb3900aa39f24f6f0e14f0ac694"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "b032cfe71ac8e01dc648b0cf181d24cdccf2550d94322884d568bcd12855c546",
+    "files": [
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "80589076199bb47872a43e22d6c96c3e62f8cbb4ce168ee6e9b6f5daff33b73c",
+        "bytes": 3672
+      },
+      {
+        "path": "source/approved.blend",
+        "sha256": "39d248856343569d941633bf640081f47cbc7cb3900aa39f24f6f0e14f0ac694",
+        "bytes": 495512
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "87ab4888e57206f53e23a4aa9e7d7d936c5c7b9122352a002d91761da8989564",
+        "bytes": 32292
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "a118781b49397a966b89b30366bee5da2353fa97292a8f437e2632bd370d2a59",
+        "bytes": 419342
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "7b79b72edee6389411d9a4c72688def38b78fb9fb8e1abef7e3c462d17f55087",
+        "bytes": 608
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "044d61e0621a6f78609ddab98435a9d94b7c7a02cb3e355cbde40d35bc722fc0",
+        "bytes": 293
+      },
+      {
+        "path": "review/native-front.png",
+        "sha256": "a118781b49397a966b89b30366bee5da2353fa97292a8f437e2632bd370d2a59",
+        "bytes": 419342
+      },
+      {
+        "path": "review/native-side.png",
+        "sha256": "08e2882110b7cde378023d3ad698c9768b1821448ac57ae6a4da8ac4ccf03dde",
+        "bytes": 333239
+      },
+      {
+        "path": "review/native-reverse.png",
+        "sha256": "5257b44462f6df958d2f2309815ca225a1ac9881200ff736561d6ea0f5a631dd",
+        "bytes": 366816
+      },
+      {
+        "path": "review/r3-front.png",
+        "sha256": "9ff95551f81943af71800485318f65ee5cba38da7552376a3a3f1a70270b0e46",
+        "bytes": 796569
+      },
+      {
+        "path": "review/r3-edge.png",
+        "sha256": "0b277991df8f2a4345b4e351a6d7df6b519ff37281a23d596bcd975e3e0d9b99",
+        "bytes": 818752
+      },
+      {
+        "path": "review/r3-back.png",
+        "sha256": "7f6e18fdb7dabda4a6ecdaebf89b80292c9a5c309b8846dff20337125bd51cbf",
+        "bytes": 850378
+      },
+      {
+        "path": "source/us-three-tracks.lod0.glb",
+        "sha256": "6681d43fe5857b1b62955894bcbdd479133020ed89966fe18a8e1fa3503de417",
+        "bytes": 20904
+      },
+      {
+        "path": "source/us-three-tracks.lod1.glb",
+        "sha256": "c8b4ab5944778ab6298be78d0addb7fdfa74b0297013dfce4dda277239059e0c",
+        "bytes": 17444
+      },
+      {
+        "path": "source/us-three-tracks.lod2.glb",
+        "sha256": "5a6f2088754deb107c0df0e77d830ad1ba0bf208ae29eaf04d25b59ca4b98056",
+        "bytes": 15708
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-25T03:08:39.519Z"
+  },
+  "notes": [
+    "Dated primary evidence: https://upload.wikimedia.org/wikipedia/commons/4/4c/Manual_on_Uniform_Traffic_Control_Devices_for_Streets_and_Highways%2C_1935_Edition.pdf#page=139",
+    "Embedded three-LOD geometry. Select exactly one of lod0, lod1, and lod2 when displaying the selector GLB.",
+    "Third-party source images are linked in FormSeed issue #95 and excluded from this archive."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

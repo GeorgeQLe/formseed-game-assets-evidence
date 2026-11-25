@@ -1,0 +1,118 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "railway-crossing-sign",
+  "project": "omega-war",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "8ca7fb49-61a5-4cbd-bab4-c3329e13ddf7",
+    "revision": 0,
+    "checkpointSha256": "05355377a2d79fa8ea2eabdecea3d41bfeda84f479244a5222fd6e4eefe1c855"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "fc7e4652911c5169a8b75591acb00e69c72aa55273624848de6d828fb8b563e7",
+    "files": [
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "ca173fae6013183acf9e29a3d06eeb727ec44904adbd8c37a9af1252de412dc3",
+        "bytes": 3680
+      },
+      {
+        "path": "source/approved.blend",
+        "sha256": "05355377a2d79fa8ea2eabdecea3d41bfeda84f479244a5222fd6e4eefe1c855",
+        "bytes": 527949
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "dc25814ec13904b1371dbc45d7ca387d0eb68e69b9e3ff0af07b1910a32988b4",
+        "bytes": 25932
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "a72ff3b0594339d54ca380cf5b237786530c4b6afad6cb66df82a54b69775f62",
+        "bytes": 373807
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "e6f83ac38c438b21cef80a989c070adae27cf92381856ced3ce11e042184f52e",
+        "bytes": 608
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "8b64c3fef26385cffdbb9f144ccdfa637e4407f742109a3513d608a2978436d2",
+        "bytes": 293
+      },
+      {
+        "path": "review/native-front.png",
+        "sha256": "a72ff3b0594339d54ca380cf5b237786530c4b6afad6cb66df82a54b69775f62",
+        "bytes": 373807
+      },
+      {
+        "path": "review/native-side.png",
+        "sha256": "7490d83556f355c96a001ab6e5f107607bf495ad8745891683332653bfdbc652",
+        "bytes": 348606
+      },
+      {
+        "path": "review/native-reverse.png",
+        "sha256": "d442001c0833f77f8cdd783a5e25f3c9766515a63c7f57ec0fc8b8aa7f78c4fd",
+        "bytes": 367141
+      },
+      {
+        "path": "review/r3-front.png",
+        "sha256": "295937f80fb70bf5991fd8ff1c33510cc2f00e05ccd6864fb410ea61cb74bc53",
+        "bytes": 793812
+      },
+      {
+        "path": "review/r3-edge.png",
+        "sha256": "261c04a4cdae83348f9f2b77078b3486bbea96521d25dfa61fc2407c3319be1b",
+        "bytes": 831227
+      },
+      {
+        "path": "review/r3-back.png",
+        "sha256": "9223a5fcbd30a099b676f13523c9b06e626af48a3013262c0242d1e3f39afe79",
+        "bytes": 829397
+      },
+      {
+        "path": "review/r3-detail.png",
+        "sha256": "3192252036b17992040a5b91fa4ecc77469bdc9c836cd6f76c84a2660266642e",
+        "bytes": 803152
+      },
+      {
+        "path": "source/de-countdown-1-right.lod0.glb",
+        "sha256": "920bdd4277a2ee9cba46ca584ddf922d4b4aa9b9b8dd624d8c086a5dcfae6057",
+        "bytes": 15300
+      },
+      {
+        "path": "source/de-countdown-1-right.lod1.glb",
+        "sha256": "e7959053d0af333e885dc39fdd9ca1d612f1fa796b8dd7c6dddfe3e6eb3f20bd",
+        "bytes": 15300
+      },
+      {
+        "path": "source/de-countdown-1-right.lod2.glb",
+        "sha256": "04d195059fc3f5fbb824e82f00c9f68b1c07fbde0c966ac6b6aee66f7bf33966",
+        "bytes": 13444
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-25T03:07:49.046Z"
+  },
+  "notes": [
+    "Dated primary evidence: https://commons.wikimedia.org/wiki/File:Deutsches_Reichsgesetzblatt_37T1_123_1200.jpg",
+    "Embedded three-LOD geometry. Select exactly one of lod0, lod1, and lod2 when displaying the selector GLB.",
+    "Third-party source images are linked in FormSeed issue #95 and excluded from this archive."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

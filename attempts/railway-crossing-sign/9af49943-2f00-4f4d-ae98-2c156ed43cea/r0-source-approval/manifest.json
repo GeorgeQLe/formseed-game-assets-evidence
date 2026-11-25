@@ -1,0 +1,118 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "railway-crossing-sign",
+  "project": "omega-war",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "9af49943-2f00-4f4d-ae98-2c156ed43cea",
+    "revision": 0,
+    "checkpointSha256": "893497eaf991adb15b19bf4f99e46bb2fed6f2121ab54d1e1390fe077e9dc6b9"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "40d2e6e1ddc0a47a7d6a6cbc3fd4ae298dc13a53bfa4ab92d1c712c05a55adbd",
+    "files": [
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "a2535eb6822e0224382b5d260318e6b6d7791050fc9d82dae8a9b737dfb675d9",
+        "bytes": 3685
+      },
+      {
+        "path": "source/approved.blend",
+        "sha256": "893497eaf991adb15b19bf4f99e46bb2fed6f2121ab54d1e1390fe077e9dc6b9",
+        "bytes": 553473
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "e54b7577b0b133f03c426506dfa662a960cb673a95f0f99625213d09c0e69602",
+        "bytes": 48832
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "0c2ed2c53c848ef45cdcc442f6fd28e84d747216b079e78e9a9fc17ff939c009",
+        "bytes": 379296
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "1b84f939f3ee41d1adffe62ca2bd0805d9e17572236de524da56b68f060de0d9",
+        "bytes": 608
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "224974f1285ff2b17daa946a9f93113fbe6db14f893d32e970fec2035a3b1e24",
+        "bytes": 293
+      },
+      {
+        "path": "review/native-front.png",
+        "sha256": "0c2ed2c53c848ef45cdcc442f6fd28e84d747216b079e78e9a9fc17ff939c009",
+        "bytes": 379296
+      },
+      {
+        "path": "review/native-side.png",
+        "sha256": "d14c29cbea1abb339c9fc998e450d9890980f7ec988099758ed59164999a34d2",
+        "bytes": 346045
+      },
+      {
+        "path": "review/native-reverse.png",
+        "sha256": "bb3b1d8f5f534924f2c3c3f9764200654a1c3b90572ffaeb43c79fd651ab2a9d",
+        "bytes": 362150
+      },
+      {
+        "path": "review/r3-front.png",
+        "sha256": "50084bbef052ffe148d1d9152ce1fc00bc032dc014c791b9cdb6c6f40f7bf33a",
+        "bytes": 825649
+      },
+      {
+        "path": "review/r3-edge.png",
+        "sha256": "d6a3486c0af98e5a96641641aaaaaa270e328ef6083b18d591f05bcf1484d9b0",
+        "bytes": 842694
+      },
+      {
+        "path": "review/r3-back.png",
+        "sha256": "40dfb02e2c54ce043c11865dafc2b191abfc45a0416712345ff324df4929a979",
+        "bytes": 858462
+      },
+      {
+        "path": "review/r3-detail.png",
+        "sha256": "fee9f413f9e6f8719d422045632f8b61efe9130e9e6b0719feb4e77df48f53c9",
+        "bytes": 821882
+      },
+      {
+        "path": "source/de-stack-ungated-right.lod0.glb",
+        "sha256": "bd1bae7ea7f2de3c4ca0506693a06041bf7c7c6c44943e81f5ba14ab158828ed",
+        "bytes": 33012
+      },
+      {
+        "path": "source/de-stack-ungated-right.lod1.glb",
+        "sha256": "62997042532dce8324ff4afff159abad6e139f6f408653e30b3971c60a5194f1",
+        "bytes": 31524
+      },
+      {
+        "path": "source/de-stack-ungated-right.lod2.glb",
+        "sha256": "499028ff417d72022fbc9e63e8f0d6c424f49e17c4542df9ad07e3db921421d4",
+        "bytes": 21232
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-25T03:08:15.821Z"
+  },
+  "notes": [
+    "Dated primary evidence: https://commons.wikimedia.org/wiki/File:Deutsches_Reichsgesetzblatt_37T1_123_1200.jpg",
+    "Embedded three-LOD geometry. Select exactly one of lod0, lod1, and lod2 when displaying the selector GLB.",
+    "Third-party source images are linked in FormSeed issue #95 and excluded from this archive."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

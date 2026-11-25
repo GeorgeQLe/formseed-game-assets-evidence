@@ -1,0 +1,118 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "railway-crossing-sign",
+  "project": "omega-war",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "66ad3308-bf98-439f-95a8-355465e81d3a",
+    "revision": 0,
+    "checkpointSha256": "db9e442c84db79f8ff28222bcd3028757e5d4ef911d10cc7ca83d2d7a8541e4c"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "b3283364a8cb5e5cc2124c10c315223b5105e0ba5fd7d2a05daf9cdc3edeae8d",
+    "files": [
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "b0d6218b259fd9c0d4bdddaa589d486ad4152639d4a9f4a8f96770069fc79de6",
+        "bytes": 3662
+      },
+      {
+        "path": "source/approved.blend",
+        "sha256": "db9e442c84db79f8ff28222bcd3028757e5d4ef911d10cc7ca83d2d7a8541e4c",
+        "bytes": 552962
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "a78b14980ade943beb51e0af4ebe34f6c9f04b18db52cee8bb0eca8332504844",
+        "bytes": 54164
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "174b0331422a92d93a80e75e07a15ded562faf7cbe886074af8c2b9e8c691a02",
+        "bytes": 352646
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "cf60bc7a476b73e9ebffb9c389bd408819656c0c995ad50e7a00c23a4dfe9b21",
+        "bytes": 608
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "c9a1b0edbc25b3c2d0af540a79a15503aec94a56c9be4df1de2edc58927e7ce5",
+        "bytes": 293
+      },
+      {
+        "path": "review/native-front.png",
+        "sha256": "174b0331422a92d93a80e75e07a15ded562faf7cbe886074af8c2b9e8c691a02",
+        "bytes": 352646
+      },
+      {
+        "path": "review/native-side.png",
+        "sha256": "06d57c5d488ba8bdab72d405cb749fbdb29c21eb4a4288b97ce48e47136d6c55",
+        "bytes": 338473
+      },
+      {
+        "path": "review/native-reverse.png",
+        "sha256": "023ff7e1eb68dbd89233fa888e0a8891d48ef9eb9f26f76d23186281d91033b8",
+        "bytes": 347884
+      },
+      {
+        "path": "review/r3-front.png",
+        "sha256": "3df1932be4c5ba1e2cc67dd371c59ad2e948cbc23456f6a99a9966b3fd6de12d",
+        "bytes": 805721
+      },
+      {
+        "path": "review/r3-edge.png",
+        "sha256": "a9ed2b53eeb91e5c094f73e7384e7e2cf0bc0d61618a742178d84aed74530e4e",
+        "bytes": 832011
+      },
+      {
+        "path": "review/r3-back.png",
+        "sha256": "7b52e968aa49e9cb4f4dc9b71bcb4ee68a087552f8bbcc09b725031ccc5bd84c",
+        "bytes": 827884
+      },
+      {
+        "path": "review/r3-detail.png",
+        "sha256": "cf9b562de3a8d9f5be20bd00d6fc1d75cd52ef2b5808e63bb81d2cf9344def5e",
+        "bytes": 784539
+      },
+      {
+        "path": "source/uk-ungated.lod0.glb",
+        "sha256": "ccc483b64137e5fdfae7be103a074b8d370aee352c817fcd8d545405599881b4",
+        "bytes": 37476
+      },
+      {
+        "path": "source/uk-ungated.lod1.glb",
+        "sha256": "446d677f88447c9a5903e040743c10c913d80e453ec89de72a16c043948c2a46",
+        "bytes": 36612
+      },
+      {
+        "path": "source/uk-ungated.lod2.glb",
+        "sha256": "3606a1efc0879dbd4aecba93c92834c078d24888afc55bb742104782d3fefc4a",
+        "bytes": 32576
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-25T03:08:28.732Z"
+  },
+  "notes": [
+    "Dated primary evidence: https://radar.gsa.ac.uk/5559/1/10%20Crossing%20No%20Gates%20-%20Illust.pdf#page=10",
+    "Embedded three-LOD geometry. Select exactly one of lod0, lod1, and lod2 when displaying the selector GLB.",
+    "Third-party source images are linked in FormSeed issue #95 and excluded from this archive."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

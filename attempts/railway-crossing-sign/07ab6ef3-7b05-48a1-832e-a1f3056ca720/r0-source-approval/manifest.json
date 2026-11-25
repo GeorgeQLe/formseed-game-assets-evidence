@@ -1,0 +1,118 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "railway-crossing-sign",
+  "project": "omega-war",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "07ab6ef3-7b05-48a1-832e-a1f3056ca720",
+    "revision": 0,
+    "checkpointSha256": "a3d95adad4e757b8c9fffdcef38d6dca632fca3d33bc14f3bc76e053cdf7836c"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "dac2d99ce7cd7144c720699e12bb8ba15663c6a637d3ec49ecf83aeef83a791b",
+    "files": [
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "7635a12aa20815fdac4a060ea4da1ffa16925c559a94b4837ef91ea0b9676730",
+        "bytes": 3675
+      },
+      {
+        "path": "source/approved.blend",
+        "sha256": "a3d95adad4e757b8c9fffdcef38d6dca632fca3d33bc14f3bc76e053cdf7836c",
+        "bytes": 502378
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "5eab4cee05a8597e4ba8700c44f3eaed9a1dbde288e55f1842db4078f14a705d",
+        "bytes": 28936
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "4088263ec5af3c97e13bcc5b4132490350af302eaae77deee564f3d1b864c251",
+        "bytes": 358645
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "5f21c1cdc0a939a60ac9cbd3b2a2be6d55fb11426422409606f4872b1c941edd",
+        "bytes": 608
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "f40bc129600cb9cf997230f0cfc63393c5b2a81aa1c31447ea1930192b60df32",
+        "bytes": 293
+      },
+      {
+        "path": "review/native-front.png",
+        "sha256": "4088263ec5af3c97e13bcc5b4132490350af302eaae77deee564f3d1b864c251",
+        "bytes": 358645
+      },
+      {
+        "path": "review/native-side.png",
+        "sha256": "cdcd3d6db8654530d9bdc755dbb848e8b4f2e67235d1ec2f8a2b9738e8ff1d6e",
+        "bytes": 342663
+      },
+      {
+        "path": "review/native-reverse.png",
+        "sha256": "493e11b1bc6f0a5cd438cdf71a459d61dafeaea65ab215f3251eed5c2c3dd290",
+        "bytes": 351725
+      },
+      {
+        "path": "review/r3-front.png",
+        "sha256": "d1174d035a9784abc2987617051cae173be311f6ac7048400eb5163f1bd7b502",
+        "bytes": 797125
+      },
+      {
+        "path": "review/r3-edge.png",
+        "sha256": "521b792565162ca5aabe9a6d66bbb0755877e9b0ba5baad598c84108dc8a25ee",
+        "bytes": 829368
+      },
+      {
+        "path": "review/r3-back.png",
+        "sha256": "7381503428304b907659b4ecd3f84e7962df96a8d0de7db606f2c18171661241",
+        "bytes": 826645
+      },
+      {
+        "path": "review/r3-detail.png",
+        "sha256": "0f209f11aff21b422b7e09c124b6cb6839c00f0533b105250dedb94471477dea",
+        "bytes": 791367
+      },
+      {
+        "path": "source/de-advance-ungated.lod0.glb",
+        "sha256": "abbeff7469e005fbefad2c7721b4a06f70617e0995e464188bc92cf88c921c20",
+        "bytes": 19196
+      },
+      {
+        "path": "source/de-advance-ungated.lod1.glb",
+        "sha256": "bf96a91a427a72b780c134f0239d59a2f3d9121ac37da80c045eae541eb2743a",
+        "bytes": 17096
+      },
+      {
+        "path": "source/de-advance-ungated.lod2.glb",
+        "sha256": "a2dacbd85eb8a4ce4a513583541d11ba67a3dd755c15c1cb8b2466319e05d463",
+        "bytes": 14580
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-25T03:07:41.987Z"
+  },
+  "notes": [
+    "Dated primary evidence: https://www.blocksignal.de/index.php?w=s7a",
+    "Embedded three-LOD geometry. Select exactly one of lod0, lod1, and lod2 when displaying the selector GLB.",
+    "Third-party source images are linked in FormSeed issue #95 and excluded from this archive."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}

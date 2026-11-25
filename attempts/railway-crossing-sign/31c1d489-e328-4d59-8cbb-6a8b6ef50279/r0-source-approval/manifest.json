@@ -1,0 +1,118 @@
+{
+  "recordType": "attempt-record",
+  "schemaVersion": "1.0.0",
+  "license": "CC0-1.0",
+  "assetId": "railway-crossing-sign",
+  "project": "omega-war",
+  "producer": {
+    "kind": "formseed3d"
+  },
+  "job": {
+    "jobId": "31c1d489-e328-4d59-8cbb-6a8b6ef50279",
+    "revision": 0,
+    "checkpointSha256": "9f070f64680fc1af6274e8f77b4b70d67c3b829091698f96fb26923795ae5f9a"
+  },
+  "gate": "source-approval",
+  "evidence": {
+    "renderHash": "ae1aa8ed0333db8571f849f41938efe15cf7a9001cd2d9ea38de02c206400e65",
+    "files": [
+      {
+        "path": "production/formseed3d-asset.json",
+        "sha256": "48b8b0064c5036846816241daebedc5ab0ccb0eb2b6a7146cbceeb0feeb0bf64",
+        "bytes": 3658
+      },
+      {
+        "path": "source/approved.blend",
+        "sha256": "9f070f64680fc1af6274e8f77b4b70d67c3b829091698f96fb26923795ae5f9a",
+        "bytes": 547917
+      },
+      {
+        "path": "source/review.glb",
+        "sha256": "75eef0fbf7fbdd63f9dc389064b3ab2dfa61630f55d0ef3070a307a2e16c67a7",
+        "bytes": 49112
+      },
+      {
+        "path": "review/confirmed.png",
+        "sha256": "0e677208f874a262755a1468f8cfddbc0d5155fdc23bfeb995306f4f7a571321",
+        "bytes": 351723
+      },
+      {
+        "path": "approval/human-source-approval.json",
+        "sha256": "29f8d0d5784f5a08518848892a52be886c2792def8e334bf62bc9d8751c5aac4",
+        "bytes": 608
+      },
+      {
+        "path": "approval/source-completion.json",
+        "sha256": "747d6c2a5d4cc23be69594fd00fd6e6a3b01bc55eeaac0db2eed541fa989f8f9",
+        "bytes": 293
+      },
+      {
+        "path": "review/native-front.png",
+        "sha256": "0e677208f874a262755a1468f8cfddbc0d5155fdc23bfeb995306f4f7a571321",
+        "bytes": 351723
+      },
+      {
+        "path": "review/native-side.png",
+        "sha256": "79244a126af70cefd9c73d67c37813e085f5e38b05d4425b226f128a7d22c88a",
+        "bytes": 338473
+      },
+      {
+        "path": "review/native-reverse.png",
+        "sha256": "7f71cb0f328e28e86184230af0ac44723ecb1938f310422f0aa6a2988ed3b2c8",
+        "bytes": 347884
+      },
+      {
+        "path": "review/r3-front.png",
+        "sha256": "c1586865dc82ee81fb0b7b125347ae7a740641b906bf58b0681cd99a50d3ffb1",
+        "bytes": 804972
+      },
+      {
+        "path": "review/r3-edge.png",
+        "sha256": "24a602009f54fbe484277327a6db2bd56cc65276c7b5d1ab1e615f8dcfaca1f4",
+        "bytes": 831948
+      },
+      {
+        "path": "review/r3-back.png",
+        "sha256": "c1b738dc7c891a97da02fe6bcbeb3f5a78e93db3eedfa81a6b6cda53818df952",
+        "bytes": 828445
+      },
+      {
+        "path": "review/r3-detail.png",
+        "sha256": "2a1c9fec0703f3cf07cb690a063724018900c8795c3c2bb75c8d9b750718a00c",
+        "bytes": 780134
+      },
+      {
+        "path": "source/uk-gated.lod0.glb",
+        "sha256": "46af23898532ec5a228138fea1f82b2d751074f5f7fb749ad8b6436121ccc1ec",
+        "bytes": 32428
+      },
+      {
+        "path": "source/uk-gated.lod1.glb",
+        "sha256": "485a263a7129cf75bb5a632f9abbb2954e70599e780cfcd16391e34f43648bae",
+        "bytes": 31564
+      },
+      {
+        "path": "source/uk-gated.lod2.glb",
+        "sha256": "41ba48b9e6219bb20c565d08c56b76ac3266029efb87e8aeaf18185de7d30c6a",
+        "bytes": 27528
+      }
+    ]
+  },
+  "inputs": {
+    "references": []
+  },
+  "outcome": {
+    "status": "approved",
+    "approvedBy": "George Le",
+    "decidedAt": "2026-11-25T03:08:25.432Z"
+  },
+  "notes": [
+    "Dated primary evidence: https://en.wikisource.org/wiki/Report_of_the_Departmental_Committee_on_Traffic_Signs",
+    "Embedded three-LOD geometry. Select exactly one of lod0, lod1, and lod2 when displaying the selector GLB.",
+    "Third-party source images are linked in FormSeed issue #95 and excluded from this archive."
+  ],
+  "authority": {
+    "approvalGranted": false,
+    "notice": "An attempt record archives review evidence. It never grants or implies human, source, production, promotion, integration, or game-readiness approval."
+  }
+}
